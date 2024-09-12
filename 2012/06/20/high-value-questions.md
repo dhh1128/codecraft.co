@@ -6,7 +6,7 @@ slug: high-value-questions
 
 <a href="http://www.perfectsearchcorp.com">Perfect Search</a> (where I used to work) makes a search engine that performs/scales orders of magnitude better than competitors like Solr/Lucene with hadoop, FAST, Autonomy, and Google Search Appliances. This makes them a best-of-breed tool for many big data problems. They can do on one box what it would take competitors an entire rack of hardware to pull off. And usually that one box still runs an order of magnitude faster.
 
-[caption id="attachment_369" align="aligncenter" width="500"]<a href="http://codecraft.co/wp-content/uploads/2012/09/6637427465_2fb4695630.jpg"><img class="size-full wp-image-369" alt="semantic network for "big data"" src="http://codecraft.co/wp-content/uploads/2012/09/6637427465_2fb4695630.jpg" width="500" height="500" /></a> photo credit: metaroll (Flickr)[/caption]
+[caption id="attachment_369" align="aligncenter" width="500"]<a href="../../../wp-content/uploads/2012/09/6637427465_2fb4695630.jpg"><img class="size-full wp-image-369" alt="semantic network for "big data"" src="http://codecraft.co/wp-content/uploads/2012/09/6637427465_2fb4695630.jpg" width="500" height="500" /></a> photo credit: metaroll (Flickr)[/caption]
 
 Despite the compelling value, sales have ramped more slowly than Perfect Search would like (ain't it always the case...). Some reasons have to do with marketing, but I've recently had another insight that feels compelling to me.
 

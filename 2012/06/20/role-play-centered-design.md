@@ -31,7 +31,7 @@ Let me justify each of these ideas, and then I'll give an example of an RPCD pro
 <p style="padding-left:30px;">Modeling the system in role plays also has some other profound long-term advantages that go far beyond just what you learn. I'll discuss these in a different post.</p>
 In my <a href="/2012/06/21/example-rpcd-interaction/">next post</a>, I'll give an example about how RPCD works.
 <p style="padding-left:30px;"><strong><span style="color:#000080;">Action Item</span></strong></p>
-<p style="padding-left:30px;"><em><span style="color:#000080;">List all the people that interact with or help create your software. If your list has less than four or five unique roles, think some more. Hint: see <a title="Users Aren’t The Only People In Your Software" href="http://codecraft.co/2012/09/04/users-arent-the-only-people-in-your-software/"><span style="color:#000080;">this post</span></a>.</span></em></p>
+<p style="padding-left:30px;"><em><span style="color:#000080;">List all the people that interact with or help create your software. If your list has less than four or five unique roles, think some more. Hint: see <a title="Users Aren’t The Only People In Your Software" href="../../../2012/09/04/users-arent-the-only-people-in-your-software/"><span style="color:#000080;">this post</span></a>.</span></em></p>
 
 ---
 

@@ -30,13 +30,13 @@ If a "good function" also respects the cognitive complexity constraints of the h
 
 I suppose that this argument is weakened by the features of some IDEs, which collapse tangential code blocks, display treeviews of functions, and support lots of hypertext-style navigation. But not all programmers use the same IDEs, and not all interactions with code are IDE-driven; file size remains relevant. There's a reason why C# created <a class="zem_slink" title="Class (computer programming)" href="http://en.wikipedia.org/wiki/Class_%28computer_programming%29" target="_blank" rel="wikipedia">partial classes</a> to improve on java's lump-it-all-in-a-single-file constraint...
 
-When humans try to remember more than their brains can fit, stuff falls out. Big files mean that coders have to <a title="Why Mental Models Matter" href="http://codecraft.co/2012/11/05/why-mental-models-matter/" target="_blank">mentally model</a> relationships between stuff that's separated by way too much screen real estate. This is a recipe for bugs. It is also a serious impediment to learnability.
+When humans try to remember more than their brains can fit, stuff falls out. Big files mean that coders have to <a title="Why Mental Models Matter" href="../../../2012/11/05/why-mental-models-matter/" target="_blank">mentally model</a> relationships between stuff that's separated by way too much screen real estate. This is a recipe for bugs. It is also a serious impediment to learnability.
 
 <strong>Loose coupling and encapsulation</strong>
 
 Files are a natural unit of coupling. In most programming languages, you can declare a construct (a variable, an internal function, or class) within a file, and have that construct be invisible to the outside world. This means there is a built-in temptation for functions and classes to bind more tightly when they're in the same file, because they have access to common but private knowledge. By breaking large files apart, you remove the temptation, break unnecessary dependencies, and promote looser coupling.
 
-Another way to say this is that file boundaries are an encapsulation barrier. Use them to hide data. (See my recent post about <a title="encapsulate to simplify" href="http://codecraft.co/2013/03/12/6-strategies-to-simplify-software/" target="_blank">encapsulation as a simplicity strategy</a>.)
+Another way to say this is that file boundaries are an encapsulation barrier. Use them to hide data. (See my recent post about <a title="encapsulate to simplify" href="../../../2013/03/12/6-strategies-to-simplify-software/" target="_blank">encapsulation as a simplicity strategy</a>.)
 
 <strong>Code reuse and testability</strong>
 
@@ -52,7 +52,7 @@ I suppose you could argue that by making lots of small files, you're <em>creatin
 
 My comeback is: use packages or subdirectories or libraries (another level of management). You can't subdivide forever, but you don't need to.
 
-The bottom line for me is experiential, not theoretical. I nearly always have cruddy experiences in code bases where large files are common. Small files don't guarantee pleasant and productive work, but big ones seem to go hand-in-hand with other problems. I find it telling that codebases with big files are also codebases where people lament the <a title="// Comments on Comments" href="http://codecraft.co/2012/10/31/comments-on-comments/" target="_blank">lack of comments</a> the most, for example. Over the years, I've become convinced that a simple rule of thumb about keeping files small will pay off more handsomely than almost any other coding best practice.
+The bottom line for me is experiential, not theoretical. I nearly always have cruddy experiences in code bases where large files are common. Small files don't guarantee pleasant and productive work, but big ones seem to go hand-in-hand with other problems. I find it telling that codebases with big files are also codebases where people lament the <a title="// Comments on Comments" href="../../../2012/10/31/comments-on-comments/" target="_blank">lack of comments</a> the most, for example. Over the years, I've become convinced that a simple rule of thumb about keeping files small will pay off more handsomely than almost any other coding best practice.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Leave a comment to tell me what you think. Am I making a mountain out of a molehill? Or do you feel strongly about small file sizes as well? Have I omitted any important pros and cons from the discussion?</span></em></p>
 

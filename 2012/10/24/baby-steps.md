@@ -30,7 +30,7 @@ In each of these cases, it may be smarter to start taking baby steps now, rather
 
 If you want to vett your requirements, and you don't have a pool of customers to survey, then perhaps it would be smarter to do something quick and dirty and use it to test the waters, rather than designing an elegant and comprehensive solution. I have seen companies fail to take baby steps in this scenario on many occasions, and the usual result is a huge waste of time and energy. We simply guess wrong too often, when the scope or range of our guess is overly ambitious.
 
-If you wonder whether design A or design B will be appropriate, then again, perhaps you should start implementing as an experiment. I never cease to be amazed at how quickly designs develop a smell (if they're bad) or a luster (if they're good) once you start using them. If you worry that it would be too expensive to code up two alternate solutions, consider using <a title="Role-Play Centered Design" href="http://codecraft.co/2012/06/20/role-play-centered-design/">role-play centered design</a> to let humans substitute for key modules with almost zero overhead.
+If you wonder whether design A or design B will be appropriate, then again, perhaps you should start implementing as an experiment. I never cease to be amazed at how quickly designs develop a smell (if they're bad) or a luster (if they're good) once you start using them. If you worry that it would be too expensive to code up two alternate solutions, consider using <a title="Role-Play Centered Design" href="../../../2012/06/20/role-play-centered-design/">role-play centered design</a> to let humans substitute for key modules with almost zero overhead.
 
 If the entire team is already headed north, and your design just draws a northerly vector on a map, then maybe a careful, formal design isn't worth the effort. Teams that push for more thoughtful up-front planning often make the mistake of requiring the same design artifacts for all plan inputs. This generates useless busy work for a portion of the features on the docket.
 
@@ -51,7 +51,7 @@ Sometimes, your design might not be paralyzed at all--sometimes you're coming up
 
 I'm claiming that if your design takes you too far into the future, no matter how good it is and how much momentum you feel, you might be better off taking baby steps on your implementation instead. I'm making this claim based on the observation that it's easy to overbuild, and it's easy to make mistakes by extrapolating too far into the future.
 
-You might also think that baby steps are a repeat of my advice to <a title="Don Kleinschnitz: Put a stake in the ground." href="http://codecraft.co/2012/09/14/don-kleinschnitz-stake/">put a stake in the ground.</a>
+You might also think that baby steps are a repeat of my advice to <a title="Don Kleinschnitz: Put a stake in the ground." href="../../../2012/09/14/don-kleinschnitz-stake/">put a stake in the ground.</a>
 
 Again, there's overlap, but the ideas aren't quite the same. Putting a stake in the ground is a way to get off the dime when consensus is lacking, or when analysis is impossible. Baby steps advice applies even if you don't need a stake.
 

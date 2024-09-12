@@ -8,7 +8,7 @@ Years ago, an astute manager summed up a problem that I had only vaguely intuite
 
 [caption id="" align="alignright" width="270"]<a href="http://www.flickr.com/photos/xpectro/2819335335/"><img title="memory" alt="" src="http://farm4.staticflickr.com/3106/2819335335_185586a19c.jpg" height="500" width="270" /></a> Do our memories leak? Image credit: xpectro (Flickr)[/caption]
 
-"A big problem with most companies," said <a title="Roland Whatcott: Manage momentum." href="http://codecraft.co/2012/09/21/roland-whatcott-manage-momentum/" target="_blank">Roland</a>, "is that they have no institutional memory."
+"A big problem with most companies," said <a title="Roland Whatcott: Manage momentum." href="../../../2012/09/21/roland-whatcott-manage-momentum/" target="_blank">Roland</a>, "is that they have no institutional memory."
 
 As I recall, Roland was describing capricious political winds, and lamenting that the only form of loyalty a company has to employees is the kind they put in writing. As soon as there's major M&A activity, or HR decides to rebalance salary allocations, or an incentive program gets adjusted to the latest management fad, all recollection of old priorities and soft obligations vanishes in a puff of smoke.
 

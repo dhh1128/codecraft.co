@@ -17,7 +17,7 @@ Listening is a lesson that has distilled on me gradually, rather than hitting me
 
 More importantly, careful listening conveys a validation and respect for others that cannot be faked. Certainly, that's the case with Lynn.
 
-If you believe that <a title="Why People Are Part of A Software Architecture" href="http://codecraft.co/2008/06/25/why-people-are-part-of-a-software-architecture/">people are an integral part of the software discipline</a>, or that <a title="Users Aren’t The Only People In Your Software" href="/2012/09/04/users-arent-the-only-people-in-your-software/">you should understand those who interact with your product</a>, then listening is a critical best practice.
+If you believe that <a title="Why People Are Part of A Software Architecture" href="../../../2008/06/25/why-people-are-part-of-a-software-architecture/">people are an integral part of the software discipline</a>, or that <a title="Users Aren’t The Only People In Your Software" href="/2012/09/04/users-arent-the-only-people-in-your-software/">you should understand those who interact with your product</a>, then listening is a critical best practice.
 
 Thanks for the lesson, Lynn.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

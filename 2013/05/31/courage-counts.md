@@ -26,13 +26,13 @@ In the past two decades, I've heard many people (myself included) make statement
 	<li>"Stay away from <<em>module Y</em>>. Here be dragons."</li>
 	<li>"I'm not sure <<em>technique Z</em>> is wise. There are too many unknowns."</li>
 	<li>"If I try to sell that idea to <<em>executives/product management/the dev team</em>>, they'll just roll their eyes and change the subject."</li>
-	<li>"Nobody will buy into the need to <a title="Paying Off Technical Debt" href="http://codecraft.co/2012/10/14/paying-off-technical-debt/">pay down technical debt</a>."</li>
+	<li>"Nobody will buy into the need to <a title="Paying Off Technical Debt" href="../../../2012/10/14/paying-off-technical-debt/">pay down technical debt</a>."</li>
 </ul>
 Such statements are really just fear, dressed up in fancy clothing.
 
 I'm not going to claim that these fears are irrational. It could very well be that your change is risky, courting allies is a recipe for frustration, and you'll fail.
 
-Mafatu's fear of the sea was rational, too--and it was based on <a title="Earned Pragmatism" href="http://codecraft.co/2013/01/18/earned-pragmatism/">traumatic, real-world experience, not theory</a>. But when the need was great, Mafatu plunged in, met his fears, and mastered them.
+Mafatu's fear of the sea was rational, too--and it was based on <a title="Earned Pragmatism" href="../../../2013/01/18/earned-pragmatism/">traumatic, real-world experience, not theory</a>. But when the need was great, Mafatu plunged in, met his fears, and mastered them.
 
 Sometimes we need to do that as technical thought leaders.
 
@@ -40,7 +40,7 @@ Sometimes we need to do that as technical thought leaders.
 
 This is particularly important in pivotal moments when the choice is between a "safe" dead end and a risky but maybe game-changing innovation. If we believe that without a change, our codebase or our product or our team is headed for extinction (especially, when it's "not with a bang, but a whimper"), we have a duty—to ourselves, our employers, and our customers—to jump in the water with our knife and do battle with the shark.
 
-I am not advocating that we recklessly battle about every issue that lights up our radar. But I do think we need to notice when fear is inhibiting necessary change, take a deep breath, and commit. (Too bad <a title="All I Really Need To Know I Didn’t Learn In Compugarten" href="http://codecraft.co/2012/11/15/all-i-really-need-to-know-i-didnt-learn-in-compugarten/">they don't teach that to CS majors</a>. :-)
+I am not advocating that we recklessly battle about every issue that lights up our radar. But I do think we need to notice when fear is inhibiting necessary change, take a deep breath, and commit. (Too bad <a title="All I Really Need To Know I Didn’t Learn In Compugarten" href="../../../2012/11/15/all-i-really-need-to-know-i-didnt-learn-in-compugarten/">they don't teach that to CS majors</a>. :-)
 
 <strong>Case study 1</strong>
 
@@ -53,7 +53,7 @@ I halfway expected to be ignored, but my boss (and a lot of other stakeholders) 
 <p style="padding-left:30px;"><em>Outcome</em>: Big <span style="color:green;">success</span>.</p>
 <strong>Case study 2</strong>
 
-From about 2004 to 2007, I worked to transition backup technologies at Symantec from a tape-centric to a disk-centric model. A big problem for us was the <a title="Why Cannibalism May Be Smart Business" href="http://codecraft.co/2012/10/05/why-cannibalism-may-be-smart-business/">fear of cannibalizing the revenue stream</a> of the traditional product. We ended up dithering long enough that the opportunity to ride a disruptive wave largely passed us by. Cloud and virtualization and SaaS all combined to erode the value prop of traditional backup.
+From about 2004 to 2007, I worked to transition backup technologies at Symantec from a tape-centric to a disk-centric model. A big problem for us was the <a title="Why Cannibalism May Be Smart Business" href="../../../2012/10/05/why-cannibalism-may-be-smart-business/">fear of cannibalizing the revenue stream</a> of the traditional product. We ended up dithering long enough that the opportunity to ride a disruptive wave largely passed us by. Cloud and virtualization and SaaS all combined to erode the value prop of traditional backup.
 <p style="padding-left:30px;"><em>Score</em>: <span style="color:red;">Fear</span> 1, <span style="color:green;">Courage</span> 0.</p>
 <p style="padding-left:30px;"><em>Outcome</em>: Painful, lingering, and preventable <span style="color:red;">failure</span>. Shame on us. (A coward dies a thousand deaths; a hero only one...)</p>
 <strong>Case study 3</strong>

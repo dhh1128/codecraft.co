@@ -6,7 +6,7 @@ slug: headers-babies-and-bathwater
 
 I claim that by eliminating the C/C++-style dichotomy between headers and implementation, most modern programming languages have thrown out the baby with the bathwater.
 
-[caption id="attachment_1264" align="aligncenter" width="500"]<a href="http://codecraft.co/wp-content/uploads/2013/08/screen-shot-2013-08-11-at-7-35-35-pm.png"><img class="size-large wp-image-1264" alt="Don't throw out the baby with the bathwater! Photo credit: StubbyFingers (Flickr)" src="http://codecraft.co/wp-content/uploads/2013/08/screen-shot-2013-08-11-at-7-35-35-pm.png?w=500" width="500" height="438" /></a> Don't throw out the baby with the bathwater! Photo credit: <a href="http://www.flickr.com/photos/stubbyfingers/5940964193" target="_blank">StubbyFingers (Flickr)</a>[/caption]
+[caption id="attachment_1264" align="aligncenter" width="500"]<a href="../../../wp-content/uploads/2013/08/screen-shot-2013-08-11-at-7-35-35-pm.png"><img class="size-large wp-image-1264" alt="Don't throw out the baby with the bathwater! Photo credit: StubbyFingers (Flickr)" src="http://codecraft.co/wp-content/uploads/2013/08/screen-shot-2013-08-11-at-7-35-35-pm.png?w=500" width="500" height="438" /></a> Don't throw out the baby with the bathwater! Photo credit: <a href="http://www.flickr.com/photos/stubbyfingers/5940964193" target="_blank">StubbyFingers (Flickr)</a>[/caption]
 
 If that sounds crazy, just hang with me for a minute.
 
@@ -21,7 +21,7 @@ Sort of...
 It can be onerous to maintain the parallelism between a .h and a .cpp. And most C/C++ headers are managed so poorly that the benefits you might claim for them are theoretical rather than real. Three common antipatterns that I particularly detest:<!--more-->
 
 1. Putting everything in one monster header.
-<p style="padding-left:30px;">This couples all details of the system together in a single giant hairball. It may be fine for a project with 2 or 3 classes, but for dozens or hundreds of classes, it's a major problem, and it violates the <a title="Small Files Are Your Friends" href="http://codecraft.co/2013/03/21/small-files-are-your-friends/">small file rule</a>.</p>
+<p style="padding-left:30px;">This couples all details of the system together in a single giant hairball. It may be fine for a project with 2 or 3 classes, but for dozens or hundreds of classes, it's a major problem, and it violates the <a title="Small Files Are Your Friends" href="../../../2013/03/21/small-files-are-your-friends/">small file rule</a>.</p>
 2. Writing function prototypes without any parameter names, because it's less typing:
 <pre style="padding-left:30px;">int do_something(Foo *, bar *, char const *);</pre>
 <p style="padding-left:30px;"></p>
@@ -37,7 +37,7 @@ These are not dumb guys.
 
 So let me ask: <span style="color:#993300;"><em>Which is easier for a human to read and understand--a 50-line header, or a 800-line implementation?</em></span>
 
-This is the the first baby that's being thrown out with the bathwater. Think <a title="Progressive Disclosure Everywhere" href="http://codecraft.co/2012/09/16/progressive-disclosure-everywhere/">progressive disclosure</a>: headers could dramatically simplify what a consumer of code has to wade through. <em>If</em> they worked right. <em>If</em>.
+This is the the first baby that's being thrown out with the bathwater. Think <a title="Progressive Disclosure Everywhere" href="../../../2012/09/16/progressive-disclosure-everywhere/">progressive disclosure</a>: headers could dramatically simplify what a consumer of code has to wade through. <em>If</em> they worked right. <em>If</em>.
 
 You might say that modern IDEs make this a non-issue. When you open an 800-line .java file, you get a treeview with all the methods in the class, and you can sort and filter them in any way you like.
 
@@ -55,11 +55,11 @@ You might say that since these languages compile so much faster than C++, recomp
 
 I can think of a way to have the best of both worlds: let implementers stop worrying about headers, and let consumers stop worrying about implementation:
 <p style="padding-left:30px;">Generate the headers.</p>
-Every time a compiler processes code, have it generate from the implementation a pure, simple interface that consumers can read. This is the basic idea behind <a title="lazy c++" href="http://www.lazycplusplus.com/" target="_blank">Lazy C++</a>, but if I were <a title="My First Tangle With the Tower of Babel" href="http://codecraft.co/2013/04/26/my-first-tangle-with-the-tower-of-babel/">writing my own programming language</a>, I'd take it much further:
+Every time a compiler processes code, have it generate from the implementation a pure, simple interface that consumers can read. This is the basic idea behind <a title="lazy c++" href="http://www.lazycplusplus.com/" target="_blank">Lazy C++</a>, but if I were <a title="My First Tangle With the Tower of Babel" href="../../../2013/04/26/my-first-tangle-with-the-tower-of-babel/">writing my own programming language</a>, I'd take it much further:
 <ul>
 	<li>Have the compiler produce an "etag" or version stamp that unambiguously hashes the relevant header content, so consumers can identify a version to which they are bound. This etag should depend only on important details, not on comments or parameter names or other stylistic variations.</li>
 	<li>Before replacing the old version of the header, have the compiler compare function/class signatures in old and new to see if compatibility has been broken. Distinguish between incremental additions (new functions don't break compatibility with old clients) and changes (renaming a function or removing a parameter). Besides writing out an etag for the header, have the compiler write out an incremented version number, plus the oldest version number of the header that existing consumers would still be compatible with.</li>
-	<li>Compile the headers (not just the impl) into the final binaries to facilitate <a title="Decoupling Interfaces As Versions Evolve, Part 1" href="http://codecraft.co/2008/07/29/decoupling-interfaces-as-versions-evolve-part-1/">semantic versioning</a>.</li>
+	<li>Compile the headers (not just the impl) into the final binaries to facilitate <a title="Decoupling Interfaces As Versions Evolve, Part 1" href="../../../2008/07/29/decoupling-interfaces-as-versions-evolve-part-1/">semantic versioning</a>.</li>
 	<li>Make sure the language can identify preconditions, postconditions, and invariants unambiguously, so these can be documented (automatically) in the header.</li>
 	<li>Distinguish between public and private comments (using something a little slicker than javadoc), so that comments from the implementation can be carried across to the header as well.</li>
 </ul>

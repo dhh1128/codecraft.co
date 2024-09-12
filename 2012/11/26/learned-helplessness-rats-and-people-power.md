@@ -36,7 +36,7 @@ And that matters.
 
 <strong>The Power of Habit</strong>
 
-I've previously written about my <a title="Tech Debt, Leverage, and Grandma’s Envelope" href="http://codecraft.co/2012/10/30/tech-debt-leverage-and-grandmas-envelope/">Grandma paying off her mortgage</a> after many years of diligent effort. This was the harvest of a good habit, applied consistently.
+I've previously written about my <a title="Tech Debt, Leverage, and Grandma’s Envelope" href="../../../2012/10/30/tech-debt-leverage-and-grandmas-envelope/">Grandma paying off her mortgage</a> after many years of diligent effort. This was the harvest of a good habit, applied consistently.
 
 With financial and tech debt, after big setbacks there is a temptation to throw up our hands. "What's the use?" we want to say. "Nothing we do will make any difference." We sympathize with the guy who, saddled with a million dollar medical expense, tells himself that living within his means is irrelevant, and goes on a shopping spree.
 

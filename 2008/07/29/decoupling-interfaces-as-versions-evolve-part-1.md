@@ -4,7 +4,7 @@ date: 2008/07/29
 slug: decoupling-interfaces-as-versions-evolve-part-1
 ---
 
-<em>This is part 1 of a series. You can read <a title="Decoupling Interfaces as Versions Evolve, Part 2" href="http://codecraft.co/2008/08/19/decoupling-interfaces-as-versions-evolve-part-2/">part 2</a> and <a title="Decoupling Interfaces as Versions Evolve, Part 3" href="http://codecraft.co/2008/08/19/decoupling-interfaces-as-versions-evolve-part-3/">part 3</a> as well.</em>
+<em>This is part 1 of a series. You can read <a title="Decoupling Interfaces as Versions Evolve, Part 2" href="../../../2008/08/19/decoupling-interfaces-as-versions-evolve-part-2/">part 2</a> and <a title="Decoupling Interfaces as Versions Evolve, Part 3" href="../../../2008/08/19/decoupling-interfaces-as-versions-evolve-part-3/">part 3</a> as well.</em>
 <h3>The Goal</h3>
 Software interfaces were invented to promote <a href="http://en.wikipedia.org/wiki/Encapsulation_(classes_-_computers)" target="wikipedia">encapsulation</a> and <a href="http://www.cs.unc.edu/~stotts/COMP145/modules.html" target="_blank">loose coupling</a>. In theory this enables developing and deploying without undue interdependence, which is a <em>very</em> good thing.
 
@@ -26,7 +26,7 @@ Best practice is usually to require that <code>IWidget5</code> be a strict super
 <h3>And What About Deployment and Upgrade?</h3>
 If you want to tease out mistakes in interface versioning, just poke at the deployment and upgrade scenarios you're going to support. Do you require that a central manager be at least as new as all the components it's managing? Or worse, do you require the whole system to be at the same revision level? In theory, this should be unnecessary; producers (managees) are free to expose functionality in new interfaces that older consumers (managers) don’t know about, and consumers can progressively downcast until they find a mutually supported interface, so it ought to be possible to have free variation in versions. However, in practice in rich, interdependent fabrics of services, the same actor may simultaneously provide one interface while consuming another, and the intermingled dependencies often cause ISVs to force broader upgrades than a customer would like. My favorite recent, real-world example of deployment problems is the infamous <a href="http://episteme.arstechnica.com/eve/forums/a/tpc/f/99609816/m/494009191831" target="ms">IE7 dwmapi.dll problem</a> (see also <a href="http://blogs.misdn.com/nikolad/articles/427101.aspx" target="ms">this useful discussion</a> of the problem).
 
-[caption id="attachment_37" align="alignnone" width="128"]<a href="http://codecraft.co/wp-content/uploads/2008/07/traditional-pros-and-cons.png"><img class="size-thumbnail wp-image-37" alt="" src="http://codecraft.co/wp-content/uploads/2008/07/traditional-pros-and-cons.png?w=128" width="128" height="75" /></a> Traditional Approach - Pros and Cons[/caption]
+[caption id="attachment_37" align="alignnone" width="128"]<a href="../../../wp-content/uploads/2008/07/traditional-pros-and-cons.png"><img class="size-thumbnail wp-image-37" alt="" src="http://codecraft.co/wp-content/uploads/2008/07/traditional-pros-and-cons.png?w=128" width="128" height="75" /></a> Traditional Approach - Pros and Cons[/caption]
 <h3>What Can Be Done?</h3>
 So if interfaces don't provide as much separation of concerns as we wish, how do we cope?
 
@@ -38,7 +38,7 @@ There are subtler costs as well. When you late bind, you still have to use the i
 
 Another disadvantage of late binding is that you introduce a new dependency -- this time on the supporting infrastructure. Maybe you're using a great SOAP toolkit for PHP and that toolkit makes it easy to late bind to a web service. But now you depend on your SOAP toolkit. What if another actor in your system doesn't have the same version of the toolkit?
 
-What we'd like is a mechanism that combines the predictability and robust tool support of the traditional approach to interface versioning with the flexibility of late binding to get the best of both worlds. In <a href="http://codecraft.co/2008/08/19/decoupling-interfaces-as-versions-evolve-part-2/">part 2</a> of this series, I'll look at some approaches to that goal, and discuss why they still leave me unsatisfied. In <a title="Decoupling Interfaces as Versions Evolve, Part 3" href="http://codecraft.co/2008/08/19/decoupling-interfaces-as-versions-evolve-part-3/">part 3</a>, I'll offer my own solution.
+What we'd like is a mechanism that combines the predictability and robust tool support of the traditional approach to interface versioning with the flexibility of late binding to get the best of both worlds. In <a href="../../../2008/08/19/decoupling-interfaces-as-versions-evolve-part-2/">part 2</a> of this series, I'll look at some approaches to that goal, and discuss why they still leave me unsatisfied. In <a title="Decoupling Interfaces as Versions Evolve, Part 3" href="../../../2008/08/19/decoupling-interfaces-as-versions-evolve-part-3/">part 3</a>, I'll offer my own solution.
 
 ---
 

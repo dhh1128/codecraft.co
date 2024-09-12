@@ -16,7 +16,7 @@ Thomas Edison tried 1000 times to invent a light bulb before he succeeded. Why d
 
 If you don't lose the occasional battle, you will never win the war.
 
-Losing an occasional battle keeps us <a title="Humility" href="http://codecraft.co/2012/10/01/humility/" target="_blank">humble</a>. It means we're grounded in reality rather than ivory tower imagination. It means we value <a title="Good Code Is Balanced" href="http://codecraft.co/2012/08/27/good-code-is-balanced/" target="_blank">balance</a> and <a title="Earned Pragmatism" href="http://codecraft.co/2013/01/18/earned-pragmatism/" target="_blank">pragmatism</a> over theoretical perfection, and it helps build a healthy regard for <a title="Users Aren’t The Only People In Your Software" href="http://codecraft.co/2012/09/04/users-arent-the-only-people-in-your-software/" target="_blank">the needs of other people</a>.
+Losing an occasional battle keeps us <a title="Humility" href="../../../2012/10/01/humility/" target="_blank">humble</a>. It means we're grounded in reality rather than ivory tower imagination. It means we value <a title="Good Code Is Balanced" href="../../../2012/08/27/good-code-is-balanced/" target="_blank">balance</a> and <a title="Earned Pragmatism" href="../../../2013/01/18/earned-pragmatism/" target="_blank">pragmatism</a> over theoretical perfection, and it helps build a healthy regard for <a title="Users Aren’t The Only People In Your Software" href="../../../2012/09/04/users-arent-the-only-people-in-your-software/" target="_blank">the needs of other people</a>.
 
 Go try. A lost battle of the sort we fight with software is never an Antietam or Gettysburg.
 

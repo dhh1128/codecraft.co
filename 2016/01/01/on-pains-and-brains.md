@@ -4,7 +4,7 @@ date: 2016/01/01
 slug: on-pains-and-brains
 ---
 
-A while back, I wrote a post on <a href="http://codecraft.co/2013/05/06/why-your-software-should-cry/">why software should feel pain</a>. Since then, I've had that lesson reinforced in my mind, and I've also understood some nuances that weren't obvious to me before, so I'm revisiting the topic.
+A while back, I wrote a post on <a href="../../../2013/05/06/why-your-software-should-cry/">why software should feel pain</a>. Since then, I've had that lesson reinforced in my mind, and I've also understood some nuances that weren't obvious to me before, so I'm revisiting the topic.
 
 <strong>The Reinforcer</strong>
 
@@ -22,11 +22,11 @@ The more I thought about it, however, the more unhappy I became. Surely, such mo
 
 <strong>The Deeper Lesson</strong>
 
-This evolution of thinking, in which I initially focus on technical details, but <a href="http://codecraft.co/2012/10/23/on-seps-squirrels-and-meta-questions/">come to zen</a> only as I recognize <a href="http://codecraft.co/2008/06/25/why-people-are-part-of-a-software-architecture/">the role of people in software architecture</a>, has repeated several times in my career, but I guess I needed to discover it again.
+This evolution of thinking, in which I initially focus on technical details, but <a href="../../../2012/10/23/on-seps-squirrels-and-meta-questions/">come to zen</a> only as I recognize <a href="../../../2008/06/25/why-people-are-part-of-a-software-architecture/">the role of people in software architecture</a>, has repeated several times in my career, but I guess I needed to discover it again.
 
-In my original post on pain sensors in software, I suggested several creative ways to apply the principle. I still think ideas like <a href="http://codecraft.co/2013/05/06/why-your-software-should-cry/"><em>error memory, </em><em>error gestalt</em>, and <em>protective fear</em></a> are worth pondering, but I now realize that they are not going to deliver significant value unless we connect them to people.
+In my original post on pain sensors in software, I suggested several creative ways to apply the principle. I still think ideas like <a href="../../../2013/05/06/why-your-software-should-cry/"><em>error memory, </em><em>error gestalt</em>, and <em>protective fear</em></a> are worth pondering, but I now realize that they are not going to deliver significant value unless we connect them to people.
 
-When we diagram systems as part of architecture and design activities, we rarely include boxes for users. Even if we are UX-savvy and include "users", we almost always take the <a href="http://codecraft.co/2012/09/04/users-arent-the-only-people-in-your-software/">other human actors</a> in our systems for granted. When was the last time your architecture diagrams included an org chart, or discussed the maintenance plan for holiday downtime, or contemplated the way anomalies would surface in IT dashboards, or identified success criteria for install+configure phases of the system, or surfaced symptoms of <a href="http://codecraft.co/2012/09/28/the-8th-characteristic/">system obsolescence and death</a> that its owners should watch?
+When we diagram systems as part of architecture and design activities, we rarely include boxes for users. Even if we are UX-savvy and include "users", we almost always take the <a href="../../../2012/09/04/users-arent-the-only-people-in-your-software/">other human actors</a> in our systems for granted. When was the last time your architecture diagrams included an org chart, or discussed the maintenance plan for holiday downtime, or contemplated the way anomalies would surface in IT dashboards, or identified success criteria for install+configure phases of the system, or surfaced symptoms of <a href="../../../2012/09/28/the-8th-characteristic/">system obsolescence and death</a> that its owners should watch?
 
 <strong>Recommendation</strong>
 

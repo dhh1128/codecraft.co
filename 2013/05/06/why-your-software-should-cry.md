@@ -12,7 +12,7 @@ But pain barely impinges on the thinking of software engineers at all. Computers
 
 This is unfortunate.
 
-Reaction to stimuli is one of the <a title="The 8th Characteristic" href="http://codecraft.co/2012/09/28/the-8th-characteristic/">8 characteristics of life</a>. That means that living things are aware, in some sense, of their relationship to the larger environment. They distinguish between good and bad stimuli. They hurt. And they learn from their pain.
+Reaction to stimuli is one of the <a title="The 8th Characteristic" href="../../../2012/09/28/the-8th-characteristic/">8 characteristics of life</a>. That means that living things are aware, in some sense, of their relationship to the larger environment. They distinguish between good and bad stimuli. They hurt. And they learn from their pain.
 
 <strong>Lessons from a protist</strong>
 
@@ -28,7 +28,7 @@ I believe that pain--and, more generally, optimized reactions to stimuli--is one
 
 Life values pain.
 
-Not all software needs neurology, I suppose. Prions and viruses are important players in the game of life, and they're hardly more than mindless algorithms; in software, it's remarkable how much we can accomplish in a good script with a few lines of code. However, if we want to truly <a title="6 Strategies to Simplify Software" href="http://codecraft.co/2013/03/12/6-strategies-to-simplify-software/">master</a> the bewildering <a title="The Power of Simplicity" href="http://codecraft.co/2013/02/15/the-power-of-simplicity/">growth of complexity</a> in the universe of bits and bytes, we need pain. And we need to pay attention to it.
+Not all software needs neurology, I suppose. Prions and viruses are important players in the game of life, and they're hardly more than mindless algorithms; in software, it's remarkable how much we can accomplish in a good script with a few lines of code. However, if we want to truly <a title="6 Strategies to Simplify Software" href="../../../2013/03/12/6-strategies-to-simplify-software/">master</a> the bewildering <a title="The Power of Simplicity" href="../../../2013/02/15/the-power-of-simplicity/">growth of complexity</a> in the universe of bits and bytes, we need pain. And we need to pay attention to it.
 
 <strong>Modest beginnings</strong>
 
@@ -36,11 +36,11 @@ I see isolated, simplistic examples that give me hope.
 
 Fail2Ban is a nifty little utility that monitors logs of sshd, httpd, and similar daemons, and instructs the firewall to block connections from IP addresses that have been guilty of repeated, failed login attempts. Kind of sounds like <em>Stentor roeselii</em> bending away from the poison, doesn't it?
 
-The <a title="Don’t forget the circuit breakers" href="http://codecraft.co/2013/01/11/dont-forget-the-circuit-breakers/">circuit breaker pattern</a> that I described a while back is another example of reacting to stimuli.
+The <a title="Don’t forget the circuit breakers" href="../../../2013/01/11/dont-forget-the-circuit-breakers/">circuit breaker pattern</a> that I described a while back is another example of reacting to stimuli.
 
 <a href="http://techtripper.com/fijibot-is-an-autonomous-solar-powered-robot-that-lives-by-finding-light-on-its-own/" target="_blank">Fijibot</a> is a cool little machine that fights hunger pains by parking itself in the light to recharge batteries.
 
-Unfortunately, examples like this are few and far between. It's hard enough to <a title="Good Code Plans for Problems" href="http://codecraft.co/2012/09/03/good-code-plans-for-problems/">bake a rational error-handling strategy into software</a>, let alone make it sophisticated enough to monitor its environment and take proactive steps to avoid problems.
+Unfortunately, examples like this are few and far between. It's hard enough to <a title="Good Code Plans for Problems" href="../../../2012/09/03/good-code-plans-for-problems/">bake a rational error-handling strategy into software</a>, let alone make it sophisticated enough to monitor its environment and take proactive steps to avoid problems.
 
 <strong>Thought experiment</strong>
 
@@ -59,10 +59,10 @@ What are some other ways that software might use pain to its advantage?
 	<li>Since all software dies, pain might be an indicator of old age (impending EOL, breakages in compatibility, etc).</li>
 	<li>In the context of security, software might notice when it's under attack, and take protective measures (Fail2Ban's strategy, replicated in a hundred other contexts).</li>
 	<li>We might introduce "error memory" into our software. One thrown exception, once in a blue moon, might be something we just log--but if we start seeing it happen many times in rapid succession, we might treat it as a different problem entirely. This is the analog to humans telling the difference between a slight itch and a blister from our hand in the fire.</li>
-	<li>Similarly, we might aim for an "error gestalt" -- the ability to <a title="Metrics, Plumb Lines, and System Thinking" href="http://codecraft.co/2012/11/12/measurements-plumb-lines-and-system-thinking/">notice system-level phenomena</a> as the aggregate of many isolated signals. This would be analogous to a doctor diagnosing flue from the combination of sore throat, fever, chills, headache, and extreme fatigue.</li>
+	<li>Similarly, we might aim for an "error gestalt" -- the ability to <a title="Metrics, Plumb Lines, and System Thinking" href="../../../2012/11/12/measurements-plumb-lines-and-system-thinking/">notice system-level phenomena</a> as the aggregate of many isolated signals. This would be analogous to a doctor diagnosing flue from the combination of sore throat, fever, chills, headache, and extreme fatigue.</li>
 	<li>Could software develop protective "fear" based on repeated exposure to "pain"?</li>
 </ul>
-I was writing recently about <a title="My First Tangle With the Tower of Babel" href="http://codecraft.co/2013/04/26/my-first-tangle-with-the-tower-of-babel/">my adventures designing a programming language</a>. I concluded that more sugary syntax isn't really a great value to the community--but a language that allows programmers to reason about, describe, and react to various kinds of pain might do wonders for the health of the ecosystems we build.
+I was writing recently about <a title="My First Tangle With the Tower of Babel" href="../../../2013/04/26/my-first-tangle-with-the-tower-of-babel/">my adventures designing a programming language</a>. I concluded that more sugary syntax isn't really a great value to the community--but a language that allows programmers to reason about, describe, and react to various kinds of pain might do wonders for the health of the ecosystems we build.
 
 <span style="color:#000080;">What do you think? Please drop me a line</span> in the comments or through the "Contact" tab at the top. Include your ideas about pain and software, and maybe (with your permission) I can refer to them in my upcoming book about what software has to learn from living systems.
 

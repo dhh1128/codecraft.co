@@ -4,7 +4,7 @@ date: 2014/07/24
 slug: introducing-marks
 ---
 
-In my previous two posts (<a title="Lacunas Everywhere" href="http://codecraft.co/2014/07/16/lacunas-everywhere/" target="_blank">here</a> and <a title="Thoughts On Bridging the “Lacuna Humana”" href="http://codecraft.co/2014/07/21/bridging-the-lacuna-humana/" target="_blank">here</a>), I described how and why programming languages can't talk about many issues that affect programmers--important issues like product requirements, design constraints, intellectual property, and more. I also inventoried the mechanisms that extend the semantics of languages today, and explored why those mechanisms have limited value. If you haven't read those posts, please do; what I say next won't make a lot of sense without that foundation.
+In my previous two posts (<a title="Lacunas Everywhere" href="../../../2014/07/16/lacunas-everywhere/" target="_blank">here</a> and <a title="Thoughts On Bridging the “Lacuna Humana”" href="../../../2014/07/21/bridging-the-lacuna-humana/" target="_blank">here</a>), I described how and why programming languages can't talk about many issues that affect programmers--important issues like product requirements, design constraints, intellectual property, and more. I also inventoried the mechanisms that extend the semantics of languages today, and explored why those mechanisms have limited value. If you haven't read those posts, please do; what I say next won't make a lot of sense without that foundation.
 
 In the <code>intent</code> programming language that I'm creating, the solution to this problem is called "marks" (a name which alludes to <a href="http://en.wikipedia.org/wiki/Markedness" target="_blank">linguistic markedness</a>). Marks play a role somewhat analogous to adjectives and adverbs in human language; they are crucial enrichers. They resemble decorators or annotations in other languages, though their power is much, much greater.
 
@@ -14,7 +14,7 @@ Without further ado, let me provide a blueprint for this bridge across the seman
 <h3>Blueprint</h3>
 <ol>
 	<li>Code and its compiler(s) must have a <strong>compile-time API</strong> specified by the language.
-<div style="margin:.7em;">It's not okay if Clang generates one type of AST, GCC a second, and MSVC a third; all compilers that support the language must expose a spec-compatible, programmable API for all language constructs. For example, I need to be able to find out what parameters and local variables are declared in a function, and what their data types and other characteristics are. This is similar to what reflection offers, but reflection doesn't help at all, because I need this before run-time. (Kudos to D, which provides compile-time reflection very similar to what I'm describing...) As I mentioned in my post about <a title="How to make a const-correct codebase in 4300 easy steps" href="http://codecraft.co/2014/03/25/how-to-make-a-const-correct-codebase-in-4300-easy-steps/">making a codebase const-correct</a>, the lack of this feature is really a serious design flaw. Why should code, of <em>all</em> things programmers deal with, be impossible to code against?</div></li>
+<div style="margin:.7em;">It's not okay if Clang generates one type of AST, GCC a second, and MSVC a third; all compilers that support the language must expose a spec-compatible, programmable API for all language constructs. For example, I need to be able to find out what parameters and local variables are declared in a function, and what their data types and other characteristics are. This is similar to what reflection offers, but reflection doesn't help at all, because I need this before run-time. (Kudos to D, which provides compile-time reflection very similar to what I'm describing...) As I mentioned in my post about <a title="How to make a const-correct codebase in 4300 easy steps" href="../../../2014/03/25/how-to-make-a-const-correct-codebase-in-4300-easy-steps/">making a codebase const-correct</a>, the lack of this feature is really a serious design flaw. Why should code, of <em>all</em> things programmers deal with, be impossible to code against?</div></li>
 </ol>
 <!--more-->
 <ol start="2">
@@ -60,7 +60,7 @@ One more example, just for fun. Suppose you want to guarantee that across a larg
 
 https://gist.github.com/dhh1128/1fc2a20ffb370ba39327
 
-In my <a href="http://codecraft.co/2014/07/28/mountains-molehills-and-markedness/">next post</a>, I'll explore a bunch of additional examples, and I'll cover more details about how these marks work their magic.
+In my <a href="../../../2014/07/28/mountains-molehills-and-markedness/">next post</a>, I'll explore a bunch of additional examples, and I'll cover more details about how these marks work their magic.
 
 ---
 

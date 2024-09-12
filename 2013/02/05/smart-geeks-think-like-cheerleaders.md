@@ -35,19 +35,19 @@ So is software.
 
 We software pros forget this, sometimes.
 
-We champion the ideal implementation, programming language, product schedule, or architecture--so much so that we lose <a title="Roland Whatcott: Manage momentum." href="http://codecraft.co/2012/09/21/roland-whatcott-manage-momentum/">momentum</a> or <a title="Good Code Is Balanced" href="http://codecraft.co/2012/08/27/good-code-is-balanced/">balance</a>.
+We champion the ideal implementation, programming language, product schedule, or architecture--so much so that we lose <a title="Roland Whatcott: Manage momentum." href="../../../2012/09/21/roland-whatcott-manage-momentum/">momentum</a> or <a title="Good Code Is Balanced" href="../../../2012/08/27/good-code-is-balanced/">balance</a>.
 
-We forget that we are <a title="Ken Ebert: Kill three birds." href="http://codecraft.co/2012/09/19/ken-ebert-kill-three-birds/">optimizing many variables at once</a>.
+We forget that we are <a title="Ken Ebert: Kill three birds." href="../../../2012/09/19/ken-ebert-kill-three-birds/">optimizing many variables at once</a>.
 
-We achieve something important, get enamored of our own success, and forget to be <a title="Humility" href="http://codecraft.co/2012/10/01/humility/">humble</a> and to <a title="Julie Jones: Learn voraciously." href="http://codecraft.co/2012/09/24/julie-jones-learn-voraciously/">learn from others</a>.
+We achieve something important, get enamored of our own success, and forget to be <a title="Humility" href="../../../2012/10/01/humility/">humble</a> and to <a title="Julie Jones: Learn voraciously." href="../../../2012/09/24/julie-jones-learn-voraciously/">learn from others</a>.
 
-We accept all feature requests at face value and don't <a title="Why" href="http://codecraft.co/2013/01/30/why/">vett them thoughtfully against our why</a>.
+We accept all feature requests at face value and don't <a title="Why" href="../../../2013/01/30/why/">vett them thoughtfully against our why</a>.
 
-We retreat to our cubes and grumble that people keep getting in the way of us getting work done, but we don't get serious enough about <a title="Interrupting my interruptions" href="http://codecraft.co/2013/01/24/interrupting-my-interruptions/">managing everybody's interruptions wisely</a>.
+We retreat to our cubes and grumble that people keep getting in the way of us getting work done, but we don't get serious enough about <a title="Interrupting my interruptions" href="../../../2013/01/24/interrupting-my-interruptions/">managing everybody's interruptions wisely</a>.
 
 <strong>Geeks Who Pass With Flying Colors</strong>
 
-All of these memory lapses can be viewed as failures in system thinking. The software we create, and <a title="Users Aren’t The Only People In Your Software" href="http://codecraft.co/2012/09/04/users-arent-the-only-people-in-your-software/">the people that surround and permeate it</a>, constitute a system. We will not be successful unless we create harmony in the whole.
+All of these memory lapses can be viewed as failures in system thinking. The software we create, and <a title="Users Aren’t The Only People In Your Software" href="../../../2012/09/04/users-arent-the-only-people-in-your-software/">the people that surround and permeate it</a>, constitute a system. We will not be successful unless we create harmony in the whole.
 
 Smart geeks think like cheerleaders!
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

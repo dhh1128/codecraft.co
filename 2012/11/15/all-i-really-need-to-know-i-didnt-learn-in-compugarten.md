@@ -24,7 +24,7 @@ Since I'm half way to curmudgeon-hood, I frequently find myself lamenting educat
 	<li><a title="Six Learning Tips For Tech Folks" href="/2012/09/25/six-learning-tips-for-tech-folks/">Learning how to learn</a>, to keep up with the industry after you leave school.</li>
 	<li>Estimating wisely.</li>
 	<li>Finding the non-obvious human and process levers in an organization to get things done.</li>
-	<li><a title="// Comments on Comments" href="http://codecraft.co/2012/10/31/comments-on-comments/">Effective commenting</a>.</li>
+	<li><a title="// Comments on Comments" href="../../../2012/10/31/comments-on-comments/">Effective commenting</a>.</li>
 	<li>Coding for maintainability.</li>
 	<li>Great role models in software development.</li>
 	<li>Common newbie and journeyman mistakes.</li>

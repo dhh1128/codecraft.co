@@ -14,7 +14,7 @@ How does risk figure in your architectural vision? You should think about it all
 
 Here are 6 key questions to kick-start your pondering:
 <ul>
-	<li>Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about <a title="circuit breaker -- enterprise design pattern" href="http://codecraft.co/2013/01/11/dont-forget-the-circuit-breakers/" target="_blank">circuit breakers</a>.)</li>
+	<li>Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about <a title="circuit breaker -- enterprise design pattern" href="../../../2013/01/11/dont-forget-the-circuit-breakers/" target="_blank">circuit breakers</a>.)</li>
 	<li>When one of my components crashes, will its state be cleanly recoverable (e.g., on transaction boundaries) rather than corrupt? What data loss contract am I targeting?</li>
 	<li>Will it be easy for users or admins to notice when theoretical risks I've planned for become true emergencies? How will they be notified?</li>
 	<li>Is it possible to put the system in a "scabbed" state that's degraded and safe, but functional, while more extensive repairs take place?</li>

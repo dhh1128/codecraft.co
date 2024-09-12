@@ -6,7 +6,7 @@ slug: when-good-comments-mean-bad-language
 
 I've had an epiphany.
 
-For years, I've urged developers to <a title="// Comments on Comments" href="http://codecraft.co/2012/10/31/comments-on-comments/">write better comments</a>. I still claim that's a good idea (a <em>very</em> good one), but as I've pondered <a title="better programming language" href="http://codecraft.co/category/better-programming-language/" target="_blank">what a better programming language might look like</a>, I've come to an important conclusion:
+For years, I've urged developers to <a title="// Comments on Comments" href="../../../2012/10/31/comments-on-comments/">write better comments</a>. I still claim that's a good idea (a <em>very</em> good one), but as I've pondered <a title="better programming language" href="../../../category/better-programming-language/" target="_blank">what a better programming language might look like</a>, I've come to an important conclusion:
 <p style="text-align:center;font-size:110%;border:solid 1px #333;background-color:#eee;padding:1em;font-style:italic;">A lot of "best practice" commenting is just workarounds for inadequate language design.</p>
 This might seem like a crazy or arrogant claim. The Wirths and Matsumotos and Hejlsbergs and van Rossums and McCarthys of the world are incredibly smart people; how could I claim to know something that they do not? Each of these language designers has probably forgotten more about computer science than I will ever learn.
 

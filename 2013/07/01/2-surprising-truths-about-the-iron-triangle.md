@@ -44,7 +44,7 @@ Fast. Good. Cheap. Pick any 2.
 
 In this world view, scope is not a lever, and the tradeoffs with quality are explicit.
 
-If you've learned truth 1, then you're probably an <a title="Earned Pragmatism" href="http://codecraft.co/2013/01/18/earned-pragmatism/">industry veteran with battle scars</a>, and you're the kind of person I want on my team when we do project planning.
+If you've learned truth 1, then you're probably an <a title="Earned Pragmatism" href="../../../2013/01/18/earned-pragmatism/">industry veteran with battle scars</a>, and you're the kind of person I want on my team when we do project planning.
 
 But there's more.
 
@@ -72,13 +72,13 @@ That way lies madness.
 
 <strong>Quality yields speed</strong>
 
-In a way, I'm suggesting the opposite strategy: if you push on quality <em>in the right way</em>, speed will accrue organically. Not at first, <em>especially</em> if you're starting with an unhealthy codebase. Not with every checkin; sometimes you have to take one step back to take two steps forward. But over time, if you continue to invest in quality, your patient will get more healthy, and you will see your speed go up, not down. The <a title="Why Mental Models Matter" href="http://codecraft.co/2012/11/05/why-mental-models-matter/">mental models</a> of your engineers and the <a title="Users Aren’t The Only People In Your Software" href="http://codecraft.co/2012/09/04/users-arent-the-only-people-in-your-software/">entire value chain</a> will align. You'll create virtuous cycles that perpetuate the right kinds of <a title="Good Code Is Balanced" href="http://codecraft.co/2012/08/27/good-code-is-balanced/">tradeoffs</a> for <a title="3 Commandments of Performance Optimization" href="http://codecraft.co/2013/01/08/3-commandments-of-performance-optimization/">performance</a>, <a title="The Scaling Fallacy" href="http://codecraft.co/2012/12/19/the-scaling-fallacy/">scalability</a>, and <a title="Good fences make good neighbors" href="http://codecraft.co/2013/05/15/good-fences-make-good-neighbors/">encapsulation</a>.
+In a way, I'm suggesting the opposite strategy: if you push on quality <em>in the right way</em>, speed will accrue organically. Not at first, <em>especially</em> if you're starting with an unhealthy codebase. Not with every checkin; sometimes you have to take one step back to take two steps forward. But over time, if you continue to invest in quality, your patient will get more healthy, and you will see your speed go up, not down. The <a title="Why Mental Models Matter" href="../../../2012/11/05/why-mental-models-matter/">mental models</a> of your engineers and the <a title="Users Aren’t The Only People In Your Software" href="../../../2012/09/04/users-arent-the-only-people-in-your-software/">entire value chain</a> will align. You'll create virtuous cycles that perpetuate the right kinds of <a title="Good Code Is Balanced" href="../../../2012/08/27/good-code-is-balanced/">tradeoffs</a> for <a title="3 Commandments of Performance Optimization" href="../../../2013/01/08/3-commandments-of-performance-optimization/">performance</a>, <a title="The Scaling Fallacy" href="../../../2012/12/19/the-scaling-fallacy/">scalability</a>, and <a title="Good fences make good neighbors" href="../../../2013/05/15/good-fences-make-good-neighbors/">encapsulation</a>.
 
 There are limits, of course. Hawkeye might be amazingly fast with mostly healthy patients, but he'll never operate on a thousand patients an hour.
 
 Within those limits, though, it's amazing what quality can do for you.
 
-In order to pursue this strategy, you have to get management to take their foot off the gas pedal and let you build things right. That can be a difficult (maybe even impossible) task. I'm not claiming it's easy. I'm not offering a recipe to convince them (though <a title="Roland Whatcott: Manage momentum." href="http://codecraft.co/2012/09/21/roland-whatcott-manage-momentum/">momentum</a> will probably be an ingredient). I'm just saying it's worth the effort, because there is a happy land on the other side of the rainbow where you get better and faster at the same time.
+In order to pursue this strategy, you have to get management to take their foot off the gas pedal and let you build things right. That can be a difficult (maybe even impossible) task. I'm not claiming it's easy. I'm not offering a recipe to convince them (though <a title="Roland Whatcott: Manage momentum." href="../../../2012/09/21/roland-whatcott-manage-momentum/">momentum</a> will probably be an ingredient). I'm just saying it's worth the effort, because there is a happy land on the other side of the rainbow where you get better and faster at the same time.
 
 I've been there.
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>

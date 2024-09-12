@@ -14,9 +14,9 @@ I don't think the chart is perfect. I've seen it billed as a "popularity index,"
 
 <strong>Observations</strong>
 <ul>
-	<li>There are <em>a lot</em> of languages out there. What a busy world we live in! All the more reason to <a title="Julie Jones: Learn voraciously." href="http://codecraft.co/2012/09/24/julie-jones-learn-voraciously/">learn voraciously</a>.</li>
+	<li>There are <em>a lot</em> of languages out there. What a busy world we live in! All the more reason to <a title="Julie Jones: Learn voraciously." href="../../../2012/09/24/julie-jones-learn-voraciously/">learn voraciously</a>.</li>
 	<li>Languages with a mediating runtime (JVM, .NET) are very popular, with languages that compile at runtime as a large subset. I don't think bare bones C/C++/Assembly/Objective C will ever go away, but the evolution toward higher level environments is clear.</li>
-	<li>It's interesting to ponder what commonalities exist between sets such as languages that are growing quickly, languages that are stale and neglected, and so forth. Fodder for <a title="My First Tangle With the Tower of Babel" href="http://codecraft.co/2013/04/26/my-first-tangle-with-the-tower-of-babel/">my experiments with language design</a>...</li>
+	<li>It's interesting to ponder what commonalities exist between sets such as languages that are growing quickly, languages that are stale and neglected, and so forth. Fodder for <a title="My First Tangle With the Tower of Babel" href="../../../2013/04/26/my-first-tangle-with-the-tower-of-babel/">my experiments with language design</a>...</li>
 </ul>
 <strong>Questions</strong>
 <ul>

@@ -4,7 +4,7 @@ date: 2014/09/25
 slug: how-to-point-in-code
 ---
 
-In my <a title="Exploring the Power of Deixis" href="http://codecraft.co/2014/09/23/exploring-the-power-of-deixis/">previous post</a>, I explored why deixis is helpful, how it shows up in our language, and how its use in source code is hampered by limitations in our current programming ecosystems.
+In my <a title="Exploring the Power of Deixis" href="../../../2014/09/23/exploring-the-power-of-deixis/">previous post</a>, I explored why deixis is helpful, how it shows up in our language, and how its use in source code is hampered by limitations in our current programming ecosystems.
 
 I promised I'd explain how we could remedy this problem to increase the expressiveness of our code... That's what this post is all about.
 <h3>It starts with names</h3>
@@ -27,7 +27,7 @@ So, if names are so valuable, part of how we make code more "hyper" is to increa
 	<li>The call graph for any element in code could be referenced as <code><em style="color:red;">URL_of_the_element</em> / call_graph</code></li>
 	<li>The comment directly above a <code>for</code> loop could be referenced as <code><em style="color:red;">URL_of_the_for_loop</em> / comments_before[last()]</code></li>
 </ul>
-Note how the <a title="Introducing Marks" href="http://codecraft.co/2014/07/24/introducing-marks/">semantic marks</a> that I've <a title="Mountains, Molehills, and Markedness" href="http://codecraft.co/2014/07/28/mountains-molehills-and-markedness/">discussed</a> in previous posts provide a powerful way to qualify and query this sort of DOM. To find all classes that have GPL'ed code, you could use <code>my_project / classes[@marked(gpl)]</code>. To isolate all code that's sensitive to an AOP-style aspect such as the current logging strategy for the app, I can query for marks as well.
+Note how the <a title="Introducing Marks" href="../../../2014/07/24/introducing-marks/">semantic marks</a> that I've <a title="Mountains, Molehills, and Markedness" href="../../../2014/07/28/mountains-molehills-and-markedness/">discussed</a> in previous posts provide a powerful way to qualify and query this sort of DOM. To find all classes that have GPL'ed code, you could use <code>my_project / classes[@marked(gpl)]</code>. To isolate all code that's sensitive to an AOP-style aspect such as the current logging strategy for the app, I can query for marks as well.
 
 
 When you combine this with compile-time reflection, you have extraordinary power to make the compiler analyze, generate, and connect code.
@@ -63,7 +63,7 @@ This allows warnings to hyperlink to their associated location in code, and to p
 
 <a name="proxies"></a>
 <h3>And we need proxies</h3>
-Names and triangulation still aren't enough. I've alluded on previous posts to the idea that <a title="Lacunas Everywhere" href="http://codecraft.co/2014/07/16/lacunas-everywhere/">code should be able to describe constructs that are not coded today</a>: use cases, personas, business requirements, etc.
+Names and triangulation still aren't enough. I've alluded on previous posts to the idea that <a title="Lacunas Everywhere" href="../../../2014/07/16/lacunas-everywhere/">code should be able to describe constructs that are not coded today</a>: use cases, personas, business requirements, etc.
 
 The presence of these constructs in code does not have to be heavy. In fact, they can be proxied with light, declarative files that simply enumerate some key properties--and that hyperlink to external systems for greater details in a "native" non-code environment. Imagine a .yaml or .json file that describes key attributes of a persona, for example -- name, goals, typical permissions, use cases. Perhaps such a file contains a link to a usability database or a Product Management release plan with much richer detail; in such cases, the file is a sort of proxy for a larger concept that other professionals own.
 
@@ -73,7 +73,7 @@ Proxies allow us to point to otherwise unpointable things like performance bottl
 <h3>The Value of Pointing</h3>
 I said in my previous post that I got frustrated when my daughter used words like "that" and "here" without pointing. I couldn't understand her intent. Talking around this semantic deficit was time-consuming and error-prone.
 
-By making it easy to point at any idea in the daily experience of a coder, I think the quality and terseness of our communication will grow dramatically. I gave a few <a href="http://codecraft.co/2014/09/23/exploring-the-power-of-deixis/#examples">examples</a> of how that power might generate innovation. (And btw, notice how my hyperlink to "examples" in that last sentence is a lot more useful because I can point to a specific paragraph).
+By making it easy to point at any idea in the daily experience of a coder, I think the quality and terseness of our communication will grow dramatically. I gave a few <a href="../../../2014/09/23/exploring-the-power-of-deixis/#examples">examples</a> of how that power might generate innovation. (And btw, notice how my hyperlink to "examples" in that last sentence is a lot more useful because I can point to a specific paragraph).
 
 Like all innovations, though, I don't think the exciting stuff is in the obvious examples. I believe we'll discover cool new ideas that we haven't even imagined yet, once the power of an improved paradigm permeates our coding lives.
 

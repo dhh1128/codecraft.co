@@ -10,7 +10,7 @@ Friday morning I was at a seminar taught by <a href="www.linkedin.com/in/jhtaylo
 
 I'm a big believer in measurement. As the old adage goes, you can't improve what you don't measure. Next time someone urges you to change a behavior, or tells you she's going to, ask what measurement of change is being proposed. If you get an unsatisfying answer, I predict you'll also get an unsatisfying outcome.
 
-I'm also a big believer in balance, as I've written about before. <a title="Good Code Is Balanced" href="http://codecraft.co/2012/08/27/good-code-is-balanced/" target="_blank">Good software balances many considerations</a>.
+I'm also a big believer in balance, as I've written about before. <a title="Good Code Is Balanced" href="../../../2012/08/27/good-code-is-balanced/" target="_blank">Good software balances many considerations</a>.
 
 Besides these existing predispositions, I'd recently read a <a href="http://sethgodin.typepad.com/seths_blog/2012/11/avoiding-the-false-proxy-trap.html" target="_blank">blog post by Seth Godin</a>, cautioning about the need to choose wisely what we measure. And I've been digesting <em>The Fifth Discipline</em>, by Peter Senge, which advocates wholistic, <a class="zem_slink" title="Systemics" href="http://en.wikipedia.org/wiki/Systemics" target="_blank" rel="wikipedia">systemic thinking</a>, where we recognize interrelationships that go well beyond simplistic, direct cause-and-effect.
 
