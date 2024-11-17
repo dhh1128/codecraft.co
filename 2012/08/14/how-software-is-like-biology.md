@@ -6,7 +6,7 @@ slug: how-software-is-like-biology
 
 No, I'm not going to talk about genetic algorithms. (Not yet, anyway.)
 
-[caption id="" align="alignright" width="151"]<a href="http://www.flickr.com/photos/dullhunk/439737660/"><img class=" " title="DNA" src="http://farm1.staticflickr.com/176/439737660_7505789a45_m_d.jpg" alt="" width="151" height="178" /></a> DNA ~ subroutines. Photo credit: dullhunk on Flickr.[/caption]
+<figure><img class=" " title="DNA" src="http://farm1.staticflickr.com/176/439737660_7505789a45_m_d.jpg" alt="" width="151" height="178" /><figcaption>DNA ~ subroutines. Photo credit: dullhunk on Flickr.</figcaption></figure>
 
 Consider the scope of concerns (roughly maps onto need for expertise) of various folks that do biological science for a living. You have organic chemists. They might not know much about why zebra mussel infestation is a problem in the Great Lakes, but they can tell you all kinds of things about why cellular respiration works or how prions replicate. You have cellular biologists, who know all about protein transcription, meiosis, and telomeres. At higher levels of abstraction/generalization, you need experts on tissues, organs, or entire organisms -- and beyond them, you need folks who study speciation, ecosystems, genetic drift in populations...
 

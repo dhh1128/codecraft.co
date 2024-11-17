@@ -10,7 +10,7 @@ In the <code>intent</code> programming language that I'm creating, the solution 
 
 Without further ado, let me provide a blueprint for this bridge across the semantic gap that I've been lamenting--the design guidelines for "marks." Then I'm going to show you an example of how easy it could be to use marks, and how much power they give you.
 
-[caption id="" align="aligncenter" width="640"]<img class="" src="https://farm3.staticflickr.com/2095/2402300942_2636483bdc_z.jpg" alt="" width="640" height="433" /> image credit: <a href="https://www.flickr.com/photos/curiousexpeditions/2402300942/sizes/z/" target="_blank">Curious Expeditions</a> (Flickr)[/caption]
+<figure><img class="" src="https://farm3.staticflickr.com/2095/2402300942_2636483bdc_z.jpg" alt="" width="640" height="433" /><figcaption>image credit: <a href="https://www.flickr.com/photos/curiousexpeditions/2402300942/sizes/z/" target="_blank">Curious Expeditions</a> (Flickr)</figcaption></figure>
 <h3>Blueprint</h3>
 <ol>
 	<li>Code and its compiler(s) must have a <strong>compile-time API</strong> specified by the language.

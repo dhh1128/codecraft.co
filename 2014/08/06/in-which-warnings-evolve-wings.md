@@ -6,7 +6,7 @@ slug: in-which-warnings-evolve-wings
 
 Ignoring warnings is a bad idea. At some level, we all know this. If we see a sign that says "Warning: Dangerous Undertow" at the beach, we pause (I hope!) and think twice before we get in the water.
 
-[caption id="" align="aligncenter" width="538"]<a href="http://xkcd.com/1247/"><img class="" src="http://imgs.xkcd.com/comics/the_mother_of_all_suspicious_files.png" alt="" width="538" height="234" /></a> Ignore warnings at your peril. :-) Image credit: xkcd.com[/caption]
+<figure><img class="" src="http://imgs.xkcd.com/comics/the_mother_of_all_suspicious_files.png" alt="" width="538" height="234" /><figcaption>Ignore warnings at your peril. :-) Image credit: xkcd.com</figcaption></figure>
 
 Yet we sometimes get cavalier about warnings in software. Specifially, I have heard programmers describe compiler warnings as being <em>less severe</em> than errors--as if worrying about them is optional.
 
@@ -59,7 +59,7 @@ What I'm proposing is different because flexible, context-sensitive warning filt
 
 I think those wings could lift the quality and artistry of our software.
 
-[caption id="" align="aligncenter" width="640"]<img class="" src="https://farm6.staticflickr.com/5317/5876849912_6e0a74ee6d_z.jpg" alt="" width="640" height="427" /> Image credit: <a href="https://www.flickr.com/photos/pixx0ne/5876849912/sizes/z/">[ changó ]</a> (Flickr)[/caption] 
+<figure><img class="" src="https://farm6.staticflickr.com/5317/5876849912_6e0a74ee6d_z.jpg" alt="" width="640" height="427" /><figcaption>Image credit: <a href="https://www.flickr.com/photos/pixx0ne/5876849912/sizes/z/">[ changó ]</a> (Flickr)</figcaption></figure> 
 
 <hr style="width:60%;" />
 

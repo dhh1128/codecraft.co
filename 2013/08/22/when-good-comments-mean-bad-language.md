@@ -12,7 +12,7 @@ This might seem like a crazy or arrogant claim. The Wirths and Matsumotos and He
 
 And yet, I think Randall Munroe (the cartoonist at xkcd) was right to make fun of our industry's facile assumption that context-free grammar is all you need to know about formal language:
 
-[caption id="" align="aligncenter" width="480"]<img class=" " alt="" src="http://imgs.xkcd.com/comics/formal_languages.png" width="480" height="209" /> image credit: xkcd.com[/caption]
+<figure><img class=" " alt="" src="http://imgs.xkcd.com/comics/formal_languages.png" width="480" height="209" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
 To show you what I mean, I've inlined snippets of code from a variety of programming languages below. Don't worry about digesting them carefully right now, but give them a quick glance and then move on to my analysis, and see if you agree with my claim about an unhealthy pattern.<!--more-->
 

@@ -10,7 +10,7 @@ What's the connection between sniffles and software, you ask?
 
 Let's talk redundancy. It's a familiar technique in software design, but I believe we compartmentalize it too much under the special topic of "high availability"--as if only when that's an explicit requirement do we need to pay any attention.
 
-[caption id="" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/ydant/4542478114/sizes/l/"><img alt="" src="http://farm5.staticflickr.com/4001/4542478114_1a3356d435.jpg" width="500" height="333" /></a> Redundancy can be a big deal. Image credit: ydant (Flickr)[/caption]
+<figure><img alt="" src="http://farm5.staticflickr.com/4001/4542478114_1a3356d435.jpg" width="500" height="333" /><figcaption>Redundancy can be a big deal. Image credit: ydant (Flickr)</figcaption></figure>
 
 <span style="color:#333399;"><strong>Redundancy in nature</strong></span>
 
@@ -26,7 +26,7 @@ It's not hard to find examples of redundancy in software. Consider streaming vid
 
 Of course, not all redundancy is useful. You can get carried away with it :-)
 
-[caption id="" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/d-/2784568095/sizes/l/"><img alt="" src="http://farm4.staticflickr.com/3083/2784568095_f01a2324a2.jpg" width="500" height="375" /></a> image credit: da.bo (Flickr)[/caption]
+<figure><img alt="" src="http://farm4.staticflickr.com/3083/2784568095_f01a2324a2.jpg" width="500" height="375" /><figcaption>image credit: da.bo (Flickr)</figcaption></figure>
 
 In coding tasks, redundancy is often your enemy. Lots of antipatterns are undesirable precisely because they create redundancy that's difficult to understand and maintain. <a title="How to turn coding standards into epic fails — or not" href="../../../2012/09/27/coding-standards/">Foolish coding standards</a> and <a title="// Comments on Comments" href="../../../2012/10/31/comments-on-comments/">dumb comments</a> are notorious for creating busywork this way.
 

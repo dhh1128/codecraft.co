@@ -6,7 +6,7 @@ slug: why
 
 Recently I've been digesting <a href="http://www.startwithwhy.com/Read.aspx"><em>Start With Why</em></a>, by <a class="zem_slink" title="Simon Sinek" href="http://en.wikipedia.org/wiki/Simon_Sinek" target="_blank" rel="wikipedia">Simon Sinek</a> (Another nice find, <a href="http://dld.me" target="_blank">Trev</a>!) For an overview, watch his <a href="http://youtu.be/qp0HIF3SfI4" target="_blank">TED talk</a>.
 
-[caption id="" align="alignright" width="320"]<a href="http://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Maslow%27s_hierarchy_of_needs.png/320px-Maslow%27s_hierarchy_of_needs.png" width="320" height="209" /></a> Maslow's hierarchy of needs. A person's "why" can derive from any of these levels, but I think I'll be happiest if I can map mine to the top of the pyramid.[/caption]
+<figure><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Maslow%27s_hierarchy_of_needs.png/320px-Maslow%27s_hierarchy_of_needs.png" width="320" height="209" /><figcaption>Maslow's hierarchy of needs. A person's "why" can derive from any of these levels, but I think I'll be happiest if I can map mine to the top of the pyramid.</figcaption></figure>
 
 I don't buy everything in the book, and I think many of the author's assertions would be stronger if he offered detailed evidence. For example, he asserts that Apple is special because it has a driving "why" that shapes company decisions in fundamental and pervasive ways, and glosses over how Apple lost its vision during the non-Steve-Jobs years.
 

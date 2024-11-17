@@ -6,7 +6,7 @@ slug: big-data-in-motion
 
 I've been at Cloud Expo this week, listening to lots of industry hoopla about building cloud-centric apps, managing clouds, purchasing hardware for clouds, buying private clouds from public cloud providers, and so forth.
 
-[caption id="" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/islandgal/5247181522/"><img alt="" src="http://farm6.staticflickr.com/5283/5247181522_d9884b37ac.jpg" height="332" width="500" /></a> Photo credit: aquababe (Flickr)[/caption]
+<figure><img alt="" src="http://farm6.staticflickr.com/5283/5247181522_d9884b37ac.jpg" height="332" width="500" /><figcaption>Photo credit: aquababe (Flickr)</figcaption></figure>
 
 One interesting decision made by the organizers of the conference was to bring "<a class="zem_slink" title="Big data" href="http://en.wikipedia.org/wiki/Big_data" target="_blank" rel="wikipedia">big data</a>" under the same conference umbrella. There's a whole track here about big data, and it gets mentioned in almost every presentation.
 

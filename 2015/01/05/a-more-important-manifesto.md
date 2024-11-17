@@ -16,7 +16,7 @@ Blah, blah, blah.
 
 Theoretically, this stuff helps you get jobs, but as someone who writes a lot, my drivel-o-meter pegs at such verbiage. Usually, it means about as much as the <a href="http://projects.wsj.com/buzzwords2014/" target="_blank">Business Buzzwords Generator recently posted by the Wall Street Journal</a>.
 
-[caption id="" align="aligncenter" width="500"]<a href="https://www.flickr.com/photos/mobilestreetlife/6922749580/sizes/m/"><img class="" src="https://farm8.staticflickr.com/7256/6922749580_c17ac1b67d.jpg" alt="" width="500" height="411" /></a> image credit: David Blackwell (Flickr)[/caption]
+<figure><img class="" src="https://farm8.staticflickr.com/7256/6922749580_c17ac1b67d.jpg" alt="" width="500" height="411" /><figcaption>image credit: David Blackwell (Flickr)</figcaption></figure>
 
 But it doesn't have to be that way.
 

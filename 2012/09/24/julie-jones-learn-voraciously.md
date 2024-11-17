@@ -11,7 +11,7 @@ Add a decade or so, and you may see the world a bit differently.
 
 <strong>Expertise and Moving Targets</strong>
 
-[caption id="" align="alignright" width="312"]<a href="http://en.wikipedia.org/wiki/File:Cello_study.jpg"><img title="cello" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cello_study.jpg/320px-Cello_study.jpg" alt="" width="312" height="467" /></a> Is mastery possible when your instrument keeps changing? Photo credit: Wikimedia Commons[/caption]
+<figure><img title="cello" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cello_study.jpg/320px-Cello_study.jpg" alt="" width="312" height="467" /><figcaption>Is mastery possible when your instrument keeps changing? Photo credit: Wikimedia Commons</figcaption></figure>
 
 The rate at which new technologies burst on the scene, acquire mindshare, and demand the attention of engineers can be overwhelming. A journeyman's knowledge on a given subject may be obsolete long before it matures into mastery. Gartner's hype cycle can make your head hurt.
 

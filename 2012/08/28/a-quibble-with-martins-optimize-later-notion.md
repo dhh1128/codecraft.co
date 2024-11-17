@@ -15,7 +15,7 @@ But implicit in Fowler's advice are the following problematic notions:
 </ul>
 The flaws in the first notion should be obvious; optimization often requires concommitant refactoring. I won't beat that dead horse here. The second idea, however, deserves further comment.
 
-[caption id="" align="aligncenter" width="500"]<a href="http://xkcd.com/173/" target="_blank"><img alt="" src="http://imgs.xkcd.com/comics/movie_seating.png" width="500" height="571" /></a> Sometimes the only time to optimize is before decisions get made :-). Image credit: xkcd[/caption]
+<figure><img alt="" src="http://imgs.xkcd.com/comics/movie_seating.png" width="500" height="571" /><figcaption>Sometimes the only time to optimize is before decisions get made :-). Image credit: xkcd</figcaption></figure>
 
 Before you get around to optimizing, what happens if programmers go looking for an API that does X, find your works-correctly-but-suboptimally function, and wrinkle their nose. "Code smell!" they cry. And they write their own function that does a binary rather than linear search, etc. They don't have time to investigate whether the original version was coded that way for a reason (and thus should simply be refactored); they just need something that works AND that is fast, and your function doesn't cut it.
 

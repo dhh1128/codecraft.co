@@ -10,7 +10,7 @@ We spend little or no time teaching programmers how to write good comments.
 
 This is surprising, when you consider how often "total lack of comments" or "poor comments" are cited as evidence that certain modules (or the programmer who wrote them) are the worst thing that ever happened to the technoverse.
 
-[caption id="" align="aligncenter" width="500"]<a href="http://xkcd.com/156/"><img alt="" src="http://imgs.xkcd.com/comics/commented.png" height="135" width="500" /></a> Comments shouldn't leave you--or anybody else--mystified. :-) Image credit: xkcd[/caption]
+<figure><img alt="" src="http://imgs.xkcd.com/comics/commented.png" height="135" width="500" /><figcaption>Comments shouldn't leave you--or anybody else--mystified. :-) Image credit: xkcd</figcaption></figure>
 
 I happen to think that there are much yuckier tech things than poor or missing comments in code. But I still think our general level of comment proficiency is lower than it should be.
 
@@ -30,7 +30,7 @@ A programmer that leaves critical knowledge unshared is seriously derelict in he
 <blockquote>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</blockquote>
 Some of the more <a href="http://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered" target="_blank">hilarious comments</a> I've ever read are connected with moments when this principle goes out the window. (Go to the bathroom before you read this collection, so you don't wet your pants laughing.)
 
-[caption id="" align="aligncenter" width="400"]<a href="http://xkcd.com/221/"><img alt="" src="http://imgs.xkcd.com/comics/random_number.png" height="144" width="400" /></a> No amount of commenting makes up for a silly algorithm. But you might give another programmer a good chuckle. Image credit: xkcd[/caption]
+<figure><img alt="" src="http://imgs.xkcd.com/comics/random_number.png" height="144" width="400" /><figcaption>No amount of commenting makes up for a silly algorithm. But you might give another programmer a good chuckle. Image credit: xkcd</figcaption></figure>
 
 <strong>How to Write "Good" Comments</strong>
 

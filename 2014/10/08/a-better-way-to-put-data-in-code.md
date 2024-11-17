@@ -14,7 +14,7 @@ Depending on the language you're using and the nature of your data, you might co
 
 I think this is a mediocre solution, at best. Shouldn't programmers work on funner stuff, like "traveling salesman" problems? :-)
 
-[caption id="" align="aligncenter" width="640"]<a href="http://xkcd.com/399/"><img class="" src="http://imgs.xkcd.com/comics/travelling_salesman_problem.png" alt="" width="640" height="283" /></a> image credit: xkcd.com[/caption]
+<figure><img class="" src="http://imgs.xkcd.com/comics/travelling_salesman_problem.png" alt="" width="640" height="283" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
 <!--more-->
 <h3>What's wrong with how we code tables?</h3>

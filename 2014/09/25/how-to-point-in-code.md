@@ -14,7 +14,7 @@ The <em>real</em> magic is that the web has so many things to point <em>to</em>.
 
 We value names.
 
-[caption id="" align="aligncenter" width="740"]<a href="http://xkcd.com/910/"><img class="" src="http://imgs.xkcd.com/comics/permanence.png" alt="" width="740" height="650" /></a> image credit: xkcd.com[/caption]
+<figure><img class="" src="http://imgs.xkcd.com/comics/permanence.png" alt="" width="740" height="650" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
 So, if names are so valuable, part of how we make code more "hyper" is to increase the availability of names. Here are some ways to do that.
 

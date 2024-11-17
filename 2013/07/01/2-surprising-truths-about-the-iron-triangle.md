@@ -6,7 +6,7 @@ slug: 2-surprising-truths-about-the-iron-triangle
 
 Project management 101 teaches that, when managing outcomes, you cannot alter scope, schedule, or cost (resources) without affecting at least one of the other dimensions. This interrelationship is known colloquially as the "Iron Triangle." Sometimes we put "quality" in the middle to show how it is unavoidably shaped by choices on the other constraints:
 
-[caption id="" align="aligncenter" width="429"]<a href="http://en.wikipedia.org/wiki/Project_triangle"><img class=" " alt="" src="http://upload.wikimedia.org/wikipedia/commons/a/a6/The_triad_constraints.jpg" width="429" height="313" /></a> Image credit: John M. Kennedy T (Wikimedia Commons)[/caption]
+<figure><img class=" " alt="" src="http://upload.wikimedia.org/wikipedia/commons/a/a6/The_triad_constraints.jpg" width="429" height="313" /><figcaption>Image credit: John M. Kennedy T (Wikimedia Commons)</figcaption></figure>
 
 Lots of Dilbert cartoons derive their humor from the unwillingness of the Pointy Haired Boss (PHB) to acknowledge this relationship. These cartoons are funny because they are so eerily similar to conversations we've all had, where someone wants us to deliver ultra-high quality, on a limited budget, in an aggressive timeframe, with a boatload of features.
 
@@ -38,7 +38,7 @@ If the execs, PMs, customers, and engineers in your orbit talk regularly about q
 
 The problem of sacrificing quality when we meant to reduce scope is so ubiquitous that sometimes the iron triangle is formulated like this:
 
-[caption id="" align="aligncenter" width="400"]<a href="http://en.wikipedia.org/wiki/File:Project-triangle.svg"><img class=" " alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Project-triangle.svg/500px-Project-triangle.svg.png" width="400" height="393" /></a> cosmocatalano (Wikimedia Commons)[/caption]
+<figure><img class=" " alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Project-triangle.svg/500px-Project-triangle.svg.png" width="400" height="393" /><figcaption>cosmocatalano (Wikimedia Commons)</figcaption></figure>
 
 Fast. Good. Cheap. Pick any 2.
 

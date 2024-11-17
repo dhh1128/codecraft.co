@@ -6,7 +6,7 @@ slug: on-forests-and-trees
 
 When an English speaker is drowning in details that make the big picture hard to see, she might complain, "I can't see the forest for the trees."
 
-[caption id="" align="aligncenter" width="640"]<a href="https://www.flickr.com/photos/miguelvirkkunen/10889431856/sizes/z/"><img class="" src="https://farm6.staticflickr.com/5498/10889431856_12ec009c28_z.jpg" alt="" width="640" height="431" /></a> image credit: Miguel Virkkunen Carvalho (Flickr)[/caption]
+<figure><img class="" src="https://farm6.staticflickr.com/5498/10889431856_12ec009c28_z.jpg" alt="" width="640" height="431" /><figcaption>image credit: Miguel Virkkunen Carvalho (Flickr)</figcaption></figure>
 
 It's an odd expression, partly ironic and partly humorous. When I hear it, I sometimes think of my sister, who, after moving from Indiana to Utah, complained that the mountains were getting in the way of her view. (Her tongue was firmly in her cheek... :-)
 
@@ -47,7 +47,7 @@ There are lots of other examples. Aspect-oriented programming attempts to formal
 <h3>Call to action</h3>
 Pragmatism always matters, of course; it may not be worth our time to generalize in every case. :-)
 
-[caption id="" align="aligncenter" width="550"]<a href="https://xkcd.com/974/"><img class="" src="http://imgs.xkcd.com/comics/the_general_problem.png" alt="" width="550" height="230" /></a> image credit: xkcd.com[/caption]
+<figure><img class="" src="http://imgs.xkcd.com/comics/the_general_problem.png" alt="" width="550" height="230" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
 Nonetheless, the best tech folks that I know are much better at this skill than the middle of the bell curve, and I don't think that's an accident. I'd like to see us, as an industry, do a better job of turning implicit patterns in our everyday engineering work into method, structure, and reusable building blocks.
 

@@ -6,7 +6,7 @@ slug: manifestos
 
 I signed two software manifestos yesterday.
 
-[caption id="" align="aligncenter" width="320"]<a href="http://www.flickr.com/photos/specialkrb/3805699025/"><img title="Quill" src="http://farm3.staticflickr.com/2504/3805699025_d68718a091_n.jpg" alt="" width="320" height="212" /></a> photo credit: SpecialKRB (Flickr)[/caption]
+<figure><img title="Quill" src="http://farm3.staticflickr.com/2504/3805699025_d68718a091_n.jpg" alt="" width="320" height="212" /><figcaption>photo credit: SpecialKRB (Flickr)</figcaption></figure>
 
 The <a href="http://agilemanifesto.org/" target="_blank">Agile Manifesto</a> is a classic. It changed the industry. Not everything about "agile" is automatically wonderful (particularly when it becomes an excuse for lazy planning), but the foundational principles are so, so true! Go. Read. Sign.
 

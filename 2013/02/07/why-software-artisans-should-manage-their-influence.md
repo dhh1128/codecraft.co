@@ -10,7 +10,7 @@ Although Godin isn't speaking specifically about software craftsmen, I see direc
 
 Have you considered how to grow your influence? Do you have a plan?
 
-[caption id="" align="aligncenter" width="500"]<a href="http://xkcd.com/1170/"><img class=" " alt="" src="http://imgs.xkcd.com/comics/bridge.png" width="500" height="161" /></a> Influence doesn't always work the way we expect. :-) Image credit: xkcd[/caption]
+<figure><img class=" " alt="" src="http://imgs.xkcd.com/comics/bridge.png" width="500" height="161" /><figcaption>Influence doesn't always work the way we expect. :-) Image credit: xkcd</figcaption></figure>
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://popalx.wordpress.com/2013/01/09/seth-godin-how-to-get-your-ideas-to-spread/" target="_blank">Seth Godin - How to get your ideas to spread</a> (popalx.wordpress.com)</li>

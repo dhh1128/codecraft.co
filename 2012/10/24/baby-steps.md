@@ -4,7 +4,7 @@ date: 2012/10/24
 slug: baby-steps
 ---
 
-[caption id="" align="alignright" width="275"]<a href="http://en.wikipedia.org/wiki/File:What_About_Bob_film.jpg" target="_blank"><img class="zemanta-img-inserted zemanta-img-configured " alt="" src="http://upload.wikimedia.org/wikipedia/en/8/84/What_About_Bob_film.jpg" width="275" height="425" /></a> Film poster, displayed under fair use as documented on Wikimedia Commons.[/caption]
+<figure><img class="zemanta-img-inserted zemanta-img-configured " alt="" src="http://upload.wikimedia.org/wikipedia/en/8/84/What_About_Bob_film.jpg" width="275" height="425" /><figcaption>Film poster, displayed under fair use as documented on Wikimedia Commons.</figcaption></figure>
 
 If you've seen the delightful comedy movie, <em><a class="zem_slink" title="What About Bob?" href="http://www.rottentomatoes.com/m/what_about_bob" target="_blank" rel="rottentomatoes">What About Bob</a>?</em>, you are no doubt smiling at my title.
 

@@ -9,7 +9,7 @@ The day after Thanksgiving I went on a long road trip to eastern Wyoming. Total 
 
 At a gas station about 2 hours from home, on the way back, my credit card was declined. Apparently, fraud prevention algorithms at my credit card company had decided that it was suspicious for me to use my credit card out of state. This was rather irritating, since I'd just driven 12 hours on this same highway, using this same credit card to fill up the car, out of state, 2 other times in the previous 24 hours.
 
-[caption id="" align="aligncenter" width="500"]<img alt="" src="http://farm3.staticflickr.com/2002/2069439389_37db50cb39.jpg" width="500" height="375" /> Photo credit: herzogbr (Flickr)[/caption]
+<figure><img alt="" src="http://farm3.staticflickr.com/2002/2069439389_37db50cb39.jpg" width="500" height="375" /><figcaption>Photo credit: herzogbr (Flickr)</figcaption></figure>
 
 I used an alternate card and finished my trip. When I got home, I called American Express to get the card unblocked. (The block didn't just apply to gas stations in Wyoming--once suspicious, the company wouldn't let me buy gas a block from my house, either.) I spent 5-10 minutes working my way through an automated phone queue. It asked for several pieces of info to prove I was, indeed, the card holder--all 16 digits of the card, the 3-digit code on the back, last 4 digits of my social security number, phenotype of my dog... I had to call back twice--once because a family member asked me a question while I was fishing my card out of the wallet, and the system lost patience waiting for a response, and once because I pushed the wrong key and had no way to backspace.
 

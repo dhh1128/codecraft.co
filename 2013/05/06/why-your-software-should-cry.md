@@ -8,7 +8,7 @@ The problem of pain has bothered philosophers--particularly those with a religio
 
 But pain barely impinges on the thinking of software engineers at all. Computers never wince, or complain, or mourn the loss of a favorite program (Marvin the paranoid android excepted). An OS runs at full speed until the instant when its kernel "panics" without warning; once you reboot, it acts as if nothing ever happened. No sniffles, no whimpers, no scabs...
 
-[caption id="" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/lsuchick142/4480361923/"><img alt="" src="http://farm3.staticflickr.com/2717/4480361923_229a1eb003.jpg" width="500" height="333" /></a> photo credit: nanny snowflake (Flickr)[/caption]
+<figure><img alt="" src="http://farm3.staticflickr.com/2717/4480361923_229a1eb003.jpg" width="500" height="333" /><figcaption>photo credit: nanny snowflake (Flickr)</figcaption></figure>
 
 This is unfortunate.
 
@@ -22,7 +22,7 @@ Gently introduce a poison into the water current, <!--more-->and <em>Stentor roe
 
 If that still doesn't achieve the necessary effect, this cell will contract into a protective sheath and stop feeding altogether. It will stay cocooned for a while, then cautiously extend feelers to see if the poison is gone. Repeated encounters with the poison will cause faster and faster triggers of the sheathing reaction, until, finally, the reaction is violent enough that the foot attachment breaks, and the protozoa swims away, looking for a better home (see <em>Wetware: a Computer in Every Living Cell</em>, by Dennis Bray, p. 14-17). This is a single cell, folks, less than a milimeter in size--a blob of protoplasm and proteins in a semi-permeable membrane!
 
-[caption id="" align="aligncenter" width="461"]<a href="http://en.wikipedia.org/wiki/File:Stentor_roeseli_composite_image.jpg"><img class=" " alt="" src="http://upload.wikimedia.org/wikipedia/commons/5/5a/Stentor_roeseli_composite_image.jpg" width="461" height="287" /></a> Stentor roeseli. photo credit: Protist Image Database (Wikimedia Commons)[/caption]
+<figure><img class=" " alt="" src="http://upload.wikimedia.org/wikipedia/commons/5/5a/Stentor_roeseli_composite_image.jpg" width="461" height="287" /><figcaption>Stentor roeseli. photo credit: Protist Image Database (Wikimedia Commons)</figcaption></figure>
 
 I believe that pain--and, more generally, optimized reactions to stimuli--is one reason why life is capable of organizing into complex ecosystems that put our most sophisticated software constructions to shame. Make zebras careless of crocodile bites, and half the herd will die when they migrate across an African river. Make ants insensitive to heat and moisture, and they'll build a hill where the whole colony will bake or drown. Subtract neurological feedback from humans, and you get the disfiguring of leprosy—spreading freely, since nobody feels a need for quarantine.
 

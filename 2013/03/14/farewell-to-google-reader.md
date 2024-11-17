@@ -10,7 +10,7 @@ If you've been following blogs with Google Reader, you were probably unhappy wit
 
 <strong>Suggestion 1</strong>: If you're following my blog in Google Reader, click on the "Follow" button at the top of the right sidebar so you can follow this blog by email. I need your email address more than your launch coordinates. ;-)
 
-[caption id="" align="aligncenter" width="500"]<a href="http://xkcd.com/970/"><img class=" " alt="" src="http://imgs.xkcd.com/comics/the_important_field.png" width="500" height="217" /></a> image credit: xkcd.com[/caption]
+<figure><img class=" " alt="" src="http://imgs.xkcd.com/comics/the_important_field.png" width="500" height="217" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
 <strong>Suggestion 2</strong>: For any other sites you're following in Google Reader, look for an email subscription link as a replacement. Or use <a href="http://blogtrottr.com/" target="_blank">blogtrottr</a> to scan RSS feeds and email you updates at whatever frequency you prefer. Or check out <a href="http://marketingland.com/12-google-reader-alternatives-36158" target="_blank">feedly, taptu, and other reader alternatives</a>.
 

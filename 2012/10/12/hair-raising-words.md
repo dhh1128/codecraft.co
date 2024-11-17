@@ -6,7 +6,7 @@ slug: hair-raising-words
 
 My daughter just got back from touring a "haunted circus" with her friends. She reports that the clowns were terrifying. (For those who aren't living in North America, the Halloween holiday is a time when the macabre and spooky are in vogue.)
 
-[caption id="" align="aligncenter" width="468"]<img title="scary clown" alt="" src="http://upload.wikimedia.org/wikipedia/commons/e/ea/Scary_clown.jpg" height="351" width="468" /> Coulrophobia--the fear of clowns. Image credit: Graeme Maclean (Wikimedia Commons).[/caption]
+<figure><img title="scary clown" alt="" src="http://upload.wikimedia.org/wikipedia/commons/e/ea/Scary_clown.jpg" height="351" width="468" /><figcaption>Coulrophobia--the fear of clowns. Image credit: Graeme Maclean (Wikimedia Commons).</figcaption></figure>
 
 Well, I'm a programmer; I can get chills down my spine without paying an entrance fee. All I have to do is go to a meeting where certain words get tossed around casually. Blood drains from my face; my heart starts racing; visions of apocalypse dance before my eyes.
 

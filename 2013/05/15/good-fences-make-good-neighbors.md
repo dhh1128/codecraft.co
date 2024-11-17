@@ -6,7 +6,7 @@ slug: good-fences-make-good-neighbors
 
 In Robert Frost's poem, "Mending Wall", two farmers meet each spring to rebuild the rock wall between their properties. One farmer is the narrator. He notes that the unseen forces of winter and weather always cause some decay ("something there is that doesn't love a wall"), and he wonders why the wall is necessary. There's apple orchard on one side, and pine forest on the other--it's not as if something will be kept in or out. The other farmer answers with the repeated aphorism "good fences make good neighbors."
 
-[caption id="" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/dragonwoman/226824603/"><img alt="" src="http://farm1.staticflickr.com/74/226824603_1285fc9181.jpg" width="500" height="333" /></a> photo credit: DragonWoman (Flickr)[/caption]
+<figure><img alt="" src="http://farm1.staticflickr.com/74/226824603_1285fc9181.jpg" width="500" height="333" /><figcaption>photo credit: DragonWoman (Flickr)</figcaption></figure>
 
 This poem could be a treatise for the principle of encapsulation in software. In software as in life:
 <ul>

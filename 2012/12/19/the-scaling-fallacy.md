@@ -12,7 +12,7 @@ One of my favorite books, <a href="http://www.amazon.com/Universal-Principles-D
 
 Have you ever heard that an ant can lift many times its own weight--and that if that if one were the size of a human, it could hoist a car over its head with ease? The first part of that assertion is true, but the conclusion folks draw is completely bogus. Exoskeletons cease to be a viable structure on which to anchor muscle and tissue at sizes much smaller than your average grown-up; the <a class="zem_slink" title="Specific strength" href="http://en.wikipedia.org/wiki/Specific_strength" target="_blank" rel="wikipedia">strength-to-weight ratio</a> just isn't good enough. Chitin is only about as tough as fingernails.
 
-[caption id="" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/ink2012/8146750081/"><img alt="" src="http://farm9.staticflickr.com/8050/8146750081_0e07106d00.jpg" width="500" height="264" /></a> Tough little bugger -- but not an olympic champion at human scale. Image credit: D.A.Otee (Flickr)[/caption]
+<figure><img alt="" src="http://farm9.staticflickr.com/8050/8146750081_0e07106d00.jpg" width="500" height="264" /><figcaption>Tough little bugger -- but not an olympic champion at human scale. Image credit: D.A.Otee (Flickr)</figcaption></figure>
 
 I'd long understood the flaws in the big-ant-lifting-cars idea, but the flight example from the book was virgin territory for me.
 

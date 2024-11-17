@@ -8,7 +8,7 @@ A while back, I was reading the blog of somebody smart (can't remember who), and
 
 <em>Sounds good</em>, I thought. <em>I think I'll give it a shot.</em>
 
-[caption id="" align="alignright" width="289"]<img class=" " alt="" src="http://upload.wikimedia.org/wikipedia/commons/a/af/Confusion_of_Tongues.png" width="289" height="334" /> "Confusion of Tongues", by Gustave Doré. The Tower of Babel resonates beyond moral history. Image credit: Wikimedia Commons.[/caption]
+<figure><img class=" " alt="" src="http://upload.wikimedia.org/wikipedia/commons/a/af/Confusion_of_Tongues.png" width="289" height="334" /><figcaption>"Confusion of Tongues", by Gustave Doré. The Tower of Babel resonates beyond moral history. Image credit: Wikimedia Commons.</figcaption></figure>
 
 I began doing research and taking notes. I thought hard about which features I liked and detested in programming languages. I read critiques and tributes to various languages by detractors and fans. I identified pieces of syntactic sugar that I wanted to support. I took a wad of existing code and tried to rewrite it using the language I was drafting. I picked some conventions for filenames. I played with yacc and antlr and experimented with definitions of context-free grammars.
 

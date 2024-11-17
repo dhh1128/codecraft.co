@@ -12,7 +12,7 @@ Here are two C++ style habits that I recommend. Neither is earth-shattering, but
 <pre style="padding-left:30px;font-size:100%;margin-bottom:1em;">if (i == 0)</pre>
 The reason is simple. If you forget/mis-type and accidentally write a single <code>=</code> instead of two, making the expression into an assignment, you'll get a compile error, instead of subtle and difficult-to-find misbehavior. (Thanks to my friend Doug for reminding me about this one not long ago.)
 
-[caption id="" align="alignright" width="252"]<a href="http://xkcd.com/138/"><img class=" " alt="" src="http://imgs.xkcd.com/comics/pointers.png" height="209" width="252" /></a> Ah, the joys of pointers... Image credit: xkcd.[/caption]
+<figure><img class=" " alt="" src="http://imgs.xkcd.com/comics/pointers.png" height="209" width="252" /><figcaption>Ah, the joys of pointers... Image credit: xkcd.</figcaption></figure>
 
 2. With any data types that involve pointers, prefer putting the <code>const</code> keyword <em>after</em> the item that it modifies:
 <pre style="padding-left:30px;font-size:100%;margin-bottom:1em;">char const * VERSION = "2.5";</pre>

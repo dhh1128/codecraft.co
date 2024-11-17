@@ -4,7 +4,7 @@ date: 2012/10/14
 slug: paying-off-technical-debt
 ---
 
-[caption id="" align="alignright" width="213"]<a href="http://www.flickr.com/photos/alancleaver/4105722502/"><img alt="" src="http://farm3.staticflickr.com/2785/4105722502_a442444bb9_n.jpg" height="320" width="213" /></a> We don't get spam about how to consolidate our technical debts. :-) Image credit: Alan Cleaver (Flickr)[/caption]
+<figure><img alt="" src="http://farm3.staticflickr.com/2785/4105722502_a442444bb9_n.jpg" height="320" width="213" /><figcaption>We don't get spam about how to consolidate our technical debts. :-) Image credit: Alan Cleaver (Flickr)</figcaption></figure>
 <blockquote><em>“Interest never sleeps nor sickens nor dies; it never goes to the hospital; it works on Sundays and holidays; it never takes a vacation; it never visits nor travels; it takes no pleasure; it is never laid off work nor discharged from employment; it never works on reduced hours. . . . Once in debt, interest is your companion every minute of the day and night; you cannot shun it or slip away from it; you cannot dismiss it; it yields neither to entreaties, demands, or orders; and whenever you get in its way or cross its course or fail to meet its demands, it crushes you.”</em>
 <p style="padding-left:30px;"><em>— <a class="zem_slink" title="J. Reuben Clark" href="http://en.wikipedia.org/wiki/J._Reuben_Clark" target="_blank" rel="wikipedia">J. Reuben Clark</a></em></p>
 </blockquote>

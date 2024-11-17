@@ -8,7 +8,7 @@ When I was a technical director at Symantec, I had to formally certify at the en
 
 A side agreement is any arrangement that takes place out-of-band, off-the-books, or using private channels not normally examined by accountants. In business, they are usually a bad thing; they can be used to build Enron- or Madoff-style house-of-cards revenue pipelines that are gleaming and glittery at first glance, but that are ripe for collapse because they're full of hidden caveats and preconditions.
 
-[caption id="" align="aligncenter" width="640"]<a href="https://www.flickr.com/photos/dawilson/3389046866/sizes/z/"><img src="https://farm4.staticflickr.com/3593/3389046866_c642884f48_z_d.jpg" width="640" height="283" /></a> The former Enron towner, now owned by Chevron. Image credit: DaveWilsonPhotography (Flickr)[/caption]
+<figure><img src="https://farm4.staticflickr.com/3593/3389046866_c642884f48_z_d.jpg" width="640" height="283" /><figcaption>The former Enron towner, now owned by Chevron. Image credit: DaveWilsonPhotography (Flickr)</figcaption></figure>
 
 The problem of side agreements might not impinge on the consciousness of software engineers much, except when they grumble that sales or execs or product management is "selling the roadmap" instead of shipping features. But would you believe me if I said that engineers perpetrate their own Enron-esque side agreements all the time?
 

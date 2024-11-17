@@ -22,7 +22,7 @@ Technogeeks (like me): business people are not dumb. Why did they settle on this
 
 The answer is that debt can allow a company to concentrate enough capital in a short enough timeframe to make high-impact strategic moves that would otherwise be impossible. It's an enabler and multiplier.
 
-[caption id="" align="aligncenter" width="444"]<a href="http://xkcd.com/857/"><img alt="" src="http://imgs.xkcd.com/comics/archimedes.png" width="444" height="285" /></a> Another take on leverage. Image credit: xkcd.[/caption]
+<figure><img alt="" src="http://imgs.xkcd.com/comics/archimedes.png" width="444" height="285" /><figcaption>Another take on leverage. Image credit: xkcd.</figcaption></figure>
 
 Debt is a fundamental machine in the business toolkit, just as levers are a fundamental machine for mechanical engineers. Almost all businesses use debt to some extent. If a CEO can borrow capital at 9% and produce 12% ROI with it, and <!--more-->if the risk implied by that gap is low enough, then not borrowing would be a violation of his <a class="zem_slink" title="Fiduciary" href="http://en.wikipedia.org/wiki/Fiduciary" target="_blank" rel="wikipedia">fiduciary responsibility</a> to stockholders. In fact, I'd go so far as to say that capitalism is somewhat founded on the notion that debt allows money to flow to its most efficient use.
 
@@ -44,7 +44,7 @@ Of course, just because it was smart to buy on credit doesn't mean you should ma
 
 I can remember my grandmother whistling in the kitchen as she sealed an envelope and put a stamp on it.
 
-[caption id="" align="alignleft" width="240"]<a href="http://www.flickr.com/photos/haggismac/4984697380/"><img alt="" src="http://farm5.staticflickr.com/4088/4984697380_29b76f123f_m.jpg" width="240" height="161" /></a> Image credit: Sean Loyless (Flickr)[/caption]
+<figure><img alt="" src="http://farm5.staticflickr.com/4088/4984697380_29b76f123f_m.jpg" width="240" height="161" /><figcaption>Image credit: Sean Loyless (Flickr)</figcaption></figure>
 
 "What are you mailing?" I asked.
 

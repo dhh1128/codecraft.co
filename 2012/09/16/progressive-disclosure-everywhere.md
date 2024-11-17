@@ -24,7 +24,7 @@ Good conversationalists don't gush forever on a topic. They throw out an observa
 
 The development of a complex organism from a one-celled zygote, through differentiation and all subsequent phases, into adulthood, could be considered a progressive disclosure of the patterns embedded in its DNA. The recursive incorporation of the golden mean in many morphologies is another tie to biology.
 
-[caption id="" align="aligncenter" width="356"]<a href="http://en.wikipedia.org/wiki/File:NautilusCutawayLogarithmicSpiral.jpg"><img class="  " title="nautilus shell" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/635px-NautilusCutawayLogarithmicSpiral.jpg" alt="" width="356" height="269" /></a> A nautilus grows--progressively discloses--the protective covering it requires over its lifespan. The golden mean, repeated and repeated... Photo credit: Wikimedia Commons.[/caption]
+<figure><img class="  " title="nautilus shell" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/635px-NautilusCutawayLogarithmicSpiral.jpg" alt="" width="356" height="269" /><figcaption>A nautilus grows--progressively discloses--the protective covering it requires over its lifespan. The golden mean, repeated and repeated... Photo credit: Wikimedia Commons.</figcaption></figure>
 
 In journalism, the <a href="http://en.wikipedia.org/wiki/Inverted_pyramid" target="_blank">inverted pyramid</a> approach to storytelling is a form of progressive disclosure. So are headlines.
 

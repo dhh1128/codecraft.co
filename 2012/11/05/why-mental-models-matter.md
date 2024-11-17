@@ -10,7 +10,7 @@ As they get deeper into their careers, good engineers gradually realize that the
 <p style="text-align:center;font-size:140%;">product = (software = code) + augment</p>
 I'd put this equation into words as follows: the purpose of dev teams is to create products, which consist of software (a synonym for code) plus auxiliary offerings like support, documentation, and services.
 
-[caption id="" align="aligncenter" width="500"]<a href="http://xkcd.com/895/"><img alt="" src="http://imgs.xkcd.com/comics/teaching_physics.png" height="226" width="500" /></a> Equations capture mental models... Image credit: xkcd[/caption]
+<figure><img alt="" src="http://imgs.xkcd.com/comics/teaching_physics.png" height="226" width="500" /><figcaption>Equations capture mental models... Image credit: xkcd</figcaption></figure>
 
 This is the level of sophistication at which much of the software industry operates. It is taught by academia (at least, if you <a href="http://www.marketingteacher.com/lesson-store/lesson-three-levels-of-a-product.html" target="_blank">listen to business professors</a>), and it's the philosophy that underpins lots of outsourcing decisions, as well as strategic mergers and acquisitions.
 
@@ -32,7 +32,7 @@ Of course, tech companies <em>do</em> build products--or solve customer problems
 
 Besides products, tech companies produce and propagate mental models. Or in other words, they enable and shape our view of the world.
 
-[caption id="" align="alignright" width="240"]<a href="http://www.flickr.com/photos/27180696@N02/4612823598" target="_blank"><img class="zemanta-img-inserted zemanta-img-configured " title="Mental Model II" alt="" src="http://farm5.static.flickr.com/4057/4612823598_a82864475e_m.jpg" height="164" width="240" /></a> Photo credit: daveelf (Flickr)[/caption]
+<figure><img class="zemanta-img-inserted zemanta-img-configured " title="Mental Model II" alt="" src="http://farm5.static.flickr.com/4057/4612823598_a82864475e_m.jpg" height="164" width="240" /><figcaption>Photo credit: daveelf (Flickr)</figcaption></figure>
 
 These mental models of the world matter. They--not products--are the nuggets of gold for which we prospect. Ask Galileo.
 

@@ -8,7 +8,7 @@ I just finished the nastiest debugging experience of my career--nearly 3 weeks o
 
 Hindsight teaches me this lesson: <em style="color:#706;">undocumented, unhandled constraints waste enormous amounts of time and energy</em>. If you're interested in writing good code, you must know your limits, and you must communicate them. This especially matters when the constraints are obscure or surprising.
 
-[caption id="" align="aligncenter" width="500"]<a href="https://www.flickr.com/photos/ericdege/3137178654/sizes/l/"><img class="" src="https://farm4.staticflickr.com/3084/3137178654_0796758be3.jpg" alt="" width="500" height="313" /></a> image credit: ericdege (Flickr)[/caption]
+<figure><img class="" src="https://farm4.staticflickr.com/3084/3137178654_0796758be3.jpg" alt="" width="500" height="313" /><figcaption>image credit: ericdege (Flickr)</figcaption></figure>
 <h3>Naive optimism</h3>
 My bug seemed simple enough at first blush:<!--more--> I was seeing crashes in a daemon that uses machine learning to classify internet traffic. I'd just rewritten the app's DNS subsystem to increase throughput, and the crashes often happened in my new event-processing loop. The loop fired off callbacks to service sockets as they became unblocked; I assumed I had some kind of off-by-one error in my sockets array, or maybe I wasn't cleaning up sockets consistently.
 

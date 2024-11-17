@@ -12,7 +12,7 @@ I have several deep professional connections to big data<sup>[<a href="#foot1">1
 
 The fact is, most of the "data" that's exploding is not hard-won intellectual treasure for the ages; it's marginal stuff like the viewing history on Fred Flintstone's deleted Netflix account. More than big data, we're experiencing a "big crud" wave, because we're pack rats. This comic has it right:<!--more-->
 
-[caption id="" align="aligncenter" width="441"]<a href="http://www.qwantz.com/index.php?comic=2292"><img class=" " src="http://www.qwantz.com/comics/comic2-2303.png" alt="" width="441" height="300" /></a> image credit: Ryan North (qwantz.com)[/caption]
+<figure><img class=" " src="http://www.qwantz.com/comics/comic2-2303.png" alt="" width="441" height="300" /><figcaption>image credit: Ryan North (qwantz.com)</figcaption></figure>
 
 I'm not claiming that all big data is worthless; some amazing things become possible at the scale of billions of records. For Netflix, maybe Fred Flintstone's viewing history <em>is</em> valuable. Maybe. However, big data is only an asset if we can derive some value from it. And an awful lot of big data doesn't pass that smell test, either because our tools are inadequate, or because the data becomes stale, or because it wasn't particularly interesting data to start with.
 

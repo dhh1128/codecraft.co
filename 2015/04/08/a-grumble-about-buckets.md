@@ -10,7 +10,7 @@ However, this strategy comes with an important caveat:
 <div style="margin-left:2em;margin-right:2em;border:solid 1px black;font-size:105%;font-weight:bold;font-style:italic;text-align:center;background-color:#f0f0f0;padding:1em;margin-bottom:1.5em;">If you're going to force all choices into a few predefined buckets, you better provide buckets that <a href="../../../2012/11/05/why-mental-models-matter/" title="Why Mental Models Matter">match the needs</a> of your <a href="../../../2008/06/25/why-people-are-part-of-a-software-architecture/" title="Why People Are Part of A Software Architecture">users</a>.</div>
 Broken buckets will not earn you brownie points. Or revenue.
 
-[caption id="" align="aligncenter" width="640"]<a href="https://www.flickr.com/photos/evaekeblad/3993532812/sizes/z/"><img class="" src="https://farm3.staticflickr.com/2509/3993532812_e63f29c43b_z.jpg" alt="" width="640" height="480" /></a> image credit: Eva the Weaver (Flickr)[/caption]
+<figure><img class="" src="https://farm3.staticflickr.com/2509/3993532812_e63f29c43b_z.jpg" alt="" width="640" height="480" /><figcaption>image credit: Eva the Weaver (Flickr)</figcaption></figure>
 
 Today I was adjusting my 401k contribution. Here's the broken buckets I saw when I logged in to the financial services website:
 

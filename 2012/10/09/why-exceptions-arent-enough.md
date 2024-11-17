@@ -11,7 +11,7 @@ Back in the dark ages, programmers wrote functions that returned numeric errors:
 }</pre>
 This methodology has the virtue of being simple and fast. We could <code>switch</code> based on the error code. A "feature" of our apps was that our users could google an error code to see if they had company:
 
-[caption id="" align="aligncenter" width="388"]<a href="http://xkcd.com/979/"><img class=" " src="http://imgs.xkcd.com/comics/wisdom_of_the_ancients.png" alt="" width="388" height="216" /></a> Image credit: xkcd.com[/caption]
+<figure><img class=" " src="http://imgs.xkcd.com/comics/wisdom_of_the_ancients.png" alt="" width="388" height="216" /><figcaption>Image credit: xkcd.com</figcaption></figure>
 
 However, as we wrote code, we sometimes forgot to check errors, or tell users about them:
 <pre style="border:solid 1px #ccc;background-color:#eee;margin-left:4em;padding:.5em;display:inline-block;margin-bottom:1em;">prepare();
@@ -118,7 +118,7 @@ Nobody does this. It's just too easy to let the exception propagate.
 
 Even if they did, notice that it <em>still</em> wouldn't answer the user's second question very well. So much for good advice.
 
-[caption id="" align="aligncenter" width="413"]<a href="http://xkcd.com/306/"><img src="http://imgs.xkcd.com/comics/orphaned_projects.png" alt="" width="413" height="168" /></a> Image credit: xkcd.com[/caption]
+<figure><img src="http://imgs.xkcd.com/comics/orphaned_projects.png" alt="" width="413" height="168" /><figcaption>Image credit: xkcd.com</figcaption></figure>
 
 <strong>So what's the answer?</strong>
 

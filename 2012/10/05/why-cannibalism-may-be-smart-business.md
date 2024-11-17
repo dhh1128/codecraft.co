@@ -6,7 +6,7 @@ slug: why-cannibalism-may-be-smart-business
 
 Get out your fork. I've got a story for you...
 
-[caption id="" align="alignright" width="240"]<a href="http://www.flickr.com/photos/alebonvini/2362260782/"><img title="fork, meat" src="http://farm3.staticflickr.com/2282/2362260782_c834e5bc13_n.jpg" alt="" width="240" height="320" /></a> Dig in. Don't hold back. Photo credit: AleBonvini (Flickr)[/caption]
+<figure><img title="fork, meat" src="http://farm3.staticflickr.com/2282/2362260782_c834e5bc13_n.jpg" alt="" width="240" height="320" /><figcaption>Dig in. Don't hold back. Photo credit: AleBonvini (Flickr)</figcaption></figure>
 
 At the beginning of 2005, Symantec acquired Veritas. Together, Veritas's <a class="zem_slink" title="Backup Exec" href="http://www.symantec.com/backupexec/" rel="homepage" target="_blank">BackupExec</a> and NetBackup products accounted for something like 70-80% of the world's enterprise backup market. As I recall, BackupExec had annual sales of around $600M, and NetBackup was similar.
 
@@ -28,7 +28,7 @@ Our team advocated strongly enough that we got a compromise of sorts. Disk-based
 
 However, my concerns about sales and marketing misalignment proved well-founded. A year or two after the transition, BESR was growing at 10% per year instead of 100%, even though competitors like Acronis and StorageCraft were growing by leaps and bounds. We didn't have the market momentum and corresponding dev funding to pursue critical initiatives like cloud integration. The product began to starve. Ultimately dev work was shipped overseas and the team that built BESR was laid off. I don't know exactly what BE revenues are today, but I suspect growth is pretty flat, and <a href="http://www.wired.com/cloudline/2012/08/cloud-backup-vendors/" target="_blank">seriously threatened by virtualization and cloud</a>. Traditional backup isn't quite irrelevant, but it's getting there...
 
-[caption id="" align="aligncenter" width="444"]<a href="http://en.wikipedia.org/wiki/Disruptive_innovation"><img class="  " title="traditional backup gets long in the tooth" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Disruptivetechnology.gif/634px-Disruptivetechnology.gif" alt="" width="444" height="336" /></a> Virtualization and cloud are disruptive technologies for traditional backup. Result: traditional backup gets displaced at higher and higher bars of functionality as you move right. Image credit: Megapixie (Wikimedia Commons).[/caption]
+<figure><img class="  " title="traditional backup gets long in the tooth" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Disruptivetechnology.gif/634px-Disruptivetechnology.gif" alt="" width="444" height="336" /><figcaption>Virtualization and cloud are disruptive technologies for traditional backup. Result: traditional backup gets displaced at higher and higher bars of functionality as you move right. Image credit: Megapixie (Wikimedia Commons).</figcaption></figure>
 
 <strong>The moral</strong>
 

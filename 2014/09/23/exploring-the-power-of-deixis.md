@@ -10,7 +10,7 @@ The other day my daughter was in the backseat as I pulled out of the driveway, 
 
 "That one," she said, without any clarification.
 
-[caption id="" align="aligncenter" width="640"]<a href="https://www.flickr.com/photos/fofie57/2271777379/sizes/z/"><img class="" src="https://farm3.staticflickr.com/2207/2271777379_330a7108f4_z.jpg" alt="" width="640" height="426" /></a> Image credit: fofie57 (Flickr)[/caption]
+<figure><img class="" src="https://farm3.staticflickr.com/2207/2271777379_330a7108f4_z.jpg" alt="" width="640" height="426" /><figcaption>Image credit: fofie57 (Flickr)</figcaption></figure>
 
 "<em>Which</em> one?" I said again. "I don't know what you mean when you say 'that'..."
 

@@ -4,7 +4,7 @@ date: 2013/03/05
 slug: are-you-losing-enough-battles
 ---
 
-[caption id="" align="alignright" width="320"]<a href="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG/320px-George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG/320px-George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG" width="320" height="240" /></a> Portrait of McClellan. Image credit: Wikimedia Commons.[/caption]
+<figure><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG/320px-George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG" width="320" height="240" /><figcaption>Portrait of McClellan. Image credit: Wikimedia Commons.</figcaption></figure>
 
 <a href="http://en.wikipedia.org/wiki/General_mcclellan" target="_blank">General George B. McClellan</a> was a brilliant planner, but his overly cautious style <a href="http://myloc.gov/Exhibitions/civil-war-in-america/april-1862-november-1862/ExhibitObjects/Lees-Lost-Orders-and-McClellans-Wasted-Opportunity.aspx" target="_blank">may have tacked years onto the U.S. civil war</a>. Lincoln became frustrated, commenting with devastating wit that "McClellan is always almost ready to fight." Eventually McClellan's risk aversion forced Linoln to relieve him of command, after sending a telegram that read, <a href="http://rileyhayes.com/blog/general-inaction-vs-general-in-action-2/" target="_blank">"If General McClellan isn't going to use his army, I'd like to borrow it for a time."</a>
 

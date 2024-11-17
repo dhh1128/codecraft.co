@@ -6,7 +6,7 @@ slug: coping-with-organizational-alzheimers
 
 Years ago, an astute manager summed up a problem that I had only vaguely intuited up to that point in my career.
 
-[caption id="" align="alignright" width="270"]<a href="http://www.flickr.com/photos/xpectro/2819335335/"><img title="memory" alt="" src="http://farm4.staticflickr.com/3106/2819335335_185586a19c.jpg" height="500" width="270" /></a> Do our memories leak? Image credit: xpectro (Flickr)[/caption]
+<figure><img title="memory" alt="" src="http://farm4.staticflickr.com/3106/2819335335_185586a19c.jpg" height="500" width="270" /><figcaption>Do our memories leak? Image credit: xpectro (Flickr)</figcaption></figure>
 
 "A big problem with most companies," said <a title="Roland Whatcott: Manage momentum." href="../../../2012/09/21/roland-whatcott-manage-momentum/" target="_blank">Roland</a>, "is that they have no institutional memory."
 

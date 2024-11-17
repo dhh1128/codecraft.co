@@ -11,7 +11,7 @@ My huddle was not going well. I'd called a meeting to debate a tricky architectu
 
 Five minutes later, the meeting was over, and the controversy was settled. Don had "put a stake in the ground," as he called it -- picked a spot and made a tangible, semi-permanent choice to anchor our behavior.
 
-[caption id="" align="aligncenter" width="320"]<a href="http://en.wikipedia.org/wiki/File:Wooden_stake_holding_guy_rope.jpg"><img title="wooden stake" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Wooden_stake_holding_guy_rope.jpg/320px-Wooden_stake_holding_guy_rope.jpg" alt="" width="320" height="240" /></a> A stake in the ground. :-) Photo credit: Wikimedia Commons.[/caption]
+<figure><img title="wooden stake" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Wooden_stake_holding_guy_rope.jpg/320px-Wooden_stake_holding_guy_rope.jpg" alt="" width="320" height="240" /><figcaption>A stake in the ground. :-) Photo credit: Wikimedia Commons.</figcaption></figure>
 
 <strong>Answer the hard questions</strong>
 

@@ -8,7 +8,7 @@ With a title like the one above, you may be expecting a rant from an IDE bigot. 
 
 This is not that kind of post. For one thing, I don't take myself so seriously:
 
-[caption id="" align="aligncenter" width="740"]<a href="http://xkcd.com/378/"><img src="http://imgs.xkcd.com/comics/real_programmers.png" alt="" width="740" height="406" /></a> There's a keystroke for that! Image credit: xkcd.com[/caption]
+<figure><img src="http://imgs.xkcd.com/comics/real_programmers.png" alt="" width="740" height="406" /><figcaption>There's a keystroke for that! Image credit: xkcd.com</figcaption></figure>
 
 What I'm hoping to do here is point out some subtleties to this debate that don't get a lot of airtime, and explain to my supercharged-text-editor friends why I work the way I do. However, I also plan to write a companion to this post, explaining why you need to learn a tool in the vim/emacs category, and I'll have plenty to say on that topic as well. Hopefully that buys me a few minutes of an open mind. :-)
 <h3>From a distance</h3>

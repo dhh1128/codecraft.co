@@ -14,7 +14,7 @@ After I pondered his question for a while, I realized that some of my opinion re
 
 However, I also found some arguments for the small-file principle that feel more substantive. Small files are your friends.
 
-[caption id="" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/miguelandresen/5166773331/"><img alt="" src="http://farm5.staticflickr.com/4002/5166773331_bb50dfa3b0.jpg" width="500" height="320" /></a> More small friends. Photo credit: miguelandresen (Flickr)[/caption]
+<figure><img alt="" src="http://farm5.staticflickr.com/4002/5166773331_bb50dfa3b0.jpg" width="500" height="320" /><figcaption>More small friends. Photo credit: miguelandresen (Flickr)</figcaption></figure>
 
 <strong>Named scopes and cognitive complexity</strong>
 

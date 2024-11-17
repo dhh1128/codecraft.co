@@ -10,7 +10,7 @@ The CEO cleared a block on her schedule and sat down with me. She poked a bit at
 
 I think it's the best job interview question anyone has ever asked me.
 
-[caption id="" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/chiotsrun/4408808405/"><img title="humble tasks" src="http://farm3.staticflickr.com/2785/4408808405_4460d0e7be.jpg" alt="" width="500" height="328" /></a> A great perspective on humility. Photo credit: Chiot's Run (Flickr).[/caption]
+<figure><img title="humble tasks" src="http://farm3.staticflickr.com/2785/4408808405_4460d0e7be.jpg" alt="" width="500" height="328" /><figcaption>A great perspective on humility. Photo credit: Chiot's Run (Flickr).</figcaption></figure>
 
 <strong>Real humility</strong>
 
