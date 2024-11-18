@@ -20,7 +20,7 @@ I think the second equation is better than the first, but it's still woefully in
 
 For one thing, it ignores the interrelationships among software, hardware, enabling ecosystems, and customer communities. Products don't exist in isolation; they are part of an embedded system made possible (and relevant) by societal conventions and other technologies. "Microsoft Word" and "Adobe Photoshop" are not "products" for <a class="zem_slink" title="Bushmen" href="http://en.wikipedia.org/wiki/Bushmen" target="_blank" rel="wikipedia">Kalahari bushmen</a>.
 
-For another, software is more than code. Notice the subtitle of my blog... Software includes people as a fundamental ingredient. In the shadows of every architecture diagram is an assumed human being (or an army of them), providing input or accepting output. How else do we think our systems will be installed, configured, optimized? How will our databases get populated, our backups get mounted, our e-books get typeset, or our web searches get chosen? (See my posts about <a title="Why People Are Part of A Software Architecture" href="/why-people-are-part-of-a-software-architecture/">people in architecture</a> and <a title="What Role Are You Playing in RPCD?" href="/2012/06/25/what-role-are-you-playing-in-rpcd/">role-playing in design</a>.)
+For another, software is more than code. Notice the subtitle of my blog... Software includes people as a fundamental ingredient. In the shadows of every architecture diagram is an assumed human being (or an army of them), providing input or accepting output. How else do we think our systems will be installed, configured, optimized? How will our databases get populated, our backups get mounted, our e-books get typeset, or our web searches get chosen? (See my posts about <a title="Why People Are Part of A Software Architecture" href="what-role-are-you-playing-in-rpcd.md">role-playing in design</a>.)
 
 Both of those critiques are important, I think. But today I have a different bone to pick.
 
@@ -38,7 +38,7 @@ These mental models of the world matter. They--not products--are the nuggets of 
 
 How much of popular culture is built on scaffolding provided by an idea that used to exist only in the mind of an engineer? Engineers didn't just dream up plasma TVs or radios; they enabled the very idea of broadcasting. They didn't just figure out how to download files from the internet; they convinced us to think of data blobs in terms of files and folders in the first place. They didn't just populate the App Store; they thought the concept of "app" into existence. I could go on and on with examples, but I'll leave that as an exercise for the reader.
 
-As I said in <a title="// Comments on Comments" href="/2012/10/31/comments-on-comments/" target="_blank">my post the other day about comments</a>, the mental models created by engineers are the most valuable output of the tech industry.
+As I said in <a title="// Comments on Comments" href="comments-on-comments.md" target="_blank">my post the other day about comments</a>, the mental models created by engineers are the most valuable output of the tech industry.
 
 <strong>MVP</strong>
 
@@ -52,7 +52,7 @@ Patents look nice in a war chest, but it's sophisticated mental models, not pate
 
 If you understand that tech companies produce mental models, then certain issues take on new significance.
 
-<a title="Paying Off Technical Debt" href="/2012/10/14/paying-off-technical-debt/">Tech debt</a> isn't just insidious because it makes code ugly. A kludge lets us get by with a flawed, ill-developed mental model of a problem domain--and if we build on that model, eventually we create a house of cards. Bad mental models bite us, sooner or later.
+<a title="Paying Off Technical Debt" href="paying-off-technical-debt.md">Tech debt</a> isn't just insidious because it makes code ugly. A kludge lets us get by with a flawed, ill-developed mental model of a problem domain--and if we build on that model, eventually we create a house of cards. Bad mental models bite us, sooner or later.
 
 Competition in a turbulent market is often decided by who has the better mental model. "Better" might mean the one closer to the predilections of the customer, or the one that has better long-term applicability.
 
@@ -64,8 +64,8 @@ A product that doesn't improve the mental model of the customer (e.g., by prunin
 
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://jackskchang.wordpress.com/2012/09/12/on-usability-evaluations-and-mental-models/" target="_blank">On Usability Evaluations and Mental Models</a> (jackskchang.wordpress.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://jackskchang.wordpress.com/2012/10/19/export-print-save-as-the-evolution-of-mental-models-along-with-mechanical-models/" target="_blank">Export, Print, Save As: The evolution of mental models along with mechanical models</a> (jackskchang.wordpress.com)</li>
+	<li class="zemanta-article-ul-li"><a href="on-usability-evaluations-and-mental-models.md" target="_blank">On Usability Evaluations and Mental Models</a> (jackskchang.wordpress.com)</li>
+	<li class="zemanta-article-ul-li"><a href="export-print-save-as-the-evolution-of-mental-models-along-with-mechanical-models.md" target="_blank">Export, Print, Save As: The evolution of mental models along with mechanical models</a> (jackskchang.wordpress.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://java.dzone.com/articles/knowledge-vs-superstition" target="_blank">Knowledge vs Superstition</a> (java.dzone.com)</li>
 </ul>
 

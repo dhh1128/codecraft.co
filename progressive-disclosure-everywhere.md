@@ -70,7 +70,7 @@ I believe one important lesson is that we ignore this principle at our peril. Hu
 
 Applied to software, I think we need to be much, much more aware of when we're disclosing too much too soon. There's a reason why encapsulation is one of the foundational ideas in OO theory, and why tight coupling is a major problem for living software ecosystems.
 
-I have some ideas about how progressive disclosure might manifest more cleanly in programming languages, and in the software craft in general. I explored one in my series of posts on <a title="Role-Play Centered Design" href="../../../2012/06/20/role-play-centered-design/">role-play centered design</a>. I'll disclose some more ideas ... progressively ... in other posts. :-)
+I have some ideas about how progressive disclosure might manifest more cleanly in programming languages, and in the software craft in general. I explored one in my series of posts on <a title="Role-Play Centered Design" href="role-play-centered-design.md">role-play centered design</a>. I'll disclose some more ideas ... progressively ... in other posts. :-)
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Analyze a piece of code with progressive disclosure lenses. What do you (what does the compiler) have to know about this code to interact with it successfully? For example, does a C++ header #include a bunch of other headers when it could use a forward declaration instead? Could you use the pimpl idiom to decrease what's exposed? Is there a class that should be used through an interface? Do the comments and names disclose the right amount of detail in the right places?</span></em></p>
 

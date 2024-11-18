@@ -53,7 +53,7 @@ My beef is not that we make tradeoffs--it's that we don't regret them enough, co
 <h2>A Higher Vision</h2>
 While I was writing this post, my internet connection kept dropping due to a snow storm. Look what I saw at the top of Wordpress's edit window:
 <p style="text-align:center;"><a href="../../../wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-16-32-pm.png"><img class="size-large wp-image-2095 aligncenter" alt="Screen Shot 2013-12-07 at 4.16.32 PM" src="http://codecraft.co/wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-16-32-pm.png?w=500" width="500" height="34" /></a></p>
-Now that's more like it! <a title="Good Code Plans for Problems" href="../../../2012/09/03/good-code-plans-for-problems/">Plan for trouble</a>. (<a title="Architects: manage risk like a Vegas bookie" href="../../../2013/02/21/architects-manage-risk-like-a-vegas-bookie/">It always happens</a>, after all.) <a title="Why Your Software Should Cry" href="../../../2013/05/06/why-your-software-should-cry/">Notice the problem</a>. <a title="Why Exceptions Aren’t Enough" href="../../../2012/10/09/why-exceptions-arent-enough/">Communicate it</a>. <a title="Don’t forget the circuit breakers" href="../../../2013/01/11/dont-forget-the-circuit-breakers/">Take steps to cope</a>, without panicking or inconveniencing the user. I'm not super happy that my internet connection's been flaky, but Wordpress has a reasonably cheerful "net promoter" right now.
+Now that's more like it! <a title="Good Code Plans for Problems" href="dont-forget-the-circuit-breakers.md">Take steps to cope</a>, without panicking or inconveniencing the user. I'm not super happy that my internet connection's been flaky, but Wordpress has a reasonably cheerful "net promoter" right now.
 
 We MUST have a vision that encompasses this mindset in the software we build, because I believe software is getting ever more complex. Layer depends upon layer depends upon layer... If we write each layer using only the most convenient assumptions, the multiplicative effect of all those shortcuts will eventually make our users miserable.
 
@@ -103,7 +103,7 @@ Your story about railway tickets in India reminds me of a great short story by S
 
 lkafle (2013-12-10 02:19:36)
 
-Reblogged this on <a href="http://lkafle.wordpress.com/2013/12/10/a-comedy-of-carelessness/" rel="nofollow">healthcare software solutions lava kafle kathmandu nepal lava prasad kafle lava kafle on google+ <a href="https://plus.google.com/102726194262702292606" rel="publisher">Google+</a></a>.
+Reblogged this on <a href="a-comedy-of-carelessness.md" rel="nofollow">healthcare software solutions lava kafle kathmandu nepal lava prasad kafle lava kafle on google+ <a href="https://plus.google.com/102726194262702292606" rel="publisher">Google+</a></a>.
 
 ---
 

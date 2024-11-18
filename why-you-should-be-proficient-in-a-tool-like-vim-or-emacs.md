@@ -4,17 +4,17 @@ date: 2014/05/15
 slug: why-you-should-be-proficient-in-a-tool-like-vim-or-emacs
 ---
 
-In my last post, I pointed out <a title="Why you should use an IDE instead of vim or emacs" href="../../../2014/05/13/why-you-should-use-an-ide-instead-of-vim-or-emacs/">two little-discussed reasons why I think most engineers should spend most of their time in an IDE</a>.
+In my last post, I pointed out <a title="Why you should use an IDE instead of vim or emacs" href="why-you-should-use-an-ide-instead-of-vim-or-emacs.md">two little-discussed reasons why I think most engineers should spend most of their time in an IDE</a>.
 
 I knew I was venturing into the realm of religious wars to make such a claim. When I shared the post, the first comment I got was, "Do you have a death wish?" :-) I had to laugh.
 
 [caption id="attachment_5591" align="aligncenter" width="646"]<a href="http://uploads0.wikipaintings.org/images/gustave-dore/the-army-of-the-second-crusade-find-the-remains-of-the-soldiers-of-the-first-crusade-1877.jpg"><img class="size-large wp-image-5591" src="http://codecraft.co/wp-content/uploads/2014/05/screen-shot-2014-05-15-at-1-47-38-am.png?w=646" alt="Religious wars aren't pretty. "The Second Crusaders Encounter the Remains of the First Crusaders", by Gustav Dore (wikipaintings.org)" width="646" height="789" /></a> Religious wars: not so pretty. "The Second Crusaders Encounter the Remains of the First Crusaders", by Gustav Dore (wikipaintings.org)[/caption]
 
-It turns out that my experience with the ensuing comments has been quite positive. Plenty of people disagreed with me, which is fine. I've heard good arguments from many different perspectives, which is part of the reason why I blog and post on social media in the first place; <a title="Humility" href="../../../2012/10/01/humility/">I need to be pushed</a>. I hope my assertions about teamwork and gestalt were at least interesting.
+It turns out that my experience with the ensuing comments has been quite positive. Plenty of people disagreed with me, which is fine. I've heard good arguments from many different perspectives, which is part of the reason why I blog and post on social media in the first place; <a title="Humility" href="humility.md">I need to be pushed</a>. I hope my assertions about teamwork and gestalt were at least interesting.
 
 Now, I promised that I'd write a follow-up post about the flip side of my advice. This isn't because I can't make up my mind; it's because I see these two toolings as complements with some overlap rather than symmetrical alternatives.
 
-So today, I'm going to try to convince all the IDE zealots in the world that they're doing themselves and their teammates a disservice if they don't <a title="Julie Jones: Learn voraciously." href="../../../2012/09/24/julie-jones-learn-voraciously/">take the time to become proficient</a> in a powerful text editor.
+So today, I'm going to try to convince all the IDE zealots in the world that they're doing themselves and their teammates a disservice if they don't <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">take the time to become proficient</a> in a powerful text editor.
 
 Death wish part 2. :-)<!--more-->
 <h3>The obvious reason</h3>
@@ -44,19 +44,19 @@ They may understand some things better than I do. I'm not fully up-to-speed on h
 
 However, I really, truly get what is happening under the layers that we've added in the past two decades, and there are lots of times when that knowledge pays off. I don't need WYSIWYG or wordpress themes to make html pretty (in fact, I detest their interference). I have an intuitive sense for when an ajax call is going to be inefficient. I know how caching proxies and http etags interact.
 
-Other engineers could tell similar stories from their own careers--about how they learned assembly first, and then migrated through C to C++--and how that foundation helps them write <a title="What Is “Good Code”?" href="../../../2012/08/26/what-is-good-code/">better code</a> than a young upstart who learned first in C++.
+Other engineers could tell similar stories from their own careers--about how they learned assembly first, and then migrated through C to C++--and how that foundation helps them write <a title="What Is “Good Code”?" href="what-is-good-code.md">better code</a> than a young upstart who learned first in C++.
 
 What does this have to do with vim and emacs?
 
 <strong>Back-to-basics programming</strong>
 
-Well, I claim that if you only ever see the <a title="The Power of Simplicity" href="../../../2013/02/15/the-power-of-simplicity/">complexity of software engineering</a> through the lens of an IDE, you have missed an important--even revelatory--learning experience.
+Well, I claim that if you only ever see the <a title="The Power of Simplicity" href="the-power-of-simplicity.md">complexity of software engineering</a> through the lens of an IDE, you have missed an important--even revelatory--learning experience.
 
-When you code and debug in a text editor, living and dying by your proficiency there, you are essentially repeating the learning curve that the entire world computer science community lived through in the first several decades of its existence. You know the difference between a compiler and a linker and an assembler. Makefiles start making sense. The vagaries of preprocessor troubleshooting and the paths that a debugger uses to resolve symbols <a title="Why Mental Models Matter" href="../../../2012/11/05/why-mental-models-matter/">lose their mystery</a>. You master regular expressions. Arcane command-line options in git may even feel self-explanatory. (Maybe. :-)
+When you code and debug in a text editor, living and dying by your proficiency there, you are essentially repeating the learning curve that the entire world computer science community lived through in the first several decades of its existence. You know the difference between a compiler and a linker and an assembler. Makefiles start making sense. The vagaries of preprocessor troubleshooting and the paths that a debugger uses to resolve symbols <a title="Why Mental Models Matter" href="why-mental-models-matter.md">lose their mystery</a>. You master regular expressions. Arcane command-line options in git may even feel self-explanatory. (Maybe. :-)
 
 Euclid said there was no royal road to geometry. You have to pay the price to learn the foundations before you can soar with the fancy stuff.
 
-To me, that's the most compelling reason to go beyond "functional" and actually get productive with vim or emacs--if you specialize in an IDE without a text editor in your repertoire, you have <a title="On SEPs, Squirrels, and Meta Questions" href="../../../2012/10/23/on-seps-squirrels-and-meta-questions/">gaps in your experience</a>. An IDE makes parts of your ecosystem invisible; a text editor teaches you just how robust and amazing and satisfying that underlying ecosystem is. You learn some humility toward the pioneers in the field, who did so much with such a lean toolkit. And you learn not to drink all the IDE kool-aid without at least rolling your eyes occasionally.
+To me, that's the most compelling reason to go beyond "functional" and actually get productive with vim or emacs--if you specialize in an IDE without a text editor in your repertoire, you have <a title="On SEPs, Squirrels, and Meta Questions" href="on-seps-squirrels-and-meta-questions.md">gaps in your experience</a>. An IDE makes parts of your ecosystem invisible; a text editor teaches you just how robust and amazing and satisfying that underlying ecosystem is. You learn some humility toward the pioneers in the field, who did so much with such a lean toolkit. And you learn not to drink all the IDE kool-aid without at least rolling your eyes occasionally.
 
 <strong>Where I'm at</strong>
 

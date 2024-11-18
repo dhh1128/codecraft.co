@@ -4,7 +4,7 @@ date: 2012/06/21
 slug: example-rpcd-interaction
 ---
 
-In my <a href="/2012/06/20/role-play-centered-design/">last post on RPCD</a>, I explained its key tenets. In this one, I'll imagine one way to put it into practice.
+In my <a href="role-play-centered-design.md">last post on RPCD</a>, I explained its key tenets. In this one, I'll imagine one way to put it into practice.
 
 Suppose a team is chartered to build a tool that locates birth mothers of adopted children. The team's received some vague marching orders ("make it as easy as possible; we want to sell this as a service on facebook and the iTunes app store"). Maybe they're using "agile" methods or even full-blown XP to guarantee that the customer's viewpoint is represented, and that small units of work are fully processed into releasable systems on a regular basis. Or maybe they're doing traditional waterfall, with an elaborate design phase followed by a long implementation.
 

@@ -18,7 +18,7 @@ I'm not claiming that all big data is worthless; some amazing things become poss
 
 The value we want to derive is <em>insight</em>.
 
-If you're willing to be serious about the big data wave, then find the best of breed tools that push what's possible. I recommend <a title="Perfect Search - speed, precision, performance" href="http://www.perfectsearchcorp.com" target="_blank">Perfect Search</a>, for example; running a query 100x to 1000x faster than Google or Oracle, on a dataset 100x bigger, is the kind of tool that you need. And of course there are tools like hadoop and <a class="zem_slink" title="BigQuery" href="http://code.google.com/apis/bigquery/" target="_blank" rel="homepage">Google BigQuery</a> and Amazon's bulk load and Glacier and ... Consider <a href="/2012/11/07/big-data-in-motion/">capturing value from big data while it's in flight</a>, and not storing it at all.
+If you're willing to be serious about the big data wave, then find the best of breed tools that push what's possible. I recommend <a title="Perfect Search - speed, precision, performance" href="big-data-in-motion.md">capturing value from big data while it's in flight</a>, and not storing it at all.
 
 If you don't want to surf the wave, then I have a relatively easy<sup>[<a href="#foot2">2</a>]</sup> solution. It's called the delete button. Go watch an episode of "<a class="zem_slink" title="Hoarders" href="http://www.aetv.com/hoarders/" target="_blank" rel="homepage">Hoarders</a>" and tell me I'm wrong. :-)
 
@@ -37,7 +37,7 @@ Now I work at <a href="http://www.adaptivecomputing.com" target="_blank">Adaptiv
 </div>
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://workforceplanning.wordpress.com/2013/04/08/are-we-jumping-the-shark-on-big-data-for-hr/" target="_blank">Are we Jumping the Shark on Big Data for HR?</a> (workforceplanning.wordpress.com)</li>
+	<li class="zemanta-article-ul-li"><a href="are-we-jumping-the-shark-on-big-data-for-hr.md" target="_blank">Are we Jumping the Shark on Big Data for HR?</a> (workforceplanning.wordpress.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://blog.neolane.com/conversational-marketing/big-data/" target="_blank">Transforming Big Data Into Actionable Insight [Infographic]</a> (neolane.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://www.domo.com/blog/2011/08/data-data-everywhere/" target="_blank">How Are You Managing Big Data? Data, Data Everywhere | Domo | Blog</a> (domo.com)</li>
 	<li class="zemanta-article-ul-li"><a style="font-size:13px;" href="http://www.informationweek.com/big-data/news/big-data-analytics/dont-confuse-big-data-with-storage/240152455" target="_blank">Don't Confuse Big Data With Storage</a><span style="color:#333333;font-size:13px;"> (informationweek.com)</span></li>

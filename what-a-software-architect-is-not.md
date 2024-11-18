@@ -4,7 +4,7 @@ date: 2012/06/26
 slug: what-a-software-architect-is-not
 ---
 
-In <a href="/2008/09/10/what-is-a-software-architect/">another post</a>, I defined the role of a software architect. This post points out some duties that are not necessarily part of his or her job, for clarity.
+In <a href="what-is-a-software-architect.md">another post</a>, I defined the role of a software architect. This post points out some duties that are not necessarily part of his or her job, for clarity.
 
 <figure><img class="  " title="An architect is not a lead engineer or a foreman..." src="http://farm4.staticflickr.com/3567/3770093556_30c3c38029_n_d.jpg" alt="foreman" width="240" height="320" align="right" /><figcaption>A foreman--vital but usually not the same person as the architect. Photo credit: USFS Region 5 (Flickr).</figcaption></figure>
 

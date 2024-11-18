@@ -4,7 +4,7 @@ date: 2012/06/21
 slug: long-term-benefits-of-rpcd
 ---
 
-In a <a href="/2012/06/20/role-play-centered-design/">previous post</a>, I wrote about a methodology for designing software that has role-playing at its heart. If you take a look at the <a href="/codecraft/2012/06/21/example-rpcd-interaction/">example RPCD interaction</a>, I think some benefits will immediately become apparent.
+In a <a href="example-rpcd-interaction.md">example RPCD interaction</a>, I think some benefits will immediately become apparent.
 
 But there are subtler advantages that might not be obvious:
 

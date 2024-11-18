@@ -4,7 +4,7 @@ date: 2012/08/27
 slug: good-code-is-optimized
 ---
 
-<p style="text-align:right;"><em>(Another post in my "<a href="/2012/08/26/what-is-good-code/">What is 'Good Code'?</a>" series...)</em></p>
+<p style="text-align:right;"><em>(Another post in my "<a href="what-is-good-code.md">What is 'Good Code'?</a>" series...)</em></p>
 Yes, optimized.
 
 But for what?

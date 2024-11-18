@@ -12,7 +12,7 @@ To one degree or another, we all exhibit <a class="zem_slink" title="Inattentio
 
 [youtube=https://youtu.be/SSUXXzN26zg]
 
-However, truly superb engineers have a capacity to see through the cloak of somebody else's problem; they think simultaneously on multiple levels of abstraction. They tend to ask "meta questions" (judiciously) that poke at larger issues, broader contexts, or more distant time horizons. Not coincidentally, <!--more-->this <a title="Unencapsulate Yourself" href="/2012/10/22/unencapsulate-yourself/">breaks them out of the tidy horizontal layers or vertical silos that sometimes constrain the thinking of organizations</a>.
+However, truly superb engineers have a capacity to see through the cloak of somebody else's problem; they think simultaneously on multiple levels of abstraction. They tend to ask "meta questions" (judiciously) that poke at larger issues, broader contexts, or more distant time horizons. Not coincidentally, <!--more-->this <a title="Unencapsulate Yourself" href="unencapsulate-yourself.md">breaks them out of the tidy horizontal layers or vertical silos that sometimes constrain the thinking of organizations</a>.
 
 <strong>Levels of Zen</strong>
 
@@ -43,7 +43,7 @@ Plenty of problems don't merit deep thinking; the zen master found time for our 
 
 If you've been asking meta questions about my post, you'll no doubt agree that the SEP phenomenon, and the meta question habit, apply beyond just in software engineering. Asking big meta questions caused all sorts of adventure and hilarity in Douglas Adams' books, but there's a serious side. Consummate product managers and marketers and business executives use these principles across all industries. Great scientists and generals and statesmen and religious leaders are serial meta questioners. Great parents and great friends are as well.
 
-You might even see a link between asking meta questions and two other virtues I've written about before--<a title="Lynn Bendixsen: Listen." href="/2012/10/02/lynn-bendixsen-listen/">listening</a>, and <a title="Humility" href="/2012/10/01/humility/">being humble</a>.
+You might even see a link between asking meta questions and two other virtues I've written about before--<a title="Lynn Bendixsen: Listen." href="humility.md">being humble</a>.
 
 I'd like to hear about other connections you see. Please comment. (See how I'm posing a meta question of my own? :-) And please follow my blog so we can discuss the craft of coding together.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

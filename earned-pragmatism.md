@@ -8,7 +8,7 @@ slug: earned-pragmatism
 
 That piqued my curiosity.
 
-I followed Gene's link and ended up on <a href="http://alistair.cockburn.us/Oath+of+Non-Allegiance" target="_blank">Alistair Cockburn's website</a>. Alistair is one of the early torchbearers for the agile software movement. I've written previously about <a title="Manifestos" href="../../../2012/09/13/manifestos/" target="_blank">signing the Agile manifesto</a>, so I felt like I was swimming in friendly waters.
+I followed Gene's link and ended up on <a href="manifestos.md" target="_blank">signing the Agile manifesto</a>, so I felt like I was swimming in friendly waters.
 
 The oath is about being open-minded and pragmatic:
 <p style="margin:1em;padding:1em;background-color:#eee;border:solid 1px black;"><em>I promise not to exclude from consideration any idea based on its source, but to consider ideas across schools and heritages in order to find the ones that best suit the current situation.</em></p>
@@ -26,11 +26,11 @@ You need both.
 
 I have seen architects that are way too ivory-tower. They make recommendations based on their favorite patterns and methodologies, with little regard for practical consequences. Smart engineers quickly dismiss them as being out of touch and irrelevant, and they are right to do so.
 
-On the other hand, I have seen "architects" who, despite deep talent as engineers, are forever in the mode of "whatever gets the job done" and "if it ain't broke, don't fix it." I believe this view is short-sighted; it loses touch with the <a class="zem_slink" title="Opportunity cost" href="http://en.wikipedia.org/wiki/Opportunity_cost" target="_blank" rel="wikipedia">opportunity cost</a> of sub-optimal decisions, and with the human passion that keeps architectures healthy. Codebases owned by this type of "architect" tend to be rife with <a title="Paying Off Technical Debt" href="../../../2012/10/14/paying-off-technical-debt/">tech debt</a>, with no roadmap or process to <a title="Learned Helplessness, Rats, and People Power" href="../../../2012/11/26/learned-helplessness-rats-and-people-power/">haul the team up and out</a>. Where there is no vision, the people perish.
+On the other hand, I have seen "architects" who, despite deep talent as engineers, are forever in the mode of "whatever gets the job done" and "if it ain't broke, don't fix it." I believe this view is short-sighted; it loses touch with the <a class="zem_slink" title="Opportunity cost" href="learned-helplessness-rats-and-people-power.md">haul the team up and out</a>. Where there is no vision, the people perish.
 
 <strong>Caution 2: Pragmatism must be earned.</strong>
 
-Before you can be a pragmatist, you have to understand what's possible, <a title="Good Code Is Balanced" href="../../../2012/08/27/good-code-is-balanced/">what's good and bad about each alternative</a>, and why certain considerations might trump others given a certain business context and time horizon. This perspective doesn't come cheap; it's been my experience that only the school of hard knocks teaches these classes, and the tuition is expensive.
+Before you can be a pragmatist, you have to understand what's possible, <a title="Good Code Is Balanced" href="good-code-is-balanced.md">what's good and bad about each alternative</a>, and why certain considerations might trump others given a certain business context and time horizon. This perspective doesn't come cheap; it's been my experience that only the school of hard knocks teaches these classes, and the tuition is expensive.
 
 I mistrust anyone who lightly dismisses OO or <a class="zem_slink" title="Message passing" href="http://en.wikipedia.org/wiki/Message_passing" target="_blank" rel="wikipedia">message passing</a> or actors or whatever the technique is, on the basis of shallow prejudice--but I also mistrust anyone who picks and chooses from the smorgasbord based purely on convenience of the moment. As <a class="zem_slink" title="Oliver Wendell Holmes, Sr." href="http://en.wikipedia.org/wiki/Oliver_Wendell_Holmes%2C_Sr." target="_blank" rel="wikipedia">Oliver Wendell Holmes</a> said, "I would not give a fig for the simplicity this side of complexity, but I would give my life for the simplicity on the other side of complexity." Unless you truly wrestle with the complexity, pragmatism can degenerate into cheating and chaos. Or said another way: only seasoned idealists earn the right to be pragmatists.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
@@ -39,9 +39,9 @@ I mistrust anyone who lightly dismisses OO or <a class="zem_slink" title="Messag
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://agile.dzone.com/articles/4-agile-teams-avoid" target="_blank">4 Agile Teams to Avoid</a> (agile.dzone.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://matthewkr.com/2013/01/03/rortys-consequences-of-pragmatism/" target="_blank">Rorty's Consequences of Pragmatism</a> (matthewkr.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://news.dice.com/2012/11/29/10-skills-it-architects/" target="_blank">10 Skills All IT Architects Should Have</a> (news.dice.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://offshore-agile.com/2012/03/23/agile-history/" target="_blank">Brief History of Agile Movement</a> (offshore-agile.com)</li>
+	<li class="zemanta-article-ul-li"><a href="rortys-consequences-of-pragmatism.md" target="_blank">Rorty's Consequences of Pragmatism</a> (matthewkr.com)</li>
+	<li class="zemanta-article-ul-li"><a href="10-skills-it-architects.md" target="_blank">10 Skills All IT Architects Should Have</a> (news.dice.com)</li>
+	<li class="zemanta-article-ul-li"><a href="agile-history.md" target="_blank">Brief History of Agile Movement</a> (offshore-agile.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://www.theenterprisearchitect.eu/archive/2013/01/05/a-tale-of-a-7-year-journey-in-developing-software-for-the-enterprise" target="_blank">A tale of a 7 year journey in developing software for the enterprise</a> (theenterprisearchitect.eu)</li>
 	<li class="zemanta-article-ul-li"><a href="http://www.javacodegeeks.com/2012/11/introduction-to-agile-principles.html" target="_blank">Introduction To Agile Principles</a> (javacodegeeks.com)</li>
 </ul>

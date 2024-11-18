@@ -10,7 +10,7 @@ Friday morning I was at a seminar taught by <a href="www.linkedin.com/in/jhtaylo
 
 I'm a big believer in measurement. As the old adage goes, you can't improve what you don't measure. Next time someone urges you to change a behavior, or tells you she's going to, ask what measurement of change is being proposed. If you get an unsatisfying answer, I predict you'll also get an unsatisfying outcome.
 
-I'm also a big believer in balance, as I've written about before. <a title="Good Code Is Balanced" href="../../../2012/08/27/good-code-is-balanced/" target="_blank">Good software balances many considerations</a>.
+I'm also a big believer in balance, as I've written about before. <a title="Good Code Is Balanced" href="good-code-is-balanced.md" target="_blank">Good software balances many considerations</a>.
 
 Besides these existing predispositions, I'd recently read a <a href="http://sethgodin.typepad.com/seths_blog/2012/11/avoiding-the-false-proxy-trap.html" target="_blank">blog post by Seth Godin</a>, cautioning about the need to choose wisely what we measure. And I've been digesting <em>The Fifth Discipline</em>, by Peter Senge, which advocates wholistic, <a class="zem_slink" title="Systemics" href="http://en.wikipedia.org/wiki/Systemics" target="_blank" rel="wikipedia">systemic thinking</a>, where we recognize interrelationships that go well beyond simplistic, direct cause-and-effect.
 
@@ -35,7 +35,7 @@ I'm going to paint more complete pictures with my metrics, and see where it gets
 	<li class="zemanta-article-ul-li"><a href="http://managementhelp.org/systems/index.htm" target="_blank">Systems Thinking, Systems Tools and Chaos Theory</a> (managementhelp.org)</li>
 	<li class="zemanta-article-ul-li"><a href="http://www.customerthink.com/blog/customer_metrics_measure_what_matters_most_to_customers" target="_blank">Customer Metrics: Measure what matters most to customers</a> (customerthink.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://hbr.org/2010/06/column-you-are-what-you-measure/ar/1" target="_blank">You Are What You Measure</a> (Harvard Business Review)</li>
-	<li class="zemanta-article-ul-li"><a href="http://iterativepath.wordpress.com/2012/11/10/single-metric-you-need-to-care-or-do-you/" target="_blank">Single metric you need to care - Or do you?</a> (iterativepath.wordpress.com)</li>
+	<li class="zemanta-article-ul-li"><a href="single-metric-you-need-to-care-or-do-you.md" target="_blank">Single metric you need to care - Or do you?</a> (iterativepath.wordpress.com)</li>
 </ul>
 
 ---

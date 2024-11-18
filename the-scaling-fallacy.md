@@ -52,7 +52,7 @@ Bottom line: part of your job as a designer/architect is to understand these iss
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://spinnakr.com/blog/ideas/2012/12/three-big-economic-fallacies-behind-growth-hacking/" target="_blank">Three Big Economic Fallacies Behind Growth Hacking</a> (spinnakr.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://dead-logic.blogspot.com/2012/12/path-of-critical-thinker-meow.html" target="_blank">Path of a Critical Thinker (Meow)</a> (dead-logic.blogspot.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://pandodaily.com/2012/12/12/what-fred-wilson-and-the-vcs-dont-get-about-advertising/" target="_blank">What Fred Wilson and the VCs don't get about advertising</a> (pandodaily.com)</li>
+	<li class="zemanta-article-ul-li"><a href="what-fred-wilson-and-the-vcs-dont-get-about-advertising.md" target="_blank">What Fred Wilson and the VCs don't get about advertising</a> (pandodaily.com)</li>
 </ul>
 
 ---

@@ -55,15 +55,15 @@ If you read that list and think: "Well, then, why have coding standards at all?"
 
 In general, model new code after the conventions embodied by recent and clean code you see in the codebase. The following modules are known to be good examples: moduleA, moduleB, ... <em>(Value: high. Cost: low. Pointing out some good examples will do more than a dozen pages of text. Also, pointing people to new code allows wisdom about conventions to accrete organically.)</em>
 
-<a title="Small Files Are Your Friends" href="../../../2013/03/21/small-files-are-your-friends/">Keep files small</a>. <em>(Value: high for casual maintainers. Cost: usually low. Many good habits are tied to this guideline, including loose coupling, encapsulation, refactoring, and modularity.)</em>
+<a title="Small Files Are Your Friends" href="small-files-are-your-friends.md">Keep files small</a>. <em>(Value: high for casual maintainers. Cost: usually low. Many good habits are tied to this guideline, including loose coupling, encapsulation, refactoring, and modularity.)</em>
 
 Clean up messes. Delete unused files, functions, and blocks. <em>(Value: high. Cost: low. C<em>asual maintainers don't have to wonder about the significance of something inert. Reinforces refactoring.</em>)</em>
 
-Use descriptive names for classes, functions, variables, and files, so you don't have to document what should be obvious semantics. <em>(Value: high. Cost: low. Eliminates redundancy and encourages good refactoring habits. <a title="Good Code Is Named Right" href="/2012/08/28/good-code-is-named-right/">Good code is named right</a>.)</em>
+Use descriptive names for classes, functions, variables, and files, so you don't have to document what should be obvious semantics. <em>(Value: high. Cost: low. Eliminates redundancy and encourages good refactoring habits. <a title="Good Code Is Named Right" href="good-code-is-named-right.md">Good code is named right</a>.)</em>
 
-<a title="// Comments on Comments" href="../../../2012/10/31/comments-on-comments/">Comment what can't be made obvious</a>. <em>(Example where comment might be helpful: subtle precondition or postcondition on a function. Value: high. Cost: low.)</em>
+<a title="// Comments on Comments" href="comments-on-comments.md">Comment what can't be made obvious</a>. <em>(Example where comment might be helpful: subtle precondition or postcondition on a function. Value: high. Cost: low.)</em>
 
-Carefully follow the codebase's <a title="Good Code Plans for Problems" href="../../../2012/09/03/good-code-plans-for-problems/">error and exception strategy</a>. <em>(Example: "In C++, use RAII to guarantee exception safety. Make sure all errors are complete sentences, since they'll appear in logs and be read by end users." Value: high. Cost: medium.)</em>
+Carefully follow the codebase's <a title="Good Code Plans for Problems" href="good-code-plans-for-problems.md">error and exception strategy</a>. <em>(Example: "In C++, use RAII to guarantee exception safety. Make sure all errors are complete sentences, since they'll appear in logs and be read by end users." Value: high. Cost: medium.)</em>
 
 Name files and directories with a consistent pattern. <em>(Example 1: use all lower-case, with underscores between words. Example 2: use Java's conventions. Value: high. Cost: low. Eliminates #include "WrongCase.h" problems on *nix; makes batch processing easier.)</em>
 

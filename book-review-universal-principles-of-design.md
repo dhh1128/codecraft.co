@@ -18,7 +18,7 @@ For now, I'll omit any definition of what these intriguing terms mean, and leave
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://www.cryptosmith.com/node/377" target="_blank">GUIs: Control, Conveyance, Continuity, and Context</a> (cryptosmith.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://designagogo.wordpress.com/2013/01/24/get-smart-maxwell/" target="_blank"><a href="http://www.underpaidgenius.com/post/37027223670" target="_blank">Biz Stone on Wabi-Sabi</a><span style="color:#333333;"> (underpaidgenius.com)</span></a></li>
+	<li class="zemanta-article-ul-li"><a href="get-smart-maxwell.md" target="_blank"><a href="http://www.underpaidgenius.com/post/37027223670" target="_blank">Biz Stone on Wabi-Sabi</a><span style="color:#333333;"> (underpaidgenius.com)</span></a></li>
 	<li class="zemanta-article-ul-li"><a href="http://www.multi-disciplinary.com/">multi-disciplinary.com</a> (have a look at some of the projects these guys do...)</li>
 </ul>
 

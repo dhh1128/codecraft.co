@@ -4,7 +4,7 @@ date: 2008/08/19
 slug: decoupling-interfaces-as-versions-evolve-part-3
 ---
 
-<em>This is part 3 of a series. You can read <a href="/codecraft/2008/07/29/decoupling-interfaces-as-versions-evolve-part-1/">part 1</a> and <a href="/codecraft/2008/07/30/decoupling-interfaces-as-versions-evolve-part-2/">part 2</a> as well.</em>
+<em>This is part 3 of a series. You can read <a href="decoupling-interfaces-as-versions-evolve-part-2.md">part 2</a> as well.</em>
 <h3>Quick Review</h3>
 We want all the encapsulation and data hiding benefits that interfaces provide. We want to be able to version our interfaces so consumers can depend on them reliably, but we don't want the producer and consumer of an interface to have to coordinate tightly. We don't want the producer of an interface to have to version so often that there's a built-in disincentive to follow best practice. And we want all the compiler and IDE benefits that early binding typically offers to a programmer.
 

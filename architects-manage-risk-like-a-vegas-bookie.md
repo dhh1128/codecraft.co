@@ -14,7 +14,7 @@ How does risk figure in your architectural vision? You should think about it all
 
 Here are 6 key questions to kick-start your pondering:
 <ul>
-	<li>Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about <a title="circuit breaker -- enterprise design pattern" href="../../../2013/01/11/dont-forget-the-circuit-breakers/" target="_blank">circuit breakers</a>.)</li>
+	<li>Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about <a title="circuit breaker -- enterprise design pattern" href="dont-forget-the-circuit-breakers.md" target="_blank">circuit breakers</a>.)</li>
 	<li>When one of my components crashes, will its state be cleanly recoverable (e.g., on transaction boundaries) rather than corrupt? What data loss contract am I targeting?</li>
 	<li>Will it be easy for users or admins to notice when theoretical risks I've planned for become true emergencies? How will they be notified?</li>
 	<li>Is it possible to put the system in a "scabbed" state that's degraded and safe, but functional, while more extensive repairs take place?</li>
@@ -28,9 +28,9 @@ Here are 6 key questions to kick-start your pondering:
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://www.sys-con.com/node/2528403" target="_blank">Cloud Computing Service Models</a> (sys-con.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://cloudcomputing.sys-con.com/node/2539596" target="_blank">Cloud Compliance in IaaS Is Mainly Your Responsibility</a> (cloudcomputing.sys-con.com)</li>
-	<li class="zemanta-article-ul-li"><a style="font-size:13px;line-height:19px;" href="http://techcrunch.com/2013/01/04/the-enterprise-hey-aws-you-wanna-piece-of-me/" target="_blank">AWS Needs To Figure Out Its Enterprise Plan</a><span style="color:#333333;font-size:13px;line-height:19px;"> (techcrunch.com)</span></li>
-	<li class="zemanta-article-ul-li"><a href="http://precision-blog.com/2013/01/13/top-5-benefits-of-effective-risk-management/" target="_blank">Top 5 Benefits of Effective Risk Management</a> (precision-blog.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://devopsangle.com/2013/02/19/clouds-without-fear-the-big-bang-theory-of-cloud-sprawl/" target="_blank">Clouds Without Fear: The Big Bang Theory of Cloud Sprawl</a> (devopsangle.com)</li>
+	<li class="zemanta-article-ul-li"><a style="font-size:13px;line-height:19px;" href="the-enterprise-hey-aws-you-wanna-piece-of-me.md" target="_blank">AWS Needs To Figure Out Its Enterprise Plan</a><span style="color:#333333;font-size:13px;line-height:19px;"> (techcrunch.com)</span></li>
+	<li class="zemanta-article-ul-li"><a href="top-5-benefits-of-effective-risk-management.md" target="_blank">Top 5 Benefits of Effective Risk Management</a> (precision-blog.com)</li>
+	<li class="zemanta-article-ul-li"><a href="clouds-without-fear-the-big-bang-theory-of-cloud-sprawl.md" target="_blank">Clouds Without Fear: The Big Bang Theory of Cloud Sprawl</a> (devopsangle.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://blogs.gartner.com/chris-gaun/how-can-public-clouds-reduce-business-risk-for-users/" target="_blank">How Can Public Clouds Reduce Business Risk For Users?</a> (blogs.gartner.com)</li>
 </ul>
 

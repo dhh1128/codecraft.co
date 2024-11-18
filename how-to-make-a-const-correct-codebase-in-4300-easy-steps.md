@@ -93,13 +93,13 @@ Stepping back from the details of this experience, I draw a few general conclusi
 
 <strong>Never get involved in a land war in Asia</strong>, as Vizzini would say. (Or in other words, don't invade unknown territory in your code, unless you're assuming some blood, sweat, and tears. :-)
 
-<strong>On the other hand, <a title="Courage Counts" href="../../../2013/05/31/courage-counts/">courage counts</a></strong>. A festering problem finally got fixed, because I was crazy enough to try.
+<strong>On the other hand, <a title="Courage Counts" href="courage-counts.md">courage counts</a></strong>. A festering problem finally got fixed, because I was crazy enough to try.
 
-<strong>It is a crying shame (and a glaring irony) that it's so hard to code my way to a productive manipulation of ... code</strong>. Programmers spend their whole careers validating the proposition that it's worthwhile to enable computers to do grunt work, so humans can focus on more interesting tasks. Yet the artifact that programmers produce is so plagued by inconsistencies, so susceptible to bugs, and so complex to process that it takes a major investment to automate working with it. I am going to fix this in the <a title="On bread recipes, maps, and intentions" href="../../../2013/10/24/on-bread-recipes-maps-and-intentions/">programming ecosystem that I create</a>.
+<strong>It is a crying shame (and a glaring irony) that it's so hard to code my way to a productive manipulation of ... code</strong>. Programmers spend their whole careers validating the proposition that it's worthwhile to enable computers to do grunt work, so humans can focus on more interesting tasks. Yet the artifact that programmers produce is so plagued by inconsistencies, so susceptible to bugs, and so complex to process that it takes a major investment to automate working with it. I am going to fix this in the <a title="On bread recipes, maps, and intentions" href="on-bread-recipes-maps-and-intentions.md">programming ecosystem that I create</a>.
 
 <strong>An imperfect solution still made a huge difference</strong>. Sometimes perfect is the enemy of good enough.
 
-<strong>Coding something right is cheaper and a whole lot less hassle than <a title="Paying Off Technical Debt" href="../../../2012/10/14/paying-off-technical-debt/">fixing an antipattern once it's firmly entrenched</a></strong>. We'll never get away from refactoring (nor would we want to)--but it pays to establish good habits of code hygeine, early, instead of after you write 500,000 lines of gunk.
+<strong>Coding something right is cheaper and a whole lot less hassle than <a title="Paying Off Technical Debt" href="paying-off-technical-debt.md">fixing an antipattern once it's firmly entrenched</a></strong>. We'll never get away from refactoring (nor would we want to)--but it pays to establish good habits of code hygeine, early, instead of after you write 500,000 lines of gunk.
 
 <strong>Compilers ought to offer a "this should be const" warning, so this work would have been unnecessary</strong>. I googled; there isn't any such option that I could find. Yet my need is not that unusual. Why isn't this problem already solved?
 

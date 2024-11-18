@@ -24,7 +24,7 @@ If you've ever worked on a truly yucky codebase--one littered with #ifdefs, mass
 
 You have to fix bugs, but every change causes you to grit your teeth and cross all your fingers and toes, because you have no confidence that the fix won't break something else. <em>Squeeze</em>.
 
-You know your <a title="Why Mental Models Matter" href="/2012/11/05/why-mental-models-matter/" target="_blank">mental model</a> is incomplete--in fact, the mental model of everybody on the team is insufficient, even in the aggregate. You avoid dark corners of the codebase; here there be dragons. <em>Squeeze</em>.
+You know your <a title="Why Mental Models Matter" href="why-mental-models-matter.md" target="_blank">mental model</a> is incomplete--in fact, the mental model of everybody on the team is insufficient, even in the aggregate. You avoid dark corners of the codebase; here there be dragons. <em>Squeeze</em>.
 
 You desperately want to refactor--but you know the Keepers of the Budget and Schedule™ will never consent to let you rewrite to nearly the degree that you need. And worse, you know that you really can't start this effort anyway, because the risk of destabilizing things is just too high. (Remember, you don't have enough unit or regression tests.) <em>Squeeze.</em>
 
@@ -36,7 +36,7 @@ And that matters.
 
 <strong>The Power of Habit</strong>
 
-I've previously written about my <a title="Tech Debt, Leverage, and Grandma’s Envelope" href="../../../2012/10/30/tech-debt-leverage-and-grandmas-envelope/">Grandma paying off her mortgage</a> after many years of diligent effort. This was the harvest of a good habit, applied consistently.
+I've previously written about my <a title="Tech Debt, Leverage, and Grandma’s Envelope" href="tech-debt-leverage-and-grandmas-envelope.md">Grandma paying off her mortgage</a> after many years of diligent effort. This was the harvest of a good habit, applied consistently.
 
 With financial and tech debt, after big setbacks there is a temptation to throw up our hands. "What's the use?" we want to say. "Nothing we do will make any difference." We sympathize with the guy who, saddled with a million dollar medical expense, tells himself that living within his means is irrelevant, and goes on a shopping spree.
 
@@ -62,7 +62,7 @@ Besides having a capacity to consciously choose our habits, human beings also su
 
 Brainstorm with like-minded engineers, and see what ideas emerge. Here are a few tried-and-true options to ponder:
 <ul>
-	<li>Can you (without being disingenuous) associate needed big-ticket changes with a strategically important initiative that everybody has already bought into? This would give you instant <a title="Roland Whatcott: Manage momentum." href="/2012/09/21/roland-whatcott-manage-momentum/" target="_blank">momentum</a> to make things better.</li>
+	<li>Can you (without being disingenuous) associate needed big-ticket changes with a strategically important initiative that everybody has already bought into? This would give you instant <a title="Roland Whatcott: Manage momentum." href="roland-whatcott-manage-momentum.md" target="_blank">momentum</a> to make things better.</li>
 	<li>Can you subdivide the problem? "Refactor the whole stinkin' mess" is less likely to get done, but "refactor class X" might.</li>
 	<li>Can you make a small change that's highly visibile and highly popular, and then spend your newly acquired political capital on a more expensive pay-off?</li>
 	<li>Can you deploy a tool that makes the problem more obvious? Or better yet, a tool that solves part of the problem in an automated way? (If such a tool doesn't exist, could you write one? Or commission one?)</li>

@@ -14,7 +14,7 @@ The <a href="http://manifesto.softwarecraftsmanship.org/" target="_blank">Manife
 
 <a href="https://plus.google.com/u/0/110981030061712822816/posts/iuRbQe6EoiK" target="_blank">Steve Yegge claims</a> that software conservatives love their code, and software liberals view code as a necessary evil. (LONG post; this comment is near the end. And you may need to read <a href="https://plus.google.com/u/0/110981030061712822816/posts/KaSKeg4vQtz" target="_blank">his previous post</a> for context, if you're not familiar with his political metaphor.)
 
-I think he's gone too far. <a href="/2012/09/11/evolving-software-politics/">I'm pretty software liberal</a>. And I get the kernel of truth in the "necessary evil" idea. So much of what we write will be chucked or rewritten; it's unhealthy to imagine that every project is an opportunity for a <em>magnum opus</em>, or to expect to be able to achieve perfection.
+I think he's gone too far. <a href="evolving-software-politics.md">I'm pretty software liberal</a>. And I get the kernel of truth in the "necessary evil" idea. So much of what we write will be chucked or rewritten; it's unhealthy to imagine that every project is an opportunity for a <em>magnum opus</em>, or to expect to be able to achieve perfection.
 
 But I don't think that means we should devalue the craft. Even in the imperfect, muddled, transitory universe of software, it's possible to make savvy and artistic choices--or to do the opposite. When we care about craft, we find work more satisfying, and we make our corner of the universe a more hospitable place for our neighbors, which has all kinds of benefits.
 

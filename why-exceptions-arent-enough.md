@@ -4,7 +4,7 @@ date: 2012/10/09
 slug: why-exceptions-arent-enough
 ---
 
-<p style="text-align:right;"><em>(This post is a logical sequel to <a title="Good Code Plans for Problems" href="../../../2012/09/03/good-code-plans-for-problems/">my earlier musings about having a coherent strategy to handle problems</a>.)</em></p>
+<p style="text-align:right;"><em>(This post is a logical sequel to <a title="Good Code Plans for Problems" href="good-code-plans-for-problems.md">my earlier musings about having a coherent strategy to handle problems</a>.)</em></p>
 Back in the dark ages, programmers wrote functions that returned numeric errors:
 <pre style="border:solid 1px #ccc;background-color:#eee;margin-left:4em;padding:.5em;display:inline-block;margin-bottom:1em;">if (prepare() == SUCCESS) {
   doIt();

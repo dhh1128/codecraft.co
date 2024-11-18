@@ -19,7 +19,7 @@ You have probably seen plenty of warnings that highlight serious problems; I kn
 
 In general, compiler warnings aren't less severe than errors--they are simply <em>more ambiguous</em>. The compiler isn't sure whether a signed/unsigned comparison is evidence of logic mistakes, or is perfectly harmless. So it warns you, and lets you decide.
 
-Warnings are evidence that the compiler needs to know more about your <em>intent</em>. (Does this sound like the "<a title="Lacunas Everywhere" href="../../../2014/07/16/lacunas-everywhere/">lacuna humana</a>" that I have been <a title="Thoughts On Bridging the “Lacuna Humana”" href="../../../2014/07/21/bridging-the-lacuna-humana/">harping</a> on lately?)
+Warnings are evidence that the compiler needs to know more about your <em>intent</em>. (Does this sound like the "<a title="Lacunas Everywhere" href="bridging-the-lacuna-humana.md">harping</a> on lately?)
 
 <strong>Messy ways to answer</strong>
 
@@ -29,7 +29,7 @@ Some warnings aren't susceptible to this approach. If the compiler warns you tha
 
 <strong>Marks make it better</strong>
 
-The <a title="Introducing Marks" href="../../../2014/07/24/introducing-marks/">marks</a> that I've <a title="Mountains, Molehills, and Markedness" href="../../../2014/07/28/mountains-molehills-and-markedness/">recently described</a> provide a nice, uniform solution to this hodgepodge of warning-answering mechanisms. Since they're evaluated at compile-time, they can play the same role that <code>#pragma</code> does in some languages. Sophisticated attachment and propagation get you away from all the silly push/pop gyrations. They can attach to any portion of the code DOM--functions, variables, statements, code blocks, classes, packages, applications--and they can express arbitrary semantics, including answers to any question the compiler dreams up. One simple, clean technique across the board.
+The <a title="Introducing Marks" href="mountains-molehills-and-markedness.md">recently described</a> provide a nice, uniform solution to this hodgepodge of warning-answering mechanisms. Since they're evaluated at compile-time, they can play the same role that <code>#pragma</code> does in some languages. Sophisticated attachment and propagation get you away from all the silly push/pop gyrations. They can attach to any portion of the code DOM--functions, variables, statements, code blocks, classes, packages, applications--and they can express arbitrary semantics, including answers to any question the compiler dreams up. One simple, clean technique across the board.
 
 <strong>But there's more...</strong>
 

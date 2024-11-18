@@ -23,7 +23,7 @@ My friend Julie has an answer.
 
 <strong>Learning to Learn</strong>
 
-I first met <a href="http://www.linkedin.com/pub/julie-jones/15/908/768" target="_blank">Julie Jones</a> when I was in my early 30's. We worked together on the "new engine" initiative at PowerQuest (a pivotal experience <a title="Roland Whatcott: Manage momentum." href="/2012/09/21/roland-whatcott-manage-momentum/">I've blogged about before</a>). Julie had much more experience than I did; she taught me abstract factories and dependency injection, loose coupling, declarative programming, streams, unit testing, XP, and many other key concepts.
+I first met <a href="roland-whatcott-manage-momentum.md">I've blogged about before</a>). Julie had much more experience than I did; she taught me abstract factories and dependency injection, loose coupling, declarative programming, streams, unit testing, XP, and many other key concepts.
 
 At first I thought Julie just plucked these ideas out of an impressive mental archive. She had rich and varied experience, and she seemed to know <em>so much</em>.
 
@@ -37,7 +37,7 @@ Learn to learn. In the long run, the engineer who's mastered <em>that</em> skill
 
 Thanks for the lesson, Julie.
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
-<p style="padding-left:30px;"><span style="color:#000080;"><em>Identify a few habits you could form to help you learn more, more often, and more easily. (Check out <a title="Six Learning Tips For Tech Folks" href="/2012/09/25/six-learning-tips-for-tech-folks/">this post</a> for some ideas.) Start working on them.</em></span></p>
+<p style="padding-left:30px;"><span style="color:#000080;"><em>Identify a few habits you could form to help you learn more, more often, and more easily. (Check out <a title="Six Learning Tips For Tech Folks" href="six-learning-tips-for-tech-folks.md">this post</a> for some ideas.) Start working on them.</em></span></p>
 
 ---
 
@@ -69,7 +69,7 @@ Thanks for the great ideas that you are sharing. I will be putting them into eff
 
 Daniel (2012-10-04 16:55:20)
 
-I agree. Needing to keep learning might seem like a big item on a to-do list, but it can (and should) be done here a little, there a little. My <a href="/2012/09/25/six-learning-tips-for-tech-folks/" title="Six Learning Tips For Tech Folks" rel="nofollow">post with tips for tech learners</a> was an attempt to capture some small habits with big benefits.
+I agree. Needing to keep learning might seem like a big item on a to-do list, but it can (and should) be done here a little, there a little. My <a href="six-learning-tips-for-tech-folks.md" title="Six Learning Tips For Tech Folks" rel="nofollow">post with tips for tech learners</a> was an attempt to capture some small habits with big benefits.
 
 ---
 

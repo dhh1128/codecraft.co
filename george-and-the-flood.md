@@ -51,7 +51,7 @@ It's not an exact science. Smart CEOs and software architects and investors and 
 
 <strong>The Black Belt Answer</strong>
 
-If you said "it depends," then give yourself a star on the forehead. <a title="Steve Tolman: It depends." href="/2012/09/17/steve-tolman-it-depends/">My friend and mentor Steve Tolman would be proud of you</a>. If you said, "C'mon, Daniel, you've got to tell me how bad the flood will be, when it's going to arrive, how long it will last, and whether George has the materials and skills to build a boat," then you get two stars, because you're asking specific questions.
+If you said "it depends," then give yourself a star on the forehead. <a title="Steve Tolman: It depends." href="steve-tolman-it-depends.md">My friend and mentor Steve Tolman would be proud of you</a>. If you said, "C'mon, Daniel, you've got to tell me how bad the flood will be, when it's going to arrive, how long it will last, and whether George has the materials and skills to build a boat," then you get two stars, because you're asking specific questions.
 
 It really <em>does</em> depend, and I have not given you enough information. You could make some reasonable assumptions, but if you can get hard data, so much the better.
 
@@ -70,7 +70,7 @@ How does your team operate most of the time? Are you evaluating the ramification
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://www.thedailysheeple.com/dont-survive-the-collapse-prevent-it_122012" target="_blank">Don't Survive the "Collapse" - Prevent It</a> (thedailysheeple.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://iplayoochess.com/2012/12/09/are-you-head-scratching-with-uncertainty-in-your-chess-games-what-should-be-your-guide/" target="_blank">Are You Head-scratching with Uncertainty in Your Chess Games? What Should Be Your Guide?</a> (iplayoochess.com)</li>
+	<li class="zemanta-article-ul-li"><a href="are-you-head-scratching-with-uncertainty-in-your-chess-games-what-should-be-your-guide.md" target="_blank">Are You Head-scratching with Uncertainty in Your Chess Games? What Should Be Your Guide?</a> (iplayoochess.com)</li>
 </ul>
 
 ---

@@ -12,7 +12,7 @@ A big reason is that in software, <em>great can be the enemy of good</em>.
 
 If you're a fan of aphorisms, you've probably heard the opposite statement a few times: "good is the enemy of great." People who say this are emphasizing the value of setting lofty goals, and then aligning our day-to-day lives to deeply held priorities. They remind us that settling for mediocrity is almost guaranteed not to create deep meaning or purpose. And they are quite right.
 
-However, I submit that the greatness you should be pursuing in software is less about producing great code, and more about becoming a great <em>producer</em> of code. And great producers of code know that most of their creations will not <a title="Good Code Is Optimized" href="/2012/08/27/good-code-is-optimized/" target="_blank">optimize business value</a> if they aim for a magnum opus. Not every commission can be the Sistine Chapel.
+However, I submit that the greatness you should be pursuing in software is less about producing great code, and more about becoming a great <em>producer</em> of code. And great producers of code know that most of their creations will not <a title="Good Code Is Optimized" href="good-code-is-optimized.md" target="_blank">optimize business value</a> if they aim for a magnum opus. Not every commission can be the Sistine Chapel.
 
 [caption id="attachment_620" align="aligncenter" width="500"]<a href="http://en.wikipedia.org/wiki/File:Creaci%C3%B3n_de_Ad%C3%A1n_(Miguel_%C3%81ngel).jpg"><img class="size-full wp-image-620" title="Screen Shot 2012-10-02 at 10.10.04 PM" src="http://codecraft.co/wp-content/uploads/2012/10/screen-shot-2012-10-02-at-10-10-04-pm.png" alt="" width="500" height="222" /></a> Detail from the Sistine Chapel, by Michaelangelo. Image credit: Wikimedia Commons.[/caption]
 
@@ -37,7 +37,7 @@ I wouldn't go so far as to say that Path was a disaster. In fact, it was pretty 
 	<li>The canonical casing behavior incurred a performance penalty. Every ctor required a disk read. I later wrote a caching layer to compensate, but this had its own problems with complexity, order of destruction, and thread safety.</li>
 	<li>The work I put into Path had an unknown but perhaps significant opportunity cost. What could I have written instead, if I'd kept Path simpler? After a few RIFs, you get religion about getting ideas into production asap, so you can earn revenue; distractions aren't innocuous.</li>
 </ol>
-These flaws only came into focus for me with 20:20 hindsight. At the time, I was young enough, and I <a title="Humility" href="/2012/10/01/humility/">undervalued humility</a> enough, and Path was useful enough, that I only saw the upside.
+These flaws only came into focus for me with 20:20 hindsight. At the time, I was young enough, and I <a title="Humility" href="humility.md">undervalued humility</a> enough, and Path was useful enough, that I only saw the upside.
 
 <strong>The moral</strong>
 
@@ -56,7 +56,7 @@ there were rats and lizards who listened
 … and the only listeners left now
 … are … the rats … and the lizards.</p>
 <p style="margin-left:6em;font-style:italic;">(from "Four Preludes on Playthings of the Wind")</p>
-I'd summarize the principle like this: Don't take your code too seriously. Write good stuff that solves the problems that clearly matter, and allow time and experience and the contributions of others to influence you. <em>You</em> are what should be great, not the code so much. Maybe this is another way of agreeing with Jesse Harris that code--most of it, at least--<a title="Code Isn’t Art" href="/2012/09/23/code-isnt-art/" target="_blank">isn't best thought of as art</a>...
+I'd summarize the principle like this: Don't take your code too seriously. Write good stuff that solves the problems that clearly matter, and allow time and experience and the contributions of others to influence you. <em>You</em> are what should be great, not the code so much. Maybe this is another way of agreeing with Jesse Harris that code--most of it, at least--<a title="Code Isn’t Art" href="code-isnt-art.md" target="_blank">isn't best thought of as art</a>...
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify something that you've overdesigned or overbuilt. Try to quantify the opportunity cost.</span></em></p>
 

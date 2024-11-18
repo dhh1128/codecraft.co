@@ -6,17 +6,17 @@ slug: why-software-artisans-should-manage-their-influence
 
 Just read an <a href="http://sethgodin.typepad.com/seths_blog/2013/02/scarcity-and-abundance-in-the-digital-age.html" target="_blank">insightful post from Seth Godin</a>. If you don't already know who Seth is, and follow him, I suggest you get to know him a bit. He's a thought leader in the field of <a class="zem_slink" title="Permission marketing" href="http://en.wikipedia.org/wiki/Permission_marketing" target="_blank" rel="wikipedia">permission marketing</a>--the founder of the movement, perhaps. He's spoken at <a class="zem_slink" title="TED (conference)" href="http://www.ted.com" target="_blank" rel="homepage">TED</a> conferences numerous times. Every one of his books that I've read is worthy of pondering.
 
-Although Godin isn't speaking specifically about software craftsmen, I see direct application of his thinking to our field. Since so much of what we do <a title="Smart Geeks Think Like Cheerleaders" href="../../../2013/02/05/smart-geeks-think-like-cheerleaders/" target="_blank">requires buy-in, coordination</a> and <a title="Why Mental Models Matter" href="../../../2012/11/05/why-mental-models-matter/" target="_blank">shared mental models</a>, we have to be savvy about how we communicate, advocate, and train. Assuming equal technical competence, the difference between effective and ineffective technical leaders largely depends on the mastery of this skill.
+Although Godin isn't speaking specifically about software craftsmen, I see direct application of his thinking to our field. Since so much of what we do <a title="Smart Geeks Think Like Cheerleaders" href="why-mental-models-matter.md" target="_blank">shared mental models</a>, we have to be savvy about how we communicate, advocate, and train. Assuming equal technical competence, the difference between effective and ineffective technical leaders largely depends on the mastery of this skill.
 
 Have you considered how to grow your influence? Do you have a plan?
 
 <figure><img src="http://imgs.xkcd.com/comics/bridge.png" width="500" height="161" /><figcaption>Influence doesn't always work the way we expect. :-) Image credit: xkcd</figcaption></figure>
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://popalx.wordpress.com/2013/01/09/seth-godin-how-to-get-your-ideas-to-spread/" target="_blank">Seth Godin - How to get your ideas to spread</a> (popalx.wordpress.com)</li>
+	<li class="zemanta-article-ul-li"><a href="seth-godin-how-to-get-your-ideas-to-spread.md" target="_blank">Seth Godin - How to get your ideas to spread</a> (popalx.wordpress.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://www.twistimage.com/blog/archives/the-end-of-permission/" target="_blank">The End Of Permission | Six Pixels of Separation - Marketing and Communications Blog - By Mitch Joel at Twist Image</a> (twistimage.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://sanderssays.typepad.com/sanders_says/2010/02/a-few-minutes-with-seth-godin-ted.html" target="_blank">A few minutes with Seth Godin @ TED</a> (sanderssays.typepad.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://techcrunch.com/2012/06/23/domo-social-josh-james/" target="_blank">Domo's Josh James: We're making every employee embrace social media, and it's paying off</a> (techcrunch.com)</li>
+	<li class="zemanta-article-ul-li"><a href="domo-social-josh-james.md" target="_blank">Domo's Josh James: We're making every employee embrace social media, and it's paying off</a> (techcrunch.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://www.informationweek.com/global-cio/interviews/tell-me-again-why-ceos-should-tweet/240144283?cid=RSSfeed_IWK_All" target="_blank">Tell Me Again Why CEOs Should Tweet</a> (informationweek.com)</li>
 </ul>
 

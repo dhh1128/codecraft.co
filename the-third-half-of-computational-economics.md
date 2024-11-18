@@ -12,11 +12,11 @@ That's all well and good.
 
 But there is a third half of the computer+economics interaction that I don't hear anybody talking about.
 
-[caption id="attachment_1252" align="aligncenter" width="500"]<img class="size-full wp-image-1252" alt="3-fingers" src="http://codecraft.co/wp-content/uploads/2013/08/3-fingers.jpg" width="500" height="385" /> My buddy <a href="../../../2012/09/19/ken-ebert-kill-three-birds/">Ken Ebert</a> likes to joke about incomplete thinking by saying, "There are 2 aspects of the issue..." -- while he raises three fingers. :-) Interestingly, this three-fingered gesture is a symbol of sustainable development, which connects nicely to our theme of economics. Photo credit: <a href="http://www.flickr.com/photos/dragonpreneur/2918061941">\!/_PeacePlusOne (Flickr)</a>[/caption]
+[caption id="attachment_1252" align="aligncenter" width="500"]<img class="size-full wp-image-1252" alt="3-fingers" src="http://codecraft.co/wp-content/uploads/2013/08/3-fingers.jpg" width="500" height="385" /> My buddy <a href="ken-ebert-kill-three-birds.md">Ken Ebert</a> likes to joke about incomplete thinking by saying, "There are 2 aspects of the issue..." -- while he raises three fingers. :-) Interestingly, this three-fingered gesture is a symbol of sustainable development, which connects nicely to our theme of economics. Photo credit: <a href="http://www.flickr.com/photos/dragonpreneur/2918061941">\!/_PeacePlusOne (Flickr)</a>[/caption]
 
 <!--more-->Why don't we use economic principles to model scarcity and tradeoffs within our applications and ecosystems?
 
-I suspect that most of us have written an application that is a bit too cavalier with its use of resources. We want to allocate 9 GB of RAM to store a monster bitmap, so we call malloc. It might fail, but if it doesn't, we have no sense at all of how much burden we've placed on a scarce resource. We don't "pay" for the allocation in any way. There's <a title="Why Your Software Should Cry" href="../../../2013/05/06/why-your-software-should-cry/">no pain</a>.
+I suspect that most of us have written an application that is a bit too cavalier with its use of resources. We want to allocate 9 GB of RAM to store a monster bitmap, so we call malloc. It might fail, but if it doesn't, we have no sense at all of how much burden we've placed on a scarce resource. We don't "pay" for the allocation in any way. There's <a title="Why Your Software Should Cry" href="why-your-software-should-cry.md">no pain</a>.
 
 This same scenario plays out in how applications bottleneck a network pipe, how disks fill up, how threads contend, how jobs are scheduled and pre-empted in a supercomputer, how data is moved back and forth in <a class="zem_slink" title="Hierarchical storage management" href="http://en.wikipedia.org/wiki/Hierarchical_storage_management" target="_blank" rel="wikipedia">HSM</a>, and how heads move across a spinning platter to satisfy I/O requests...
 
@@ -30,14 +30,14 @@ So why not apply the free market in software?
 	<li>Also give them a goal to maximize "profit". Profit would be defined differently for each entity, but would probably involve getting their work done while maximizing speed or other metrics.</li>
 	<li>Allow resource providers to "sell" their wares as they see fit, and give them the goal of maximizing "profit" as well.</li>
 </ul>
-I don't think a system like this would be worth building in all cases, and it might have some unpleasant side effects like starvation of a humble process that can't adequately compete for resources. It would require <a title="3 Commandments of Performance Optimization" href="../../../2013/01/08/3-commandments-of-performance-optimization/">measurement and tuning</a>. It might require some variant of genetic algorithms so initial profit formulas would evolve. But I can imagine this approach having nice benefits for a certain class of thorny problems. I wonder if I could build this concept into a <a title="My First Tangle With the Tower of Babel" href="../../../2013/04/26/my-first-tangle-with-the-tower-of-babel/">better programming language</a>...
+I don't think a system like this would be worth building in all cases, and it might have some unpleasant side effects like starvation of a humble process that can't adequately compete for resources. It would require <a title="3 Commandments of Performance Optimization" href="my-first-tangle-with-the-tower-of-babel.md">better programming language</a>...
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">What complications do you foresee in such an approach? And how would you enhance it?</span></em></p>
 
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://mashable.com/2013/08/08/ibm-cognitive-computing/" target="_blank">IBM Developing Computer System That Thinks Like a Human</a> (mashable.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://theoverthinker.org/2013/07/11/the-economics-of-sustainability-a-comparison-of-economic-models/" target="_blank">The Economics of Sustainability - A Comparison of Economic Models</a> (theoverthinker.org)</li>
+	<li class="zemanta-article-ul-li"><a href="ibm-cognitive-computing.md" target="_blank">IBM Developing Computer System That Thinks Like a Human</a> (mashable.com)</li>
+	<li class="zemanta-article-ul-li"><a href="the-economics-of-sustainability-a-comparison-of-economic-models.md" target="_blank">The Economics of Sustainability - A Comparison of Economic Models</a> (theoverthinker.org)</li>
 </ul>
 
 ---

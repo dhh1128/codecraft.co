@@ -26,7 +26,7 @@ Anybody who tells you they can add a new feature in a "mere <em>X</em> hours" ha
 
 I cannot count the number of times I've heard the naive assertion that a feature is done because the coding is complete. I periodically fall into this trap myself. But it remains a lie, no matter how often it's repeated.
 
-In most production codebases, smart coders don't create codebases. <a title="Humility" href="../../../2012/10/01/humility/">Teams do</a>. That takes time and coordination from multiple disciplines.
+In most production codebases, smart coders don't create codebases. <a title="Humility" href="humility.md">Teams do</a>. That takes time and coordination from multiple disciplines.
 
 <strong>Pieces and gestalt</strong>
 
@@ -36,17 +36,17 @@ Secondly, facial features are experienced together, not in isolation. The portio
 
 Thirdly, facial features evolve over time. The DNA code that tells a body how to build a nose gets expressed pretty early in a human's lifetime, and we may be able to distinguish some uniqueness of the code from the outset. Maybe big noses show up early. :-) But that code has only built one version of the nose by babyhood; all the other versions of that same nose are still waiting to manifest in the future.
 
-What this means, in practical terms, is that, even if you can code a feature in <em>X</em> hours, and even if it's a simple feature with unusually minor demands on the rest of a team, its cost is <strong>never</strong> <em>X</em> hours. All features have a carrying cost, which is the ongoing expense of keeping the feature alive and connected to the blood supply on the rest of the face, through all future incarnations. In this sense, features are never "done." Sticking our heads in the sand to avoid this truth is a surefire way to <a title="Paying Off Technical Debt" href="../../../2012/10/14/paying-off-technical-debt/">incur tech debt</a>, and not accounting for it with each release is a <a title="Coping With Organizational Alzheimers" href="../../../2012/10/12/coping-with-organizational-alzheimers/">sin of omission</a>.
+What this means, in practical terms, is that, even if you can code a feature in <em>X</em> hours, and even if it's a simple feature with unusually minor demands on the rest of a team, its cost is <strong>never</strong> <em>X</em> hours. All features have a carrying cost, which is the ongoing expense of keeping the feature alive and connected to the blood supply on the rest of the face, through all future incarnations. In this sense, features are never "done." Sticking our heads in the sand to avoid this truth is a surefire way to <a title="Paying Off Technical Debt" href="coping-with-organizational-alzheimers.md">sin of omission</a>.
 
 <strong>Three eyes</strong>
 
-A final lesson of the feature metaphor is that it's possible to have too much of a good thing. Two beautiful eyes might lure a mate; three, not so much. <a title="Good Code Is Balanced" href="../../../2012/08/27/good-code-is-balanced/">Balance and proportion matter</a>.
+A final lesson of the feature metaphor is that it's possible to have too much of a good thing. Two beautiful eyes might lure a mate; three, not so much. <a title="Good Code Is Balanced" href="good-code-is-balanced.md">Balance and proportion matter</a>.
 
 In software, we often make the mistake of adding new features when we ought to be improving the ones we have, or even subtracting a scar here or there.
 
 <strong>Summary</strong>
 
-Features are great. I've spent most of my career building them. They sell product. And coders should be proud when they execute quickly to contribute code for features. But let's be a little more <a title="Lynn Bendixsen: Listen." href="../../../2012/10/02/lynn-bendixsen-listen/">humble</a>, patient, and team-oriented when we think about them. Let's recognize their complexity. And let's add them selectively, understanding their <a title="Ken Ebert: Kill three birds." href="../../../2012/09/19/ken-ebert-kill-three-birds/">value in the overall scheme of things</a>, their ongoing cost, and the commitments they imply.
+Features are great. I've spent most of my career building them. They sell product. And coders should be proud when they execute quickly to contribute code for features. But let's be a little more <a title="Lynn Bendixsen: Listen." href="ken-ebert-kill-three-birds.md">value in the overall scheme of things</a>, their ongoing cost, and the commitments they imply.
 
 That'll put more smiles on our faces.
 

@@ -8,4 +8,4 @@ It occurred to me this past week that convoys--especially the kind where trucker
 
 <figure><img src="http://farm9.staticflickr.com/8171/8061740015_fd5a9d82d5.jpg" width="500" height="333" /><figcaption>Convoys require frequent, real-time, adaptive coordination by many independent actors. Photo credit: Sangudo (Flickr)</figcaption></figure>
 
-Stay tuned for further installments of <a title="Cloudify software designs" href="../../../category/cloudify/">this series</a> each Friday. As I said in <a title="Programmers: learn how to “cloudify”" href="../../../2013/07/23/programmers-learn-how-to-cloudify/">Part 1</a>, I believe that a competence with cloud--cloud-oriented programming, if you will--will be a checkbox on future tech resumes.
+Stay tuned for further installments of <a title="Cloudify software designs" href="programmers-learn-how-to-cloudify.md">Part 1</a>, I believe that a competence with cloud--cloud-oriented programming, if you will--will be a checkbox on future tech resumes.

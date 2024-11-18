@@ -4,7 +4,7 @@ date: 2012/10/30
 slug: tech-debt-leverage-and-grandmas-envelope
 ---
 
-In my previous posts about tech debt, I focused on <a title="Coping With Organizational Alzheimers" href="/2012/10/12/coping-with-organizational-alzheimers/">how we can help organizations remember their debts</a>, and on understanding <a title="Paying Off Technical Debt" href="/2012/10/14/paying-off-technical-debt/">how tech debts are funded and paid back</a>.
+In my previous posts about tech debt, I focused on <a title="Coping With Organizational Alzheimers" href="paying-off-technical-debt.md">how tech debts are funded and paid back</a>.
 
 [caption id="attachment_965" align="alignright" width="300"]<a href="http://www.flickr.com/photos/foei/9530111/"><img class="size-full wp-image-965" alt="Photo credit: Friends of the Earth International (Flickr)" src="http://codecraft.co/wp-content/uploads/2012/10/screen-shot-2013-02-01-at-8-20-20-am.png" width="300" height="222" /></a> Photo credit: Friends of the Earth International (Flickr)[/caption]
 
@@ -68,9 +68,9 @@ Read <em>Refactoring</em> (Martin Fowler). Ponder.
 
 Next time you're fixing a bug, take an extra 5 minutes to document the function better. Then make that practice a habit.
 
-In the spirit of <a href="/2012/09/25/six-learning-tips-for-tech-folks/">my post about teaching to accelerate your own learning</a>, talk about what you're doing, and why. I remembered Grandma's comment for 35 years; you'll make an impression on others.
+In the spirit of <a href="six-learning-tips-for-tech-folks.md">my post about teaching to accelerate your own learning</a>, talk about what you're doing, and why. I remembered Grandma's comment for 35 years; you'll make an impression on others.
 
-Don't accept anyone's claim that they don't have time to do things right, without a gentle and <a title="Humility" href="/2012/10/01/humility/">humble</a> push-back. (As Seth Godin says: <a href="http://sethgodin.typepad.com/seths_blog/2012/09/doing-it-in-a-hurry-almost-always-takes-longer.html" target="_blank">haraka haraka, haina baraka</a>.)
+Don't accept anyone's claim that they don't have time to do things right, without a gentle and <a title="Humility" href="humility.md">humble</a> push-back. (As Seth Godin says: <a href="http://sethgodin.typepad.com/seths_blog/2012/09/doing-it-in-a-hurry-almost-always-takes-longer.html" target="_blank">haraka haraka, haina baraka</a>.)
 
 Next time a behavior of the code puzzles you, write a unit test to understand it.
 
@@ -80,7 +80,7 @@ Next time you hear yourself complaining about how hard it is to install the prod
 
 You may be saying: "That's all well and good, but it's a drop in the bucket compared to the massive problem we have with <em>X</em>."
 
-Even if that's true, I guarantee that at least half of the massive problem you have with <em>X</em> is one of attitude. You'll never solve it if you can't <a title="Roland Whatcott: Manage momentum." href="/2012/09/21/roland-whatcott-manage-momentum/">generate some momentum</a> and optimism for the future. Give yourself a reason to believe things can get better, and watch how much more tractable your tech debt becomes.
+Even if that's true, I guarantee that at least half of the massive problem you have with <em>X</em> is one of attitude. You'll never solve it if you can't <a title="Roland Whatcott: Manage momentum." href="roland-whatcott-manage-momentum.md">generate some momentum</a> and optimism for the future. Give yourself a reason to believe things can get better, and watch how much more tractable your tech debt becomes.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify a low-cost, high-impact habit that will raise your spirits and your team's vision with regard to tech debt, and ingrain that habit in your own day-to-day work.</span></em></p>
 

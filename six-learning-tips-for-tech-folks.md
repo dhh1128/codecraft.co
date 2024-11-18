@@ -8,7 +8,7 @@ In <em>Seven Habits of Highly Effective People</em>, Stephen Covey reminds reade
 
 <figure><img title="crosscut saw" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Five-foot_crosscut_saw.jpg/320px-Five-foot_crosscut_saw.jpg" alt="" width="320" height="131" /><figcaption>Sharpen the saw. Photo credit: ATsawyer (Wikimedia Commons).</figcaption></figure>
 
-Chances are, you're nodding your head. We all recognize the truth of the principle, but we struggle to put it into practice. <a title="Julie Jones: Learn voraciously." href="/2012/09/24/julie-jones-learn-voraciously/">My friend who's a voracious learner</a> is an example we all need to emulate better.
+Chances are, you're nodding your head. We all recognize the truth of the principle, but we struggle to put it into practice. <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">My friend who's a voracious learner</a> is an example we all need to emulate better.
 
 Here are a few tried-and-true habits that help me.
 

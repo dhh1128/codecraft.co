@@ -21,7 +21,7 @@ In 2003, Symantec acquired several companies in rapid succession, and threw five
 
 I began to sense that the way I made decisions needed to change, but it wasn't until I worked intensely with Ken Ebert, years later, that I could put into words exactly how.
 
-Making wise decisions about architecture, SOP on dev teams, product features, investment in R&D versus marketing--it's like trying to solve an equation with multiple variables. <em>Profit maximization requires that you consider more than one input at a time. </em>This is partly what I had in mind when I blogged about <a title="Good Code Is Balanced" href="/2012/08/27/good-code-is-balanced/">the need for balance in good code</a>, and when I blogged about <a title="Good Code Is Optimized" href="/2012/08/27/good-code-is-optimized/">optimization</a>.
+Making wise decisions about architecture, SOP on dev teams, product features, investment in R&D versus marketing--it's like trying to solve an equation with multiple variables. <em>Profit maximization requires that you consider more than one input at a time. </em>This is partly what I had in mind when I blogged about <a title="Good Code Is Balanced" href="good-code-is-optimized.md">optimization</a>.
 
 Many times I've heard Ken say something like this: "I think we should make feature <em>N</em> the centerpiece of our next release." And my first response has been, "That's doable, but kinda boring. Why not focus on <em>M</em> instead?"
 
@@ -42,7 +42,7 @@ I'm not sure how Ken manages to be so good at this, but here's what I've done to
 	<li>Evaluate for morale and momentum.</li>
 	<li>Evaluate for technical debt.</li>
 </ul>
-Of course, nobody can do all of these, exhaustively, all the time. <a title="Don Kleinschnitz: Put a stake in the ground." href="/2012/09/14/don-kleinschnitz-stake/">Don Kleinschnitz's wisdom about putting a stake in the ground</a> is an important counterbalance. But I find that I <em>can</em> think, at least briefly, about ramifications of a choice from multiple perspectives--and when I do, I often make better choices.
+Of course, nobody can do all of these, exhaustively, all the time. <a title="Don Kleinschnitz: Put a stake in the ground." href="don-kleinschnitz-stake.md">Don Kleinschnitz's wisdom about putting a stake in the ground</a> is an important counterbalance. But I find that I <em>can</em> think, at least briefly, about ramifications of a choice from multiple perspectives--and when I do, I often make better choices.
 
 Thanks for the lesson, Ken.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

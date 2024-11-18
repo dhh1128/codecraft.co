@@ -32,7 +32,7 @@ The duties of a software architect include:
 
 Of these duties, items 1, 2, and 3 sometimes get lost or watered down if an architect is just a senior engineer. In that sort of environment, PM may convey a vision to dev without involving architects. As a result, the team has conversations about feasibility or cost of implementing, but rarely if ever about whether a requirement is a good idea in the first place. Whether a requirement is a good idea is more than just a question of whether customers want it, whether it can generate revenue, and whether it can be built -- it also must take into account things like technical opportunity cost, long-term baggage, effect on the expertise and focus of the engineers who will build it, technical differentiation, and so forth.
 
-It also might be worth highlighting <a href="/codecraft/2012/06/26/what-a-software-architect-is-not/">some things that I *don't* consider part of an architect's job</a>, for the sake of clarity. I'll do that in a separate post.
+It also might be worth highlighting <a href="what-a-software-architect-is-not.md">some things that I *don't* consider part of an architect's job</a>, for the sake of clarity. I'll do that in a separate post.
 
 ---
 

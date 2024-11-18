@@ -21,8 +21,8 @@ This has interesting implications. Algorithms that were written on the assumptio
 Interestingly, I think this will make computer-driven data analysis much more similar to the way humans process information. As I've said elsewhere, when faced with a difficult design problem, a smart question to ask is: <em>how does Mother Nature solve it?</em>
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.forbes.com/sites/tomtaulli/2012/11/06/more-data-more-dollars/" target="_blank">More Data, More Dollars?</a> (forbes.com)</li>
+	<li class="zemanta-article-ul-li"><a href="more-data-more-dollars.md" target="_blank">More Data, More Dollars?</a> (forbes.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://go.theregister.com/feed/www.theregister.co.uk/2012/11/07/big_data_analytics/" target="_blank">Big Data and analytics: Reg survey crunches the numbers</a> (go.theregister.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://www.siliconrepublic.com/strategy/item/29971-humanising-big-data-infogr" target="_blank">Humanising big data (infographic)</a> (siliconrepublic.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://arnoldit.com/wordpress/2012/11/07/polyspot-delivers-insights-and-information-from-raw-data/" target="_blank"><a href="http://betabeat.com/2012/11/nate-silver-predicton-sweep-presidential-election-huge-win-big-data/" target="_blank">Nate Silver's Sweep Is a Huge Win for Big Data</a> (betabeat.com)</a></li>
+	<li class="zemanta-article-ul-li"><a href="polyspot-delivers-insights-and-information-from-raw-data.md" target="_blank"><a href="http://betabeat.com/2012/11/nate-silver-predicton-sweep-presidential-election-huge-win-big-data/" target="_blank">Nate Silver's Sweep Is a Huge Win for Big Data</a> (betabeat.com)</a></li>
 </ul>

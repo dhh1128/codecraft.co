@@ -14,7 +14,7 @@ Sometimes I get answers like this:
 </ul>
 <figure><img class="   " title="Interview Questions" alt="" src="http://farm5.staticflickr.com/4027/4607151156_d8b9c7554d_o.jpg" width="358" height="239" /><figcaption>Answering tough interview questions. Photo credit: bpsusf (Flickr).</figcaption></figure>
 
-Such answers tell me that an engineer is practical, business-aware, and customer-focused--all useful traits. <a title="Earned Pragmatism" href="../../../2013/01/18/earned-pragmatism/">Pragmatism is usually learned in the economic school of hard knocks</a>, and it's a critical perspective that should never be forgotten. But I don't get a warm fuzzy from pure pragmatism; it lacks vision or love of craft.
+Such answers tell me that an engineer is practical, business-aware, and customer-focused--all useful traits. <a title="Earned Pragmatism" href="earned-pragmatism.md">Pragmatism is usually learned in the economic school of hard knocks</a>, and it's a critical perspective that should never be forgotten. But I don't get a warm fuzzy from pure pragmatism; it lacks vision or love of craft.
 
 Another kind of answer focuses on cleverness:
 <ul>

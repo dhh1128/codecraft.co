@@ -13,18 +13,18 @@ But it's not enough.
 Since I'm half way to curmudgeon-hood, I frequently find myself lamenting educational blindspots in the young. I've even toyed with the idea of teaching at the nearest university, some day when I Have More Time™. If academia would take me, my lesson plans might cover some of the following topics:
 <ul>
 	<li>How to work with smart but misaligned teammates, <!--more-->manage opinions and personalities, and contribute to a cohesive team. (Software development is a <em>team</em> sport, young padawan.)</li>
-	<li>The power of metaphor in software design. (See <a title="Good Code Is Named Right" href="/2012/08/28/good-code-is-named-right/">this post</a>.)</li>
-	<li><a title="Why Exceptions Aren’t Enough" href="/2012/10/09/why-exceptions-arent-enough/">Choosing a good error raising and error handling strategy</a>. (Assignment: find half a dozen error messages in open source projects, and rewrite them to make them intelligible to the Average Human.)</li>
-	<li>The art of <a title="Good Code Is Balanced" href="/2012/08/27/good-code-is-balanced/">tradeoffs</a>. (Usually, there ain't no such thing as a free lunch.)</li>
-	<li><a title="Coping With Organizational Alzheimers" href="/2012/10/12/coping-with-organizational-alzheimers/">Managing technical debt</a>.</li>
+	<li>The power of metaphor in software design. (See <a title="Good Code Is Named Right" href="good-code-is-named-right.md">this post</a>.)</li>
+	<li><a title="Why Exceptions Aren’t Enough" href="why-exceptions-arent-enough.md">Choosing a good error raising and error handling strategy</a>. (Assignment: find half a dozen error messages in open source projects, and rewrite them to make them intelligible to the Average Human.)</li>
+	<li>The art of <a title="Good Code Is Balanced" href="good-code-is-balanced.md">tradeoffs</a>. (Usually, there ain't no such thing as a free lunch.)</li>
+	<li><a title="Coping With Organizational Alzheimers" href="coping-with-organizational-alzheimers.md">Managing technical debt</a>.</li>
 	<li>Using version control, especially somewhat diverged branches.</li>
 	<li>Communicating effectively with remote collaborators, including those whose native language is not your own.</li>
-	<li>Data- and <a title="Good Code Is Optimized" href="/2012/08/27/good-code-is-optimized/">use-case-driven optimization</a>. (Required reading: <em><a class="zem_slink" title="The Goal: A Process of Ongoing Improvement" href="http://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271781%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dzemanta-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0884271781" target="_blank" rel="amazon">The Goal</a></em>, by Eliyahu M. Goldratt).</li>
+	<li>Data- and <a title="Good Code Is Optimized" href="good-code-is-optimized.md">use-case-driven optimization</a>. (Required reading: <em><a class="zem_slink" title="The Goal: A Process of Ongoing Improvement" href="http://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271781%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dzemanta-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0884271781" target="_blank" rel="amazon">The Goal</a></em>, by Eliyahu M. Goldratt).</li>
 	<li>Understanding and speaking the language of business.</li>
-	<li><a title="Six Learning Tips For Tech Folks" href="/2012/09/25/six-learning-tips-for-tech-folks/">Learning how to learn</a>, to keep up with the industry after you leave school.</li>
+	<li><a title="Six Learning Tips For Tech Folks" href="six-learning-tips-for-tech-folks.md">Learning how to learn</a>, to keep up with the industry after you leave school.</li>
 	<li>Estimating wisely.</li>
 	<li>Finding the non-obvious human and process levers in an organization to get things done.</li>
-	<li><a title="// Comments on Comments" href="../../../2012/10/31/comments-on-comments/">Effective commenting</a>.</li>
+	<li><a title="// Comments on Comments" href="comments-on-comments.md">Effective commenting</a>.</li>
 	<li>Coding for maintainability.</li>
 	<li>Great role models in software development.</li>
 	<li>Common newbie and journeyman mistakes.</li>
@@ -35,8 +35,8 @@ This is only the beginning of my lesson topics; I'm sure I could come up with do
 What would you add to the list?<strong> <span style="color:#000080;"><em>Please comment. And please subscribe to my blog (top of right sidebar) for explorations of these topics.</em></span></strong>
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://thenextweb.com/entrepreneur/2012/11/04/the-non-developers-guide-to-hiring-software-developers/" target="_blank">The non-developer's guide to hiring software developers</a> (thenextweb.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://charlesknutson.net/blog/2010/10/25/puzzle-solving-not-the-driving-function-of-software-construction/" target="_blank">Puzzle-solving: Not the driving function of software construction</a> (http://charlesknutson.net/)</li>
+	<li class="zemanta-article-ul-li"><a href="the-non-developers-guide-to-hiring-software-developers.md" target="_blank">The non-developer's guide to hiring software developers</a> (thenextweb.com)</li>
+	<li class="zemanta-article-ul-li"><a href="puzzle-solving-not-the-driving-function-of-software-construction.md" target="_blank">Puzzle-solving: Not the driving function of software construction</a> (http://charlesknutson.net/)</li>
 </ul>
 
 ---

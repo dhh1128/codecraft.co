@@ -16,15 +16,15 @@ Thomas Edison tried 1000 times to invent a light bulb before he succeeded. Why d
 
 If you don't lose the occasional battle, you will never win the war.
 
-Losing an occasional battle keeps us <a title="Humility" href="../../../2012/10/01/humility/" target="_blank">humble</a>. It means we're grounded in reality rather than ivory tower imagination. It means we value <a title="Good Code Is Balanced" href="../../../2012/08/27/good-code-is-balanced/" target="_blank">balance</a> and <a title="Earned Pragmatism" href="../../../2013/01/18/earned-pragmatism/" target="_blank">pragmatism</a> over theoretical perfection, and it helps build a healthy regard for <a title="Users Aren’t The Only People In Your Software" href="../../../2012/09/04/users-arent-the-only-people-in-your-software/" target="_blank">the needs of other people</a>.
+Losing an occasional battle keeps us <a title="Humility" href="users-arent-the-only-people-in-your-software.md" target="_blank">the needs of other people</a>.
 
 Go try. A lost battle of the sort we fight with software is never an Antietam or Gettysburg.
 
 “To live a creative life, we must lose our fear of being wrong.” Joseph Chilton Pearce.
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://abrahamlincolnandthecivilwar.wordpress.com/2013/02/24/lincoln-cabinet-discusses-possible-embarrassment-of-general-george-b-mcclellan/" target="_blank">Lincoln Cabinet discusses possible embarrassment of General George B. McClellan</a> (abrahamlincolnandthecivilwar.wordpress.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://theproducermaker.com/2013/02/01/take-action-now/" target="_blank">Take Action Now</a> (theproducermaker.com)</li>
+	<li class="zemanta-article-ul-li"><a href="lincoln-cabinet-discusses-possible-embarrassment-of-general-george-b-mcclellan.md" target="_blank">Lincoln Cabinet discusses possible embarrassment of General George B. McClellan</a> (abrahamlincolnandthecivilwar.wordpress.com)</li>
+	<li class="zemanta-article-ul-li"><a href="take-action-now.md" target="_blank">Take Action Now</a> (theproducermaker.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://www.inc.com/steve-cody/lessons-from-abraham-lincoln.html" target="_blank">6 Publicity Lessons From Abraham Lincoln</a> (inc.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://grasshopper.com/blog/2011/01/the-future-is-now-infographic/" target="_blank">The Future is Now [Infographic]</a> (grasshopper.com)</li>
 </ul>

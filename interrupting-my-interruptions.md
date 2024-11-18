@@ -28,7 +28,7 @@ How am I supposed to think Deep Thoughts when I've got that much noise?
 
 <strong>Not quite a catastrophe</strong>
 
-To be fair, my job is <em>supposed to be</em> collaborative and communicative; if tech companies just needed architects for their navel-contemplation skills, they could hire much cheaper and quieter employees. As I've said repeatedly on this blog, <a title="Why People Are Part of A Software Architecture" href="../../../2008/06/25/why-people-are-part-of-a-software-architecture/" target="_blank">people are part of architecture</a>, and interacting with teammates is both a tool and an end unto itself. Those meetings I'm attending (or calling) are how I <a title="Why Mental Models Matter" href="../../../2012/11/05/why-mental-models-matter/" target="_blank">develop shared mental models</a>, motivate and teach, <a title="Roland Whatcott: Manage momentum." href="../../../2012/09/21/roland-whatcott-manage-momentum/" target="_blank">manage momentum</a>, and <a title="Don Kleinschnitz: Put a stake in the ground." href="../../../2012/09/14/don-kleinschnitz-stake/" target="_blank">put a stake in the ground</a>. Those wikipedia pages and chat sessions and interesting blog posts are part of <a title="Julie Jones: Learn voraciously." href="../../../2012/09/24/julie-jones-learn-voraciously/" target="_blank">learning voraciously</a>, which is a strategic imperative for any software architect.
+To be fair, my job is <em>supposed to be</em> collaborative and communicative; if tech companies just needed architects for their navel-contemplation skills, they could hire much cheaper and quieter employees. As I've said repeatedly on this blog, <a title="Why People Are Part of A Software Architecture" href="julie-jones-learn-voraciously.md" target="_blank">learning voraciously</a>, which is a strategic imperative for any software architect.
 
 However, it's possible to have too much of a good thing.
 
@@ -53,7 +53,7 @@ I'll report back to you if I discover anything helpful as I work this problem. W
 	<li class="zemanta-article-ul-li"><a href="http://www.futureof.biz/post/38059568953/office-workers-are-interrupted-or" target="_blank">"Office workers are interrupted - or self-interrupt - roughly every three minutes, academic studies have..."</a> (futureof.biz)</li>
 	<li class="zemanta-article-ul-li"><a href="http://www.stevepavlina.com/blog/2013/01/please-dont-interrupt/" target="_blank">Please Don't Interrupt</a> (stevepavlina.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://scienceblog.com/58928/brief-interruptions-spawn-errors/" target="_blank">Brief interruptions spawn errors</a><span style="color:#333333;"> (scienceblog.com)</span></li>
-	<li class="zemanta-article-ul-li"><a href="http://minnesota.cbslocal.com/2013/01/10/how-to-manage-your-time-better-at-work/" target="_blank">How To Manage Your Time Better At Work</a> (minnesota.cbslocal.com)</li>
+	<li class="zemanta-article-ul-li"><a href="how-to-manage-your-time-better-at-work.md" target="_blank">How To Manage Your Time Better At Work</a> (minnesota.cbslocal.com)</li>
 </ul>
 
 ---

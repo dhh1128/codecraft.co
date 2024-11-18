@@ -14,6 +14,6 @@ Same deal with computers. At the lowest level, there are hardware folks who are 
 
 Morals to the story?
 <ol>
-	<li>Just as not all great biological scientists are experts in protein transcription, <a href="http://charlesknutson.net/blog/2010/10/25/puzzle-solving-not-the-driving-function-of-software-construction/">not all great computer pros are experts at low-level algorithms and data structures</a>.</li>
+	<li>Just as not all great biological scientists are experts in protein transcription, <a href="puzzle-solving-not-the-driving-function-of-software-construction.md">not all great computer pros are experts at low-level algorithms and data structures</a>.</li>
 	<li>Biology has a lot to teach us about building stable systems. There's a reason organisms develop defense mechanisms, excretory capabilities, etc. Apps that evolve without analogs will die. Next time you are solving a tricky computer problem, ask yourself how biology solves the equivalent...</li>
 </ol>

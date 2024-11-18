@@ -6,7 +6,7 @@ slug: farewell-to-google-reader
 
 If you've been following blogs with Google Reader, you were probably unhappy with Google's recent decision to kill it.
 
-<strong>Observation</strong>: this is a great illustration of the <a title="The 8th Characteristic" href="../../../2012/09/28/the-8th-characteristic/">phenomenon of software death</a> that I wrote about a few months ago.
+<strong>Observation</strong>: this is a great illustration of the <a title="The 8th Characteristic" href="the-8th-characteristic.md">phenomenon of software death</a> that I wrote about a few months ago.
 
 <strong>Suggestion 1</strong>: If you're following my blog in Google Reader, click on the "Follow" button at the top of the right sidebar so you can follow this blog by email. I need your email address more than your launch coordinates. ;-)
 

@@ -22,7 +22,7 @@ This rule is simple to follow, and it makes semantics about constness crystal cl
 
 Use the right-to-left rule in reverse to solve the problem. If we want a "const pointer to const char", then we want:
 <pre style="padding-left:30px;font-size:100%;margin-bottom:1em;">char const * const VERSION = "2.5";</pre>
-<em>That</em> is a true string literal constant in C++. (Thanks to my friend <a title="Julie Jones: Learn voraciously." href="/2012/09/24/julie-jones-learn-voraciously/">Julie</a> for teaching me this one.)
+<em>That</em> is a true string literal constant in C++. (Thanks to my friend <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">Julie</a> for teaching me this one.)
 
 This might seem like nit-picky stuff, but if you ever get into const_iterator classes and <a class="zem_slink" title="Standard Template Library" href="http://en.wikipedia.org/wiki/Standard_Template_Library" target="_blank" rel="wikipedia">STL</a> containers, this particular habit helps you write or use templates with much greater comfort. It also helps if you have pointers to pointers and the like. (For consistency, I prefer to follow the same convention for reference variables as well. However, this is not especially important, since references are inherently immutable and therefore never bind to <code>const</code>.)
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
@@ -46,7 +46,7 @@ I have definitely noticed that unseasoned C/C++ programmers often get confused w
 
 Daniel (2012-11-14 22:17:13)
 
-The trick of choosing good names is so fundamental it deserves its own post. Have a look at <a href="/2012/08/28/good-code-is-named-right/" title="Good Code Is Named Right" rel="nofollow">Good Code is Named Right</a>.
+The trick of choosing good names is so fundamental it deserves its own post. Have a look at <a href="good-code-is-named-right.md" title="Good Code Is Named Right" rel="nofollow">Good Code is Named Right</a>.
 
 (I can tell you've got battlescars; young engineers are often blind to the power of that particular habit. :-)
 

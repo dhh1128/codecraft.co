@@ -50,5 +50,5 @@ I propose a new kind of data analytics product/process/service that implements t
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://blog.neolane.com/conversational-marketing/big-data/" target="_blank">Transforming Big Data Into Actionable Insight [Infographic]</a> (neolane.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.itproportal.com/2013/05/13/making-sense-of-big-data-and-its-role-in-your-business/" target="_blank">Making sense of big data and its role in your business</a> (itproportal.com)</li>
+	<li class="zemanta-article-ul-li"><a href="making-sense-of-big-data-and-its-role-in-your-business.md" target="_blank">Making sense of big data and its role in your business</a> (itproportal.com)</li>
 </ul>

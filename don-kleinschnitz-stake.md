@@ -17,7 +17,7 @@ Five minutes later, the meeting was over, and the controversy was settled. Don h
 
 I don't remember the question or the answer, but I do remember some of Don's solution. He immediately pushed us from generalities into specifics--what use case, <em>exactly</em>, would be affected by the decision? How much, <em>exactly</em>, would tradeoffs pay or cost in either direction?
 
-Of course we couldn't answer Don's questions very well; nothing is more certain than ambiguity in software. But Don refused to let us off the hook, because he understood that <em>imperfect but specific answers are better than vague generalizations. Even if you have to guess.</em> (More rationale for this principle is elaborated in <a title="Role-Play Centered Design" href="/2012/06/20/role-play-centered-design/" target="_blank">the RPCD manifesto</a>.)
+Of course we couldn't answer Don's questions very well; nothing is more certain than ambiguity in software. But Don refused to let us off the hook, because he understood that <em>imperfect but specific answers are better than vague generalizations. Even if you have to guess.</em> (More rationale for this principle is elaborated in <a title="Role-Play Centered Design" href="role-play-centered-design.md" target="_blank">the RPCD manifesto</a>.)
 
 By putting a stake in the ground, Don wasn't being arrogant or unwilling to listen. He was simply recognizing that we had incomplete input, that the right answer was maybe guessable but not clear-cut, and that we'd be better off making a tangible experiment instead of debating intuitions. Maybe our answer would be wrong; if so, we'd adjust later. The cost of altering our trajectory would not be so high that it would invalidate the benefit of immediate progress.
 

@@ -20,7 +20,7 @@ As cells grow into tissues in biology, so similar objects in an OOP mindset ofte
 
 Less commonly, objects align on a vertical axis, producing semi-independent silos that span layers to produce decoupled top-level features. An optional accounting module that has its own db and middleware might be modeled as an independent stack in a vertical architecture. <a class="zem_slink" title="Aspect-Oriented Programming" href="http://www.techopedia.com/definition/204/aspect-oriented-programming-aop" target="_blank" rel="techopedia">Aspect-oriented programming</a> also spans layers, though in a less siloed way.
 
-In either case, <a title="Why People Are Part of A Software Architecture" href="/2008/06/25/why-people-are-part-of-a-software-architecture/">the boxes you draw to model your architecture tend to correspond to teams</a>, and those teams tend to use different tools and processes, and those differences tend to isolate rather than converge organizations.
+In either case, <a title="Why People Are Part of A Software Architecture" href="why-people-are-part-of-a-software-architecture.md">the boxes you draw to model your architecture tend to correspond to teams</a>, and those teams tend to use different tools and processes, and those differences tend to isolate rather than converge organizations.
 
 This is a problem.
 
@@ -52,8 +52,8 @@ Thinking outside the box pays big dividends.
 
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://dailyjs.com/2012/09/17/encapsulation-breaking/" target="_blank">Encapsulation Breaking</a> (dailyjs.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://philcrissman.com/2012/08/26/touching-the-stove/" target="_blank">Touching the stove, broken glass, and other people's mistakes</a> (philcrissman.com)</li>
+	<li class="zemanta-article-ul-li"><a href="encapsulation-breaking.md" target="_blank">Encapsulation Breaking</a> (dailyjs.com)</li>
+	<li class="zemanta-article-ul-li"><a href="touching-the-stove.md" target="_blank">Touching the stove, broken glass, and other people's mistakes</a> (philcrissman.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://architects.dzone.com/articles/breaking-ioc-containers" target="_blank">Breaking Up with IoC Containers</a> (architects.dzone.com)</li>
 </ul>
 

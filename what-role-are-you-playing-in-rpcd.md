@@ -4,7 +4,7 @@ date: 2012/06/25
 slug: what-role-are-you-playing-in-rpcd
 ---
 
-When you role play in <a href="/2012/06/20/role-play-centered-design/">RPCD</a>, you could be standing in for either software, or a flesh-and-blood human being. As RPCD explicitly acknowledges, both are part of your final system.
+When you role play in <a href="role-play-centered-design.md">RPCD</a>, you could be standing in for either software, or a flesh-and-blood human being. As RPCD explicitly acknowledges, both are part of your final system.
 
 A key insight of RPCD is that the distinction between these two entities is a lot less meaningful than we usually think. Most software is created to solve a problem that ordinary human beings are already addressing in some fashion. In fact, I might go so far as to say that this is true of all software. The quick exceptions that come to mind just take a little more pondering to map. Biometric scanners? Just a replacement for humans judging whether a person matches that photo on their driver's license. RFID tags? Just making the human inventory team's job easier. Firmware in high-speed switches on the internet backbone? Just a step or two removed from postmen and switchboard operators. Word processors and IMEs? Just a replacement for a transcriptionist. Signal analyzers for <a href="http://setiathome.berkeley.edu/" target="_blank">SETI</a>? Genome sequencers? Protein folders for <a href="http://folding.stanford.edu/English/HomePage" target="_blank">Folding@Home</a>? Just substitutes for human researchers.
 

@@ -6,7 +6,7 @@ slug: use-kind-words
 
 My title might seem oddly out of place on a tech blog, but a slashdot post today led me to an email thread for linux kernel developers, and the thread and its fallout leave me troubled.
 
-Apparently, a veteran contributor is <a href="http://sarah.thesharps.us/2015/10/05/closing-a-door/" target="_blank">leaving the kernel dev community</a> because she feels like the communication style there is too harsh. This is unfortunate, but what seems even more lamentable to me is the lack of sympathy in <a href="http://marc.info/?l=linux-kernel&m=137392506516022&w=2" target="_blank">Linus Torvalds' reaction</a>. It seems to me that his attitude is: "That's just the way us kernel devs are, and we aren't going to change to accommodate anybody. If you can't take the heat, get out of the kitchen."
+Apparently, a veteran contributor is <a href="closing-a-door.md" target="_blank">leaving the kernel dev community</a> because she feels like the communication style there is too harsh. This is unfortunate, but what seems even more lamentable to me is the lack of sympathy in <a href="http://marc.info/?l=linux-kernel&m=137392506516022&w=2" target="_blank">Linus Torvalds' reaction</a>. It seems to me that his attitude is: "That's just the way us kernel devs are, and we aren't going to change to accommodate anybody. If you can't take the heat, get out of the kitchen."
 
 This feels sad to me. Kind words can be such a joy.
 
@@ -28,7 +28,7 @@ Perhaps Linus would argue that, although my career has been more rewarding becau
 
 I think that's short-sighted.
 
-Tech is hard. Things often fail to work; requirements change; incompatibilities in components and tools are endemic; we <a href="../../../2012/09/25/six-learning-tips-for-tech-folks/">learn a lot by trial and error</a>. Part of "tech progress" is raising the experience, confidence, and <a href="../../../2013/05/31/courage-counts/">courage</a> of those around us; in doing so, we <a href="../../../2012/09/24/julie-jones-learn-voraciously/">learn more</a> ourselves, and we are usually repaid in spades. Over time, the output of a healthy community will always <a href="../../../2015/03/04/rockstars/">exceed the contributions of a single "rock star"</a>, if for no other reason than because the community has a longer lifespan. <a href="../../../2012/10/01/humility/">Humility</a> and <a href="../../../2012/10/02/lynn-bendixsen-listen/">listening</a> are worth keeping on our personal radar.
+Tech is hard. Things often fail to work; requirements change; incompatibilities in components and tools are endemic; we <a href="lynn-bendixsen-listen.md">listening</a> are worth keeping on our personal radar.
 
 I say "thank you" to Sarah and to all the other developers who move in linux kernel circles--Linus included. I don't want the exacting technical standards in that community to erode. But I suggest we ought to be smart enough to honor that imperative and still see that the developers who contribute there feel appreciated and respected.
 <blockquote>“I have wept in the night

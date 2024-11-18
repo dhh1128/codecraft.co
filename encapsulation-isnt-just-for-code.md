@@ -16,10 +16,10 @@ The cloud computing wave is raising the bar for encapsulation in the way applica
 
 <figure><img src="http://farm1.staticflickr.com/102/258253832_927e23b2b9.jpg" width="500" height="375" /><figcaption>What can McDonalds teach a developer of cloud-friendly software? <a href="http://www.flickr.com/photos/derfokel/258253832/sizes/m/in/photolist-oPBSh-F14J9-MQh6J-4c1HXK-4mEHoC-4ovGHD-4upuzt-4wYDLv-5jWmpq-5Xv7Wr-729ALs-76Locf-7E3LgF-9e8N8c-buruPp-bxadb4-biwGXv-e8ySUj-cEmmDf-ebusvW-8MBDdG-bvALeU-b5yiwg-9D3wMX/" target="_blank">photo credit: phogel (Flickr)</a></figcaption></figure>
 
-Stay tuned for further installments of this series each Friday. As I said in <a title="learn how to cloudify" href="/2013/07/23/programmers-learn-how-to-cloudify/">Part 1</a>, I believe that a competence with cloud–cloud-oriented programming, if you will–will be a checkbox on future tech resumes.
+Stay tuned for further installments of this series each Friday. As I said in <a title="learn how to cloudify" href="programmers-learn-how-to-cloudify.md">Part 1</a>, I believe that a competence with cloud–cloud-oriented programming, if you will–will be a checkbox on future tech resumes.
 
 ---
 
 SutoCom (2013-09-04 03:51:41)
 
-Reblogged this on <a href="http://sutocom.net/2013/09/04/encapsulation-isnt-just-for-code/" rel="nofollow">Sutoprise Avenue, A SutoCom Source</a>.
+Reblogged this on <a href="encapsulation-isnt-just-for-code.md" rel="nofollow">Sutoprise Avenue, A SutoCom Source</a>.

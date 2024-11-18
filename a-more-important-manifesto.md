@@ -4,7 +4,7 @@ date: 2015/01/05
 slug: a-more-important-manifesto
 ---
 
-A couple years ago, I <a title="Manifestos" href="../../../2012/09/13/manifestos/">wrote</a> about signing the Agile Manifesto and the Manifesto for Software Craftsmanship.
+A couple years ago, I <a title="Manifestos" href="manifestos.md">wrote</a> about signing the Agile Manifesto and the Manifesto for Software Craftsmanship.
 
 Today I want to write about something a lot more important.
 
@@ -24,7 +24,7 @@ Your objectives ought to matter.
 
 <!--more-->
 
-Last year, I spent a lot of time pondering what makes me tick, as an engineer, an employee, and a company leader. A lot of it grew out of <a title="Why" href="../../../2013/01/30/why/">my exposure</a> to Simon Sinek's TED talk, <a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en" target="_blank">"Start with Why"</a>, and my readings in <em>Conscious Capitalism</em>. (Shoutout to <a href="http://dld.me" target="_blank">@trev_harmon</a> for a fountain of interesting ideas, and generous discussions about them.)
+Last year, I spent a lot of time pondering what makes me tick, as an engineer, an employee, and a company leader. A lot of it grew out of <a title="Why" href="why.md">my exposure</a> to Simon Sinek's TED talk, <a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en" target="_blank">"Start with Why"</a>, and my readings in <em>Conscious Capitalism</em>. (Shoutout to <a href="http://dld.me" target="_blank">@trev_harmon</a> for a fountain of interesting ideas, and generous discussions about them.)
 
 One consequence of my ponderings was that I re-wrote the "Objective" section on my résumé. Here's what it said, hot off the presses, when I responded to a Google recruiter who came calling:
 <blockquote>I long to transmute complex software and data into insight engines that make the world better. Sign me up for awesome--not easy, mediocre, or unimpactful.</blockquote>
@@ -46,7 +46,7 @@ The manager asked me about my objective. Didn't I think it was a bit idealistic?
 
 I didn't speak to him again.
 
-Of course I was being idealistic. I get <a title="Earned Pragmatism" href="../../../2013/01/18/earned-pragmatism/">the need for pragmatism</a>. I don't think everybody needs to be an idealist about their career; just loving your job and doing it with passion and professionalism can make the world a better place, in the right circumstances. Yet I also knew I wouldn't be happy working for a boss who thinks idealism and business are incompatible.
+Of course I was being idealistic. I get <a title="Earned Pragmatism" href="earned-pragmatism.md">the need for pragmatism</a>. I don't think everybody needs to be an idealist about their career; just loving your job and doing it with passion and professionalism can make the world a better place, in the right circumstances. Yet I also knew I wouldn't be happy working for a boss who thinks idealism and business are incompatible.
 
 Which brings me back to the manifesto.
 

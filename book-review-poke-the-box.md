@@ -22,7 +22,7 @@ The only critique I have is that Godin could have said the same thing in about h
 
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://referenceacademy.wordpress.com/2012/09/19/book-review-poke-the-box-by-seth-godin/" target="_blank">Book review: Poke The Box, by Seth Godin</a> (referenceacademy.wordpress.com)</li>
+	<li class="zemanta-article-ul-li"><a href="book-review-poke-the-box-by-seth-godin.md" target="_blank">Book review: Poke The Box, by Seth Godin</a> (referenceacademy.wordpress.com)</li>
 </ul>
 
 ---

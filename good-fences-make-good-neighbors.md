@@ -60,10 +60,10 @@ In C++:
 	<li>Avoid headers that declare too much. 15 classes in my-master-header.h = bad.</li>
 	<li>Keep implementation out of headers. (Templates are a special case that's worthy of separate discussion.)</li>
 	<li>Consider using the pimpl idiom where it makes sense.</li>
-	<li><a title="How Enums Spread Disease — And How To Cure It" href="../../../2012/10/29/how-enums-spread-disease-and-how-to-cure-it/">Use enums carefully</a>.</li>
+	<li><a title="How Enums Spread Disease — And How To Cure It" href="how-enums-spread-disease-and-how-to-cure-it.md">Use enums carefully</a>.</li>
 	<li>Use anonymous namespaces and/or static scopes to hide private classes from the linker.</li>
 	<li>Never have protected members. (Public members are okay for POD structs, but are otherwise just as toxic.)</li>
-	<li><a title="Put Your Const Foot Forward" href="../../../2012/11/14/put-your-const-foot-forward/">Use const correctly</a>. This forces callers to respect mutability constraints in your corner of the codebase.</li>
+	<li><a title="Put Your Const Foot Forward" href="put-your-const-foot-forward.md">Use const correctly</a>. This forces callers to respect mutability constraints in your corner of the codebase.</li>
 	<li>Eliminate goto.</li>
 </ul>
 In Java:
@@ -79,17 +79,17 @@ In Python:
 </ul>
 In all languages:
 <ul>
-	<li><a title="Small Files Are Your Friends" href="../../../2013/03/21/small-files-are-your-friends/">Divide code into modules and files</a> that gives you a rational, mentally tractable separation of concerns.</li>
+	<li><a title="Small Files Are Your Friends" href="small-files-are-your-friends.md">Divide code into modules and files</a> that gives you a rational, mentally tractable separation of concerns.</li>
 	<li>Be on the lookout for tight coupling and unnecessary leakage of implementation details.</li>
 </ul>
-(BTW, my <a title="My First Tangle With the Tower of Babel" href="../../../2013/04/26/my-first-tangle-with-the-tower-of-babel/">pondering on programming languages</a> leads me to believe that encouraging correct thinking about encapsulation is a desirable attribute. Not all languages do it equally well. Contrast the C++ guidelines above with what needs to be said about Smalltalk or Erlang; I think it's a bit eye-opening...)
+(BTW, my <a title="My First Tangle With the Tower of Babel" href="my-first-tangle-with-the-tower-of-babel.md">pondering on programming languages</a> leads me to believe that encouraging correct thinking about encapsulation is a desirable attribute. Not all languages do it equally well. Contrast the C++ guidelines above with what needs to be said about Smalltalk or Erlang; I think it's a bit eye-opening...)
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Talk back. What coding habits do you feel are most helpful at promoting encapsulation?</span></em></p>
 
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html" target="_blank">Overwhelmed by JavaScript Dependencies</a> (startifact.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.scilogs.com/endless_forms/2013/04/24/do-good-fences-make-good-neighbors-for-mesopredators/" target="_blank">Do Good Fences Make Good Neighbors for Mesopredators?</a> (scilogs.com)</li>
+	<li class="zemanta-article-ul-li"><a href="do-good-fences-make-good-neighbors-for-mesopredators.md" target="_blank">Do Good Fences Make Good Neighbors for Mesopredators?</a> (scilogs.com)</li>
 </ul>
 
 ---

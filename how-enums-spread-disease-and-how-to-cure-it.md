@@ -86,7 +86,7 @@ The good news is that this particular sickness has an effective and straightforw
 
 The root cause of our disease is semantic diffusion and coupling, and the essence of the cure is encapsulation through a form of <a href="http://en.wikipedia.org/wiki/Declarative_programming" target="_blank">declarative programming</a>.
 
-I'll present a formula for our prescription in C++ (where I first learned it from <a title="Julie Jones: Learn voraciously." href="/2012/09/24/julie-jones-learn-voraciously/">Julie Jones</a>, years ago); then we can explore what it's doing, and what its analogs might be in other languages.
+I'll present a formula for our prescription in C++ (where I first learned it from <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">Julie Jones</a>, years ago); then we can explore what it's doing, and what its analogs might be in other languages.
 <p style="background-color:#eeeeee;padding-left:31px;font-weight:bold;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:black;">vehicle_type_tuples.h</p>
 
 <pre style="padding-left:30px;margin-bottom:1em;"><span style="color:#888888;"><span style="color:#339966;">// No sentry. This is deliberate.</span>
@@ -207,7 +207,7 @@ or...
 
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://blog.pdark.de/2012/10/08/enums-with-more-than-one-name/" target="_blank">Enums With More Than One Name</a> (pdark.de)</li>
+	<li class="zemanta-article-ul-li"><a href="enums-with-more-than-one-name.md" target="_blank">Enums With More Than One Name</a> (pdark.de)</li>
 	<li class="zemanta-article-ul-li"><a href="http://stackoverflow.com/questions/12878239/can-i-use-enums-when-i-declare-the-element-number-of-an-array" target="_blank">Can I use Enums when I declare the element number of an array?</a> (stackoverflow.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://stackoverflow.com/questions/12967922/c-sharp-check-for-member-of-enum-using-input-value" target="_blank">C# check for member of enum using input value</a> (stackoverflow.com)</li>
 </ul>

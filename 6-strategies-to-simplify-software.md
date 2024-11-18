@@ -6,7 +6,7 @@ slug: 6-strategies-to-simplify-software
 
 How do you make things simple?
 
-I've written that <a title="The Power of Simplicity" href="../../../2013/02/15/the-power-of-simplicity/" target="_blank">simplicity is powerful</a>, and that it undergirds many deep architectural breakthroughs. In posts about <a title="Earned Pragmatism" href="../../../2013/01/18/earned-pragmatism/" target="_blank">pragmatism</a> and <a title="Good Code Is Balanced" href="../../../2012/08/27/good-code-is-balanced/" target="_blank">balance</a>, I've quoted Oliver Wendell Holmes about the simplicity on the other side of complexity.
+I've written that <a title="The Power of Simplicity" href="good-code-is-balanced.md" target="_blank">balance</a>, I've quoted Oliver Wendell Holmes about the simplicity on the other side of complexity.
 
 But I've never talked about how to achieve it.
 
@@ -26,7 +26,7 @@ Recurse as needed.
 
 <strong>2. Cut corners</strong>
 
-In many, many cases, the complexity we wrestle with comes from an overly ambitious scope. Overbuilding is probably my greatest weakness as an architect; I've <a title="Why I don’t blog about great code" href="../../../2012/10/03/why-i-dont-blog-about-great-code/" target="_blank">made the mistake way too often</a>.
+In many, many cases, the complexity we wrestle with comes from an overly ambitious scope. Overbuilding is probably my greatest weakness as an architect; I've <a title="Why I don’t blog about great code" href="why-i-dont-blog-about-great-code.md" target="_blank">made the mistake way too often</a>.
 
 Perhaps you want to improve logging in your product. At first it seems simple, until you start asking how to localize your logs, and how to handle thousands of logged events per second, and how to silo your logs so one tenant can't see what another tenant is doing.
 

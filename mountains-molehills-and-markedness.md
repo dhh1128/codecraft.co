@@ -4,7 +4,7 @@ date: 2014/07/28
 slug: mountains-molehills-and-markedness
 ---
 
-In my previous three posts, I explained why the semantics of programming languages are <a title="Lacunas Everywhere" href="../../../2014/07/16/lacunas-everywhere/">not as rich as they could be</a>. I pointed out some symptoms of that deficit, and then made <a title="Thoughts On Bridging the “Lacuna Humana”" href="../../../2014/07/21/bridging-the-lacuna-humana/">recommendations about bridging the gap</a>. Finally I <a title="Introducing Marks" href="../../../2014/07/24/introducing-marks/">introduced "marks"</a>--a feature of the <code>intent</code> programming language I'm creating--and gave you a taste for how they work.
+In my previous three posts, I explained why the semantics of programming languages are <a title="Lacunas Everywhere" href="introducing-marks.md">introduced "marks"</a>--a feature of the <code>intent</code> programming language I'm creating--and gave you a taste for how they work.
 
 In this post, I'm going to offer more examples, so you see the breadth of their application.
 <h3>Aside</h3>
@@ -55,7 +55,7 @@ But just in case I haven't, here are more scenarios to think about. As you read 
 	<li>Marks can <strong>generate, describe, and enforce error handling</strong>.
 <div style="margin:1em;">Want to make sure your callers check the error you might return? There's a mark for that. :-) (Actually, there are compiler extensions for that today, in some situations. But you can nuance the behavior, and propagate their semantics, so much better with marks.)</div>
 <div style="margin:1em;">Want to give callers the option of short-circuiting expensive checks in a function that will be called billions of times in certain codepaths--but preserve those checks for casual callers? Instead of writing two versions of the function, you could mark conditionals in your code as applying to untrusted callers, and let the compiler figure out who's trusted based on propagation of other marks in the codebase.</div>
-<div style="margin:1em;">Marks might be used to generate code for <a title="Don’t forget the circuit breakers" href="../../../2013/01/11/dont-forget-the-circuit-breakers/">circuit-breaker patterns</a>. Marks might also be used to identify symptoms for <a title="Why Your Software Should Cry" href="../../../2013/05/06/why-your-software-should-cry/">pain detecting algorithms</a>.</div>
+<div style="margin:1em;">Marks might be used to generate code for <a title="Don’t forget the circuit breakers" href="why-your-software-should-cry.md">pain detecting algorithms</a>.</div>
 <div style="margin:1em;">Imagine you could declare remediation strategies for common problems (Internet down? Retry in 5 seconds. Out of disk space? Flush temp folder.), and simply mark functions as using these strategies across all code you write. Imagine if you could formally describe/recommend remediation strategies to your callers, for errors you returned.</div></li>
 	<li>Marks can <strong>delimit temporal boundaries</strong>.
 <div style="margin:1em;">After you've finished reading your config file, perhaps your app is now fully initialized, and should never need to read from disk again. You could place a mark at that point in the code, using temporal propagation to say that all codepaths beyond it should be file I/O free. This could be enforced at compile time. It could also generate useful security information at run-time.</div>

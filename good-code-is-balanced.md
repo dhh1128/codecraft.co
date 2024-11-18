@@ -4,7 +4,7 @@ date: 2012/08/27
 slug: good-code-is-balanced
 ---
 
-In my <a href="/2012/08/26/what-is-good-code/">first post about what constitutes "good code,"</a> I claimed we were dealing with a complex question. This is why I distrust short answers.
+In my <a href="what-is-good-code.md">first post about what constitutes "good code,"</a> I claimed we were dealing with a complex question. This is why I distrust short answers.
 
 So many competing concerns must be balanced to achieve goodness:
 <ul>

@@ -22,7 +22,7 @@ Think about the consequences for a few moments. Would any of the ecosystems that
 
 Why am I writing about this as a software guy?
 
-<!--more-->As <a title="How Software Is Like Biology" href="/2012/08/14/how-software-is-like-biology/">I've written before</a>, I believe life has profound lessons for software engineers. And death is a biggie. (I'll probably devote at least one chapter to this in my forthcoming book.)
+<!--more-->As <a title="How Software Is Like Biology" href="how-software-is-like-biology.md">I've written before</a>, I believe life has profound lessons for software engineers. And death is a biggie. (I'll probably devote at least one chapter to this in my forthcoming book.)
 
 To be fair to biologists, their discipline takes death into account constantly. Its existence colors narrations about food webs, survival of the fittest, decomposers, and thousands of related topics. Biologists are well aware of its ramifications.
 
@@ -52,7 +52,7 @@ But I think software companies--all organizations, not just the dev organ--would
 <ul>
 	<li>We should announce a lifespan to a product that starts with its birth (release). Do we expect it to live 3 years? 5? How long is support on the hook to keep it on life support? (Some orgs do this, but it's a less common practice than it should be.)</li>
 	<li>As humans cope with death through wills, trusts, and inheritance laws, so software orgs need to plan, carefully and well in advance, for the upgrade experience implicit in the next generation release. Otherwise we'll get mired in messy and expensive probate procedures. Is there a "death tax" that makes it hard to transmit hard-won earnings forward? If so, can we minimize it?</li>
-	<li>Developers should recognize that the technologies they depend on today will eventually be buried. Plan to switch horses before the one you're riding kicks the bucket. (Hence the importance of <a title="Julie Jones: Learn voraciously." href="/2012/09/24/julie-jones-learn-voraciously/">continuous learning</a>.)</li>
+	<li>Developers should recognize that the technologies they depend on today will eventually be buried. Plan to switch horses before the one you're riding kicks the bucket. (Hence the importance of <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">continuous learning</a>.)</li>
 	<li>In biology, some forms of death have warning signs. Does our software notice these, and take measures to protect itself? Do we tell the customer that software is in danger?</li>
 	<li>Do we provide a way for the customer to take our product off life support if that's the right decision?</li>
 </ul>

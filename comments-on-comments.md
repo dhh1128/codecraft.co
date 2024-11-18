@@ -20,7 +20,7 @@ Here is my attempt to raise the bar a little.
 
 Sooner or later, most interesting programming problems require a sophisticated mental model of a problem. Building these models is hard work, and once we have them, <em>we are paid to share with our team (or our future selves)</em>.
 
-The best way to share mental models with other engineers is<!--more--> to <a title="Good Code Is Named Right" href="/2012/08/28/good-code-is-named-right/" target="_blank">code with names and syntax that make our meaning crystal clear</a>. But formal expressions often lack the semantic richness, the subtlety, and the scope that we need for full knowledge transfer. So we comment to make sure the sharing succeeds.
+The best way to share mental models with other engineers is<!--more--> to <a title="Good Code Is Named Right" href="good-code-is-named-right.md" target="_blank">code with names and syntax that make our meaning crystal clear</a>. But formal expressions often lack the semantic richness, the subtlety, and the scope that we need for full knowledge transfer. So we comment to make sure the sharing succeeds.
 
 It's critical that programmers get this.
 
@@ -43,7 +43,7 @@ You'll find yourself naturally aligning with guidelines like this:
 <p style="padding-left:30px;"><strong>Good comments explain the subtle and important, not the obvious or irrelevant.</strong></p>
 <p style="padding-left:60px;">The comments of great coders tend to focus on why a particular tradeoff was chosen, what ramifications might surprise the next guy, or where a hidden dependency lurks. Those who follow gain expertise with less battle scars--or else they diagnose old mistakes with greater confidence.</p>
 <p style="padding-left:60px;">Because good comments avoid trivia, they tend to remain accurate. Others appreciate their value and buy in to their upkeep. This becomes a way to reinforce effective communication and best practices for an entire team.</p>
-<p style="padding-left:60px;">When comments become inaccurate, it is usually an indictment of their relevance, not of sloppy maintainers. Consider the mandated comments in "<a title="How to turn coding standards into epic fails — or not" href="/2012/09/27/coding-standards/">How to turn coding standards into epic fails — or not</a>."</p>
+<p style="padding-left:60px;">When comments become inaccurate, it is usually an indictment of their relevance, not of sloppy maintainers. Consider the mandated comments in "<a title="How to turn coding standards into epic fails — or not" href="coding-standards.md">How to turn coding standards into epic fails — or not</a>."</p>
 <p style="padding-left:30px;"><strong>Good comments are concise.</strong></p>
 <p style="padding-left:60px;">Conscious of their supporting, not starring role, good comments read quickly and get out of the way. (Compare Yegge's silly counter-example in "<a title="example of ridiculously verbose comment" href="http://steve-yegge.blogspot.com/2008/02/portrait-of-n00b.html" target="_blank">Portrait of a N00b</a>".) Rather than recapitulating an entire RFC, good comments use a hyperlink. They use formats friendly to the IDEs of the team, so you can collapse them as needed. They avoid repetition as much as possible.</p>
 <p style="padding-left:30px;"><strong>Comments shouldn't be used to disable code blocks.</strong></p>
@@ -65,7 +65,7 @@ I would accept compromises to comment quality IFF there's an important audience 
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
 	<li class="zemanta-article-ul-li"><a href="http://developers.slashdot.org/story/12/09/07/1241254/comments-on-code-comments" target="_blank">Comments On Code Comments?</a> (developers.slashdot.org)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.bitnative.com/2012/10/22/kill-the-zombies-in-your-code/" target="_blank">Kill the Zombies in Your Code</a> (bitnative.com)</li>
+	<li class="zemanta-article-ul-li"><a href="kill-the-zombies-in-your-code.md" target="_blank">Kill the Zombies in Your Code</a> (bitnative.com)</li>
 </ul>
 
 ---

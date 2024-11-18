@@ -8,7 +8,7 @@ slug: paying-off-technical-debt
 <blockquote><em>“Interest never sleeps nor sickens nor dies; it never goes to the hospital; it works on Sundays and holidays; it never takes a vacation; it never visits nor travels; it takes no pleasure; it is never laid off work nor discharged from employment; it never works on reduced hours. . . . Once in debt, interest is your companion every minute of the day and night; you cannot shun it or slip away from it; you cannot dismiss it; it yields neither to entreaties, demands, or orders; and whenever you get in its way or cross its course or fail to meet its demands, it crushes you.”</em>
 <p style="padding-left:30px;"><em>— <a class="zem_slink" title="J. Reuben Clark" href="http://en.wikipedia.org/wiki/J._Reuben_Clark" target="_blank" rel="wikipedia">J. Reuben Clark</a></em></p>
 </blockquote>
-In my recent post about <a title="Coping With Organizational Alzheimers" href="/2012/10/12/coping-with-organizational-alzheimers/">how organizations forget technical debt</a>, I glossed over some important details. When you're in debt, you have an obligation to pay somebody back. So: <em>with technical debt, who must you pay, and how?</em>
+In my recent post about <a title="Coping With Organizational Alzheimers" href="coping-with-organizational-alzheimers.md">how organizations forget technical debt</a>, I glossed over some important details. When you're in debt, you have an obligation to pay somebody back. So: <em>with technical debt, who must you pay, and how?</em>
 
 <strong>More than just a code problem</strong>
 
@@ -55,7 +55,7 @@ For the last few years, I've been acutely aware of this issue, and I've worked h
 
 Hence rule #2.
 
-If your organization doesn't understand where they're carrying technical debt, and how much it's costing them, then you must find a way to change. In <a title="Coping With Organizational Alzheimers" href="/2012/10/12/coping-with-organizational-alzheimers/">my last post</a>, I recommended using whatever ticketing system tracks your development tasks. I think that's a good start, but even that mechanism may not have enough visibility. When debt is killing you, you may need a special graph on an executive dashboard, a slide in the annual planning meeting, and/or half a dozen other ways to keep the issue in the minds of thought leaders.
+If your organization doesn't understand where they're carrying technical debt, and how much it's costing them, then you must find a way to change. In <a title="Coping With Organizational Alzheimers" href="coping-with-organizational-alzheimers.md">my last post</a>, I recommended using whatever ticketing system tracks your development tasks. I think that's a good start, but even that mechanism may not have enough visibility. When debt is killing you, you may need a special graph on an executive dashboard, a slide in the annual planning meeting, and/or half a dozen other ways to keep the issue in the minds of thought leaders.
 
 Perhaps you feel that this is too much of a bother. For small debts, I guess it could be. But large debts have a way of creating toxic assets. You just cannot play shell games forever. Remember Bear Stearns and Lehman Brothers...
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
@@ -63,9 +63,9 @@ Perhaps you feel that this is too much of a bother. For small debts, I guess it 
 
 <h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://blog.xebia.com/2012/09/21/technical-debt-is-it-only-technical/" target="_blank">Technical debt; is it only technical?</a> (xebia.com)</li>
+	<li class="zemanta-article-ul-li"><a href="technical-debt-is-it-only-technical.md" target="_blank">Technical debt; is it only technical?</a> (xebia.com)</li>
 	<li class="zemanta-article-ul-li"><a href="http://agile.dzone.com/articles/technical-debt-%E2%80%93-when-do-you" target="_blank">Technical Debt - When Do You Have To Pay It Off?</a> (agile.dzone.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://blog.orange11.nl/2012/09/18/be-thoughtful-when-measuring-technical-debt-with-sonar/" target="_blank">Be thoughtful when measuring Technical Debt with Sonar</a> (orange11.nl)</li>
+	<li class="zemanta-article-ul-li"><a href="be-thoughtful-when-measuring-technical-debt-with-sonar.md" target="_blank">Be thoughtful when measuring Technical Debt with Sonar</a> (orange11.nl)</li>
 </ul>
 
 ---

@@ -4,7 +4,7 @@ date: 2012/08/28
 slug: good-code-is-named-right
 ---
 
-<p style="text-align:right;"><em><span style="color:#404040;">(Another post in my "<a title="What Is “Good Code”?" href="/2012/08/26/what-is-good-code/">What is 'Good Code'?</a>" series...)</span></em></p>
+<p style="text-align:right;"><em><span style="color:#404040;">(Another post in my "<a title="What Is “Good Code”?" href="what-is-good-code.md">What is 'Good Code'?</a>" series...)</span></em></p>
 A rose by any other name may smell as sweet, but in software, the names you choose have consequences.
 
 <figure><img title="rosa berberifolia" src="http://farm1.staticflickr.com/28/51430866_94b353ee35_m.jpg" alt="" width="240" height="225" /><figcaption>Rosa berberifolia. Photo credit: I Believe I Can Fry (Flickr).</figcaption></figure>

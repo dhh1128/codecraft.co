@@ -4,7 +4,7 @@ date: 2008/08/19
 slug: decoupling-interfaces-as-versions-evolve-part-2
 ---
 
-<em>This is part 2 of a series. You can read <a href="/codecraft/2008/07/29/decoupling-interfaces-as-versions-evolve-part-1/">part 1</a> and <a title="Decoupling Interfaces as Versions Evolve, Part 3" href="../../../2008/08/19/decoupling-interfaces-as-versions-evolve-part-3/">part 3</a> as well.</em>
+<em>This is part 2 of a series. You can read <a href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a> as well.</em>
 <h3>Alternative Approaches to Interface Versioning</h3>
 Lublinsky wrote a great article about interface versioning a while back (see page 38 of <a href="http://www.msarchitecturejournal.com/pdf/Journal11.pdf" target="ms">this issue of Microsoft's Architecture Journal</a>). This describes the state-of-the-art thinking about interface versioning in the web services world. Essentially he recommends versioning each method in an interface separately. (Sounds a lot like Win32's approach of adding <em>...Ex</em> to every function when the original behavior no longer sufficed...) This approach is based on the insight that many parts of an interface will be stable for long periods of time, and that the most common kind of change to an interface is an addition. By increasing the granularity of the versioning, incompatibilities are less likely to arise for spurious reasons. This solves the classic problem where a .wsdl describes a dozen classes, a client uses only the first three, and yet the client breaks when something in the fourth class changes. However, it proliferates .wsdls and points of presence.
 
@@ -12,7 +12,7 @@ Another important discussion of this issue is <a href="http://www.theserverside.
 
 Although both of these treatments (and the sources they cite in their own reviews of the problem) are nifty, they leave me unsatisfied. The bottom line is that I want to evolve interfaces whenever it makes sense, without worrying about breaking people -- and I also want people who use my interface to be able to do so with confidence.
 
-Tune in to <a title="Decoupling Interfaces as Versions Evolve, Part 3" href="../../../2008/08/19/decoupling-interfaces-as-versions-evolve-part-3/">part 3</a> of this series for my proposed solution.
+Tune in to <a title="Decoupling Interfaces as Versions Evolve, Part 3" href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a> of this series for my proposed solution.
 
 ---
 
