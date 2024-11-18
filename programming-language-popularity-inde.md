@@ -1,6 +1,6 @@
 ---
 title: Programming Language Popularity Index
-date: 2013/03/22
+date: 2013-03-22
 slug: programming-language-popularity-inde
 ---
 

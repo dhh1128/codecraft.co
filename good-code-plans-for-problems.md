@@ -1,6 +1,6 @@
 ---
 title: Good Code Plans for Problems
-date: 2012/09/03
+date: 2012-09-03
 slug: good-code-plans-for-problems
 ---
 

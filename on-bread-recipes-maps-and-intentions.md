@@ -1,6 +1,6 @@
 ---
 title: On bread recipes, maps, and intentions
-date: 2013/10/24
+date: 2013-10-24
 slug: on-bread-recipes-maps-and-intentions
 ---
 

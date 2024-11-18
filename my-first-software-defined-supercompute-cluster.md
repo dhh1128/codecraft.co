@@ -1,6 +1,6 @@
 ---
 title: My first software-defined supercompute cluster
-date: 2013/11/25
+date: 2013-11-25
 slug: my-first-software-defined-supercompute-cluster
 ---
 

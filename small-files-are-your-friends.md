@@ -1,6 +1,6 @@
 ---
 title: Small Files Are Your Friends
-date: 2013/03/21
+date: 2013-03-21
 slug: small-files-are-your-friends
 ---
 

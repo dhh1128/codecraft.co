@@ -1,6 +1,6 @@
 ---
 title: // Comments on Comments
-date: 2012/10/31
+date: 2012-10-31
 slug: comments-on-comments
 ---
 

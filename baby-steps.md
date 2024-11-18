@@ -1,6 +1,6 @@
 ---
 title: Baby Steps
-date: 2012/10/24
+date: 2012-10-24
 slug: baby-steps
 ---
 

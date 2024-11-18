@@ -1,6 +1,6 @@
 ---
 title: Why I don't blog about "great code"
-date: 2012/10/03
+date: 2012-10-03
 slug: why-i-dont-blog-about-great-code
 ---
 

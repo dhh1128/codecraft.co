@@ -1,6 +1,6 @@
 ---
 title: Why Weakened Dev Teams Suffer From NIH Syndrome
-date: 2008/07/30
+date: 2008-07-30
 slug: weakened-dev-teams-nih
 ---
 

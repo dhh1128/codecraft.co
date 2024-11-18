@@ -1,6 +1,6 @@
 ---
 title: Paying Off Technical Debt
-date: 2012/10/14
+date: 2012-10-14
 slug: paying-off-technical-debt
 ---
 

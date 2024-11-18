@@ -1,6 +1,6 @@
 ---
 title: Taming Side Agreements
-date: 2014/10/28
+date: 2014-10-28
 slug: taming-side-agreements
 ---
 

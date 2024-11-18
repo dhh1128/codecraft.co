@@ -1,6 +1,6 @@
 ---
 title: Coping With Organizational Alzheimers
-date: 2012/10/12
+date: 2012-10-12
 slug: coping-with-organizational-alzheimers
 ---
 

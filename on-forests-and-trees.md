@@ -1,6 +1,6 @@
 ---
 title: On Forests and Trees
-date: 2015/09/02
+date: 2015-09-02
 slug: on-forests-and-trees
 ---
 

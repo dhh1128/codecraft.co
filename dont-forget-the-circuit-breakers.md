@@ -1,6 +1,6 @@
 ---
 title: Don't forget the circuit breakers
-date: 2013/01/11
+date: 2013-01-11
 slug: dont-forget-the-circuit-breakers
 ---
 

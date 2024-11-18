@@ -1,6 +1,6 @@
 ---
 title: Example RPCD Interaction
-date: 2012/06/21
+date: 2012-06-21
 slug: example-rpcd-interaction
 ---
 

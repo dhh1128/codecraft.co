@@ -1,6 +1,6 @@
 ---
 title: What Is "Good Code"?
-date: 2012/08/26
+date: 2012-08-26
 slug: what-is-good-code
 ---
 

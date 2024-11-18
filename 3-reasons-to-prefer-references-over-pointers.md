@@ -1,6 +1,6 @@
 ---
 title: 3 reasons to prefer references over pointers (C++)
-date: 2013/03/08
+date: 2013-03-08
 slug: 3-reasons-to-prefer-references-over-pointers
 ---
 

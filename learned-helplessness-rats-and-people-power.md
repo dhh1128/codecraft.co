@@ -1,6 +1,6 @@
 ---
 title: Learned Helplessness, Rats, and People Power
-date: 2012/11/26
+date: 2012-11-26
 slug: learned-helplessness-rats-and-people-power
 ---
 

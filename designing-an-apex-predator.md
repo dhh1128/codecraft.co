@@ -1,6 +1,6 @@
 ---
 title: Are You Designing an Apex Predator?
-date: 2012/09/06
+date: 2012-09-06
 slug: designing-an-apex-predator
 ---
 

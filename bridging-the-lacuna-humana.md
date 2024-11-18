@@ -1,6 +1,6 @@
 ---
 title: Thoughts On Bridging the "Lacuna Humana"
-date: 2014/07/21
+date: 2014-07-21
 slug: bridging-the-lacuna-humana
 ---
 

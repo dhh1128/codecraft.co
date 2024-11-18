@@ -1,6 +1,6 @@
 ---
 title: The 8th Characteristic
-date: 2012/09/28
+date: 2012-09-28
 slug: the-8th-characteristic
 ---
 

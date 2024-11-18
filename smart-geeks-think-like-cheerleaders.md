@@ -1,6 +1,6 @@
 ---
 title: Smart Geeks Think Like Cheerleaders
-date: 2013/02/05
+date: 2013-02-05
 slug: smart-geeks-think-like-cheerleaders
 ---
 

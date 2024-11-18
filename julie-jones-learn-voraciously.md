@@ -1,6 +1,6 @@
 ---
 title: Julie Jones: Learn voraciously.
-date: 2012/09/24
+date: 2012-09-24
 slug: julie-jones-learn-voraciously
 ---
 

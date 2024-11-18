@@ -1,6 +1,6 @@
 ---
 title: Flexibility is No Virtue
-date: 2012/10/17
+date: 2012-10-17
 slug: flexibility-is-no-virtue
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Why Cannibalism May Be Smart Business
-date: 2012/10/05
+date: 2012-10-05
 slug: why-cannibalism-may-be-smart-business
 ---
 

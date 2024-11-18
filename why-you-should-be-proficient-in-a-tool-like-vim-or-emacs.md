@@ -1,6 +1,6 @@
 ---
 title: Why you should be proficient in a tool like vim or emacs
-date: 2014/05/15
+date: 2014-05-15
 slug: why-you-should-be-proficient-in-a-tool-like-vim-or-emacs
 ---
 

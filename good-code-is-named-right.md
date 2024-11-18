@@ -1,6 +1,6 @@
 ---
 title: Good Code Is Named Right
-date: 2012/08/28
+date: 2012-08-28
 slug: good-code-is-named-right
 ---
 

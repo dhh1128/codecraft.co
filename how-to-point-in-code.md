@@ -1,6 +1,6 @@
 ---
 title: How to point in code
-date: 2014/09/25
+date: 2014-09-25
 slug: how-to-point-in-code
 ---
 

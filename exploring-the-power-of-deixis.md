@@ -1,6 +1,6 @@
 ---
 title: Exploring the Power of Deixis
-date: 2014/09/23
+date: 2014-09-23
 slug: exploring-the-power-of-deixis
 ---
 

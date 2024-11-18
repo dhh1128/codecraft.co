@@ -1,6 +1,6 @@
 ---
 title: Introducing Marks
-date: 2014/07/24
+date: 2014-07-24
 slug: introducing-marks
 ---
 

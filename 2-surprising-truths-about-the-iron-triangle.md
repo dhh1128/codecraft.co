@@ -1,6 +1,6 @@
 ---
 title: 2 Surprising Truths About The Iron Triangle
-date: 2013/07/01
+date: 2013-07-01
 slug: 2-surprising-truths-about-the-iron-triangle
 ---
 

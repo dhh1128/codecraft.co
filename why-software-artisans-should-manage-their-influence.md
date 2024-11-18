@@ -1,6 +1,6 @@
 ---
 title: Why Software Artisans Should Manage Their Influence
-date: 2013/02/07
+date: 2013-02-07
 slug: why-software-artisans-should-manage-their-influence
 ---
 

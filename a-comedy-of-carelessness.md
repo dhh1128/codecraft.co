@@ -1,6 +1,6 @@
 ---
 title: A Comedy of Carelessness
-date: 2013/12/09
+date: 2013-12-09
 slug: a-comedy-of-carelessness
 ---
 

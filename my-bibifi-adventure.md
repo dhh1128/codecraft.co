@@ -1,6 +1,6 @@
 ---
 title: My Bibifi Adventure
-date: 2015/06/15
+date: 2015-06-15
 slug: my-bibifi-adventure
 ---
 

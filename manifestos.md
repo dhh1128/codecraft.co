@@ -1,6 +1,6 @@
 ---
 title: Manifestos
-date: 2012/09/13
+date: 2012-09-13
 slug: manifestos
 ---
 

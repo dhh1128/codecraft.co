@@ -1,6 +1,6 @@
 ---
 title: Farewell to Google Reader
-date: 2013/03/14
+date: 2013-03-14
 slug: farewell-to-google-reader
 ---
 

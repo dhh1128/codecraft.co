@@ -1,6 +1,6 @@
 ---
 title: How Sutter's Wrong About const in C++ 11
-date: 2013/01/02
+date: 2013-01-02
 slug: how-sutters-wrong-about-const-in-cpp-11
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Code Isn't Art
-date: 2012/09/23
+date: 2012-09-23
 slug: code-isnt-art
 ---
 

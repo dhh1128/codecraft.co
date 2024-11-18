@@ -1,6 +1,6 @@
 ---
 title: All I Really Need To Know I Didn't Learn In Compugarten
-date: 2012/11/15
+date: 2012-11-15
 slug: all-i-really-need-to-know-i-didnt-learn-in-compugarten
 ---
 

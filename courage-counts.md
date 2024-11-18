@@ -1,6 +1,6 @@
 ---
 title: Courage Counts
-date: 2013/05/31
+date: 2013-05-31
 slug: courage-counts
 ---
 

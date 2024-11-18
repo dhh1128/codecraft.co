@@ -1,6 +1,6 @@
 ---
 title: 3 Commandments of Performance Optimization
-date: 2013/01/08
+date: 2013-01-08
 slug: 3-commandments-of-performance-optimization
 ---
 

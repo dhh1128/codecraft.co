@@ -1,6 +1,6 @@
 ---
 title: Why Exceptions Aren't Enough
-date: 2012/10/09
+date: 2012-10-09
 slug: why-exceptions-arent-enough
 ---
 

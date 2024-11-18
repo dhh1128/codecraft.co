@@ -1,6 +1,6 @@
 ---
 title: Humility
-date: 2012/10/01
+date: 2012-10-01
 slug: humility
 ---
 

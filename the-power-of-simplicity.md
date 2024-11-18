@@ -1,6 +1,6 @@
 ---
 title: The Power of Simplicity
-date: 2013/02/15
+date: 2013-02-15
 slug: the-power-of-simplicity
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: What should code look like when we squint at it?
-date: 2013/09/19
+date: 2013-09-19
 slug: what-should-code-look-like-when-we-squint-at-it
 ---
 

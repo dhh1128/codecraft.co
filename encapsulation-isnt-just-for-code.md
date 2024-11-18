@@ -1,6 +1,6 @@
 ---
 title: Encapsulation isn't just for code
-date: 2013/08/02
+date: 2013-08-02
 slug: encapsulation-isnt-just-for-code
 ---
 

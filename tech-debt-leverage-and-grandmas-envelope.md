@@ -1,6 +1,6 @@
 ---
 title: Tech Debt, Leverage, and Grandma's Envelope
-date: 2012/10/30
+date: 2012-10-30
 slug: tech-debt-leverage-and-grandmas-envelope
 ---
 

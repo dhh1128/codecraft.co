@@ -1,6 +1,6 @@
 ---
 title: Metrics, Plumb Lines, and System Thinking
-date: 2012/11/12
+date: 2012-11-12
 slug: measurements-plumb-lines-and-system-thinking
 ---
 

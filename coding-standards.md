@@ -1,6 +1,6 @@
 ---
 title: How to turn coding standards into epic fails -- or not
-date: 2012/09/27
+date: 2012-09-27
 slug: coding-standards
 ---
 

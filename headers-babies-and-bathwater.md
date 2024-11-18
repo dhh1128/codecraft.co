@@ -1,6 +1,6 @@
 ---
 title: Headers, babies, and bathwater
-date: 2013/08/12
+date: 2013-08-12
 slug: headers-babies-and-bathwater
 ---
 

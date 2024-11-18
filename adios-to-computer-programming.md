@@ -1,6 +1,6 @@
 ---
 title: Adios to "computer programming"
-date: 2013/04/05
+date: 2013-04-05
 slug: adios-to-computer-programming
 ---
 

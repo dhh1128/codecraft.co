@@ -1,6 +1,6 @@
 ---
 title: Why
-date: 2013/01/30
+date: 2013-01-30
 slug: why
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: The third half of computational economics
-date: 2013/08/09
+date: 2013-08-09
 slug: the-third-half-of-computational-economics
 ---
 

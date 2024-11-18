@@ -1,6 +1,6 @@
 ---
 title: On pains and brains
-date: 2016/01/01
+date: 2016-01-01
 slug: on-pains-and-brains
 ---
 

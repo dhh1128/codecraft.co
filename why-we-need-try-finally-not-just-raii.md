@@ -1,6 +1,6 @@
 ---
 title: Why we need try...finally, not just RAII
-date: 2013/10/31
+date: 2013-10-31
 slug: why-we-need-try-finally-not-just-raii
 ---
 

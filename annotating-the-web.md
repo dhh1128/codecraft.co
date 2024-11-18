@@ -1,6 +1,6 @@
 ---
 title: Annotating the Web
-date: 2008/09/05
+date: 2008-09-05
 slug: annotating-the-web
 ---
 

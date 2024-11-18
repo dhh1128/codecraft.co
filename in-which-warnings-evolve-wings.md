@@ -1,6 +1,6 @@
 ---
 title: In Which Warnings Evolve Wings
-date: 2014/08/06
+date: 2014-08-06
 slug: in-which-warnings-evolve-wings
 ---
 

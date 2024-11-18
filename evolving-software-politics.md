@@ -1,6 +1,6 @@
 ---
 title: Evolving Software Politics
-date: 2012/09/11
+date: 2012-09-11
 slug: evolving-software-politics
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Decoupling Interfaces As Versions Evolve, Part 1
-date: 2008/07/29
+date: 2008-07-29
 slug: decoupling-interfaces-as-versions-evolve-part-1
 ---
 

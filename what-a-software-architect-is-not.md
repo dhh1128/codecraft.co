@@ -1,6 +1,6 @@
 ---
 title: What a Software Architect is NOT
-date: 2012/06/26
+date: 2012-06-26
 slug: what-a-software-architect-is-not
 ---
 

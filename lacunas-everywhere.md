@@ -1,6 +1,6 @@
 ---
 title: Lacunas Everywhere
-date: 2014/07/16
+date: 2014-07-16
 slug: lacunas-everywhere
 ---
 

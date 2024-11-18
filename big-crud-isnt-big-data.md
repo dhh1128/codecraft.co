@@ -1,6 +1,6 @@
 ---
 title: Big Crud Isn't Big Data
-date: 2013/04/09
+date: 2013-04-09
 slug: big-crud-isnt-big-data
 ---
 

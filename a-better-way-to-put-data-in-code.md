@@ -1,6 +1,6 @@
 ---
 title: A better way to put data in code
-date: 2014/10/08
+date: 2014-10-08
 slug: a-better-way-to-put-data-in-code
 ---
 

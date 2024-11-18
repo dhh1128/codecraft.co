@@ -1,6 +1,6 @@
 ---
 title: Why Mental Models Matter
-date: 2012/11/05
+date: 2012-11-05
 slug: why-mental-models-matter
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: A More Important Manifesto
-date: 2015/01/05
+date: 2015-01-05
 slug: a-more-important-manifesto
 ---
 

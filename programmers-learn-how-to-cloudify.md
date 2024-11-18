@@ -1,6 +1,6 @@
 ---
 title: Programmers: learn how to "cloudify"
-date: 2013/07/23
+date: 2013-07-23
 slug: programmers-learn-how-to-cloudify
 ---
 

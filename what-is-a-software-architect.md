@@ -1,6 +1,6 @@
 ---
 title: What is a "Software Architect?"
-date: 2008/09/10
+date: 2008-09-10
 slug: what-is-a-software-architect
 ---
 

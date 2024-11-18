@@ -1,6 +1,6 @@
 ---
 title: What Role Are You Playing in RPCD?
-date: 2012/06/25
+date: 2012-06-25
 slug: what-role-are-you-playing-in-rpcd
 ---
 

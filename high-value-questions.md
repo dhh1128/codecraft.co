@@ -1,6 +1,6 @@
 ---
 title: What makes high-value questions?
-date: 2012/06/20
+date: 2012-06-20
 slug: high-value-questions
 ---
 

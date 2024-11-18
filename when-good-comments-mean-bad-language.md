@@ -1,6 +1,6 @@
 ---
 title: When good comments mean bad language
-date: 2013/08/22
+date: 2013-08-22
 slug: when-good-comments-mean-bad-language
 ---
 

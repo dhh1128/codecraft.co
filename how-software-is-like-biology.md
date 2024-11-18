@@ -1,6 +1,6 @@
 ---
 title: How Software Is Like Biology
-date: 2012/08/14
+date: 2012-08-14
 slug: how-software-is-like-biology
 ---
 

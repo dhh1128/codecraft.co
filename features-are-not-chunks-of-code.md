@@ -1,6 +1,6 @@
 ---
 title: Features are not chunks of code
-date: 2013/07/25
+date: 2013-07-25
 slug: features-are-not-chunks-of-code
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Variadic macros tricks
-date: 2014/11/25
+date: 2014-11-25
 slug: variadic-macros-tricks
 ---
 

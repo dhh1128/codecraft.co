@@ -1,6 +1,6 @@
 ---
 title: Know Your Limits
-date: 2015/02/05
+date: 2015-02-05
 slug: know-your-limits
 ---
 

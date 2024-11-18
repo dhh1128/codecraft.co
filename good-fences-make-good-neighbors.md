@@ -1,6 +1,6 @@
 ---
 title: Good fences make good neighbors
-date: 2013/05/15
+date: 2013-05-15
 slug: good-fences-make-good-neighbors
 ---
 

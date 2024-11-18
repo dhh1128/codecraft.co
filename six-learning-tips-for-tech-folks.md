@@ -1,6 +1,6 @@
 ---
 title: Six Learning Tips For Tech Folks
-date: 2012/09/25
+date: 2012-09-25
 slug: six-learning-tips-for-tech-folks
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: A grumble about buckets
-date: 2015/04/08
+date: 2015-04-08
 slug: a-grumble-about-buckets
 ---
 

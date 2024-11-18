@@ -1,6 +1,6 @@
 ---
 title: Big Data In Motion
-date: 2012/11/07
+date: 2012-11-07
 slug: big-data-in-motion
 ---
 

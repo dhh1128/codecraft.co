@@ -1,6 +1,6 @@
 ---
 title: How Enums Spread Disease -- And How To Cure It
-date: 2012/10/29
+date: 2012-10-29
 slug: how-enums-spread-disease-and-how-to-cure-it
 ---
 

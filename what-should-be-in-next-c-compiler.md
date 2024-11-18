@@ -1,6 +1,6 @@
 ---
 title: What Should Be In The Next C++ Compiler?
-date: 2012/10/03
+date: 2012-10-03
 slug: what-should-be-in-next-c-compiler
 ---
 

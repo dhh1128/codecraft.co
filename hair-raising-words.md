@@ -1,6 +1,6 @@
 ---
 title: Hair-Raising Words
-date: 2012/10/12
+date: 2012-10-12
 slug: hair-raising-words
 ---
 

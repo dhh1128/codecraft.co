@@ -1,6 +1,6 @@
 ---
 title: Are You Losing Enough Battles?
-date: 2013/03/05
+date: 2013-03-05
 slug: are-you-losing-enough-battles
 ---
 

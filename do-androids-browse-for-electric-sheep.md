@@ -1,6 +1,6 @@
 ---
 title: Do Androids Browse (For Electric Sheep)?
-date: 2013/03/25
+date: 2013-03-25
 slug: do-androids-browse-for-electric-sheep
 ---
 

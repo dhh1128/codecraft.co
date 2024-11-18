@@ -1,6 +1,6 @@
 ---
 title: Add some more extra redundancy again
-date: 2014/01/15
+date: 2014-01-15
 slug: add-some-more-extra-redundancy-again
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Put Your Const Foot Forward
-date: 2012/11/14
+date: 2012-11-14
 slug: put-your-const-foot-forward
 ---
 

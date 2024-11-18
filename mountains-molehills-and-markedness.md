@@ -1,6 +1,6 @@
 ---
 title: Mountains, Molehills, and Markedness
-date: 2014/07/28
+date: 2014-07-28
 slug: mountains-molehills-and-markedness
 ---
 

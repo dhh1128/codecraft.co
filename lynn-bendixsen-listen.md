@@ -1,6 +1,6 @@
 ---
 title: Lynn Bendixsen: Listen.
-date: 2012/10/02
+date: 2012-10-02
 slug: lynn-bendixsen-listen
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Good Code Is Optimized
-date: 2012/08/27
+date: 2012-08-27
 slug: good-code-is-optimized
 ---
 

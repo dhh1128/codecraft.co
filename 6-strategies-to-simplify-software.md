@@ -1,6 +1,6 @@
 ---
 title: 6 Strategies to Simplify Software
-date: 2013/03/12
+date: 2013-03-12
 slug: 6-strategies-to-simplify-software
 ---
 
@@ -54,7 +54,7 @@ Well, maybe you should stop thinking of your workflow engine as a state machine,
 
 I think this strategy is underutilized in almost every long-running architecture. Metaphor can drive insight in ways we don't talk about enough.
 
-One other hint on this one: Do some reading about <a href="http://en.wikipedia.org/wiki/Gossip_protocol" target="_blank">gossip protocols</a> and <a href="http://en.wikipedia.org/wiki/Bully_algorithm" target="_blank">bully algorithms</a> some time. The richest sources of metaphor for me are human society (families, companies, social networks, politics, fraternities, multi-level marketing schemes, crime syndicates...) and life (cells, ecosystems, packs and herds, predators/prey, ...). This is why I'm writing a whole book about what life can teach software architects. Subscribe to my blog for more news on this.
+One other hint on this one: Do some reading about <a href="http://en.wikipedia.org/wiki/Gossip_protocol" target="_blank">gossip protocols</a> and <a href="http://en.wikipedia.org/wiki/Bully_algorithm" target="_blank">bully algorithms</a> sometime. The richest sources of metaphor for me are human society (families, companies, social networks, politics, fraternities, multi-level marketing schemes, crime syndicates...) and life (cells, ecosystems, packs and herds, predators/prey, ...). This is why I'm writing a whole book about what life can teach software architects. Subscribe to my blog for more news on this.
 
 <strong>6. Ask a child</strong>
 

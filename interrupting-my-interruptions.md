@@ -1,6 +1,6 @@
 ---
 title: Interrupting my interruptions
-date: 2013/01/24
+date: 2013-01-24
 slug: interrupting-my-interruptions
 ---
 

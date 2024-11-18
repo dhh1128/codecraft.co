@@ -1,6 +1,6 @@
 ---
 title: George and the Flood
-date: 2012/12/10
+date: 2012-12-10
 slug: george-and-the-flood
 ---
 

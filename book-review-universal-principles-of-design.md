@@ -1,6 +1,6 @@
 ---
 title: Book Review: Universal Principles of Design
-date: 2013/01/29
+date: 2013-01-29
 slug: book-review-universal-principles-of-design
 ---
 

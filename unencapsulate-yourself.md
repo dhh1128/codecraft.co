@@ -1,6 +1,6 @@
 ---
 title: Unencapsulate Yourself
-date: 2012/10/22
+date: 2012-10-22
 slug: unencapsulate-yourself
 ---
 

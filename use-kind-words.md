@@ -1,6 +1,6 @@
 ---
 title: Are We Smart Enough to Use Kind Words?
-date: 2015/10/06
+date: 2015-10-06
 slug: use-kind-words
 ---
 

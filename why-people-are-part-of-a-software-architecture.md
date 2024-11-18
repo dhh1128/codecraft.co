@@ -1,6 +1,6 @@
 ---
 title: Why People Are Part of A Software Architecture
-date: 2008/06/25
+date: 2008-06-25
 slug: why-people-are-part-of-a-software-architecture
 ---
 

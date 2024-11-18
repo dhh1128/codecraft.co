@@ -1,6 +1,6 @@
 ---
 title: Grumpy Old Men, Opacity, and Optimizers
-date: 2014/09/09
+date: 2014-09-09
 slug: grumpy-old-men-opacity-and-optimizers
 ---
 

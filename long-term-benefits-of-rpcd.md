@@ -1,6 +1,6 @@
 ---
 title: Long-Term Benefits of RPCD
-date: 2012/06/21
+date: 2012-06-21
 slug: long-term-benefits-of-rpcd
 ---
 

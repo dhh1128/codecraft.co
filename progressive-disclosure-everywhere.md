@@ -1,6 +1,6 @@
 ---
 title: Progressive Disclosure Everywhere
-date: 2012/09/16
+date: 2012-09-16
 slug: progressive-disclosure-everywhere
 ---
 

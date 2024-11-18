@@ -1,6 +1,6 @@
 ---
 title: Role-Play Centered Design
-date: 2012/06/20
+date: 2012-06-20
 slug: role-play-centered-design
 ---
 

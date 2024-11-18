@@ -1,6 +1,6 @@
 ---
 title: My First Tangle With the Tower of Babel
-date: 2013/04/26
+date: 2013-04-26
 slug: my-first-tangle-with-the-tower-of-babel
 ---
 

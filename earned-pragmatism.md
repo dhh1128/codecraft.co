@@ -1,6 +1,6 @@
 ---
 title: Earned Pragmatism
-date: 2013/01/18
+date: 2013-01-18
 slug: earned-pragmatism
 ---
 
