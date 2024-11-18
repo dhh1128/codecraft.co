@@ -2,6 +2,8 @@
 title: The third half of computational economics
 date: 2013-08-09
 slug: the-third-half-of-computational-economics
+redirect_from:
+  - /2013/08/09/the-third-half-of-computational-economics
 ---
 
 If you look up "computational economics" on wikipedia, you'll find out all about software models that economists use to study game theory, recessions, scarcity, and so forth.

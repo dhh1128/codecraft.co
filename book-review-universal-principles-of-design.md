@@ -2,6 +2,8 @@
 title: Book Review: Universal Principles of Design
 date: 2013-01-29
 slug: book-review-universal-principles-of-design
+redirect_from:
+  - /2013/01/29/book-review-universal-principles-of-design
 ---
 
 <a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879"><img class="alignright" alt="" src="http://ecx.images-amazon.com/images/I/41nQFR%2BFSCL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg" width="300" height="300" /></a>A few months back, my friend <a href="http://dld.me" target="_blank">Trev</a> recommended <a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879" target="_blank">this book</a> to me. I've been digesting it one topic at a time, on my lunch breaks.

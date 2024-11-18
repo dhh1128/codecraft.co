@@ -2,6 +2,8 @@
 title: George and the Flood
 date: 2012-12-10
 slug: george-and-the-flood
+redirect_from:
+  - /2012/12/10/george-and-the-flood
 ---
 
 Here's a simple little test that teaches an important lesson. Take a moment to work through all 3 questions. I promise it won't take long. :-)

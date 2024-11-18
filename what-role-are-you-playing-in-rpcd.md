@@ -2,6 +2,8 @@
 title: What Role Are You Playing in RPCD?
 date: 2012-06-25
 slug: what-role-are-you-playing-in-rpcd
+redirect_from:
+  - /2012/06/25/what-role-are-you-playing-in-rpcd
 ---
 
 When you role play in <a href="role-play-centered-design.md">RPCD</a>, you could be standing in for either software, or a flesh-and-blood human being. As RPCD explicitly acknowledges, both are part of your final system.

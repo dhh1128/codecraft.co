@@ -2,6 +2,8 @@
 title: Mountains, Molehills, and Markedness
 date: 2014-07-28
 slug: mountains-molehills-and-markedness
+redirect_from:
+  - /2014/07/28/mountains-molehills-and-markedness
 ---
 
 In my previous three posts, I explained why the semantics of programming languages are <a title="Lacunas Everywhere" href="introducing-marks.md">introduced "marks"</a>--a feature of the <code>intent</code> programming language I'm creating--and gave you a taste for how they work.
@@ -53,7 +55,7 @@ But just in case I haven't, here are more scenarios to think about. As you read 
 
 <figure><img class="" src="http://imgs.xkcd.com/comics/extrapolating.png" alt="" width="461" height="295" /><figcaption>image credit: xkcd</figcaption></figure></li>
 	<li>Marks can <strong>generate, describe, and enforce error handling</strong>.
-<div style="margin:1em;">Want to make sure your callers check the error you might return? There's a mark for that. :-) (Actually, there are compiler extensions for that today, in some situations. But you can nuance the behavior, and propagate their semantics, so much better with marks.)</div>
+<div style="margin:1em;">Want to make sure your callers check the error you might return? There's a mark for that. :-) (Actually, there are compi extensions for that today, in some situations. But you can nuance the behavior, and propagate their semantics, so much better with marks.)</div>
 <div style="margin:1em;">Want to give callers the option of short-circuiting expensive checks in a function that will be called billions of times in certain codepaths--but preserve those checks for casual callers? Instead of writing two versions of the function, you could mark conditionals in your code as applying to untrusted callers, and let the compiler figure out who's trusted based on propagation of other marks in the codebase.</div>
 <div style="margin:1em;">Marks might be used to generate code for <a title="Don’t forget the circuit breakers" href="why-your-software-should-cry.md">pain detecting algorithms</a>.</div>
 <div style="margin:1em;">Imagine you could declare remediation strategies for common problems (Internet down? Retry in 5 seconds. Out of disk space? Flush temp folder.), and simply mark functions as using these strategies across all code you write. Imagine if you could formally describe/recommend remediation strategies to your callers, for errors you returned.</div></li>

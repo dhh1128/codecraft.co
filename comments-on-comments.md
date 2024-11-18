@@ -2,6 +2,8 @@
 title: // Comments on Comments
 date: 2012-10-31
 slug: comments-on-comments
+redirect_from:
+  - /2012/10/31/comments-on-comments
 ---
 
 /*
@@ -18,7 +20,7 @@ Here is my attempt to raise the bar a little.
 
 <strong>Why We Comment</strong>
 
-Sooner or later, most interesting programming problems require a sophisticated mental model of a problem. Building these models is hard work, and once we have them, <em>we are paid to share with our team (or our future selves)</em>.
+Sooner or later, most interesting programming problems require a sophisticated mental model of a problem. Building these models is hard worknd once we have them, <em>we are paid to share with our team (or our future selves)</em>.
 
 The best way to share mental models with other engineers is<!--more--> to <a title="Good Code Is Named Right" href="good-code-is-named-right.md" target="_blank">code with names and syntax that make our meaning crystal clear</a>. But formal expressions often lack the semantic richness, the subtlety, and the scope that we need for full knowledge transfer. So we comment to make sure the sharing succeeds.
 
@@ -41,7 +43,7 @@ You'll find yourself naturally aligning with guidelines like this:
 <p style="padding-left:60px;">Instead of commenting that something is an "IN" parameter, make it const. Instead of commenting that a parameter should never be null, make it a reference or add a precondition. Instead of commenting the semantics of a variable, give it a name that make its semantics clear. Tools will then enforce what you say, and guarantee that it remains accurate.</p>
 <p style="padding-left:60px;">When you have conveyed as much as you can with pure code--and only then--any important aspects of your mental model that don't come across go into comments.</p>
 <p style="padding-left:30px;"><strong>Good comments explain the subtle and important, not the obvious or irrelevant.</strong></p>
-<p style="padding-left:60px;">The comments of great coders tend to focus on why a particular tradeoff was chosen, what ramifications might surprise the next guy, or where a hidden dependency lurks. Those who follow gain expertise with less battle scars--or else they diagnose old mistakes with greater confidence.</p>
+<p style="padding-left:60px;">The comments of great coders tend to focus on why a particular tradeoff was chosen, what ramifications might surprise the next guy, or where a hidden dependency lurks. Those who follow gain expertise with less battle scars--or elshey diagnose old mistakes with greater confidence.</p>
 <p style="padding-left:60px;">Because good comments avoid trivia, they tend to remain accurate. Others appreciate their value and buy in to their upkeep. This becomes a way to reinforce effective communication and best practices for an entire team.</p>
 <p style="padding-left:60px;">When comments become inaccurate, it is usually an indictment of their relevance, not of sloppy maintainers. Consider the mandated comments in "<a title="How to turn coding standards into epic fails — or not" href="coding-standards.md">How to turn coding standards into epic fails — or not</a>."</p>
 <p style="padding-left:30px;"><strong>Good comments are concise.</strong></p>

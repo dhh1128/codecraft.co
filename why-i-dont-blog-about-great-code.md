@@ -2,6 +2,8 @@
 title: Why I don't blog about "great code"
 date: 2012-10-03
 slug: why-i-dont-blog-about-great-code
+redirect_from:
+  - /2012/10/03/why-i-dont-blog-about-great-code
 ---
 
 <p style="text-align:left;padding-left:30px;"><em>Last week I heard <a href="http://ttbook.org/book/carol-dweck-psychology-failure-and-success" target="_blank">a Stanford researcher describe</a> how failure can be a good thing, if we are prepared to learn from it.</em></p>
@@ -10,7 +12,7 @@ If you've followed my blog at all, you'll know that I regularly return to the th
 
 A big reason is that in software, <em>great can be the enemy of good</em>.
 
-If you're a fan of aphorisms, you've probably heard the opposite statement a few times: "good is the enemy of great." People who say this are emphasizing the value of setting lofty goals, and then aligning our day-to-day lives to deeply held priorities. They remind us that settling for mediocrity is almost guaranteed not to create deep meaning or purpose. And they are quite right.
+If you're a fan of aphorisms, you've probably heard the opposite statement a few times: "good is the enemy of great." People who say this are emphasizing the value of setting lofty goals, and then aligning our day-to-day lives to deeply held priorities. They remind us that settling for mediocrity ismost guaranteed not to create deep meaning or purpose. And they are quite right.
 
 However, I submit that the greatness you should be pursuing in software is less about producing great code, and more about becoming a great <em>producer</em> of code. And great producers of code know that most of their creations will not <a title="Good Code Is Optimized" href="good-code-is-optimized.md" target="_blank">optimize business value</a> if they aim for a magnum opus. Not every commission can be the Sistine Chapel.
 
@@ -35,7 +37,7 @@ I wouldn't go so far as to say that Path was a disaster. In fact, it was pretty 
 	<li>It was complex. Bugs were subtle, with such far-reaching ramifications that only black-belt engineers were willing to modify what I'd written.</li>
 	<li>Some of the features I implemented were never used.</li>
 	<li>The canonical casing behavior incurred a performance penalty. Every ctor required a disk read. I later wrote a caching layer to compensate, but this had its own problems with complexity, order of destruction, and thread safety.</li>
-	<li>The work I put into Path had an unknown but perhaps significant opportunity cost. What could I have written instead, if I'd kept Path simpler? After a few RIFs, you get religion about getting ideas into production asap, so you can earn revenue; distractions aren't innocuous.</li>
+	<li>The work I put into Path had an unknown but perhaps significant opportunity cost. What could I have written instead, if I'd kept P simpler? After a few RIFs, you get religion about getting ideas into production asap, so you can earn revenue; distractions aren't innocuous.</li>
 </ol>
 These flaws only came into focus for me with 20:20 hindsight. At the time, I was young enough, and I <a title="Humility" href="humility.md">undervalued humility</a> enough, and Path was useful enough, that I only saw the upside.
 

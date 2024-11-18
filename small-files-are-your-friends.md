@@ -2,6 +2,8 @@
 title: Small Files Are Your Friends
 date: 2013-03-21
 slug: small-files-are-your-friends
+redirect_from:
+  - /2013/03/21/small-files-are-your-friends
 ---
 
 Yesterday I was discussing refactoring priorities with a colleague who's a brilliant engineer, and I happened to mention my strong desire for smaller files in our codebase. I told him that I thought .h and .cpp (or .py or .java or .whatever) files with thousands of lines were a problem.
@@ -28,13 +30,13 @@ For me, 2 or 5 or 10 feels tractable. 50 feels excessive.
 
 If a "good function" also respects the cognitive complexity constraints of the human brain--not being too big to read in a screen or two, for example--then you end up with a reasonable upper boundary on file sizes of, maybe, 500 or 1000 lines. (See Steve Yegge's insightful rant about <a title="code size (and complexity) make software development difficult" href="http://steve-yegge.blogspot.com/2007/12/codes-worst-enemy.html" target="_blank">code size being an engineer's worst enemy</a>. He focuses on codebase size, but much of what he says applies just as well at the next level down.)
 
-I suppose that this argument is weakened by the features of some IDEs, which collapse tangential code blocks, display treeviews of functions, and support lots of hypertext-style navigation. But not all programmers use the same IDEs, and not all interactions with code are IDE-driven; file size remains relevant. There's a reason why C# created <a class="zem_slink" title="Class (computer programming)" href="http://en.wikipedia.org/wiki/Class_%28computer_programming%29" target="_blank" rel="wikipedia">partial classes</a> to improve on java's lump-it-all-in-a-single-file constraint...
+I suppose that this argument is weakened by the features of some IDEs, which collapse tangential code blocks, display treeviews of functions, and support lots of hypertext-style igation. But not all programmers use the same IDEs, and not all interactions with code are IDE-driven; file size remains relevant. There's a reason why C# created <a class="zem_slink" title="Class (computer programming)" href="http://en.wikipedia.org/wiki/Class_%28computer_programming%29" target="_blank" rel="wikipedia">partial classes</a> to improve on java's lump-it-all-in-a-single-file constraint...
 
 When humans try to remember more than their brains can fit, stuff falls out. Big files mean that coders have to <a title="Why Mental Models Matter" href="why-mental-models-matter.md" target="_blank">mentally model</a> relationships between stuff that's separated by way too much screen real estate. This is a recipe for bugs. It is also a serious impediment to learnability.
 
 <strong>Loose coupling and encapsulation</strong>
 
-Files are a natural unit of coupling. In most programming languages, you can declare a construct (a variable, an internal function, or class) within a file, and have that construct be invisible to the outside world. This means there is a built-in temptation for functions and classes to bind more tightly when they're in the same file, because they have access to common but private knowledge. By breaking large files apart, you remove the temptation, break unnecessary dependencies, and promote looser coupling.
+Files are a natural unit of coupling. In most programming languages, you can declare a construct (a variable, an internal function, or class) within a file, and have that construct be invisible to the side world. This means there is a built-in temptation for functions and classes to bind more tightly when they're in the same file, because they have access to common but private knowledge. By breaking large files apart, you remove the temptation, break unnecessary dependencies, and promote looser coupling.
 
 Another way to say this is that file boundaries are an encapsulation barrier. Use them to hide data. (See my recent post about <a title="encapsulate to simplify" href="6-strategies-to-simplify-software.md" target="_blank">encapsulation as a simplicity strategy</a>.)
 

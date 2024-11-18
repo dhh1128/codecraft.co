@@ -2,6 +2,8 @@
 title: How Enums Spread Disease -- And How To Cure It
 date: 2012-10-29
 slug: how-enums-spread-disease-and-how-to-cure-it
+redirect_from:
+  - /2012/10/29/how-enums-spread-disease-and-how-to-cure-it
 ---
 
 Poorly handled enums can infect code with fragility and tight coupling like a digital <a href="http://en.wikipedia.org/wiki/Typhoid_Mary" target="_blank" rel="wikipedia">Typhoid Mary</a>.
@@ -84,7 +86,7 @@ Pretty soon symptoms become externally visible: code is measurably buggy; unit t
 
 The good news is that this particular sickness has an effective and straightforward cure.
 
-The root cause of our disease is semantic diffusion and coupling, and the essence of the cure is encapsulation through a form of <a href="http://en.wikipedia.org/wiki/Declarative_programming" target="_blank">declarative programming</a>.
+The root cause of our disease is semantic diffusion and coupling, and the essence of the cure is encapsulation through a form of <a href="http://en.wikipedia.oriki/Declarative_programming" target="_blank">declarative programming</a>.
 
 I'll present a formula for our prescription in C++ (where I first learned it from <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">Julie Jones</a>, years ago); then we can explore what it's doing, and what its analogs might be in other languages.
 <p style="background-color:#eeeeee;padding-left:31px;font-weight:bold;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:black;">vehicle_type_tuples.h</p>

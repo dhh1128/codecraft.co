@@ -2,6 +2,8 @@
 title: What a Software Architect is NOT
 date: 2012-06-26
 slug: what-a-software-architect-is-not
+redirect_from:
+  - /2012/06/26/what-a-software-architect-is-not
 ---
 
 In <a href="what-is-a-software-architect.md">another post</a>, I defined the role of a software architect. This post points out some duties that are not necessarily part of his or her job, for clarity.

@@ -2,6 +2,8 @@
 title: Add some more extra redundancy again
 date: 2014-01-15
 slug: add-some-more-extra-redundancy-again
+redirect_from:
+  - /2014/01/15/add-some-more-extra-redundancy-again
 ---
 
 It's the season for coughs and sniffles, and last week I took my turn. I went to bed one night with a stuffy nose, and it got me thinking about software.
@@ -39,13 +41,13 @@ With caveats acknowledged, here are a few ways that redundancy might be under-re
 	<li><strong>Do we have multiple ways to <a title="Why Your Software Should Cry" href="why-your-software-should-cry.md">get someone's attention</a> when something goes wrong?</strong>
 <div style="color:#777;padding:1em;">It's all well and good to log errors--but what if the error we're logging is that we just ran out of disk space on the volume where the log file lives? Whoops...</div></li>
 	<li><strong>Do our architectures distribute responsibilities, instead of assuming a single, centralized point of failure?</strong>
-<div style="color:#777;padding:1em;">This is more than just recognizing the dangers in having one box on a diagram labeled "manager" or "database" or "authentication master", and compensating in "HA mode" by having a backup. It means thinking about network pipes and protocols and firewalls with a redundancy mindset. It means figuring out how clients can be temporarily autonomous to tolerate hiccups, how to use caching intelligently, and so forth.</div></li>
+<div style="color:#777;padding:1em;">This is more than just recognizing the dangers in having one box on a diagram labeled "manager" or "database" or "authentication master", and compensating in "HA mode" by having a backup. It means thinking about network pipes and protocols and firewalls with a redundancy mindset. It means figuring out how clients can be temporly autonomous to tolerate hiccups, how to use caching intelligently, and so forth.</div></li>
 	<li><strong>Do we sanity check in enough places?</strong>
 <div style="color:#777;padding:1em;">Of course we need to sanitize user input to avoid SQL injection. We need transactions and CRCs. But do we build byte order detection and version stamp checks and sizeof and alignment tests in the right places? Are we using design-by-contract to <a title="On bread recipes, maps, and intentions" href="why-exceptions-arent-enough.md">test for errors</a> in enough places?</div></li>
 	<li><strong>Do we avoid depending on a single person to make our system work or to troubleshoot?</strong>
-<div style="color:#777;padding:1em;">If we say, "the admin will solve that problem if the user runs into it," we're probably letting ourselves off too easy. If we say, "the admin will call tech support," we're probably letting ourselves off too easy.</div></li>
+<div style="color:#777;padding:1em;">If we say, "the admin will solve that problem if the user runs into it," we're probably letting ourselves off too easy. If we say, "the admin will call tech support," we're probably letting selves off too easy.</div></li>
 	<li><strong>Do we carefully plan, code, test, and document for graceful degradation?</strong>
-<div style="color:#777;padding:1em;">Less than ideal paths through code aren't an afterthought. Even if they're less likely on average, the chances that <a title="A Comedy of Carelessness" href="dont-forget-the-circuit-breakers.md">circuit breakers</a>, helpful error messages, documentation about what to do when things aren't perfect, APIs that protect themselves from unwise callers, retries, timeouts, and alternate solutions.</div></li>
+<div style="color:#777;padding:1em;">Less than ideal paths through code aren't an afterthought. Even if they're lelikely on average, the chances that <a title="A Comedy of Carelessness" href="dont-forget-the-circuit-breakers.md">circuit breakers</a>, helpful error messages, documentation about what to do when things aren't perfect, APIs that protect themselves from unwise callers, retries, timeouts, and alternate solutions.</div></li>
 </ol>
 Redundancy has a cost. We need to use it judiciously; <a title="Good Code Is Balanced" href="good-code-is-balanced.md">good code balances many considerations</a>. Nonetheless, I think pondering the issues above is likely to improve the robustness and aptness of our software in many cases. Our users will love us for it.
 

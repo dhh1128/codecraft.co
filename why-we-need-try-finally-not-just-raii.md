@@ -2,6 +2,8 @@
 title: Why we need try...finally, not just RAII
 date: 2013-10-31
 slug: why-we-need-try-finally-not-just-raii
+redirect_from:
+  - /2013/10/31/why-we-need-try-finally-not-just-raii
 ---
 
 The claim has been made that because C++ supports <a class="zem_slink" title="Resource Acquisition Is Initialization" href="http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization" target="_blank" rel="wikipedia">RAII</a> (resource acquisition is initialization), it doesn't need <span style="font-family:courier, fixedwidth;">try...finally</span>. I think this is wrong. There is at least one use case for <span style="font-family:courier, fixedwidth;">try...finally</span> that's very awkward to model with RAII, and one that's so ugly it ought to be outlawed.
@@ -168,7 +170,7 @@ What would it look like if C++ supported <span style="font-family:courier, fixed
 }</pre>
 RAII and <span style="font-family:courier, fixedwidth;">try...finally</span> may be able to achieve the same things, but they are definitely not equally good alternatives in all use cases.
 
-I understand some of the complex choices that C++'s standardization committee has to wrestle with; I can imagine how they might have concluded that the extra benefit of <span style="font-family:courier, fixedwidth;">try...finally</span> was not worth the compiler burden they'd be imposing. I also admit that if C++ had <span style="font-family:courier, fixedwidth;">try...finally</span>, it might diminish RAII's status as the recommended C++ solution to resource management, which could be a bad thing. But those pragmatic arguments are biased toward compiler creators, not toward us humble programmers who make a living writing code. So much for user-centered design...
+I understand some of the complex choices that C++'s standardization committee has to wrestle with; I can imagine how they might have concluded that the extra benefit of <span style="font-family:courier, fixedwidth;">try...finally</span> was not worth the compiler burden they'd be imposing. I also admit that if C++ had <span style="font-family:courier, fixedwidth;">try...finally</span>, it might diminish RAII's status as the recommended C++ solution to resource management, which could be a bad thing. But those pragmatic argums are biased toward compiler creators, not toward us humble programmers who make a living writing code. So much for user-centered design...
 
 The lack of <span style="font-family:courier, fixedwidth;">try...finally</span> is a shortcoming of C++ that some of the smartest programmers on the planet have worked around. Alexandrescu's ScopeGuard for C++ 98 is pretty amazing, and would clean up a lot of the code that I've shown above; the C++ 11 version is a huge improvement. But it feels to me like we shouldn't have to work this hard to do something that's conceptually so straightforward. I want a more satisfying answer in <a href="on-bread-recipes-maps-and-intentions.md">my "better programming language" project called "intent."</a> Stay tuned for more discussion as intent matures.
 

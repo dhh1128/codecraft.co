@@ -2,6 +2,8 @@
 title: Unencapsulate Yourself
 date: 2012-10-22
 slug: unencapsulate-yourself
+redirect_from:
+  - /2012/10/22/unencapsulate-yourself
 ---
 
 <figure><img alt="" src="http://farm4.staticflickr.com/3040/2998411234_ceb9e6f752_n.jpg" height="320" width="212" /><figcaption>We loved to escape the boxes when we were kids... Photo credit: thewoodenshoes (Flickr)</figcaption></figure>
@@ -18,7 +20,7 @@ But if you never leave your boxes, you miss half the fun.
 
 As cells grow into tissues in biology, so similar objects in an OOP mindset often coalesce into horizontal layers composed of entities with compatible composition and duties. These strata get names: "the business logic layer", "the display layer", "middleware", "core engine", and so forth. If you've worked on anything MVC or n-tier or client-server, you know this mindset.
 
-Less commonly, objects align on a vertical axis, producing semi-independent silos that span layers to produce decoupled top-level features. An optional accounting module that has its own db and middleware might be modeled as an independent stack in a vertical architecture. <a class="zem_slink" title="Aspect-Oriented Programming" href="http://www.techopedia.com/definition/204/aspect-oriented-programming-aop" target="_blank" rel="techopedia">Aspect-oriented programming</a> also spans layers, though in a less siloed way.
+Less commonly, objects align on a vertical axis, producing semi-independent silos that span layers to produce decoupled top-le features. An optional accounting module that has its own db and middleware might be modeled as an independent stack in a vertical architecture. <a class="zem_slink" title="Aspect-Oriented Programming" href="http://www.techopedia.com/definition/204/aspect-oriented-programming-aop" target="_blank" rel="techopedia">Aspect-oriented programming</a> also spans layers, though in a less siloed way.
 
 In either case, <a title="Why People Are Part of A Software Architecture" href="why-people-are-part-of-a-software-architecture.md">the boxes you draw to model your architecture tend to correspond to teams</a>, and those teams tend to use different tools and processes, and those differences tend to isolate rather than converge organizations.
 

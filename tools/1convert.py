@@ -67,7 +67,7 @@ class Post:
     def save(self):
         if not os.path.exists(self.date):
             os.makedirs(self.date)
-        fname = os.path.join(self.date, self.slug + '.md')
+        fname = os.path.join(self.date, self.slug + '')
         with open(fname, 'w') as f:
             f.write('---\n')
             f.write('title: ' + self.title + '\n')

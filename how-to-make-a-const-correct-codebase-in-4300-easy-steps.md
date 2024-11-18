@@ -2,6 +2,8 @@
 title: How to make a const-correct codebase in 4300 easy steps
 date: 2014-03-25
 slug: how-to-make-a-const-correct-codebase-in-4300-easy-steps
+redirect_from:
+  - /2014/03/25/how-to-make-a-const-correct-codebase-in-4300-easy-steps
 ---
 
 One of the codebases that I work on is theoretically C++, but if you peer under the hood, it looks more like 1990-vintage C. It's 500 KLOC of almost purely procedural code, with lots of structs and few true objects. More dusty and brittle than I'd like.
@@ -91,7 +93,7 @@ The code for this "const_fix" python script is <a title="const_fix script on git
 <h3>The moral(s) to the story</h3>
 Stepping back from the details of this experience, I draw a few general conclusions:
 
-<strong>Never get involved in a land war in Asia</strong>, as Vizzini would say. (Or in other words, don't invade unknown territory in your code, unless you're assuming some blood, sweat, and tears. :-)
+<strong>Never get involved in a land war in Asia</strong>, as Vizzini wousay. (Or in other words, don't invade unknown territory in your code, unless you're assuming some blood, sweat, and tears. :-)
 
 <strong>On the other hand, <a title="Courage Counts" href="courage-counts.md">courage counts</a></strong>. A festering problem finally got fixed, because I was crazy enough to try.
 

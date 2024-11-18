@@ -2,6 +2,8 @@
 title: Users Aren't The Only People In Your Software
 date: 2012-09-04
 slug: users-arent-the-only-people-in-your-software
+redirect_from:
+  - /2012/09/04/users-arent-the-only-people-in-your-software
 ---
 
 I'm all for a healthy focus on HCI (Human-Computer Interaction), UCD (User-Centered Design), and UX (User eXperience). (See <a title="Role-Play Centered Design" href="role-play-centered-design.md">my post about role-play centered design</a>, for example.)

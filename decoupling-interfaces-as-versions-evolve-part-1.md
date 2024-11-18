@@ -2,6 +2,8 @@
 title: Decoupling Interfaces As Versions Evolve, Part 1
 date: 2008-07-29
 slug: decoupling-interfaces-as-versions-evolve-part-1
+redirect_from:
+  - /2008/07/29/decoupling-interfaces-as-versions-evolve-part-1
 ---
 
 <em>This is part 1 of a series. You can read <a title="Decoupling Interfaces as Versions Evolve, Part 2" href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a> as well.</em>
@@ -36,7 +38,7 @@ But late binding is not a panacea. For one thing, late binding typically means t
 
 There are subtler costs as well. When you late bind, you still have to use the interface you ultimately invoke, and the knowledge about how to use it has to be baked into the code ahead of time. It may not be baked in in the same way -- maybe you use reflection or <code>GetProcAddress</code> to find the <code>DoSomething</code> function you're after -- but to late bind an interface, you have to early bind all the logic that handles the cases where <code>GetProcAddress</code> fails.
 
-Another disadvantage of late binding is that you introduce a new dependency -- this time on the supporting infrastructure. Maybe you're using a great SOAP toolkit for PHP and that toolkit makes it easy to late bind to a web service. But now you depend on your SOAP toolkit. What if another actor in your system doesn't have the same version of the toolkit?
+Another disadvantage of late binding is that you introduce a new dependency -- this time on the supporting infrastructure. Maybe you're using a great SOAP toolkit for PHP and that toolkit makes it easy to late bind to a web service. But now you depend on your SOAP toit. What if another actor in your system doesn't have the same version of the toolkit?
 
 What we'd like is a mechanism that combines the predictability and robust tool support of the traditional approach to interface versioning with the flexibility of late binding to get the best of both worlds. In <a href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a>, I'll offer my own solution.
 

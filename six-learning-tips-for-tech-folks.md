@@ -2,11 +2,13 @@
 title: Six Learning Tips For Tech Folks
 date: 2012-09-25
 slug: six-learning-tips-for-tech-folks
+redirect_from:
+  - /2012/09/25/six-learning-tips-for-tech-folks
 ---
 
 In <em>Seven Habits of Highly Effective People</em>, Stephen Covey reminds readers to periodically suspend their lumberjacking long enough to sharpen the metaphorical saw. In other words -- take time to renew, to learn, to get better, to work smarter.
 
-<figure><img title="crosscut saw" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Five-foot_crosscut_saw.jpg/320px-Five-foot_crosscut_saw.jpg" alt="" width="320" height="131" /><figcaption>Sharpen the saw. Photo credit: ATsawyer (Wikimedia Commons).</figcaption></figure>
+<figure><img title="crosscut saw" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Five-foot_crosscut_saw.jpg/320px-Five-foot_crosscut_saw.jpg" alt="" width="320" height="131" /><figcaption>rpen the saw. Photo credit: ATsawyer (Wikimedia Commons).</figcaption></figure>
 
 Chances are, you're nodding your head. We all recognize the truth of the principle, but we struggle to put it into practice. <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">My friend who's a voracious learner</a> is an example we all need to emulate better.
 

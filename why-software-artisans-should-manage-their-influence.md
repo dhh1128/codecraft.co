@@ -2,9 +2,11 @@
 title: Why Software Artisans Should Manage Their Influence
 date: 2013-02-07
 slug: why-software-artisans-should-manage-their-influence
+redirect_from:
+  - /2013/02/07/why-software-artisans-should-manage-their-influence
 ---
 
-Just read an <a href="http://sethgodin.typepad.com/seths_blog/2013/02/scarcity-and-abundance-in-the-digital-age.html" target="_blank">insightful post from Seth Godin</a>. If you don't already know who Seth is, and follow him, I suggest you get to know him a bit. He's a thought leader in the field of <a class="zem_slink" title="Permission marketing" href="http://en.wikipedia.org/wiki/Permission_marketing" target="_blank" rel="wikipedia">permission marketing</a>--the founder of the movement, perhaps. He's spoken at <a class="zem_slink" title="TED (conference)" href="http://www.ted.com" target="_blank" rel="homepage">TED</a> conferences numerous times. Every one of his books that I've read is worthy of pondering.
+Just read an <a href="http://sethgodin.typepad.com/seths_blog/2013/02/scarcity-and-abundance-in-the-digital-age.html" target="_blank">insightful post from Seth Godin</a>. If you don't already know who Seth is, and follow him, I sest you get to know him a bit. He's a thought leader in the field of <a class="zem_slink" title="Permission marketing" href="http://en.wikipedia.org/wiki/Permission_marketing" target="_blank" rel="wikipedia">permission marketing</a>--the founder of the movement, perhaps. He's spoken at <a class="zem_slink" title="TED (conference)" href="http://www.ted.com" target="_blank" rel="homepage">TED</a> conferences numerous times. Every one of his books that I've read is worthy of pondering.
 
 Although Godin isn't speaking specifically about software craftsmen, I see direct application of his thinking to our field. Since so much of what we do <a title="Smart Geeks Think Like Cheerleaders" href="why-mental-models-matter.md" target="_blank">shared mental models</a>, we have to be savvy about how we communicate, advocate, and train. Assuming equal technical competence, the difference between effective and ineffective technical leaders largely depends on the mastery of this skill.
 

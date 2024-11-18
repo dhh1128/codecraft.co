@@ -2,6 +2,8 @@
 title: On bread recipes, maps, and intentions
 date: 2013-10-24
 slug: on-bread-recipes-maps-and-intentions
+redirect_from:
+  - /2013/10/24/on-bread-recipes-maps-and-intentions
 ---
 
 <p style="font-style:italic;margin-left:3em;font-size:92%;color:#555;">[I've been quiet for the past three weeks--not because I have less that I want to talk about, but because I have more. Major wheels turning in my head. I'm having a hard time getting from the "intuited ideas" mode to the "crisp enough to put it in writing" mode, though. Consider this a down payment on some future discussions...]</p>
@@ -49,11 +51,11 @@ Like smart humans navigating in traffic, master breadmakers know dozens of ways 
 
 Strategies for smart adaptation depend on... you guessed it: <em>understanding intentions</em>. If you know where you intend to go, adapting wisely is practical and straightforward. If you don't, you're in trouble.
 
-A lot of the best practices I've advocated on this blog--and a lot of the antipatterns I've lamented--are evidence of this principle at work:
+A lot of the best practices I've advocated on this blog--and a lot of tantipatterns I've lamented--are evidence of this principle at work:
 <ul>
-	<li><a title="Good Code Is Named Right" href="good-code-is-named-right.md">Good code is named right</a>, because it tells another coder what you intend for it to do. (Notice how much confusion in our thought experiment is attributable to the missing title on the navigation instructions. Notice how breadmaking recipes start, not with ingredients, but with a title.)</li>
-	<li><a title="// Comments on Comments" href="coding-standards.md">waste of time</a> when they just state the obvious or provide no insight.</li>
-	<li>Building <a title="Why Mental Models Matter" href="why-mental-models-matter.md">accurate mental models</a> is a function of understanding the intentions of users and system designers.</li>
+	<li><a title="Good Code Is Named Right" href="good-code-is-named-right.md">Goodde is named right</a>, because it tells another coder what you intend for it to do. (Notice how much confusion in our thought experiment is attributable to the missing title on the navigation instructions. Notice how breadmaking recipes start, not with ingredients, but with a title.)</li>
+	<li><a title="// Comments on Comments" href="coding-standards.md">waste of time</a> when theust state the obvious or provide no insight.</li>
+	<li>Building <a title="Why Mental Models Matter" href="why-mental-models-matted">accurate mental models</a> is a function of understanding the intentions of users and system designers.</li>
 	<li><a title="Smart Geeks Think Like Cheerleaders" href="smart-geeks-think-like-cheerleaders.md">System thinking</a> is enabled by a grasp of the principles underlying various components, coupled with pondering about the ramifications of those principles as the system encounters dynamic conditions.</li>
 	<li><a title="Good Code Plans for Problems" href="why-your-software-should-cry.md">communicating</a> when intentions aren't satisfied.</li>
 	<li>A major reason why I keep harping on Martin Fowler's observation ("Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”) is that it recognizes the primacy of human understanding of <em>intention</em>--not just Turing completeness or Von Neumann executability--in writing software.</li>
@@ -88,7 +90,7 @@ Suppress your gag reflex and think about where intent and humanity is manifest i
 
 <span style="color:#000080;"><strong>Hope on the horizon</strong></span>
 
-Notice that I wasn't universal in my critique just now. I see bright spots of innovative, intentional thinking in many places. <a title="Dan North: Introducing BDD" href="http://dannorth.net/introducing-bdd/" target="_blank">Behavior-driven development</a> is about validating code behavior against use cases, which is promising. The DSLs and testing specs in <a title="cucumber testing" href="http://cukes.info/" target="_blank">cucumber</a> and <a title="spock unit test framework" href="https://code.google.com/p/spock/" target="_blank">spock</a> are elegant and actionable expressions of intent. <a title="Eiffel DBC" href="http://www.eiffel.com/developers/design_by_contract.html" target="_blank">Eiffel bakes design-by-contract</a> into the language. Charles Simonyi's work on <a title="intentional programming" href="http://en.wikipedia.org/wiki/Intentional_programming" target="_blank">intentional programming</a> is really cool, even if Microsoft Research dropped the idea a few years back. Heck, the whole phenomenon of TDD and disciplined unit testing is about making sure we understand our intentions...
+Notice that I wasn't universal in my critique just now. I see bright spots of innovative, intentional thinking in many places. <a title="Dan North: Introducing BDD" href="http://dannorth.net/introducing-bdd/" target="_blank">Behavior-driven development</a> is about validating code behavior against use cases, which is promising. The DSLs and testing specs in <a title="cucumber testing" href="http://cukes.info/" target="_blank">cucumber</a> and <a title="spock unit test framework" href="https://code.google.com/p/spock/" target="_blank">spock</a> are elegant and actionable exprions of intent. <a title="Eiffel DBC" href="http://www.eiffel.com/developers/design_by_contract.html" target="_blank">Eiffel bakes design-by-contract</a> into the language. Charles Simonyi's work on <a title="intentional programming" href="http://en.wikipedia.org/wiki/Intentional_programming" target="_blank">intentional programming</a> is really cool, even if Microsoft Research dropped the idea a few years back. Heck, the whole phenomenon of TDD and disciplined unit testing is about making sure we understand our intentions...
 
 I've also imagined some ways that a new programming language/ecosystem/methodology could raise the bar for our craft even further--ways that recognize the human dimension, that are simple to learn and use, that can be implemented without science fiction, and that are likely to pay off big. I'll be blogging about these ideas in future posts, and I'm using the name "intent" for the effort. Hopefully this will culminate in an "intent" compiler, an "intentional" IDE, and so forth. (Thanks to my friend <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">Julie</a> for suggesting this name and collaborating with me on the effort. Anybody else want in?)
 

@@ -2,6 +2,8 @@
 title: Tech Debt, Leverage, and Grandma's Envelope
 date: 2012-10-30
 slug: tech-debt-leverage-and-grandmas-envelope
+redirect_from:
+  - /2012/10/30/tech-debt-leverage-and-grandmas-envelope
 ---
 
 In my previous posts about tech debt, I focused on <a title="Coping With Organizational Alzheimers" href="paying-off-technical-debt.md">how tech debts are funded and paid back</a>.
@@ -66,9 +68,9 @@ But you can get in the habit of mailing a check every month. Even the worst spik
 
 Read <em>Refactoring</em> (Martin Fowler). Ponder.
 
-Next time you're fixing a bug, take an extra 5 minutes to document the function better. Then make that practice a habit.
+Next time you're fixing a bug, take an extra 5 minutes to ument the function better. Then make that practice a habit.
 
-In the spirit of <a href="six-learning-tips-for-tech-folks.md">my post about teaching to accelerate your own learning</a>, talk about what you're doing, and why. I remembered Grandma's comment for 35 years; you'll make an impression on others.
+In the spirit of <a href="six-learning-tips-for-tech-folks.md">my post about teaching to accelerate your own learning</a>, talk at what you're doing, and why. I remembered Grandma's comment for 35 years; you'll make an impression on others.
 
 Don't accept anyone's claim that they don't have time to do things right, without a gentle and <a title="Humility" href="humility.md">humble</a> push-back. (As Seth Godin says: <a href="http://sethgodin.typepad.com/seths_blog/2012/09/doing-it-in-a-hurry-almost-always-takes-longer.html" target="_blank">haraka haraka, haina baraka</a>.)
 

@@ -2,11 +2,13 @@
 title: What should code look like when we squint at it?
 date: 2013-09-19
 slug: what-should-code-look-like-when-we-squint-at-it
+redirect_from:
+  - /2013/09/19/what-should-code-look-like-when-we-squint-at-it
 ---
 
 It's the start of another school year, and my seventh-grade son is learning algebra. As I sat beside him to coach him through some homework the other night, I shared my favorite bit of wisdom about how to make math problems—even complex ones—simple and error-free:
 <p style="text-align:center;font-size:110%;border:solid 1px #333;background-color:#eee;padding:1em;font-style:italic;">Write the progression from known to unknown, one step at a time.</p>
-In my experience, the surest recipe for disaster is to short-circuit this rule. Collapse a few steps in your head in the name of <em>efficiency, </em>and you'll forget a minus sign, or you'll group incorrectly, or you'll lose track of an exponent or an absolute value—and you'll end up with a mess. You'll have to debug your solution by slogging back through the problem from the beginning until you figure out where you went wrong.
+In my experience, the surest recipe for disaster is to short-circuit this rule. Collapse a few steps in your head in the name of <em>efficiency, </em>and you'll forget a minus sign, or yol group incorrectly, or you'll lose track of an exponent or an absolute value—and you'll end up with a mess. You'll have to debug your solution by slogging back through the problem from the beginning until you figure out where you went wrong.
 
 It's interesting—and maybe, profound—how nicely this piece of advice maps onto the design principle of <a title="Progressive Disclosure Everywhere" href="progressive-disclosure-everywhere.md">progressive disclosure</a>. The human mind is simply wired to perceive in broad outlines, and then to gradually clarify, a few details at a time.
 
@@ -28,7 +30,7 @@ I think this is one of the flaws in most programming languages I know: they imme
 I did this with the <a title="julia programming language" href="http://julialang.org" target="_blank">Julia programming language</a>, but you could download Mozilla or Apache or Hadoop or anything else that sound interesting, and I think you'd have similar results: like me, I predict that you'll quickly be overwhelmed with questions. Which of 3 likely entry points is the true top of the call graph? What do all these #ifdefs mean, and which ones are going to be active in my build? Which parts of the code have dependencies I need to understand?<a title="download julia programming language source" href="https://github.com/JuliaLang/julia" target="_blank">
 </a>
 
-This is the equivalent of trying to solve the entire algebra problem by holding all the transformations of an equation in your head at the same time. It can be paralyzing. None of the techniques that are popular in programming communities today give satisfactory answers to this problem—not BDD or TDD, not golden threads, not design docs, not javadoc/doxygen, not aggressive commenting, not ER or UML diagrams, not architecture description languages.
+This is the equivalent of trying to solve the entire algebra problem by holding all the transformations of an equation in your head at the same time. It can be paralyg. None of the techniques that are popular in programming communities today give satisfactory answers to this problem—not BDD or TDD, not golden threads, not design docs, not javadoc/doxygen, not aggressive commenting, not ER or UML diagrams, not architecture description languages.
 
 This need for context, for a high-level picture, for a sketch that gives you a useful skeleton of a <a title="Why Mental Models Matter" href="why-mental-models-matter.md">mental model</a>, is the reason why any new hire into a team with a complex codebase gets a whiteboard-ish orientation from smart teammates. We intuitively know we need it, and we'll never get it from the code itself. On a codebase that I currently own, it is a major reason why the team hates the code and tells horror stories about its learning curve.
 

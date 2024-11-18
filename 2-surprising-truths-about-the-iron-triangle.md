@@ -2,6 +2,8 @@
 title: 2 Surprising Truths About The Iron Triangle
 date: 2013-07-01
 slug: 2-surprising-truths-about-the-iron-triangle
+redirect_from:
+  - /2013/07/01/2-surprising-truths-about-the-iron-triangle
 ---
 
 Project management 101 teaches that, when managing outcomes, you cannot alter scope, schedule, or cost (resources) without affecting at least one of the other dimensions. This interrelationship is known colloquially as the "Iron Triangle." Sometimes we put "quality" in the middle to show how it is unavoidably shaped by choices on the other constraints:
@@ -44,7 +46,7 @@ Fast. Good. Cheap. Pick any 2.
 
 In this world view, scope is not a lever, and the tradeoffs with quality are explicit.
 
-If you've learned truth 1, then you're probably an <a title="Earned Pragmatism" href="earned-pragmatism.md">industry veteran with battle scars</a>, and you're the kind of person I want on my team when we do project planning.
+If you've learned truth 1, then you're probably an <a title="Earned Pragmatism" href="earned-pragmatism">industry veteran with battle scars</a>, and you're the kind of person I want on my team when we do project planning.
 
 But there's more.
 
@@ -72,13 +74,13 @@ That way lies madness.
 
 <strong>Quality yields speed</strong>
 
-In a way, I'm suggesting the opposite strategy: if you push on quality <em>in the right way</em>, speed will accrue organically. Not at first, <em>especially</em> if you're starting with an unhealthy codebase. Not with every checkin; sometimes you have to take one step back to take two steps forward. But over time, if you continue to invest in quality, your patient will get more healthy, and you will see your speed go up, not down. The <a title="Why Mental Models Matter" href="good-fences-make-good-neighbors.md">encapsulation</a>.
+In a way, I'm suggesting the opposite strategy: if you push on quality <em>in the right way</em>, speed will accrue organically. Not at first, <em>especially</em> if you're starting with an unhealthy codebase. Not with every checkin; sometimes you have to take one step back to take two steps forward. But over time, if you continue to invest in quality, your patient will get more healthy, and you will see your speed go up, not down. The <a title="Why Mental Models Matter" href="good-fences-make-good-neighbors">encapsulation</a>.
 
 There are limits, of course. Hawkeye might be amazingly fast with mostly healthy patients, but he'll never operate on a thousand patients an hour.
 
 Within those limits, though, it's amazing what quality can do for you.
 
-In order to pursue this strategy, you have to get management to take their foot off the gas pedal and let you build things right. That can be a difficult (maybe even impossible) task. I'm not claiming it's easy. I'm not offering a recipe to convince them (though <a title="Roland Whatcott: Manage momentum." href="roland-whatcott-manage-momentum.md">momentum</a> will probably be an ingredient). I'm just saying it's worth the effort, because there is a happy land on the other side of the rainbow where you get better and faster at the same time.
+In order to pursue this strategy, you have to get management to take their foot off the gas pedal and let you build things right. That can be a difficult (maybe even impossible) task. I'm not claiming it's easy. I'm not offering a recipe to convince them (though <a title="Roland Whatcott: Manage momentum." href="roland-whatcott-manage-momentum">momentum</a> will probably be an ingredient). I'm just saying it's worth the effort, because there is a happy land on the other side of the rainbow where you get better and faster at the same time.
 
 I've been there.
 

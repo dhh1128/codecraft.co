@@ -2,6 +2,8 @@
 title: Good Code Is Balanced
 date: 2012-08-27
 slug: good-code-is-balanced
+redirect_from:
+  - /2012/08/27/good-code-is-balanced
 ---
 
 In my <a href="what-is-good-code.md">first post about what constitutes "good code,"</a> I claimed we were dealing with a complex question. This is why I distrust short answers.

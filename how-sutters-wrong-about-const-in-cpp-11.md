@@ -2,6 +2,8 @@
 title: How Sutter's Wrong About const in C++ 11
 date: 2013-01-02
 slug: how-sutters-wrong-about-const-in-cpp-11
+redirect_from:
+  - /2013/01/02/how-sutters-wrong-about-const-in-cpp-11
 ---
 
 Herb Sutter <a href="http://channel9.msdn.com/posts/C-and-Beyond-2012-Herb-Sutter-You-dont-know-blank-and-blank">recently gave a talk</a> about how the <code>const</code> keyword and the <code>mutable</code> keyword have subtle but profoundly different semantics in C++ 11. In a nutshell, he says that C++ 11 corrects the wishy-washy definition of <code>const</code> in C++ 98; <code>const</code> used to mean "logically constant," but now it means thread-safe. And <code>mutable</code> now means thread-safe as well. His summary slide says:

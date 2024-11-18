@@ -2,6 +2,8 @@
 title: Good Code Is Named Right
 date: 2012-08-28
 slug: good-code-is-named-right
+redirect_from:
+  - /2012/08/28/good-code-is-named-right
 ---
 
 <p style="text-align:right;"><em><span style="color:#404040;">(Another post in my "<a title="What Is “Good Code”?" href="what-is-good-code.md">What is 'Good Code'?</a>" series...)</span></em></p>

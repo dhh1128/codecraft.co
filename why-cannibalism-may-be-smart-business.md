@@ -2,6 +2,8 @@
 title: Why Cannibalism May Be Smart Business
 date: 2012-10-05
 slug: why-cannibalism-may-be-smart-business
+redirect_from:
+  - /2012/10/05/why-cannibalism-may-be-smart-business
 ---
 
 Get out your fork. I've got a story for you...

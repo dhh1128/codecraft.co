@@ -2,6 +2,8 @@
 title: What is a "Software Architect?"
 date: 2008-09-10
 slug: what-is-a-software-architect
+redirect_from:
+  - /2008/09/10/what-is-a-software-architect
 ---
 
 When people ask me what I do for a living, I usually say I'm a computer guy and leave it there. But if they want more detail, I tell them I'm a software architect. When I give that answer, I often wonder if I sound pretentious, like those who say "sanitation engineer" instead of "garbage man." Do those who ask the question think a "software architect" is just a fancy way of saying "computer programmer?"
@@ -30,7 +32,7 @@ The duties of a software architect include:
 
 6. HR-related stuff: Provide leadership and mentoring to other engineers. Evangelize the technology portfolio to other stakeholders (internal and external). Vett IP for patents and M&A. Be a voice. Etc.
 
-Of these duties, items 1, 2, and 3 sometimes get lost or watered down if an architect is just a senior engineer. In that sort of environment, PM may convey a vision to dev without involving architects. As a result, the team has conversations about feasibility or cost of implementing, but rarely if ever about whether a requirement is a good idea in the first place. Whether a requirement is a good idea is more than just a question of whether customers want it, whether it can generate revenue, and whether it can be built -- it also must take into account things like technical opportunity cost, long-term baggage, effect on the expertise and focus of the engineers who will build it, technical differentiation, and so forth.
+Of these duties, items 1, 2, and 3 sometimes get lost or watered down if an aitect is just a senior engineer. In that sort of environment, PM may convey a vision to dev without involving architects. As a result, the team has conversations about feasibility or cost of implementing, but rarely if ever about whether a requirement is a good idea in the first place. Whether a requirement is a good idea is more than just a question of whether customers want it, whether it can generate revenue, and whether it can be built -- it also must take into account things like technical opportunity cost, long-term baggage, effect on the expertise and focus of the engineers who will build it, technical differentiation, and so forth.
 
 It also might be worth highlighting <a href="what-a-software-architect-is-not.md">some things that I *don't* consider part of an architect's job</a>, for the sake of clarity. I'll do that in a separate post.
 

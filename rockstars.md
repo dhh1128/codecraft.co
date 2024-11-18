@@ -2,6 +2,8 @@
 title: "Rockstar Developers" are a dangerous myth
 date: 2015-03-04
 slug: rockstars
+redirect_from:
+  - /2015/03/04/rockstars
 ---
 
 Recently I've run across several uses of the phrase "rockstar developer" or "rockstar programmer" ("code ninja" is another hip variant). The term shows up on slashdot, for example. I've also seen it in job postings and in blogs.<sup>[<a target="_blank" href="http://www.infoworld.com/article/2886735/it-careers/should-you-hire-a-software-developer-talent-agent.html">1</a>],[<a target="_blank" href="http://sethgodin.typepad.com/seths_blog/2014/12/a-one-day-design-sprint-and-an-app-directory.html">2</a>],[<a target="_blank" href="http://skeptics.stackexchange.com/questions/7559/are-there-studies-clearly-illustrating-the-great-discrepancies-in-programmer-pro3">3</a>]</sup> A rockstar hacker archetype is standard fare in TV shows, where his or her computing feats are practically a superpower (<em>Agents of Shield</em>, <em>Person of Interest</em>, <em>Leverage</em>, <em>Scorpion</em>, ...) Of course Hollywood loves the notion, too; I thought <em>The Imitation Game</em> was fascinating, but besides taking liberties with history, it portrays Alan Turing in a distorted way that feeds such mystique. (Turing <em>was</em> absolutely brilliant, and certainly one of the most important pioneers in computing. But he <a href="http://www.slate.com/blogs/browbeat/2014/12/03/the_imitation_game_fact_vs_fiction_how_true_the_new_movie_is_to_alan_turing.html" target="_blank">didn't invent his codebreaking machine alone</a>.)
@@ -26,8 +28,8 @@ Nonetheless, the worldview behind the "rockstar" label is naive and dangerous, a
 <dt><strong>1. Making a <a href="features-are-not-chunks-of-code.md" title="Features are not chunks of code">more than writing clever code</a>.</strong></dt>
 <dd>Understanding<a href="good-code-is-optimized.md" title="Good Code Is Optimized">need of your business to make a profit</a> is usually a good idea, too. Perhaps the vast residual work is what Thomas Edison had in mind when he said,
 <blockquote>Genius is one percent inspiration, ninety nine percent perspiration.</blockquote></dd>
-<dt><strong>2. The best developers are superb <a href="http://www.hanselman.com/blog/TheMythOfTheRockstarProgrammer.aspx" target="_blank">team members</a>, not prima donnas.</strong></dt>
-<dd>I don't care if you're in a startup and you can only afford to hire one developer--if you think that developer can ignore teamwork, you're foolish. On day 1, even a one-person dev phenom has to work with those who test or document or support or deploy or sell. And if your startup has staying power, the day will come when Codezilla has to work with a contractor, or an understudy, or a team in Johannesburg or Timbuktu that will take over or integrate with what they've built.</dd>
+<dt><strong>2. The best developers are superb <a href="http://www.hanselman.com/b/TheMythOfTheRockstarProgrammer.aspx" target="_blank">team members</a>, not prima donnas.</strong></dt>
+<dd>I don't care if you're in a startup and you can only afford to hire oneveloper--if you think that developer can ignore teamwork, you're foolish. On day 1, even a one-person dev phenom has to work with those who test or document or support or deploy or sell. And if your startup has staying power, the day will come when Codezilla has to work with a contractor, or an understudy, or a team in Johannesburg or Timbuktu that will take over or integrate with what they've built.</dd>
 <dt><strong>3. If nobody understands your code, <a href="why-mental-models-matter.md" title="Why Mental Models Matter">you've failed</a>.</strong></dt>
 <dd>How can there be a version 2.0 if there's <a href="comments-on-comments.md" title="// Comments on Comments">build upon your work</a>.</dd>
 <dt><strong>4. Nobody knows everything.</strong></dt>

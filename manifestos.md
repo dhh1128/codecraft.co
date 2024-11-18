@@ -2,6 +2,8 @@
 title: Manifestos
 date: 2012-09-13
 slug: manifestos
+redirect_from:
+  - /2012/09/13/manifestos
 ---
 
 I signed two software manifestos yesterday.
@@ -12,7 +14,7 @@ The <a href="http://agilemanifesto.org/" target="_blank">Agile Manifesto</a> is 
 
 The <a href="http://manifesto.softwarecraftsmanship.org/" target="_blank">Manifesto for Software Craftsmanship</a> seems to deliberately emulate its predecessor's simple and pragmatic style. I also believe deeply in its principles. I think it needs a bit more defense, however.
 
-<a href="https://plus.google.com/u/0/110981030061712822816/posts/iuRbQe6EoiK" target="_blank">Steve Yegge claims</a> that software conservatives love their code, and software liberals view code as a necessary evil. (LONG post; this comment is near the end. And you may need to read <a href="https://plus.google.com/u/0/110981030061712822816/posts/KaSKeg4vQtz" target="_blank">his previous post</a> for context, if you're not familiar with his political metaphor.)
+<a href="https://plus.google.com/u/0/110981030061712822816/posiuRbQe6EoiK" target="_blank">Steve Yegge claims</a> that software conservatives love their code, and software liberals view code as a necessary evil. (LONG post; this comment is near the end. And you may need to read <a href="https://plus.google.com/u/0/110981030061712822816/posts/KaSKeg4vQtz" target="_blank">his previous post</a> for context, if you're not familiar with his political metaphor.)
 
 I think he's gone too far. <a href="evolving-software-politics.md">I'm pretty software liberal</a>. And I get the kernel of truth in the "necessary evil" idea. So much of what we write will be chucked or rewritten; it's unhealthy to imagine that every project is an opportunity for a <em>magnum opus</em>, or to expect to be able to achieve perfection.
 

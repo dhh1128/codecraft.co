@@ -2,17 +2,19 @@
 title: Why you should be proficient in a tool like vim or emacs
 date: 2014-05-15
 slug: why-you-should-be-proficient-in-a-tool-like-vim-or-emacs
+redirect_from:
+  - /2014/05/15/why-you-should-be-proficient-in-a-tool-like-vim-or-emacs
 ---
 
 In my last post, I pointed out <a title="Why you should use an IDE instead of vim or emacs" href="why-you-should-use-an-ide-instead-of-vim-or-emacs.md">two little-discussed reasons why I think most engineers should spend most of their time in an IDE</a>.
 
 I knew I was venturing into the realm of religious wars to make such a claim. When I shared the post, the first comment I got was, "Do you have a death wish?" :-) I had to laugh.
 
-[caption id="attachment_5591" align="aligncenter" width="646"]<a href="http://uploads0.wikipaintings.org/images/gustave-dore/the-army-of-the-second-crusade-find-the-remains-of-the-soldiers-of-the-first-crusade-1877.jpg"><img class="size-large wp-image-5591" src="http://codecraft.co/wp-content/uploads/2014/05/screen-shot-2014-05-15-at-1-47-38-am.png?w=646" alt="Religious wars aren't pretty. "The Second Crusaders Encounter the Remains of the First Crusaders", by Gustav Dore (wikipaintings.org)" width="646" height="789" /></a> Religious wars: not so pretty. "The Second Crusaders Encounter the Remains of the First Crusaders", by Gustav Dore (wikipaintings.org)[/caption]
+[caption id="attachment_5591" align="aligncenter" width="646"]<a href="http://uploads0.wikipaintings.org/images/gustave-dore/the-army-of-the-second-crusade-find-the-remains-of-the-soldiers-of-the-first-crusade-1877.jpg"><img class="size-large wp-image-5591" src="http://codecraft.co/wp-content/uploads/2014/05/scn-shot-2014-05-15-at-1-47-38-am.png?w=646" alt="Religious wars aren't pretty. "The Second Crusaders Encounter the Remains of the First Crusaders", by Gustav Dore (wikipaintings.org)" width="646" height="789" /></a> Religious wars: not so pretty. "The Second Crusaders Encounter the Remains of the First Crusaders", by Gustav Dore (wikipaintings.org)[/caption]
 
 It turns out that my experience with the ensuing comments has been quite positive. Plenty of people disagreed with me, which is fine. I've heard good arguments from many different perspectives, which is part of the reason why I blog and post on social media in the first place; <a title="Humility" href="humility.md">I need to be pushed</a>. I hope my assertions about teamwork and gestalt were at least interesting.
 
-Now, I promised that I'd write a follow-up post about the flip side of my advice. This isn't because I can't make up my mind; it's because I see these two toolings as complements with some overlap rather than symmetrical alternatives.
+Now, I promised that I'd write a follow-up post about the flip side of my advice. This isn't because I can't make up my mind; it's because I see these two toolings as complements with some overlap rather than symmetrical alternves.
 
 So today, I'm going to try to convince all the IDE zealots in the world that they're doing themselves and their teammates a disservice if they don't <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">take the time to become proficient</a> in a powerful text editor.
 
@@ -42,7 +44,7 @@ Sheesh.
 
 They may understand some things better than I do. I'm not fully up-to-speed on html5, for example, and I never got around to mastering actionscript. My jquery kung fu is weak.
 
-However, I really, truly get what is happening under the layers that we've added in the past two decades, and there are lots of times when that knowledge pays off. I don't need WYSIWYG or wordpress themes to make html pretty (in fact, I detest their interference). I have an intuitive sense for when an ajax call is going to be inefficient. I know how caching proxies and http etags interact.
+However, I really, truly get what is happening under the layers that we've added in the past two decades, and there are lots of times when that knowledge pays off. I don't need WYSIWYG or wordpress themes to make html pretty (in fact, I dst their interference). I have an intuitive sense for when an ajax call is going to be inefficient. I know how caching proxies and http etags interact.
 
 Other engineers could tell similar stories from their own careers--about how they learned assembly first, and then migrated through C to C++--and how that foundation helps them write <a title="What Is “Good Code”?" href="what-is-good-code.md">better code</a> than a young upstart who learned first in C++.
 

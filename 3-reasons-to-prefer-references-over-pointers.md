@@ -2,6 +2,8 @@
 title: 3 reasons to prefer references over pointers (C++)
 date: 2013-03-08
 slug: 3-reasons-to-prefer-references-over-pointers
+redirect_from:
+  - /2013/03/08/3-reasons-to-prefer-references-over-pointers
 ---
 
 I still remember what it was like, as a C programmer, to be introduced to the newfangled concept of references in C++. I thought: "This is dumb. It's just another way to use pointers. More syntactic sugar for no good reason..."

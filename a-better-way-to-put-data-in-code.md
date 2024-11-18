@@ -2,6 +2,8 @@
 title: A better way to put data in code
 date: 2014-10-08
 slug: a-better-way-to-put-data-in-code
+redirect_from:
+  - /2014/10/08/a-better-way-to-put-data-in-code
 ---
 
 I've been focusing on esoteric features of language design for a while. I thought it might be nice to take a detour and explore something eminently practical and easy to explain, for a change.

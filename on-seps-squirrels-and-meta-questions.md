@@ -2,6 +2,8 @@
 title: On SEPs, Squirrels, and Meta Questions
 date: 2012-10-23
 slug: on-seps-squirrels-and-meta-questions
+redirect_from:
+  - /2012/10/23/on-seps-squirrels-and-meta-questions
 ---
 
 In <a class="zem_slink" title="Douglas Adams" href="http://douglasadams.com/" target="_blank" rel="homepage noopener">Douglas Adams</a>' novel, <em>Life, the Universe, and Everything</em>, a spaceship lands in the middle of a stadium of screaming fans during a cricket match, and nobody notices. The ship doesn't use a Klingon-style cloaking device to accomplish this amazing feat; instead, it is hidden by a "Somebody Else's Problem" field, which operates on the principle that if something is perceived to be somebody else's problem, the brain of onlookers will treat it as if it were invisible.
@@ -41,7 +43,7 @@ Plenty of problems don't merit deep thinking; the zen master found time for our 
 
 <strong>Broader Application</strong>
 
-If you've been asking meta questions about my post, you'll no doubt agree that the SEP phenomenon, and the meta question habit, apply beyond just in software engineering. Asking big meta questions caused all sorts of adventure and hilarity in Douglas Adams' books, but there's a serious side. Consummate product managers and marketers and business executives use these principles across all industries. Great scientists and generals and statesmen and religious leaders are serial meta questioners. Great parents and great friends are as well.
+If you've been asking meta questions about my post, you'll no doubt agree that the SEP phenomenon, and the meta question habit, apply beyond just in softw engineering. Asking big meta questions caused all sorts of adventure and hilarity in Douglas Adams' books, but there's a serious side. Consummate product managers and marketers and business executives use these principles across all industries. Great scientists and generals and statesmen and religious leaders are serial meta questioners. Great parents and great friends are as well.
 
 You might even see a link between asking meta questions and two other virtues I've written about before--<a title="Lynn Bendixsen: Listen." href="humility.md">being humble</a>.
 

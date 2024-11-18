@@ -2,6 +2,8 @@
 title: 6 Strategies to Simplify Software
 date: 2013-03-12
 slug: 6-strategies-to-simplify-software
+redirect_from:
+  - /2013/03/12/6-strategies-to-simplify-software
 ---
 
 How do you make things simple?

@@ -2,6 +2,8 @@
 title: Interrupting my interruptions
 date: 2013-01-24
 slug: interrupting-my-interruptions
+redirect_from:
+  - /2013/01/24/interrupting-my-interruptions
 ---
 
 Tonight I was just settling down for a ponder on some personal stuff when I noticed an email from my brilliant brother-in-law (hi, Stephen!), recommending <a href="http://blog.ninlabs.com/2013/01/programmer-interrupted/" target="_blank">an article</a> about the cost of interrupting programmers. Half an hour later, I'm blogging about it. Yes, I see the irony in the read, the blog, and the shout-out, but I just can't help it.

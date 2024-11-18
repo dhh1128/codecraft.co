@@ -2,6 +2,8 @@
 title: Introducing Marks
 date: 2014-07-24
 slug: introducing-marks
+redirect_from:
+  - /2014/07/24/introducing-marks
 ---
 
 In my previous two posts (<a title="Lacunas Everywhere" href="bridging-the-lacuna-humana.md" target="_blank">here</a>), I described how and why programming languages can't talk about many issues that affect programmers--important issues like product requirements, design constraints, intellectual property, and more. I also inventoried the mechanisms that extend the semantics of languages today, and explored why those mechanisms have limited value. If you haven't read those posts, please do; what I say next won't make a lot of sense without that foundation.
@@ -58,7 +60,7 @@ I'm glossing over lots of details here. (At what point in the compilation proces
 
 One more example, just for fun. Suppose you want to guarantee that across a large object model, all object instances have IDs which are strings. These strings must consist of a single line of between 20 and 40 printable characters; they cannot be null. Anywhere that member variables are named "id", or parameters are used to set a member variable named "id", you want these semantics enforced by precondition:
 
-https://gist.github.com/dhh1128/1fc2a20ffb370ba39327
+https://gist.github.com/dhh1128/1fc2a20ffb370ba39
 
 In my <a href="mountains-molehills-and-markedness.md">next post</a>, I'll explore a bunch of additional examples, and I'll cover more details about how these marks work their magic.
 

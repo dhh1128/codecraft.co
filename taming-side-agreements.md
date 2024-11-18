@@ -2,6 +2,8 @@
 title: Taming Side Agreements
 date: 2014-10-28
 slug: taming-side-agreements
+redirect_from:
+  - /2014/10/28/taming-side-agreements
 ---
 
 When I was a technical director at Symantec, I had to formally certify at the end of each quarter that I had not entered into any "side agreements" with customers.
@@ -49,9 +51,9 @@ I don't know that there's a silver bullet to eliminate all side agreements in co
 
 First, <em>sunshine helps</em>. The more light you can shine on the dark corners of an interaction, the less likely it is that side agreements will surprise you. World-class API documentation (Microsoft's Win32 KB, Oracle's java docs, the full posix standard) makes a concerted effort to expose many of the subtleties I listed above, although I think <a href="mountains-molehills-and-markedness.md" title="Mountains, Molehills, and Markedness">"marks" feature</a> that I'm building for the <code>intent</code> programming language lights up all kinds of nether regions that lurk in perpetual gloom.
 
-Second, <em>auditors [automated tests] are vital</em>. It's popular in some circles to say that you only need to test the public interface to a class/module--and in theory, I agree. But remember that the true breadth of the interface you're coding against goes well beyond function signatures. A human auditor is pretty useless if she or he only checks the obvious stuff. Make your tests thorough.
+Second, <em>auditors [automated tests] are vital</em>. It's popular in some circles to say that you only need to t the public interface to a class/module--and in theory, I agree. But remember that the true breadth of the interface you're coding against goes well beyond function signatures. A human auditor is pretty useless if she or he only checks the obvious stuff. Make your tests thorough.
 
-Third, <em>we need whistleblowers</em>. I have previously written about <a href="dont-forget-the-circuit-breakers.md" title="Don’t forget the circuit breakers">circuit breakers</a> in code. We need ways to find out that everything isn't working right--ways that are smarter than log files that get ignored until we have a full-blown crisis.
+Third, <em>we need whistleblowers</em>. I have previously written about <a href="dont-forget-the-circuit-breakers.md" title="Don’t forget the circuit breakers">cuit breakers</a> in code. We need ways to find out that everything isn't working right--ways that are smarter than log files that get ignored until we have a full-blown crisis.
 
 Fourth, <em>the size of your accounting staff depends on the scale of your operation</em>. In other words, be <a href="architects-manage-risk-like-a-vegas-bookie.md" title="Architects: manage risk like a Vegas bookie">manage it wisely</a> as part of your architecture.
 

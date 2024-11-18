@@ -2,6 +2,8 @@
 title: Hair-Raising Words
 date: 2012-10-12
 slug: hair-raising-words
+redirect_from:
+  - /2012/10/12/hair-raising-words
 ---
 
 My daughter just got back from touring a "haunted circus" with her friends. She reports that the clowns were terrifying. (For those who aren't living in North America, the Halloween holiday is a time when the macabre and spooky are in vogue.)

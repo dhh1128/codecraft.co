@@ -2,6 +2,8 @@
 title: Annotating the Web
 date: 2008-09-05
 slug: annotating-the-web
+redirect_from:
+  - /2008/09/05/annotating-the-web
 ---
 
 Bookmarks just remember a location. That's kind of nifty, but even with all the power of <a target="del" href="http://del.icio.us">del.icio.us</a> or a similar service, it's not something that keeps me awake at night with enthusiasm.

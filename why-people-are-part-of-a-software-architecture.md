@@ -2,6 +2,8 @@
 title: Why People Are Part of A Software Architecture
 date: 2008-06-25
 slug: why-people-are-part-of-a-software-architecture
+redirect_from:
+  - /2008/06/25/why-people-are-part-of-a-software-architecture
 ---
 
 I've been reading an interesting book -- <a href="http://books.google.com/books?id=7nF6nuLC7m4C&printsec=frontcover&dq=beyond+software+architecture&ei=0_CQSNHgHqXKjgGPsO31Dg&sig=ACfU3U0yo_wtkIjvxJKzoz6HE8HS3ZtO_Q" target="luke">Beyond Software Architecture</a>, by <a target="luke" href="http://www.lukehohmann.com/">Luke Hohmann</a>. In his first chapter he discusses the more people- and business-related aspects of architecture, and makes the following points:

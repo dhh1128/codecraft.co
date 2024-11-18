@@ -2,6 +2,8 @@
 title: Ken Ebert: Kill three birds.
 date: 2012-09-19
 slug: ken-ebert-kill-three-birds
+redirect_from:
+  - /2012/09/19/ken-ebert-kill-three-birds
 ---
 
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>

@@ -2,6 +2,8 @@
 title: Why you should use an IDE instead of vim or emacs
 date: 2014-05-13
 slug: why-you-should-use-an-ide-instead-of-vim-or-emacs
+redirect_from:
+  - /2014/05/13/why-you-should-use-an-ide-instead-of-vim-or-emacs
 ---
 
 With a title like the one above, you may be expecting a rant from an IDE bigot. I know there are plenty of flame wars on this topic, on both sides, and if I raised your hackles (or whet your appetite), I'm sorry.
@@ -32,7 +34,7 @@ In programming, optimizing your own work while disregarding the habits, expectat
 
 I think that this observation weakens arguments on both sides of the debate, but on balance, it undermines the supercharged text editor crowd more. No two emacs gurus configure their environment the same way, and souping up the out-of-the-box editor is usually a labor of love for the fan. Go read all the web pages that discuss how to customize vim or emacs, and then tell me I'm wrong. Unless your whole team is cut from identical cloth, you're more likely to have more in common, and to have a higher level of out-of-the-box functionality, with an IDE.
 
-Don't forget the impact of the broader community in your calculations about team value. You can absolutely write java code efficiently in emacs or vim--but the vast majority of java developers use Eclipse or NetBeans or IntelliJ. Why? What does this buy them? Well, their IDEs are constantly educating them about the latest and greatest thinking in the community. When Java 7 or 8 comes out, their IDE nags them to update. Help topics get refreshed. New samples, new project templates, new static code analysis features just show up. And the programmers learn, just by the nature of their toolset. Plus, their skillsets are more likely to transfer, to generate useful help for others on StackOverflow, and to be <a title="Humility" href="humility.md">honed by others</a>, if they're in the mainstream.
+Don't forget the impact of the broader community in your calculations about team value. You can absoely write java code efficiently in emacs or vim--but the vast majority of java developers use Eclipse or NetBeans or IntelliJ. Why? What does this buy them? Well, their IDEs are constantly educating them about the latest and greatest thinking in the community. When Java 7 or 8 comes out, their IDE nags them to update. Help topics get refreshed. New samples, new project templates, new static code analysis features just show up. And the programmers learn, just by the nature of their toolset. Plus, their skillsets are more likely to transfer, to generate useful help for others on StackOverflow, and to be <a title="Humility" href="humility.md">honed by others</a>, if they're in the mainstream.
 
 A programmer who's <a title="Julie Jones: Learn voraciously." href="six-learning-tips-for-tech-folks.md">plugged in to community best practice</a>, is likely to contribute more value to his or her team, over time, than one who's learned an efficient way to work and isn't interested in newfangled ideas. All other things being equal, of course.
 
@@ -65,7 +67,7 @@ The greatest advocates of unit testing, continuous integration, refactoring, and
 
 I don't think this is an accident.
 
-IDEs show you a gestalt; they encourage you to <a title="Metrics, Plumb Lines, and System Thinking" href="measurements-plumb-lines-and-system-thinking.md">think holistically</a> about what you're doing. If you write a method, and you don't like the hover text that pops up to coach you when you call it later, then you are incented to change the doc comment for it, then and there--because the IDE <em>integrates</em> the whole experience. If you rename a method, and 7 red regions suddenly appear along the scrollbar for your file, you learn immediately how much you've broken. If you tweak the model in an MVC architecture, and the IDE is displaying the ER diagram and the table layout from the backing DB in a callout below your edit window, you are more likely to remember to make a complementary edit in that other layer at the same time. You are more likely to care about test coverage if your tool of choice tells you how you're doing, constantly.
+IDEs show you a gestalt; they encourage you to <a title="Metrics, Plumb Lines, and System Think" href="measurements-plumb-lines-and-system-thinking.md">think holistically</a> about what you're doing. If you write a method, and you don't like the hover text that pops up to coach you when you call it later, then you are incented to change the doc comment for it, then and there--because the IDE <em>integrates</em> the whole experience. If you rename a method, and 7 red regions suddenly appear along the scrollbar for your file, you learn immediately how much you've broken. If you tweak the model in an MVC architecture, and the IDE is displaying the ER diagram and the table layout from the backing DB in a callout below your edit window, you are more likely to remember to make a complementary edit in that other layer at the same time. You are more likely to care about test coverage if your tool of choice tells you how you're doing, constantly.
 <h3>Where I'm at</h3>
 If you peruse my archives, you'll see that <a title="Earned Pragmatism" href="earned-pragmatism.md">I'm a pragmatist</a>. I use IDEs as often as I can, but I'm willing to drop into vim when it makes sense. I speak passable vim, but it's not my first language.
 

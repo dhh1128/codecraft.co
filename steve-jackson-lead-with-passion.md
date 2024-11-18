@@ -2,6 +2,8 @@
 title: Steve Jackson: Lead with Passion
 date: 2013-09-30
 slug: steve-jackson-lead-with-passion
+redirect_from:
+  - /2013/09/30/steve-jackson-lead-with-passion
 ---
 
 <p style="margin-left:2em;"><a href="steve-tolman-it-depends.md">Steve Tolman</a>, is part of an occasional <a title="role models series" href="../../../category/role-models/" target="_blank">series about important career role models</a>. I also worked with Steve Jackson, and I agree with Tolman that his energy and dedication instilled many great skills in those who worked on his teams.]</em></span></p>

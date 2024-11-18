@@ -2,9 +2,11 @@
 title: Are We Smart Enough to Use Kind Words?
 date: 2015-10-06
 slug: use-kind-words
+redirect_from:
+  - /2015/10/06/use-kind-words
 ---
 
-My title might seem oddly out of place on a tech blog, but a slashdot post today led me to an email thread for linux kernel developers, and the thread and its fallout leave me troubled.
+My title might seem oddly out of place on a tech blog, but aashdot post today led me to an email thread for linux kernel developers, and the thread and its fallout leave me troubled.
 
 Apparently, a veteran contributor is <a href="closing-a-door.md" target="_blank">leaving the kernel dev community</a> because she feels like the communication style there is too harsh. This is unfortunate, but what seems even more lamentable to me is the lack of sympathy in <a href="http://marc.info/?l=linux-kernel&m=137392506516022&w=2" target="_blank">Linus Torvalds' reaction</a>. It seems to me that his attitude is: "That's just the way us kernel devs are, and we aren't going to change to accommodate anybody. If you can't take the heat, get out of the kitchen."
 

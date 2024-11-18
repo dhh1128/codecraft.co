@@ -2,6 +2,8 @@
 title: In Which Warnings Evolve Wings
 date: 2014-08-06
 slug: in-which-warnings-evolve-wings
+redirect_from:
+  - /2014/08/06/in-which-warnings-evolve-wings
 ---
 
 Ignoring warnings is a bad idea. At some level, we all know this. If we see a sign that says "Warning: Dangerous Undertow" at the beach, we pause (I hope!) and think twice before we get in the water.
@@ -17,7 +19,7 @@ You have probably seen plenty of warnings that highlight serious problems; I kn
 
 <strong>What's your intent?</strong>
 
-In general, compiler warnings aren't less severe than errors--they are simply <em>more ambiguous</em>. The compiler isn't sure whether a signed/unsigned comparison is evidence of logic mistakes, or is perfectly harmless. So it warns you, and lets you decide.
+In general, compiler warnings aren't less severe than errors--they are simply <em>more ambiguous</em>. The compiler isn't sure whether a signed/unsigned comparison is evidence logic mistakes, or is perfectly harmless. So it warns you, and lets you decide.
 
 Warnings are evidence that the compiler needs to know more about your <em>intent</em>. (Does this sound like the "<a title="Lacunas Everywhere" href="bridging-the-lacuna-humana.md">harping</a> on lately?)
 

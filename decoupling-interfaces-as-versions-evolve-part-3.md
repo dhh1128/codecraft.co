@@ -2,6 +2,8 @@
 title: Decoupling Interfaces as Versions Evolve, Part 3
 date: 2008-08-19
 slug: decoupling-interfaces-as-versions-evolve-part-3
+redirect_from:
+  - /2008/08/19/decoupling-interfaces-as-versions-evolve-part-3
 ---
 
 <em>This is part 3 of a series. You can read <a href="decoupling-interfaces-as-versions-evolve-part-2.md">part 2</a> as well.</em>

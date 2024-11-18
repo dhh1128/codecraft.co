@@ -2,6 +2,8 @@
 title: Headers, babies, and bathwater
 date: 2013-08-12
 slug: headers-babies-and-bathwater
+redirect_from:
+  - /2013/08/12/headers-babies-and-bathwater
 ---
 
 I claim that by eliminating the C/C++-style dichotomy between headers and implementation, most modern programming languages have thrown out the baby with the bathwater.
@@ -57,7 +59,7 @@ I can think of a way to have the best of both worlds: let implementers stop worr
 <p style="padding-left:30px;">Generate the headers.</p>
 Every time a compiler processes code, have it generate from the implementation a pure, simple interface that consumers can read. This is the basic idea behind <a title="lazy c++" href="my-first-tangle-with-the-tower-of-babel.md">writing my own programming language</a>, I'd take it much further:
 <ul>
-	<li>Have the compiler produce an "etag" or version stamp that unambiguously hashes the relevant header content, so consumers can identify a version to which they are bound. This etag should depend only on important details, not on comments or parameter names or other stylistic variations.</li>
+	<li>Have the compiler produce an "etag" or version stamp that unambiguously hashes the relevant header content, so consumers can identify a version to which they are bound. This etag should depennly on important details, not on comments or parameter names or other stylistic variations.</li>
 	<li>Before replacing the old version of the header, have the compiler compare function/class signatures in old and new to see if compatibility has been broken. Distinguish between incremental additions (new functions don't break compatibility with old clients) and changes (renaming a function or removing a parameter). Besides writing out an etag for the header, have the compiler write out an incremented version number, plus the oldest version number of the header that existing consumers would still be compatible with.</li>
 	<li>Compile the headers (not just the impl) into the final binaries to facilitate <a title="Decoupling Interfaces As Versions Evolve, Part 1" href="decoupling-interfaces-as-versions-evolve-part-1.md">semantic versioning</a>.</li>
 	<li>Make sure the language can identify preconditions, postconditions, and invariants unambiguously, so these can be documented (automatically) in the header.</li>

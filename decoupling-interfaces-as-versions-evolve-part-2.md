@@ -2,6 +2,8 @@
 title: Decoupling Interfaces as Versions Evolve, Part 2
 date: 2008-08-19
 slug: decoupling-interfaces-as-versions-evolve-part-2
+redirect_from:
+  - /2008/08/19/decoupling-interfaces-as-versions-evolve-part-2
 ---
 
 <em>This is part 2 of a series. You can read <a href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a> as well.</em>
@@ -10,7 +12,7 @@ Lublinsky wrote a great article about interface versioning a while back (see pag
 
 Another important discussion of this issue is <a href="http://www.theserverside.net/tt/articles/showarticle.tss?id=SOAVersioningCovenant" target="soa">"A SOA Versioning Covenant", by Rocky Lhotka</a>. This is an excellent review of the problem. (Note that the Lublinsky article, which is newer, discusses the covenant idea briefly.) Essentially Lhotka recommends that all objects accept messages (parameter lists to functions, recast as documents or self-contained packages of information); since each logical function will always have the signature <code>DoSomething(message)</code>, the need to version interfaces goes away as long as changes just involve new message types. Instead, the messages are versioned using schema capabilities. Lhotka further recommends changing from contract-oriented thinking (X is required) to a covenant (If you do X, I will do Y). This approach has some of the same benefits as the invention, but it still relies on versioning a full interface rather than the subset someone wishes to use, and the difficulty of managing versions of messages is ignored.
 
-Although both of these treatments (and the sources they cite in their own reviews of the problem) are nifty, they leave me unsatisfied. The bottom line is that I want to evolve interfaces whenever it makes sense, without worrying about breaking people -- and I also want people who use my interface to be able to do so with confidence.
+Although both of these treatments (and the sources they cite in their own reviews of the problem) are nifty, they leave me utisfied. The bottom line is that I want to evolve interfaces whenever it makes sense, without worrying about breaking people -- and I also want people who use my interface to be able to do so with confidence.
 
 Tune in to <a title="Decoupling Interfaces as Versions Evolve, Part 3" href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a> of this series for my proposed solution.
 

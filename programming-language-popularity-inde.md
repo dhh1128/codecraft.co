@@ -2,6 +2,8 @@
 title: Programming Language Popularity Index
 date: 2013-03-22
 slug: programming-language-popularity-inde
+redirect_from:
+  - /2013/03/22/programming-language-popularity-inde
 ---
 
 Here's an<a href="http://langpop.corger.nl/" target="_blank"> interesting chart</a>, giving a realtime view of which programming languages have high mindshare. The chart has one axis devoted to number of lines in code commits on GitHub, and another to how often the language shows up in tags on StackOverflow.

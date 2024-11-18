@@ -2,6 +2,8 @@
 title: Why
 date: 2013-01-30
 slug: why
+redirect_from:
+  - /2013/01/30/why
 ---
 
 Recently I've been digesting <a href="http://www.startwithwhy.com/Read.aspx"><em>Start With Why</em></a>, by <a class="zem_slink" title="Simon Sinek" href="http://en.wikipedia.org/wiki/Simon_Sinek" target="_blank" rel="wikipedia">Simon Sinek</a> (Another nice find, <a href="http://dld.me" target="_blank">Trev</a>!) For an overview, watch his <a href="http://youtu.be/qp0HIF3SfI4" target="_blank">TED talk</a>.

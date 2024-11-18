@@ -2,6 +2,8 @@
 title: The Scaling Fallacy
 date: 2012-12-19
 slug: the-scaling-fallacy
+redirect_from:
+  - /2012/12/19/the-scaling-fallacy
 ---
 
 <em>If X works for 1 ___ </em>[<em>minute | user | computer | customer | ...</em>]<em>, then 100X ought to work for 100, right? And 1000X for 1000?</em>

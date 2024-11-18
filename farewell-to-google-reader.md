@@ -2,6 +2,8 @@
 title: Farewell to Google Reader
 date: 2013-03-14
 slug: farewell-to-google-reader
+redirect_from:
+  - /2013/03/14/farewell-to-google-reader
 ---
 
 If you've been following blogs with Google Reader, you were probably unhappy with Google's recent decision to kill it.

@@ -2,6 +2,8 @@
 title: Are You Designing an Apex Predator?
 date: 2012-09-06
 slug: designing-an-apex-predator
+redirect_from:
+  - /2012/09/06/designing-an-apex-predator
 ---
 
 <p style="text-align:right;margin-left:250px;"><span style="color:#555555;">(This post is an excerpt from my forthcoming book, <em>Lifeware</em>. Follow my blog [see right sidebar] to catch the publication announcement.)</span></p>

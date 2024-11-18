@@ -2,6 +2,8 @@
 title: Roland Whatcott: Manage momentum.
 date: 2012-09-21
 slug: roland-whatcott-manage-momentum
+redirect_from:
+  - /2012/09/21/roland-whatcott-manage-momentum
 ---
 
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>

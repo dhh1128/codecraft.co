@@ -2,6 +2,8 @@
 title: On pains and brains
 date: 2016-01-01
 slug: on-pains-and-brains
+redirect_from:
+  - /2016/01/01/on-pains-and-brains
 ---
 
 A while back, I wrote a post on <a href="why-your-software-should-cry.md">why software should feel pain</a>. Since then, I've had that lesson reinforced in my mind, and I've also understood some nuances that weren't obvious to me before, so I'm revisiting the topic.
@@ -22,9 +24,9 @@ The more I thought about it, however, the more unhappy I became. Surely, such mo
 
 <strong>The Deeper Lesson</strong>
 
-This evolution of thinking, in which I initially focus on technical details, but <a href="why-people-are-part-of-a-software-architecture.md">the role of people in software architecture</a>, has repeated several times in my career, but I guess I needed to discover it again.
+This evolution of thinking, in which I initially focus on technical details, but <a href="why-people-are-part-of-a-software-architecture.md">the role of people in softwaarchitecture</a>, has repeated several times in my career, but I guess I needed to discover it again.
 
-In my original post on pain sensors in software, I suggested several creative ways to apply the principle. I still think ideas like <a href="why-your-software-should-cry.md"><em>error memory, </em><em>error gestalt</em>, and <em>protective fear</em></a> are worth pondering, but I now realize that they are not going to deliver significant value unless we connect them to people.
+In my original post on pain sensors in software, I suggested several creative ways to apply the principle. I still think ideas like <a href="why-your-software-should-cry.md"><em>error memory, </em><em>error galt</em>, and <em>protective fear</em></a> are worth pondering, but I now realize that they are not going to deliver significant value unless we connect them to people.
 
 When we diagram systems as part of architecture and design activities, we rarely include boxes for users. Even if we are UX-savvy and include "users", we almost always take the <a href="the-8th-characteristic.md">system obsolescence and death</a> that its owners should watch?
 

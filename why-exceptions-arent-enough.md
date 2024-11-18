@@ -2,6 +2,8 @@
 title: Why Exceptions Aren't Enough
 date: 2012-10-09
 slug: why-exceptions-arent-enough
+redirect_from:
+  - /2012/10/09/why-exceptions-arent-enough
 ---
 
 <p style="text-align:right;"><em>(This post is a logical sequel to <a title="Good Code Plans for Problems" href="good-code-plans-for-problems.md">my earlier musings about having a coherent strategy to handle problems</a>.)</em></p>

@@ -2,6 +2,8 @@
 title: Good Code Plans for Problems
 date: 2012-09-03
 slug: good-code-plans-for-problems
+redirect_from:
+  - /2012/09/03/good-code-plans-for-problems
 ---
 
 <p style="text-align:right;"><em>(Another post in my "<a title="What Is “Good Code”?" href="what-is-good-code.md">What is 'Good Code'?</a>" series...)</em></p>

@@ -2,6 +2,8 @@
 title: Progressive Disclosure Everywhere
 date: 2012-09-16
 slug: progressive-disclosure-everywhere
+redirect_from:
+  - /2012/09/16/progressive-disclosure-everywhere
 ---
 
 If you google "progressive disclosure," you'll get hits that describe the phrase as an interaction design technique. UI folks have long recognized that it's better to show a simple set of options, and allow users to drill into greater detail only when they need it. (Thanks to James Russell--a brilliant UI designer--for teaching me PD years ago.)
@@ -68,7 +70,7 @@ What should we learn from this principle's pervasiveness?
 
 I believe one important lesson is that we ignore this principle at our peril. Humans need gradually expanded focus, not sudden overload. Flout progressive disclosure in a conversation, and people will think you're a bore or a know-it-all. Use cheats to get to level 99 in an MMORPG, and you'll miss the experience that makes the game rich. Skip courtship in favor of one-night stands, and you get existential angst.
 
-Applied to software, I think we need to be much, much more aware of when we're disclosing too much too soon. There's a reason why encapsulation is one of the foundational ideas in OO theory, and why tight coupling is a major problem for living software ecosystems.
+Applied to software, I think we need to be much, much more aware of when we're disclosing too much too soon. There's a reason why encapsulation is one of the foundational ideas in OO theory, and why tight coupling is a major problem for living softwarcosystems.
 
 I have some ideas about how progressive disclosure might manifest more cleanly in programming languages, and in the software craft in general. I explored one in my series of posts on <a title="Role-Play Centered Design" href="role-play-centered-design.md">role-play centered design</a>. I'll disclose some more ideas ... progressively ... in other posts. :-)
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

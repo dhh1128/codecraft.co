@@ -2,6 +2,8 @@
 title: Earned Pragmatism
 date: 2013-01-18
 slug: earned-pragmatism
+redirect_from:
+  - /2013/01/18/earned-pragmatism
 ---
 
 <a href="http://alistair.cockburn.us/Oath+of+Non-Allegiance"><img class="alignright" alt="" src="http://alistair.cockburn.us/get/3037" width="154" height="179" /></a>The other day I was on <a href="http://genehughson.wordpress.com/" target="_blank">Gene Hughson's blog</a> (he's a smart guy, btw; I recommend a visit), and I noticed a badge that said that he had signed "The Oath of Non-Allegiance."

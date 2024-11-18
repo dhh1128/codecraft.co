@@ -3,7 +3,7 @@ import re
 
 url_pat = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
 
-with open('README.md', 'r') as f:
+with open('README', 'r') as f:
     lines = f.readlines()
 
 

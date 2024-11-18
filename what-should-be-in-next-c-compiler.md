@@ -2,6 +2,8 @@
 title: What Should Be In The Next C++ Compiler?
 date: 2012-10-03
 slug: what-should-be-in-next-c-compiler
+redirect_from:
+  - /2012/10/03/what-should-be-in-next-c-compiler
 ---
 
 Herb Sutter (champion of VC++ compiler evolution at Microsoft) <a href="http://wp.me/peb5Y-q7" target="_blank">posted</a> an interesting poll today. He wants to know what the C++ developer community thinks about priorities for the next release.

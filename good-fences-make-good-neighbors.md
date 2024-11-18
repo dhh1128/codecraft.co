@@ -2,6 +2,8 @@
 title: Good fences make good neighbors
 date: 2013-05-15
 slug: good-fences-make-good-neighbors
+redirect_from:
+  - /2013/05/15/good-fences-make-good-neighbors
 ---
 
 In Robert Frost's poem, "Mending Wall", two farmers meet each spring to rebuild the rock wall between their properties. One farmer is the narrator. He notes that the unseen forces of winter and weather always cause some decay ("something there is that doesn't love a wall"), and he wonders why the wall is necessary. There's apple orchard on one side, and pine forest on the other--it's not as if something will be kept in or out. The other farmer answers with the repeated aphorism "good fences make good neighbors."
@@ -58,10 +60,10 @@ In C++:
 	<li>Use forward decls anywhere you can. (Using a class by ptr, by ref, or as a return value does not mean you need its definition.)</li>
 	<li>Use #include correctly. This means: #include everything you must have, but nothing you don't absolutely need. (This topic is probably worth a post of its own; in my entire career, I've only seen a handful of programmers who do this right.)</li>
 	<li>Avoid headers that declare too much. 15 classes in my-master-header.h = bad.</li>
-	<li>Keep implementation out of headers. (Templates are a special case that's worthy of separate discussion.)</li>
+	<li>Keep implementation out of headers. (Templates are a special case that's worthy of separate discussion.)</
 	<li>Consider using the pimpl idiom where it makes sense.</li>
 	<li><a title="How Enums Spread Disease — And How To Cure It" href="how-enums-spread-disease-and-how-to-cure-it.md">Use enums carefully</a>.</li>
-	<li>Use anonymous namespaces and/or static scopes to hide private classes from the linker.</li>
+	<li>Use anonymous namespaces and/or static scopes to hide private classes frthe linker.</li>
 	<li>Never have protected members. (Public members are okay for POD structs, but are otherwise just as toxic.)</li>
 	<li><a title="Put Your Const Foot Forward" href="put-your-const-foot-forward.md">Use const correctly</a>. This forces callers to respect mutability constraints in your corner of the codebase.</li>
 	<li>Eliminate goto.</li>

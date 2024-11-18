@@ -2,6 +2,8 @@
 title: What makes high-value questions?
 date: 2012-06-20
 slug: high-value-questions
+redirect_from:
+  - /2012/06/20/high-value-questions
 ---
 
 <a href="http://www.perfectsearchcorp.com">Perfect Search</a> (where I used to work) makes a search engine that performs/scales orders of magnitude better than competitors like Solr/Lucene with hadoop, FAST, Autonomy, and Google Search Appliances. This makes them a best-of-breed tool for many big data problems. They can do on one box what it would take competitors an entire rack of hardware to pull off. And usually that one box still runs an order of magnitude faster.

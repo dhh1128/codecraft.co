@@ -2,6 +2,8 @@
 title: A More Important Manifesto
 date: 2015-01-05
 slug: a-more-important-manifesto
+redirect_from:
+  - /2015/01/05/a-more-important-manifesto
 ---
 
 A couple years ago, I <a title="Manifestos" href="manifestos.md">wrote</a> about signing the Agile Manifesto and the Manifesto for Software Craftsmanship.

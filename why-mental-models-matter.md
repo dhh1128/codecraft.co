@@ -2,6 +2,8 @@
 title: Why Mental Models Matter
 date: 2012-11-05
 slug: why-mental-models-matter
+redirect_from:
+  - /2012/11/05/why-mental-models-matter
 ---
 
 As they leave school and embark on professional adventures, naive engineers believe their purpose is more or less summed up by this equation:
@@ -36,7 +38,7 @@ Besides products, tech companies produce and propagate mental models. Or in othe
 
 These mental models of the world matter. They--not products--are the nuggets of gold for which we prospect. Ask Galileo.
 
-How much of popular culture is built on scaffolding provided by an idea that used to exist only in the mind of an engineer? Engineers didn't just dream up plasma TVs or radios; they enabled the very idea of broadcasting. They didn't just figure out how to download files from the internet; they convinced us to think of data blobs in terms of files and folders in the first place. They didn't just populate the App Store; they thought the concept of "app" into existence. I could go on and on with examples, but I'll leave that as an exercise for the reader.
+How much of popular culture is built on scaffolding provided by an idea thused to exist only in the mind of an engineer? Engineers didn't just dream up plasma TVs or radios; they enabled the very idea of broadcasting. They didn't just figure out how to download files from the internet; they convinced us to think of data blobs in terms of files and folders in the first place. They didn't just populate the App Store; they thought the concept of "app" into existence. I could go on and on with examples, but I'll leave that as an exercise for the reader.
 
 As I said in <a title="// Comments on Comments" href="comments-on-comments.md" target="_blank">my post the other day about comments</a>, the mental models created by engineers are the most valuable output of the tech industry.
 
@@ -50,7 +52,7 @@ Patents look nice in a war chest, but it's sophisticated mental models, not pate
 
 <strong>Implications</strong>
 
-If you understand that tech companies produce mental models, then certain issues take on new significance.
+If you understand that tech companies produce mental models, then cein issues take on new significance.
 
 <a title="Paying Off Technical Debt" href="paying-off-technical-debt.md">Tech debt</a> isn't just insidious because it makes code ugly. A kludge lets us get by with a flawed, ill-developed mental model of a problem domain--and if we build on that model, eventually we create a house of cards. Bad mental models bite us, sooner or later.
 

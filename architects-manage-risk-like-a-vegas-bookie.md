@@ -2,6 +2,8 @@
 title: Architects: manage risk like a Vegas bookie
 date: 2013-02-21
 slug: architects-manage-risk-like-a-vegas-bookie
+redirect_from:
+  - /2013/02/21/architects-manage-risk-like-a-vegas-bookie
 ---
 
 In the world of cloud computing, "risk" is a big buzz word. Lots of analysts are debating how much risk is involved in using <a class="zem_slink" title="Software as a service" href="http://en.wikipedia.org/wiki/Software_as_a_service" target="_blank" rel="wikipedia">SaaS</a> offerings like Salesforce, or hosting corporate applications with a public <a class="zem_slink" title="Cloud computing" href="http://en.wikipedia.org/wiki/Cloud_computing" target="_blank" rel="wikipedia">IaaS</a> provider like Amazon's EC2. They're worried about <a title="Amazon offline, downtime costs 5 million" href="http://www.networkworld.com/news/2013/013113-amazoncom-suffers-outage-nearly-5m-266314.html" target="_blank">outages (Amazon's had several ugly ones</a>, most recently for 49 minutes in January), about security, about <a class="zem_slink" title="Regulatory compliance" href="http://en.wikipedia.org/wiki/Regulatory_compliance" target="_blank" rel="wikipedia">regulatory compliance</a>, and so forth.

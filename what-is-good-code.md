@@ -2,6 +2,8 @@
 title: What Is "Good Code"?
 date: 2012-08-26
 slug: what-is-good-code
+redirect_from:
+  - /2012/08/26/what-is-good-code
 ---
 
 This is one of those questions that I often ask when I am interviewing a computer programmer job applicant, trying to get a sense for an engineer's maturity with the craft. (And for the record, I don't think the question has a "right" answer. Certainly there is no ideal one-sentence response.)
@@ -12,7 +14,7 @@ Sometimes I get answers like this:
 	<li>"Whatever sells."</li>
 	<li>"Whatever solves the customer problem."</li>
 </ul>
-<figure><img class="   " title="Interview Questions" alt="" src="http://farm5.staticflickr.com/4027/4607151156_d8b9c7554d_o.jpg" width="358" height="239" /><figcaption>Answering tough interview questions. Photo credit: bpsusf (Flickr).</figcaption></figure>
+<figure><img class="   " title="Interview Questions" alt="" src="http://farm5.staticflickr.com/4027/4607151156_d8b9c7554d_o.jpg" width="358" height="239" /><figcion>Answering tough interview questions. Photo credit: bpsusf (Flickr).</figcaption></figure>
 
 Such answers tell me that an engineer is practical, business-aware, and customer-focused--all useful traits. <a title="Earned Pragmatism" href="earned-pragmatism.md">Pragmatism is usually learned in the economic school of hard knocks</a>, and it's a critical perspective that should never be forgotten. But I don't get a warm fuzzy from pure pragmatism; it lacks vision or love of craft.
 

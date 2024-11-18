@@ -2,6 +2,8 @@
 title: A Quibble With Martin's "Optimize Later" Notion
 date: 2012-08-28
 slug: a-quibble-with-martins-optimize-later-notion
+redirect_from:
+  - /2012/08/28/a-quibble-with-martins-optimize-later-notion
 ---
 
 In <a href="http://martinfowler.com/books/#refactoring" target="_blank"><em>Refactoring</em></a>, Martin Fowler (a brilliant engineer whom I greatly admire) articulates an idea that I have heard from smart engineers for a long time: <em>first make it work, then make it fast</em>. He puts it this way:

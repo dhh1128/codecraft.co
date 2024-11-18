@@ -2,6 +2,8 @@
 title: Big Crud Isn't Big Data
 date: 2013-04-09
 slug: big-crud-isnt-big-data
+redirect_from:
+  - /2013/04/09/big-crud-isnt-big-data
 ---
 
 "Big Data" is another one of those buzz words that seems to be everywhere these days. We hear stories regularly about how fast the world's data grows and how big it's going to be by 20xx. Vendors then reason that we should buy their wares to cope. This infographic is typical:

@@ -2,6 +2,8 @@
 title: Are You Losing Enough Battles?
 date: 2013-03-05
 slug: are-you-losing-enough-battles
+redirect_from:
+  - /2013/03/05/are-you-losing-enough-battles
 ---
 
 <figure><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG/320px-George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG" width="320" height="240" /><figcaption>Portrait of McClellan. Image credit: Wikimedia Commons.</figcaption></figure>

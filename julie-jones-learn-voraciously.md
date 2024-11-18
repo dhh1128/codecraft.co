@@ -2,6 +2,8 @@
 title: Julie Jones: Learn voraciously.
 date: 2012-09-24
 slug: julie-jones-learn-voraciously
+redirect_from:
+  - /2012/09/24/julie-jones-learn-voraciously
 ---
 
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>

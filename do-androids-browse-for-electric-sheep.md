@@ -2,6 +2,8 @@
 title: Do Androids Browse (For Electric Sheep)?
 date: 2013-03-25
 slug: do-androids-browse-for-electric-sheep
+redirect_from:
+  - /2013/03/25/do-androids-browse-for-electric-sheep
 ---
 
 The movie <em><a class="zem_slink" title="Blade Runner (Movie-Tie-In Edition)" href="http://www.amazon.com/Blade-Runner-Movie-Tie-Philip-Dick/dp/0345350472%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dzemanta-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0345350472" target="_blank" rel="amazon">Blade Runner</a></em> is based on a <a class="zem_slink" title="Philip K. Dick" href="http://www.philipkdick.com" target="_blank" rel="homepage">Philip K. Dick</a> short story entitled "<a href="http://en.wikipedia.org/wiki/Do_Androids_Dream_of_Electric_Sheep%3F">Do Androids Dream of Electric Sheep?</a>"

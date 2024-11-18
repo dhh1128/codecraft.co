@@ -2,6 +2,8 @@
 title: 6.0 Syndrome
 date: 2012-09-03
 slug: 6-0-syndrome
+redirect_from:
+  - /2012/09/03/6-0-syndrome
 ---
 
 Software products get inertia. A team works on one version of the product--pours their heart and souls into it, if the team is dedicated and passionate--and eventually ships.

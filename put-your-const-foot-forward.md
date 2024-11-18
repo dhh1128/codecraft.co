@@ -2,6 +2,8 @@
 title: Put Your Const Foot Forward
 date: 2012-11-14
 slug: put-your-const-foot-forward
+redirect_from:
+  - /2012/11/14/put-your-const-foot-forward
 ---
 
 Here are two C++ style habits that I recommend. Neither is earth-shattering, but both have a benefit that I find useful. Both relate to the order in which constness shows up in your syntax.

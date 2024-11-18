@@ -2,6 +2,8 @@
 title: Features are not chunks of code
 date: 2013-07-25
 slug: features-are-not-chunks-of-code
+redirect_from:
+  - /2013/07/25/features-are-not-chunks-of-code
 ---
 
 Before the industrial age, "features" were noteworthy aspects of a face or a geography: a patch of color, abundant wrinkles, a scar... The human brain is stunningly good at identifying and comparing such features--perhaps because that ability has been central to our nurture as children, our bonding into family units, and our survival as a species.
@@ -24,7 +26,7 @@ First of all, no facial feature is simple. A nose has internal structure--bone a
 
 Anybody who tells you they can add a new feature in a "mere <em>X</em> hours" has forgotten this.
 
-I cannot count the number of times I've heard the naive assertion that a feature is done because the coding is complete. I periodically fall into this trap myself. But it remains a lie, no matter how often it's repeated.
+I cannot count the number of times I've heard the naive assertion that a feature is done because the ing is complete. I periodically fall into this trap myself. But it remains a lie, no matter how often it's repeated.
 
 In most production codebases, smart coders don't create codebases. <a title="Humility" href="humility.md">Teams do</a>. That takes time and coordination from multiple disciplines.
 

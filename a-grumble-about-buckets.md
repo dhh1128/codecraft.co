@@ -2,12 +2,14 @@
 title: A grumble about buckets
 date: 2015-04-08
 slug: a-grumble-about-buckets
+redirect_from:
+  - /2015/04/08/a-grumble-about-buckets
 ---
 
-Sometimes developers limit the choices that are offered to their users as a <a title="6 Strategies to Simplify Software" href="the-power-of-simplicity.md">simplicity</a>.
+Sometimes developers limit the choices that are offered to their users as a <a title="6 Strategies to Simplify Software" href="the-power-of-simplicity">simplicity</a>.
 
 However, this strategy comes with an important caveat:
-<div style="margin-left:2em;margin-right:2em;border:solid 1px black;font-size:105%;font-weight:bold;font-style:italic;text-align:center;background-color:#f0f0f0;padding:1em;margin-bottom:1.5em;">If you're going to force all choices into a few predefined buckets, you better provide buckets that <a href="why-people-are-part-of-a-software-architecture.md" title="Why People Are Part of A Software Architecture">users</a>.</div>
+<div style="margin-left:2em;margin-right:2em;border:solid 1px black;font-size:105%;font-weight:bold;font-style:italic;text-align:center;background-color:#f0f0f0;padding:1em;margin-bottom:1.5em;">If you're going to force all choices into a few predefined buckets, you better provide buckets that <a href="why-people-are-part-of-a-software-architecture" title="Why People Are Part of A Software Architecture">users</a>.</div>
 Broken buckets will not earn you brownie points. Or revenue.
 
 <figure><img class="" src="https://farm3.staticflickr.com/2509/3993532812_e63f29c43b_z.jpg" alt="" width="640" height="480" /><figcaption>image credit: Eva the Weaver (Flickr)</figcaption></figure>
@@ -22,17 +24,17 @@ See, here's the problem. I have 3 favorite restaurants ("<em>what's your favorit
 
 None of these buckets works. But I had to choose one, and I couldn't log in to the web site (even to send a note about my dissatisfaction to customer service) until I did.
 
-I have a similar beef about parental controls on Netflix. Last time I checked, there was a slider that gave you 3 positions: no controls, "older teen", and "kid". So what if I've got a teen who's not interested in <em>Sesame Street</em> and <em>My Little Pony</em>, but who has childhood trauma as an orphan in a third-world country, and who thus needs to not be offered certain movies in the "older teen" category? What if I'm sick of the promo images for raunchy R-rated movies, but I want to watch an occasional PG-13 thriller? What if I want to watch a show which is unrated (and therefore available only the most wide-open adult setting), but I can't risk leaving Netflix in wide-open mode all the time (since a kid profile can switch to its parent profile without a password)? I could solve this bucket problem if Netflix gave me a whitelist and/or blacklist feature--but apparently the all-wise, childless 20-somethings who wrote the parental control features at Netflix thought three buckets was plenty. What could <a href="lynn-bendixsen-listen.md" title="Lynn Bendixsen: Listen." target="_blank">listening</a> teach them?
+I have a similar beef about parental controls on Netflix. Last time I checked, there was a slider that gave you 3 positions: no controls, "older teen", and "kid". So what if I've got a teen who's not interested in <em>Sesame Street</em> and <em>My Little Pony</em>, but who has childhood trauma as an orphan in a third-world country, and who thus needs to not be offered certain movies in the "older teen" category? What if I'm sick of the promo images for raunchy R-rated movies, but I want to watch an occasional PG-13 thriller? What if I want to watch a show which is unrated (and therefore available only the most wide-open adult setting), but I can't risk leaving Netflix in wide-open mode all the time (since a kid profile can switch to its parent profile without a password)? I could solve this bucket problem if Netflix gave me a whitelist and/or blacklist feature--but apparently the all-wise, childless 20-somethings who wrote the parental control features at Netflix thought three buckets was plenty. What could <a href="lynn-bendixsen-listen" title="Lynn Bendixsen: Listen." target="_blank">listening</a> teach them?
 
 <h3>The true sin</h3>
 
-I'm grumbling about my choice of buckets, but in the end, it's not the bucket menu, in and of itself, that bugs me. Like I said above, I get why developers might need to simplify. You <a href="flexibility-is-no-virtue.md" title="Flexibility is No Virtue" target="_blank">can't please everyone</a>.
+I'm grumbling about my choice of buckets, but in the end, it's not the bucket menu, in and of itself, that bugs me. Like I said above, I get why developers might need to simplify. You <a href="flexibility-is-no-virtue" title="Flexibility is No Virtue" target="_blank">can't please everyone</a>.
 
-No. What <em>really</em> bugs me is that software with poorly chosen buckets also tends to be software that--either by <a href="users-arent-the-only-people-in-your-software.md" title="Users Aren’t The Only People In Your Software">humans they serve</a>. And I dare you to find any way for a Netflix customer to contact the dev team or product manager that owns parental controls. I tried and failed.
+No. What <em>really</em> bugs me is that software with poorly chosen buckets also tends to be software that--either by <a href="users-arent-the-only-people-in-your-software" title="Users Aren’t The Only People In Your Software">humans they serve</a>. And I dare you to find any way for a Netflix customer to contact the dev team or product manager that owns parental controls. I tried and failed.
 
 Seth Godin recently blogged about how <a href="http://sethgodin.typepad.com/seths_blog/2015/03/what-is-customer-service-for.html" target="_blank">different corporate cultures approach customer interactions differently</a>--and why that makes a world of difference. He was nice and non-controversial; he didn't take a strong position on whether certain approaches are unethical.
 
-I'm going to be less diplomatic. As the <a href="bridging-the-lacuna-humana.md" title="Thoughts On Bridging the “Lacuna Humana”">tracking</a> whether our buckets are useful.
+I'm going to be less diplomatic. As the <a href="bridging-the-lacuna-humana" title="Thoughts On Bridging the “Lacuna Humana”">tracking</a> whether our buckets are useful.
 
 ---
 

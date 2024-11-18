@@ -2,6 +2,8 @@
 title: Smart Geeks Think Like Cheerleaders
 date: 2013-02-05
 slug: smart-geeks-think-like-cheerleaders
+redirect_from:
+  - /2013/02/05/smart-geeks-think-like-cheerleaders
 ---
 
 <p style="text-align:right;"><span style="color:#808080;font-size:90%;">Technorati code: FMUS579NQBM8</span></p>
@@ -35,11 +37,11 @@ So is software.
 
 We software pros forget this, sometimes.
 
-We champion the ideal implementation, programming language, product schedule, or architecture--so much so that we lose <a title="Roland Whatcott: Manage momentum." href="good-code-is-balanced.md">balance</a>.
+We champion the ideal implementation, programming language, product schedule, or architecture- much so that we lose <a title="Roland Whatcott: Manage momentum." href="good-code-is-balanced.md">balance</a>.
 
 We forget that we are <a title="Ken Ebert: Kill three birds." href="ken-ebert-kill-three-birds.md">optimizing many variables at once</a>.
 
-We achieve something important, get enamored of our own success, and forget to be <a title="Humility" href="julie-jones-learn-voraciously.md">learn from others</a>.
+We achieve something important, get enamored of our own success, and forget to <a title="Humility" href="julie-jones-learn-voraciously.md">learn from others</a>.
 
 We accept all feature requests at face value and don't <a title="Why" href="why.md">vett them thoughtfully against our why</a>.
 

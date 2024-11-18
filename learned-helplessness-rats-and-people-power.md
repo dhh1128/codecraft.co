@@ -2,6 +2,8 @@
 title: Learned Helplessness, Rats, and People Power
 date: 2012-11-26
 slug: learned-helplessness-rats-and-people-power
+redirect_from:
+  - /2012/11/26/learned-helplessness-rats-and-people-power
 ---
 
 In the 1950s, researchers at Johns Hopkins conducted some very troubling experiments. They caught wild rats and squeezed them in their hands until they stopped struggling, teaching them that nothing they did would let them escape the crushing grip of their human captors. Then they dropped the rats in a bucket of water and watched them swim.
@@ -22,7 +24,7 @@ I see interesting connections to tech debt.
 
 If you've ever worked on a truly yucky codebase--one littered with #ifdefs, massive and arcane functions, and undocumented and surprising logic; one having organizational principles known only to long-gone creators; one possessing far too few unit or regression tests; one smack dab in the middle of the strategic path of the company--then you know what it's like to be squeezed like a rat in a researcher's gloved fist.
 
-You have to fix bugs, but every change causes you to grit your teeth and cross all your fingers and toes, because you have no confidence that the fix won't break something else. <em>Squeeze</em>.
+You have to fix bugs, but every change causes you to grit your teeth and cross ayour fingers and toes, because you have no confidence that the fix won't break something else. <em>Squeeze</em>.
 
 You know your <a title="Why Mental Models Matter" href="why-mental-models-matter.md" target="_blank">mental model</a> is incomplete--in fact, the mental model of everybody on the team is insufficient, even in the aggregate. You avoid dark corners of the codebase; here there be dragons. <em>Squeeze</em>.
 

@@ -2,6 +2,8 @@
 title: How Software Is Like Biology
 date: 2012-08-14
 slug: how-software-is-like-biology
+redirect_from:
+  - /2012/08/14/how-software-is-like-biology
 ---
 
 No, I'm not going to talk about genetic algorithms. (Not yet, anyway.)

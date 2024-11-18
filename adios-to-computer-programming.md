@@ -2,6 +2,8 @@
 title: Adios to "computer programming"
 date: 2013-04-05
 slug: adios-to-computer-programming
+redirect_from:
+  - /2013/04/05/adios-to-computer-programming
 ---
 
 Have you noticed how seldom people put the modifier "computer" in front of "programming" nowadays?
@@ -40,7 +42,7 @@ Auto manufacturers have to release replacement parts on a schedule that correlat
 
 <strong>Implications</strong>
 
-<a title="History of Germ Theory" href="http://www.sciencemuseum.org.uk/broughttolife/techniques/germtheory.aspx" target="_blank">Germ theory</a> revolutionized medicine; mortality rates plunged as doctors acknowledged for the first time how hand-washing translated into better recovery from surgery.
+<a title="History of Germ Theory" href="http://www.sciencemuseum.org.uk/broughttolife/techniques/germtheory.aspx" target="_blank">Germ theory</a> revoionized medicine; mortality rates plunged as doctors acknowledged for the first time how hand-washing translated into better recovery from surgery.
 
 Software is just as interconnected. Individual chunks of code depend on one another <a title="The 8th Characteristic" href="designing-an-apex-predator.md">respect the constraints implied by one another's requirements</a>. Engineers and architects and CS professors, we have to stop thinking at the level of a single app(lication). We know we need the databases behind our app(lication), the web servers that host our UI, the people that maintain our infrastructure... When we pursue "integration" we acknowledge that we're joined at the hip to other products. Cloud computing makes our dependence on the internet explicit.
 

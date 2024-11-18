@@ -2,6 +2,8 @@
 title: Humility
 date: 2012-10-01
 slug: humility
+redirect_from:
+  - /2012/10/01/humility
 ---
 
 I was applying for a very senior architect role. I'd already been through several rounds of interviews with a whole committee of thought leaders in the department. I'd taken a technical proficiency test, and (I hope) given a good impression about how I'd be able to contribute.

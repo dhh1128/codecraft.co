@@ -2,6 +2,8 @@
 title: The 8th Characteristic
 date: 2012-09-28
 slug: the-8th-characteristic
+redirect_from:
+  - /2012/09/28/the-8th-characteristic
 ---
 
 Biologists will tell you that life has 7 characteristics: organization, metabolism, irritability, reproduction, homeostasis, adaptation, and growth.

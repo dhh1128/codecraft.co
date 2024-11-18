@@ -2,6 +2,8 @@
 title: Example RPCD Interaction
 date: 2012-06-21
 slug: example-rpcd-interaction
+redirect_from:
+  - /2012/06/21/example-rpcd-interaction
 ---
 
 In my <a href="role-play-centered-design.md">last post on RPCD</a>, I explained its key tenets. In this one, I'll imagine one way to put it into practice.

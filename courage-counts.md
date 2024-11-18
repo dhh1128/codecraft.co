@@ -2,6 +2,8 @@
 title: Courage Counts
 date: 2013-05-31
 slug: courage-counts
+redirect_from:
+  - /2013/05/31/courage-counts
 ---
 
 If you've read <em>Call it Courage</em>, then you know the story of Mafatu, the boy who was afraid.
@@ -30,7 +32,7 @@ In the past two decades, I've heard many people (myself included) make statement
 </ul>
 Such statements are really just fear, dressed up in fancy clothing.
 
-I'm not going to claim that these fears are irrational. It could very well be that your change is risky, courting allies is a recipe for frustration, and you'll fail.
+I'm not going to claim that these fears are irrational. It could very well be that your change is risky, courting als is a recipe for frustration, and you'll fail.
 
 Mafatu's fear of the sea was rational, too--and it was based on <a title="Earned Pragmatism" href="earned-pragmatism.md">traumatic, real-world experience, not theory</a>. But when the need was great, Mafatu plunged in, met his fears, and mastered them.
 
@@ -38,7 +40,7 @@ Sometimes we need to do that as technical thought leaders.
 
 <strong>When to confront our fears</strong>
 
-This is particularly important in pivotal moments when the choice is between a "safe" dead end and a risky but maybe game-changing innovation. If we believe that without a change, our codebase or our product or our team is headed for extinction (especially, when it's "not with a bang, but a whimper"), we have a duty—to ourselves, our employers, and our customers—to jump in the water with our knife and do battle with the shark.
+This is particularly important in pivotal moments when the choice is between a "safe" dead end and a risky but maybe game-changing innovation. If we believe that without a change, our codebase or our product or our team is headed for extinction (especially, when it's "not with a bang, but a whimper"), we have a duty—to ourselves, oemployers, and our customers—to jump in the water with our knife and do battle with the shark.
 
 I am not advocating that we recklessly battle about every issue that lights up our radar. But I do think we need to notice when fear is inhibiting necessary change, take a deep breath, and commit. (Too bad <a title="All I Really Need To Know I Didn’t Learn In Compugarten" href="all-i-really-need-to-know-i-didnt-learn-in-compugarten.md">they don't teach that to CS majors</a>. :-)
 

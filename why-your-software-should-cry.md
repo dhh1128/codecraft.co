@@ -2,6 +2,8 @@
 title: Why Your Software Should Cry
 date: 2013-05-06
 slug: why-your-software-should-cry
+redirect_from:
+  - /2013/05/06/why-your-software-should-cry
 ---
 
 The problem of pain has bothered philosophers--particularly those with a religious bent--for a long time. What might be the purpose of suffering, they've wondered, and how does it relate to the human experience?
@@ -34,11 +36,11 @@ Not all software needs neurology, I suppose. Prions and viruses are important pl
 
 I see isolated, simplistic examples that give me hope.
 
-Fail2Ban is a nifty little utility that monitors logs of sshd, httpd, and similar daemons, and instructs the firewall to block connections from IP addresses that have been guilty of repeated, failed login attempts. Kind of sounds like <em>Stentor roeselii</em> bending away from the poison, doesn't it?
+Fail2Ban is a nifty little utility that monitors logs of sshd, httpd, and similar daemo and instructs the firewall to block connections from IP addresses that have been guilty of repeated, failed login attempts. Kind of sounds like <em>Stentor roeselii</em> bending away from the poison, doesn't it?
 
 The <a title="Don’t forget the circuit breakers" href="dont-forget-the-circuit-breakers.md">circuit breaker pattern</a> that I described a while back is another example of reacting to stimuli.
 
-<a href="http://techtripper.com/fijibot-is-an-autonomous-solar-powered-robot-that-lives-by-finding-light-on-its-own/" target="_blank">Fijibot</a> is a cool little machine that fights hunger pains by parking itself in the light to recharge batteries.
+<a href="http://techtripper.com/fijibot-is-an-autonomous-solar-powered-robot-that-lives-by-finding-light-on-its-own/" target="_blank">Fijibot</a> is a colittle machine that fights hunger pains by parking itself in the light to recharge batteries.
 
 Unfortunately, examples like this are few and far between. It's hard enough to <a title="Good Code Plans for Problems" href="good-code-plans-for-problems.md">bake a rational error-handling strategy into software</a>, let alone make it sophisticated enough to monitor its environment and take proactive steps to avoid problems.
 
@@ -57,7 +59,7 @@ I've seen designs that pre-allocate a 1 GB disk file so they can have something 
 What are some other ways that software might use pain to its advantage?
 <ul>
 	<li>Since all software dies, pain might be an indicator of old age (impending EOL, breakages in compatibility, etc).</li>
-	<li>In the context of security, software might notice when it's under attack, and take protective measures (Fail2Ban's strategy, replicated in a hundred other contexts).</li>
+	<li>In the context of security, software might notice when it's under attack, and take protective measures (Fail2Ban's strategy, replicated in a hundred other contexts).</l
 	<li>We might introduce "error memory" into our software. One thrown exception, once in a blue moon, might be something we just log--but if we start seeing it happen many times in rapid succession, we might treat it as a different problem entirely. This is the analog to humans telling the difference between a slight itch and a blister from our hand in the fire.</li>
 	<li>Similarly, we might aim for an "error gestalt" -- the ability to <a title="Metrics, Plumb Lines, and System Thinking" href="measurements-plumb-lines-and-system-thinking.md">notice system-level phenomena</a> as the aggregate of many isolated signals. This would be analogous to a doctor diagnosing flue from the combination of sore throat, fever, chills, headache, and extreme fatigue.</li>
 	<li>Could software develop protective "fear" based on repeated exposure to "pain"?</li>

@@ -2,6 +2,8 @@
 title: My first software-defined supercompute cluster
 date: 2013-11-25
 slug: my-first-software-defined-supercompute-cluster
+redirect_from:
+  - /2013/11/25/my-first-software-defined-supercompute-cluster
 ---
 
 This week on the Adaptive Computing blog, I write about what it was like to start up a modest supercomputer on the Amazon cloud. <a title="supercompute on Amazon" href="http://www.adaptivecomputing.com/blog-cloud/my-first-software-defined-supercompute-cluster/" target="_blank">Check it out</a>...

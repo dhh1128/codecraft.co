@@ -2,6 +2,8 @@
 title: Long-Term Benefits of RPCD
 date: 2012-06-21
 slug: long-term-benefits-of-rpcd
+redirect_from:
+  - /2012/06/21/long-term-benefits-of-rpcd
 ---
 
 In a <a href="example-rpcd-interaction.md">example RPCD interaction</a>, I think some benefits will immediately become apparent.

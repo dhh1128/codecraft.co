@@ -2,6 +2,8 @@
 title: Steve Tolman: It depends.
 date: 2012-09-17
 slug: steve-tolman-it-depends
+redirect_from:
+  - /2012/09/17/steve-tolman-it-depends
 ---
 
 <p style="text-align:right;"><em>(A post in my “<a href="../../../category/role-models/">Role Models</a>” series…)</em></p>
@@ -19,7 +21,7 @@ Dead serious, high stakes discussion. Breathless delivery: <em>Should we build 
 <p style="padding-left:30px;">"It depends."</p>
 Maybe you have to be there.  ;-)
 
-Steve doesn't use his favorite answer because he's lazy; he's one of the hardest-working, hardest-thinking guys I know. He uses it because important questions often have rich answers, and unless all parties share an understanding about the priorities and assumptions underlying a question, sound bite responses aren't very helpful. The answer is supposed to remind everyone that a thoughtful approach to business priorities, not slavish conformance to a rule book, is what will drive economic success. Steve generally follows his answer up with a series of probing questions to help everyone rediscover that truth, and to get our creative juices flowing. "It depends" is an invitation to deep discussion, which often produces insight we sorely need.
+Steve doesn't use his favorite answer because he's lazy; he's one of the hardest-working, hardest-thinking guys I know. He uses it because important questions often have rich answers, and unless all parties share an undeanding about the priorities and assumptions underlying a question, sound bite responses aren't very helpful. The answer is supposed to remind everyone that a thoughtful approach to business priorities, not slavish conformance to a rule book, is what will drive economic success. Steve generally follows his answer up with a series of probing questions to help everyone rediscover that truth, and to get our creative juices flowing. "It depends" is an invitation to deep discussion, which often produces insight we sorely need.
 
 I see a strong connection between Steve's tongue-in-cheek answer and the sort of tradeoff analysis that informs smart engineers' thinking. As I said elsewhere, <a title="Good Code Is Balanced" href="good-code-is-balanced.md">good code is balanced</a>. You take many competing considerations and find the approach that best addresses business priorities (note the plural on that last word). You don't get dogmatic, because you know that no extreme position is likely to optimize competing considerations. But you don't get so pragmatic that you give up on vision and passion, either.
 

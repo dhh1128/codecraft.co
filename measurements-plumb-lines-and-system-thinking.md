@@ -2,13 +2,15 @@
 title: Metrics, Plumb Lines, and System Thinking
 date: 2012-11-12
 slug: measurements-plumb-lines-and-system-thinking
+redirect_from:
+  - /2012/11/12/measurements-plumb-lines-and-system-thinking
 ---
 
 Friday morning I was at a seminar taught by <a href="www.linkedin.com/in/jhtaylorjason" target="_blank">Jason Taylor</a>, CTO at <a href="http://www.allegiance.com" target="_blank">Allegiance</a>. We were discussing how dev team <a href="http://en.wikipedia.org/wiki/Velocity_(software_development)">velocity</a> and product quality can compete for our attention; sometimes we trade one for the other. Jason mentioned that he's a fan of competing metrics, and some neurons connected in my brain.
 
 <figure><img alt="" src="http://farm4.staticflickr.com/3110/2600773685_8934c3327f_n.jpg" height="320" width="213" /><figcaption>Plumb line suspended from the center point of multiple balancing legs. Photo credit: suttonhoo (Flickr)</figcaption></figure>
 
-I'm a big believer in measurement. As the old adage goes, you can't improve what you don't measure. Next time someone urges you to change a behavior, or tells you she's going to, ask what measurement of change is being proposed. If you get an unsatisfying answer, I predict you'll also get an unsatisfying outcome.
+I'm a big believer in measurement. As the old adage goes, you can't improve what you don't measure. Next time someone urges yoo change a behavior, or tells you she's going to, ask what measurement of change is being proposed. If you get an unsatisfying answer, I predict you'll also get an unsatisfying outcome.
 
 I'm also a big believer in balance, as I've written about before. <a title="Good Code Is Balanced" href="good-code-is-balanced.md" target="_blank">Good software balances many considerations</a>.
 

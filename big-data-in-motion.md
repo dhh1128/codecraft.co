@@ -2,6 +2,8 @@
 title: Big Data In Motion
 date: 2012-11-07
 slug: big-data-in-motion
+redirect_from:
+  - /2012/11/07/big-data-in-motion
 ---
 
 I've been at Cloud Expo this week, listening to lots of industry hoopla about building cloud-centric apps, managing clouds, purchasing hardware for clouds, buying private clouds from public cloud providers, and so forth.

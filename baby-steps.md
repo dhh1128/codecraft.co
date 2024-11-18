@@ -2,6 +2,8 @@
 title: Baby Steps
 date: 2012-10-24
 slug: baby-steps
+redirect_from:
+  - /2012/10/24/baby-steps
 ---
 
 <figure><img class="zemanta-img-inserted zemanta-img-configured " alt="" src="http://upload.wikimedia.org/wikipedia/en/8/84/What_About_Bob_film.jpg" width="275" height="425" /><figcaption>Film poster, displayed under fair use as documented on Wikimedia Commons.</figcaption></figure>
@@ -28,7 +30,7 @@ If you buy this assertion, then you should also see that in some circumstances, 
 </ul>
 In each of these cases, it may be smarter to start taking baby steps now, rather than planning giant steps to the Nth degree.
 
-If you want to vett your requirements, and you don't have a pool of customers to survey, then perhaps it would be smarter to do something quick and dirty and use it to test the waters, rather than designing an elegant and comprehensive solution. I have seen companies fail to take baby steps in this scenario on many occasions, and the usual result is a huge waste of time and energy. We simply guess wrong too often, when the scope or range of our guess is overly ambitious.
+If you want to vett your requirements, and you don't have a pool of customers to survey, then perhaps it would be smarter to do something quick and dirty and use it to test the waters, rather than designing an elegant and comprehensive solution. I have seen companies fail to take baby steps in this scenario on many occasions, and the usual result is a huge waste of time and energy. We simply guess wrong too often, when the scope ornge of our guess is overly ambitious.
 
 If you wonder whether design A or design B will be appropriate, then again, perhaps you should start implementing as an experiment. I never cease to be amazed at how quickly designs develop a smell (if they're bad) or a luster (if they're good) once you start using them. If you worry that it would be too expensive to code up two alternate solutions, consider using <a title="Role-Play Centered Design" href="role-play-centered-design.md">role-play centered design</a> to let humans substitute for key modules with almost zero overhead.
 
@@ -49,7 +51,7 @@ What I'm advocating here might sound a lot like a caution against analysis paral
 
 Sometimes, your design might not be paralyzed at all--sometimes you're coming up with all kinds of great ideas, and you sense a grandiose vision unfolding. Maybe you're loving the design phase.
 
-I'm claiming that if your design takes you too far into the future, no matter how good it is and how much momentum you feel, you might be better off taking baby steps on your implementation instead. I'm making this claim based on the observation that it's easy to overbuild, and it's easy to make mistakes by extrapolating too far into the future.
+I'm claiming that if your design takes you too far into the future, no matter how good it is and how much momentum you feel, you might be better off tng baby steps on your implementation instead. I'm making this claim based on the observation that it's easy to overbuild, and it's easy to make mistakes by extrapolating too far into the future.
 
 You might also think that baby steps are a repeat of my advice to <a title="Don Kleinschnitz: Put a stake in the ground." href="don-kleinschnitz-stake.md">put a stake in the ground.</a>
 

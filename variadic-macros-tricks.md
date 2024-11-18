@@ -2,6 +2,8 @@
 title: Variadic macros tricks
 date: 2014-11-25
 slug: variadic-macros-tricks
+redirect_from:
+  - /2014/11/25/variadic-macros-tricks
 ---
 
 Have you ever wanted to write a "for each" loop over all the args of a variadic macro? Or have you ever wanted to overload a macro on the number of arguments? (If you're saying to yourself, "good grief, why?" -- I'll describe a use case at the bottom of this post.)

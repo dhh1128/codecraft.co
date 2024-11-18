@@ -2,6 +2,8 @@
 title: Code Isn't Art
 date: 2012-09-23
 slug: code-isnt-art
+redirect_from:
+  - /2012/09/23/code-isnt-art
 ---
 
 <a href="/category/guest-posts/"><img class="alignright size-full wp-image-553" title="guest post" src="http://codecraft.co/wp-content/uploads/2012/09/guest-post.png" alt="" width="183" height="40" /></a>Programmers, tell your inner artist to shut up.

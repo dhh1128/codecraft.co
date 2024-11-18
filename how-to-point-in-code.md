@@ -2,6 +2,8 @@
 title: How to point in code
 date: 2014-09-25
 slug: how-to-point-in-code
+redirect_from:
+  - /2014/09/25/how-to-point-in-code
 ---
 
 In my <a title="Exploring the Power of Deixis" href="exploring-the-power-of-deixis.md">previous post</a>, I explored why deixis is helpful, how it shows up in our language, and how its use in source code is hampered by limitations in our current programming ecosystems.
@@ -25,7 +27,7 @@ So, if names are so valuable, part of how we make code more "hyper" is to increa
 	<li>The first parameter to the <code>take_evasive_action()</code> method of the <code>spaceship</code> class might be accessible as <code>spaceship / take_evasive_action / params[1]</code> (XPath arrays are 1-based). If that parameter is named <code>threats_by_proximity</code>, then it should also be available as <code>spaceship / take_evasive_action / params / threats_by_proximity</code>.</li>
 	<li>The second assignment statement made to variable <code>ticker_symbol</code> in function <code>divest_least_performing_stock</code> could be referenced as <code> divest_least_performing_stock / variables / ticker_symbol / assignments[2]</code>.</li>
 	<li>The call graph for any element in code could be referenced as <code><em style="color:red;">URL_of_the_element</em> / call_graph</code></li>
-	<li>The comment directly above a <code>for</code> loop could be referenced as <code><em style="color:red;">URL_of_the_for_loop</em> / comments_before[last()]</code></li>
+	<li>The comment directly above a <code>for</code> loop could be referenced as <co<em style="color:red;">URL_of_the_for_loop</em> / comments_before[last()]</code></li>
 </ul>
 Note how the <a title="Introducing Marks" href="mountains-molehills-and-markedness.md">discussed</a> in previous posts provide a powerful way to qualify and query this sort of DOM. To find all classes that have GPL'ed code, you could use <code>my_project / classes[@marked(gpl)]</code>. To isolate all code that's sensitive to an AOP-style aspect such as the current logging strategy for the app, I can query for marks as well.
 

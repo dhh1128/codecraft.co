@@ -2,6 +2,8 @@
 title: Evolving Software Politics
 date: 2012-09-11
 slug: evolving-software-politics
+redirect_from:
+  - /2012/09/11/evolving-software-politics
 ---
 
 I find a lot of insight in <a title="soft-con and soft-lib" href="https://plus.google.com/u/2/110981030061712822816/posts/KaSKeg4vQtz" target="_blank">Steve Yegge's suggestion</a> that we think about the world views of software engineers along a conservative (risk-averse) versus liberal (change-friendly) axis. I have some quibbles, to be sure:

@@ -2,6 +2,8 @@
 title: Role Models
 date: 2012-09-12
 slug: role-models
+redirect_from:
+  - /2012/09/12/role-models
 ---
 
 <p style="text-align:right;"><em>This is the inaugural post in <a href="/category/role-models/">a series that highlights people who've influenced me</a>.</em></p>

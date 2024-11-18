@@ -2,6 +2,8 @@
 title: The Power of Simplicity
 date: 2013-02-15
 slug: the-power-of-simplicity
+redirect_from:
+  - /2013/02/15/the-power-of-simplicity
 ---
 
 Most stories about zen masters, gurus, or other paragons of wisdom follow a similar pattern. The pupil discovers a problem. He or she struggles with it. The problem gets more and more overwhelming. Solutions are elusive. Finally the pupil goes to the master and pours out his heart, whereupon the master offers a pearl of insight that radically reinterprets the problem.
@@ -15,7 +17,7 @@ There's a reason why this narrative exists in every culture: human beings need t
 	<li>A watched pot never boils.</li>
 	<li>Freedom isn't free.</li>
 </ul>
-The software industry desperately needs this sort of insight, but far too often I see us operate in the stage of the narrative where the pupil misunderstands the problem, struggles, and makes things worse. <!--more-->This is true of all sorts of software--even mobile apps and consumer web sites--but I'm especially thinking about enterprise stacks. The architectures that I encounter today are significantly more complex than the ones I drew on whiteboards a decade ago. Applications used to consist of a binary and a handful of config files. Now they consist of hundreds or thousands of artifacts: executables, shared libraries, plugins, parsers, databases, triggers, stored procedures, data sets, documentation, brandable CSS, image libraries, drivers, rule sets, comm channels... Products have more features--<em>way</em> more. We sneer at offerings that aren't <em>solutions</em>. We build federated, distributed, loosely coupled fabrics that run in sophisticated clouds and that abstract physical geography, hardware, network interconnects.
+The software industry desperately needs this sort of insight, but far too often I see us operate in the stage of the narrative where the pupil misunderstands the problem, struggles, and makes things worse. <!--more-->This is true of all sorts of software--even mobile apps and sumer web sites--but I'm especially thinking about enterprise stacks. The architectures that I encounter today are significantly more complex than the ones I drew on whiteboards a decade ago. Applications used to consist of a binary and a handful of config files. Now they consist of hundreds or thousands of artifacts: executables, shared libraries, plugins, parsers, databases, triggers, stored procedures, data sets, documentation, brandable CSS, image libraries, drivers, rule sets, comm channels... Products have more features--<em>way</em> more. We sneer at offerings that aren't <em>solutions</em>. We build federated, distributed, loosely coupled fabrics that run in sophisticated clouds and that abstract physical geography, hardware, network interconnects.
 
 We aren't as troubled by this complexity as we should be. All those features we're building into a product? And all the planning that built those features? They're <em>symptoms of a problem</em>, not solutions. <a title="Flexibility is No Virtue" href="flexibility-is-no-virtue.md">Nobody really wants a shopping cart framework with 10,000 configuration options</a>; they want to sell in a way that delights and engages customers. (Okay, I guess <em>some</em> software really does make people happy with greater complexity. Photoshop has 10,000 menu items, and its power users love it. Perhaps this is because it enables enables human creativity and passion, and creativity thrives on possibilities. I don't think most software is like this...)
 

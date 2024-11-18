@@ -2,6 +2,8 @@
 title: A Comedy of Carelessness
 date: 2013-12-09
 slug: a-comedy-of-carelessness
+redirect_from:
+  - /2013/12/09/a-comedy-of-carelessness
 ---
 
 <h2>Act I</h2>
@@ -51,7 +53,7 @@ You can probably tell that I'm frustrated. Of course life isn't going to be smoo
 
 My beef is not that we make tradeoffs--it's that we don't regret them enough, communicate them enough, acknowledge enough the bad that comes with the good. And we pass the buck, way too often. The lowly "user" at the bottom of the food chain has a pretty lousy experience.
 <h2>A Higher Vision</h2>
-While I was writing this post, my internet connection kept dropping due to a snow storm. Look what I saw at the top of Wordpress's edit window:
+While I was writing this post, my internet connection kept dropping due to a snow storm. Look what I sat the top of Wordpress's edit window:
 <p style="text-align:center;"><a href="../../../wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-16-32-pm.png"><img class="size-large wp-image-2095 aligncenter" alt="Screen Shot 2013-12-07 at 4.16.32 PM" src="http://codecraft.co/wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-16-32-pm.png?w=500" width="500" height="34" /></a></p>
 Now that's more like it! <a title="Good Code Plans for Problems" href="dont-forget-the-circuit-breakers.md">Take steps to cope</a>, without panicking or inconveniencing the user. I'm not super happy that my internet connection's been flaky, but Wordpress has a reasonably cheerful "net promoter" right now.
 

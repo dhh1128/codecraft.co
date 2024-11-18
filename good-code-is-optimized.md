@@ -2,6 +2,8 @@
 title: Good Code Is Optimized
 date: 2012-08-27
 slug: good-code-is-optimized
+redirect_from:
+  - /2012/08/27/good-code-is-optimized
 ---
 
 <p style="text-align:right;"><em>(Another post in my "<a href="what-is-good-code.md">What is 'Good Code'?</a>" series...)</em></p>

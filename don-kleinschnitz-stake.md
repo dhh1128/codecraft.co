@@ -2,6 +2,8 @@
 title: Don Kleinschnitz: Put a stake in the ground.
 date: 2012-09-14
 slug: don-kleinschnitz-stake
+redirect_from:
+  - /2012/09/14/don-kleinschnitz-stake
 ---
 
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>

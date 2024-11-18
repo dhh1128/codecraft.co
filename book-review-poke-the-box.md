@@ -2,6 +2,8 @@
 title: Book Review: Poke the Box
 date: 2012-10-16
 slug: book-review-poke-the-box
+redirect_from:
+  - /2012/10/16/book-review-poke-the-box
 ---
 
 I just finished reading <a class="zem_slink" title="Seth Godin" href="http://twitter.com/thisissethsblog" target="_blank" rel="twitter">Seth Godin's</a> <em>Poke the Box</em>, and I recommend that you add it to your reading list. It's short, punchy, and thought-provoking.
