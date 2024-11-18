@@ -67,11 +67,7 @@ How does your team operate most of the time? Are you evaluating the ramification
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Next time you have a controversial decision to make, listen to how the alternatives are evaluated. Give your team a virtual blue belt or black belt or whatever belt you're wearing, and then consider how to improve.</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://www.thedailysheeple.com/dont-survive-the-collapse-prevent-it_122012" target="_blank">Don't Survive the "Collapse" - Prevent It</a> (thedailysheeple.com)</li>
-	<li><a href="are-you-head-scratching-with-uncertainty-in-your-chess-games-what-should-be-your-guide.md" target="_blank">Are You Head-scratching with Uncertainty in Your Chess Games? What Should Be Your Guide?</a> (iplayoochess.com)</li>
-</ul>
+
 
 ---
 

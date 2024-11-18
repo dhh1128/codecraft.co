@@ -36,15 +36,7 @@ I mistrust anyone who lightly dismisses OO or <a class="zem_slink" title="Messag
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Consider where you fall on the idealism~pragmatism continuum. Advocate the opposite end of the spectrum with yourself in a mental debate; do you have anything to learn from those who position themselves differently?</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://agile.dzone.com/articles/4-agile-teams-avoid" target="_blank">4 Agile Teams to Avoid</a> (agile.dzone.com)</li>
-	<li><a href="rortys-consequences-of-pragmatism.md" target="_blank">Rorty's Consequences of Pragmatism</a> (matthewkr.com)</li>
-	<li><a href="10-skills-it-architects.md" target="_blank">10 Skills All IT Architects Should Have</a> (news.dice.com)</li>
-	<li><a href="agile-history.md" target="_blank">Brief History of Agile Movement</a> (offshore-agile.com)</li>
-	<li><a href="http://www.theenterprisearchitect.eu/archive/2013/01/05/a-tale-of-a-7-year-journey-in-developing-software-for-the-enterprise" target="_blank">A tale of a 7 year journey in developing software for the enterprise</a> (theenterprisearchitect.eu)</li>
-	<li><a href="http://www.javacodegeeks.com/2012/11/introduction-to-agile-principles.html" target="_blank">Introduction To Agile Principles</a> (javacodegeeks.com)</li>
-</ul>
+
 
 ---
 

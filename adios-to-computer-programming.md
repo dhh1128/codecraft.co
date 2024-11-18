@@ -54,12 +54,7 @@ Until we do, I think we're missing the boat.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Discuss the idea of ecosystems in software with a colleague. How do you see the metaphor relating to your day-to-day work?</em></span></p>
 
-<h6 style="font-size:1em;padding-left:30px;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://nathanmarz.com/blog/principles-of-software-engineering-part-1.html" target="_blank">Principles of Software Engineering, Part 1</a> (nathanmarz.com)</li>
-	<li><a href="the-paradigm-of-the-software-developer-the-engineer-vs-the-artist-and-how-it-affects-software-development.md" target="_blank">The Paradigm of the Software Developer: the Engineer vs. the Artist and How it Affects Software Development</a> (kennethmiralles.wordpress.com)</li>
-	<li><a href="the-origin-of-software-engineering.md" target="_blank">The origin of "software engineering"</a> (bertrandmeyer.com)</li>
-</ul>
+
 
 ---
 

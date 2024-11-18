@@ -32,14 +32,7 @@ I also like that this answer tells me when I'm wandering. If I'm building system
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Challenge</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">What is your "why"? Struggle with it until you come up with a satisfying answer. Then use it to test your current work assignments. Does this exercise give you any insight or point to ways to rebalance your priorities?</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://diyblogger.net/apple-rejects-simon-sineks-teachings-steve-jobs-turns-in-his-grave" target="_blank">Apple Rejects Simon Sinek's Teachings. Steve Jobs Turns In His Grave.</a> (diyblogger.net)</li>
-	<li><a href="the-most-important-question-to-answer-in-learning-part-2-of-2.md" target="_blank">The Most Important Question to Answer in Learning (Part 2 of 2)</a> (antonemgoyak.com)</li>
-	<li><a href="http://37signals.com/svn/posts/3392-humans-need-to-know-why" target="_blank">37signals: Humans need to know why</a> (37signals.com)</li>
-	<li><a href="simon-sinek-how-great-leaders-inspire-action-tedx-talk.md" target="_blank">Simon Sinek: How great leaders inspire action - TEDx Talk</a> (bloggineducation.wordpress.com)</li>
-	<li><a href="start-with-why-how-great-leaders-inspire-everyone-to-take-action-by-simon-sinek.md" target="_blank">Start with Why - How Great Leaders Inspire Everyone to Take Action by Simon Sinek</a> (nategibson.net)</li>
-</ul>
+
 
 ---
 

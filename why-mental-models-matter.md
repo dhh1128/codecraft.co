@@ -62,12 +62,7 @@ A product that doesn't improve the mental model of the customer (e.g., by prunin
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Take a minute to ponder how much of your passion and talent is actually centered on the "other" output from product development. What contribution have you made to a helpful mental model for a customer? Where have you invented a term that resonated, or formalized a process that used to be chaos? </span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="on-usability-evaluations-and-mental-models.md" target="_blank">On Usability Evaluations and Mental Models</a> (jackskchang.wordpress.com)</li>
-	<li><a href="export-print-save-as-the-evolution-of-mental-models-along-with-mechanical-models.md" target="_blank">Export, Print, Save As: The evolution of mental models along with mechanical models</a> (jackskchang.wordpress.com)</li>
-	<li><a href="http://java.dzone.com/articles/knowledge-vs-superstition" target="_blank">Knowledge vs Superstition</a> (java.dzone.com)</li>
-</ul>
+
 
 ---
 

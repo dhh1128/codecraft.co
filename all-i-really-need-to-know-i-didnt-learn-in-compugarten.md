@@ -33,11 +33,7 @@ Since I'm half way to curmudgeon-hood, I frequently find myself lamenting educat
 This is only the beginning of my lesson topics; I'm sure I could come up with dozens more, if I thought for a while.
 
 What would you add to the list?<strong> <span style="color:#000080;"><em>Please comment. And please subscribe to my blog (top of right sidebar) for explorations of these topics.</em></span></strong>
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="the-non-developers-guide-to-hiring-software-developers.md" target="_blank">The non-developer's guide to hiring software developers</a> (thenextweb.com)</li>
-	<li><a href="puzzle-solving-not-the-driving-function-of-software-construction.md" target="_blank">Puzzle-solving: Not the driving function of software construction</a> (http://charlesknutson.net/)</li>
-</ul>
+
 
 ---
 

@@ -32,12 +32,7 @@ If you want to be a zen master, don't give them 20 more menu items in the next r
 <p style="padding-left:30px;"><em><span style="color:#000080;">For a week, spend 2 minutes per day imagining ways to simplify. Incremental improvements are good, but also push yourself to think more radically. Could you deliver your product in a new way that totally obviates the need for an install, instead of just making the install easier? Instead of making two components talk more robustly through web services, could you collapse a process boundary altogether? Instead of integrating with a third-party app, could you throw away 1/3 of your product and simply use that app to get the job done?</span></em></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">I will be blogging more about how to simplify in coming weeks, and would be very interested in your thoughts on this topic. Please comment.</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://java.dzone.com/articles/why-scrum-won" target="_blank">Why Scrum Won</a> (java.dzone.com)</li>
-	<li><a href="http://www.theenterprisearchitect.eu/archive/2013/01/05/a-tale-of-a-7-year-journey-in-developing-software-for-the-enterprise" target="_blank">A tale of a 7 year journey in developing software for the enterprise</a> (theenterprisearchitect.eu)</li>
-	<li><a href="http://www.hispanicbusiness.com/2013/2/7/ibm_simplifies_big_data_cloud_computing.htm" target="_blank">IBM Simplifies Big Data, Cloud Computing</a> (hispanicbusiness.com)</li>
-</ul>
+
 
 ---
 

@@ -61,12 +61,7 @@ Perhaps you feel that this is too much of a bother. For small debts, I guess it 
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Find out which people in other departments besides dev understand how technical debt works. Recruit some allies and devise a plan to make your debts more auditable.</em></span></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="technical-debt-is-it-only-technical.md" target="_blank">Technical debt; is it only technical?</a> (xebia.com)</li>
-	<li><a href="http://agile.dzone.com/articles/technical-debt-%E2%80%93-when-do-you" target="_blank">Technical Debt - When Do You Have To Pay It Off?</a> (agile.dzone.com)</li>
-	<li><a href="be-thoughtful-when-measuring-technical-debt-with-sonar.md" target="_blank">Be thoughtful when measuring Technical Debt with Sonar</a> (orange11.nl)</li>
-</ul>
+
 
 ---
 

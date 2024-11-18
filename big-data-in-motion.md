@@ -19,10 +19,3 @@ What I'm hearing now is an acknowledgement that an important use case for big da
 This has interesting implications. Algorithms that were written on the assumption that you can corral the data set under analysis need to be replaced by ones based on <a class="zem_slink" title="Sampling (statistics)" href="http://en.wikipedia.org/wiki/Sampling_%28statistics%29" target="_blank" rel="wikipedia">statistical sampling</a>; exactness needs to give way to fuzziness.
 
 Interestingly, I think this will make computer-driven data analysis much more similar to the way humans process information. As I've said elsewhere, when faced with a difficult design problem, a smart question to ask is: <em>how does Mother Nature solve it?</em>
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="more-data-more-dollars.md" target="_blank">More Data, More Dollars?</a> (forbes.com)</li>
-	<li><a href="http://go.theregister.com/feed/www.theregister.co.uk/2012/11/07/big_data_analytics/" target="_blank">Big Data and analytics: Reg survey crunches the numbers</a> (go.theregister.com)</li>
-	<li><a href="http://www.siliconrepublic.com/strategy/item/29971-humanising-big-data-infogr" target="_blank">Humanising big data (infographic)</a> (siliconrepublic.com)</li>
-	<li><a href="polyspot-delivers-insights-and-information-from-raw-data.md" target="_blank"><a href="http://betabeat.com/2012/11/nate-silver-predicton-sweep-presidential-election-huge-win-big-data/" target="_blank">Nate Silver's Sweep Is a Huge Win for Big Data</a> (betabeat.com)</a></li>
-</ul>

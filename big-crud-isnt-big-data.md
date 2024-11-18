@@ -35,13 +35,7 @@ Now I work at <a href="http://www.adaptivecomputing.com" target="_blank">Adaptiv
 [<a name="foot2"></a>2] I know, I know. Deleting isn't easy. You have to know what can be deleted and what can't. You have regulatory compliance issues. I still claim that getting better at deleting is easier than getting better at big data. That's probably a good subject for another post...
 
 </div>
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="are-we-jumping-the-shark-on-big-data-for-hr.md" target="_blank">Are we Jumping the Shark on Big Data for HR?</a> (workforceplanning.wordpress.com)</li>
-	<li><a href="http://blog.neolane.com/conversational-marketing/big-data/" target="_blank">Transforming Big Data Into Actionable Insight [Infographic]</a> (neolane.com)</li>
-	<li><a href="http://www.domo.com/blog/2011/08/data-data-everywhere/" target="_blank">How Are You Managing Big Data? Data, Data Everywhere | Domo | Blog</a> (domo.com)</li>
-	<li><a style="font-size:13px;" href="http://www.informationweek.com/big-data/news/big-data-analytics/dont-confuse-big-data-with-storage/240152455" target="_blank">Don't Confuse Big Data With Storage</a><span style="color:#333333;font-size:13px;"> (informationweek.com)</span></li>
-</ul>
+
 
 
 

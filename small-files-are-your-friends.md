@@ -56,11 +56,7 @@ The bottom line for me is experiential, not theoretical. I nearly always have cr
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Leave a comment to tell me what you think. Am I making a mountain out of a molehill? Or do you feel strongly about small file sizes as well? Have I omitted any important pros and cons from the discussion?</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="lecture-two-interactive-design.md" target="_blank">Lecture Two: Interactive Design</a> (sinemasite.wordpress.com)</li>
-	<li><a href="http://www.sciencedaily.com/releases/2013/02/130219102202.htm" target="_blank">We know when we're being lazy thinkers: Human thinkers are conscious cognitive misers</a> (sciencedaily.com)</li>
-</ul>
+
 
 
 

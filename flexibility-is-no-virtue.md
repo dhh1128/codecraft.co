@@ -72,10 +72,7 @@ I know I'm being idealistic. But it seems to me that we should acknowledge who's
 <p style="padding-left:30px;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Study the "<a href="http://www.antipatterns.com/arch_cat.htm" target="_blank">Swiss Army Knife" and "Cover Your Assets" antipatterns</a>. These antipatterns are often associated with an incorrect admiration for flexibility. Look for places in your world where these antipatterns are used.</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://dl.acm.org/citation.cfm?id=1620482" target="_blank">"Weighing the Benefits and Costs of Flexibility in Making Software"</a> (Information Systems Research)</li>
-</ul>
+
 
 ---
 

@@ -65,11 +65,7 @@ I have a few other ideas about how progressive disclosure might work in a <a tit
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Tell me what you think would make it easier to perceive the rough behavior and structure of a big, complicated codebase in more efficient ways.</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://blog.jetbrains.com/pycharm/2013/08/working-with-uml-class-diagrams/" target="_blank">Working with UML class diagrams</a> (jetbrains.com)</li>
-	<li><a href="http://techblog.stickyworld.com/abandoning-php-for-python.html" target="_blank">Abandoning PHP for Python</a> (techblog.stickyworld.com)</li>
-</ul>
+
 
 ---
 

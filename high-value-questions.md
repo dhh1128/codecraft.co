@@ -47,8 +47,3 @@ Enterprise search struggles, as an industry, because it's trying to sell drill b
 We can do better.
 
 I propose a new kind of data analytics product/process/service that implements the scientific method on big data. <a href="https://docs.google.com/presentation/pub?id=1zz4sq1924gfbs4734h4Tc0oKkhXkbitF1iyF07dwhxo&start=false&loop=false&delayms=3000" target="_blank">Click here</a> for an overview presentation.
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://blog.neolane.com/conversational-marketing/big-data/" target="_blank">Transforming Big Data Into Actionable Insight [Infographic]</a> (neolane.com)</li>
-	<li><a href="making-sense-of-big-data-and-its-role-in-your-business.md" target="_blank">Making sense of big data and its role in your business</a> (itproportal.com)</li>
-</ul>

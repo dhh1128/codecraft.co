@@ -20,10 +20,7 @@ The only critique I have is that Godin could have said the same thing in about h
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Go out and do something great! Now.</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="book-review-poke-the-box-by-seth-godin.md" target="_blank">Book review: Poke The Box, by Seth Godin</a> (referenceacademy.wordpress.com)</li>
-</ul>
+
 
 ---
 

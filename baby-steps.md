@@ -67,8 +67,3 @@ You already know this works; you used this strategy as a baby.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Next time you're given a design assignment, use role-play centered design or other techniques to start experimenting as quickly as possible.</em></span></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://blog.cdleary.com/2013/01/big-design-vs-simple-solutions/" target="_blank">Big design vs simple solutions</a> (cdleary.com)</li>
-	<li><a href="http://sethgodin.typepad.com/seths_blog/2013/01/exactly-the-same-vs-exactly-different.html" target="_blank">Exactly the same vs. exactly different</a> (sethgodin.typepad.com)</li>
-</ul>

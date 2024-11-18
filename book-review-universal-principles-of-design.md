@@ -15,12 +15,7 @@ I think it's important to look at familiar problems from new angles; many profou
 As a teaser, some of my favorite design principles in the book include: <a href="http://www.apa.org/science/resources/stroop.aspx" target="_blank">Interference Effects</a>, <a href="http://www.vanseodesign.com/web-design/anthropomorphic-forms-part-ii/" target="_blank">Contour Bias</a>, <a href="http://en.wikipedia.org/wiki/Horror_vacui" target="_blank">Horror Vacui</a>, <a class="zem_slink" title="Uncanny valley" href="http://en.wikipedia.org/wiki/Uncanny_valley" target="_blank" rel="wikipedia">Uncanny Valley</a>, <a href="http://persuasive-patterns.com/patterns/Recognition-over-recall" target="_blank">Recognition Over Recall</a>, <a class="zem_slink" title="Wabi-sabi" href="http://en.wikipedia.org/wiki/Wabi-sabi" target="_blank" rel="wikipedia">Wabi Sabi</a>, <a class="zem_slink" title="Satisficing" href="http://en.wikipedia.org/wiki/Satisficing" target="_blank" rel="wikipedia">Satisficing</a>, and <a href="http://well-formed-data.net/archives/495/propositional-density-in-visualization" target="_blank">Propositional Density</a>.
 
 For now, I'll omit any definition of what these intriguing terms mean, and leave discovery as an exercise for the reader. :-)
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://www.cryptosmith.com/node/377" target="_blank">GUIs: Control, Conveyance, Continuity, and Context</a> (cryptosmith.com)</li>
-	<li><a href="get-smart-maxwell.md" target="_blank"><a href="http://www.underpaidgenius.com/post/37027223670" target="_blank">Biz Stone on Wabi-Sabi</a><span style="color:#333333;"> (underpaidgenius.com)</span></a></li>
-	<li><a href="http://www.multi-disciplinary.com/">multi-disciplinary.com</a> (have a look at some of the projects these guys do...)</li>
-</ul>
+
 
 ---
 

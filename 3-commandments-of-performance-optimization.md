@@ -83,11 +83,7 @@ I have worked several times in my career on technologies that were orders of mag
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Build a pipeline diagram for a process that you want to optimize. Identify bottlenecks. What aspects of the process should you ignore?</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://java.dzone.com/articles/not-all-optimization-premature" target="_blank">Not All Optimization Is Premature</a> (java.dzone.com)</li>
-	<li><a href="http://highscalability.com/blog/2012/12/10/switch-your-databases-to-flash-storage-now-or-youre-doing-it.html" target="_blank">Switch Your Databases To Flash Storage</a> (highscalability.com)</li>
-</ul>
+
 
 ---
 

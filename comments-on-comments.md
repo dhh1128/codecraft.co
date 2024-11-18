@@ -62,11 +62,7 @@ I would accept compromises to comment quality IFF there's an important audience 
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Make thoughtful improvements to one function where you know it's hard for others to build a complete and accurate mental model.</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://developers.slashdot.org/story/12/09/07/1241254/comments-on-code-comments" target="_blank">Comments On Code Comments?</a> (developers.slashdot.org)</li>
-	<li><a href="kill-the-zombies-in-your-code.md" target="_blank">Kill the Zombies in Your Code</a> (bitnative.com)</li>
-</ul>
+
 
 ---
 

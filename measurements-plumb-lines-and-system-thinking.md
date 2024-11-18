@@ -30,13 +30,7 @@ I'm going to paint more complete pictures with my metrics, and see where it gets
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Think of a team problem where you'd like a different balance. How can you measure each factor that plays into the overall dynamics of the situation?</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://managementhelp.org/systems/index.htm" target="_blank">Systems Thinking, Systems Tools and Chaos Theory</a> (managementhelp.org)</li>
-	<li><a href="http://www.customerthink.com/blog/customer_metrics_measure_what_matters_most_to_customers" target="_blank">Customer Metrics: Measure what matters most to customers</a> (customerthink.com)</li>
-	<li><a href="http://hbr.org/2010/06/column-you-are-what-you-measure/ar/1" target="_blank">You Are What You Measure</a> (Harvard Business Review)</li>
-	<li><a href="single-metric-you-need-to-care-or-do-you.md" target="_blank">Single metric you need to care - Or do you?</a> (iterativepath.wordpress.com)</li>
-</ul>
+
 
 ---
 

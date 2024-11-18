@@ -86,11 +86,7 @@ In all languages:
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Talk back. What coding habits do you feel are most helpful at promoting encapsulation?</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html" target="_blank">Overwhelmed by JavaScript Dependencies</a> (startifact.com)</li>
-	<li><a href="do-good-fences-make-good-neighbors-for-mesopredators.md" target="_blank">Do Good Fences Make Good Neighbors for Mesopredators?</a> (scilogs.com)</li>
-</ul>
+
 
 ---
 

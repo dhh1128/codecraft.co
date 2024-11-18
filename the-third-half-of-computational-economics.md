@@ -34,11 +34,7 @@ I don't think a system like this would be worth building in all cases, and it mi
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">What complications do you foresee in such an approach? And how would you enhance it?</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="ibm-cognitive-computing.md" target="_blank">IBM Developing Computer System That Thinks Like a Human</a> (mashable.com)</li>
-	<li><a href="the-economics-of-sustainability-a-comparison-of-economic-models.md" target="_blank">The Economics of Sustainability - A Comparison of Economic Models</a> (theoverthinker.org)</li>
-</ul>
+
 
 ---
 

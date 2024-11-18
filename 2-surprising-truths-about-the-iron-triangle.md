@@ -81,12 +81,7 @@ Within those limits, though, it's amazing what quality can do for you.
 In order to pursue this strategy, you have to get management to take their foot off the gas pedal and let you build things right. That can be a difficult (maybe even impossible) task. I'm not claiming it's easy. I'm not offering a recipe to convince them (though <a title="Roland Whatcott: Manage momentum." href="roland-whatcott-manage-momentum.md">momentum</a> will probably be an ingredient). I'm just saying it's worth the effort, because there is a happy land on the other side of the rainbow where you get better and faster at the same time.
 
 I've been there.
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="http://www.codypowell.com/taods/2013/06/tragedy-of-the-common-library.html" target="_blank">Tragedy of the Common Library</a> (codypowell.com)</li>
-	<li><a href="http://thinkrelevance.com/blog/2013/05/21/entropy-and-evolution-of-a-codebase" target="_blank">Entropy and Evolution of a Codebase</a> (thinkrelevance.com)</li>
-	<li><a href="http://agile.dzone.com/articles/pair-programming-0" target="_blank">On Pair Programming</a> (agile.dzone.com)</li>
-</ul>
+
 
 ---
 

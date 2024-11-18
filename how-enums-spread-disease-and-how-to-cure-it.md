@@ -205,12 +205,7 @@ or...
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Find one enum that's problematic in your code, and clean it up.</span></em></p>
 
-<h6 style="font-size:1em;">Related articles</h6>
-<ul class="zemanta-article-ul">
-	<li><a href="enums-with-more-than-one-name.md" target="_blank">Enums With More Than One Name</a> (pdark.de)</li>
-	<li><a href="http://stackoverflow.com/questions/12878239/can-i-use-enums-when-i-declare-the-element-number-of-an-array" target="_blank">Can I use Enums when I declare the element number of an array?</a> (stackoverflow.com)</li>
-	<li><a href="http://stackoverflow.com/questions/12967922/c-sharp-check-for-member-of-enum-using-input-value" target="_blank">C# check for member of enum using input value</a> (stackoverflow.com)</li>
-</ul>
+
 
 ---
 
