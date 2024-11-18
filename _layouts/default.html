@@ -31,6 +31,21 @@
 
       {{ content }}
 
+      {% if page.comments %}
+      <hr>
+      <div class="comments-section">
+        <h3>Comments</h2>
+        <ul>
+          {% for comment in page.comments %}
+            <li>
+              <p><strong>{{ comment.name }}</strong>, {{ comment.date }}:</p>
+              <p>{{ comment.comment }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
       </section>
       <footer>
 Content copyrighted with a <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY 4.0 license</a>, unless otherwise noted. A version history for each item is maintained in <a href="https://github.com/dhh1128/codecraft">GitHub</a>. <a href="https://github.com/dhh1128/papers/issues/new">Reports of errata</a> are welcome.
