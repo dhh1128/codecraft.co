@@ -69,11 +69,7 @@ I laughed the other day when I was prompted at a new site with a question I had 
 
 I am currently doing a lot of work with a very poorly-designed component of my company's software.  I can understand that a complex function call takes longer in the real world than in the dev lab, but why do I stare at a status bar that reads "Ready" while the function runs for hours without feedback except what is see in debugview? Is it still running?  Did I type something wrong?  Was my mouse click lost over the RDP connection?  I don'e expect perfection, but feedback is necessary.
 
----
 
-Embedded Link Roundup | UpEndian (2014-03-08 08:01:46)
-
-[…] A Comedy of Carelessness (Codecraft) […]
 
 ---
 
@@ -129,32 +125,11 @@ Daniel Hardman (2013-12-10 17:09:26)
 
 I had to laugh (groan) a bit about your triple-swipe example. I've bought stuff at Wal-mart, realized I forgot something, and circled back through checkout 3 minutes later enough times--and triggered a fraud alert enough times--to recognize that scenario all too well. I now work around it without even thinking, by using an alternate card the second time through. Ugh. We shouldn't have to think this hard to do something simple...
 
----
 
-Error Handling &#8211; No News is Really Bad News | Form Follows Function (2013-12-11 11:56:30)
 
-[…] the other cases. This is not only a matter of technical professionalism, but also a business issue. End users are likely to be annoyed if our applications leave them stranded out of town or jumping through […]
 
----
 
-Add some more extra redundancy again | Codecraft (2014-01-15 08:39:33)
 
-[…] code aren’t an afterthought. Even if they’re less likely on average, the chances that their behavior will be important to our users sooner or later are virtually 100%. We need circuit breakers, helpful error messages, documentation about what to do when things […]
 
----
 
-Error Handling &#8211; No News is Really Bad News | IasaGlobal (2015-03-18 14:09:13)
 
-[…] the other cases. This is not only a matter of technical professionalism, but also a business issue. End users are likely to be annoyed if our applications leave them stranded out of town or jumping through […]
-
----
-
-A grumble about buckets | Codecraft (2015-04-08 13:39:39)
-
-[…] bugs me is that software with poorly chosen buckets also tends to be software that–either by carelessness or intent–provides no way whatsoever for its creators to find out if they’ve got the […]
-
----
-
-Error Handling &#8211; No News is Really Bad News | Iasa Global (2014-08-20 12:25:12)
-
-[…] the other cases. This is not only a matter of technical professionalism, but also a business issue. End users are likely to be annoyed if our applications leave them stranded out of town or jumping through […]

@@ -28,8 +28,3 @@ Earned Pragmatism &laquo; Codecraft (2013-01-18 08:53:21)
 
 [...] one of the early torchbearers for the agile software movement. I’ve written previously about signing the Agile manifesto, so I felt like I was swimming in friendly [...]
 
----
-
-A More Important Manifesto | Codecraft (2015-01-05 08:39:47)
-
-[…] couple years ago, I wrote about signing the Agile Manifesto and the Manifesto for Software […]

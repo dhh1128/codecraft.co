@@ -104,50 +104,17 @@ Daniel Hardman (2013-01-18 13:09:04)
 
 Gene: thanks for some great content on your own blog, and for pointing me to the oath. Good learning all around!
 
----
 
-Are You Losing Enough Battles? | Codecraft (2013-03-05 08:36:01)
 
-[...] we’re grounded in reality rather than ivory tower imagination. It means we value balance and pragmatism over theoretical perfection, and it helps build a healthy regard for the needs of other [...]
 
----
 
-6 Strategies to Simplify Software | Codecraft (2013-03-12 08:57:23)
 
-[...] is powerful, and that it undergirds many deep architectural breakthroughs. In posts about pragmatism and balance, I’ve quoted Oliver Wendell Holmes about the simplicity on the other side of [...]
 
----
 
-What Is &#8220;Good Code&#8221;? | Codecraft (2013-03-12 18:13:23)
 
-[...] me that an engineer is practical, business-aware, and customer-focused–all useful traits. Pragmatism is usually learned in the economic school of hard knocks, and it’s a critical perspective that should never be forgotten. But I don’t get a warm [...]
 
----
 
-Courage Counts | Codecraft (2013-05-31 08:33:36)
 
-[…] fear of the sea was rational, too–and it was based on traumatic, real-world experience, not theory. But when the need was great, Mafatu plunged in, met his fears, and mastered […]
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:28)
 
-[…] you peruse my archives, you’ll see that I’m a pragmatist. I use IDEs as often as I can, but I’m wlling to drop into vim when it makes sense. I speak […]
-
----
-
-2 Surprising Truths About The Iron Triangle | Codecraft (2013-07-01 16:38:53)
-
-[…] you’ve learned truth 1, then you’re probably an industry veteran with battle scars, and you’re the kind of person I want on my team when we do project […]
-
----
-
-Taming Side Agreements | Codecraft (2014-10-28 08:36:08)
-
-[…] the size of your accounting staff depends on the scale of your operation. In other words, be pragmatic, because the proper amount of investment depends. If you’re writing a few quick scripts, this […]
-
----
-
-A More Important Manifesto | Codecraft (2015-01-05 08:39:53)
-
-[…] course I was being idealistic. I get the need for pragmatism. I don’t think everybody needs to be an idealist about their career; just loving your job and […]

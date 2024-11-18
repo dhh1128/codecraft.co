@@ -94,44 +94,15 @@ I've also imagined some ways that a new programming language/ecosystem/methodolo
 
 In the meantime, I'd be very interested in your thoughts. Where do you see lack of clarity about intentions as a problem in code? What techniques address the need?
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:47)
 
-[…] I’ve worked on developing my new programming language, I’ve given a lot of thought to how I can add value to the user experience of a software […]
 
----
 
-Add some more extra redundancy again | Codecraft (2014-01-15 08:39:23)
 
-[…] stamp checks and sizeof and alignment tests in the right places? Are we using design-by-contract to prove that consumers and creators of a chunk of code share the same mental models? Do we catch exceptions […]
 
----
 
-How to make a const-correct codebase in 4300 easy steps | Codecraft (2014-03-25 11:44:39)
 
-[…] It is a crying shame (and a glaring irony) that it’s so hard to code my way to a productive manipulation of … code. Programmers spend their whole careers validating the proposition that it’s worthwhile to enable computers to do grunt work, so humans can focus on more interesting tasks. Yet the artifact that programmers produce is so plagued by inconsistencies, so susceptible to bugs, and so complex to process that it takes a major investment to automate working with it. I am going to fix this in the programming ecosystem that I create. […]
 
----
 
-Variadic macros tricks | Codecraft (2014-11-25 11:49:04)
 
-[…] be in eliminating encapuslation problems with enums, but I recently found another need for it. In my project to create a new programming language, I have to create some foundation packages and classes — the analog to java.lang in java, or […]
 
----
-
-Know Your Limits | Codecraft (2015-02-05 08:47:51)
-
-[…] now. :-) I need to add marks such as +reasonable upper bound and +reasonable lower bound to the intent programming language I’m creating, so that this type of issue is easy to formally communicate. But even without fancy new languages, […]
-
----
-
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:41)
-
-[…] the groundbreaking ideas in 1.0? A big part of creating lasting value is communicating so others can appreciate and build upon your […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:49:05)
-
-[…] features have mitigated this problem somewhat). The “step routines” feature of the intent programming language I’m writing is an attempt to address this problem; perhaps I’ll blog about that […]

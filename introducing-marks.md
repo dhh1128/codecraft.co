@@ -76,11 +76,7 @@ I had not seriously considered making marks work across a multilingual tool chai
 
 I love the idea of statistics gathering, BTW. It fits very well with another natural use of marks, which is simple tagging. You can imagine stats for individual tags, but also for intersections and unions of tags that are interesting...
 
----
 
-Mountains, Molehills, and Markedness | Codecraft (2014-07-28 08:44:42)
-
-[…] out some symptoms of that deficit, and then made recommendations about bridging the gap. Finally I introduced “marks”–a feature of the intent programming language I’m creating–and gave you a taste […]
 
 ---
 
@@ -90,29 +86,13 @@ Actually, tracking down the usage of closures is going to be hard no matter wher
 
 Because of this, I think some kinds of propagation calculations will need to have caveats attached, if the compiler also detects the existence of phenomena that make calculation imperfect. :-(
 
----
 
-Thoughts On Bridging the &#8220;Lacuna Humana&#8221; | Codecraft (2015-06-15 10:07:40)
 
-[…] my next post, I’ll describe my bridge more concretely. Even before I do, though, the discussion above […]
 
----
 
-Know Your Limits | Codecraft (2015-02-05 08:47:48)
 
-[…] I’m a sadder but wiser programmer now. :-) I need to add marks such as +reasonable upper bound and +reasonable lower bound to the intent programming language […]
 
----
 
-How to point in code | Codecraft (2014-09-25 08:39:02)
-
-[…] how the semantic marks that I’ve discussed in previous posts provide a powerful way to qualify and query this sort […]
-
----
-
-In Which Warnings Evolve Wings | Codecraft (2014-08-06 08:46:14)
-
-[…] marks that I’ve recently described provide a nice, uniform solution to this hodgepodge of […]
 
 ---
 

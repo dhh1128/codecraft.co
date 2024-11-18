@@ -71,8 +71,3 @@ Did I whet your appetite?
 
 Tune in for a follow-up shortly.
 
----
-
-How to point in code | Codecraft (2014-09-25 08:38:59)
-
-[…] my previous post, I explored why deixis is helpful, how it shows up in our language, and how its use in source code […]

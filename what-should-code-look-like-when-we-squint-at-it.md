@@ -127,20 +127,7 @@ Interesting analysis, Trev. You've got me wondering if I do the same thing. I kn
 
 I wonder if the "create the objects first" behavior comes from a subconsciously recognized need to have useful tools at your disposal before exploring flow. Maybe we can't think about flow until we have the object-level constructs to work with...
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:50)
 
-[…] I’ve got some exciting ideas that I’m eager to share. Much of what’s possible is more likely to be realized in an IDE; where I’m headed, text editors won’t be […]
 
----
 
-On Forests and Trees | Codecraft (2015-09-02 08:48:51)
-
-[…] way to tell that code’s been wisely generalized is to ask yourself this question: “Can I see the forest for the trees?“ If a quick glance at any level of detail (a class, a function, a module, a project […]
-
----
-
-Exploring the Power of Deixis | Codecraft (2014-09-23 08:34:54)
-
-[…] to “flatland” dimensions. What might be the analog to image maps or tag clouds in a visual view of code? Could we shop in dependency stores and fill our carts with “code reuse packages”? […]

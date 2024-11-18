@@ -81,11 +81,7 @@ As I've worked on developing my <a title="On bread recipes, maps, and intentions
 
 My next blog post will be for the folks who live in the other codebases, and who may think that an IDE is all they'll ever need. They have something to learn from the other worldview, as well...
 
----
 
-Why you should be proficient in a tool like vim or emacs | Codecraft (2014-05-15 08:46:01)
-
-[…] In my last post, I pointed out two little-discussed reasons why I think most engineers should spend most of their time in an IDE. […]
 
 ---
 
@@ -136,8 +132,3 @@ lol internet (2015-05-10 06:06:30)
 
 I use sshfs to mount remote filesystems in userspace.
 
----
-
-Exploring the Power of Deixis | Codecraft (2014-09-23 08:34:50)
-
-[…] stuff we need, right? Our linkers usually find the externals they need to bind together, and our IDEs usually find the decl for variables when we ask. The rest must not matter all that […]

@@ -89,8 +89,3 @@ Daniel Hardman (2013-02-01 08:14:57)
 
 Your comment about "back in the day" leads me to make another connection: if the scale of resources that modern computers consume is so dramatically higher than it used to be, I wonder whether the complexity of the software we're building is drastically different as well. We programmers might be like the proverbial frog that's boiled by swimming in water as it heats on the stove--not noticing how much tougher it's getting to produce good stuff. Perhaps industry best practices like TDD and continuous integration, and better foundational libraries, are providing enough compensation to mostly compensate...
 
----
-
-2 Surprising Truths About The Iron Triangle | Codecraft (2013-07-01 16:39:07)
-
-[…] You’ll create virtuous cycles that perpetuate the right kinds of tradeoffs for performance, scalability, and […]

@@ -45,14 +45,5 @@ Don&#8217;t forget the circuit breakers &laquo; Codecraft (2013-01-11 18:01:57)
 
 [...] One design pattern that Nygard recommends was new to me, but it rang true as soon as I saw its description. Like many classic patterns, I’ve implemented variations on it without knowing the terminology. I like Nygard’s formulation, so I thought I’d summarize it here; as I’ve said before, good code plans for problems. [...]
 
----
 
-Why Your Software Should Cry | Codecraft (2013-05-06 11:50:57)
 
-[...] examples like this are few and far between. It’s hard enough to bake a rational error-handling strategy into software, let alone make it sophisticated enough to monitor its environment and take proactive steps to [...]
-
----
-
-A Comedy of Carelessness | Codecraft (2013-12-09 08:35:03)
-
-[…] that’s more like it! Plan for trouble. (It always happens, after all.) Notice the problem. Communicate it. Take steps to cope, without […]

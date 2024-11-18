@@ -54,23 +54,11 @@ I'd like to hear about other connections you see. Please comment. (See how I'm p
 	<li class="zemanta-article-ul-li"><a href="http://www.nj.com/news/index.ssf/2012/10/nutty.html" target="_blank" rel="noopener">Nutty: Squirrel responsible for Amtrak delays along Northeast corridor</a> (nj.com)</li>
 </ul>
 
----
 
-Why you should be proficient in a tool like vim or emacs | Codecraft (2014-05-15 08:46:23)
 
-[…] or emacs–if you specialize in an IDE without a text editor in your repertoire, you have gaps in your experience. An IDE makes parts of your ecosystem invisible; a text editor teaches you just how robust and […]
 
----
 
-On pains and brains | Codecraft (2016-01-01 14:30:10)
 
-[…] evolution of thinking, in which I initially focus on technical details, but come to zen only as I recognize the role of people in software architecture, has repeated several times in my […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:50)
-
-[…] we should have, with surprise at the cause and head-scratching about how to fix it. We hadn’t generalized from one problem to a systemic weakness very […]
 
 ---
 

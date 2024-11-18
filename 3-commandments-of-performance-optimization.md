@@ -119,26 +119,9 @@ Daniel Hardman (2013-01-08 22:45:09)
 
 I agree; it's awfully hard to get the slope of a line from one point...
 
----
 
-2 Surprising Truths About The Iron Triangle | Codecraft (2013-07-01 16:39:04)
 
-[…] will align. You’ll create virtuous cycles that perpetuate the right kinds of tradeoffs for performance, scalability, and […]
 
----
 
-The third half of computational economics | Codecraft (2013-08-09 11:58:46)
 
-[…] starvation of a humble process that can’t adequately compete for resources. It would require measurement and tuning. It might require some variant of genetic algorithms so initial profit formulas would evolve. But I […]
 
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:49:02)
-
-[…] reason we don’t generalize is because we’re addicted to details. I have heard performance zealots say that they couldn’t break up massive C/C++ functions because they couldn’t trust the […]
-
----
-
-Grumpy Old Men, Opacity, and Optimizers | Codecraft (2014-09-09 08:48:28)
-
-[…] I applaud their passion, even if I think they sometimes get carried away. […]

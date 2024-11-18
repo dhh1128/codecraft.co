@@ -76,11 +76,7 @@ Julie (2012-11-06 09:53:14)
 You finally put into words what has been bothering me for years. I often compare some of the early successes in personal computing to the current offerings, MacWrite vs MS Word for example. The mental model was so clean and clear that understanding and use was intuitive. For all the complaints people have about functionality, or lack thereof, Notes on the iPhone has a usable mental model. I challenge anyone to produce a good mental model of MS Word.
 Finally, from a developer perspective a good mental model lowers the cost of implementation and maintenance. Even more, a good mental model produces a simpler design which makes software more reliable and scalable. The catch is (of course there is always a catch) that a really good mental model takes hard work to develop.
 
----
 
-Thoughts About A Personal Reading Program | Consilient Interest (2012-11-06 09:49:04)
-
-[...] Why Mental Models Matter (codecraft.co) [...]
 
 ---
 
@@ -90,23 +86,11 @@ Trev: very astute observation that there are horrible, mediocre, and good mental
 
 I had forgotten the eject-via-trash problem on the Macs, but that example brought it all back. I winced many times myself. When I was unfamiliar with the expected behavior, I think I may have actually used a pin to manually eject from a disk drive rather than try the trash. Definitely a case where the chosen metaphor did the user a horrible disservice.
 
----
 
-Question To Ponder About Mental Models | Consilient Interest (2012-12-28 14:42:43)
 
-[...] Why Mental Models Matter (codecraft.co) [...]
 
----
 
-Are You Susceptible To Tunnel Vision? Part One | Consilient Interest (2012-11-13 06:17:21)
 
-[...] Why Mental Models Matter (codecraft.co) [...]
-
----
-
-Mental Modeling Questions | Consilient Interest (2012-12-26 15:40:37)
-
-[...] Why Mental Models Matter (codecraft.co) [...]
 
 ---
 
@@ -120,11 +104,7 @@ dougbert (2012-11-05 08:43:22)
 
 wow - "Usability is all about conveying a mental model with minimum effort on the part of the receiver--and then using that model consistently and easily."  and add "on the part of the sender (developer) as well".
 
----
 
-More On Mental Model Questioning | Consilient Interest (2012-12-27 06:52:00)
-
-[...] Why Mental Models Matter (codecraft.co) [...]
 
 ---
 
@@ -160,17 +140,9 @@ Interrupting my interruptions &laquo; Codecraft (2013-01-24 11:48:44)
 
 [...] is both a tool and an end unto itself. Those meetings I’m attending (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat [...]
 
----
 
-Adios to &#8220;computer programming&#8221; | Codecraft (2013-04-05 09:34:40)
 
-[...] baked into our industry. We need programming languages that have sufficient expressive power to model entire ecosystems, in all their chaotic and evolving complexity. We need development processes that [...]
 
----
-
-My First Tangle With the Tower of Babel | Codecraft (2013-04-26 08:48:19)
-
-[...] Some of you know that I have a background in linguistics (which may explain why this project appealed to me). One of the lessons I learned in my graduate program is that language and world view are profoundly related. Choices we make in our languages affect our thinking, not just our productivity. My favorite example is the from Women, Fire, and Dangerous Things, by George Lakoff: the Dyirbal language in Australia has four “gender” categories for nouns, and one of them includes everything in Lakoff’s title. You can’t talk about nouns in this language without using its gender mechanism, and this requires you to perceive and communicate categories according to its system. Mental models matter. [...]
 
 ---
 
@@ -178,74 +150,25 @@ Why Software Artisans Should Manage Their Influence &laquo; Codecraft (2013-02-0
 
 [...] of his thinking to our field. Since so much of what we do requires buy-in, coordination and shared mental models, we have to be savvy about how we communicate, advocate, and train. Assuming equal technical [...]
 
----
 
-Small Files Are Your Friends | Codecraft (2013-03-21 08:55:44)
 
-[...] try to remember more than their brains can fit, stuff falls out. Big files mean that coders have to mentally model relationships between stuff that’s separated by way too much screen real estate. This is a [...]
 
----
 
-What should code look like when we squint at it? | Codecraft (2013-09-19 08:22:58)
 
-[…] need for context, for a high-level picture, for a sketch that gives you a useful skeleton of a mental model, is the reason why any new hire into a team with a complex codebase gets a whiteboard-ish […]
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:22)
 
-[…] every problem as a series of discrete editing tasks. Integration details fall through the cracks; mental models remain simplistic. After all, the tool you’re using bills itself as an editor, not an […]
 
----
 
-2 Surprising Truths About The Iron Triangle | Codecraft (2013-07-01 16:38:57)
 
-[…] in quality, your patient will get more healthy, and you will see your speed go up, not down. The mental models of your engineers and the entire value chain will align. You’ll create virtuous cycles that […]
 
----
 
-Learned Helplessness, Rats, and People Power | On Technical Debt (2014-03-18 13:03:38)
 
-[…] know your mental model is incomplete–in fact, the mental model of everybody on the team is insufficient, even in the […]
 
----
 
-Why you should be proficient in a tool like vim or emacs | Codecraft (2014-05-15 08:46:20)
 
-[…] The vagaries of preprocessor troubleshooting and the paths that a debugger uses to resolve symbols lose their mystery. You master regular expressions. Arcane command-line options in git may even feel self-explanatory. […]
 
----
 
-Add some more extra redundancy again | Codecraft (2014-01-15 08:39:26)
 
-[…] we using design-by-contract to prove that consumers and creators of a chunk of code share the same mental models? Do we catch exceptions or test for errors in enough […]
 
----
 
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:37)
-
-[…] 3. If nobody understands your code, you’ve failed. […]
-
----
-
-A grumble about buckets | Codecraft (2015-04-08 13:39:24)
-
-[…] going to force all choices into a few predefined buckets, you better provide buckets that match the needs of your […]
-
----
-
-Exploring the Power of Deixis | Codecraft (2014-09-23 08:35:00)
-
-[…] Humans also tend to triangulate with names (use more than one name for the same item), because they understand that names may be temporary, and that some names are more intrinsic than others. Again, a […]
-
----
-
-Thoughts On Bridging the &#8220;Lacuna Humana&#8221; | Codecraft (2014-07-21 08:49:22)
-
-[…] what languages can make computers do. This is a gap in what languages can help human beings do. Human knowledge and behaviors are crucial outputs of dev teams. And cool add-on libraries, or even the most […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:43)
-
-[…] generalized, maintenance goes down, testability goes up, and it’s easy to learn a correct mental model. The inverse is also true: bad choices about generalization usually hide the forest behind the […]

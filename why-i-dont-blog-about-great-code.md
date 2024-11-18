@@ -60,8 +60,3 @@ I'd summarize the principle like this: Don't take your code too seriously. Write
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify something that you've overdesigned or overbuilt. Try to quantify the opportunity cost.</span></em></p>
 
----
-
-6 Strategies to Simplify Software | Codecraft (2013-03-12 08:57:31)
-
-[...] In many, many cases, the complexity we wrestle with comes from an overly ambitious scope. Overbuilding is probably my greatest weakness as an architect; I’ve made the mistake way too often. [...]

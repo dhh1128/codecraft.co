@@ -75,14 +75,5 @@ Baby Steps &laquo; Codecraft (2012-10-24 19:02:45)
 
 [...] If you worry that it would be too expensive to code up two alternate solutions, consider using role-play centered design to let humans substitute for key modules with almost zero [...]
 
----
 
-A grumble about buckets | Codecraft (2015-04-08 13:39:52)
 
-[…] to provide a glitzy facade. If we’re going to force users into buckets, let’s give some careful thought to the buckets we offer–and let’s make sure we have a way of discovering and tracking whether our buckets are […]
-
----
-
-Thoughts On Bridging the &#8220;Lacuna Humana&#8221; | Codecraft (2014-07-21 08:49:11)
-
-[…] encountered the notion of Human-Centered Design (HCD)–but maybe not the new-fangled idea of Role-Play Centered Design (RPCD). First we had Test-Driven Development (TDD); then we got Behavior-Driven Development (BDD). […]

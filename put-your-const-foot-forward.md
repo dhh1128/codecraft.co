@@ -76,17 +76,9 @@ How Sutter&#8217;s Wrong About const in C++ 11 &laquo; Codecraft (2013-01-02 08:
 
 [...] community’s attention. I learned something important; I recommend that you watch the talk. Using const well is an essential skill. But I think in his enthusiasm about the way the language has evolved to make semantics clearer, [...]
 
----
 
-3 reasons to prefer references over pointers (C++) | Codecraft (2013-03-08 16:08:01)
 
-[...] modified. That’s not really a pointer vs. const thing, but I couldn’t help myself. See my rant about const. The & tells you that the value of client will not change for the duration of setClient, and it [...]
 
----
-
-Good fences make good neighbors | Codecraft (2013-05-15 08:50:30)
-
-[…] Use const correctly. This forces callers to respect mutability constraints in your corner of the codebase. […]
 
 ---
 

@@ -37,11 +37,7 @@ I wrote this post because I caught myself hanging back. I was concerned that som
 
 Thanks for the reminder that inaction is also a choice.
 
----
 
-CONTINUALLY EDUCATE YOURSELF | Lincoln Daily Management (2013-03-15 23:44:58)
-
-[...] visit “Are You Losing Enough Battles?” by Daniel Hardman for more on George [...]
 
 ---
 

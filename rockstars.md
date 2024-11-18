@@ -51,11 +51,7 @@ Yes, it's really unfortunate that folks sometimes skip out just when the exactin
 
 I admire you for being the sort of guy who is in it for the long haul...
 
----
 
-My Bibifi Adventure | Codecraft (2015-06-15 08:52:12)
-
-[…] Programming is a team sport. Some of the “teams” were actually individual students. I don’t know how they fared, as a whole, but I know that our team benefitted from the complementary strengths of multiple people. I am not the world’s greatest pen tester, and some of the encryption theory we studied made my head hurt–but I know a thing or two about robust software development processes. We helped each other, and did better as a result. See my recent post about the myth of the “rockstar developer”. […]
 
 ---
 
@@ -89,14 +85,5 @@ Daniel, I'm really glad you wrote this post. I wish more people, especially mana
 
 Oh, to add to your list: "unicorn developers." Heaven help us.
 
----
 
-A grumble about buckets | Codecraft (2015-04-08 13:39:45)
 
-[…] of security questions as a necessary evil that it can forget as soon as it’s paid a “rock star” contractor to implement them. I guarantee they don’t have any process to triage […]
-
----
-
-Are We Smart Enough to Use Kind Words? | Codecraft (2015-10-06 16:35:57)
-
-[…] and we are usually repaid in spades. Over time, the output of a healthy community will always exceed the contributions of a single “rock star”, if for no other reason than because the community has a longer lifespan. Humility and listening […]

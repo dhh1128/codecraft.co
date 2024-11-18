@@ -77,14 +77,5 @@ I could go on and on, but I'd rather say thank you for speaking up.
 
 Dano
 
----
 
-Things Worth Backing Up: The Nightmares Fear Factory Flickr Stream | Backupify (2012-11-02 14:43:57)
 
-[...] Why Cannibalism May Be Smart Business [...]
-
----
-
-Courage Counts | Codecraft (2013-05-31 08:33:43)
-
-[…] technologies at Symantec from a tape-centric to a disk-centric model. A big problem for us was the fear of cannibalizing the revenue stream of the traditional product. We ended up dithering long enough that the opportunity to ride a […]

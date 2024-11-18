@@ -68,8 +68,3 @@ Daniel (2012-10-01 10:24:48)
 
 Just ran across a tweet by @trev_harmon. It dovetails so nicely with the Martin Fowler quote that I just had to repeat it: Dear communicators: I don't care if you understand complex thoughts or concepts, but rather if I do after listening to you. #simplify
 
----
-
-Why you should be proficient in a tool like vim or emacs | Codecraft (2014-05-15 08:46:14)
-
-[…] assembly first, and then migrated through C to C++–and how that foundation helps them write better code than a young upstart who learned first in […]

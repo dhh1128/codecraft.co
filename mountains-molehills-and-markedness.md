@@ -73,23 +73,11 @@ So marks can't butter your toast, or write poetry. :-)
 
 Still, I think they're a useful innovation. I'm hoping that smarter minds than mine can pick up on the kernel of the idea and take it to cool new places I haven't yet imagined. My friend David also pointed out some cool ways that marks could be used to gather statistics, which I had not considered. What else will you dream up? If you're interested in collaborating, let me know. Also, I would appreciate you sharing this series of posts with people who don't read my blog; I'm interested in broadening the conversation as much as possible.
 
----
 
-Taming Side Agreements | Codecraft (2014-10-28 08:36:00)
 
-[…] that I recommended, to codify human concerns in a codebase, is another way of adding sunshine. The “marks” feature that I’m building for the intent programming language lights up all kinds of nether regions […]
 
----
 
-Introducing Marks | Codecraft (2015-06-15 10:22:52)
 
-[…] my next post, I’ll explore a bunch of additional examples, and I’ll cover more details about how […]
-
----
-
-How to point in code | Codecraft (2014-09-25 08:39:05)
-
-[…] how the semantic marks that I’ve discussed in previous posts provide a powerful way to qualify and query this sort of DOM. To find all classes […]
 
 ---
 
@@ -105,11 +93,7 @@ Just one little correction to the German example in section "Aside". You use the
 
 But nevertheless thank you for sharing your insights!
 
----
 
-In Which Warnings Evolve Wings | Codecraft (2014-08-06 08:46:16)
-
-[…] marks that I’ve recently described provide a nice, uniform solution to this hodgepodge of warning-answering mechanisms. Since […]
 
 ---
 

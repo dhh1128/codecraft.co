@@ -75,17 +75,9 @@ This is one of the reasons why I blog: it forces me to put into words ideas that
 
 Thanks for the feedback, Stas. I hope things are going great for you.
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:06)
 
-[…] are more likely to transfer, to generate useful help for others on StackOverflow, and to be honed by others, if they’re in the […]
 
----
-
-Are You Losing Enough Battles? | Codecraft (2013-03-05 08:35:56)
-
-[...] an occasional battle keeps us humble. It means we’re grounded in reality rather than ivory tower imagination. It means we value [...]
 
 ---
 
@@ -93,32 +85,11 @@ Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:50)
 
 [...] achieve something important, get enamored of our own success, and forget to be humble and to learn from [...]
 
----
 
-Why you should be proficient in a tool like vim or emacs | Codecraft (2014-05-15 08:46:07)
 
-[…] perspectives, which is part of the reason why I blog and post on social media in the first place; I need to be pushed. I hope my assertions about teamwork and gestalt were at least […]
 
----
 
-Steve Jackson: Lead with Passion | Codecraft (2013-09-30 11:49:37)
 
-[…] them shine.  To find these people, interview for the right skills including the soft skills (like humility) that help people fit into a team environment.  After all, a job is way more than just using […]
 
----
 
-Features are not chunks of code | Codecraft (2013-07-25 11:19:47)
 
-[…] most production codebases, smart coders don’t create codebases. Teams do. That takes time and coordination from multiple […]
-
----
-
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:44)
-
-[…] more skills than exist in any one person. Wise developers (as opposed to simply clever ones) are humble and interested in […]
-
----
-
-Are We Smart Enough to Use Kind Words? | Codecraft (2015-10-06 16:35:58)
-
-[…] “rock star”, if for no other reason than because the community has a longer lifespan. Humility and listening are worth keeping on our personal […]

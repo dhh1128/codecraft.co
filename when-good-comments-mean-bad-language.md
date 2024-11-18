@@ -369,20 +369,7 @@ Here's the thing:
 A) A lot of useful features like optional can be implemented in C++98. There's no excuse for not using them, especially if they're already available in libraries such as Loki.
 B) Although it isn't easy to implement things like optional, it's still valuable because such components are highly reusable. And honestly, they're not that hard to use.
 
----
 
-Taming Side Agreements | Codecraft (2014-10-28 08:35:54)
 
-[…] makes a concerted effort to expose many of the subtleties I listed above, although I think docs and comments are often a band-aid. The proxy technique that I recommended, to codify human concerns in a codebase, is another way of […]
 
----
 
-Lacunas Everywhere | Codecraft (2014-07-16 13:58:45)
-
-[…] The problem, I think, is caused by our industry undervaluing the human dimension of software development. We are taught to analyze and create context-free grammars. That’s a hard task, and perhaps we can be forgiven for thinking that once we get there, with a fast and robust compiler, a nice runtime, documentation, and other tools, we’ve mostly achieved the mandate of a programming language. Everything else goes in the comments. […]
-
----
-
-Thoughts On Bridging the &#8220;Lacuna Humana&#8221; | Codecraft (2014-07-21 08:49:26)
-
-[…] possibility is comments. This has been the answer of choice, for years. You can say anything you want in comments. (Hmm. Notice the semantic power in that, and […]

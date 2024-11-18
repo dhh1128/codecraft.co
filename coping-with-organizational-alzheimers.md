@@ -86,26 +86,9 @@ I like the concept of a constantly-evolving codebase. That kind of approach woul
 
 As an aside, your link to Steve Yegge's post spurred some productive conversation at work. Always nice when that happens.
 
----
 
-Paying Off Technical Debt | On Technical Debt (2014-03-17 03:59:39)
 
-[…] my recent post about how organizations forget technical debt, I glossed over some important details. When you’re in debt, you have an obligation to pay […]
 
----
 
-Tech Debt, Leverage, and Grandma's Envelope | On Technical Debt (2014-03-17 04:00:07)
 
-[…] my previous posts about tech debt, I focused on how we can help organizations remember their debts, and on understanding how tech debts are funded and paid […]
 
----
-
-Features are not chunks of code | Codecraft (2013-07-25 11:19:51)
-
-[…] What this means, in practical terms, is that, even if you can code a feature in X hours, and even if it’s a simple feature with unusually minor demands on the rest of a team, its cost is never X hours. All features have a carrying cost, which is the ongoing expense of keeping the feature alive and connected to the blood supply on the rest of the face, through all future incarnations. In this sense, features are never “done.” Sticking our heads in the sand to avoid this truth is a surefire way to incur tech debt, and not accounting for it with each release is a sin of omission. […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:45)
-
-[…] Where code is wisely generalized, maintenance goes down, testability goes up, and it’s easy to learn a correct mental model. The inverse is also true: bad choices about generalization usually hide the forest behind the trees, which causes pernicious tech debt. […]

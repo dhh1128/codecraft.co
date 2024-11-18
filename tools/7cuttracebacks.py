@@ -1,7 +1,7 @@
 import os
 import re
 
-relpat = re.compile(r'href=".*?/20\d\d/\d\d/\d\d/([-a-z0-9]+)/"')
+relpat = re.compile(r'---\n\n(.*\|\s[A-Za-z0-9].*$)\n\n\[(…|\.\.\.)\].*\[(…|\.\.\.)\]', re.M)
 
 for file in os.listdir("."):
     if file.endswith(".md") and file != 'README.md':
@@ -11,7 +11,7 @@ for file in os.listdir("."):
         updated = False
         while match:
             updated = True
-            content = content.replace(match.group(), f'href="{match.group(1)}.md"')
+            content = content.replace(match.group(), '')
             match = relpat.search(content)
         if updated:
             with open(file, 'w') as f:

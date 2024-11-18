@@ -82,8 +82,3 @@ David: thank you for pointing out the "side effect" of getting paid. Very à pro
 
 I agree about the value of TDD. I haven't used doctests very often, but I am at a loss to explain why--they're quite nifty. One thing that I particularly like about them is that they are embedded in the code, *not* stored in a separate file. This makes it more likely that a programmer will actually read/be aware of the semantics they enforce.
 
----
-
-Know Your Limits | Codecraft (2015-02-05 08:47:41)
-
-[…] but only by using many channels. It took an email exchange with the author to discover this informal side agreement in the […]

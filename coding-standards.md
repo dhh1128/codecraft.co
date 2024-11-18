@@ -78,11 +78,7 @@ Stupid coding standards are offensive and a complete waste of everybody's time. 
 <p style="padding-left:30px;"><em><span style="color:#000080;">If you have existing coding standards, look at a few guidelines and decide A) how much technical and business value they provide; B) how easy they are to learn and follow; C) how well they're implemented. Do you see any places where you want to adjust?</span></em></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">If you want to create a coding standard, make a list of rules that have a high ratio of value to cost. Pick the top 10 (or as many as you can fit on one (1) sheet of paper with a normal font and margins). Float a few past other thought leaders. Keep the best ones only.</span></em></p>
 
----
 
-Add some more extra redundancy again | Codecraft (2014-01-15 08:39:13)
-
-[…] precisely because they create redundancy that’s difficult to understand and maintain. Foolish coding standards and dumb comments are notorious for creating busywork this […]
 
 ---
 
@@ -98,20 +94,7 @@ Daniel Hardman (2018-06-18 11:43:04)
 
 Agreed!
 
----
 
-On Forests and Trees | Codecraft (2015-09-02 08:48:55)
 
-[…] is partly why small files and small functions are your friends. It also explains why boilerplate comments are worse than useless, and bears on why encapsulation and loose coupling are so […]
 
----
 
-Lacunas Everywhere | Codecraft (2014-07-16 13:58:41)
-
-[…] like to enforce coding standards–formatting and naming conventions, maybe, but also trickier stuff, like “we strictly […]
-
----
-
-Thoughts On Bridging the &#8220;Lacuna Humana&#8221; | Codecraft (2014-07-21 08:49:29)
-
-[…] to the point where they actually create unnecessary confusion. They are not mandatory (except by human fiat, which is usually ignored), and everybody’s judgment about where they’re valuable seems to vary. Some coders are […]

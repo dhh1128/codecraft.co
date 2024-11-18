@@ -27,8 +27,3 @@ Daniel (2012-09-15 00:26:03)
 
 Ocean Mist theme -- standard option in wordpress. I think I customized css slightly and added a different header graphic. Everything else is out-of-the-box.
 
----
-
-Adios to &#8220;computer programming&#8221; | Codecraft (2013-04-05 09:34:34)
-
-[...] chunks of code depend on one another being alive, can poison one another’s environment, must respect the constraints implied by one another’s requirements. Engineers and architects and CS professors, we have to stop thinking at the level of a single [...]

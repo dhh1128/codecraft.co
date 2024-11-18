@@ -123,11 +123,7 @@ Totally agree about life being driven by heuristics.
 
 Thanks for the comment!
 
----
 
-Add some more extra redundancy again | Codecraft (2014-01-15 08:39:20)
-
-[…] we have multiple ways to get someone’s attention when something goes wrong? It’s all well and good to log errors–but what if the error […]
 
 ---
 
@@ -139,50 +135,17 @@ Coincidentally, Bayesian statistics seem like a related subject and have indeed 
 
 I think one important thing to remember is that life is driven by heuristics, averages, etc. Stuff works 'most of the time' and 'in general'; however, by the time my programming gives me 95% reliable software, I will not have gained much.
 
----
 
-A Comedy of Carelessness | Codecraft (2013-12-09 08:35:08)
 
-[…] that’s more like it! Plan for trouble. (It always happens, after all.) Notice the problem. Communicate it. Take steps to cope, without panicking or inconveniencing the user. I’m not […]
 
----
 
-Mountains, Molehills, and Markedness | Codecraft (2014-07-28 08:44:50)
 
-[…] to generate code for circuit-breaker patterns. Marks might also be used to identify symptoms for pain detecting algorithms. Imagine you could declare remediation strategies for common problems (Internet down? Retry in 5 […]
 
----
 
-The third half of computational economics | Codecraft (2013-08-09 11:58:42)
 
-[…] I suspect that most of us have written an application that is a bit too cavalier with its use of resources. We want to allocate 9 GB of RAM to store a monster bitmap, so we call malloc. It might fail, but if it doesn’t, we have no sense at all of how much burden we’ve placed on a scarce resource. We don’t “pay” for the allocation in any way. There’s no pain. […]
 
----
 
-Taming Side Agreements | Codecraft (2014-10-28 08:36:03)
 
-[…] we need whistleblowers. I have previously written about embedding pain sensors and circuit breakers in code. We need ways to find out that everything isn’t working […]
 
----
 
-On pains and brains | Codecraft (2016-01-01 14:30:08)
 
-[…] while back, I wrote a post on why software should feel pain. Since then, I’ve had that lesson reinforced in my mind, and I’ve also understood […]
-
----
-
-Know Your Limits | Codecraft (2015-02-05 08:47:43)
-
-[…] logs flood with over 200k retry attempts per second in this unusual state. I had to fix this by sensing the pain of a retry storm and tripping a circuit breaker to keep the logs moderately […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:48)
-
-[…] 2: A few months ago, I noticed that a volume on one of our production servers was nearly full. No alarms had gone off about it–I just stumbled on the problem–and that concerned me. I did some research and […]
-
----
-
-A grumble about buckets | Codecraft (2015-04-08 13:39:42)
-
-[…] to be software that–either by carelessness or intent–provides no way whatsoever for its creators to find out if they’ve got the buckets wrong. The financial services company with the dumb security […]

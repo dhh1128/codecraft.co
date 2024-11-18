@@ -116,8 +116,3 @@ I've found another blog post that's a nice complement to this one: http://www.ra
 
 I've continued to work on my interruptions since I posted, and I can report some fair success on all aspects of my 3-part plan. But I'm not yet at the point where I've entrenched new and better habits...
 
----
-
-One More Day | Knowinnovation ( dev.knowinnovation.com ) (2015-06-02 08:12:59)
-
-[…] 24-hour synchronized film, The Clock, raises our awareness about time. Some thoughts about interruptions in the workplace, and managing distractions so you have time to think, thoroughly. Are we really […]

@@ -197,8 +197,3 @@ Always declare std::mutex as mutable in C++11? - ExceptionsHub (2017-12-08 00:18
 
 […] What Sutter got wrong about Const in C++11 […]
 
----
-
-Lacunas Everywhere | Codecraft (2014-07-16 14:14:17)
-
-[…] Perhaps you’re saying to yourself: “Language X has a way to solve problem Y.” At the micro level, I don’t necessarily disagree. I have written unit tests that (sort of) proved thread-safety in a codebase. I’ve created scripts that proved copyright/license compliance. I have found clever ways to enforce one or two high-value coding standards. I know about Ada’s numeric range types. I’ve decorated python code in such a way that prototype code was discoverable, so we wouldn’t ship it. I’ve used @Override in java. The const and constexpr keywords in C++ tell you something about thread safety. […]

@@ -134,26 +134,9 @@ Daniel Hardman (2013-05-16 11:32:20)
 
 Doug: On an intuitive level, I have been splitting my headers into the internal and external categories for years, without realizing exactly why. Your comment made me realize that's what was going on, somewhere in the back of my mind. Thanks for twisting the focus knob!
 
----
 
-What should code look like when we squint at it? | Codecraft (2013-09-19 08:23:04)
 
-[…] classes out of a sea of thousands is not particularly easy. Interfaces allow you to encapsulate and suppress details—but they don’t tell you how they fit into a gestalt. Tests as a form […]
 
----
 
-2 Surprising Truths About The Iron Triangle | Codecraft (2013-07-01 16:39:10)
 
-[…] In a way, I’m suggesting the opposite strategy: if you push on quality in the right way, speed will accrue organically. Not at first, especially if you’re starting with an unhealthy codebase. Not with every checkin; sometimes you have to take one step back to take two steps forward. But over time, if you continue to invest in quality, your patient will get more healthy, and you will see your speed go up, not down. The mental models of your engineers and the entire value chain will align. You’ll create virtuous cycles that perpetuate the right kinds of tradeoffs for performance, scalability, and encapsulation. […]
 
----
-
-Programmers: learn how to &#8220;cloudify&#8221; | Codecraft (2013-07-23 11:43:12)
-
-[…] here on codecraft, such as what the programming language of the future ought to look like, how to encapsulate for cloud, and so […]
-
----
-
-Lacunas Everywhere | Codecraft (2014-07-16 13:58:50)
-
-[…] language shouldn’t be indicted for creating useless redundancy that undermines encapsulation and the accuracy of […]

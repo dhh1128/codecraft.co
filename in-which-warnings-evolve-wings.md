@@ -65,11 +65,7 @@ I think those wings could lift the quality and artistry of our software.
 
 <sup><a name="1"></a>[1]</sup> I can think of several reasons why you might want to do this. One is that you're making a temporary change, and you don't want to be bothered to delete something, only to have to reinsert it later. Another is that you may want to use dead code to force linkage. Or maybe you just want to be able to explore an alternate path by resetting EIP while you debug. A final reason is that you want to prove the code compiles (e.g., because it's quoted in documentation), even though you will never run it. This is the reason why you <a title="disabling gtest methods" href="https://code.google.com/p/googletest/wiki/AdvancedGuide#Temporarily_Disabling_Tests" target="_blank">disable gtest methods</a> but do not #ifdef them; continuing to compile them prevents staleness.
 
----
 
-Exploring the Power of Deixis | Codecraft (2014-09-23 08:34:47)
-
-[…] developers never notice, because we only worry about warnings until our current build succeeds. But what if you use a static code analyzer like Coverity? […]
 
 ---
 

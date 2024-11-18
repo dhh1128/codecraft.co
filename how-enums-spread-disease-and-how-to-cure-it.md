@@ -264,11 +264,7 @@ dougbert (2012-10-29 10:06:05)
 
 one of descriptions that I use in describing the opposite of a "single point of implementation" encapsulation  is "distributed implementation of the same logic".  And the use of the term "Typoid Mary" is a beautiful description of the consequences of that.
 
----
 
-Good fences make good neighbors | Codecraft (2013-05-15 08:50:27)
-
-[…] Use enums carefully. […]
 
 ---
 
@@ -310,11 +306,7 @@ I haven't written code with lots of special cases like this in years though I ca
 
 BTW That C macro trick has no place in modern C++. You should be using templates meta-programming instead. There are ways to guarantee consistency between the Enum definitions and that data definition without needing a shared intermediate include file. Look into constexpr and static_assert().
 
----
 
-Variadic macros tricks | Codecraft (2014-11-25 11:49:02)
-
-[…] errors, laziness, or misunderstanding. I have previously blogged about how valuable this can be in eliminating encapuslation problems with enums, but I recently found another need for it. In my project to create a new programming language, I […]
 
 ---
 
@@ -342,11 +334,7 @@ Thanks for the reference to Pike. I'd run across his rules years ago, then forgo
 
 Regarding the comment about macros and modern C++: I am curious. I don't consider myself a template black-belt, but I'm maybe a blue belt or brown belt. I can tell you what SFINAE is, anyway. Yet I'm not aware of a way to replicate this technique in any meaningful way without macros. Could you give me a hint what you are thinking?
 
----
 
-A better way to put data in code | Codecraft (2014-10-08 13:55:07)
-
-[…] If a compiler supported such code, it might read the attached .csv file, parse it using CSV rules, and create an array of structs where each struct instance is a tuple or row of data. The array would be indexed by ID, a value that the compiler would generate in the same way enum values are assigned. The end result would be an a static constant array, exactly as if I had hand-coded a manual translation of the data. Essentially, this is the technique I recommended when I wrote about how to avoid breaking encapsulation with enums. […]
 
 ---
 

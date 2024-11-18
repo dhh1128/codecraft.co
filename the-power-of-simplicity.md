@@ -76,38 +76,13 @@ Andy Lawrence (2013-02-19 10:48:30)
 
 It is not just software and systems where increased complexity has become the norm. Data itself is increasingly "locked" into very complex and proprietary formats. Instead of keeping data in its "raw" format and devising several different ways to view that data, the data itself is being wrapped in a ton of markup, imported into databases, or split into other kinds of separate systems. Such systems make it hard to extract out the original data in order to perform new and interesting functions against it.
 
----
 
-6 Strategies to Simplify Software | Codecraft (2013-03-12 08:57:20)
 
-[...] written that simplicity is powerful, and that it undergirds many deep architectural breakthroughs. In posts about pragmatism and [...]
 
----
 
-My First Tangle With the Tower of Babel | Codecraft (2013-04-26 08:48:31)
 
-[...] think the answer may lie in finding new accommodations for all the complexity we wrestle. New ways to think about concurrency, distributed architectures, object lifecycle, and [...]
 
----
 
-Why Your Software Should Cry | Codecraft (2013-05-06 11:50:48)
 
-[...] in a good script with a few lines of code. However, if we want to truly master the bewildering growth of complexity in the universe of bits and bytes, we need pain. And we need to pay attention to [...]
 
----
 
-Why you should be proficient in a tool like vim or emacs | Codecraft (2014-05-15 08:46:17)
-
-[…] I claim that if you only ever see the complexity of software engineering through the lens of an IDE, you have missed an important–even revelatory–learning […]
-
----
-
-A grumble about buckets | Codecraft (2015-04-08 13:39:21)
-
-[…] Sometimes developers limit the choices that are offered to their users as a way to simplify. This can be a good thing; I’m a big fan of simplicity. […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:39)
-
-[…] unremarkable. It’s among the human mind’s most powerful techniques for coping with complexity, and it’s a hallmark of vigorous thinkers in any technical discipline. I like what Hegel […]

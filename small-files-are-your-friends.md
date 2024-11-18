@@ -62,11 +62,7 @@ The bottom line for me is experiential, not theoretical. I nearly always have cr
 	<li class="zemanta-article-ul-li"><a href="http://www.sciencedaily.com/releases/2013/02/130219102202.htm" target="_blank">We know when we're being lazy thinkers: Human thinkers are conscious cognitive misers</a> (sciencedaily.com)</li>
 </ul>
 
----
 
-How to turn coding standards into epic fails &#8212; or not | Codecraft (2013-04-18 17:33:43)
-
-[...] Keep files small. (Value: high for casual maintainers. Cost: usually low. Many good habits are tied to this guideline, including loose coupling, encapsulation, refactoring, and modularity.) [...]
 
 ---
 
@@ -139,17 +135,9 @@ I guess implicit in my thinking was the idea that if you have big files, and you
 
 I do think that it's harder to accomplish the encapsulation and logical division if you leave things in a single file -- mainly because the ugliness of globals and other forms of coupling aren't as obvious.
 
----
 
-Good fences make good neighbors | Codecraft (2013-05-15 08:50:33)
 
-[…] Divide code into modules and files that gives you a rational, mentally tractable separation of concerns. […]
 
----
-
-Headers, babies, and bathwater | Codecraft (2013-08-12 11:02:26)
-
-[…] This couples all details of the system together in a single giant hairball. It may be fine for a project with 2 or 3 classes, but for dozens or hundreds of classes, it’s a major problem, and it violates the small file rule. […]
 
 ---
 
@@ -170,8 +158,3 @@ If there are numerous functions in a single file, it increases the chance that a
 
 One other note that goes along with some of your other posts. When you write code, it is easy to fall into the trap of thinking you are writing for the machine, but you are really writing for other humans that will come after you. If you always design and code as if you are writing for people, you will be doing your future self a huge favor.
 
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:53)
-
-[…] is partly why small files and small functions are your friends. It also explains why boilerplate comments are worse than useless, and bears on why encapsulation […]

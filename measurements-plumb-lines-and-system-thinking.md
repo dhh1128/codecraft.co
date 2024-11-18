@@ -56,20 +56,7 @@ Tracking bugs fixed is good, but does that tracking increase or decrease the ent
 
 As always, some great insight
 
----
 
-Adios to &#8220;computer programming&#8221; | Codecraft (2013-04-05 09:34:37)
 
-[...] need system thinking baked into our industry. We need programming languages that have sufficient expressive power to [...]
 
----
 
-Why Your Software Should Cry | Codecraft (2013-05-06 11:51:00)
-
-[...] we might aim for an “error gestalt” — the ability to notice system-level phenomena as the aggregate of many isolated signals. This would be analogous to a doctor diagnosing flue from [...]
-
----
-
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:26)
-
-[…] show you a gestalt; they encourage you to think holistically about what you’re doing. If you write a method, and you don’t like the hover text that […]

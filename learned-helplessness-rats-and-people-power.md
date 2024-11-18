@@ -150,14 +150,5 @@ Daniel (2012-12-29 11:06:50)
 
 Ian: I had not made that connection, but it is a *great* one. Thanks for pointing it out!
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:31)
 
-[…] larger community use and like. This choice will pay off in enhanced teamwork benefits, and it will encourage the sort of broad, integrated thinking that characterizes the best software […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:57)
-
-[…] reason we don’t generalize is because we are being crushed by tech debt. We feel like we can’t afford it. This is a very real problem, but it is […]

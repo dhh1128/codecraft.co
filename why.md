@@ -115,8 +115,3 @@ Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:56)
 
 [...] We accept all feature requests at face value and don’t vett them thoughtfully against our why. [...]
 
----
-
-A More Important Manifesto | Codecraft (2015-01-05 09:14:55)
-
-[…] what makes me tick, as an engineer, an employee, and a company leader. A lot of it grew out of my exposure to Simon Sinek’s TED talk, “Start with Why”, and my readings in Conscious […]

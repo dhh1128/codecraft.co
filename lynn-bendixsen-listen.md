@@ -23,26 +23,9 @@ Thanks for the lesson, Lynn.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify a team member who needs to be listened to more. Invest some time to learn from them or to be a sounding board.</span></em></p>
 
----
 
-Features are not chunks of code | Codecraft (2013-07-25 11:19:56)
 
-[…] proud when they execute quickly to contribute code for features. But let’s be a little more humble, patient, and team-oriented when we think about them. Let’s recognize their complexity. And […]
 
----
 
-Steve Jackson: Lead with Passion | Codecraft (2013-09-30 11:49:39)
 
-[…] (I often took Jackson up on this and he heard many ears-full of my gripes.)  Once you have heard the issues and concerns, be sure to address them.  Quite possibly, half of your time will be addressing team morale and […]
 
----
-
-Are We Smart Enough to Use Kind Words? | Codecraft (2015-10-06 16:36:00)
-
-[…] star”, if for no other reason than because the community has a longer lifespan. Humility and listening are worth keeping on our personal […]
-
----
-
-A grumble about buckets | Codecraft (2015-04-08 13:39:32)
-
-[…] who wrote the parental control features at Netflix thought three buckets was plenty. What could listening teach […]

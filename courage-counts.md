@@ -105,11 +105,7 @@ I'm going to make a conscious effort to notice when I'm listening to fear more t
 	<li class="zemanta-article-ul-li"><a href="https://plus.google.com/110981030061712822816/posts/KaSKeg4vQtz" target="_blank">Notes from the Mystery Machine Bus</a> (Steve Yegge, Google +)</li>
 </ul>
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:38)
-
-[…] IDE-land for a while; I think they’d find it easier to generate momentum on unit tests, to eliminate fear of ambitious refactors, and to see their way past nagging tech debt. However, bigger concerns have […]
 
 ---
 
@@ -156,14 +152,5 @@ Only I will remain.
 
 - Bene Gesserit Litany Against Fear - From Frank Herbert's Dune Book Series
 
----
 
-How to make a const-correct codebase in 4300 easy steps | Codecraft (2014-03-25 11:44:36)
 
-[…] the other hand, courage counts. A festering problem finally got fixed, because I was crazy enough to […]
-
----
-
-Are We Smart Enough to Use Kind Words? | Codecraft (2015-10-06 16:35:53)
-
-[…] by trial and error. Part of “tech progress” is raising the experience, confidence, and courage of those around us; in doing so, we learn more ourselves, and we are usually repaid in spades. Over […]

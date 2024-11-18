@@ -217,14 +217,5 @@ Andy Lawrence (2012-10-10 19:28:38)
 
 I thought you were on two or three of those committees. :)
 
----
 
-A Comedy of Carelessness | Codecraft (2013-12-09 08:35:11)
 
-[…] that’s more like it! Plan for trouble. (It always happens, after all.) Notice the problem. Communicate it. Take steps to cope, without panicking or inconveniencing the user. I’m not super happy […]
-
----
-
-Add some more extra redundancy again | Codecraft (2014-01-15 08:39:29)
-
-[…] consumers and creators of a chunk of code share the same mental models? Do we catch exceptions or test for errors in enough […]

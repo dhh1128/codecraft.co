@@ -50,14 +50,5 @@ Features are great. I've spent most of my career building them. They sell produc
 
 That'll put more smiles on our faces.
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:19)
 
-[…] that a text-editor-centric worldview is a little too comfortable thinking of every problem as a series of discrete editing tasks. Integration details fall through the cracks; mental models remain simplistic. After all, the tool […]
-
----
-
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:26)
-
-[…] 1. Making a valuable software product is way more than writing clever code. […]

@@ -16,8 +16,3 @@ As a result, dev has to invent a half-baked alternative to the other team's solu
 
 We look at the dev team and say that they have "Not Invented Here" Syndrome, because they never seem to use the solutions that other teams have built. In many cases, the real problem is that the Product Management and Dev don't have an architect mediating and looking at the situation from the standpoint of maximizing the ROI of strategic technology investments.
 
----
-
-Lacunas Everywhere | Codecraft (2014-07-16 13:58:37)
-
-[…] (or printer detection, or timezone handling, or whatever), and you worry about somebody else re-inventing the wheel. (Imagine if you could assert that no functions having the same semantics and intent as yours get […]

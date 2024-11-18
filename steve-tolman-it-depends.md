@@ -43,20 +43,7 @@ Thanks for the lesson, Steve.
 
 [...] assume you buy my criticism of the extremes, and you’re willing to apply the “it depends” doctrine. In some cases, you do nothing about performance, because the stakes are low. (Yes, all you [...]
 
----
 
-Steve Jackson: Lead with Passion | Codecraft (2013-09-30 11:49:32)
 
-[…] from Daniel: This guest post, from my friend Steve Tolman, is part of an occasional series about important career role models. I also worked with Steve […]
 
----
 
-Taming Side Agreements | Codecraft (2014-10-28 08:36:10)
-
-[…] the scale of your operation. In other words, be pragmatic, because the proper amount of investment depends. If you’re writing a few quick scripts, this issue may not matter much–but don’t […]
-
----
-
-Grumpy Old Men, Opacity, and Optimizers | Codecraft (2014-09-09 08:48:32)
-
-[…] truths, which is a prime facie reason to treat the list a Bad Idea™ regardless. Remember: it depends. […]

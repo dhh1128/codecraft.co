@@ -41,8 +41,3 @@ Long-Term Benefits of RPCD &laquo; Software, Wetware, Webware (2012-06-21 10:24:
 
 [...] for designing software that has role-playing at it’s heart. If you take a look at the example RPCD interaction, I think some benefits will be immediately [...]
 
----
-
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:16)
-
-[…] model people and their behaviors […]

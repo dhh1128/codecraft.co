@@ -103,11 +103,7 @@ Stepping back from the details of this experience, I draw a few general conclusi
 
 <strong>Compilers ought to offer a "this should be const" warning, so this work would have been unnecessary</strong>. I googled; there isn't any such option that I could find. Yet my need is not that unusual. Why isn't this problem already solved?
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:41)
-
-[…] while; I think they’d find it easier to generate momentum on unit tests, to eliminate fear of ambitious refactors, and to see their way past nagging tech debt. However, bigger concerns have kept me from pushing […]
 
 ---
 
@@ -161,8 +157,3 @@ dougbert
 
 You're very right about compilers in the last statement. I think that's very good idea and I'd like to hear some compiler guys opinions.
 
----
-
-Introducing Marks | Codecraft (2014-07-24 08:49:29)
-
-[…] doesn’t help at all, because I need this before run-time. As I mentioned in my post about making a codebase const-correct, the lack of this feature is really a serious design flaw. Why should code, of all things […]

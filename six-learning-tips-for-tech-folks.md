@@ -59,14 +59,5 @@ Daniel (2012-10-30 12:12:06)
 
 Just a few days ago, I heard you talking about an antipattern, and I decided that I needed to get more conversant with the antipattern catalog. I've studied the gang of four design pattern book, and various related topics, for years, but I've only noted the antipattern stuff as a casual passer-by. So I setup an event in google calendar that bugs me once a week to spend a few minutes studying an antipattern. So I get my good ideas from smart people like you. :-)
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:13)
 
-[…] programmer who’s continually learning, and who’s plugged in to community best practice, is likely to contribute more value to his or her team, over time, than one who’s learned an […]
-
----
-
-Are We Smart Enough to Use Kind Words? | Codecraft (2015-10-06 16:35:51)
-
-[…] often fail to work; requirements change; incompatibilities in components and tools are endemic; we learn a lot by trial and error. Part of “tech progress” is raising the experience, confidence, and courage of those […]

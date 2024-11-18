@@ -46,26 +46,9 @@ Workflows, People and Processes (2014-05-05 03:52:54)
 
 […] almost every process out there (aside from some automated production), humans form an important part. The process is in place because it is solving a human-provided “problem.” In many cases, it is […]
 
----
 
-On pains and brains | Codecraft (2016-01-01 14:30:12)
 
-[…] of thinking, in which I initially focus on technical details, but come to zen only as I recognize the role of people in software architecture, has repeated several times in my career, but I guess I needed to discover it […]
 
----
 
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:30)
 
-[…] all the people in the value chain of your software, and doing the hard, unrewarding detail work to guarantee that their needs are addressed throughout […]
 
----
-
-A grumble about buckets | Codecraft (2015-04-08 13:39:27)
-
-[…] If you’re going to force all choices into a few predefined buckets, you better provide buckets that match the needs of your users. […]
-
----
-
-Lacunas Everywhere | Codecraft (2014-07-16 13:58:43)
-
-[…] problem, I think, is caused by our industry undervaluing the human dimension of software development. We are taught to analyze and create context-free grammars. That’s a […]

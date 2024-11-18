@@ -24,18 +24,6 @@ For now, I'll omit any definition of what these intriguing terms mean, and leave
 
 ---
 
-Charity (2013-02-11 19:33:21)
-
-Quality articles or reviews is the secret to invite the visitors to go to see the web site, that's what this web site is providing.
-
----
-
-Universal Principles of Design | DesignQuest (2013-03-23 17:01:20)
-
-[...] Book Review: Universal Principles of Design (codecraft.co) [...]
-
----
-
 Trev Harmon (2013-02-03 22:34:34)
 
 Daniel, thank you for the mention. This really is a great book. Although I have several others that have very similar content, none of the others really convey it in as simple, concise manner as this book.

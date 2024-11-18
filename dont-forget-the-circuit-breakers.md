@@ -42,11 +42,7 @@ Architects: manage risk like a Vegas bookie &laquo; Codecraft (2013-02-21 09:31:
 
 [...] Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about circuit breakers.) [...]
 
----
 
-Adios to &#8220;computer programming&#8221; | Codecraft (2013-04-05 09:34:31)
-
-[...] is just as interconnected. Individual chunks of code depend on one another being alive, can poison one another’s environment, must respect the constraints implied by one another’s requirements. Engineers and architects [...]
 
 ---
 
@@ -87,38 +83,13 @@ Daniel Hardman (2013-01-13 19:28:59)
 
 One of my favorite job interview questions (for potential dev or QA hires) is to ask someone how they'd test a simple program. Some people stare at me blankly. Some just regurgitate the golden path. The ones I like to hire are the ones that immediately reel off half a dozen ways that they could imagine the code being broken. That kind of thinker is not only better at writing error-resistant code and better at writing comprehensive tests, but is also more creative and fun to work with overall.
 
----
 
-Why Your Software Should Cry | Codecraft (2013-05-06 11:50:50)
 
-[...] circuit breaker pattern that I described a while back is another example of reacting to [...]
 
----
 
-A Comedy of Carelessness | Codecraft (2013-12-09 08:35:13)
 
-[…] like it! Plan for trouble. (It always happens, after all.) Notice the problem. Communicate it. Take steps to cope, without panicking or inconveniencing the user. I’m not super happy that my internet […]
 
----
 
-Add some more extra redundancy again | Codecraft (2014-01-15 08:39:36)
 
-[…] that their behavior will be important to our users sooner or later are virtually 100%. We need circuit breakers, helpful error messages, documentation about what to do when things aren’t perfect, APIs that […]
 
----
 
-Mountains, Molehills, and Markedness | Codecraft (2014-07-28 08:44:47)
-
-[…] based on propagation of other marks in the codebase. Marks might be used to generate code for circuit-breaker patterns. Marks might also be used to identify symptoms for pain detecting algorithms. Imagine you could […]
-
----
-
-Taming Side Agreements | Codecraft (2014-10-28 08:36:05)
-
-[…] we need whistleblowers. I have previously written about embedding pain sensors and circuit breakers in code. We need ways to find out that everything isn’t working right–ways that are […]
-
----
-
-Know Your Limits | Codecraft (2015-02-05 08:47:46)
-
-[…] second in this unusual state. I had to fix this by sensing the pain of a retry storm and tripping a circuit breaker to keep the logs moderately […]

@@ -48,35 +48,15 @@ I am also very interested in your insights. <span style="color:#000080;">What do
 	<li class="zemanta-article-ul-li"><a href="http://www.javacodegeeks.com/2013/04/choosing-a-programming-language.html" target="_blank">Choosing a Programming Language</a> (javacodegeeks.com)</li>
 </ul>
 
----
 
-The genesis of a new realm called &#8220;possibility&#8221; | power of language blog: partnering with reality by JR Fibonacci (2013-04-26 15:04:24)
 
-[...] My First Tangle With the Tower of Babel (codecraft.co) [...]
 
----
 
-Why Your Software Should Cry | Codecraft (2013-05-06 11:51:03)
 
-[...] was writing recently about my adventures designing a programming language. I concluded that more sugary syntax isn’t really a great value to the community–but a [...]
 
----
 
-Programming Language Popularity Index | Codecraft (2013-05-31 01:28:48)
 
-[…] It’s interesting to ponder what commonalities exist between sets such as languages that are growing quickly, languages that are stale and neglected, and so forth. Fodder for my experiments with language design… […]
 
----
-
-Good fences make good neighbors | Codecraft (2013-05-15 08:50:36)
-
-[…] my pondering on programming languages leads me to believe that encouraging correct thinking about encapsulation is a desirable attribute. […]
-
----
-
-Headers, babies, and bathwater | Codecraft (2013-08-12 11:02:33)
-
-[…] simple interface that consumers can read. This is the basic idea behind Lazy C++, but if I were writing my own programming language, I’d take it much […]
 
 ---
 
@@ -84,20 +64,7 @@ Julie Jones (2013-09-08 22:19:18)
 
 I think you really hit the nail on the head with "change the way we think". Of all the languages that come and gone none have really changed the way we think about solving problems in the last thirty years. There have been a few that had potential, but I can't think of any that brought a new paradigm to light. Erlang is the only one I can think of that has picked up a decent following by managing to make one previously hard thing easy (multi-processing), but it is hardly revolutionary.
 
----
 
-The third half of computational economics | Codecraft (2013-08-09 11:58:48)
 
-[…] I don’t think a system like this would be worth building in all cases, and it might have some unpleasant side effects like starvation of a humble process that can’t adequately compete for resources. It would require measurement and tuning. It might require some variant of genetic algorithms so initial profit formulas would evolve. But I can imagine this approach having nice benefits for a certain class of thorny problems. I wonder if I could build this concept into a better programming language… […]
 
----
 
-Programmers: learn how to &#8220;cloudify&#8221; | Codecraft (2013-07-23 11:43:09)
-
-[…] new installments. I’ll be making connections back to concepts here on codecraft, such as what the programming language of the future ought to look like, how to encapsulate for cloud, and so […]
-
----
-
-Exploring the Power of Deixis | Codecraft (2014-09-23 08:34:56)
-
-[…] of the goals of the intent programming ecosystem I’ve begun to create is to empower this sort of deixis without creating any new overhead for engineering teams. As […]

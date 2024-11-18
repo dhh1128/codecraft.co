@@ -28,8 +28,3 @@ Selecting the criteria against which you optimize is more than a technical quest
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Optimize one function for ease of understanding and maintenance. Make a short list of how your choices were different than they might have been if you optimized for speed of execution.</span></em></p>
 
----
-
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:34)
-
-[…] build is usually way more important than inventing a new and mind-bending algorithm. Addressing the need of your business to make a profit is usually a good idea, too. Perhaps the vast residual work is what Thomas Edison had in mind when […]

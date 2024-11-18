@@ -14,14 +14,5 @@ On my company's website, I've begun a new series of blog posts about how to "clo
 
 I believe that a competence with cloud--cloud-oriented programming, if you will--will be a checkbox on future tech resumes.
 
----
 
-Convoys as a model for distributed architectures | Codecraft (2013-07-26 11:20:43)
 
-[…] tuned for further installments of this series each Friday. As I said in Part 1, I believe that a competence with cloud–cloud-oriented programming, if you will–will be […]
-
----
-
-What are your software&#8217;s vital signs? | Codecraft (2013-08-11 18:31:24)
-
-[…] tuned for further installments of this series each Friday. As I said in Part 1, I believe that a competence with cloud–cloud-oriented programming, if you will–will be a […]

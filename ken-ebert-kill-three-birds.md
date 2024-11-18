@@ -54,14 +54,5 @@ Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:48)
 
 [...] We forget that we are optimizing many variables at once. [...]
 
----
 
-Features are not chunks of code | Codecraft (2013-07-25 11:19:58)
 
-[…] Let’s recognize their complexity. And let’s add them selectively, understanding their value in the overall scheme of things, their ongoing cost, and the commitments they […]
-
----
-
-The third half of computational economics | Codecraft (2013-08-09 11:58:38)
-
-[…] buddy Ken Ebert likes to joke about incomplete thinking by saying, “There are 2 aspects of the […]

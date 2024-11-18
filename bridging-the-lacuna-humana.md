@@ -81,32 +81,11 @@ My solution is terse, natural, and easy to learn and use. It helps coders get mo
 <hr style="margin-top:4em;width:60%;" />
 <p style="font-size:90%;margin-left:2em;"><a name="1"></a><sup>[1]</sup> Interestingly enough, this same over-emphasis on parseable structure has afflicted the discipline of linguistics for decades. Back in the 60s, at the same time that compilers were getting traction in computer science, linguists zeroed in on universal grammar and its cousins as a sort of "grand unified theory" of language. Our brains were wired for certain linguistic structures, they said--and each human language just activated or turned off certain nodes in the shared uber-inventory, the same way programming languages could vary as long as they were Turing-complete. Machine translation was just around the corner, as soon as we codified the overall conceptual ontology and invented a formal algebra to express transformations of structure. It was a nice theory, but (IMO) fatally flawed... by the same "lacuna humana" fallacy. Humans are agents, possessing free will and the capacity to create meaning in novel ways. We bend language to whatever uses suit us. Yes, there are deep harmonies in the structures that we select to express our ideas, across all known languages--but semantics is more than structure. If this sort of thing interests you, consider reading <em>Women, Fire, and Dangerous Things</em> (Lakoff), <em>The Possibility of Language</em> (Melby), or <em>LANGUAGE in Capital Letters</em> (Lytle).</p>
 
----
 
-Mountains, Molehills, and Markedness | Codecraft (2014-07-28 08:44:39)
 
-[…] are not as rich as they could be. I pointed out some symptoms of that deficit, and then made recommendations about bridging the gap. Finally I introduced “marks”–a feature of the intent programming language […]
 
----
 
-Lacunas Everywhere | Codecraft (2015-06-15 10:15:17)
 
-[…] lots of noise or bother. I’ll be explaining this feature, “marks,” in a series of follow-on posts. I hope you’ll subscribe or check back to see where I’m […]
 
----
 
-A grumble about buckets | Codecraft (2015-04-08 13:39:55)
 
-[…] thought to the buckets we offer–and let’s make sure we have a way of discovering and tracking whether our buckets are […]
-
----
-
-In Which Warnings Evolve Wings | Codecraft (2014-08-06 08:46:12)
-
-[…] know more about your intent. (Does this sound like the “lacuna humana” that I have been harping on […]
-
----
-
-Introducing Marks | Codecraft (2014-07-24 08:49:24)
-
-[…] my previous two posts (here and here), I described how and why programming languages can’t talk about many issues that affect […]

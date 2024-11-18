@@ -81,8 +81,3 @@ Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:43)
 
 [...] programming language, product schedule, or architecture–so much so that we lose momentum or [...]
 
----
-
-2 Surprising Truths About The Iron Triangle | Codecraft (2013-07-01 16:39:12)
-
-[…] I’m not claiming it’s easy. I’m not offering a recipe to convince them (though momentum will probably be an ingredient). I’m just saying it’s worth the effort, because there […]

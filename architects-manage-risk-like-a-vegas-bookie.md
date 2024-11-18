@@ -80,14 +80,5 @@ Anthony Langsworth (2013-02-21 18:33:12)
 
 Nice post, particularly the emphasis on defensive architecture. One of the biggest challenges I have found is quantifying risks, particularly for non technical stakeholders. Humans are inherently bad judges of risk and IT is particularly difficult because it usually involves unknowns (e.g. undiscovered bugs) or third parties (e.g. outsourcers, cloud providers, hackers). I would also suggest designers and architects remember that technical solutions are not always the best solution to mitigate risk.
 
----
 
-A Comedy of Carelessness | Codecraft (2013-12-09 08:35:05)
 
-[…] that’s more like it! Plan for trouble. (It always happens, after all.) Notice the problem. Communicate it. Take steps to cope, without panicking or […]
-
----
-
-Taming Side Agreements | Codecraft (2014-10-28 08:36:12)
-
-[…] you can retrofit discipline into an Enron-like software monstrosity. Understand your risk, and manage it wisely as part of your […]

@@ -88,17 +88,9 @@ Fowler's statement is my motto (separately generated) as well. My first 10  or s
 
 Since code spends the majority of its "life cycle" in the maintenance phase, I found that trying to INFORM/TELL the maintainer of the code WHAT I intended at the time of writing new code to be at least as important trying to tell the computer what I wanted. I have sought to do that ever since.
 
----
 
-How to turn coding standards into epic fails &#8212; or not | Codecraft (2013-04-18 17:33:45)
 
-[...] Comment what can’t be made obvious. (Example where comment might be helpful: subtle precondition or postcondition on a function. Value: high. Cost: low.) [...]
 
----
-
-Small Files Are Your Friends | Codecraft (2013-03-21 08:55:51)
-
-[...] I find it telling that codebases with big files are also codebases where people lament the lack of comments the most, for example. Over the years, I’ve become convinced that a simple rule of thumb [...]
 
 ---
 
@@ -106,17 +98,9 @@ Virgil Ellsworth (2013-03-24 06:11:34)
 
 Wow, incredible blog! How long have you ever been blogging for?
 
----
 
-When good comments mean bad language | Codecraft (2013-08-22 08:57:27)
 
-[…] years, I’ve urged developers to write better comments. I still claim that’s a good idea (a very good one), but as I’ve pondered what a better […]
 
----
-
-Add some more extra redundancy again | Codecraft (2014-01-15 08:39:16)
-
-[…] create redundancy that’s difficult to understand and maintain. Foolish coding standards and dumb comments are notorious for creating busywork this […]
 
 ---
 
@@ -135,26 +119,9 @@ Please let me know if you're looking for a article writer for your blog. You hav
 for your blog in exchange for a link back to mine. Please blast 
 me an email if interested. Many thanks!
 
----
 
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:42)
 
-[…] How can there be a version 2.0 if there’s nobody who understands the groundbreaking ideas in 1.0? A big part of creating lasting value is communicating so others can appreciate and build upon your work. […]
 
----
 
-On Forests and Trees | Codecraft (2015-09-02 08:48:46)
 
-[…] was totally obscured and would never have been caught by a casual maintainer. It hadn’t been commented as a weirdness, […]
 
----
-
-Lacunas Everywhere | Codecraft (2014-07-16 13:58:39)
-
-[…] write comments that look like […]
-
----
-
-Thoughts On Bridging the &#8220;Lacuna Humana&#8221; | Codecraft (2014-07-21 08:49:28)
-
-[…] first written, and they tend to become more so over time, to the point where they actually create unnecessary confusion. They are not mandatory (except by human fiat, which is usually ignored), and everybody’s […]

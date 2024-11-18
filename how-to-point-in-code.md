@@ -103,11 +103,7 @@ Maybe they need to go into intent...
 
 Regarding your question: my current plan is to make the inline comments optional. As you point out, this means people are free to omit them, making code no more expressive than it is today. However, I can't see a good justification for requiring them, for three reasons: 1) if code has good variable names, and a parenthesized expression is simple, the comment would often be redundant; 2) I have no algorithmic way to evaluate the appropriateness of the comment, so requiring something might just cause people to grumble and put in placeholder text; 3) although I want every place it code to be name-able, I don't want to require names everywhere. Some blocks may not be name-worthy.
 
----
 
-Taming Side Agreements | Codecraft (2014-10-28 08:35:56)
-
-[…] many of the subtleties I listed above, although I think docs and comments are often a band-aid. The proxy technique that I recommended, to codify human concerns in a codebase, is another way of adding sunshine. The […]
 
 ---
 

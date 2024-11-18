@@ -40,35 +40,15 @@ Perhaps you're saying to yourself: "Use the right tool for the right job. A prog
 <h3>Plugging the Gaps</h3>
 It doesn't have to be this way. If you're following my blog, you know that I've been designing a new programming language. One of its most important innovations offers a quantum leap in semantic density, without lots of noise or bother. I'll be explaining this feature, "marks," in a series of <a href="bridging-the-lacuna-humana.md">follow-on posts</a>. I hope you'll subscribe or check back to see where I'm headed.
 
----
 
-Mountains, Molehills, and Markedness | Codecraft (2014-07-28 08:44:36)
 
-[…] my previous three posts, I explained why the semantics of programming languages are not as rich as they could be. I pointed out some symptoms of that deficit, and then made recommendations about bridging the gap. […]
 
----
 
-Taming Side Agreements | Codecraft (2014-10-28 08:35:58)
 
-[…] although I think docs and comments are often a band-aid. The proxy technique that I recommended, to codify human concerns in a codebase, is another way of adding sunshine. The “marks” feature that I’m […]
 
----
 
-How to point in code | Codecraft (2014-09-25 08:39:07)
 
-[…] and triangulation still aren’t enough. I’ve alluded on previous posts to the idea that code should be able to describe constructs that are not coded today: use cases, personas, business requirements, […]
 
----
-
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:39)
-
-[…] can there be a version 2.0 if there’s nobody who understands the groundbreaking ideas in 1.0? A big part of creating lasting value is communicating so others can appreciate and build […]
-
----
-
-Exploring the Power of Deixis | Codecraft (2014-09-23 08:34:43)
-
-[…] happy–if a persona isn’t even a valid topic for your source code? (This is the whole lacuna humana topic that I recently […]
 
 ---
 
@@ -80,11 +60,7 @@ Can you give us your reasoning why a whole new language vs. extending an existin
 Also, what you've written so far reminds me of Donald Knuth and his "literate programming", which was intended to address your concerns about the human aspect of programming. If I understand correctly, in Knuth's system you write a document whose primary language is English (or Spanish or whatever your human language is) and the compiler extracts embedded code out of it and creates the program. That way the code and documentation are never far apart. Comments on that?
 David H
 
----
 
-AFK &amp; Reading Material | UpEndian (2014-07-17 07:58:31)
-
-[…] In the mean time, Daniel Hardman over at Codecraft has given the software devs among us some interesting thoughts to chew on: Lacunas Everywhere […]
 
 ---
 
@@ -96,20 +72,7 @@ In my next couple posts, I'll describe the solution. I've been slow to post, lat
 
 Your connection with Knuth is an interesting one. I've heard of literate programming, and I've read some stuff by him before, but I am not very familiar with the specific idea you describe, so now I've got a new homework assignment.
 
----
 
-In Which Warnings Evolve Wings | Codecraft (2014-08-06 08:46:10)
 
-[…] evidence that the compiler needs to know more about your intent. (Does this sound like the “lacuna humana” that I have been harping on […]
 
----
 
-Thoughts On Bridging the &#8220;Lacuna Humana&#8221; | Codecraft (2014-07-21 08:49:07)
-
-[…] my previous post, I discussed the semantic gaps that afflict current programming languages. These gaps are caused by […]
-
----
-
-Introducing Marks | Codecraft (2014-07-24 08:49:20)
-
-[…] my previous two posts (here and here), I described how and why programming languages can’t talk about many issues that […]

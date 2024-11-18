@@ -102,14 +102,5 @@ Daniel (2012-10-30 11:06:01)
 
 I saw you doing exactly this -- modeling good habits and trying to inspire your peers. Although you may not have made as much progress as you wanted, there is no doubt in my mind that you left things much better off than they would have been without that discipline. Thanks!
 
----
 
-My First Tangle With the Tower of Babel | Codecraft (2013-04-26 08:48:24)
 
-[...] or prevent them, and is the juice worth the squeeze? Can a language be immune to certain kinds of tech debt, by [...]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:58)
-
-[…] reason we don’t generalize is because we are being crushed by tech debt. We feel like we can’t afford it. This is a very real problem, but it is solvable–or at […]

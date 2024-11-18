@@ -52,14 +52,5 @@ Decoupling Interfaces as Versions Evolve, Part 3 &laquo; Software, Wetware, Webw
 
 [...] Interfaces as Versions Evolve, Part 3    This is part 3 of a series. You can read part 1 and part 2 as [...]
 
----
 
-Headers, babies, and bathwater | Codecraft (2013-08-12 11:02:36)
 
-[…] Compile the headers (not just the impl) into the final binaries to facilitate semantic versioning. […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:49:03)
-
-[…] codebase; to the extent that AOP is awkward, we are generalizing against the grain of our tools. Poor flexibility in interface evolution is endemic in nearly every programming framework; for no good reason, it prevents us from […]

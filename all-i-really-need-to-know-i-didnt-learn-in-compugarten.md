@@ -183,8 +183,3 @@ Competitive Understanding – Where the market’s going, who the players are, w
 
 Consistency!  Consistency!  Consistency!  - Repeatable, best-practice processes that ensure the success of each release.  Plow improvements into the process with each successive release.  You’d be surprised how few companies actually have good process in place, or how many have no process whatsoever.  Fly-by-the-seat of your pants programming doesn't cut it, unless you’re building your own Angry Birds knockoff in your basement for iTunes.
 
----
-
-Courage Counts | Codecraft (2013-05-31 08:33:40)
-
-[…] need to notice when fear is inhibiting necessary change, take a deep breath, and commit. (Too bad they don’t teach that to CS majors. […]

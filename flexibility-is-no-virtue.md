@@ -95,11 +95,7 @@ David H (2015-09-09 19:29:51)
 
 Wow you hit on another hot-button topic for me. Super-configurable flexibility really benefits most the ISV salesperson who gets paid when the deal is signed, not when the customer is happy nor when the company makes a profit. It's about attempting (vainly) to be all things to everyone. "It is a sign that you don’t know who your customer is, or what they want." -> Nailed it.
 
----
 
-A grumble about buckets | Codecraft (2015-04-08 13:39:35)
-
-[…] I’m grumbling about my choice of buckets, but in the end, it’s not the bucket menu, in and of itself, that bugs me. Like I said above, I get why developers might need to simplify. You can’t please everyone. […]
 
 ---
 

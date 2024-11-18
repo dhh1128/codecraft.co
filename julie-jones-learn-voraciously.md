@@ -87,11 +87,7 @@ Interrupting my interruptions &laquo; Codecraft (2013-01-24 11:48:54)
 
 [...] stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts are part of learning voraciously, which is a strategic imperative for any software [...]
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:09)
-
-[…] programmer who’s continually learning, and who’s plugged in to community best practice, is likely to contribute more value to his […]
 
 ---
 
@@ -105,38 +101,13 @@ Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:53)
 
 [...] We achieve something important, get enamored of our own success, and forget to be humble and to learn from others. [...]
 
----
 
-Programming Language Popularity Index | Codecraft (2013-05-31 01:28:45)
 
-[…] There are a lot of languages out there. What a busy world we live in! All the more reason to learn voraciously. […]
 
----
 
-Why you should be proficient in a tool like vim or emacs | Codecraft (2014-05-15 08:46:11)
 
-[…] the world that they’re doing themselves and their teammates a disservice if they don’t take the time to become proficient in a powerful text […]
 
----
 
-Steve Jackson: Lead with Passion | Codecraft (2013-09-30 11:49:43)
 
-[…] for Jackson meant that we were always reading a training book, attending a class, or otherwise learning how to be better.  Train your teams on your process, […]
 
----
 
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:46)
-
-[…] It might be possible to crank out dime-a-dozen websites without research or innovation, but most projects with genuine market value are broad enough that they demand more skills than exist in any one person. Wise developers (as opposed to simply clever ones) are humble and interested in learning. […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:41)
-
-[…] code is wisely generalized, maintenance goes down, testability goes up, and it’s easy to learn a correct mental model. The inverse is also true: bad choices about generalization usually hide the […]
-
----
-
-Are We Smart Enough to Use Kind Words? | Codecraft (2015-10-06 16:35:55)
-
-[…] is raising the experience, confidence, and courage of those around us; in doing so, we learn more ourselves, and we are usually repaid in spades. Over time, the output of a healthy community will […]

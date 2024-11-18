@@ -120,32 +120,11 @@ Daniel Hardman (2013-03-13 15:19:21)
 
 The internet is such a good example. Not only is TCP/IP amazingly simple (in concept, not necessarily in impl), but so is the HTTP protocol. It seems amazing to me that I ever lived without it. Thank you, Tim Berners-Lee and Roy Fielding and all the other smart people who achieved so much by simplifying so much!
 
----
 
-Small Files Are Your Friends | Codecraft (2013-03-21 08:55:47)
 
-[...] Another way to say this is that file boundaries are an encapsulation barrier. Use them to hide data. (See my recent post about encapsulation as a simplicity strategy.) [...]
 
----
 
-My First Tangle With the Tower of Babel | Codecraft (2013-04-26 08:48:28)
 
-[...] think the answer may lie in finding new accommodations for all the complexity we wrestle. New ways to think about concurrency, distributed architectures, [...]
 
----
 
-Why Your Software Should Cry | Codecraft (2013-05-06 11:50:46)
 
-[...] how much we can accomplish in a good script with a few lines of code. However, if we want to truly master the bewildering growth of complexity in the universe of bits and bytes, we need pain. And we need [...]
-
----
-
-A grumble about buckets | Codecraft (2015-04-08 13:39:18)
-
-[…] developers limit the choices that are offered to their users as a way to simplify. This can be a good thing; I’m a big fan of […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:48:37)
-
-[…] possible become unremarkable. It’s among the human mind’s most powerful techniques for coping with complexity, and it’s a hallmark of vigorous thinkers in any technical discipline. I like […]

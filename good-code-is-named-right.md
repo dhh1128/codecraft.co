@@ -29,8 +29,3 @@ The power of metaphor in code is so pervasive that it may be invisible unless yo
 <p style="text-align:center;padding-left:30px;"><span style="color:#000080;"><strong>Extra Credit</strong></span></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Find a place in code where you have a weak or inconsistent metaphor. List implications of that metaphor problem. Brainstorm improvements; if one of the improvements seems particularly helpful, implement it.</span></em></p>
 
----
-
-Exploring the Power of Deixis | Codecraft (2014-09-23 08:35:03)
-
-[…] than one name for the same item), because they understand that names may be temporary, and that some names are more intrinsic than others. Again, a programming ecosystem could facilitate […]

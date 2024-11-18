@@ -72,23 +72,11 @@ Why Software Artisans Should Manage Their Influence &laquo; Codecraft (2013-02-0
 
 [...] craftsmen, I see direct application of his thinking to our field. Since so much of what we do requires buy-in, coordination and shared mental models, we have to be savvy about how we communicate, advocate, and train. [...]
 
----
 
-My First Tangle With the Tower of Babel | Codecraft (2013-04-26 08:48:34)
 
-[...] distributed architectures, object lifecycle, and communication may be involved. A facilitation of system thinking may help. I’m now studying shared transactional memory, actor systems, variants of [...]
 
----
 
-What should code look like when we squint at it? | Codecraft (2013-09-19 08:23:07)
 
-[…] allow you to encapsulate and suppress details—but they don’t tell you how they fit into a gestalt. Tests as a form of documentation are helpful, but they make it even harder to distinguish major […]
-
----
-
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:35)
-
-[…] and like. This choice will pay off in enhanced teamwork benefits, and it will encourage the sort of broad, integrated thinking that characterizes the best software […]
 
 ---
 

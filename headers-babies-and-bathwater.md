@@ -76,11 +76,7 @@ Julie Jones (2013-09-10 23:15:45)
 
 I have been thinking about this from a different perspective, although it would be easy to extend to generating separate header files. I really like the self contained modules in languages like Java and C#. I think implementation in header files in C++ is a huge wart. What I want is everything in one file in one place. However, I want to be able to control the view of the module or class. When I look at is as client I just want to see the public interface (aka header). But when I need to see how something works I just want to drill down (think light table) and see more detail
 
----
 
-What should code look like when we squint at it? | Codecraft (2013-09-19 08:23:01)
-
-[…] by code flow or by structural role. Headers insulate you from some details of an implementation, as I’ve noted—but finding the “important” classes out of a sea of thousands is not particularly […]
 
 ---
 

@@ -43,11 +43,7 @@ Now I work at <a href="http://www.adaptivecomputing.com" target="_blank">Adaptiv
 	<li class="zemanta-article-ul-li"><a style="font-size:13px;" href="http://www.informationweek.com/big-data/news/big-data-analytics/dont-confuse-big-data-with-storage/240152455" target="_blank">Don't Confuse Big Data With Storage</a><span style="color:#333333;font-size:13px;"> (informationweek.com)</span></li>
 </ul>
 
----
 
-Big data will rewire your brain | Tim Batchelder.com (2013-04-09 10:15:51)
-
-[...] Big Crud Isn’t Big Data (codecraft.co) [...]
 
 ---
 
@@ -57,8 +53,3 @@ Data that isn't valuable today could be critical tomorrow, and getting rid of it
 
 I was really disappointed that Microsoft backed off of its ambitious WinFS project. It would have helped home users tame some of this ever-increasing data.
 
----
-
-Looking to the Future of Computing in a Big Data Environment | Data Center PostData Center Post (2014-03-17 02:31:07)
-
-[…] do is dump data onto massive tape libraries and archive it for a decade, it’s not really in the big data sweet spot. You may be wrestling data, and it may be big, but you’re not really pursuing the problem […]

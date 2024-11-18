@@ -99,11 +99,7 @@ Don&#8217;t forget the circuit breakers &laquo; Codecraft (2013-01-11 18:02:04)
 
 [...] macro scales, in ways that software barely begins to contemplate. In fact, homeostasis is one of life’s 8 key characteristics. I find it interesting that in many cases, life achieves this balance using feedback loops that [...]
 
----
 
-Adios to &#8220;computer programming&#8221; | Codecraft (2013-04-05 09:34:28)
-
-[...] is just as interconnected. Individual chunks of code depend on one another being alive, can poison one another’s environment, must respect the constraints implied by one [...]
 
 ---
 
@@ -120,29 +116,13 @@ Daniel Hardman (2013-03-16 14:24:56)
 
 It *is* fun to work on the front side of the curve. No doubt about it. We became engineers because we liked building something new and wonderful. I wish business people would let go of the misconception that once a feature has been built, it is "done"--and that it will continue to make them money in perpetuity. The truth is, features have carrying costs, and the health of a codebase requires steady maintenance and periodic upgrades.
 
----
 
-Farewell to Google Reader | Codecraft (2013-03-14 17:18:50)
 
-[...] this is a great illustration of the phenomenon of software death that I wrote about a few months [...]
 
----
 
-Why Your Software Should Cry | Codecraft (2013-05-06 11:50:37)
 
-[...] to stimuli is one of the 8 characteristics of life. That means that living things are aware, in some sense, of their relationship to the larger [...]
 
----
 
-On pains and brains | Codecraft (2016-01-01 14:30:16)
-
-[…] or identified success criteria for install+configure phases of the system, or surfaced symptoms of system obsolescence and death that its owners should […]
-
----
-
-&#8220;Rockstar Developers&#8221; are a dangerous myth | Codecraft (2015-03-05 20:15:33)
-
-[…] doing the hard, unrewarding detail work to guarantee that their needs are addressed throughout the full lifecycle of what you build is usually way more important than inventing a new and mind-bending algorithm. Addressing the need […]
 
 ---
 

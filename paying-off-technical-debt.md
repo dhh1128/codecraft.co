@@ -124,38 +124,13 @@ Kerry (2013-03-21 11:40:46)
 
 Greetings from Colorado! I'm bored to death at work so I decided to browse your website on my iphone during lunch break. I really like the discussion of programming comments you provide here and can't wait to read more. Anyhow, awesome blog!
 
----
 
-Why you should use an IDE instead of vim or emacs | Codecraft (2014-05-13 10:16:44)
 
-[…] find it easier to generate momentum on unit tests, to eliminate fear of ambitious refactors, and to see their way past nagging tech debt. However, bigger concerns have kept me from pushing them hard in that […]
 
----
 
-Courage Counts | Codecraft (2013-05-31 08:33:33)
 
-[…] “Nobody will buy into the need to pay down technical debt.” […]
 
----
 
-Features are not chunks of code | Codecraft (2013-07-25 11:19:49)
 
-[…] never “done.” Sticking our heads in the sand to avoid this truth is a surefire way to incur tech debt, and not accounting for it with each release is a sin of […]
 
----
 
-How to make a const-correct codebase in 4300 easy steps | Codecraft (2014-03-25 11:44:42)
-
-[…] something right is cheaper and a whole lot less hassle than fixing an antipattern once it’s firmly entrenched. We’ll never get away from refactoring (nor would we want to)–but it pays to establish […]
-
----
-
-Technical Debt is not only a "Technical" Problem | On Technical Debt (2015-07-06 11:05:33)
-
-[…] To read the full post visit here. […]
-
----
-
-On Forests and Trees | Codecraft (2015-09-02 08:49:00)
-
-[…] One reason we don’t generalize is because we are being crushed by tech debt. We feel like we can’t afford it. This is a very real problem, but it is solvable–or at least improvable. […]

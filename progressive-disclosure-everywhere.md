@@ -74,14 +74,5 @@ I have some ideas about how progressive disclosure might manifest more cleanly i
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Analyze a piece of code with progressive disclosure lenses. What do you (what does the compiler) have to know about this code to interact with it successfully? For example, does a C++ header #include a bunch of other headers when it could use a forward declaration instead? Could you use the pimpl idiom to decrease what's exposed? Is there a class that should be used through an interface? Do the comments and names disclose the right amount of detail in the right places?</span></em></p>
 
----
 
-What should code look like when we squint at it? | Codecraft (2013-09-19 08:22:54)
 
-[…] maybe, profound—how nicely this piece of advice maps onto the design principle of progressive disclosure. The human mind is simply wired to perceive in broad outlines, and then to gradually clarify, a few […]
-
----
-
-Headers, babies, and bathwater | Codecraft (2013-08-12 11:02:29)
-
-[…] is the the first baby that’s being thrown out with the bathwater. Think progressive disclosure: headers could dramatically simplify what a consumer of code has to wade through. If they worked […]
