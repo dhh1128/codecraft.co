@@ -50,11 +50,11 @@ Thinking outside the box pays big dividends.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify one way that you can learn something about the problem domain of a team other than your own. Pay the price for that learning. Then put your investment to good use.</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="encapsulation-breaking.md" target="_blank">Encapsulation Breaking</a> (dailyjs.com)</li>
-	<li class="zemanta-article-ul-li"><a href="touching-the-stove.md" target="_blank">Touching the stove, broken glass, and other people's mistakes</a> (philcrissman.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://architects.dzone.com/articles/breaking-ioc-containers" target="_blank">Breaking Up with IoC Containers</a> (architects.dzone.com)</li>
+	<li><a href="encapsulation-breaking.md" target="_blank">Encapsulation Breaking</a> (dailyjs.com)</li>
+	<li><a href="touching-the-stove.md" target="_blank">Touching the stove, broken glass, and other people's mistakes</a> (philcrissman.com)</li>
+	<li><a href="http://architects.dzone.com/articles/breaking-ioc-containers" target="_blank">Breaking Up with IoC Containers</a> (architects.dzone.com)</li>
 </ul>
 
 ---

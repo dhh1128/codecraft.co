@@ -192,9 +192,9 @@ Don't get me wrong--we need comments. I am a big advocate. I just wish we didn't
 <hr style="width:200px;" />
 <p style="padding-left:30px;">[1<a name="footnote1"></a>] I found a youtube clip where Quayle says "pull a Bill Clinton on me", but I can't find one for "pull a Slick Willy on me". Maybe I'm remembering it wrong. Either way, the linguistic phenomenon is the same.</p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.codinghorror.com/blog/2008/07/coding-without-comments.html" target="_blank">Coding Without Comments</a> (codinghorror.com)</li>
+	<li><a href="http://www.codinghorror.com/blog/2008/07/coding-without-comments.html" target="_blank">Coding Without Comments</a> (codinghorror.com)</li>
 </ul>
 
 ---

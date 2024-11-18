@@ -42,10 +42,10 @@ So I've had my first tangle with the Tower of Babel, and I'm now in ponder mode.
 I think the answer may lie in <a title="6 Strategies to Simplify Software" href="smart-geeks-think-like-cheerleaders.md">system thinking</a> may help. I'm now studying shared transactional memory, actor systems, variants of declarative programming, and so forth. I'm not sure where I'll end up, but I plan to blog about my discoveries as I go along. Look for posts in the "better programming language" category...
 
 I am also very interested in your insights. <span style="color:#000080;">What do you think would make a new programming language not just fun or interesting, but so compelling that you'd have to master it and tell all your friends?</span>
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="language-rankings-1-13.md" target="_blank">popularity</a> (redmonk.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.javacodegeeks.com/2013/04/choosing-a-programming-language.html" target="_blank">Choosing a Programming Language</a> (javacodegeeks.com)</li>
+	<li><a href="language-rankings-1-13.md" target="_blank">popularity</a> (redmonk.com)</li>
+	<li><a href="http://www.javacodegeeks.com/2013/04/choosing-a-programming-language.html" target="_blank">Choosing a Programming Language</a> (javacodegeeks.com)</li>
 </ul>
 
 

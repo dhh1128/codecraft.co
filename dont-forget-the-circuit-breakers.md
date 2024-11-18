@@ -28,12 +28,12 @@ We need software built with this same "expect failure and plan to handle it" min
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Next time you are designing an interaction with an external component or subsystem, consider implementing a circuit breaker to make the interaction less fragile and more prone to auto-balancing.</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="circuit-breakers-the-very-basics-part-1.md" target="_blank">Circuit Breakers - The Very Basics Part 1</a> (scottladwig.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://seekingalpha.com/article/1000781-the-secret-to-hvdc-grids-abb-unveils-hvdc-circuit-breaker?source=feed" target="_blank">The Secret To HVDC Grids: ABB Unveils HVDC Circuit Breaker</a> (seekingalpha.com)</li>
-	<li class="zemanta-article-ul-li"><a href="why-exchanges-should-be-forced-to-use-open-source-software.md" target="_blank">Why exchanges should be forced to use open source software</a> (jrvarma.wordpress.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.h-online.com/open/news/item/Netflix-open-sources-Hystrix-resilience-library-1757427.html" target="_blank">Netflix open sources Hystrix resilience library</a> (h-online.com)</li>
+	<li><a href="circuit-breakers-the-very-basics-part-1.md" target="_blank">Circuit Breakers - The Very Basics Part 1</a> (scottladwig.com)</li>
+	<li><a href="http://seekingalpha.com/article/1000781-the-secret-to-hvdc-grids-abb-unveils-hvdc-circuit-breaker?source=feed" target="_blank">The Secret To HVDC Grids: ABB Unveils HVDC Circuit Breaker</a> (seekingalpha.com)</li>
+	<li><a href="why-exchanges-should-be-forced-to-use-open-source-software.md" target="_blank">Why exchanges should be forced to use open source software</a> (jrvarma.wordpress.com)</li>
+	<li><a href="http://www.h-online.com/open/news/item/Netflix-open-sources-Hystrix-resilience-library-1757427.html" target="_blank">Netflix open sources Hystrix resilience library</a> (h-online.com)</li>
 </ul>
 
 ---

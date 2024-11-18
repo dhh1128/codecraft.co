@@ -15,8 +15,8 @@ In an interesting example of science fiction becoming reality, a group of resear
 I believe this sort of technological evolution is the wave of the future. It represents a promising confluence of cloud computing, distributed architecture, big data, hadoop-like map-reduce, supercomputing, ubiquitous internet connectivity, and the every-device-has-an-IP-address promise of IPv6. It would be nice if my next Roomba didn't have to relearn the floorplan of my house, but could simply download knowledge that the older model has laboriously developed. I'll bet over the next decade, the market will discover hundreds of variations on that theme.
 
 I just hope we're smart enough to stop before robots start frittering away their time clicking cows on Facebook... :-)
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.philipkdickfans.com/mirror/websites/pkdweb/Man,%20Android%20and%20Machine.htm" target="_blank">Man, Android and Machine</a> (philipkdickfans.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.hpcinthecloud.com/hpccloud/2013-03-11/robots_of_the_world_unite.html" target="_blank">Robots of the World Unite</a> (hpcinthecloud.com)</li>
+	<li><a href="http://www.philipkdickfans.com/mirror/websites/pkdweb/Man,%20Android%20and%20Machine.htm" target="_blank">Man, Android and Machine</a> (philipkdickfans.com)</li>
+	<li><a href="http://www.hpcinthecloud.com/hpccloud/2013-03-11/robots_of_the_world_unite.html" target="_blank">Robots of the World Unite</a> (hpcinthecloud.com)</li>
 </ul>

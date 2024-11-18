@@ -53,11 +53,11 @@ Smart geeks think like cheerleaders!
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Create a new kind of architecture diagram that shows how </em>all<em> the parts of your system are related--not just the software components, but the people who create requirements, the sales force, the dev team, the executives, support, customers,  your CRM or ERP apps... Instead of arrows for "is-a" or "one-to-many", how about arrows for "provides moral support" and "keeps the lights on" and "frees me to concentrate on the kind of problem I like best"? How is this system compensating for minor imperfections in individual performers? How can you add to its symmetry and synchronization?</em></span></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.thinking.net/Systems_Thinking/st_innovation_990401.pdf" target="_blank">Using Systems Thinking to Increase the Benefits of Innovation Efforts</a> (thinking.net)</li>
-	<li class="zemanta-article-ul-li"><a href="http://youtu.be/pElXE9DI9e4" target="_blank">Systems Thinking</a> (ideasresearch on youtube)</li>
-	<li class="zemanta-article-ul-li"><a href="http://h30507.www3.hp.com/t5/Transforming-IT-Blog/System-thinking-in-the-cloud-world-the-secret-to-a-successful/ba-p/110869" target="_blank">System thinking in the cloud world: the secret to a successful cloud roadmap</a> (HP Blogs)</li>
+	<li><a href="http://www.thinking.net/Systems_Thinking/st_innovation_990401.pdf" target="_blank">Using Systems Thinking to Increase the Benefits of Innovation Efforts</a> (thinking.net)</li>
+	<li><a href="http://youtu.be/pElXE9DI9e4" target="_blank">Systems Thinking</a> (ideasresearch on youtube)</li>
+	<li><a href="http://h30507.www3.hp.com/t5/Transforming-IT-Blog/System-thinking-in-the-cloud-world-the-secret-to-a-successful/ba-p/110869" target="_blank">System thinking in the cloud world: the secret to a successful cloud roadmap</a> (HP Blogs)</li>
 </ul>
 
 ---

@@ -49,9 +49,9 @@ I'd like to hear about other connections you see. Please comment. (See how I'm p
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Do a post-mortem on a recent conversation you've had--perhaps something like the estimation example I gave above. What questions could you have asked to deliver greater value faster? Could you have anticipated the conversation and prepped for it, like our zen master?</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.nj.com/news/index.ssf/2012/10/nutty.html" target="_blank" rel="noopener">Nutty: Squirrel responsible for Amtrak delays along Northeast corridor</a> (nj.com)</li>
+	<li><a href="http://www.nj.com/news/index.ssf/2012/10/nutty.html" target="_blank" rel="noopener">Nutty: Squirrel responsible for Amtrak delays along Northeast corridor</a> (nj.com)</li>
 </ul>
 
 

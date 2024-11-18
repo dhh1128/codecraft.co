@@ -48,11 +48,11 @@ Bottom line: part of your job as a designer/architect is to understand these iss
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Analyze the amount of RAM, CPU, or disk that your program uses at several different scales. Is the curve linear, exponential, logarithmic, a stair-step? What does this tell you about business goals like selling to bigger customers?</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://spinnakr.com/blog/ideas/2012/12/three-big-economic-fallacies-behind-growth-hacking/" target="_blank">Three Big Economic Fallacies Behind Growth Hacking</a> (spinnakr.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://dead-logic.blogspot.com/2012/12/path-of-critical-thinker-meow.html" target="_blank">Path of a Critical Thinker (Meow)</a> (dead-logic.blogspot.com)</li>
-	<li class="zemanta-article-ul-li"><a href="what-fred-wilson-and-the-vcs-dont-get-about-advertising.md" target="_blank">What Fred Wilson and the VCs don't get about advertising</a> (pandodaily.com)</li>
+	<li><a href="http://spinnakr.com/blog/ideas/2012/12/three-big-economic-fallacies-behind-growth-hacking/" target="_blank">Three Big Economic Fallacies Behind Growth Hacking</a> (spinnakr.com)</li>
+	<li><a href="http://dead-logic.blogspot.com/2012/12/path-of-critical-thinker-meow.html" target="_blank">Path of a Critical Thinker (Meow)</a> (dead-logic.blogspot.com)</li>
+	<li><a href="what-fred-wilson-and-the-vcs-dont-get-about-advertising.md" target="_blank">What Fred Wilson and the VCs don't get about advertising</a> (pandodaily.com)</li>
 </ul>
 
 ---

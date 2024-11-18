@@ -79,11 +79,11 @@ And keep swimming. :-)
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="text-align:left;padding-left:30px;"><em><span style="color:#000080;">Find a good coding habit that you've neglected, and re-commit to do it with discipline and vision.</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.eric.ed.gov/ERICWebPortal/search/detailmini.jsp?_nfpb=true&_&ERICExtSearch_SearchValue_0=ED102937&ERICExtSearch_SearchType_0=no&accno=ED102937" target="_blank">Determinants of Learned Helplessness in Problem Solving</a> (eric.ed.gov)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.kitsapsun.com/news/2012/nov/23/gino-grunberg-your-glass-half-empty-or-half-full/?partner=RSS" target="_blank">Is your glass half empty or half full?</a> (kitsapsun.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.nytimes.com/2011/05/30/opinion/30krugman.html" target="_blank">"Against Learned Helplessness"</a> (nytimes.com)</li>
+	<li><a href="http://www.eric.ed.gov/ERICWebPortal/search/detailmini.jsp?_nfpb=true&_&ERICExtSearch_SearchValue_0=ED102937&ERICExtSearch_SearchType_0=no&accno=ED102937" target="_blank">Determinants of Learned Helplessness in Problem Solving</a> (eric.ed.gov)</li>
+	<li><a href="http://www.kitsapsun.com/news/2012/nov/23/gino-grunberg-your-glass-half-empty-or-half-full/?partner=RSS" target="_blank">Is your glass half empty or half full?</a> (kitsapsun.com)</li>
+	<li><a href="http://www.nytimes.com/2011/05/30/opinion/30krugman.html" target="_blank">"Against Learned Helplessness"</a> (nytimes.com)</li>
 </ul>
 
 ---

@@ -11,13 +11,13 @@ Although Godin isn't speaking specifically about software craftsmen, I see direc
 Have you considered how to grow your influence? Do you have a plan?
 
 <figure><img src="http://imgs.xkcd.com/comics/bridge.png" width="500" height="161" /><figcaption>Influence doesn't always work the way we expect. :-) Image credit: xkcd</figcaption></figure>
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="seth-godin-how-to-get-your-ideas-to-spread.md" target="_blank">Seth Godin - How to get your ideas to spread</a> (popalx.wordpress.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.twistimage.com/blog/archives/the-end-of-permission/" target="_blank">The End Of Permission | Six Pixels of Separation - Marketing and Communications Blog - By Mitch Joel at Twist Image</a> (twistimage.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://sanderssays.typepad.com/sanders_says/2010/02/a-few-minutes-with-seth-godin-ted.html" target="_blank">A few minutes with Seth Godin @ TED</a> (sanderssays.typepad.com)</li>
-	<li class="zemanta-article-ul-li"><a href="domo-social-josh-james.md" target="_blank">Domo's Josh James: We're making every employee embrace social media, and it's paying off</a> (techcrunch.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.informationweek.com/global-cio/interviews/tell-me-again-why-ceos-should-tweet/240144283?cid=RSSfeed_IWK_All" target="_blank">Tell Me Again Why CEOs Should Tweet</a> (informationweek.com)</li>
+	<li><a href="seth-godin-how-to-get-your-ideas-to-spread.md" target="_blank">Seth Godin - How to get your ideas to spread</a> (popalx.wordpress.com)</li>
+	<li><a href="http://www.twistimage.com/blog/archives/the-end-of-permission/" target="_blank">The End Of Permission | Six Pixels of Separation - Marketing and Communications Blog - By Mitch Joel at Twist Image</a> (twistimage.com)</li>
+	<li><a href="http://sanderssays.typepad.com/sanders_says/2010/02/a-few-minutes-with-seth-godin-ted.html" target="_blank">A few minutes with Seth Godin @ TED</a> (sanderssays.typepad.com)</li>
+	<li><a href="domo-social-josh-james.md" target="_blank">Domo's Josh James: We're making every employee embrace social media, and it's paying off</a> (techcrunch.com)</li>
+	<li><a href="http://www.informationweek.com/global-cio/interviews/tell-me-again-why-ceos-should-tweet/240144283?cid=RSSfeed_IWK_All" target="_blank">Tell Me Again Why CEOs Should Tweet</a> (informationweek.com)</li>
 </ul>
 
 ---

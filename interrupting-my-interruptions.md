@@ -48,12 +48,12 @@ I'll report back to you if I discover anything helpful as I work this problem. W
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">I'd really like to hear your ideas on this topic. Do you have silver bullets that kill the interruption problem? If so, please share! Or if you want to chime in with your own 12-step-style confession, I'm all ears as well...</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.futureof.biz/post/38059568953/office-workers-are-interrupted-or" target="_blank">"Office workers are interrupted - or self-interrupt - roughly every three minutes, academic studies have..."</a> (futureof.biz)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.stevepavlina.com/blog/2013/01/please-dont-interrupt/" target="_blank">Please Don't Interrupt</a> (stevepavlina.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://scienceblog.com/58928/brief-interruptions-spawn-errors/" target="_blank">Brief interruptions spawn errors</a><span style="color:#333333;"> (scienceblog.com)</span></li>
-	<li class="zemanta-article-ul-li"><a href="how-to-manage-your-time-better-at-work.md" target="_blank">How To Manage Your Time Better At Work</a> (minnesota.cbslocal.com)</li>
+	<li><a href="http://www.futureof.biz/post/38059568953/office-workers-are-interrupted-or" target="_blank">"Office workers are interrupted - or self-interrupt - roughly every three minutes, academic studies have..."</a> (futureof.biz)</li>
+	<li><a href="http://www.stevepavlina.com/blog/2013/01/please-dont-interrupt/" target="_blank">Please Don't Interrupt</a> (stevepavlina.com)</li>
+	<li><a href="http://scienceblog.com/58928/brief-interruptions-spawn-errors/" target="_blank">Brief interruptions spawn errors</a><span style="color:#333333;"> (scienceblog.com)</span></li>
+	<li><a href="how-to-manage-your-time-better-at-work.md" target="_blank">How To Manage Your Time Better At Work</a> (minnesota.cbslocal.com)</li>
 </ul>
 
 ---

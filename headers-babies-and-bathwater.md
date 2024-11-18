@@ -64,10 +64,10 @@ Every time a compiler processes code, have it generate from the implementation a
 	<li>Distinguish between public and private comments (using something a little slicker than javadoc), so that comments from the implementation can be carried across to the header as well.</li>
 </ul>
 I'm not sure headers like this would be worth creating for python, which often has code that's so simple it doesn't need a summary. But for large, complex codebases, I think this would be a real boon. If you've ever had to wrestle your way through half a million lines of C or java or C# without good headers, I'm guessing you know what I mean.
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://stackoverflow.com/questions/18058937/how-do-compilers-know-when-not-to-recompile" target="_blank">How do compilers know when not to recompile?</a> (stackoverflow.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://stackoverflow.com/questions/3935183/forward-declaration-include-on-top-of-declaration-include-classfwd-h-class-h" target="_blank">Forward declarations and #include</a> (stackoverflow.com)</li>
+	<li><a href="http://stackoverflow.com/questions/18058937/how-do-compilers-know-when-not-to-recompile" target="_blank">How do compilers know when not to recompile?</a> (stackoverflow.com)</li>
+	<li><a href="http://stackoverflow.com/questions/3935183/forward-declaration-include-on-top-of-declaration-include-classfwd-h-class-h" target="_blank">Forward declarations and #include</a> (stackoverflow.com)</li>
 </ul>
 
 ---

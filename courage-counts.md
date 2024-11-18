@@ -99,10 +99,10 @@ I'm going to make a conscious effort to notice when I'm listening to fear more t
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Find a moment when courage counts, and seize it. Celebrate the success of the commitment, regardless of the outcome.</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="practicing-courage.md" target="_blank">Practicing Courage</a> (slaw.ca)</li>
-	<li class="zemanta-article-ul-li"><a href="https://plus.google.com/110981030061712822816/posts/KaSKeg4vQtz" target="_blank">Notes from the Mystery Machine Bus</a> (Steve Yegge, Google +)</li>
+	<li><a href="practicing-courage.md" target="_blank">Practicing Courage</a> (slaw.ca)</li>
+	<li><a href="https://plus.google.com/110981030061712822816/posts/KaSKeg4vQtz" target="_blank">Notes from the Mystery Machine Bus</a> (Steve Yegge, Google +)</li>
 </ul>
 
 

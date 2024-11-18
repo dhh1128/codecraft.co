@@ -23,10 +23,10 @@ I have seen this happen over and over and over again. Late optimization, while s
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Find a notoriously sub-optimized function in your code. Study how its existence in non-optimal form has influenced how other code has evolved.</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.antognini.ch/2013/03/premature-optimization/" target="_blank">Premature Optimization</a> (antognini.ch)</li>
-	<li class="zemanta-article-ul-li"><a href="http://michaelfeathers.typepad.com/michael_feathers_blog/2013/01/refactoring-is-sloppy.html" target="_blank">Refactoring is Sloppy</a> (michaelfeathers.typepad.com)</li>
+	<li><a href="http://www.antognini.ch/2013/03/premature-optimization/" target="_blank">Premature Optimization</a> (antognini.ch)</li>
+	<li><a href="http://michaelfeathers.typepad.com/michael_feathers_blog/2013/01/refactoring-is-sloppy.html" target="_blank">Refactoring is Sloppy</a> (michaelfeathers.typepad.com)</li>
 </ul>
 
 ---

@@ -24,14 +24,14 @@ Here are 6 key questions to kick-start your pondering:
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Make a list of a handful of important risks from your customer's perspective. How many of them can you help with?</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.sys-con.com/node/2528403" target="_blank">Cloud Computing Service Models</a> (sys-con.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://cloudcomputing.sys-con.com/node/2539596" target="_blank">Cloud Compliance in IaaS Is Mainly Your Responsibility</a> (cloudcomputing.sys-con.com)</li>
-	<li class="zemanta-article-ul-li"><a style="font-size:13px;line-height:19px;" href="the-enterprise-hey-aws-you-wanna-piece-of-me.md" target="_blank">AWS Needs To Figure Out Its Enterprise Plan</a><span style="color:#333333;font-size:13px;line-height:19px;"> (techcrunch.com)</span></li>
-	<li class="zemanta-article-ul-li"><a href="top-5-benefits-of-effective-risk-management.md" target="_blank">Top 5 Benefits of Effective Risk Management</a> (precision-blog.com)</li>
-	<li class="zemanta-article-ul-li"><a href="clouds-without-fear-the-big-bang-theory-of-cloud-sprawl.md" target="_blank">Clouds Without Fear: The Big Bang Theory of Cloud Sprawl</a> (devopsangle.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://blogs.gartner.com/chris-gaun/how-can-public-clouds-reduce-business-risk-for-users/" target="_blank">How Can Public Clouds Reduce Business Risk For Users?</a> (blogs.gartner.com)</li>
+	<li><a href="http://www.sys-con.com/node/2528403" target="_blank">Cloud Computing Service Models</a> (sys-con.com)</li>
+	<li><a href="http://cloudcomputing.sys-con.com/node/2539596" target="_blank">Cloud Compliance in IaaS Is Mainly Your Responsibility</a> (cloudcomputing.sys-con.com)</li>
+	<li><a style="font-size:13px;line-height:19px;" href="the-enterprise-hey-aws-you-wanna-piece-of-me.md" target="_blank">AWS Needs To Figure Out Its Enterprise Plan</a><span style="color:#333333;font-size:13px;line-height:19px;"> (techcrunch.com)</span></li>
+	<li><a href="top-5-benefits-of-effective-risk-management.md" target="_blank">Top 5 Benefits of Effective Risk Management</a> (precision-blog.com)</li>
+	<li><a href="clouds-without-fear-the-big-bang-theory-of-cloud-sprawl.md" target="_blank">Clouds Without Fear: The Big Bang Theory of Cloud Sprawl</a> (devopsangle.com)</li>
+	<li><a href="http://blogs.gartner.com/chris-gaun/how-can-public-clouds-reduce-business-risk-for-users/" target="_blank">How Can Public Clouds Reduce Business Risk For Users?</a> (blogs.gartner.com)</li>
 </ul>
 
 ---

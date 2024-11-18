@@ -42,11 +42,11 @@ Even if the process is a bit grisly.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Examine your current product through the lens of disruptive innovation (described by <a class="zem_slink" title="Clayton M. Christensen" href="http://www.claytonchristensen.com" rel="homepage" target="_blank">Clayton Christensen</a> in The <a class="zem_slink" title="Disruptive technology" href="http://en.wikipedia.org/wiki/Disruptive_technology" rel="wikipedia" target="_blank">Innovator's Dilemma</a> and graphed above). Are you new and disruptive, long-in-the-tooth, or somewhere else? What does this suggest about wise strategy?</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.prweb.com/releases/prwebUnitrends/Backup-Solutions/prweb8087707.htm" target="_blank">Health Care Facility Replaces Symantec Backup Exec With Unitrends for Improved Feature Set and Reduced Man Hours</a> (prweb.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.it-sideways.com/2012/08/symantec-integrates-into-vmware.html" target="_blank">Symantec Integrates Into VMWare</a> (it-sideways.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://go.theregister.com/feed/www.theregister.co.uk/2012/08/30/quantum_q_cloud/" target="_blank">Quantum sends out cheap 'n' fast newbie to beat off Amazon's Glacier</a> (go.theregister.com)</li>
+	<li><a href="http://www.prweb.com/releases/prwebUnitrends/Backup-Solutions/prweb8087707.htm" target="_blank">Health Care Facility Replaces Symantec Backup Exec With Unitrends for Improved Feature Set and Reduced Man Hours</a> (prweb.com)</li>
+	<li><a href="http://www.it-sideways.com/2012/08/symantec-integrates-into-vmware.html" target="_blank">Symantec Integrates Into VMWare</a> (it-sideways.com)</li>
+	<li><a href="http://go.theregister.com/feed/www.theregister.co.uk/2012/08/30/quantum_q_cloud/" target="_blank">Quantum sends out cheap 'n' fast newbie to beat off Amazon's Glacier</a> (go.theregister.com)</li>
 </ul>
 
 ---

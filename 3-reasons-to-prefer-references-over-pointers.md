@@ -47,10 +47,10 @@ This is a huge deal. If you haven't already fallen in love with the performance 
 If you think I'm a reference bigot, then I've failed. Pointers and references are just alternate incarnations of indirection, which (as my friend Moray is fond of pointing out) is one of the truly foundational techniques of CS. It's amazing how much more tractable certain problems become when you add a layer of indirection. And pointers were my first experience with the technique, so I can't help but be a fan. Besides the virtues of mutability and nullability, pointers are the easiest way to work with classes of functions having a common signature, and they are used in many advanced idioms. If you looked at my code, you'd see that I still use pointers in C-like ways sometimes. For example, I think functions that take a const char * instead of a std::string const & may make sense in many cases, depending on how layers are organized and how the parameters are used.
 
 But I now try to use references wherever they seem to fit; if I can use either, I always prefer references. I think it makes my code more robust and cleaner--and it sets me up for good performance optimizations in the future.
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="c-explained-object-initialization-and-assignment-lvalues-and-rvalues-copy-and-move-semantics-and-the-copy-and-swap-idiom.md" target="_blank">C++ Explained: Object initialization and assignment, lvalues and rvalues, copy and move semantics and the copy-and-swap idiom</a> (katyscode.wordpress.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://stackoverflow.com/questions/15188894/why-doesnt-polymorphism-work-without-pointers-references" target="_blank">Why doesn't polymorphism work without pointers/references?</a> (stackoverflow.com)</li>
+	<li><a href="c-explained-object-initialization-and-assignment-lvalues-and-rvalues-copy-and-move-semantics-and-the-copy-and-swap-idiom.md" target="_blank">C++ Explained: Object initialization and assignment, lvalues and rvalues, copy and move semantics and the copy-and-swap idiom</a> (katyscode.wordpress.com)</li>
+	<li><a href="http://stackoverflow.com/questions/15188894/why-doesnt-polymorphism-work-without-pointers-references" target="_blank">Why doesn't polymorphism work without pointers/references?</a> (stackoverflow.com)</li>
 </ul>
 
 ---

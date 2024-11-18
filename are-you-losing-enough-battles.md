@@ -21,12 +21,12 @@ Losing an occasional battle keeps us <a title="Humility" href="users-arent-the-o
 Go try. A lost battle of the sort we fight with software is never an Antietam or Gettysburg.
 
 “To live a creative life, we must lose our fear of being wrong.” Joseph Chilton Pearce.
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="lincoln-cabinet-discusses-possible-embarrassment-of-general-george-b-mcclellan.md" target="_blank">Lincoln Cabinet discusses possible embarrassment of General George B. McClellan</a> (abrahamlincolnandthecivilwar.wordpress.com)</li>
-	<li class="zemanta-article-ul-li"><a href="take-action-now.md" target="_blank">Take Action Now</a> (theproducermaker.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://www.inc.com/steve-cody/lessons-from-abraham-lincoln.html" target="_blank">6 Publicity Lessons From Abraham Lincoln</a> (inc.com)</li>
-	<li class="zemanta-article-ul-li"><a href="http://grasshopper.com/blog/2011/01/the-future-is-now-infographic/" target="_blank">The Future is Now [Infographic]</a> (grasshopper.com)</li>
+	<li><a href="lincoln-cabinet-discusses-possible-embarrassment-of-general-george-b-mcclellan.md" target="_blank">Lincoln Cabinet discusses possible embarrassment of General George B. McClellan</a> (abrahamlincolnandthecivilwar.wordpress.com)</li>
+	<li><a href="take-action-now.md" target="_blank">Take Action Now</a> (theproducermaker.com)</li>
+	<li><a href="http://www.inc.com/steve-cody/lessons-from-abraham-lincoln.html" target="_blank">6 Publicity Lessons From Abraham Lincoln</a> (inc.com)</li>
+	<li><a href="http://grasshopper.com/blog/2011/01/the-future-is-now-infographic/" target="_blank">The Future is Now [Infographic]</a> (grasshopper.com)</li>
 </ul>
 
 ---

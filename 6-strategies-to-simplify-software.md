@@ -76,9 +76,9 @@ Perhaps Leonardo da Vinci said it best: "Simplicity is the ultimate sophisticati
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify a metaphor that's important to your architecture. Find at least one other metaphor that you could use to replace it. Spend 5 minutes exploring the alternate metaphor. Do you see strengths, weaknesses, opportunities, and threats to your architecture in new ways?</span></em></p>
 
-<h6 class="zemanta-related-title" style="font-size:1em;">Related articles</h6>
+<h6 style="font-size:1em;">Related articles</h6>
 <ul class="zemanta-article-ul">
-	<li class="zemanta-article-ul-li"><a href="http://www.jbox.dk/quotations.htm" target="_blank"><span style="font-size:small;"><span style="line-height:19px;">Quotations on simplicity in software design</span></span><span style="color:#333333;font-size:13px;line-height:19px;"> (jbox.dk)</span></a></li>
+	<li><a href="http://www.jbox.dk/quotations.htm" target="_blank"><span style="font-size:small;"><span style="line-height:19px;">Quotations on simplicity in software design</span></span><span style="color:#333333;font-size:13px;line-height:19px;"> (jbox.dk)</span></a></li>
 </ul>
 
 ---
