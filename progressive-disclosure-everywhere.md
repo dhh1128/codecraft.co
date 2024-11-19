@@ -6,7 +6,7 @@ redirect_from:
   - /2012/09/16/progressive-disclosure-everywhere
 ---
 
-If you google "progressive disclosure," you'll get hits that describe the phrase as an interaction design technique. UI folks have long recognized that it's better to show a simple set of options, and allow users to drill into greater detail only when they need it. (Thanks to James Russell--a brilliant UI designer--for teaching me PD years ago.)
+If you google "progressive disclosure," you'll get hits that describe the phrase as an interaction design technique. UI folks have long recognized that it's better to show a simple set of options, and allow users to drill into greater detail only when they need it. (Thanks to James Russell &mdash; a brilliant UI designer &mdash; for teaching me PD years ago.)
 
 But calling progressive disclosure a "technique" is, I think, a serious understatement. Progressive disclosure aligns with a profound cognitive principle, and its use is (and should be) pervasive, if you have eyes to see.
 
@@ -26,13 +26,13 @@ Good conversationalists don't gush forever on a topic. They throw out an observa
 
 The development of a complex organism from a one-celled zygote, through differentiation and all subsequent phases, into adulthood, could be considered a progressive disclosure of the patterns embedded in its DNA. The recursive incorporation of the golden mean in many morphologies is another tie to biology.
 
-<figure><img class="  " title="nautilus shell" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/635px-NautilusCutawayLogarithmicSpiral.jpg" alt="" width="356" height="269" /><figcaption>A nautilus grows--progressively discloses--the protective covering it requires over its lifespan. The golden mean, repeated and repeated... Photo credit: Wikimedia Commons.</figcaption></figure>
+<figure><img class="  " title="nautilus shell" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/635px-NautilusCutawayLogarithmicSpiral.jpg" alt="" width="356" height="269" /><figcaption>A nautilus grows &mdash; progressively discloses &mdash; the protective covering it requires over its lifespan. The golden mean, repeated and repeated... Photo credit: Wikimedia Commons.</figcaption></figure>
 
 In journalism, the <a href="http://en.wikipedia.org/wiki/Inverted_pyramid" target="_blank">inverted pyramid</a> approach to storytelling is a form of progressive disclosure. So are headlines.
 
 Depending on how you're reading this post, you might see a "Read more..." link that I've inserted right after this paragraph. Making below-the-fold reading optional is progressive disclosure at work. TLDR...
 
-<!--more-->
+
 
 Agile software development is a form of progressive disclosure. You start out with vague requirements, and turn your clarifying attention to a small subset, one sprint/iteration at a time. Contrast waterfall, where all requirements must be spelled out in great detail, in advance.
 
@@ -40,7 +40,7 @@ Derivatives and integrals in calculus (not to mention fractals, and lots of othe
 
 <a href="http://en.wikipedia.org/wiki/Markedness" target="_blank">Markedness in language</a> reveals a linguistic community's preference for what can be assumed or omitted, and what must be explicitly stated. To override the default semantic payload, extra negotiation and effort (the "mark") is required.
 
-<a href="http://www.sprez.com/articles/task-documentation-design.html" target="_blank">Task-based documentation</a> is motivated by the insight that people rarely want to know everything they possibly could about a given topic--they're happier just knowing enough to get their job done, and finding information aligned with their current focus.
+<a href="http://www.sprez.com/articles/task-documentation-design.html" target="_blank">Task-based documentation</a> is motivated by the insight that people rarely want to know everything they possibly could about a given topic &mdash; they're happier just knowing enough to get their job done, and finding information aligned with their current focus.
 
 In many religious traditions, the idea of reaching higher and higher levels of enlightenment over time is important. A common observation in such world views is that simple beginnings form the foundation for later growth. C.S. Lewis explored this spiritual odyssey in <em>The Great Divorce</em>; he returned to it in <em>The Last Battle</em> with the metaphor of a stable bigger on the inside than the outside, and repeated invitations to "come further up, further in."
 

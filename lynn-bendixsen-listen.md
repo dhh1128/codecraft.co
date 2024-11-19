@@ -13,9 +13,9 @@ Although Lynn tolerates this joke with good grace, I think the joke isn't really
 
 <figure><img title="listening" src="http://farm1.staticfliccom/188/371882597_eed7dbd8d2.jpg" alt="" width="500" height="366" /><figcaption>Listen to understand, not to respond. Photo credit: Prisoner 5413 (Flickr)</figcaption></figure>
 
-I recently blogged about <a title="Humility" href="humility.md">the importance of humility</a>. It is not an accident that humility <!--more-->and active listening are closely related, and it is not an accident that the best listeners and most humble team members often make the largest (if not the most flashy) contributions to a team's success.
+I recently blogged about <a title="Humility" href="humility.md">the importance of humility</a>. It is not an accident that humility and active listening are closely related, and it is not an accident that the best listeners and most humble team members often make the largest (if not the most flashy) contributions to a team's success.
 
-Listening is a lesson that has distilled on me gradually, rather than hitting me like a thunderclap. I can't count the number of times I've spoken with a colleague who listened intently to my concern or question. Such interactions often lead me to understand flaws in my own reasoning more powerfully than any argument or presentation could have--even if the listener says nothing more than "Really?" and "Oh."
+Listening is a lesson that has distilled on me gradually, rather than hitting me like a thunderclap. I can't count the number of times I've spoken with a colleague who listened intently to my concern or question. Such interactions often lead me to understand flaws in my own reasoning more powerfully than any argument or presentation could have &mdash; even if the listener says nothing more than "Really?" and "Oh."
 
 More importantly, careful listening conveys a validation and respect for others that cannot be faked. Certainly, that's the caseth Lynn.
 

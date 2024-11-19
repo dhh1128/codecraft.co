@@ -23,11 +23,11 @@ Saturday I went to a high school half an hour north of our home, to watch my 16-
 
 [caption id="attachment_969" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/neys/3779763449/"><img class="size-full wp-image-969" alt="" src="http://codecraft.co/wp-content/uploads/2013/02/screen-shot-2013-02-04-at-9-42-59-pm.png" width="500" height="300" /></a> Photo credit: neys (Flickr)[/caption]
 
-I'm not sure how many teams were there--maybe a hundred. The competition started at 9 am and was scheduled to run through 5. Every team consisted of dozens of girls, all dressed in spangles and glitter, with identical ribbons in their hair. They'd march out onto the floor, drop their heads and arms to their sides, and wait for the first blast of music to initiate the routine. Then they'd tumble and dance their hearts out, finishing out of breath with a flourish.
+I'm not sure how many teams were there &mdash; maybe a hundred. The competition started at 9 am and was scheduled to run through 5. Every team consisted of dozens of girls, all dressed in spangles and glitter, with identical ribbons in their hair. They'd march out onto the floor, drop their heads and arms to their sides, and wait for the first blast of music to initiate the routine. Then they'd tumble and dance their hearts out, finishing out of breath with a flourish.
 
 Every hour or so, the performances suspended so judges could announce winners in a particular division that had just fielded its last competitor.
 
-I noticed a pattern. Even though I have no knowledge of competitive cheer scoring, I could tell who had won. <!--more-->It was not the teams that had the most members, the best costumes, the whitest smiles, or the most spectacular acrobatics. It was not even the teams that had the fewest glitches, necessarily.
+I noticed a pattern. Even though I have no knowledge of competitive cheer scoring, I could tell who had won. It was not the teams that had the most members, the best costumes, the whitest smiles, or the most spectacular acrobatics. It was not even the teams that had the fewest glitches, necessarily.
 
 Winning teams had one thing in common: <em>They were better synchronized.</em>
 
@@ -35,11 +35,11 @@ Winning teams had one thing in common: <em>They were better synchronized.</em>
 
 So how does cheerleading say anything profound about the business of designing and making software?
 
-Judges in cheerleading are looking at a gestalt, not so much at individuals. The lines of the entire team, the volume boost from a simultaneous clap, the way they turn in collective unity to create a visual impression--this is what separates the superb from the average.
+Judges in cheerleading are looking at a gestalt, not so much at individuals. The lines of the entire team, the volume boost from a simultaneous clap, the way they turn in collective unity to create a visual impression &mdash; this is what separates the superb from the average.
 
 I saw several winning teams make small mistakes. One time a girl slipped as her teammates were doing a lift. She was trying to stand on shoulders, but missed; her foot dropped down into the crook of one of the lifter's elbows instead. But she stayed vertical, and she raised her hand to salute the crowd at the same moment as her twin on the opposite side of the formation.
 
-If I hadn't been studying carefully, I would have missed the mistake. I suspect most of the crowd did--they were all focused on the symmetry of the overall performance, which didn't waver.
+If I hadn't been studying carefully, I would have missed the mistake. I suspect most of the crowd did &mdash; they were all focused on the symmetry of the overall performance, which didn't waver.
 
 Cheer is a competition won by harmonious systems, not individual superstars.
 
@@ -65,4 +65,4 @@ All of these memory lapses can be viewed as failures in system thinking. The sof
 
 Smart geeks think like cheerleaders!
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
-<p style="padding-left:30px;"><span style="color:#000080;"><em>Create a new kind of architecture diagram that shows how </em>all<em> the parts of your system are related--not just the software components, but the people who create requirements, the sales force, the dev team, the executives, support, customers,  your CRM or ERP apps... Instead of arrows for "is-a" or "one-to-many", how about arrows for "provides moral support" and "keeps the lights on" and "frees me to concentrate on the kind of problem I like best"? How is this system compensating for minor imperfections in individual performers? How can you add to its symmetry and synchronization?</em></span></p>
+<p style="padding-left:30px;"><span style="color:#000080;"><em>Create a new kind of architecture diagram that shows how </em>all<em> the parts of your system are related &mdash; not just the software components, but the people who create requirements, the sales force, the dev team, the executives, support, customers,  your CRM or ERP apps... Instead of arrows for "is-a" or "one-to-many", how about arrows for "provides moral support" and "keeps the lights on" and "frees me to concentrate on the kind of problem I like best"? How is this system compensating for minor imperfections in individual performers? How can you add to its symmetry and synchronization?</em></span></p>

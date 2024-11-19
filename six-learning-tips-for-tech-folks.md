@@ -14,7 +14,7 @@ comments:
     comment: |
       Just a few days ago, I heard you talking about an antipattern, and I decided that I needed to get more conversant with the antipattern catalog. I've studied the gang of four design pattern book, and various related topics, for years, but I've only noted the antipattern stuff as a casual passer-by. So I setup an event in google calendar that bugs me once a week to spend a few minutes studying an antipattern. So I get my good ideas from smart people like you. :-)
 ---
-In <em>Seven Habits of Highly Effective People</em>, Stephen Covey reminds readers to periodically suspend their lumberjacking long enough to sharpen the metaphorical saw. In other words -- take time to renew, to learn, to get better, to work smarter.
+In <em>Seven Habits of Highly Effective People</em>, Stephen Covey reminds readers to periodically suspend their lumberjacking long enough to sharpen the metaphorical saw. In other words &mdash; take time to renew, to learn, to get better, to work smarter.
 
 <figure><img title="crosscut saw" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Five-foot_crosscut_saw.jpg/320px-Five-foot_crosscut_saw.jpg" alt="" width="320" height="131" /><figcaption>rpen the saw. Photo credit: ATsawyer (Wikimedia Commons).</figcaption></figure>
 
@@ -24,7 +24,7 @@ Here are a few tried-and-true habits that help me.
 
 <strong>1. Look it up.</strong>
 
-If you're like me, you constantly encounter new acronyms, technoslang, APIs, languages, buzz words... Years ago, the effort to track down the meaning of such items was substantial--a trip to the library, maybe. Now you can usually define a term with 10 seconds of googletime, and you can get the skinny on fatter topics with a 30-second scan of a wikipedia topic. We spend so much of our time in front of screens; resolve now to make a habit out of looking up what you don't know. It will cost your schedule nothing, and keep you learning.
+If you're like me, you constantly encounter new acronyms, technoslang, APIs, languages, buzz words... Years ago, the effort to track down the meaning of such items was substantial &mdash; a trip to the library, maybe. Now you can usually define a term with 10 seconds of googletime, and you can get the skinny on fatter topics with a 30-second scan of a wikipedia topic. We spend so much of our time in front of screens; resolve now to make a habit out of looking up what you don't know. It will cost your schedule nothing, and keep you learning.
 
 <strong>2. Read.</strong>
 
@@ -50,9 +50,9 @@ The conventional wisdom that the teacher learns more than the students is not ju
 
 In literature, a foil is a character that, when placed beside the protagonist, provides significant contrast in personality, style, or motivation. Foils challenge tidy assumptions and deepen the character that the reader cares about the most.
 
-We all need to be challenged. We need to learn about other viewpoints--not at some surface level, so we'll have talking points to contradict, but in depth, so we appreciate the contributions that other human beings can offer. Nothing is more certain than that the aggregate wisdom of others will always exceed our private insight.
+We all need to be challenged. We need to learn about other viewpoints &mdash; not at some surface level, so we'll have talking points to contradict, but in depth, so we appreciate the contributions that other human beings can offer. Nothing is more certain than that the aggregate wisdom of others will always exceed our private insight.
 
 Chances are, you'll regularly encounter viewpoints different from your own, with no particular effort. So set yourself the task of thoroughly understanding and articulating such a viewpoint now and then, to the point where its proponent would nod with satisfaction and agree that you've nailed their thinking. Good things will happen.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
-<p style="padding-left:30px;"><em><span style="color:#000080;">Pick an item or two from the suggestions above--or find some ideas of your own, that work for you--and start today to turn them into habits. Slow and steady is better than inconsistent bursts...</span></em></p>
+<p style="padding-left:30px;"><em><span style="color:#000080;">Pick an item or two from the suggestions above &mdash; or find some ideas of your own, that work for you &mdash; and start today to turn them into habits. Slow and steady is better than inconsistent bursts...</span></em></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Extra credit: Tell others about the goals you set. This commits you, and might stimulate some worthwhile conversations. Or add a comment here, sharing other ideas you have. (Remember the value of teaching... :-)</em></span></p>

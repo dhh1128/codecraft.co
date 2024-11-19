@@ -12,7 +12,7 @@ comments:
       
       Question: I find what essentially amounts to inline comments described in #2 as an interesting idea. I am curious, though. Is Intent going to require those inline "comments" in order for it to compile? If not, that seems to allow programmers to just skip them, leaving us with code that's essentially the same as what we have today in terms of conveying additional meaning.
       
-      Comment: Going back to one of my favorite languages, Perl (I know I'm an oddity), I find this idea of anchors to be interesting. Perl has a concept of Labels, which effectively behave very similar to HTML anchors. They can be applied to not only arbitrary code blocks (used for GOTO calls--yeah, if you really want to do that), but also for fine-grain nested loop control. Essentially, they allow the programmer to put down "anchors" at specific parts of the code, independent of line numbers, and then use them to control execution flow. Granted, this isn't exactly what you are getting at here in the article, but I've found it very useful (if used correctly) to make the code more readable. I believe this adds additional credence to what you are trying to accomplish overall.
+      Comment: Going back to one of my favorite languages, Perl (I know I'm an oddity), I find this idea of anchors to be interesting. Perl has a concept of Labels, which effectively behave very similar to HTML anchors. They can be applied to not only arbitrary code blocks (used for GOTO calls &mdash; yeah, if you really want to do that), but also for fine-grain nested loop control. Essentially, they allow the programmer to put down "anchors" at specific parts of the code, independent of line numbers, and then use them to control execution flow. Granted, this isn't exactly what you are getting at here in the article, but I've found it very useful (if used correctly) to make the code more readable. I believe this adds additional credence to what you are trying to accomplish overall.
       
       If you are interested, a discussion on Perl Labels can be found here: http://www.perlmonks.org/?node_id=616302
   - author: Daniel Hardman
@@ -20,7 +20,7 @@ comments:
     comment: |
       Trev: thanks for the thoughtful comment.
       
-      Perl labels are interesting. I had run across them once before, and the use case that I saw for them was the same one described in the post you linked--transferring control with precision in nested loops. I have never seen an answer to that problem that's as elegant as the one Perl offers. The alternatives in other languages--pure gotos, or nested loop state variables with conditionals--are uglier and far less clear.
+      Perl labels are interesting. I had run across them once before, and the use case that I saw for them was the same one described in the post you linked &mdash; transferring control with precision in nested loops. I have never seen an answer to that problem that's as elegant as the one Perl offers. The alternatives in other languages &mdash; pure gotos, or nested loop state variables with conditionals &mdash; are uglier and far less clear.
       
       Are there other scenarios where you like to use them?
       
@@ -36,9 +36,9 @@ In my <a title="Exploring the Power of Deixis" href="exploring-the-power-of-deix
 
 I promised I'd explain how we could remedy this problem to increase the expressiveness of our code... That's what this post is all about.
 <h3>It starts with names</h3>
-The magic that makes the web "hyper" is not really in tags. Sure, we use <code><a href="x">...</a></code> to point at something--but there are other ways to point. As I said in my previous post, line numbers point. Method names in source code point at their decl or their impl. Statements like <code>using namespace std</code> point. Names of build-time dependencies in maven pom.xml files point.
+The magic that makes the web "hyper" is not really in tags. Sure, we use <code><a href="x">...</a></code> to point at something &mdash; but there are other ways to point. As I said in my previous post, line numbers point. Method names in source code point at their decl or their impl. Statements like <code>using namespace std</code> point. Names of build-time dependencies in maven pom.xml files point.
 
-The <em>real</em> magic is that the web has so many things to point <em>to</em>. It has <em>names</em> (notice where "name" appears in the previous paragraph). Every resource--even ones that are dynamically generated--has a URL. Individual paragraphs or tables or images <em>inside</em> a resource can have names, which lets us point to them, too.
+The <em>real</em> magic is that the web has so many things to point <em>to</em>. It has <em>names</em> (notice where "name" appears in the previous paragraph). Every resource &mdash; even ones that are dynamically generated &mdash; has a URL. Individual paragraphs or tables or images <em>inside</em> a resource can have names, which lets us point to them, too.
 
 We value names.
 
@@ -46,7 +46,7 @@ We value names.
 
 So, if names are so valuable, part of how we make code more "hyper" is to increase the availability of names. Here are some ways to do that.
 
-<!--more-->
+
 
 <dl><dt><strong>1</strong>. Every piece of structure in source code should have automatic names that derive from its position in a DOM, as specified by <a href="http://en.wikipedia.org/wiki/XPath" target="_blank">XPath</a> or something similar. Positional names are akin to the way humans describe things that they haven't bothered to name, as in “I like those blue flowers”; “Go 2 blocks straight ahead, then take your first left”. Examples of automatic positional names might include:</dt><dd>
 <ul>
@@ -72,7 +72,7 @@ When you combine this with compile-time reflection, you have extraordinary power
 ... < total && available_time > 0):
     <span style="color:green;">// body of the named "if" block</span>
 </pre>
-In <code>intent</code>, the name of the <code>if</code> block above is <code><span style="color:blue;">if</span> <span style="color:red;">we can do more processing</span></code>. You can imagine similar names, like <code><span style="color:blue;">switch</span> <span style="color:red;">on the type of the most recent file</span></code>, <code><span style="color:blue;">while</span> <span style="color:red;">user can't log in</span></code>, <code><span style="color:blue;">try</span> <span style="color:red;">to connect to db</span></code>, <code><span style="color:blue;">else if</span> <span style="color:red;">backup storage is available</span></code>, <code><span style="color:blue;">closure</span> <span style="color:red;">that sorts IPAddr</span></code>, and so forth. Adding these names to the code is easy and intuitive, and it often allows us to subtract a comment that conveyed the same semantics in a clumsier way, making the code at least as terse. As a plus, when you move the block, you automatically move its name--you can't accidentally forget to move the explanatory comment.
+In <code>intent</code>, the name of the <code>if</code> block above is <code><span style="color:blue;">if</span> <span style="color:red;">we can do more processing</span></code>. You can imagine similar names, like <code><span style="color:blue;">switch</span> <span style="color:red;">on the type of the most recent file</span></code>, <code><span style="color:blue;">while</span> <span style="color:red;">user can't log in</span></code>, <code><span style="color:blue;">try</span> <span style="color:red;">to connect to db</span></code>, <code><span style="color:blue;">else if</span> <span style="color:red;">backup storage is available</span></code>, <code><span style="color:blue;">closure</span> <span style="color:red;">that sorts IPAddr</span></code>, and so forth. Adding these names to the code is easy and intuitive, and it often allows us to subtract a comment that conveyed the same semantics in a clumsier way, making the code at least as terse. As a plus, when you move the block, you automatically move its name &mdash; you can't accidentally forget to move the explanatory comment.
 
 Comments and string literals in intent are nameable by their first few words. And all nameable items can be targeted with shorter forms of the name in hyperlinks, as long as the words that remain in the name are unambiguous. So <code><span style="color:blue;">else if</span> <span style="color:red;">backup storage is available</span></code> and <code><span style="color:blue;">else if</span> <span style="color:red;">backup available</span></code> refer to the same place.
 
@@ -81,11 +81,11 @@ Comments and string literals in intent are nameable by their first few words. An
 
 Another use case is to name paths or flows through code. Suppose you have a complex function that can flow in a couple dozen different ways due to permutations from conditionals and switch statements. How do you hyperlink to one of the paths that's dangerous, or that has performance problems? You can name branch points in the logic, and then hyperlink to the composite: <code><span style="color:green;">// Be careful when you edit code path <span style="text-decoration:underline;color:blue;">#A->C->C.1->G->X</span>; it is very sensitive to timing.</span></code>.</dd></dl>
 <h3>Triangulation</h3>
-Having more and better names is good, but it's not enough by itself. You may remember that in my previous post, I complained about the fragility of line numbers--we can't use them as permanent hyperlinks, because they change too often.
+Having more and better names is good, but it's not enough by itself. You may remember that in my previous post, I complained about the fragility of line numbers &mdash; we can't use them as permanent hyperlinks, because they change too often.
 
-The positional names I mentioned above are subject to this same limitation--and to a lesser extent, some of the other names might "break" over time as well.
+The positional names I mentioned above are subject to this same limitation &mdash; and to a lesser extent, some of the other names might "break" over time as well.
 
-The way we fix this is to diff and triangulate. A given construct has multiple names--positional, natural, perhaps explictly assigned anchors... During compilation, as hyperlinks are evaluated, the compiler could store the main name that was used to construct a hyperlink, but also alternate names that resolve the same place. During refactors or subsequent compilation passes, alternate names could be used to repair broken links. Much as a diffing algorithm finds sequences of identical lines and then narrows in on what's changed to establish correspondence in a before-and-after view, a name diffing algorithm could repair links by isolating just those sequences of names that have changed, and then automatically updating broken variants when a majority of remaining names still agrees.
+The way we fix this is to diff and triangulate. A given construct has multiple names &mdash; positional, natural, perhaps explictly assigned anchors... During compilation, as hyperlinks are evaluated, the compiler could store the main name that was used to construct a hyperlink, but also alternate names that resolve the same place. During refactors or subsequent compilation passes, alternate names could be used to repair broken links. Much as a diffing algorithm finds sequences of identical lines and then narrows in on what's changed to establish correspondence in a before-and-after view, a name diffing algorithm could repair links by isolating just those sequences of names that have changed, and then automatically updating broken variants when a majority of remaining names still agrees.
 
 This allows warnings to hyperlink to their associated location in code, and to preserve that mapping across maintenance and evolution of the codebase. It makes other hyperlinks far more robust as well.
 
@@ -93,9 +93,9 @@ This allows warnings to hyperlink to their associated location in code, and to p
 <h3>And we need proxies</h3>
 Names and triangulation still aren't enough. I've alluded on previous posts to the idea that <a title="Lacunas Everywhere" href="lacunas-everywhere.md">code should be able to describe constructs that are not coded today</a>: use cases, personas, business requirements, etc.
 
-The presence of these constructs in code does not have to be heavy. In fact, they can be proxied with light, declarative files that simply enumerate some key properties--and that hyperlink to external systems for greater details in a "native" non-code environment. Imagine a .yaml or .json file that describes key attributes of a persona, for example -- name, goals, typical permissions, use cases. Perhaps such a file contains a link to a usability database or a Product Management release plan with much richer detail; in such cases, the file is a sort of proxy for a larger concept that other professionals own.
+The presence of these constructs in code does not have to be heavy. In fact, they can be proxied with light, declarative files that simply enumerate some key properties &mdash; and that hyperlink to external systems for greater details in a "native" non-code environment. Imagine a .yaml or .json file that describes key attributes of a persona, for example &mdash; name, goals, typical permissions, use cases. Perhaps such a file contains a link to a usability database or a Product Management release plan with much richer detail; in such cases, the file is a sort of proxy for a larger concept that other professionals own.
 
-Having that proxy can be enormously valuable. I can now assert that I have a test case that exercises each use case for each persona--and have the compiler walk hyperlinks to see if the assertion is true. I can assert that every feature used by a given persona is firewalled away from escalated privileges--and again, have the compiler walk hyperlinks to code paths and security marks and menu items and user input functions to see whether I'm right.
+Having that proxy can be enormously valuable. I can now assert that I have a test case that exercises each use case for each persona &mdash; and have the compiler walk hyperlinks to see if the assertion is true. I can assert that every feature used by a given persona is firewalled away from escalated privileges &mdash; and again, have the compiler walk hyperlinks to code paths and security marks and menu items and user input functions to see whether I'm right.
 
 Proxies allow us to point to otherwise unpointable things like performance bottlenecks, design priorities, temporal boundaries, lifecycle phases in an app, and so forth. They complement and enhance the rest of the hyperlinking strategy.
 <h3>The Value of Pointing</h3>

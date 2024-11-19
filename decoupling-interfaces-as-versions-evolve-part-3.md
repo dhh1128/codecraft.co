@@ -18,14 +18,14 @@ comments:
 <h3>Quick Review</h3>
 We want all the encapsulation and data hiding benefits that interfaces provide. We want to be able to version our interfaces so consumers can depend on them reliably, but we don't want the producer and consumer of an interface to have to coordinate tightly. We don't want the producer of an interface to have to version so often that there's a built-in disincentive to follow best practice. And we want all the compiler and IDE benefits that early binding typically offers to a programmer.
 
-I claim that no current solution really provides all of this -- not COM, not SOAP-based web services, not late-bound REST web services.
+I claim that no current solution really provides all of this &mdash; not COM, not SOAP-based web services, not late-bound REST web services.
 
 Fear not. 
 
 <h3>Summary of Solution</h3>
 <ol>
 	<li>The provider of an interface and the consumer of an interface each conform to a compiler-enforceable contract (.wsdl/.idl/etc.), but unlike the traditional approach, these contracts are allowed to differ.</li>
-	<li>The test of whether the two interfaces are compatible is not done by traditional casting, but by testing the contents of the two sides for semantic equivalence – a consumer has a compatible interface if it is a <em>semantic</em> subset of the provider’s.</li>
+	<li>The test of whether the two interfaces are compatible is not done by traditional casting, but by testing the contents of the two sides for semantic equivalence &mdash; a consumer has a compatible interface if it is a <em>semantic</em> subset of the provider’s.</li>
 	<li>The consumer is required to write wrapper classes that forward from its own interface to that of the provider. (Using a language that supports reflection, like Java or C#, makes this task trivial).</li>
 </ol>
 <h3>
@@ -47,6 +47,6 @@ you have
 </code></blockquote>
 or something similar. This conveys the object’s semantic constraints along with its data, much like sending a table definition along with a tuple in response to a DB query. The initial step of deserialization constructs a generic object; the second step tests compatibility against the semantic constraints embedded directly in the document and constructs an instance of a wrapper class on success.
 
-It’s important to distinguish between read-only and read-write usage patterns in this mechanism. Consumers of an interface that only intend to display data are infinitely backward compatible if the runtime check for semantic compatibility passes, regardless of the version numbers/guids in play under a given scenario, because the wrapper classes depend on an interface mapping that’s generated dynamically at runtime. However, if a consumer of an object wants to update its state at the source, the wrapper class must contain every property that the provider will require – or else the provider must set such properties either before serving the object or when the update is requested. Using wrapper classes rather than the traditional generated SOAP stubs is an important element of this mechanism because this allows mods to objects that a client does not fully understand.
+It’s important to distinguish between read-only and read-write usage patterns in this mechanism. Consumers of an interface that only intend to display data are infinitely backward compatible if the runtime check for semantic compatibility passes, regardless of the version numbers/guids in play under a given scenario, because the wrapper classes depend on an interface mapping that’s generated dynamically at runtime. However, if a consumer of an object wants to update its state at the source, the wrapper class must contain every property that the provider will require &mdash; or else the provider must set such properties either before serving the object or when the update is requested. Using wrapper classes rather than the traditional generated SOAP stubs is an important element of this mechanism because this allows mods to objects that a client does not fully understand.
 
 [caption id="attachment_55" align="alignnone" width="128" caption="New Approach - Pros and Cons"]<a href="../../../wp-content/uploads/2008/07/alternative-pros-and-cons.png"><img class="size-thumbnail wp-image-55" src="http://codecraft.co/wp-content/uploads/2008/07/alternative-pros-and-cons.png?w=128" alt="New Approach - Pros and Cons" width="128" height="79" /></a>[/caption]

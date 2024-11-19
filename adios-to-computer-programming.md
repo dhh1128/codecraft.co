@@ -28,11 +28,11 @@ The set of things besides traditional computers that need to be programmed is gr
 
 Okay.
 
-I think that's true, but it misses the really <em>big</em> insight.<!--more-->
+I think that's true, but it misses the really <em>big</em> insight.
 
 <strong>Systems thinking is the wave of the future</strong>
 
-Technology is evolving--rapidly--to depend upon complex <em>systems</em>, not isolated devices, as the dominant unit of value delivery. More and more often, programming tasks demand a greater scope of design than a single computer.
+Technology is evolving &mdash; rapidly &mdash; to depend upon complex <em>systems</em>, not isolated devices, as the dominant unit of value delivery. More and more often, programming tasks demand a greater scope of design than a single computer.
 
 That's big.
 

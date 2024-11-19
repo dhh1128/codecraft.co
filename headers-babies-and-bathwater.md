@@ -16,7 +16,7 @@ comments:
   - author: Ryan Marcus
     date: 2013-08-12 15:18:48
     comment: |
-      I generally agree with you -- but I had one question.
+      I generally agree with you &mdash; but I had one question.
       
       What's the difference between the "automatically generated headers" you suggest and, say, JavaDocs? It seems like, in Java code (and in other languages via Doxygen), the part of a 3rd-party package you are supposed to look at for understanding is the documentation. This doesn't seem unreasonable to me.
       
@@ -26,7 +26,7 @@ comments:
       
       Please correct my misunderstanding. :)
       
-      Thanks for the post -- very thought provoking.
+      Thanks for the post &mdash; very thought provoking.
   - author: weberc2
     date: 2013-08-12 16:28:16
     comment: |
@@ -34,7 +34,7 @@ comments:
   - author: Daniel Hardman
     date: 2013-08-12 17:58:44
     comment: |
-      You may be different, Dougbert--but I wish all the C++ programmers I've worked with over the years were different in exactly the same way! It would be a lot more fun to code if they understood how to keep interfaces clean... :-)
+      You may be different, Dougbert &mdash; but I wish all the C++ programmers I've worked with over the years were different in exactly the same way! It would be a lot more fun to code if they understood how to keep interfaces clean... :-)
   - author: Daniel Hardman
     date: 2013-08-12 18:14:25
     comment: |
@@ -46,7 +46,7 @@ comments:
       
       - You can't compile against javadoc. Headers enable another programmer to not just understand the interface to your code, but to test his/her code against it, with full compiler enforcement. Headers or something similar is what you need to outsource a project without supplying implementation code.
       
-      - I have become disillusioned with forms of communication external to the code itself. On several codebases that I've worked with, I've gone to significant effort to write good doc comments, and to set up doc generation--only to see this doc get ignored by developers. They simply won't pull up a browser to read docs if the code is in front of them. (This is less true of java, where most IDEs have hover text based on javadocs--but in C++, it's the unfortunate truth.)
+      - I have become disillusioned with forms of communication external to the code itself. On several codebases that I've worked with, I've gone to significant effort to write good doc comments, and to set up doc generation &mdash; only to see this doc get ignored by developers. They simply won't pull up a browser to read docs if the code is in front of them. (This is less true of java, where most IDEs have hover text based on javadocs &mdash; but in C++, it's the unfortunate truth.)
       
       I do think there is a difference between generated headers and generated javadoc. Whether you call either or both of them "code", in one case you read the output with your code editor; in the other, you read with a browser. Also, in practice, the source for javadoc is checked into vcs, but not the output. So you can't browse the "code" output of javadoc in git logs. If you generated headers, you'd be checking them in to the vcs.
       
@@ -90,7 +90,7 @@ Sort of...
 
 <strong>Bad headers are a royal pain</strong>
 
-It can be onerous to maintain the parallelism between a .h and a .cpp. And most C/C++ headers are managed so poorly that the benefits you might claim for them are theoretical rather than real. Three common antipatterns that I particularly detest:<!--more-->
+It can be onerous to maintain the parallelism between a .h and a .cpp. And most C/C++ headers are managed so poorly that the benefits you might claim for them are theoretical rather than real. Three common antipatterns that I particularly detest:
 
 1. Putting everything in one monster header.
 <p style="padding-left:30px;">This couples all details of the system together in a single giant hairball. It may be fine for a project with 2 or 3 classes, but for dozens or hundreds of classes, it's a major problem, and it violates the <a title="Small Files Are Your Friends" href="small-files-are-your-friends.md">small file rule</a>.</p>
@@ -103,11 +103,11 @@ It can be onerous to maintain the parallelism between a .h and a .cpp. And most 
 <p style="padding-left:30px;">When you leave out #includes because the .cpp files already #include what they need, you are making it harder to trace dependencies. If you ever hear that header X must be #included before header Y, you're suffering the consequences of this antipattern.</p>
 <strong>What headers could be good for</strong>
 
-One of the insights often attributed to Guido van Rossum (inventor of python) is that code is meant to be read--by humans. This insight is enshrined in the zen of python (by Tim Peters) with the pithy statement that "Readability counts." It reflects the same sentiment articulated by Martin Fowler, who said, "Any fool can write code that computers can understand. Good programmers write code that humans can understand." And it echoes the observation of the venerable C.A.R. Hoare: "The readability of programs is immeasurably more important than their writeability" (<em>Hints on Programming Language Design</em>, 1973).
+One of the insights often attributed to Guido van Rossum (inventor of python) is that code is meant to be read &mdash; by humans. This insight is enshrined in the zen of python (by Tim Peters) with the pithy statement that "Readability counts." It reflects the same sentiment articulated by Martin Fowler, who said, "Any fool can write code that computers can understand. Good programmers write code that humans can understand." And it echoes the observation of the venerable C.A.R. Hoare: "The readability of programs is immeasurably more important than their writeability" (<em>Hints on Programming Language Design</em>, 1973).
 
 These are not dumb guys.
 
-So let me ask: <span style="color:#993300;"><em>Which is easier for a human to read and understand--a 50-line header, or a 800-line implementation?</em></span>
+So let me ask: <span style="color:#993300;"><em>Which is easier for a human to read and understand &mdash; a 50-line header, or a 800-line implementation?</em></span>
 
 This is the the first baby that's being thrown out with the bathwater. Think <a title="Progressive Disclosure Everywhere" href="progressive-disclosure-everywhere.md">progressive disclosure</a>: headers could dramatically simplify what a consumer of code has to wade through. <em>If</em> they worked right. <em>If</em>.
 

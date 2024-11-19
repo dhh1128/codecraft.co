@@ -26,7 +26,7 @@ comments:
   - author: Daniel Hardman
     date: 2014-07-25 06:57:29
     comment: |
-      I had not seriously considered making marks work across a multilingual tool chain, but it's an intriguing enhancement. This is why I blogged--I needed smart people to point out ways this needed polish. Thank you!
+      I had not seriously considered making marks work across a multilingual tool chain, but it's an intriguing enhancement. This is why I blogged &mdash; I needed smart people to point out ways this needed polish. Thank you!
       
       I love the idea of statistics gathering, BTW. It fits very well with another natural use of marks, which is simple tagging. You can imagine stats for individual tags, but also for intersections and unions of tags that are interesting...
   - author: trevharmon
@@ -43,11 +43,11 @@ comments:
       
       I'm looking forward to seeing how this idea further develops.
 ---
-In my previous two posts (<a title="Lacunas Everywhere" href="bridging-the-lacuna-humana.md" target="_blank">here</a>), I described how and why programming languages can't talk about many issues that affect programmers--important issues like product requirements, design constraints, intellectual property, and more. I also inventoried the mechanisms that extend the semantics of languages today, and explored why those mechanisms have limited value. If you haven't read those posts, please do; what I say next won't make a lot of sense without that foundation.
+In my previous two posts (<a title="Lacunas Everywhere" href="bridging-the-lacuna-humana.md" target="_blank">here</a>), I described how and why programming languages can't talk about many issues that affect programmers &mdash; important issues like product requirements, design constraints, intellectual property, and more. I also inventoried the mechanisms that extend the semantics of languages today, and explored why those mechanisms have limited value. If you haven't read those posts, please do; what I say next won't make a lot of sense without that foundation.
 
 In the <code>intent</code> programming language that I'm creating, the solution to this problem is called "marks" (a name which alludes to <a href="http://en.wikipedia.org/wiki/Markedness" target="_blank">linguistic markedness</a>). Marks play a role somewhat analogous to adjectives and adverbs in human language; they are crucial enrichers. They resemble decorators or annotations in other languages, though their power is much, much greater.
 
-Without further ado, let me provide a blueprint for this bridge across the semantic gap that I've been lamenting--the design guidelines for "marks." Then I'm going to show you an example of how easy it could be to use marks, and how much power they give you.
+Without further ado, let me provide a blueprint for this bridge across the semantic gap that I've been lamenting &mdash; the design guidelines for "marks." Then I'm going to show you an example of how easy it could be to use marks, and how much power they give you.
 
 <figure><img class="" src="https://farm3.staticflickr.com/2095/2402300942_2636483bdc_z.jpg" alt="" width="640" height="433" /><figcaption>image credit: <a href="https://www.flickr.com/photos/curiousexpeditions/2402300942/sizes/z/" target="_blank">Curious Expeditions</a> (Flickr)</figcaption></figure>
 <h3>Blueprint</h3>
@@ -55,19 +55,19 @@ Without further ado, let me provide a blueprint for this bridge across the seman
 	<li>Code and its compiler(s) must have a <strong>compile-time API</strong> specified by the language.
 <div style="margin:.7em;">It's not okay if Clang generates one type of AST, GCC a second, and MSVC a third; all compilers that support the language must expose a spec-compatible, programmable API for all language constructs. For example, I need to be able to find out what parameters and local variables are declared in a function, and what their data types and other characteristics are. This is similar to what reflection offers, but reflection doesn't help at all, because I need this before run-time. (Kudos to D, which provides compile-time reflection very similar to what I'm describing...) As I mentioned in my post about <a title="How to make a const-correct codebase in 4300 easy steps" href="how-to-make-a-const-correct-codebase-in-4300-easy-steps.md">making a codebase const-correct</a>, the lack of this feature is really a serious design flaw. Why should code, of <em>all</em> things programmers deal with, be impossible to code against?</div></li>
 </ol>
-<!--more-->
+
 <ol start="2">
 	<li>Any object in code must support <strong>decoration</strong> (semantic marks).
 <div style="margin:.7em;">Existing decorator/annotation/attribute mechanisms are fairly broad already. However, I haven't seen any solutions that let me decorate arbitrary blocks of code, individual assignments, conditionals... Plus:</div></li>
 	<li>The <strong>scope of code</strong> must be expanded to include constructs above the level of a compilation unit.
-<div style="margin:.7em;">Today, programmers usually write code for classes, packages, and modules, but all structures "above" that level (applications, libraries, assemblies, product suites) are described in some alternative mechanism (e.g. pom.xml, SConstruct, CMakeLists.txt, Visual Studio solution, Eclipse workspace). Typically these constructs are viewed as optional veneer offered by an IDE--often, they're not even formally defined in the language's spec. This means you can't decorate them (see #2), and they don't have a programmatic API that's unifiable with that of code at compile-time (see #1).</div></li>
+<div style="margin:.7em;">Today, programmers usually write code for classes, packages, and modules, but all structures "above" that level (applications, libraries, assemblies, product suites) are described in some alternative mechanism (e.g. pom.xml, SConstruct, CMakeLists.txt, Visual Studio solution, Eclipse workspace). Typically these constructs are viewed as optional veneer offered by an IDE &mdash; often, they're not even formally defined in the language's spec. This means you can't decorate them (see #2), and they don't have a programmatic API that's unifiable with that of code at compile-time (see #1).</div></li>
 	<li>Code must have a <strong>DOM</strong>.
 <div style="margin:.7em;">This is really a corollary to items 1 through 3; any element of code must be reachable through the code's interface, which implies something DOM-like. It may be unnecessary to hold the entirety of a DOM in memory, though; perhaps a SAX-style interface would suffice. Interestingly, this requirement also makes code into true hypertext, which has other ramifications that I'm planning to blog about later.</div></li>
 	<li><strong>Call graphs</strong> and other producer/consumer relationships must be part of the code interface.
 <div style="margin:.7em;">The utility of this will become clear in examples.</div></li>
 	<li>Decorator attachment must be <strong>richer than binary on/off</strong>.
 <div style="margin:.7em;">This is a flaw in existing decorator mechanisms. If I put <code>@foo</code> on top of a class in Java, the annotation is present. If I don't put it there, it's not. Binary.</div>
-<div style="margin:.7em;">Human brains and human languages don't work that way; they're more fuzzy. If I tell you that "Fred was an executive at Enron," you immediately generate theories about Fred. The fact that I imparted that information at all means that I consider it significant in some way--so you imagine reasons why, and associate them weakly/tentatively to Fred in your mind: he may have been fired, he may have been guilty of shady behavior, he may be a whistleblower, etc.</div>
+<div style="margin:.7em;">Human brains and human languages don't work that way; they're more fuzzy. If I tell you that "Fred was an executive at Enron," you immediately generate theories about Fred. The fact that I imparted that information at all means that I consider it significant in some way &mdash; so you imagine reasons why, and associate them weakly/tentatively to Fred in your mind: he may have been fired, he may have been guilty of shady behavior, he may be a whistleblower, etc.</div>
 <div style="margin:.7em;">At least the following modes of attachment need to be supported: explicitly affirmed (binary "on"), explicitly denied (binary "off"), implicitly affirmed (true unless I get explicit evidence to the contrary), implicitly denied.</div></li>
 	<li>Semantic marks must support <strong>sophisticated combination and propagation</strong>.
 <div style="margin:.7em;">For one, marks need to be able to subsume or imply other marks. In the real world, I can tell you that my car is a Lamborghini (in my dreams :-), and in doing so, I've already told that my car is a sports car, that it's expensive, that it's hard to find parts, that it's a favorite target for speed traps... Likewise, if I am writing a class, and I put a "prototype" mark on it, I may want you to also know that the class is "insufficiently tested", or "not shippable". Such logic must be under programmer control.</div>

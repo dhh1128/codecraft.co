@@ -18,11 +18,11 @@ comments:
   - author: Alpheus
     date: 2012-10-06 22:25:08
     comment: |
-      It is my understanding that, in biology, there's a concept called "biological immortality", in which, short of disease or injury, the organism simply won't die.  Perhaps there's room for such a thing in the software world.  Software, in a way, is the embodiment of ideas, and ideas are eternal--they exist before anyone thinks them, and continue to exist after they are forgotten.  (Even so, I consider them to be alive.)
+      It is my understanding that, in biology, there's a concept called "biological immortality", in which, short of disease or injury, the organism simply won't die.  Perhaps there's room for such a thing in the software world.  Software, in a way, is the embodiment of ideas, and ideas are eternal &mdash; they exist before anyone thinks them, and continue to exist after they are forgotten.  (Even so, I consider them to be alive.)
       
-      Indeed, sometime code can achieve a certain toe of immortality--Eric S. Raymond, several weeks ago, blogged about how robust a certain image processing program was, decades after he first wrote it!  Sometimes our understanding of a given problem domain becomes so mature, there isn't much of a point in messing with the code--and there are more problems like this then we realise.
+      Indeed, sometime code can achieve a certain toe of immortality &mdash; Eric S. Raymond, several weeks ago, blogged about how robust a certain image processing program was, decades after he first wrote it!  Sometimes our understanding of a given problem domain becomes so mature, there isn't much of a point in messing with the code &mdash; and there are more problems like this then we realise.
       
-      Having said that, I can't help but think about how, while certain tortoises may be immortal, humans literally have mortality encoded into their DNA--so mortality exists for a reason, and probably several.  Thus, planning for mortality, and occasionally checking up on the "immortal" stuff, to make sure it still deserves life, makes a lot of sense to me.
+      Having said that, I can't help but think about how, while certain tortoises may be immortal, humans literally have mortality encoded into their DNA &mdash; so mortality exists for a reason, and probably several.  Thus, planning for mortality, and occasionally checking up on the "immortal" stuff, to make sure it still deserves life, makes a lot of sense to me.
       
       And now that I think about it, it drives me nuts that I have a tablet that is probably a little more powerful than a laptop that recently died on me, but is so Android-centric.  It ought to be able to run LaTeX just fine, but it cannot, because Android hides the processor from me!  The Linux ecosystem represents thousands, and perhaps hundreds of thousands, of man-hours of coding, in all sorts of languages beyond Java, all of which is out of reach unless you do drastic things to your device (namely, root it and install some form of Linux).
   - author: Daniel
@@ -30,7 +30,7 @@ comments:
     comment: |
       Alphy: thank you for pointing me to the "biological immortality" concept. I went and read the wikipedia article. Fascinating!
       
-      All rules have exceptions--even this one, I guess. :-)
+      All rules have exceptions &mdash; even this one, I guess. :-)
   - author: Don&#8217;t forget the circuit breakers &laquo; Codecraft
     date: 2013-01-11 18:02:04
     comment: |
@@ -45,7 +45,7 @@ comments:
   - author: Daniel Hardman
     date: 2013-03-16 14:24:56
     comment: |
-      It *is* fun to work on the front side of the curve. No doubt about it. We became engineers because we liked building something new and wonderful. I wish business people would let go of the misconception that once a feature has been built, it is "done"--and that it will continue to make them money in perpetuity. The truth is, features have carrying costs, and the health of a codebase requires steady maintenance and periodic upgrades.
+      It *is* fun to work on the front side of the curve. No doubt about it. We became engineers because we liked building something new and wonderful. I wish business people would let go of the misconception that once a feature has been built, it is "done" &mdash; and that it will continue to make them money in perpetuity. The truth is, features have carrying costs, and the health of a codebase requires steady maintenance and periodic upgrades.
   - author: Stanley Sawyer
     date: 2022-06-14 18:37:58
     comment: |
@@ -69,7 +69,7 @@ Think about the consequences for a few moments. Would any of the ecosystems that
 
 Why am I writing about this as a software guy?
 
-<!--more-->As <a title="How Software Is Like Biology" href="how-software-is-like-biology.md">I've written before</a>, I believe life has profound lessons for software engineers. And death is a biggie. (I'll probably devote at least one chapter to this in my forthcoming book.)
+As <a title="How Software Is Like Biology" href="how-software-is-like-biology.md">I've written before</a>, I believe life has profound lessons for software engineers. And death is a biggie. (I'll probably devote at least one chapter to this in my forthcoming book.)
 
 To be fair to biologists, their discipline takes death into account constantly. Its existence colors narrations about food webs, survival of the fittest, decomposers, and thousands of related topics. Biologists are well aware of its ramifications.
 
@@ -95,7 +95,7 @@ Software protocols die. Software installations die. Software expertise dies. Sof
 
 Software death is a good thing. As in biology, it makes room for new and more evolved growth. It gives me job security. :-)
 
-But I think software companies--all organizations, not just the dev organ--would be happier if they acknowledged this death and planned for it explicitly. For example:
+But I think software companies &mdash; all organizations, not just the dev organ &mdash; would be happier if they acknowledged this death and planned for it explicitly. For example:
 <ul>
 	<li>We should announce a lifespan to a product that starts with its birth (release). Do we expect it to live 3 years? 5? How long is support on the hook to keep it on life support? (Some orgs do this, but it's a less common practice than it should be.)</li>
 	<li>As humans cope with death through wills, trusts, and inheritance laws, so software orgs need to plan, carefully and well in advance, for the upgrade experience implicit in the next generation release. Otherwise we'll get mired in messy and expensive probate procedures. Is there a "death tax" that makes it hard to transmit hard-won earnings forward? If so, can we minimize it?</li>

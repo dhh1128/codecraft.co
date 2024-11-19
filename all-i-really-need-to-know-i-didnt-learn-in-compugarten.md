@@ -36,7 +36,7 @@ comments:
   - author: Daniel
     date: 2012-11-15 10:58:01
     comment: |
-      Ooh, yes! Just yesterday I was meeting with a customer who was complaining that at normal verbosity, our log files had way too much detail about certain routine operations. Knowing what to put in a log, when--and knowing how to make the info that's written as useful as possible--would be a great topic.
+      Ooh, yes! Just yesterday I was meeting with a customer who was complaining that at normal verbosity, our log files had way too much detail about certain routine operations. Knowing what to put in a log, when &mdash; and knowing how to make the info that's written as useful as possible &mdash; would be a great topic.
   - author: Erik Dietrich (@daedtech)
     date: 2012-11-15 11:50:22
     comment: |
@@ -80,17 +80,17 @@ comments:
       
       SOWs, Contract Negotiations, Open Source Rules (GPL, etc.), IP Protection, Escrows, Legal issues - Engineers often get pulled into these areas but don’t have the formal background or introduction in many of these topics, aside from what they learn on the job. They will get pulled in at some point.
       
-      Roles and Responsibilities – a holistic review of cross-functional players most engineers will interact with throughout their careers.  PGM, PM, Marketing, Sales, Architects, Account Managers, Legal, Support, Q/A, etc.  Building a good software product isn't the end of the line, it’s only the beginning.  Need to have a holistic view of how a functioning software company/division operates, who the players are, what their roles are, and how the rest of the business operates. 
+      Roles and Responsibilities &mdash; a holistic review of cross-functional players most engineers will interact with throughout their careers.  PGM, PM, Marketing, Sales, Architects, Account Managers, Legal, Support, Q/A, etc.  Building a good software product isn't the end of the line, it’s only the beginning.  Need to have a holistic view of how a functioning software company/division operates, who the players are, what their roles are, and how the rest of the business operates. 
       
-      Speaking with and Presenting to Customers – The difference between the language of internal speak vs. external speak, tech speak vs, customer speak.  How to present and speak with customers, partners, OEMs.  What NOT to say is just as important as what to say.
+      Speaking with and Presenting to Customers &mdash; The difference between the language of internal speak vs. external speak, tech speak vs, customer speak.  How to present and speak with customers, partners, OEMs.  What NOT to say is just as important as what to say.
       
-      Customer Focus at ALL Times / Usability – Customers are not as smart as you are!  It’s a lot more difficult to take a complex problem and make it easy to understand than it is to take a simple problem and complicate the heck out of it.  There is always a tendency toward the latter – avoid that tendency if you want to sell your products to customers.
+      Customer Focus at ALL Times / Usability &mdash; Customers are not as smart as you are!  It’s a lot more difficult to take a complex problem and make it easy to understand than it is to take a simple problem and complicate the heck out of it.  There is always a tendency toward the latter &mdash; avoid that tendency if you want to sell your products to customers.
       
-      The Value of Accurate Velocity Estimation – it impacts all layers of the business, from internal and external roadmap predictability, to budgets, to commitments with customers and partners, to revenues, to reputation, to image, to long-term viability and sustainability.
+      The Value of Accurate Velocity Estimation &mdash; it impacts all layers of the business, from internal and external roadmap predictability, to budgets, to commitments with customers and partners, to revenues, to reputation, to image, to long-term viability and sustainability.
       
-      Globalization / Localization – The world is a small place today.  Most engineers will need to understand good localization techniques and strategies as their products will be shipped all over the world, in a wide variety of different languages, markets, channels, etc.
+      Globalization / Localization &mdash; The world is a small place today.  Most engineers will need to understand good localization techniques and strategies as their products will be shipped all over the world, in a wide variety of different languages, markets, channels, etc.
       
-      Competitive Understanding – Where the market’s going, who the players are, who is considered “the best” even if they’re not, what the analysts are saying, how to beat the competition.  NOTE:  It’s not always a technical answer.
+      Competitive Understanding &mdash; Where the market’s going, who the players are, who is considered “the best” even if they’re not, what the analysts are saying, how to beat the competition.  NOTE:  It’s not always a technical answer.
       
       Consistency!  Consistency!  Consistency!  - Repeatable, best-practice processes that ensure the success of each release.  Plow improvements into the process with each successive release.  You’d be surprised how few companies actually have good process in place, or how many have no process whatsoever.  Fly-by-the-seat of your pants programming doesn't cut it, unless you’re building your own Angry Birds knockoff in your basement for iTunes.
   - author: Linda Hardman
@@ -100,7 +100,7 @@ comments:
   - author: Daniel
     date: 2012-11-16 16:51:03
     comment: |
-      Wow, Brian. You should be teaching this imaginary class--and just with your list, I think there'd be material for a semester or two, easily.
+      Wow, Brian. You should be teaching this imaginary class &mdash; and just with your list, I think there'd be material for a semester or two, easily.
       
       Your first time items, especially, had me slapping my forehead. All the legal issues around software development need to be more broadly understood. No doubt about it. And understanding what a healthy tech company looks like, in terms of all the different disciplines it takes to build a business, is absolutely critical.
       
@@ -120,7 +120,7 @@ But it's not enough.
 
 Since I'm half way to curmudgeon-hood, I frequently find myself lamenting educational blindspots in the young. I've even toyed with the idea of teaching at the nearest university, some day when I Have More Time™. If academia would take me, my lesson plans might cover some of the following topics:
 <ul>
-	<li>How to work with smart but misaligned teammates, <!--more-->manage opinioand personalities, and contribute to a cohesive team. (Software development is a <em>team</em> sport, young padawan.)</li>
+	<li>How to work with smart but misaligned teammates, manage opinioand personalities, and contribute to a cohesive team. (Software development is a <em>team</em> sport, young padawan.)</li>
 	<li>The power of metaphor in software design. (See <a title="Good Code Is Nd Right" href="good-code-is-named-right.md">this post</a>.)</li>
 	<li><a title="Why Exceptions Aren’t Enough" href="why-exceptions-arent-enough.md">Choosing a goorror raising and error handling strategy</a>. (Assignment: find half a dozen error messages in open source projects, and rewrite them to make them intelligible to the Average Human.)</li>
 	<li>The art of <a title="Good Code Is Balanced" href="good-code-is-balanced.md">tradeoffs</a>. (Usually, there ain't no such thing as a free lunch.)</li>

@@ -52,9 +52,9 @@ This is a problem.
 
 <strong>Generalists and specialists</strong>
 
-Specialists have their place. But if your dev organization is overly skewed toward specialists <!--more-->in each architectural box, it is not healthy. To understand why, join me in a thought experiment.
+Specialists have their place. But if your dev organization is overly skewed toward specialists in each architectural box, it is not healthy. To understand why, join me in a thought experiment.
 
-Bob is sick. He'd like to get some help. But he happens to live in a society where the health care system consists entirely of otolaryngologists and endocrinologists and neurosurgeons. He has no <a class="zem_slink" title="General practitioner" href="http://en.wikipedia.org/wiki/General_practitioner" target="_blank" rel="wikipedia">general practitioners</a> to listen while he paints a picture with broad brush strokes--nobody who will triage and cut to the chase.
+Bob is sick. He'd like to get some help. But he happens to live in a society where the health care system consists entirely of otolaryngologists and endocrinologists and neurosurgeons. He has no <a class="zem_slink" title="General practitioner" href="http://en.wikipedia.org/wiki/General_practitioner" target="_blank" rel="wikipedia">general practitioners</a> to listen while he paints a picture with broad brush strokes &mdash; nobody who will triage and cut to the chase.
 
 You can imagine what happens next. Bob visits one specialist, but the specialist sees Bob's problem as only intersecting 20% with her particular expertise. Wanting to be sure she's not sued for malpractice, she recommends that he consult with another specialist as well. Bob makes another visit, and gets another referral. After half a dozen trips, he's now explored 100% of his symptoms, and he has a set of diagnoses and prescriptions that theoretically address his problem. However, nobody has examined the picture in the aggregate, looking for redundancy or incompatibility. Instead, nurses have been on the phone to other offices, and faxes and charts have passed back and forth like ping-pong balls, with uncertain results. Bob has spent so much money and accumulated so many complex recommendations for a cure that he's a bit bewildered. And it's taken a large amount of time.
 

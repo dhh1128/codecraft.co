@@ -6,23 +6,23 @@ redirect_from:
   - /2013/07/25/features-are-not-chunks-of-code
 ---
 
-Before the industrial age, "features" were noteworthy aspects of a face or a geography: a patch of color, abundant wrinkles, a scar... The human brain is stunningly good at identifying and comparing such features--perhaps because that ability has been central to our nurture as children, our bonding into family units, and our survival as a species.
+Before the industrial age, "features" were noteworthy aspects of a face or a geography: a patch of color, abundant wrinkles, a scar... The human brain is stunningly good at identifying and comparing such features &mdash; perhaps because that ability has been central to our nurture as children, our bonding into family units, and our survival as a species.
 
 <img class="size-full wp-image-6794 aligncenter" src="https://codecraft.co/wp-content/uploads/2013/07/danie-franco-o1pkm7-8ah4-unsplash.jpg" alt="danie-franco-o1PKM7-8AH4-unsplash" width="5731" height="3821" />
 <p style="text-align:center;">Photo by <a href="https://unsplash.com/@dani_franco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Danie Franco</a> on <a href="https://unsplash.com/s/photos/face-wrinkles-scars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 When we want to say what a face looks like, we describe its features. They are an entrée into experience with it.
 
-At the dawn of the computer age, the advertising and publishing industries were already talking about how products--or aspects of them--could be "featured" in media. Highlighted characteristics were called "features", and this metaphor transferred seamlessly into digital language. Software product managers now traffic in "features" and "feature sets."
+At the dawn of the computer age, the advertising and publishing industries were already talking about how products &mdash; or aspects of them &mdash; could be "featured" in media. Highlighted characteristics were called "features", and this metaphor transferred seamlessly into digital language. Software product managers now traffic in "features" and "feature sets."
 
 We use the term so comfortably that we sometimes forget what it has to teach us.
 
-<!--more-->I have met software pros--brilliant ones!--who think features and coded output are good functional equivalents. They think that if they embody a capability in a function or a class or a command-line switch, and check it in, they've added a feature. And if they undo their checkin, the feature is gone. That's the way they talk about it.
+I have met software pros &mdash; brilliant ones! &mdash; who think features and coded output are good functional equivalents. They think that if they embody a capability in a function or a class or a command-line switch, and check it in, they've added a feature. And if they undo their checkin, the feature is gone. That's the way they talk about it.
 
 There is a certain truth to this simple view. But it's a dangerous simplification, and the roots of the metaphor tell us why.
 
 <strong>Layers and regions and teamwork</strong>
 
-First of all, no facial feature is simple. A nose has internal structure--bone and cartilage, skin and capillaries and nerves. It has layers and regions. It demands a certain context. Likewise, a software feature is more than code; it includes documentation, an attendant set of upgrade and forward/backward compatibility assumptions, visual and perhaps auditory manifestations, a test matrix, security implications, localization work, perhaps some install tweaks or an API with versioning constraints.
+First of all, no facial feature is simple. A nose has internal structure &mdash; bone and cartilage, skin and capillaries and nerves. It has layers and regions. It demands a certain context. Likewise, a software feature is more than code; it includes documentation, an attendant set of upgrade and forward/backward compatibility assumptions, visual and perhaps auditory manifestations, a test matrix, security implications, localization work, perhaps some install tweaks or an API with versioning constraints.
 
 Anybody who tells you they can add a new feature in a "mere <em>X</em> hours" has forgotten this.
 

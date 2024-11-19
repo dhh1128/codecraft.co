@@ -40,11 +40,11 @@ I think it's the best job interview question anyone has ever asked me.
 
 <strong>Real humility</strong>
 
-A person trying to fake humility says, "I'm not very good" -- but doesn't mean it.
+A person trying to fake humility says, "I'm not very good" &mdash; but doesn't mean it.
 
-A person trying to be humble, but misunderstanding its nature, says, "I'm not as good as <em>X</em>" -- and tells himself it's probably true.
+A person trying to be humble, but misunderstanding its nature, says, "I'm not as good as <em>X</em>" &mdash; and tells himself it's probably true.
 
-A truly humble person <!--more-->isn't usually interested in comparing herself to others. She's well aware that everyone--including herself--has both strengths and weaknesses. She is willing to learn, even when she already knows a lot, and even at the cost of admitting mistakes and blind spots. Humility doesn't require her to artificially put herself down, or to artificially overvalue others; it requires her to remember, tenaciously, that problems--never people--are the enemies you strive to overcome. (For the religiously inclined, I have never found a more profound exposition on pride and humility than <a href="http://www.lds.org/ensign/1989/05/beware-of-pride?lang=eng&query=ezra+taft+benson+pride" target="_blank">the one Ezra Taft Benson offered in the late '80s</a>.)
+A truly humble person isn't usually interested in comparing herself to others. She's well aware that everyone &mdash; including herself &mdash; has both strengths and weaknesses. She is willing to learn, even when she already knows a lot, and even at the cost of admitting mistakes and blind spots. Humility doesn't require her to artificially put herself down, or to artificially overvalue others; it requires her to remember, tenaciously, that problems &mdash; never people &mdash; are the enemies you strive to overcome. (For the religiously inclined, I have never found a more profound exposition on pride and humility than <a href="http://www.lds.org/ensign/1989/05/beware-of-pride?lang=eng&query=ezra+taft+benson+pride" target="_blank">the one Ezra Taft Benson offered in the late '80s</a>.)
 
 <strong>Why humility matters</strong>
 

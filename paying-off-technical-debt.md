@@ -20,13 +20,13 @@ comments:
   - author: Mike Ebert (@mike_ebert)
     date: 2012-10-16 00:39:33
     comment: |
-      When technical debt becomes too great, sometimes organizations have to declare bankruptcy--certainly technical bankruptcy, if they survive financially--I'd be interested to hear thoughts about what's involved in technical bankruptcy, esp. if there's anything non-obvious.
+      When technical debt becomes too great, sometimes organizations have to declare bankruptcy &mdash; certainly technical bankruptcy, if they survive financially &mdash; I'd be interested to hear thoughts about what's involved in technical bankruptcy, esp. if there's anything non-obvious.
   - author: Daniel
     date: 2012-10-16 02:01:31
     comment: |
       Good comment, Mike!
       
-      I would equate bankruptcy with declaring a codebase insolvent -- incapable of providing any future value. If you get to that point, you're looking at a total rewrite.
+      I would equate bankruptcy with declaring a codebase insolvent &mdash; incapable of providing any future value. If you get to that point, you're looking at a total rewrite.
       
       However, this may be too simplistic. In my post about "The 8th Characteristic," I claimed that codebases naturally die; maybe declaring a codebase dead isn't the same as declaring bankruptcy.
       
@@ -54,7 +54,7 @@ In my recent post about <a title="Coping With Organizational Alzheimers" href="
 
 <strong>More than just a code problem</strong>
 
-A simplistic view--one that I've used for years--understands debt mainly as a deficiency in code. In this view, you pay yourself back by making the code better. Most discussions about technical debt take this view. It's natural, and true, and useful.
+A simplistic view &mdash; one that I've used for years &mdash; understands debt mainly as a deficiency in code. In this view, you pay yourself back by making the code better. Most discussions about technical debt take this view. It's natural, and true, and useful.
 
 However, I don't think it's the full story.
 
@@ -62,7 +62,7 @@ It's good practice to borrow money from yourself. If you do things this way, you
 
 This is hard, and making large purchases this way requires years of prior planning and discipline.
 
-A more common way to borrow is <!--more-->to use your future capital as collateral, and to borrow from an external lender. I think this is how most technical debt is incurred. (<a class="zem_slink" title="Technical debt" href="http://en.wikipedia.org/wiki/Technical_debt" target="_blank" rel="wikipedia">Technical debt</a> incurred against your own reserves implies engineers working nights and weekends to get <em>ahead</em>, so they can take a vacation without a schedule slip. This happens, but not on a large scale.)
+A more common way to borrow is to use your future capital as collateral, and to borrow from an external lender. I think this is how most technical debt is incurred. (<a class="zem_slink" title="Technical debt" href="http://en.wikipedia.org/wiki/Technical_debt" target="_blank" rel="wikipedia">Technical debt</a> incurred against your own reserves implies engineers working nights and weekends to get <em>ahead</em>, so they can take a vacation without a schedule slip. This happens, but not on a large scale.)
 
 <strong>Who is your lender?</strong>
 
@@ -72,7 +72,7 @@ When you ship code that does things in a compromised, kludgey way, you acquire r
 	<li>Your marketing organization will have to nuance how they message your feature.</li>
 	<li>Your sales force will need to be careful to qualify leads in a way that prevents frustrated customers and wasted POCs.</li>
 	<li>Your product management team will have to understand that any release that builds on your kludge will be more expensive in the next release.</li>
-	<li>Executives live with a watered-down strategic advantage. Normally, a unique feature also implies a unique capability in a dev team--but to the extent that you short-circuit correct development, you also short-circuit your own learning, and live with a deficient mental model of your problem domain. Executives marshal forces for battle not only having caveats to their super duper blaster, but also having a staff of scientists that <em>don't have experience building</em> super duper blasters.</li>
+	<li>Executives live with a watered-down strategic advantage. Normally, a unique feature also implies a unique capability in a dev team &mdash; but to the extent that you short-circuit correct development, you also short-circuit your own learning, and live with a deficient mental model of your problem domain. Executives marshal forces for battle not only having caveats to their super duper blaster, but also having a staff of scientists that <em>don't have experience building</em> super duper blasters.</li>
 	<li>Your customers' enthusiasm gets diluted.</li>
 	<li>Your dev and QA staff lose expertise and pride of ownership, and they have to spend energy on sub-optimal work that they'll later replace. (Notice that I put this last. This is the one most tech folks understand, but I think it's often overshadowed by other, less obvious problems.)</li>
 </ul>

@@ -20,7 +20,7 @@ The more I thought about it, however, the more unhappy I became. Surely, such mo
 
 [caption id="attachment_6224" align="aligncenter" width="418"]<img class=" size-full wp-image-6224 aligncenter" src="https://codecraft.co/wp-content/uploads/2016/01/descartes-reflex.jpeg" alt="Descartes-reflex" width="418" height="442" /> The pain pathway is more than nerves in the toes; it runs all the way back to the brain. From René Descartes's <em>Treatise of Man</em>. (Wikimedia Commons)[/caption]
 
-<!--more-->Eventually, a light went on: the <em>real</em> root cause wasn't just the frayed cable--it was a lack of human attention. We already had rudimentary pain signals in the form of log files and alerts, but nobody was paying attention. It was like nerves with no link back to the brain. Building better alarms was only half a solution; my recommendations needed to cover changes in the behavior of <em>people</em> to really make a difference.
+Eventually, a light went on: the <em>real</em> root cause wasn't just the frayed cable &mdash; it was a lack of human attention. We already had rudimentary pain signals in the form of log files and alerts, but nobody was paying attention. It was like nerves with no link back to the brain. Building better alarms was only half a solution; my recommendations needed to cover changes in the behavior of <em>people</em> to really make a difference.
 
 <strong>The Deeper Lesson</strong>
 

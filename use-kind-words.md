@@ -16,7 +16,7 @@ comments:
   - author: Daniel Hardman
     date: 2015-10-06 20:16:01
     comment: |
-      Excellent point about reality being our harshest critic. I hadn't looked at it from that perspective--but now that you point it out, it's undeniable.
+      Excellent point about reality being our harshest critic. I hadn't looked at it from that perspective &mdash; but now that you point it out, it's undeniable.
   - author: David H
     date: 2015-10-06 20:35:34
     comment: |
@@ -32,7 +32,7 @@ comments:
   - author: Daniel Hardman
     date: 2015-10-07 07:48:26
     comment: |
-      Hmm. I think it's usually better to keep comments, even if they disagree with us--but I suppose it's a blogger's prerogative to eliminate comments they find offensive. She did say in her post that she reserved the right to change hateful comments to something innocuous... If she changed their meaning in another way, that seems unfortunate.
+      Hmm. I think it's usually better to keep comments, even if they disagree with us &mdash; but I suppose it's a blogger's prerogative to eliminate comments they find offensive. She did say in her post that she reserved the right to change hateful comments to something innocuous... If she changed their meaning in another way, that seems unfortunate.
       
       Thanks for the thoughtful feedback!
   - author: Shoeb
@@ -51,13 +51,13 @@ This feels sad to me. Kind words can be such a joy.
 
 <p style="text-align:right;font-size:85%;color:silver;">[embed]https://www.flickr.com/photos/glenj/2410649592/sizes/m/[/embed]
 [Image credit: <a href="https://www.flickr.com/photos/glenj/2410649592/sizes/o/" target="_blank">Glen J. Photography (Flickr)</a>]</p>
-Linus is a brilliant guy, and I'm grateful to him. I use linux and git every day; the tools he's built do a lot of good in the world, and they replace earlier approaches that are clearly inferior. I also agree with his complaint that an explicit standard of "professionalism" in communication can, in some cases, lead to opacity, disingenuousness, and inefficiency. Sometimes we need to say things that are difficult for others to hear, and we need to say them quickly--and that may not jibe with the communication style of a slick politician.
+Linus is a brilliant guy, and I'm grateful to him. I use linux and git every day; the tools he's built do a lot of good in the world, and they replace earlier approaches that are clearly inferior. I also agree with his complaint that an explicit standard of "professionalism" in communication can, in some cases, lead to opacity, disingenuousness, and inefficiency. Sometimes we need to say things that are difficult for others to hear, and we need to say them quickly &mdash; and that may not jibe with the communication style of a slick politician.
 
 However, I find it ironic that a profession so passionate about message passing and interfaces and producer/consumer contracts could lightly dismiss communication concerns when they involve humans. Do the messes created by DDoS, attackers probing vulnerabilities, and poorly behaved clients teach us nothing?
 
 We certainly need clarity in our careers, and we may occasionally need bluntness as well, but we don't need ridicule, sarcasm, or disdain. I applaud the sentiments of Marvin J. Ashton:
 
-<!--more-->
+
 <blockquote>None of us need one more person bashing or pointing out where we have failed or fallen short. Most of us are already well aware of the areas in which we are weak. What each of us does need is family, friends, employers, and brothers and sisters who support us, who have the patience to teach us, who believe in us, and who believe we're trying to do the best we can, in spite of our weaknesses. What ever happened to giving each other the benefit of the doubt? What ever happened to hoping that another person would succeed or achieve?</blockquote>
 I may be sensitive to this issue because I have made lots of mistakes on this dimension over the years. I don't think I've been deliberately mean, but I've been impatient or cranky more than I ought.
 
@@ -69,7 +69,7 @@ I think that's short-sighted.
 
 Tech is hard. Things often fail to work; requirements change; incompatibilities in components and tools are endemic; we <a href="lynn-bendixsen-listen.md">listening</a> are worth keeping on our personal radar.
 
-I say "thank you" to Sarah and to all the other developers who move in linux kernel circles--Linus included. I don't want the exacting technical standards in that community to erode. But I suggest we ought to be smart enough to honor that imperative and still see that the developers who contribute there feel appreciated and respected.
+I say "thank you" to Sarah and to all the other developers who move in linux kernel circles &mdash; Linus included. I don't want the exacting technical standards in that community to erode. But I suggest we ought to be smart enough to honor that imperative and still see that the developers who contribute there feel appreciated and respected.
 <blockquote>“I have wept in the night
 At my shortness of sight
 That to others' needs made me blind,

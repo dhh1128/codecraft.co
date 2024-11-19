@@ -12,7 +12,7 @@ So here's the situation. Product Management says feature X must be built. Develo
 
 If a development team doesn't have an architect who can advocate for the right solution based on first principles, then it uses the tried-and-true scope/schedule/resources lever (about its only negotiating tool) to push back.
 
-The problem is that in this scenario, product management isn't really forced to come to terms with the long term strategic consequences of doing things wrong. So the scope is adjusted, or the schedule is adjusted, or the resources are adjusted -- but only enough to rescue the feature, not enough to do it right.
+The problem is that in this scenario, product management isn't really forced to come to terms with the long term strategic consequences of doing things wrong. So the scope is adjusted, or the schedule is adjusted, or the resources are adjusted &mdash; but only enough to rescue the feature, not enough to do it right.
 
 As a result, dev has to invent a half-baked alternative to the other team's solution. Ad nauseum.
 

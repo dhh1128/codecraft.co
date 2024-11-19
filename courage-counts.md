@@ -37,7 +37,7 @@ comments:
     comment: |
       When I first read Dune as a teenager, I thought of the Bene Gesserit litany as pseudo martial arts mumbo jumbo that added some nice artistic flair to the milieu of the novel.
       
-      Since then I've decided that it's quite profound--maybe Herbert's great philosophical contribution.
+      Since then I've decided that it's quite profound &mdash; maybe Herbert's great philosophical contribution.
       
       Thanks for reminding me about it; I have something else that I need to print out and put on my door for inspiration.
       
@@ -59,7 +59,7 @@ This is an important gap, because <em>courage counts</em>. The cleverest, most s
 
 <strong>Symptoms of fear</strong>
 
-In the past two decades, I've heard many people (myself included) make statements like the following:<!--more-->
+In the past two decades, I've heard many people (myself included) make statements like the following:
 <ul>
 	<li>"We cannot do <em><risky change X></em> because it might destabilize the code."</li>
 	<li>"Stay away from <<em>module Y</em>>. Here be dragons."</li>
@@ -71,7 +71,7 @@ Such statements are really just fear, dressed up in fancy clothing.
 
 I'm not going to claim that these fears are irrational. It could very well be that your change is risky, courting als is a recipe for frustration, and you'll fail.
 
-Mafatu's fear of the sea was rational, too--and it was based on <a title="Earned Pragmatism" href="earned-pragmatism.md">traumatic, real-world experience, not theory</a>. But when the need was great, Mafatu plunged in, met his fears, and mastered them.
+Mafatu's fear of the sea was rational, too &mdash; and it was based on <a title="Earned Pragmatism" href="earned-pragmatism.md">traumatic, real-world experience, not theory</a>. But when the need was great, Mafatu plunged in, met his fears, and mastered them.
 
 Sometimes we need to do that as technical thought leaders.
 
@@ -128,7 +128,7 @@ On the other hand, I still bore anybody who'll listen, with my harangues about h
 
 <strong>Challenge</strong>
 
-In Shakespeare's <em>Henry IV, Part I</em>, Falstaff claims that discretion is the better part of valor--or in other words, it pays to be cautious.
+In Shakespeare's <em>Henry IV, Part I</em>, Falstaff claims that discretion is the better part of valor &mdash; or in other words, it pays to be cautious.
 
 This is certainly true. Sometimes. Mafatu was probably wise not to tangle with tiger sharks every day.
 

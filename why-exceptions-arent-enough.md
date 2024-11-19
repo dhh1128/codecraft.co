@@ -77,7 +77,7 @@ However, as we wrote code, we sometimes forgot to check errors, or tell users ab
 doIt();</pre>
 Admit it; you've written code like this. So have I. The mechanism lets a caller be irresponsible and ignore the signal the called function sends. Not good. Even if you are being responsible, the set of possible return values is nearly unbounded, and you get subtle downstream bugs if a called function adds a new return value when a caller is <code>switch</code>ing return values.
 
-Another problem with this approach to errors <!--more-->is that it doesn't allow you to pass context. If <code>prepare()</code> is doing work in 3 phases, and it fails, it can't tell you which phase it failed on.
+Another problem with this approach to errors is that it doesn't allow you to pass context. If <code>prepare()</code> is doing work in 3 phases, and it fails, it can't tell you which phase it failed on.
 
 If you were a C programmer and picked up C++ (or worked in a codebase built by people with this sort of background), things only got worse with the introduction of <code>bool</code> and enums as distinct types. It was natural to write functions that returned <code>true</code> on success:
 <pre style="border:solid 1px #ccc;background-color:#eee;margin-left:4em;padding:.5em;display:inline-block;margin-bottom:1em;">if (prepareEx()) {
@@ -134,13 +134,13 @@ Although you can certainly achieve these things by building on top of exceptions
 
 <strong>Complications across boundaries</strong>
 
-I think exceptions are not a good strategy for low-level, widely used library routines, because they make too many assumptions about context. In one codebase I worked in, string-handling routines that ran out of buffer space threw exceptions. This is bad. These were functions that had to run fast, were called all over the place in tight loops, were used in singletons before or after main(), etc. Coders wanted to hook the top-level exception handler to guarantee that all thrown exceptions were logged--but even before they did this, they'd opened the app's log file, which means they'd parsed file paths, which means they'd used the string handling functions that threw exceptions.
+I think exceptions are not a good strategy for low-level, widely used library routines, because they make too many assumptions about context. In one codebase I worked in, string-handling routines that ran out of buffer space threw exceptions. This is bad. These were functions that had to run fast, were called all over the place in tight loops, were used in singletons before or after main(), etc. Coders wanted to hook the top-level exception handler to guarantee that all thrown exceptions were logged &mdash; but even before they did this, they'd opened the app's log file, which means they'd parsed file paths, which means they'd used the string handling functions that threw exceptions.
 
 Throwing exceptions across remoted boundaries, or even across shared library boundaries, is not always easy, reliable, or wise, either.
 
 <strong>Sloppy context</strong>
 
-This is my biggest beef with existing exception models--they give programmers a false sense of communication which encourages bad habits and leads to frustrated users.
+This is my biggest beef with existing exception models &mdash; they give programmers a false sense of communication which encourages bad habits and leads to frustrated users.
 <p style="padding-left:30px;">WATURI
 Listen, Joe. What's this Deedee tells me about an error with the catalogs?</p>
 <p style="padding-left:30px;">JOE

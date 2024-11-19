@@ -144,17 +144,17 @@ comments:
   - author: Daniel Hardman
     date: 2016-03-15 07:31:31
     comment: |
-      I agree that RAII has some nice benefits. Those benefits are more apparent if the cleanup you want to do is very standardized (e.g., close a file handle, release memory). But if the cleanup you want to do is unique to the particular block of code you are in--such as my example about having an avatar take a bow--then creating a custom class for just that one block of code seems less desirable. In other words, repeatability is only useful if you need to repeat something. :-)
+      I agree that RAII has some nice benefits. Those benefits are more apparent if the cleanup you want to do is very standardized (e.g., close a file handle, release memory). But if the cleanup you want to do is unique to the particular block of code you are in &mdash; such as my example about having an avatar take a bow &mdash; then creating a custom class for just that one block of code seems less desirable. In other words, repeatability is only useful if you need to repeat something. :-)
 ---
 The claim has been made that because C++ supports <a class="zem_slink" title="Resource Acquisition Is Initialization" href="http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization" target="_blank" rel="wikipedia">RAII</a> (resource acquisition is initialization), it doesn't need <span style="font-family:courier, fixedwidth;">try...finally</span>. I think this is wrong. There is at least one use case for <span style="font-family:courier, fixedwidth;">try...finally</span> that's very awkward to model with RAII, and one that's so ugly it ought to be outlawed.
 
 <strong style="color:#000080;">The awkward use case</strong>
 
-What if what you want to do during a <span style="font-family:courier, fixedwidth;">...finally</span> block has nothing to do with freeing resources? For example, suppose you're writing the next version of Guitar Hero, and you want to guarantee that when your avatar leaves the stage, the last thing she does is take a bow--even if the player interrupts the performance or an error occurs.
+What if what you want to do during a <span style="font-family:courier, fixedwidth;">...finally</span> block has nothing to do with freeing resources? For example, suppose you're writing the next version of Guitar Hero, and you want to guarantee that when your avatar leaves the stage, the last thing she does is take a bow &mdash; even if the player interrupts the performance or an error occurs.
 
 <figure><img src="http://farm3.staticflickr.com/2765/4162745269_6989a977bd.jpg" alt="" width="336" height="500" /><figcaption>...finally, take a bow. Photo credit: <a href="http://www.flickr.com/photos/gavinzac/4162745269" target="_blank">gavinzac (Flickr)</a></figcaption></figure>
 
-Of course you can ensure this behavior with an RAII pattern, but it's silly and artificial. Which of the following two snippets is cleaner and better expresses intent?<!--more-->
+Of course you can ensure this behavior with an RAII pattern, but it's silly and artificial. Which of the following two snippets is cleaner and better expresses intent?
 <p style="font-weight:bold;font-family:arial, helvetica, sans serif;margin-left:2em;">RAII solution</p>
 
 <pre style="font-size:9pt;margin-left:2em;padding:1em;border:solid 1px #606060;background-color:#e8e8e8;margin-bottom:2em;"><span style="color:blue;">void</span> perform(Avatar <span style="color:blue;">const</span> & avatar) {
@@ -188,7 +188,7 @@ My own experience tells me that this use case crops up regularly; it's not so ex
 
 <strong style="color:#000080;">The so-ugly-it-ought-to-be-outlawed use case</strong>
 
-Here's a problem that's a bit trickier. I won't go so far as to claim that you can't solve it with RAII--I just claim that no software developer who cares about high-quality code ought to be happy with the solution that RAII offers. <span style="color:#800000;">(Update: Thanks to Tianyu Zhu [see comment stream] for challenging me to clean up this ugliness with C++ 11 closures. I'll write a follow-up post about as soon as I fiddle a bit, and we'll see how much better it looks... In the meantime, read the following with a pre-C++ 11 mindset.)</span>
+Here's a problem that's a bit trickier. I won't go so far as to claim that you can't solve it with RAII &mdash; I just claim that no software developer who cares about high-quality code ought to be happy with the solution that RAII offers. <span style="color:#800000;">(Update: Thanks to Tianyu Zhu [see comment stream] for challenging me to clean up this ugliness with C++ 11 closures. I'll write a follow-up post about as soon as I fiddle a bit, and we'll see how much better it looks... In the meantime, read the following with a pre-C++ 11 mindset.)</span>
 
 Today I was trying to implement <a title="Postcondition" href="http://en.wikipedia.org/wiki/Postcondition" target="_blank" rel="wikipedia">postconditions</a> in one of my C++ codebases. This is a "<a href="http://www.eiffel.com/developers/design_by_contract.html" target="_blank">design-by-contract</a>" technique that enforces a guarantee about the state that a function provides on exit. My first attempt used a macro (so I could string-ize expr with the # prefix; this is one of the few use cases where I love macros...) to define a postcondition more or less like this:
 <pre style="font-size:9pt;margin-left:2em;padding:1em;border:solid 1px #606060;background-color:#e8e8e8;margin-bottom:2em;"><span style="color:blue;">#define</span> POSTCONDITION(expr) \
@@ -215,7 +215,7 @@ Looks pretty straightforward, right? I flipped over to a function where I wanted
 }</pre>
 For about thirty seconds after I wrote this, I was feeling cheerful. And then I groaned.
 
-I'd fallen victim to the classic problem that RAII is supposed to solve--in the 50 omitted lines, if I threw exceptions or rejected input, my postconditions wouldn't ever be tested. Since the postconditions were supposed to guarantee compliance to a contract under all cases, without RAII, I'd sort of defeated the whole purpose.
+I'd fallen victim to the classic problem that RAII is supposed to solve &mdash; in the 50 omitted lines, if I threw exceptions or rejected input, my postconditions wouldn't ever be tested. Since the postconditions were supposed to guarantee compliance to a contract under all cases, without RAII, I'd sort of defeated the whole purpose.
 
 So I went back and rewrote the macro:
 <pre style="font-size:9pt;margin-left:2em;padding:1em;border:solid 1px #606060;background-color:#e8e8e8;margin-bottom:2em;"><span style="color:blue;">#define</span> POSTCONDITION(expr) \
@@ -248,7 +248,7 @@ You can hit a square peg into a round hole. C++ is nothing if not flexible. But 
     // to all the variables it will test when it goes out of
     // scope. In this example, it requires us to duplicate
     // each local variable, plus 2 of the function parameters.
-    // Not only does it take a ridiculous amount of code--it's
+    // Not only does it take a ridiculous amount of code &mdash; it's
     // fragile during maintenance, and it totally obscures
     // our relatively straightforward intent.</span>
     <span style="color:blue;">class</span> postcondition {

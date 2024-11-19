@@ -18,7 +18,7 @@ comments:
 
 I have several deep professional connections to big data<sup>[<a href="#foot1">1</a>]</sup>, going back decades, so when I say I think a lot of it is manufactured silliness, I'm hoping you'll pause before laughing me off.
 
-The fact is, most of the "data" that's exploding is not hard-won intellectual treasure for the ages; it's marginal stuff like the viewing history on Fred Flintstone's deleted Netflix account. More than big data, we're experiencing a "big crud" wave, because we're pack rats. This comic has it right:<!--more-->
+The fact is, most of the "data" that's exploding is not hard-won intellectual treasure for the ages; it's marginal stuff like the viewing history on Fred Flintstone's deleted Netflix account. More than big data, we're experiencing a "big crud" wave, because we're pack rats. This comic has it right:
 
 <figure><img class=" " src="http://www.qwantz.com/comics/comic2-2303.png" alt="" width="441" height="300" /><figcaption>image credit: Ryan North (qwantz.com)</figcaption></figure>
 

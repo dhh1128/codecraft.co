@@ -12,7 +12,7 @@ I find a lot of insight in <a title="soft-con and soft-lib" href="https://plus.
 	<li>I think software conservatism is more focused on permanence than risk aversion.</li>
 	<li>I don't think programmers are all that consistent in their views. I can find evidence of both soft-con and soft-lib thinking in my own philosophies.</li>
 </ul>
-That said, I think I've evolved from a conservative to a more liberal perspective over the years. At one point in my career I got quite annoyed at C++ coders who were careless about how they used <code>const</code>. It still bothers me a bit--but now I care about productivity more, and I buy the value of languages enforcing best practices less, than I used to. I love python and "<a href="role-play-centered-design.md" target="_blank">teams should deploy evolving software by assigning humans to role play architectural components, and see what happens</a>--that's about as ultra liberal as it gets.
+That said, I think I've evolved from a conservative to a more liberal perspective over the years. At one point in my career I got quite annoyed at C++ coders who were careless about how they used <code>const</code>. It still bothers me a bit &mdash; but now I care about productivity more, and I buy the value of languages enforcing best practices less, than I used to. I love python and "<a href="role-play-centered-design.md" target="_blank">teams should deploy evolving software by assigning humans to role play architectural components, and see what happens</a> &mdash; that's about as ultra liberal as it gets.
 
 [polldaddy poll=6531418]
 
@@ -20,7 +20,7 @@ That said, I think I've evolved from a conservative to a more liberal perspectiv
 
 Why has my world view evolved?
 
-I think I've come to agree very strongly with Steve's observation that software is impermanent. Little if any software stands the test of time. In the mid '90s I worked on some Visual Basic code that had ancient Basic modules in it, with comments from the mid 70's. I hated that code--imagine the worst features of spaghetti code, hungarian notation with obsolete data types, deep technical debt, tight coupling, poor encapsulation...--this was a poster child. The code wasn't dead, but it should have been. 20 years is too long for almost all code. (I'm adding a chapter about the profound benefits of death in my biology~software metaphor, in my forthcoming book, <em>Lifeware</em>.)
+I think I've come to agree very strongly with Steve's observation that software is impermanent. Little if any software stands the test of time. In the mid '90s I worked on some Visual Basic code that had ancient Basic modules in it, with comments from the mid 70's. I hated that code &mdash; imagine the worst features of spaghetti code, hungarian notation with obsolete data types, deep technical debt, tight coupling, poor encapsulation... &mdash; this was a poster child. The code wasn't dead, but it should have been. 20 years is too long for almost all code. (I'm adding a chapter about the profound benefits of death in my biology~software metaphor, in my forthcoming book, <em>Lifeware</em>.)
 
 When you accept that software is impermanent, you can relax. There doesn't have to be a centrally planned vision that remains constant over time; you can discover things as you go, and it's <em>all right</em>.
 

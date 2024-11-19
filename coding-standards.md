@@ -1,5 +1,5 @@
 ---
-title: How to turn coding standards into epic fails -- or not
+title: How to turn coding standards into epic fails &mdash; or not
 date: 2012-09-27
 slug: coding-standards
 redirect_from:
@@ -31,13 +31,13 @@ I'm not sure there's a guaranteed formula for success, but there's a guaranteed 
 Leave no room for personal style and creativity. Make no attempt to distinguish between meaty issues and utter trivialities. State all rules in absolutes; allow no exceptions. Announce enforcement in code reviews. Bonus points if you actually follow through on the threat, and double bonus points if you display some other developer's code in front of the team as an example of egregious violations.
 <p style="margin-left:2em;margin-right:2em;padding:.5em 1em;background-color:#eee;border:solid 1px px #ddd;font-family:times;">"Always put a space between an identifier and a curly brace, except in nested struct initializers where the first member is a string literal (other than NULL) or a #define'ed constant."</p>
 <p style="margin-left:2em;margin-right:2em;padding:.5em 1em;background-color:#eee;border:solid 1px px #ddd;font-family:times;">"Begin every function with a comment that specifies the name of the coder, the date the function was last modified, the purpose of the function, an annotated history of how the function has evolved over time, a list of functions called by your function, your zodiac sign, and the names of all parameters. Make sure that parameters are listed alphabetically (case-insensitive), with a blank line between each, and the explanatory text after the param name indented 8 - (len(param name) mod 4) spaces."</p>
-<em><!--more-->2. Overreach.</em>
+<em>2. Overreach.</em>
 
 Make sure your coding standards cover every language, platform, compiler, and IDE. Don't forget macros in Excel. For the sake of consistency, keep all rules invariant across all environments; if you like pep8 in python, you should definitely use it in VBA and java and C++ as well. Disallow javascript minify because it violates your naming conventions; make sure all environments use parens the way eLisp expects. Roll all of the standards out at once. Put multi-part version numbers on your standards, preferably derived from the year, month, day, hour, minute, second, and timezone. Check the standards into version control. Arrange to have the standards in the new hire orientation packet.
 
 <em>3. Mandate redundancy.</em>
 
-Choose rules that make code say the same thing in several different ways -- preferably separating the redundancy as much as possible so it's hard to modify correctly.
+Choose rules that make code say the same thing in several different ways &mdash; preferably separating the redundancy as much as possible so it's hard to modify correctly.
 <p style="margin-left:2em;margin-right:2em;padding:.5em 1em;background-color:#eee;border:solid 1px px #ddd;font-family:times;">"End every function with a comment that says the function has ended. Make sure you include the function name in this comment. That way, we can find unterminated functions by looking for function identifiers with an odd number of hits when grepping through headers."</p>
 <p style="margin-left:2em;margin-right:2em;padding:.5em 1em;background-color:#eee;border:solid 1px px #ddd;font-family:times;">"At the top of every module, put a comment that gives the name of the module, a description of the module's purpose, then 'Copyright © Acme Corporation Inc., 20??, all rights reserved.' (Use the copyright symbol, not (c), and add correct digits for year...) At the top of every class, put a comment that gives the name of the class and a description of the class's purpose. Group all static methods together, and put <code style="color:green;">//static methods</code> on a line above them."</p>
 <em>4. Beat a dead horse.</em>

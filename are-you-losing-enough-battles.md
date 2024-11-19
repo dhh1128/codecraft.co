@@ -50,7 +50,7 @@ Contrast <a title="Colin Powell Leadership Presentation" href="http://www.slides
 
 I don't recommend that you take stupid risks, that you make no effort to gather data, or that you spend your political capital carelessly. But I do recommend that you follow Powell's example, not McClellan's. To quote Powell again, "You don't know what you can get away with until you try."
 
-Thomas Edison tried 1000 times to invent a light bulb before he succeeded. Why do we expect in software to get our designs right on the first attempt? I submit that if you aren't losing a battle now and then--if you don't make any failed experiments--you are not working smart enough or courageously enough.
+Thomas Edison tried 1000 times to invent a light bulb before he succeeded. Why do we expect in software to get our designs right on the first attempt? I submit that if you aren't losing a battle now and then &mdash; if you don't make any failed experiments &mdash; you are not working smart enough or courageously enough.
 
 If you don't lose the occasional battle, you will never win the war.
 

@@ -34,7 +34,7 @@ comments:
   - author: Daniel Hardman
     date: 2015-02-10 07:31:07
     comment: |
-      So good to hear from you, Moray! I think that years ago I told you that I thought concurrency wasn't that hard. This makes me eat my words. :-) It may not be that hard in theory, or when a codebase is in its infancy--but by the time we get to hundreds of thousands of lines of code, with large numbers of threads interacting in complex and unpredictable ways, we better have it right, or we can find ourselves in deep trouble.
+      So good to hear from you, Moray! I think that years ago I told you that I thought concurrency wasn't that hard. This makes me eat my words. :-) It may not be that hard in theory, or when a codebase is in its infancy &mdash; but by the time we get to hundreds of thousands of lines of code, with large numbers of threads interacting in complex and unpredictable ways, we better have it right, or we can find ourselves in deep trouble.
       
       I thought of your clean and robust epoll-based http server while I was doing this work...
   - author: earwicker
@@ -50,13 +50,13 @@ comments:
       
       I, too, have had good experiences with cross-thread communication only via queues. That's essentially the same solution that the designer of zmq advocated: http://zeromq.org/blog:multithreading-magic
 ---
-I just finished the nastiest debugging experience of my career--nearly 3 weeks on a single bug. After days and days of staring at code, swearing at core dumps, tailing logs, connecting to gdbserver via a multi-hop ssh tunnel from inside a secure environment, and general programmer misery, I felt like doing cartwheels when I finally figured it out, tweaked a few lines of code, and observed stability again.
+I just finished the nastiest debugging experience of my career &mdash; nearly 3 weeks on a single bug. After days and days of staring at code, swearing at core dumps, tailing logs, connecting to gdbserver via a multi-hop ssh tunnel from inside a secure environment, and general programmer misery, I felt like doing cartwheels when I finally figured it out, tweaked a few lines of code, and observed stability again.
 
 Hindsight teaches me this lesson: <em style="color:#706;">undocumented, unhandled constraints waste enormous amounts of time and energy</em>. If you're interested in writing good code, you must know your limits, and you must communicate them. This especially matters when the constraints are obscure or surprising.
 
 <figure><img class="" src="https://farm4.staticflickr.com/3084/3137178654_0796758be3.jpg" alt="" width="500" height="313" /><figcaption>image credit: ericdege (Flickr)</figcaption></figure>
 <h3>Naive optimism</h3>
-My bug seemed simple enough at first blush:<!--more--> I was seeing crashes in a daemon that uses machine learning to classify internet traffic. I'd just rewritten the app's DNS subsystem to increase throughput, and the crashes often happened in my new event-processing loop. The loop fired off callbacks to service sockets as they became unblocked; I assumed I had some kind of off-by-one error in my sockets array, or maybe I wasn't cleaning up sockets consistently.
+My bug seemed simple enough at first blush: I was seeing crashes in a daemon that uses machine learning to classify internet traffic. I'd just rewritten the app's DNS subsystem to increase throughput, and the crashes often happened in my new event-processing loop. The loop fired off callbacks to service sockets as they became unblocked; I assumed I had some kind of off-by-one error in my sockets array, or maybe I wasn't cleaning up sockets consistently.
 
 No such luck.
 

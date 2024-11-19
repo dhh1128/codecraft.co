@@ -19,15 +19,15 @@ Most people optimize for a single outcome.
 
 Ken Ebert is made of smarter stuff.
 
-When I began my career, I was like many engineers--keenly aware of issues like code quality and performance, but not so clued in to customer experience or business priorities. I'd go to team meetings, get new assignments, and head back to my cube to code away. If I was unsure how to accomplish my goals, I'd ask a senior engineer, and do my best to reflect the values they cared about. After all, they were the experts.
+When I began my career, I was like many engineers &mdash; keenly aware of issues like code quality and performance, but not so clued in to customer experience or business priorities. I'd go to team meetings, get new assignments, and head back to my cube to code away. If I was unsure how to accomplish my goals, I'd ask a senior engineer, and do my best to reflect the values they cared about. After all, they were the experts.
 
 It gradually dawned on me that some of my engineer mentors (not many; geeks are better-rounded than popular stereotypes make them out to be...) suffered from a kind of myopia. They could build complicated and highly functional things, but they had little interest in how their constructions mapped into sales, revenue, and company success. I went through a revolution in my perspective, got religion about user experience, and spent a lot of time learning from product management.
 
-In 2003, Symantec acquired several companies in rapid succession, and threw five sites together into a new business unit with marching orders to build a suite and conquer the world. I was tasked with architecture across the picture, and my perspective expanded again. Now it wasn't just a single product's success I was worrying about--I had to make or shepherd design decisions that enhanced the profitability of multiple independent products as well as the amalgam of all of them. Was it more important to make codebase <em>X</em> localizable, or to invest in a better install for codebase <em>Y</em>? If team <em>A</em> moved to a newer version of tomcat, would it break the integration story for our suite or impose undue burdens on team <em>B</em>? Resources were constrained (they always are!), time was short...
+In 2003, Symantec acquired several companies in rapid succession, and threw five sites together into a new business unit with marching orders to build a suite and conquer the world. I was tasked with architecture across the picture, and my perspective expanded again. Now it wasn't just a single product's success I was worrying about &mdash; I had to make or shepherd design decisions that enhanced the profitability of multiple independent products as well as the amalgam of all of them. Was it more important to make codebase <em>X</em> localizable, or to invest in a better install for codebase <em>Y</em>? If team <em>A</em> moved to a newer version of tomcat, would it break the integration story for our suite or impose undue burdens on team <em>B</em>? Resources were constrained (they always are!), time was short...
 
 I began to sense that the way I made decisions needed to change, but it wasn't until I worked intensely with Ken Ebert, years later, that I could put into words exactly how.
 
-Making wise decisions about architecture, SOP on dev teams, product features, investment in R&D versus marketing--it's like trying to solve an equation with multiple variables. <em>Profit maximization requires that you consider more than one input at a time. </em>This is partly what I had in mind when I blogged about <a title="Good Code Is Balanced" href="good-code-is-optimized.md">optimization</a>.
+Making wise decisions about architecture, SOP on dev teams, product features, investment in R&D versus marketing &mdash; it's like trying to solve an equation with multiple variables. <em>Profit maximization requires that you consider more than one input at a time. </em>This is partly what I had in mind when I blogged about <a title="Good Code Is Balanced" href="good-code-is-optimized.md">optimization</a>.
 
 Many times I've heard Ken say something like this: "I think we should make feature <em>N</em> the centerpiece of our next release." And my first response has been, "That's doable, but kinda boring. Why not focus on <em>M</em> instead?"
 
@@ -48,7 +48,7 @@ I'm not sure how Ken manages to be so good at this, but here's what I've done to
 	<li>Evaluate for morale and momentum.</li>
 	<li>Evaluate for technical debt.</li>
 </ul>
-Of course, nobody can do all of these, exhaustively, all the time. <a title="Don Kleinschnitz: Put a stake in the ground." href="don-kleinschnitz-stake.md">Don Kleinschnitz's wisdom about putting a stake in the ground</a> is an important counterbalance. But I find that I <em>can</em> think, at least briefly, about ramifications of a choice from multiple perspectives--and when I do, I often make better choices.
+Of course, nobody can do all of these, exhaustively, all the time. <a title="Don Kleinschnitz: Put a stake in the ground." href="don-kleinschnitz-stake.md">Don Kleinschnitz's wisdom about putting a stake in the ground</a> is an important counterbalance. But I find that I <em>can</em> think, at least briefly, about ramifications of a choice from multiple perspectives &mdash; and when I do, I often make better choices.
 
 Thanks for the lesson, Ken.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

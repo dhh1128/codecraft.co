@@ -26,7 +26,7 @@ comments:
     comment: |
       Laurent: Thanks for the insightful comment. I agree that versioning is a tricky question. Data does evolve. On another project that I recently did, I had to ingest large numbers of records. I barely finished the ingesting code when the data provider decided to add new columns to the data. It was frustrating.
       
-      I don't know of any silver bullet that makes the continuous delivery challenge go away, but I'm interested in learning about things that my smart friends have done. I guess with unicode, change happens seldom enough that it's not a problem--but how have you solved that issue in other scenarios?
+      I don't know of any silver bullet that makes the continuous delivery challenge go away, but I'm interested in learning about things that my smart friends have done. I guess with unicode, change happens seldom enough that it's not a problem &mdash; but how have you solved that issue in other scenarios?
   - author: laurentcaillette
     date: 2014-10-08 15:36:47
     comment: |
@@ -58,7 +58,7 @@ comments:
   - author: Daniel Hardman
     date: 2014-10-09 07:17:55
     comment: |
-      Embedded systems isn't an area where I have deep expertise; thanks for adding that dimension to the discussion. I think the Internet of Things is going to make this sort of environment more and more a part of the experience of the average developer--and it's going to make this versioning/evolution problem even more pressing.
+      Embedded systems isn't an area where I have deep expertise; thanks for adding that dimension to the discussion. I think the Internet of Things is going to make this sort of environment more and more a part of the experience of the average developer &mdash; and it's going to make this versioning/evolution problem even more pressing.
   - author: trevharmon
     date: 2014-10-11 14:49:36
     comment: |
@@ -102,7 +102,7 @@ I've been focusing on esoteric features of language design for a while. I thoug
 
 Let's talk data and tables.
 
-I don't mean databases--relational or otherwise; I'm talking about tables of data in source code itself. Sooner or later, every coder uses them. We build jump tables, tables of unicode character attributes, tables of time zone properties, tables of html entities, tables of multipliers to use in hash functions, tables that map zip codes to states, tables of dispatch targets, tables that tell us the internet domain-name suffix for a particular country name...
+I don't mean databases &mdash; relational or otherwise; I'm talking about tables of data in source code itself. Sooner or later, every coder uses them. We build jump tables, tables of unicode character attributes, tables of time zone properties, tables of html entities, tables of multipliers to use in hash functions, tables that map zip codes to states, tables of dispatch targets, tables that tell us the internet domain-name suffix for a particular country name...
 
 Depending on the language you're using and the nature of your data, you might code such tables using arrays, structs, enums, dictionaries, hash maps, and so forth.
 
@@ -110,15 +110,15 @@ I think this is a mediocre solution, at best. Shouldn't programmers work on funn
 
 <figure><img class="" src="http://imgs.xkcd.com/comics/travelling_salesman_problem.png" alt="" width="640" height="283" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
-<!--more-->
+
 <h3>What's wrong with how we code tables?</h3>
-What's wrong? In a word, the fact that we have to code them at all--that's what.
+What's wrong? In a word, the fact that we have to code them at all &mdash; that's what.
 
 If all the tables in our code had half a dozen items, the awkwardness of codifying them might not matter so much. But tabular data in code is often large, awkward, and difficult to format correctly. We rarely receive it expressed in a syntax that makes lexers happy.
 
 I recently spent time writing a python script to reformat a 100 KLOC .cpp file that contained generated unicode ngram definitions represented as strings. The strings included bytes > 0x80 and < 0x20, and the compiler was refusing to process the file because it could tell the "source code" wasn't ASCII.
 
-I'm not sure how many hours I've spent doing regex search/replace to put quotes around strings that I copied/pasted from a table on a web page somewhere--but the tally is large. I've fiddled with smart quotes, tweaked project defs to declare code pages for my source, line-wrapped by hand across hundreds of lines of data, debugged missing escape sequences due to embedded backslashes, added and subtracted commas and curly braces and line continuations, and all kinds of similar fiddle work.
+I'm not sure how many hours I've spent doing regex search/replace to put quotes around strings that I copied/pasted from a table on a web page somewhere &mdash; but the tally is large. I've fiddled with smart quotes, tweaked project defs to declare code pages for my source, line-wrapped by hand across hundreds of lines of data, debugged missing escape sequences due to embedded backslashes, added and subtracted commas and curly braces and line continuations, and all kinds of similar fiddle work.
 
 Coders have better things to do.
 
@@ -126,11 +126,11 @@ Notice that in most cases, data tables like these represent knowledge whose pri
 
 On another recent project, I needed a table to correlate ISO 639 country codes, country names as stored in a whois DB, and telephone dialing prefixes. The providers of whois data helpfully offered a pipe-delimited text file on their web site that showed how their country names mapped to ISO 639, and a little googling gave me an HTML table that mapped those codes to dialing prefixes.
 
-I knitted these two data sources together and build a .h that declared an array of structs to do my mapping. Easy. But I don't own the data. Because it is "foreign" in the new code home I've built for it, I have some lingering problems. For one, what do I do about changes? If Syria fragments or Crimea is no longer a part of Ukraine, I will have bugs in my table, and I will have to hand-edit to fix them once I diagnose the problem. That might never happen, since the owner of the whois data is unlikely to email me about it. Likewise, if phone companies decide that Antigua and Barbuda needs a new dialing prefix, how will I find out? Nobody is guaranteeing that the country-code-to-dialing-prefix table I found on the internet is up-to-date (or complete, or even accurate)--except me.
+I knitted these two data sources together and build a .h that declared an array of structs to do my mapping. Easy. But I don't own the data. Because it is "foreign" in the new code home I've built for it, I have some lingering problems. For one, what do I do about changes? If Syria fragments or Crimea is no longer a part of Ukraine, I will have bugs in my table, and I will have to hand-edit to fix them once I diagnose the problem. That might never happen, since the owner of the whois data is unlikely to email me about it. Likewise, if phone companies decide that Antigua and Barbuda needs a new dialing prefix, how will I find out? Nobody is guaranteeing that the country-code-to-dialing-prefix table I found on the internet is up-to-date (or complete, or even accurate) &mdash; except me.
 <h3>What would be better?</h3>
 The world already has very mature ways to deal with tabular data. They're called spreadsheets and databases. Imagine the master version of some of the types of data I've mentioned, and I suspect you'll be imagining one or the other of these tools as part of the context. Don't you think the definitive master lists of mappings between cities and postal codes live in postal service databases somewhere? Or that the guaranteed-accurate-and-up-to-date enumeration of stock ticker symbols lives in a spreadsheet at the NYSE or the FTSE?
 
-What programming languages ought to do is allow coders to import data from their definitive sources--or at least from a small handful of exchange formats like CSV and XML--with no intermediate hand coding. In other words, I want what I'll call <em>direct compilation of data from native formats</em>. If I create a currency-exchange app that needs a currency conversion table, what I want is to write code like this:
+What programming languages ought to do is allow coders to import data from their definitive sources &mdash; or at least from a small handful of exchange formats like CSV and XML &mdash; with no intermediate hand coding. In other words, I want what I'll call <em>direct compilation of data from native formats</em>. If I create a currency-exchange app that needs a currency conversion table, what I want is to write code like this:
 <pre>table currency_info:
     columns: id(enum), symbol(str), name(str), exchange_rate(float)
     rows: Attach("latest_currency_info.csv")
@@ -139,11 +139,11 @@ If a compiler supported such code, it might read the attached .csv file, parse i
 
 [caption id="attachment_5895" align="aligncenter" width="646"]<a href="http://www.xe.com/symbols.php"><img class="size-large wp-image-5895" src="https://codecraft.co/wp-content/uploads/2014/10/screen-shot-2014-10-08-at-1-12-43-pm.png?w=646" alt="Currency Table at XE.com" width="646" height="390" /></a> Currency Table at XE.com[/caption]
 
-Think about the advantages for a minute. Christine Lagarde isn't going to call me up or help me write code if the IMF decides to make loans in Bitcoin (to pick a ridiculous example)--but I can write a cron job that downloads data about accepted currencies worldwide, as published on <a href="http://www.xe.com/symbols.php" target="_blank">xe.com</a>. Suddenly my code is up-to-date. I never have to do reformatting work, and I don't have to worry about code getting out-of-sync with reality.
+Think about the advantages for a minute. Christine Lagarde isn't going to call me up or help me write code if the IMF decides to make loans in Bitcoin (to pick a ridiculous example) &mdash; but I can write a cron job that downloads data about accepted currencies worldwide, as published on <a href="http://www.xe.com/symbols.php" target="_blank">xe.com</a>. Suddenly my code is up-to-date. I never have to do reformatting work, and I don't have to worry about code getting out-of-sync with reality.
 
-This isn't rocket science, but it's remarkably powerful. You no longer need to use programming language syntax to describe data--you can use a familiar, standard data representation language. That means non-coders can give it to you directly. Data sources turn into code with minimal effort.
+This isn't rocket science, but it's remarkably powerful. You no longer need to use programming language syntax to describe data &mdash; you can use a familiar, standard data representation language. That means non-coders can give it to you directly. Data sources turn into code with minimal effort.
 
-At work, I maintain code that helps categorize content on the web. The <a href="http://sitereview.bluecoat.com/categories.jsp" target="_blank">set of possible categories</a> is in a coded table in both C++ and java, but it is not chosen by engineers--product managers and executives debate about what's most useful to customers, and they periodically change their minds. If I had compilers that supported the behavior I'm advocating, I could tell my product management to email me a .xlsx whenever they make a change, and my reaction time would be minutes. And I could be certain that the C++ and java versions of the table were identical, since they used the same input data.
+At work, I maintain code that helps categorize content on the web. The <a href="http://sitereview.bluecoat.com/categories.jsp" target="_blank">set of possible categories</a> is in a coded table in both C++ and java, but it is not chosen by engineers &mdash; product managers and executives debate about what's most useful to customers, and they periodically change their minds. If I had compilers that supported the behavior I'm advocating, I could tell my product management to email me a .xlsx whenever they make a change, and my reaction time would be minutes. And I could be certain that the C++ and java versions of the table were identical, since they used the same input data.
 <h3>Getting fancy</h3>
 I can think of enhancements that would make such a mechanism even more powerful:
 <ul>

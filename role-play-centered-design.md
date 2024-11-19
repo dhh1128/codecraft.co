@@ -20,11 +20,11 @@ comments:
   - author: Evolving Software Politics &laquo; Codecraft
     date: 2012-09-11 11:01:22
     comment: |
-      [...] python and “convention over configuration“–both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...–that’s about as ultra liberal as it [...]
+      [...] python and “convention over configuration“&mdash;both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...&mdash;that’s about as ultra liberal as it [...]
   - author: Evolving Software Politics &laquo; Codecraft
     date: 2012-09-13 01:38:16
     comment: |
-      [...] python and “convention over configuration“–both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...–that’s about as ultra liberal as it gets.    Take Our [...]
+      [...] python and “convention over configuration“&mdash;both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...&mdash;that’s about as ultra liberal as it gets.    Take Our [...]
   - author: Progressive Disclosure Everywhere &laquo; Codecraft
     date: 2012-09-16 17:15:27
     comment: |
@@ -36,9 +36,9 @@ comments:
 ---
 User-centered design (UCD) is important. I hope I've been a good advocate for it during my career. Its basic tenet is that software should be constructed as much as possible according to how users think and work, not according to techie considerations. (A seminal book on this topic is <a href="http://www.amazon.com/dp/0465067107/ref=rdr_ext_tmb">The Design of Everyday Things</a>, by Donald Norman.) At its best, UCD promotes an alignment between technology and customer pain points that keeps software's value proposition compelling. Even on a bad day, UCD makes software a lot more pleasant to use.
 
-However, UCD rarely yields all potential benefits, which is why I'd like to suggest a specialized form of UCD for many software teams. I'll dub this idea "Role-Play Centered Design" (RPCD, prounounced /ˈrɪpˌsɪd/) because of the way the various parts of the system come to life. (This idea is similar to--though conceived independently from--the concepts in <a title="The use of improvisational role-play in user centered design processes" href="http://dl.acm.org/citation.cfm?id=1772520" target="_blank">this article</a> from the proceedings of HCI '07.)
+However, UCD rarely yields all potential benefits, which is why I'd like to suggest a specialized form of UCD for many software teams. I'll dub this idea "Role-Play Centered Design" (RPCD, prounounced /ˈrɪpˌsɪd/) because of the way the various parts of the system come to life. (This idea is similar to &mdash; though conceived independently from &mdash; the concepts in <a title="The use of improvisational role-play in user centered design processes" href="http://dl.acm.org/citation.cfm?id=1772520" target="_blank">this article</a> from the proceedings of HCI '07.)
 
-<figure><img alt="" src="http://farm7.staticflickr.com/6151/6257521499_10eb09fd45_d.jpg" width="500" height="357" /><figcaption>Role plays can help you build software -- not just entertain. Photo credit: TheArches (Flickr)</figcaption></figure>
+<figure><img alt="" src="http://farm7.staticflickr.com/6151/6257521499_10eb09fd45_d.jpg" width="500" height="357" /><figcaption>Role plays can help you build software &mdash; not just entertain. Photo credit: TheArches (Flickr)</figcaption></figure>
 
 <strong>Manifesto</strong>
 
@@ -52,9 +52,9 @@ Let me justify each of these ideas, and then I'll give an example of an RPCD pro
 
 <strong>The "system" includes people.</strong>
 <p style="padding-left:30px;">Most architectural and UML diagrams focus on software and/or hardware entities. The user's role in the system is implicit. Even among users of <a href="http://en.wikipedia.org/wiki/Activity_diagram">activity diagrams</a>, most workflow is computer rather than human.</p>
-<p style="padding-left:30px;">This is wrong. <a href="why-people-are-part-of-a-software-architecture.md">software - people != software</a>. Any thoughtful veteran of the industry can tell you stories about why this is so. Engineers who accept the flawed premise that only the computer side of software needs to be designed are already handicapping their UCD fatally. The system built by a software team includes people -- individual users, a community, support personnel, sales folks, professional services, maintainers of docs on a web site, etc. If you let an engineer construct "the system" with no serious thought to the people, you often end up with misalignments that make it irritating to understand/use/configure/support, expensive to maintain, or even impossible to sell.</p>
+<p style="padding-left:30px;">This is wrong. <a href="why-people-are-part-of-a-software-architecture.md">software - people != software</a>. Any thoughtful veteran of the industry can tell you stories about why this is so. Engineers who accept the flawed premise that only the computer side of software needs to be designed are already handicapping their UCD fatally. The system built by a software team includes people &mdash; individual users, a community, support personnel, sales folks, professional services, maintainers of docs on a web site, etc. If you let an engineer construct "the system" with no serious thought to the people, you often end up with misalignments that make it irritating to understand/use/configure/support, expensive to maintain, or even impossible to sell.</p>
 <strong>Specifics are non-negotiable.</strong>
-<p style="padding-left:30px;">The devil really is in the details, and ifu don't solve detailed problems, you won't solve problems at all. The design of a system is therefore best driven by specifics--even if the specifics are only postulated. Specifics are best exemplified by use cases, and role playing forces specifics into use cases.</p>
+<p style="padding-left:30px;">The devil really is in the details, and ifu don't solve detailed problems, you won't solve problems at all. The design of a system is therefore best driven by specifics &mdash; even if the specifics are only postulated. Specifics are best exemplified by use cases, and role playing forces specifics into use cases.</p>
 <strong>The best way to understand is to "be" the system.</strong>
 <p style="padding-left:30px;"><a href="what-role-are-you-playing-in-rpcd.md">You should "be" the software in the system, and you should "be" the people as well</a>.</p>
 <p style="padding-left:30px;">When a hu being actually interviews someone in the same way an automated wizard eventually will, you learn things. The human reorders the questions or short-circuits part of the interview because she knows it's unnecessary. Or the human gets frustrated at how needlessly cumbersome a particular part of the process is. Or the human asks some intelligent questions that you never considered. When two humans interact to model what's eventually going to be a formal protocol, you confront asynchronicity and error handling in ways that UML or whiteboards don't.</p>

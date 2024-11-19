@@ -14,7 +14,7 @@ comments:
       
       I'm not as sure about warning suppression outside of the code itself: "different developers might have different answers for different circumstances, and because answers must expire or vary without the code changing." Typically the goal is to have deterministic build results. Having a whole boatload of warnings show up today that weren't there yesterday, or having one developer see warnings the other developer doesn't see, makes the build results less repeatable.
       
-      In the case of using warning suppressions that expire after the demo shipped -- The day after the demo ships, now all your pragmatic stubbed code generates warnings. Will you just ignore the warnings your build system produces while you transition from stubs to full production code? That could take weeks or months. Then are we back to habitually ignoring warnings? Or are you saying that the warning system has become the development TODO list? In that case, are you going to place the other development TODO items in the code as artificially generated warnings, to keep all of your TODO items in once place?
+      In the case of using warning suppressions that expire after the demo shipped &mdash; The day after the demo ships, now all your pragmatic stubbed code generates warnings. Will you just ignore the warnings your build system produces while you transition from stubs to full production code? That could take weeks or months. Then are we back to habitually ignoring warnings? Or are you saying that the warning system has become the development TODO list? In that case, are you going to place the other development TODO items in the code as artificially generated warnings, to keep all of your TODO items in once place?
       
       Sorry Daniel, just thinking this through out loud, I hope it helps.
   - author: Daniel Hardman
@@ -24,7 +24,7 @@ comments:
       
       I relate to your comment about getting warm fuzzies from a clean build. I also agree that deterministic build results is a big deal. A HUGE deal, actually. Having a build which is noisy on some platforms, or which becomes noisy in surprising ways, is not good. Perhaps the idea of expiring warnings on a date or after a milestone is therefore iffy.
       
-      However, I don't think this invalidates the whole idea. Git has a requirement that before you push, you must declare your identity. Take that one step further and imagine that the compiler wants to know who it's dealing with--a code owner, a casual downloader/reuser, a build slave... It might be the case that code owners invoke a much more demanding posture with respect to warnings than a casual downloader/reuser, and that build slaves refuse to ignore any warnings that could change their status non-deterministically. Just last night I was working with CMake and got a warning that said, "This warning is for internal project developers; if you're just using somebody else's cmake project, you can ignore it." So I know I'm not imagining this use case. That doesn't mean this is a good idea, though. Certainly, if you can drive ambiguity out of the codebase for everyone, permanently, that's better than leaving questions unaddressed.
+      However, I don't think this invalidates the whole idea. Git has a requirement that before you push, you must declare your identity. Take that one step further and imagine that the compiler wants to know who it's dealing with &mdash; a code owner, a casual downloader/reuser, a build slave... It might be the case that code owners invoke a much more demanding posture with respect to warnings than a casual downloader/reuser, and that build slaves refuse to ignore any warnings that could change their status non-deterministically. Just last night I was working with CMake and got a warning that said, "This warning is for internal project developers; if you're just using somebody else's cmake project, you can ignore it." So I know I'm not imagining this use case. That doesn't mean this is a good idea, though. Certainly, if you can drive ambiguity out of the codebase for everyone, permanently, that's better than leaving questions unaddressed.
       
       Maybe the right solution is to allow warning filters to be changed, but only manually. I guess that's not much different from hand-editing a Makefile to add or remove -W switches; what I'm proposing is just a bit easier to use.
       
@@ -46,7 +46,7 @@ comments:
       
       Any time I find a 3rd-party module that I'm calling deciding to suppress warnings in this way, I always get nervous. It isn't good to believe the compiler is omnipotent, but those warning rules have been put in there for a reason... usually because someone screwed something up... badly.
       
-      I know it's a royal pain to have to clean up warnings--especially the "silly" ones. I just wonder, do we want to encourage any of the behaviors that push us to not clean up warnings? I don't know. Clearly, we want a balance to be struck. Maybe marks can provide enough context to solve this problem without encouraging bad behavior.
+      I know it's a royal pain to have to clean up warnings &mdash; especially the "silly" ones. I just wonder, do we want to encourage any of the behaviors that push us to not clean up warnings? I don't know. Clearly, we want a balance to be struck. Maybe marks can provide enough context to solve this problem without encouraging bad behavior.
       
       I'm going to have to think on this a bit.
       
@@ -66,16 +66,16 @@ Ignoring warnings is a bad idea. At some level, we all know this. If we see a s
 
 <figure><img class="" src="http://imgs.xkcd.com/comics/the_mother_of_all_suspicious_files.png" alt="" width="538" height="234" /><figcaption>Ignore warnings at your peril. :-) Image credit: xkcd.com</figcaption></figure>
 
-Yet we sometimes get cavalier about warnings in software. Specifially, I have heard programmers describe compiler warnings as being <em>less severe</em> than errors--as if worrying about them is optional.
+Yet we sometimes get cavalier about warnings in software. Specifially, I have heard programmers describe compiler warnings as being <em>less severe</em> than errors &mdash; as if worrying about them is optional.
 
 This is simply not true.
-<!--more-->
 
-You have probably seen plenty of warnings that highlight serious problems; I know I have. And you've probably wrestled with annoying "errors" that tools should have fixed without bothering you--or suppressed in the first place.
+
+You have probably seen plenty of warnings that highlight serious problems; I know I have. And you've probably wrestled with annoying "errors" that tools should have fixed without bothering you &mdash; or suppressed in the first place.
 
 <strong>What's your intent?</strong>
 
-In general, compiler warnings aren't less severe than errors--they are simply <em>more ambiguous</em>. The compiler isn't sure whether a signed/unsigned comparison is evidence logic mistakes, or is perfectly harmless. So it warns you, and lets you decide.
+In general, compiler warnings aren't less severe than errors &mdash; they are simply <em>more ambiguous</em>. The compiler isn't sure whether a signed/unsigned comparison is evidence logic mistakes, or is perfectly harmless. So it warns you, and lets you decide.
 
 Warnings are evidence that the compiler needs to know more about your <em>intent</em>. (Does this sound like the "<a title="Lacunas Everywhere" href="bridging-the-lacuna-humana.md">harping</a> on lately?)
 
@@ -87,7 +87,7 @@ Some warnings aren't susceptible to this approach. If the compiler warns you tha
 
 <strong>Marks make it better</strong>
 
-The <a title="Introducing Marks" href="mountains-molehills-and-markedness.md">recently described</a> provide a nice, uniform solution to this hodgepodge of warning-answering mechanisms. Since they're evaluated at compile-time, they can play the same role that <code>#pragma</code> does in some languages. Sophisticated attachment and propagation get you away from all the silly push/pop gyrations. They can attach to any portion of the code DOM--functions, variables, statements, code blocks, classes, packages, applications--and they can express arbitrary semantics, including answers to any question the compiler dreams up. One simple, clean technique across the board.
+The <a title="Introducing Marks" href="mountains-molehills-and-markedness.md">recently described</a> provide a nice, uniform solution to this hodgepodge of warning-answering mechanisms. Since they're evaluated at compile-time, they can play the same role that <code>#pragma</code> does in some languages. Sophisticated attachment and propagation get you away from all the silly push/pop gyrations. They can attach to any portion of the code DOM &mdash; functions, variables, statements, code blocks, classes, packages, applications &mdash; and they can express arbitrary semantics, including answers to any question the compiler dreams up. One simple, clean technique across the board.
 
 <strong>But there's more...</strong>
 
@@ -95,7 +95,7 @@ However, I want to push our vision even further.
 
 Imagine that you could address the compiler's questions (aka warnings) in powerful new ways:
 <ul>
-	<li>Yes, it's okay that I'm calling deprecated functions--but only on the old OS where I'm currently working, and only until we reach beta.</li>
+	<li>Yes, it's okay that I'm calling deprecated functions &mdash; but only on the old OS where I'm currently working, and only until we reach beta.</li>
 	<li>I'm not worried about this exception as long as I have a unit test that proves we handle it in every caller in the call graph.</li>
 	<li>Assume I know what I'm doing and build the binary anyway, because right now my goal is just to figure out what libraries I need on this new platform to make the port work. But don't let me accidentally check in anything that hides warnings from others.</li>
 	<li>Ignore all the reassuring answers (about warnings) that I gave you in the past; if you went back to your paranoid state, what would you ask me about?</li>
@@ -107,7 +107,7 @@ In order to provide this sort of experience to developers, you don't just need m
 
 But as soon as you answer warnings outside the code, you have a stability problem. Code changes; what was line 72 in your module yesterday might be line 93 today. It does no good to remember Fred's answer to warning W-2046 on line 72 of moduleX, if line 72 might have a different meaning each time we compile.
 
-I want to support this powerful approach to warnings in the <code>intent</code> programming language, so I've been pondering the problem of stable references to code. I think I have some satisfying answers that make this vision for warnings achievable. I'll blog about code as hypertext soon. In the meantime, just assume it's possible--and not onerous for the developer.
+I want to support this powerful approach to warnings in the <code>intent</code> programming language, so I've been pondering the problem of stable references to code. I think I have some satisfying answers that make this vision for warnings achievable. I'll blog about code as hypertext soon. In the meantime, just assume it's possible &mdash; and not onerous for the developer.
 
 Imagine, then, that in addition to baking answers to warnings directly into the code with marks, developers can layer additional answers like masks or filters. The team that's porting to Windows might have one shared mask; Fred and Sally might have their own personal filters on top of the team one. These filters can be checked in with code, and the compiler smartly decides what applies in the active context.
 

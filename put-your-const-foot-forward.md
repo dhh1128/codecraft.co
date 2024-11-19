@@ -68,7 +68,7 @@ The reason is simple. If you forget/mis-type and accidentally write a single <co
 <pre style="padding-left:30px;font-size:100%;margin-bottom:1em;">char const * VERSION = "2.5";</pre>
 ... instead of:
 <pre style="padding-left:30px;font-size:100%;margin-bottom:1em;">const char * VERSION = "2.5";</pre>
-This rule is simple to follow, and it makes semantics about constness crystal clear. It lets you read data types backwards (from right to left) to get their semantics in plain English, which helps uncover careless errors. In either of the declarations of VERSION given above, the coder probably intends to create a constant, but that's not what his code says. The semantics of the two are identical, as far as a compiler is concerned, but the first variant makes the mistake obvious. Reading right-to-left, the data type of VERSION is "pointer to const char" -- so VERSION could be incremented or reassigned.
+This rule is simple to follow, and it makes semantics about constness crystal clear. It lets you read data types backwards (from right to left) to get their semantics in plain English, which helps uncover careless errors. In either of the declarations of VERSION given above, the coder probably intends to create a constant, but that's not what his code says. The semantics of the two are identical, as far as a compiler is concerned, but the first variant makes the mistake obvious. Reading right-to-left, the data type of VERSION is "pointer to const char" &mdash; so VERSION could be incremented or reassigned.
 
 Use the right-to-left rule in reverse to solve the problem. If we want a "const pointer to const char", then we want:
 <pre style="padding-left:30px;font-size:100%;margin-bottom:1em;">char const * const VERSION = "2.5";</pre>

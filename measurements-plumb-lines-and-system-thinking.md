@@ -30,7 +30,7 @@ I'm also a big believer in balance, as I've written about before. <a title="Good
 
 Besides these existing predispositions, I'd recently read a <a href="http://sethgodin.typepad.com/seths_blog/2012/11/avoiding-the-false-proxy-trap.html" target="_blank">blog post by Seth Godin</a>, cautioning about the need to choose wisely what we measure. And I've been digesting <em>The Fifth Discipline</em>, by Peter Senge, which advocates wholistic, <a class="zem_slink" title="Systemics" href="http://en.wikipedia.org/wiki/Systemics" target="_blank" rel="wikipedia">systemic thinking</a>, where we recognize interrelationships that go well beyond simplistic, direct cause-and-effect.
 
-All of these mental ingredients <!--more-->crystallized when Jason made his comment about competing metrics.
+All of these mental ingredients crystallized when Jason made his comment about competing metrics.
 
 I realized that when we have a system that's out of balance, and we pull a lever to correct, if we measure progress with a single-minded metric, we are setting ourselves up for skew, overcorrection, or puzzlement. I think I've made this mistake several times in my career. We have to measure each factor that contributes to an overall <a class="zem_slink" title="System dynamics" href="http://en.wikipedia.org/wiki/System_dynamics" target="_blank" rel="wikipedia">system dynamic</a> if we want to shift balance efficiently and avoid pendulum behavior.
 

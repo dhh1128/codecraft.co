@@ -89,11 +89,11 @@ But there's more.
 
 Many well meaning managers and executives understand this trilemma, and they distance themselves from Dilbert's PHB by acknowledging that something has to give. "I pick scope," they'll say. "We absolutely must have the product before the summer doldrums, and we only have <em>X</em> dollars to spend, but I'm willing to sacrifice a few features."
 
-This can give product management heartburn--feature sets sometimes hang together in ways that make slicing and dicing dangerous. An airplane that's good at takeoffs but that can't land is unlikely to be a commercial success. Good product managers will point this out, and they'll be right.
+This can give product management heartburn &mdash; feature sets sometimes hang together in ways that make slicing and dicing dangerous. An airplane that's good at takeoffs but that can't land is unlikely to be a commercial success. Good product managers will point this out, and they'll be right.
 
-<!--more-->Can feature-cutting be done judiciously? Yes. If you're careful. But that's <em>still</em> not the whole story.
+Can feature-cutting be done judiciously? Yes. If you're careful. But that's <em>still</em> not the whole story.
 
-Most software projects are not building version 1.0. This means that what you're releasing at the end of the project is your new features PLUS all the old features that you already had. On mature products, the ratio of old to new features may be enormous--easily 100:1. I've worked on software that was 15 years old, had millions of lines of code in the codebase, and represented hundreds or thousands of man-years of investment. When you pull 1 or 2 features out of the next release in that kind of a codebase, how much are you really saving?
+Most software projects are not building version 1.0. This means that what you're releasing at the end of the project is your new features PLUS all the old features that you already had. On mature products, the ratio of old to new features may be enormous &mdash; easily 100:1. I've worked on software that was 15 years old, had millions of lines of code in the codebase, and represented hundreds or thousands of man-years of investment. When you pull 1 or 2 features out of the next release in that kind of a codebase, how much are you really saving?
 
 The PHB is foolishly optimistic. "We have 6 major initiatives slated for the next release, and I'm cancelling 2. We just reduced scope by 33%."
 
@@ -135,7 +135,7 @@ I have personally worked in codebases that are modular, well encapsulated, thoro
 
 <strong>But can we handle the truth?</strong>
 
-Part of the reason why my colleague had strong emotion about this claim is because he'd been burned by the facile belief that you can hold quality constant (or increase it) as you push relentlessly for speed. That belief is dangerous. If a Dilbertesque PHB is told that he can have both, misery will ensue. That's not opinion--it's historical fact, as most of us can witness.
+Part of the reason why my colleague had strong emotion about this claim is because he'd been burned by the facile belief that you can hold quality constant (or increase it) as you push relentlessly for speed. That belief is dangerous. If a Dilbertesque PHB is told that he can have both, misery will ensue. That's not opinion &mdash; it's historical fact, as most of us can witness.
 
 That way lies madness.
 

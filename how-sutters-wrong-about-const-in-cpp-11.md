@@ -20,7 +20,7 @@ comments:
   - author: Daniel
     date: 2013-01-03 14:04:02
     comment: |
-      Herb: you're a good sport to read my post after the over-the-top title. :-) Thanks for an informative and though-provoking talk--and thanks for all the good work on C++ 11. I haven't felt this much energy on C++ (from myself or others) for a long time!
+      Herb: you're a good sport to read my post after the over-the-top title. :-) Thanks for an informative and though-provoking talk &mdash; and thanks for all the good work on C++ 11. I haven't felt this much energy on C++ (from myself or others) for a long time!
   - author: sandforddene
     date: 2013-01-09 12:46:35
     comment: |
@@ -104,9 +104,9 @@ comments:
       
       My original beef with Sutter's claim was that it ignored all the semantics of const within the context of a single thread. Those semantics are important, and they remain useful and unchanged in C++ 11.
       
-      Since writing the post, I've also had various commenters point out another problem with Sutter's assertion. They note that constness in one scope doesn't guarantee constness in all other scopes--and a single writer in a non-const context throws all guarantees about thread safety and race conditions out the window. For that reason, I won't disagree if you say that effectively, we still have a squishy definition of const, and one that's not as tied to thread safety as Sutter claimed. But I also think Sutter is correct that our guarantee is stronger than it used to be.
+      Since writing the post, I've also had various commenters point out another problem with Sutter's assertion. They note that constness in one scope doesn't guarantee constness in all other scopes &mdash; and a single writer in a non-const context throws all guarantees about thread safety and race conditions out the window. For that reason, I won't disagree if you say that effectively, we still have a squishy definition of const, and one that's not as tied to thread safety as Sutter claimed. But I also think Sutter is correct that our guarantee is stronger than it used to be.
       
-      Re. Foo.GetValue() -- I wouldn't decide to qualify the method as const based on whether it does something expensive; I'd still go back to the tried and true "is the state of the object observably different after calling the method" question. I know that's a C++98 mindset, but Sutter didn't move the needle for me.
+      Re. Foo.GetValue() &mdash; I wouldn't decide to qualify the method as const based on whether it does something expensive; I'd still go back to the tried and true "is the state of the object observably different after calling the method" question. I know that's a C++98 mindset, but Sutter didn't move the needle for me.
   - author: Jam
     date: 2013-12-19 10:40:35
     comment: |
@@ -137,7 +137,7 @@ comments:
   - author: Daniel Hardman
     date: 2013-12-20 09:06:37
     comment: |
-      Jam: That is an excellent and thought-provoking question. As I pondered your example, I began to realize how fuzzy the concept of object state truly is.  I started to answer several times, but my responses left me unsatisfied because I realized I couldn't give a clear enough rule to decide. In a lot of cases, object state is easy to understand--but there are enough corner cases to give me pause.
+      Jam: That is an excellent and thought-provoking question. As I pondered your example, I began to realize how fuzzy the concept of object state truly is.  I started to answer several times, but my responses left me unsatisfied because I realized I couldn't give a clear enough rule to decide. In a lot of cases, object state is easy to understand &mdash; but there are enough corner cases to give me pause.
       
       In some of my other posts, I've been talking about how I want to write a different programming language. One of the concepts I'd been playing around with is formalizing object state (basically, making it super easy to describe the state machine for each class, and the semantics that attach to it, such as "function X can only be called when I'm in state 1 or state 3"). I hadn't spent a lot of time taking that idea from vague to crisp, but your comment makes me think I should ponder the issue a lot more carefully.
   - author: Always declare std::mutex as mutable in C++11? - ExceptionsHub

@@ -1,7 +1,7 @@
 import os
 import re
 
-relpat = re.compile(r'href=".*?/20\d\d/\d\d/\d\d/([-a-z0-9]+)/"')
+relpat = re.compile(r'href="[^>]*?/20\d\d/\d\d/\d\d/([-a-z0-9]+)/"')
 
 for file in os.listdir("."):
     if file.endswith("") and file != 'README':

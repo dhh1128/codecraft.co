@@ -14,7 +14,7 @@ This ought to change. Cloud computing isn't just interesting to datacenter manag
 
 On my company's website, I've begun a new series of blog posts about how to "cloudify" your code and designs. Read the <a title=""Cloudify" series at Adaptive Computing" href="good-fences-make-good-neighbors.md">encapsulate</a> for cloud, and so forth.
 
-I believe that a competence with cloud--cloud-oriented programming, if you will--will be a checkbox on future tech resumes.
+I believe that a competence with cloud &mdash; cloud-oriented programming, if you will &mdash; will be a checkbox on future tech resumes.
 
 
 

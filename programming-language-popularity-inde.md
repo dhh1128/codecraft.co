@@ -20,7 +20,7 @@ Here's an<a href="http://langpop.corger.nl/" target="_blank"> interesting chart<
 
 I don't think the chart is perfect. I've seen it billed as a "popularity index," but I think it might be better described as a measure of how busy the coders are who use each language. If most of the coders who use a language hate it, I don't think it's fair to call it "popular." Some apples-to-apples issues are glossed over, such as the fact that certain languages are very verbose, and some languages tend to get used mostly for "big" projects or for "small" ones. And the chart says nothing about the quality of systems built with the languages, or about the velocity of teams.
 
-<!--more-->Nonetheless, it's an insightful view. I'm not surprised to see C#, Java, Javascript, PHP, C++, C, and Python as the clear hotspots. It's interesting to see where some older and less glamorous languages fall, like Perl and Visual Basic. If you're wondering which languages you ought to learn, this view might tell you the relative value of, say, Haskell vs. Erlang vs. F# vs. D.
+Nonetheless, it's an insightful view. I'm not surprised to see C#, Java, Javascript, PHP, C++, C, and Python as the clear hotspots. It's interesting to see where some older and less glamorous languages fall, like Perl and Visual Basic. If you're wondering which languages you ought to learn, this view might tell you the relative value of, say, Haskell vs. Erlang vs. F# vs. D.
 
 <strong>Observations</strong>
 <ul>

@@ -40,7 +40,7 @@ The central value proposition of big data is inseparably connected to <strong>di
 
 In other words, if we're not building big data solutions that hypothesize rather than report, we're underdelivering. We call it <em>data science</em>, right? Isn't the scientific method all about hypotheses and testing?
 
-Business intelligence products and services that show pretty dashboards or reports are not really delivering insight; they're exposing information and depending on the human intelligence in the minds of the users to provide the hypotheses and analysis that turns it into insight. Sometimes that happens, if a graph shows something interesting and noteworthy--but a lot of times, minutiae overwhelms, and BI is a waste of the customer's money.
+Business intelligence products and services that show pretty dashboards or reports are not really delivering insight; they're exposing information and depending on the human intelligence in the minds of the users to provide the hypotheses and analysis that turns it into insight. Sometimes that happens, if a graph shows something interesting and noteworthy &mdash; but a lot of times, minutiae overwhelms, and BI is a waste of the customer's money.
 
 Enterprise search struggles, as an industry, because it's trying to sell drill bits to customers who want holes, and it's forgotten that it's the hole, not the bit, that makes the customer passionate (thanks Zig Ziglar for the analogy). In other words, it is also depending on the customer to provide analysis that turns data into insight.
 

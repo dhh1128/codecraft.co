@@ -42,13 +42,13 @@ Now I know better.
 
 If your software can be installed and configured a hundred different ways, this is <strong>Not Good</strong>. It is a sign that you don't know who your customer is, or what they want. If your programming language has nine separate functions that provide the same functionality, shame on its designers. If your UI presents users with oodles of choices and calls it a customer focus, go vomit into the nearest garbage can.
 
-<figure><img class=" " src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/3rd_Battalion_3rd_Marines_Osprey_flights.jpg/640px-3rd_Battalion_3rd_Marines_Osprey_flights.jpg" alt="" width="480" height="249" /><figcaption>V22-Osprey -- an unusually flexible aircraft. Photo credit: Sgt. Mike Fayloga (Wikimedia Commons)</figcaption></figure>
+<figure><img class=" " src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/3rd_Battalion_3rd_Marines_Osprey_flights.jpg/640px-3rd_Battalion_3rd_Marines_Osprey_flights.jpg" alt="" width="480" height="249" /><figcaption>V22-Osprey &mdash; an unusually flexible aircraft. Photo credit: Sgt. Mike Fayloga (Wikimedia Commons)</figcaption></figure>
 
-I can already hear the protests, so let me pause here to admit <!--more-->that my generalization isn't true 100% of the time. The Department of Defense spent billions of dollars developing the Osprey, because it really did want Marines to be able to take off and land like a helicopter or a plane, according to changing circumstances. And the DOD was not crazy.
+I can already hear the protests, so let me pause here to admit that my generalization isn't true 100% of the time. The Department of Defense spent billions of dollars developing the Osprey, because it really did want Marines to be able to take off and land like a helicopter or a plane, according to changing circumstances. And the DOD was not crazy.
 
 This post is not about that kind of flexibility.
 
-It's also not about the flexibility in construction that you address with modular designs. The set of objects you can build with legos is unbounded--flexible, if you will. But notice that the blocks themselves are not.
+It's also not about the flexibility in construction that you address with modular designs. The set of objects you can build with legos is unbounded &mdash; flexible, if you will. But notice that the blocks themselves are not.
 
 This post is about products that can be deployed and configured in a thousand permutations, when the reasons and the costs for that flexibility are not understood or acknowledged. <em>That</em> kind of flexibility pushes problem-solving onto the customer's plate (and QA's plate), and is usually laziness in disguise. Yet we tell ourselves it's a virtue so often that we start to believe it.
 
@@ -58,7 +58,7 @@ When you pour cement to make a driveway, you value the pliable nature of the mat
 
 Think about that for a minute.
 
-In the long run, does a customer value the ability of a "flexible" product to meet the needs of <em>any</em> configuration other than the one she needs? No! (It is possible that she will configure a single product in multiple ways on different hardware or at different points in time, but this is the exception that proves the rule. Even when reconfiguration is important, the customer will view it as a necessary evil that increases cost and bother--not as a delightful business enhancer.)
+In the long run, does a customer value the ability of a "flexible" product to meet the needs of <em>any</em> configuration other than the one she needs? No! (It is possible that she will configure a single product in multiple ways on different hardware or at different points in time, but this is the exception that proves the rule. Even when reconfiguration is important, the customer will view it as a necessary evil that increases cost and bother &mdash; not as a delightful business enhancer.)
 
 As with cement, once a customer gets things configured correctly, he is guaranteed to prefer "set it and forget it" to an experience where he can experience the wonders of your product's flexibility over and over again.
 

@@ -20,7 +20,7 @@ comments:
   - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
     date: 2013-02-05 08:57:45
     comment: |
-      [...] We champion the ideal implementation, programming language, product schedule, or architecture–so much so that we lose momentum or balance. [...]
+      [...] We champion the ideal implementation, programming language, product schedule, or architecture&mdash;so much so that we lose momentum or balance. [...]
 ---
 In my <a href="what-is-good-code.md">first post about what constitutes "good code,"</a> I claimed we were dealing with a complex question. This is why I distrust short answers.
 

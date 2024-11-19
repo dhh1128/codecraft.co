@@ -32,20 +32,20 @@ Sometimes I get answers like this:
 </ul>
 <figure><img class="   " title="Interview Questions" alt="" src="http://farm5.staticflickr.com/4027/4607151156_d8b9c7554d_o.jpg" width="358" height="239" /><figcion>Answering tough interview questions. Photo credit: bpsusf (Flickr).</figcaption></figure>
 
-Such answers tell me that an engineer is practical, business-aware, and customer-focused--all useful traits. <a title="Earned Pragmatism" href="earned-pragmatism.md">Pragmatism is usually learned in the economic school of hard knocks</a>, and it's a critical perspective that should never be forgotten. But I don't get a warm fuzzy from pure pragmatism; it lacks vision or love of craft.
+Such answers tell me that an engineer is practical, business-aware, and customer-focused &mdash; all useful traits. <a title="Earned Pragmatism" href="earned-pragmatism.md">Pragmatism is usually learned in the economic school of hard knocks</a>, and it's a critical perspective that should never be forgotten. But I don't get a warm fuzzy from pure pragmatism; it lacks vision or love of craft.
 
 Another kind of answer focuses on cleverness:
 <ul>
 	<li>"I wrote a burst sort once that could beat stdlib qsort. It's counterintuitive, I know, but the way burst sort works cache..."</li>
 	<li>"You wouldn't believe how much you can say with a 3-line statement in python..."</li>
 </ul>
-An engineer with this type of perspective also has praiseworthy qualities--an appreciation for elegance, a desire to achieve. But I find these answers unsatisfying as well. For one thing, the statements are <em>lonely</em>; notice how little they imply about who will build upon or use the finished product. In this vein, I love Martin Fowler's warning in <a title="Refactoring" href="http://martinfowler.com/books/refactoring.html" target="_blank">Refactoring</a>:
+An engineer with this type of perspective also has praiseworthy qualities &mdash; an appreciation for elegance, a desire to achieve. But I find these answers unsatisfying as well. For one thing, the statements are <em>lonely</em>; notice how little they imply about who will build upon or use the finished product. In this vein, I love Martin Fowler's warning in <a title="Refactoring" href="http://martinfowler.com/books/refactoring.html" target="_blank">Refactoring</a>:
 <blockquote>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</blockquote>
 I'll also include a "miscellaneous" response category, which encompasses stuff like:
 <ul>
 	<li>"Good code has to be scalable, make efficient use of resources, optimize for good performance, ..."</li>
 	<li>"Good code is maintainable and testable."</li>
-	<li>"KISS -- keep it simple, stupid."</li>
+	<li>"KISS &mdash; keep it simple, stupid."</li>
 </ul>
 All true (the first statement less than the other two, IMO), but all less than fully satisfying.
 

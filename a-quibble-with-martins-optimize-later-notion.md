@@ -12,7 +12,7 @@ comments:
 ---
 In <a href="http://martinfowler.com/books/#refactoring" target="_blank"><em>Refactoring</em></a>, Martin Fowler (a brilliant engineer whom I greatly admire) articulates an idea that I have heard from smart engineers for a long time: <em>first make it work, then make it fast</em>. He puts it this way:
 <blockquote>"Until I profile I cannot tell how much time is needed for the loop to calculate or whether the loop is called often enough for it to affect the overall performance of the system. Don't worry about this while refactoring. When you optimize you will have to worry about it, but you will then be in a much better position to do something about it, and you will have more options to optimize effectively."</blockquote>
-I mostly agree. Certainly, premature optimization can cause lots of problems (pollute an otherwise clean design, overvalue corner cases, dilute conceptual integrity), and profiler-driven optimization (science, not black magic!) is the way to get the best results. Donald Knuth famously observed that "premature optimization is the root of all evil" -- a bit over the top, maybe, yet true often enough to give me fits.
+I mostly agree. Certainly, premature optimization can cause lots of problems (pollute an otherwise clean design, overvalue corner cases, dilute conceptual integrity), and profiler-driven optimization (science, not black magic!) is the way to get the best results. Donald Knuth famously observed that "premature optimization is the root of all evil" &mdash; a bit over the top, maybe, yet true often enough to give me fits.
 
 But implicit in Fowler's advice are the following problematic notions:
 <ul>

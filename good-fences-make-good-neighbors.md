@@ -22,11 +22,11 @@ comments:
       
       Part of the issue is that big headers are hard to digest, mentally. See http://codecraft.co/2013/03/21/small-files-are-your-friends/.
       
-      This matters much more in high-level application code than it does in the headers for standard libraries, because we usually discover what we need to know about standard library functions and datatypes by reading a man page or similar documentation--not by browsing headers.
+      This matters much more in high-level application code than it does in the headers for standard libraries, because we usually discover what we need to know about standard library functions and datatypes by reading a man page or similar documentation &mdash; not by browsing headers.
       
       The headers in the c++ standard library have an additional dynamic that makes them outliers, which is that they're very template-centric. This means they not only have declarations, but also large blocks of implementation.
       
-      My "declare too much" comment basically reflects the following mindset: ideally, a header should declare only what a *consumer* of your code needs to know, not what the *implementation* of your code needs to know. Anything else is "too much," at least in theory, because it will obscure your intent about interfaces and tempt other coders to use the code incorrectly. However, I am pragmatic--sometimes the juice is not worth the squeeze.
+      My "declare too much" comment basically reflects the following mindset: ideally, a header should declare only what a *consumer* of your code needs to know, not what the *implementation* of your code needs to know. Anything else is "too much," at least in theory, because it will obscure your intent about interfaces and tempt other coders to use the code incorrectly. However, I am pragmatic &mdash; sometimes the juice is not worth the squeeze.
   - author: dougbert
     date: 2013-05-16 11:08:51
     comment: |
@@ -38,7 +38,7 @@ comments:
     comment: |
       Doug: On an intuitive level, I have been splitting my headers into the internal and external categories for years, without realizing exactly why. Your comment made me realize that's what was going on, somewhere in the back of my mind. Thanks for twisting the focus knob!
 ---
-In Robert Frost's poem, "Mending Wall", two farmers meet each spring to rebuild the rock wall between their properties. One farmer is the narrator. He notes that the unseen forces of winter and weather always cause some decay ("something there is that doesn't love a wall"), and he wonders why the wall is necessary. There's apple orchard on one side, and pine forest on the other--it's not as if something will be kept in or out. The other farmer answers with the repeated aphorism "good fences make good neighbors."
+In Robert Frost's poem, "Mending Wall", two farmers meet each spring to rebuild the rock wall between their properties. One farmer is the narrator. He notes that the unseen forces of winter and weather always cause some decay ("something there is that doesn't love a wall"), and he wonders why the wall is necessary. There's apple orchard on one side, and pine forest on the other &mdash; it's not as if something will be kept in or out. The other farmer answers with the repeated aphorism "good fences make good neighbors."
 
 <figure><img alt="" src="http://farm1.staticflickr.com/74/226824603_1285fc9181.jpg" width="500" height="333" /><figcaption>photo credit: DragonWoman (Flickr)</figcaption></figure>
 
@@ -51,7 +51,7 @@ This poem could be a treatise for the principle of encapsulation in software. In
 
 Subroutines, formal interfaces, data hiding, class hierarchies, the <a class="zem_slink" title="Opaque pointer" href="http://en.wikipedia.org/wiki/Opaque_pointer" target="_blank" rel="wikipedia">pimpl idiom</a>, and similar mechanisms all create barriers in software between consumers and providers of functionality. These techniques are well known, but we still have codebases littered with protected data members, unnecessary class declarations in headers, goto, and other suboptimal choices.
 
-Why?<!--more-->
+Why?
 
 I believe there are many causes, but the most insidious is that we just don't care enough to make encapsulation our default habit. We take the easy way out.
 

@@ -18,13 +18,13 @@ comments:
     comment: |
       Quantifying is definitely a challenge. I know actuaries quantify all kinds of insurance risks, but I'm not aware of anybody doing work to formalize risks to business continuity in a widely accepted way. I'm sure something like that exists, but now I've realized my own ignorance and have a learning project. Thanks!
       
-      Your last line also resonates strongly for me. Lots of problems aren't best solved with technology--that's for sure. Providing support with a friendly human being instead of a recorded message comes to mind. Did you have any specific examples? This is the sort of statement that I'd love to be able to illustrate better when I teach people the principle.
+      Your last line also resonates strongly for me. Lots of problems aren't best solved with technology &mdash; that's for sure. Providing support with a friendly human being instead of a recorded message comes to mind. Did you have any specific examples? This is the sort of statement that I'd love to be able to illustrate better when I teach people the principle.
       
       Thanks for the thoughtful comments.
   - author: Daniel Hardman
     date: 2013-02-21 19:08:04
     comment: |
-      Gene: the connection to complexity is an interesting one--both because the parallel is very strong, and because risk and complexity can be mutually reinforcing. Lots of risk can lead to compensating complexity, and lots of complexity can exacerbate risk. Thanks for pointing it out; I hadn't seen that connection quite so clearly before.
+      Gene: the connection to complexity is an interesting one &mdash; both because the parallel is very strong, and because risk and complexity can be mutually reinforcing. Lots of risk can lead to compensating complexity, and lots of complexity can exacerbate risk. Thanks for pointing it out; I hadn't seen that connection quite so clearly before.
       
       The other day I was observing that simplicity has power, but I didn't give any satisfying suggestions about how to manage it, and I think when I come back to the topic, I need to start with your observation: a lot of complexity is unavoidable. When that's the case, the rest of our job is to encapsulate/hide it, manage it predictably, make its cost apparent to the right people, etc.
   - author: Anthony Langsworth
@@ -50,7 +50,7 @@ How does risk figure in your architectural vision? You should think about it all
 
 Here are 6 key questions to kick-start your pondering:
 <ul>
-	<li>Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about <a title="circuit breaker -- enterprise design pattern" href="dont-forget-the-circuit-breakers.md" target="_blank">circuit breakers</a>.)</li>
+	<li>Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about <a title="circuit breaker &mdash; enterprise design pattern" href="dont-forget-the-circuit-breakers.md" target="_blank">circuit breakers</a>.)</li>
 	<li>When one of my components crashes, will its state be cleanly recoverable (e.g., on transaction boundaries) rather than corrupt? What data loss contract am I targeting?</li>
 	<li>Will it be easy for users or admins to notice when theoretical risks I've planned for become true emergencies? How will they be notified?</li>
 	<li>Is it possible to put the system in a "scabbed" state that's degraded and safe, but functional, while more extensive repairs take place?</li>

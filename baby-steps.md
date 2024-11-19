@@ -20,7 +20,7 @@ One of Bob's favorite phrases is "baby steps," which captures the therapist's ad
 
 We create UML diagrams, personas, design docs, lo-fi mockups, and other artifacts to capture our architectural thinking because they provide us with a roadmap of sorts. We need to identify and steer to a consistent point of the compass if we want to produce complex artifacts that meet customer needs. The bigger and more diversified our teams get, and the more moving parts we're orchestrating into our software, the more important this is.
 
-However, all of these artifacts are means to an end. To whit:<!--more--> coordinate the collective brain power of the team toward a clear goal, such that the final product exemplifies prioritized and rationally chosen requirements.
+However, all of these artifacts are means to an end. To whit: coordinate the collective brain power of the team toward a clear goal, such that the final product exemplifies prioritized and rationally chosen requirements.
 
 If you buy this assertion, then you should also see that in some circumstances, lots of up-front design work is not a good investment. What if:
 <ul>
@@ -49,7 +49,7 @@ Big steps are a better choice when all of the following are generally true:
 
 What I'm advocating here might sound a lot like a caution against analysis paralysis, but the two ideas are distinct.
 
-Sometimes, your design might not be paralyzed at all--sometimes you're coming up with all kinds of great ideas, and you sense a grandiose vision unfolding. Maybe you're loving the design phase.
+Sometimes, your design might not be paralyzed at all &mdash; sometimes you're coming up with all kinds of great ideas, and you sense a grandiose vision unfolding. Maybe you're loving the design phase.
 
 I'm claiming that if your design takes you too far into the future, no matter how good it is and how much momentum you feel, you might be better off tng baby steps on your implementation instead. I'm making this claim based on the observation that it's easy to overbuild, and it's easy to make mistakes by extrapolating too far into the future.
 
@@ -59,7 +59,7 @@ Again, there's overlap, but the ideas aren't quite the same. Putting a stake in 
 
 <strong>Why baby steps</strong>
 
-Here is a fundamental truth that many organizations don't understand: building a new product or feature is as much a learning activity as it is a coding and testing activity. The output at release time is NOT just some binaries and documentation -- it is a new mental model in the minds of the entire dev, support, sales, and services teams. Always, learning takes time--and often, you have to learn by doing. You cannot front-load it all into a compressed "design phase" or "sprint 0" and expect that as you exit that time, all your learning will be over.
+Here is a fundamental truth that many organizations don't understand: building a new product or feature is as much a learning activity as it is a coding and testing activity. The output at release time is NOT just some binaries and documentation &mdash; it is a new mental model in the minds of the entire dev, support, sales, and services teams. Always, learning takes time &mdash; and often, you have to learn by doing. You cannot front-load it all into a compressed "design phase" or "sprint 0" and expect that as you exit that time, all your learning will be over.
 
 Which is why baby steps make sense.
 

@@ -24,7 +24,7 @@ comments:
   - author: Daniel Hardman
     date: 2013-02-01 08:14:57
     comment: |
-      Your comment about "back in the day" leads me to make another connection: if the scale of resources that modern computers consume is so dramatically higher than it used to be, I wonder whether the complexity of the software we're building is drastically different as well. We programmers might be like the proverbial frog that's boiled by swimming in water as it heats on the stove--not noticing how much tougher it's getting to produce good stuff. Perhaps industry best practices like TDD and continuous integration, and better foundational libraries, are providing enough compensation to mostly compensate...
+      Your comment about "back in the day" leads me to make another connection: if the scale of resources that modern computers consume is so dramatically higher than it used to be, I wonder whether the complexity of the software we're building is drastically different as well. We programmers might be like the proverbial frog that's boiled by swimming in water as it heats on the stove &mdash; not noticing how much tougher it's getting to produce good stuff. Perhaps industry best practices like TDD and continuous integration, and better foundational libraries, are providing enough compensation to mostly compensate...
   - author: posicionamiento web
     date: 2013-03-05 07:58:47
     comment: |
@@ -36,19 +36,19 @@ Sorry, Charlie. No dice.
 
 One of my favorite books, <a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879" target="_blank">Universal Principles of Design</a>, includes a fascinating discussion of our tendency to succumb to scaling fallacies. The book makes its case using the strength of ants and winged flight as examples.
 
-Have you ever heard that an ant can lift many times its own weight--and that if that if one were the size of a human, it could hoist a car over its head with ease? The first part of that assertion is true, but the conclusion folks draw is completely bogus. Exoskeletons cease to be a viable structure on which to anchor muscle and tissue at sizes much smaller than your average grown-up; the <a class="zem_slink" title="Specific strength" href="http://en.wikipedia.org/wiki/Specific_strength" target="_blank" rel="wikipedia">strength-to-weight ratio</a> just isn't good enough. Chitin is only about as tough as fingernails.
+Have you ever heard that an ant can lift many times its own weight &mdash; and that if that if one were the size of a human, it could hoist a car over its head with ease? The first part of that assertion is true, but the conclusion folks draw is completely bogus. Exoskeletons cease to be a viable structure on which to anchor muscle and tissue at sizes much smaller than your average grown-up; the <a class="zem_slink" title="Specific strength" href="http://en.wikipedia.org/wiki/Specific_strength" target="_blank" rel="wikipedia">strength-to-weight ratio</a> just isn't good enough. Chitin is only about as tough as fingernails.
 
-<figure><img alt="" src="http://farm9.staticflickr.com/8050/8146750081_0e07106d00.jpg" width="500" height="264" /><figcaption>Tough little bugger -- but not an olympic champion at human scale. Image credit: D.A.Otee (Flickr)</figcaption></figure>
+<figure><img alt="" src="http://farm9.staticflickr.com/8050/8146750081_0e07106d00.jpg" width="500" height="264" /><figcaption>Tough little bugger &mdash; but not an olympic champion at human scale. Image credit: D.A.Otee (Flickr)</figcaption></figure>
 
 I'd long understood the flaws in the big-ant-lifting-cars idea, but the flight example from the book was virgin territory for me.
 
-Humans are familiar with birds and insects that fly. We know they have wings that beat the air. We naively assume that at much larger and much smaller scales, the same principles apply. But it turns out <!--more--> that at the micro scale, wings don't move enough air molecules to be helpful when they flap, and at the giant scale (say, the size of an elephant), flapping wings become impractical due to structural challenges.
+Humans are familiar with birds and insects that fly. We know they have wings that beat the air. We naively assume that at much larger and much smaller scales, the same principles apply. But it turns out  that at the micro scale, wings don't move enough air molecules to be helpful when they flap, and at the giant scale (say, the size of an elephant), flapping wings become impractical due to structural challenges.
 
 <strong>So what?</strong>
 
 What does this have to do with software?
 
-For one thing, what works in small codebases often doesn't work in large ones. The need for disciplined practices such as continuous integration, TDD, encapsulation, loose coupling, and so forth is just not profound if you're writing a 50-line bash script for your own consumption. This is one reason why I think <a href="http://steve-yegge.blogspot.com/2007/12/codes-worst-enemy.html" target="_blank">Steve Yegge's claim that size--not poor design--is code's worst enemy</a> is actually quite profound.
+For one thing, what works in small codebases often doesn't work in large ones. The need for disciplined practices such as continuous integration, TDD, encapsulation, loose coupling, and so forth is just not profound if you're writing a 50-line bash script for your own consumption. This is one reason why I think <a href="http://steve-yegge.blogspot.com/2007/12/codes-worst-enemy.html" target="_blank">Steve Yegge's claim that size &mdash; not poor design &mdash; is code's worst enemy</a> is actually quite profound.
 
 Setting aside the way scale affects processes and teams, think about what it does to product.
 
@@ -60,7 +60,7 @@ A traditional enterprise search product is also a great tool for finding text in
 
 Enter big data...
 
-Google's indexing of the internet is essentially a scaled-up, incredibly sophisticated, optimized version of traditional enterprise search. Last I heard, over 4 million (!) servers were behind www.google.com, servicing the queries that all of us feed it. It's impressive--miraculous, even--how effective the Google service (and Bing, and other competitors) has managed to be. I don't have major complaints about the user experience.
+Google's indexing of the internet is essentially a scaled-up, incredibly sophisticated, optimized version of traditional enterprise search. Last I heard, over 4 million (!) servers were behind www.google.com, servicing the queries that all of us feed it. It's impressive &mdash; miraculous, even &mdash; how effective the Google service (and Bing, and other competitors) has managed to be. I don't have major complaints about the user experience.
 
 But it's the wrong architecture for internet scale. We're paying way too much for power and hardware to keep these sites running; we need something radically different, which is why technologies like the one I helped productize at <a href="http://www.perfectsearchcorp.com" target="_blank">Perfect Search</a> are the wave of the future. Perfect Search can sustain query speeds that are hundreds or thousands of times faster than a traditional index; sooner or later, the world will figure out that that matters.
 

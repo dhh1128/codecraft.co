@@ -72,7 +72,7 @@ You would see my addiction if you walked past my desk and looked at the tabs in 
 
 How am I supposed to think Deep Thoughts when I've got that much noise?
 
-<!--more-->Browser tabs are just the tip of the iceberg, of course. I carry a cell phone, and I probably text in meetings several times each day. If I walk by somebody's cube and realize that I have a question, I often ask it, even if it looks like they're heads down. I pull people into meetings. My door is always open when I'm in my office, and I'm always up for a chat. And I cheerfully take new tasks and action items without batting an eye. (One reason I don't carry a smartphone is because in my heart of hearts, I know I couldn't handle the escalation in my connectedness.)
+Browser tabs are just the tip of the iceberg, of course. I carry a cell phone, and I probably text in meetings several times each day. If I walk by somebody's cube and realize that I have a question, I often ask it, even if it looks like they're heads down. I pull people into meetings. My door is always open when I'm in my office, and I'm always up for a chat. And I cheerfully take new tasks and action items without batting an eye. (One reason I don't carry a smartphone is because in my heart of hearts, I know I couldn't handle the escalation in my connectedness.)
 
 <strong>Not quite a catastrophe</strong>
 

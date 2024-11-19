@@ -28,13 +28,13 @@ Now, I promised that I'd write a follow-up post about the flip side of my advice
 
 So today, I'm going to try to convince all the IDE zealots in the world that they're doing themselves and their teammates a disservice if they don't <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">take the time to become proficient</a> in a powerful text editor.
 
-Death wish part 2. :-)<!--more-->
+Death wish part 2. :-)
 <h3>The obvious reason</h3>
 In response to my first post, plenty of people pointed out the one use case where text editors totally crush IDEs: when a console is all you have to work with.
 <p style="padding-left:30px;"><span style="color:#003366;"><em>"I really love to <code>ssh -X</code> to a server, get permission from the sysadmin to monkey with packages and consume scarce resources, install KDE or gnome, install an IDE, run <code>startx</code>, browse to the folder where the IDE's binary is installed, launch it, and then wait 5 minutes while it loads in the local X-server on whatever workstation I happen to be using"</em> </span><strong>... said no one ever.</strong></p>
 The need to edit files on remote machines with minimal cruft installed is never going to die. For some developers, this is a constant workflow; for others, it's occasional. But almost none of us can ignore it entirely. In fact, given the surging tide of mobile computing and "Internet of Things" innovation, every passing day is probably increasing the probability that software pros will need to tweak files and debug in very resource-constrained, streamlined environments.
 
-This reason by itself justifies the claim that every developer should at least be <em>functional</em> in a high-powered text editor--and I think it's incontrovertible.
+This reason by itself justifies the claim that every developer should at least be <em>functional</em> in a high-powered text editor &mdash; and I think it's incontrovertible.
 
 But is that the same as proving that every engineer should be <em>proficient</em>?
 
@@ -56,19 +56,19 @@ They may understand some things better than I do. I'm not fully up-to-speed on h
 
 However, I really, truly get what is happening under the layers that we've added in the past two decades, and there are lots of times when that knowledge pays off. I don't need WYSIWYG or wordpress themes to make html pretty (in fact, I dst their interference). I have an intuitive sense for when an ajax call is going to be inefficient. I know how caching proxies and http etags interact.
 
-Other engineers could tell similar stories from their own careers--about how they learned assembly first, and then migrated through C to C++--and how that foundation helps them write <a title="What Is “Good Code”?" href="what-is-good-code.md">better code</a> than a young upstart who learned first in C++.
+Other engineers could tell similar stories from their own careers &mdash; about how they learned assembly first, and then migrated through C to C++ &mdash; and how that foundation helps them write <a title="What Is “Good Code”?" href="what-is-good-code.md">better code</a> than a young upstart who learned first in C++.
 
 What does this have to do with vim and emacs?
 
 <strong>Back-to-basics programming</strong>
 
-Well, I claim that if you only ever see the <a title="The Power of Simplicity" href="the-power-of-simplicity.md">complexity of software engineering</a> through the lens of an IDE, you have missed an important--even revelatory--learning experience.
+Well, I claim that if you only ever see the <a title="The Power of Simplicity" href="the-power-of-simplicity.md">complexity of software engineering</a> through the lens of an IDE, you have missed an important &mdash; even revelatory &mdash; learning experience.
 
 When you code and debug in a text editor, living and dying by your proficiency there, you are essentially repeating the learning curve that the entire world computer science community lived through in the first several decades of its existence. You know the difference between a compiler and a linker and an assembler. Makefiles start making sense. The vagaries of preprocessor troubleshooting and the paths that a debugger uses to resolve symbols <a title="Why Mental Models Matter" href="why-mental-models-matter.md">lose their mystery</a>. You master regular expressions. Arcane command-line options in git may even feel self-explanatory. (Maybe. :-)
 
 Euclid said there was no royal road to geometry. You have to pay the price to learn the foundations before you can soar with the fancy stuff.
 
-To me, that's the most compelling reason to go beyond "functional" and actually get productive with vim or emacs--if you specialize in an IDE without a text editor in your repertoire, you have <a title="On SEPs, Squirrels, and Meta Questions" href="on-seps-squirrels-and-meta-questions.md">gaps in your experience</a>. An IDE makes parts of your ecosystem invisible; a text editor teaches you just how robust and amazing and satisfying that underlying ecosystem is. You learn some humility toward the pioneers in the field, who did so much with such a lean toolkit. And you learn not to drink all the IDE kool-aid without at least rolling your eyes occasionally.
+To me, that's the most compelling reason to go beyond "functional" and actually get productive with vim or emacs &mdash; if you specialize in an IDE without a text editor in your repertoire, you have <a title="On SEPs, Squirrels, and Meta Questions" href="on-seps-squirrels-and-meta-questions.md">gaps in your experience</a>. An IDE makes parts of your ecosystem invisible; a text editor teaches you just how robust and amazing and satisfying that underlying ecosystem is. You learn some humility toward the pioneers in the field, who did so much with such a lean toolkit. And you learn not to drink all the IDE kool-aid without at least rolling your eyes occasionally.
 
 <strong>Where I'm at</strong>
 

@@ -27,7 +27,7 @@ comments:
       [3]   if(!(LIST_EMPTY(attributes)) return FALSE;
       [4]   if(!BETWEEN(maxLoadCount, 1, 100) && (maxLoadCount != -1)) return FALSE;
       
-      In line [1], some names were changed to protect the intent.  In general, programming communities seem to have adopted the XfromY naming convention for procedures used to convert from one type to another.  It seems that's what this method is doing, so I made the appropriate change.  Following conventions reduces mental burden.  Additionally, I changed the string parameter's name to "source", since that's the source code of the data.  Presumably, VehicleFromString is a parser, and you feed source code to parsers.  Also, notice the code you wrote in listing 1 is buggy -- you have no parameter named serializedAttrs.  ;-)  Your list of attributes implies a plurality of attributes, and so I just called those "attributes."  Short, simpler, and carries the full semantic load of the concept.
+      In line [1], some names were changed to protect the intent.  In general, programming communities seem to have adopted the XfromY naming convention for procedures used to convert from one type to another.  It seems that's what this method is doing, so I made the appropriate change.  Following conventions reduces mental burden.  Additionally, I changed the string parameter's name to "source", since that's the source code of the data.  Presumably, VehicleFromString is a parser, and you feed source code to parsers.  Also, notice the code you wrote in listing 1 is buggy &mdash; you have no parameter named serializedAttrs.  ;-)  Your list of attributes implies a plurality of attributes, and so I just called those "attributes."  Short, simpler, and carries the full semantic load of the concept.
       
       In line [2], [3], and [4], I use preprocessor macros to make common range-based and pointer validation checks succinct and easily re-used.  Indeed, if the "return false on invalid input" thing is a pattern, then each if-statement can be replaced by a suitable macro, or even the entire block of if-statements if they repeat often.
       
@@ -113,7 +113,7 @@ comments:
     comment: |
       Good observation, Tianyuzhu. Thanks for the comment.
       
-      I agree that it is *possible* to express most or all of the ideas in this post, using cutting-edge C++. We must think alike. On several C++ codebases, I've done stuff like this--only to see a majority of the other programmers on the teams react with puzzlement and eye-rolling. This frustrates me.
+      I agree that it is *possible* to express most or all of the ideas in this post, using cutting-edge C++. We must think alike. On several C++ codebases, I've done stuff like this &mdash; only to see a majority of the other programmers on the teams react with puzzlement and eye-rolling. This frustrates me.
       
       I think the reason I don't see this idea catching on in C++ is because:
       
@@ -164,7 +164,7 @@ And yet, I think Randall Munroe (the cartoonist at xkcd) was right to make fun o
 
 <figure><img src="http://imgs.xkcd.com/comics/formal_languages.png" width="480" height="209" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
-To show you what I mean, I've inlined snippets of code from a variety of programming languages below. Don't worry about digesting them carefully right now, but give them a quick glance and then move on to my analysis, and see if you agree with my claim about an unhealthy pattern.<!--more-->
+To show you what I mean, I've inlined snippets of code from a variety of programming languages below. Don't worry about digesting them carefully right now, but give them a quick glance and then move on to my analysis, and see if you agree with my claim about an unhealthy pattern.
 
 <strong>Exhibit 1 (C++)</strong>
 <pre style="padding:1em;border:solid 1px #333;margin-bottom:2em;font-size:8pt;"><span style="color:#080;">/**
@@ -173,7 +173,7 @@ To show you what I mean, I've inlined snippets of code from a variety of program
 * Assumes string starts at first attr~value pair, not at vehicleid
 * (ex. format: vehicleid:<field>=<value>;[<field>=<value>;])
 *
-* <span style="color:gray;">@param</span> serializedAttrs (I) -- can't be null
+* <span style="color:gray;">@param</span> serializedAttrs (I) &mdash; can't be null
 * <span style="color:gray;">@param</span> attrList (O) [optional, should be empty when passed in]
 * <span style="color:gray;">@param</span> maxLoadCount (I) [optional, range [1..100); -1=="all"]
 */</span>
@@ -278,7 +278,7 @@ While all my CS confederates were writing their own programming language and a l
 
 Except it doesn't work that way.
 
-Oh, sure, we have <em>good enough</em> translation that lets us say "Where's the bathroom?" in a hundred languages from an Android app. That's mostly just dictionary lookup with fuzzy matching and a few other bells and whistles. But when Dan Quayle accused Al Gore of "pulling a Slick Willy on me"<sup>[<a href="#footnote1">1</a>]</sup> during vice presidential debates in 1992, 50 million Americans understood exactly what he meant, immediately--even though the phrase he used did not exist in any dictionary, had never been uttered to anyone in the audience, and mapped onto a linguistic structure that suggested none of what he managed to imply. (I'm not lauding Quayle here, just making a point about language.)
+Oh, sure, we have <em>good enough</em> translation that lets us say "Where's the bathroom?" in a hundred languages from an Android app. That's mostly just dictionary lookup with fuzzy matching and a few other bells and whistles. But when Dan Quayle accused Al Gore of "pulling a Slick Willy on me"<sup>[<a href="#footnote1">1</a>]</sup> during vice presidential debates in 1992, 50 million Americans understood exactly what he meant, immediately &mdash; even though the phrase he used did not exist in any dictionary, had never been uttered to anyone in the audience, and mapped onto a linguistic structure that suggested none of what he managed to imply. (I'm not lauding Quayle here, just making a point about language.)
 
 This sort of phenomenon in language gives computerized translation fits, because syntax and a dictionary don't explain it.
 
@@ -290,11 +290,11 @@ There's <strong>semantics</strong>, for example. (And numerous other layers/aspe
 
 Back to the exhibits.
 
-Exhibit 2 (C) identifies the end of a block with a comment--again, because the language doesn't give the programmer any other way to do so. The fact that there's been drift (the comment maps back to an "if" statement that's been tweaked since the comment was created) highlights why this mechanism is less than optimal.
+Exhibit 2 (C) identifies the end of a block with a comment &mdash; again, because the language doesn't give the programmer any other way to do so. The fact that there's been drift (the comment maps back to an "if" statement that's been tweaked since the comment was created) highlights why this mechanism is less than optimal.
 
 Exhibit 3 (java) shows conscientious use of javadoc, but notice how the semantics on <code>installRoot</code> are spread across two separate function comments, and how the semantics for <code>dataRoot</code> reference knowledge about <code>installRoot</code> in an ambiguous way. If we "compiled" the semantics of these parameters, logical inconsistencies could be flagged, implicit relationships could be disambiguated in developer docs, and so forth.
 
-Exhibit 4 (python) is notable for its terseness. Python functions don't have to have consistent return semantics (exit a function at point A and return <code>None</code>; exit at point B and return an int; exit at point C and return a dictionary or a 6-way tuple--the interpreter doesn't care). The programmer has compensated by telling the caller what to expect. Telling the <em>interpreter</em> what to expect, instead, would provide a standard way to inform the programmer, and facilitate tests or sanity checks that could prevented many of the python bugs I've written over the years.
+Exhibit 4 (python) is notable for its terseness. Python functions don't have to have consistent return semantics (exit a function at point A and return <code>None</code>; exit at point B and return an int; exit at point C and return a dictionary or a 6-way tuple &mdash; the interpreter doesn't care). The programmer has compensated by telling the caller what to expect. Telling the <em>interpreter</em> what to expect, instead, would provide a standard way to inform the programmer, and facilitate tests or sanity checks that could prevented many of the python bugs I've written over the years.
 
 Exhibit 5 (C#) is more of the same. Notice the logic error in the comment about when 0 is returned. Again, fixable and better if managed by compiler.
 
@@ -337,7 +337,7 @@ Think about the semantic density of this snippet, and how it compares to the sem
 
 Now notice how many comments this snippet has.
 
-Don't get me wrong--we need comments. I am a big advocate. I just wish we didn't have to use them as a crutch to compensate for languages that do too little to help the user and the compiler be smart.
+Don't get me wrong &mdash; we need comments. I am a big advocate. I just wish we didn't have to use them as a crutch to compensate for languages that do too little to help the user and the compiler be smart.
 
 <hr style="width:200px;" />
 <p style="padding-left:30px;">[1<a name="footnote1"></a>] I found a youtube clip where Quayle says "pull a Bill Clinton on me", but I can't find one for "pull a Slick Willy on me". Maybe I'm remembering it wrong. Either way, the linguistic phenomenon is the same.</p>

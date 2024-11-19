@@ -20,7 +20,7 @@ comments:
     comment: |
       Jason: I've run into boost.preprocessor a few times, but I haven't used it much. Shame on me! Thanks for reminding me to learn about it.
       
-      When I run into a programming problem that I don't know how to solve, I often like to write my own solution--not so much because I want to *use* my own solution, as because I want to learn what it takes to solve the problem. Once I've solved it to my own satisfaction (and, sometimes, written about it so I understand how it works well), then I can appreciate a more elegant or general solution, and chuck my own. I'll have to look into boost.preprocessor to see if it solves the problem I was seeing in the intent codebase; if so, I'll gladly switch over, since I'm already using boost a fair amount.
+      When I run into a programming problem that I don't know how to solve, I often like to write my own solution &mdash; not so much because I want to *use* my own solution, as because I want to learn what it takes to solve the problem. Once I've solved it to my own satisfaction (and, sometimes, written about it so I understand how it works well), then I can appreciate a more elegant or general solution, and chuck my own. I'll have to look into boost.preprocessor to see if it solves the problem I was seeing in the intent codebase; if so, I'll gladly switch over, since I'm already using boost a fair amount.
   - author: Franz G
     date: 2017-10-25 10:01:29
     comment: |
@@ -33,7 +33,7 @@ comments:
     date: 2018-03-26 05:40:19
     comment: |
       Hi Daniel,
-      I found this recursive implementation useful in some mocking/unit testing work -- thanks! Wrapped it and some extensions in a ruby generator script for an arbitrary number of arguments here  if it's of any use to anyone else:
+      I found this recursive implementation useful in some mocking/unit testing work &mdash; thanks! Wrapped it and some extensions in a ruby generator script for an arbitrary number of arguments here  if it's of any use to anyone else:
       https://github.com/cormacc/va_args_iterators
   - author: Rune Paamand
     date: 2019-10-01 01:35:40
@@ -90,7 +90,7 @@ comments:
     comment: |
       […] https://codecraft.co/2014/11/25/variadic-macros-tricks/ […]
 ---
-Have you ever wanted to write a "for each" loop over all the args of a variadic macro? Or have you ever wanted to overload a macro on the number of arguments? (If you're saying to yourself, "good grief, why?" -- I'll describe a use case at the bottom of this post.)
+Have you ever wanted to write a "for each" loop over all the args of a variadic macro? Or have you ever wanted to overload a macro on the number of arguments? (If you're saying to yourself, "good grief, why?" &mdash; I'll describe a use case at the bottom of this post.)
 
 I learned how to do this today, and I wanted to blog about it to cement the technique in my own mind. (And I hereby put all the code I show here into the public domain.)
 
@@ -100,17 +100,17 @@ The first piece of magic you need to do something like this is <code>__VA_ARGS__
 
 https://gist.github.com/dhh1128/4f2e50c5aa23589ad4ad
 
-Nice. <code>__VA_ARGS__</code> is a standard feature of C99, and I've known about it for a long time. I've also known about GCC (and Clang's) extension, which attaches special meaning to <code>##__VA_ARGS__</code> if it's preceded by a comma--it removes the comma if <code>##__VA_ARGS__</code> expands to nothing. If I change my macro definition to:
+Nice. <code>__VA_ARGS__</code> is a standard feature of C99, and I've known about it for a long time. I've also known about GCC (and Clang's) extension, which attaches special meaning to <code>##__VA_ARGS__</code> if it's preceded by a comma &mdash; it removes the comma if <code>##__VA_ARGS__</code> expands to nothing. If I change my macro definition to:
 
 https://gist.github.com/dhh1128/a0972d8750c3d57f4c0a004dd04a5416
 
 ...I can now call <code>eprintf("hello, world");</code> without a complaint from the compiler.
 <h3>But it's not enough</h3>
-That doesn't let me do a "for each" loop, though. All the args that I pass are expanded, but I can't do anything with them, individually. I have no names for my macro's parameters--just the anonymous <em>...</em>.
+That doesn't let me do a "for each" loop, though. All the args that I pass are expanded, but I can't do anything with them, individually. I have no names for my macro's parameters &mdash; just the anonymous <em>...</em>.
 
 I went poking around, not expecting to find a solution, but I was pleasantly surprised.
 
-<!--more-->
+
 <h3>The "paired, sliding arg list" trick</h3>
 The next building block we need is a technique that uses two complementary macros plus <code>__VA_ARGS__</code> to select something specific out of a macro arg list of unknown size. I found it in an <a href="http://stackoverflow.com/a/11763277" target="_blank" rel="noopener">answer on stackoverflow.com</a>, and you can parse it all out directly from there, but the magic's a little opaque. Here's an explanation that takes it one step at a time:
 
@@ -136,8 +136,8 @@ I said I'd provide some explanation of why this technique could be useful. In ge
 
 On the other hand, sometimes they are really helpful. They can make code much less verbose/repetitive by eliminating noise and boilerplate. Occasionally, I run into cases where that tradeoff seems worth it to me.
 
-More importantly, macros have a property that you can't get any other way--the same fragment of code can have multiple meanings, and can maintain this semantic parallelism without being susceptible to human memory errors, laziness, or misunderstanding. I have previously blogged about how valuable this can be in <a title="How Enums Spread Disease — And How To Cure It" href="on-bread-recipes-maps-and-intentions.md">my project to create a new programming language</a>, I have to create some foundation packages and classes -- the analog to <code>java.lang</code> in java, or <code>System</code> and <code>My</code> in .NET. This foundation needs to written in C/C++ to avoid a chicken-and-egg problem. That means I need some way to use namespaces, classes, and other C++ constructs in the source code, but also generate package and class constructs visible to my <code>intent</code> compiler. Macros were an obvious answer.
+More importantly, macros have a property that you can't get any other way &mdash; the same fragment of code can have multiple meanings, and can maintain this semantic parallelism without being susceptible to human memory errors, laziness, or misunderstanding. I have previously blogged about how valuable this can be in <a title="How Enums Spread Disease — And How To Cure It" href="on-bread-recipes-maps-and-intentions.md">my project to create a new programming language</a>, I have to create some foundation packages and classes &mdash; the analog to <code>java.lang</code> in java, or <code>System</code> and <code>My</code> in .NET. This foundation needs to written in C/C++ to avoid a chicken-and-egg problem. That means I need some way to use namespaces, classes, and other C++ constructs in the source code, but also generate package and class constructs visible to my <code>intent</code> compiler. Macros were an obvious answer.
 
-The only problem was that some of my macros needed to be variadic--and I needed for-each-style semantics. Hence my research. :-)
+The only problem was that some of my macros needed to be variadic &mdash; and I needed for-each-style semantics. Hence my research. :-)
 
 How about you? Have you ever had a need for something like this?

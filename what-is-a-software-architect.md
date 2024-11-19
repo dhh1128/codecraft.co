@@ -28,7 +28,7 @@ The duties of a software architect include:
 
 2. Be a keeper of a technical vision/roadmap that supports the business/market vision optimally. Give feedback, based on that vision, about the technical tradeoffs implied by various potential business plans before those plans are codified into a plan of record, or before they are accepted as a change request.
 
-3. Articulate to engineering the technical guidelines that should inform a new release, including the considerations behind various tradeoffs -- and get formal buyoff from both engineering and PM on those guidelines. Participate in design reviews to guarantee that appropriate tradeoffs are honored and embodied correctly.
+3. Articulate to engineering the technical guidelines that should inform a new release, including the considerations behind various tradeoffs &mdash; and get formal buyoff from both engineering and PM on those guidelines. Participate in design reviews to guarantee that appropriate tradeoffs are honored and embodied correctly.
 
 4. Do forward-looking research and proof-of-concept work to drive risk out of potential directions on the technical roadmap.
 
@@ -36,6 +36,6 @@ The duties of a software architect include:
 
 6. HR-related stuff: Provide leadership and mentoring to other engineers. Evangelize the technology portfolio to other stakeholders (internal and external). Vett IP for patents and M&A. Be a voice. Etc.
 
-Of these duties, items 1, 2, and 3 sometimes get lost or watered down if an aitect is just a senior engineer. In that sort of environment, PM may convey a vision to dev without involving architects. As a result, the team has conversations about feasibility or cost of implementing, but rarely if ever about whether a requirement is a good idea in the first place. Whether a requirement is a good idea is more than just a question of whether customers want it, whether it can generate revenue, and whether it can be built -- it also must take into account things like technical opportunity cost, long-term baggage, effect on the expertise and focus of the engineers who will build it, technical differentiation, and so forth.
+Of these duties, items 1, 2, and 3 sometimes get lost or watered down if an aitect is just a senior engineer. In that sort of environment, PM may convey a vision to dev without involving architects. As a result, the team has conversations about feasibility or cost of implementing, but rarely if ever about whether a requirement is a good idea in the first place. Whether a requirement is a good idea is more than just a question of whether customers want it, whether it can generate revenue, and whether it can be built &mdash; it also must take into account things like technical opportunity cost, long-term baggage, effect on the expertise and focus of the engineers who will build it, technical differentiation, and so forth.
 
 It also might be worth highlighting <a href="what-a-software-architect-is-not.md">some things that I *don't* consider part of an architect's job</a>, for the sake of clarity. I'll do that in a separate post.

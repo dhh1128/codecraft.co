@@ -33,7 +33,7 @@ comments:
     comment: |
       Your observation about balance really resonates with me. That's one of my pet themes (see http://codecraft.co/2012/08/27/good-code-is-balanced/). 
       
-      One thing that I find interesting is the different nature of the consequences at the two ends of the spectrum. At the <em>files-are-too-big</em> end, the consequences seem a bit scary. They make problems less understandable; they steal velocity, accuracy, and quality of design from developers. At the <em>files-are-too-small</em> end, you start paying a "silliness tax" where you have to recurse down too many levels while coding and debugging. This can also make it hard to see the bigger picture (so in that respect the two ends of the continuum are similar) -- but I don't think it impedes loose coupling and code reuse. It's also easier to undo/change, I think.
+      One thing that I find interesting is the different nature of the consequences at the two ends of the spectrum. At the <em>files-are-too-big</em> end, the consequences seem a bit scary. They make problems less understandable; they steal velocity, accuracy, and quality of design from developers. At the <em>files-are-too-small</em> end, you start paying a "silliness tax" where you have to recurse down too many levels while coding and debugging. This can also make it hard to see the bigger picture (so in that respect the two ends of the continuum are similar) &mdash; but I don't think it impedes loose coupling and code reuse. It's also easier to undo/change, I think.
   - author: Jason Law
     date: 2013-03-21 15:24:38
     comment: |
@@ -59,7 +59,7 @@ comments:
       
       I guess implicit in my thinking was the idea that if you have big files, and you split them, that the activity becomes an enabler for many of the forms of true goodness that you're highlighting.
       
-      I do think that it's harder to accomplish the encapsulation and logical division if you leave things in a single file -- mainly because the ugliness of globals and other forms of coupling aren't as obvious.
+      I do think that it's harder to accomplish the encapsulation and logical division if you leave things in a single file &mdash; mainly because the ugliness of globals and other forms of coupling aren't as obvious.
   - author: Doug
     date: 2019-07-08 12:28:49
     comment: |
@@ -84,7 +84,7 @@ He asked me why.
 
 He told me that he wasn't opposed to the idea, but he always felt like it was more of a stylistic choice than a true imperative for good code. And he was curious to see if I could convince him differently.
 
-After I pondered his question for a while, I realized that some of my opinion really is traceable to prejudice. I usually use IDEs instead of vim/emacs, and I think that promotes <em>click-back-and-forth-and-hyperlink-in-many-little-files</em> instead of <em>open-a-big-file-and-scroll</em>. My compatriots that are more console-centric are just as smart and effective--maybe more. So I'll write that part off.
+After I pondered his question for a while, I realized that some of my opinion really is traceable to prejudice. I usually use IDEs instead of vim/emacs, and I think that promotes <em>click-back-and-forth-and-hyperlink-in-many-little-files</em> instead of <em>open-a-big-file-and-scroll</em>. My compatriots that are more console-centric are just as smart and effective &mdash; maybe more. So I'll write that part off.
 
 However, I also found some arguments for the small-file principle that feel more substantive. Small files are your friends.
 
@@ -92,7 +92,7 @@ However, I also found some arguments for the small-file principle that feel more
 
 <strong>Named scopes and cognitive complexity</strong>
 
-The case for small functions is more discussed than the case for small files, and it has been made by almost every luminary in computer science. My colleague immediately conceded it, and I won't repeat it here--but I will claim that many of the same arguments apply to files as well, because <em>files as well as functions are an important named scope in software development</em>. This in turn suggests some constraints on files with respect to cognitive complexity.
+The case for small functions is more discussed than the case for small files, and it has been made by almost every luminary in computer science. My colleague immediately conceded it, and I won't repeat it here &mdash; but I will claim that many of the same arguments apply to files as well, because <em>files as well as functions are an important named scope in software development</em>. This in turn suggests some constraints on files with respect to cognitive complexity.
 
 Studies of memory and human attention consistently demonstrate that <a title="short-term memory and cognitive complexity" href="http://www.simplypsychology.org/short-term-memory.html" target="_blank">we think best about small sets</a>. This fact is reflected by the amount of detail visible within any given named scope, both in programming and in other thought tasks. How many top-level menus in the average application? Colors in most cultures' divisions of the rainbow? Parameters in an easy-to-understand function? Sections in the average book store? Steps in easy-to-follow driving directions? (There's a whole field called cognitive ergonomics that explores why these questions always have similar answers.)
 
@@ -100,7 +100,7 @@ How many functions should we put in a reasonable file?
 
 For me, 2 or 5 or 10 feels tractable. 50 feels excessive.
 
-If a "good function" also respects the cognitive complexity constraints of the human brain--not being too big to read in a screen or two, for example--then you end up with a reasonable upper boundary on file sizes of, maybe, 500 or 1000 lines. (See Steve Yegge's insightful rant about <a title="code size (and complexity) make software development difficult" href="http://steve-yegge.blogspot.com/2007/12/codes-worst-enemy.html" target="_blank">code size being an engineer's worst enemy</a>. He focuses on codebase size, but much of what he says applies just as well at the next level down.)
+If a "good function" also respects the cognitive complexity constraints of the human brain &mdash; not being too big to read in a screen or two, for example &mdash; then you end up with a reasonable upper boundary on file sizes of, maybe, 500 or 1000 lines. (See Steve Yegge's insightful rant about <a title="code size (and complexity) make software development difficult" href="http://steve-yegge.blogspot.com/2007/12/codes-worst-enemy.html" target="_blank">code size being an engineer's worst enemy</a>. He focuses on codebase size, but much of what he says applies just as well at the next level down.)
 
 I suppose that this argument is weakened by the features of some IDEs, which collapse tangential code blocks, display treeviews of functions, and support lots of hypertext-style igation. But not all programmers use the same IDEs, and not all interactions with code are IDE-driven; file size remains relevant. There's a reason why C# created <a class="zem_slink" title="Class (computer programming)" href="http://en.wikipedia.org/wiki/Class_%28computer_programming%29" target="_blank" rel="wikipedia">partial classes</a> to improve on java's lump-it-all-in-a-single-file constraint...
 

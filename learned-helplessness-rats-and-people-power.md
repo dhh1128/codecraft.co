@@ -58,7 +58,7 @@ Now, wild rats are superb swimmers. On average, rats that had not received the s
 
 The average squeezed rat sank after 30 minutes.
 
-In the 1960s and 1970s, <a class="zem_slink" title="Martin Seligman" href="http://en.wikipedia.org/wiki/Martin_Seligman" target="_blank" rel="wikipedia">Martin Seligman</a> became interested in this phenomenon--he called it "<a class="zem_slink" title="Learned helplessness" href="http://en.wikipedia.org/wiki/Learned_helplessness" target="_blank" rel="wikipedia">learned helplessness</a>"--and he was able to trigger similar "giving up" behavior in dogs and other animals. <a href="http://www.annualreviews.org/doi/abs/10.1146/annurev.me.23.020172.002203?journalCode=med" target="_blank">He theorized</a> that human depression<!--more--> is a reaction to learned helplessness in the face of emotional or mental challenges against which we repeatedly make zero headway. <a href="http://www.hsu.edu/uploadedFiles/Faculty/Academic_Forum/2000-1/2000-1afHelplessness%20and%20Spatial%20Memory%20in%20Swimming%20Rats.pdf" target="_blank">Other researchers showed</a> that not only did squeezed rats stop swimming faster, they also lost some of their spatial reasoning and memory abilities.
+In the 1960s and 1970s, <a class="zem_slink" title="Martin Seligman" href="http://en.wikipedia.org/wiki/Martin_Seligman" target="_blank" rel="wikipedia">Martin Seligman</a> became interested in this phenomenon &mdash; he called it "<a class="zem_slink" title="Learned helplessness" href="http://en.wikipedia.org/wiki/Learned_helplessness" target="_blank" rel="wikipedia">learned helplessness</a>" &mdash; and he was able to trigger similar "giving up" behavior in dogs and other animals. <a href="http://www.annualreviews.org/doi/abs/10.1146/annurev.me.23.020172.002203?journalCode=med" target="_blank">He theorized</a> that human depression is a reaction to learned helplessness in the face of emotional or mental challenges against which we repeatedly make zero headway. <a href="http://www.hsu.edu/uploadedFiles/Faculty/Academic_Forum/2000-1/2000-1afHelplessness%20and%20Spatial%20Memory%20in%20Swimming%20Rats.pdf" target="_blank">Other researchers showed</a> that not only did squeezed rats stop swimming faster, they also lost some of their spatial reasoning and memory abilities.
 
 Hopefully, this experiment disturbs you on many levels. Even putting aside ethical questions, the implications are enough to make your skin crawl. At least one pundit has <a href="http://www.washingtonmonthly.com/archives/individual/2009_04/017869.php" target="_blank">connected the rat experiment with waterboarding at Guantanamo</a>. Probably there are interesting insights about addiction, interpersonal relationships, bullying, politics, and many other social issues to be gleaned as well.
 
@@ -66,13 +66,13 @@ I see interesting connections to tech debt.
 
 <strong>Working In Debt</strong>
 
-If you've ever worked on a truly yucky codebase--one littered with #ifdefs, massive and arcane functions, and undocumented and surprising logic; one having organizational principles known only to long-gone creators; one possessing far too few unit or regression tests; one smack dab in the middle of the strategic path of the company--then you know what it's like to be squeezed like a rat in a researcher's gloved fist.
+If you've ever worked on a truly yucky codebase &mdash; one littered with #ifdefs, massive and arcane functions, and undocumented and surprising logic; one having organizational principles known only to long-gone creators; one possessing far too few unit or regression tests; one smack dab in the middle of the strategic path of the company &mdash; then you know what it's like to be squeezed like a rat in a researcher's gloved fist.
 
 You have to fix bugs, but every change causes you to grit your teeth and cross ayour fingers and toes, because you have no confidence that the fix won't break something else. <em>Squeeze</em>.
 
-You know your <a title="Why Mental Models Matter" href="why-mental-models-matter.md" target="_blank">mental model</a> is incomplete--in fact, the mental model of everybody on the team is insufficient, even in the aggregate. You avoid dark corners of the codebase; here there be dragons. <em>Squeeze</em>.
+You know your <a title="Why Mental Models Matter" href="why-mental-models-matter.md" target="_blank">mental model</a> is incomplete &mdash; in fact, the mental model of everybody on the team is insufficient, even in the aggregate. You avoid dark corners of the codebase; here there be dragons. <em>Squeeze</em>.
 
-You desperately want to refactor--but you know the Keepers of the Budget and Schedule™ will never consent to let you rewrite to nearly the degree that you need. And worse, you know that you really can't start this effort anyway, because the risk of destabilizing things is just too high. (Remember, you don't have enough unit or regression tests.) <em>Squeeze.</em>
+You desperately want to refactor &mdash; but you know the Keepers of the Budget and Schedule™ will never consent to let you rewrite to nearly the degree that you need. And worse, you know that you really can't start this effort anyway, because the risk of destabilizing things is just too high. (Remember, you don't have enough unit or regression tests.) <em>Squeeze.</em>
 
 In that kind of codebase, you can come to feel like every breath of creativity, every spark of excitement, every hope that you can make a difference, is being squeezed right out of you.
 
@@ -90,7 +90,7 @@ This is the equivalent of the squeezed rats giving up after 30 minutes in the bu
 
 If you are working in a codebase with deep tech debt, you have to be disciplined about good habits. Write unit tests. Name your functions well. Make things as modular as you can. Chip away. And away. And away.
 
-If you are saying: "That's not going to erode the big debts--at least, not fast enough to make any difference!"--then I hear you. Believe me. But:
+If you are saying: "That's not going to erode the big debts &mdash; at least, not fast enough to make any difference!" &mdash; then I hear you. Believe me. But:
 <ul>
 	<li>Being the kind of engineer who pays down tech debt as a matter of habit, instead of the kind who gives up, will make a dramatic difference to your own morale, and to the morale of your team. In other words, having good habits lets you believe.</li>
 	<li>If you can inspire others on your team, you'll be surprised how tractable even large problems become.</li>

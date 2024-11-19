@@ -12,7 +12,7 @@ comments:
   - author: Daniel
     date: 2012-10-30 11:06:01
     comment: |
-      I saw you doing exactly this -- modeling good habits and trying to inspire your peers. Although you may not have made as much progress as you wanted, there is no doubt in my mind that you left things much better off than they would have been without that discipline. Thanks!
+      I saw you doing exactly this &mdash; modeling good habits and trying to inspire your peers. Although you may not have made as much progress as you wanted, there is no doubt in my mind that you left things much better off than they would have been without that discipline. Thanks!
   - author: Learned Helplessness, Rats, and People Power &laquo; Codecraft
     date: 2012-11-26 08:40:03
     comment: |
@@ -38,7 +38,7 @@ The answer is that debt can allow a company to concentrate enough capital in a s
 
 <figure><img alt="" src="http://imgs.xkcd.com/comics/archimedes.png" width="444" height="285" /><figcaption>Another take on leverage. Image credit: xkcd.</figcaption></figure>
 
-Debt is a fundamental machine in the business toolkit, just as levers are a fundamental machine for mechanical engineers. Almost all businesses use debt to some extent. If a CEO can borrow capital at 9% and produce 12% ROI with it, and <!--more-->if the risk implied by that gap is low enough, then not borrowing would be a violation of his <a class="zem_slink" title="Fiduciary" href="http://en.wikipedia.org/wiki/Fiduciary" target="_blank" rel="wikipedia">fiduciary responsibility</a> to stockholders. In fact, I'd go so far as to say that capitalism is somewhat founded on the notion that debt allows money to flow to its most efficient use.
+Debt is a fundamental machine in the business toolkit, just as levers are a fundamental machine for mechanical engineers. Almost all businesses use debt to some extent. If a CEO can borrow capital at 9% and produce 12% ROI with it, and if the risk implied by that gap is low enough, then not borrowing would be a violation of his <a class="zem_slink" title="Fiduciary" href="http://en.wikipedia.org/wiki/Fiduciary" target="_blank" rel="wikipedia">fiduciary responsibility</a> to stockholders. In fact, I'd go so far as to say that capitalism is somewhat founded on the notion that debt allows money to flow to its most efficient use.
 
 Don't get me wrong. I detest personal debt.  I think recent financial excesses, and the ensuing mess as we were forced to confront arbitrage and Wall Street shenanigans, are deplorable. I think most first-world countries are neck-deep in debt and are thus setting themselves up for hard times for many years to come.
 

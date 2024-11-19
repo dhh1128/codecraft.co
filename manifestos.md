@@ -22,7 +22,7 @@ The <a href="http://manifesto.softwarecraftsmanship.org/" target="_blank">Manife
 
 I think he's gone too far. <a href="evolving-software-politics.md">I'm pretty software liberal</a>. And I get the kernel of truth in the "necessary evil" idea. So much of what we write will be chucked or rewritten; it's unhealthy to imagine that every project is an opportunity for a <em>magnum opus</em>, or to expect to be able to achieve perfection.
 
-But I don't think that means we should devalue the craft. Even in the imperfect, muddled, transitory universe of software, it's possible to make savvy and artistic choices--or to do the opposite. When we care about craft, we find work more satisfying, and we make our corner of the universe a more hospitable place for our neighbors, which has all kinds of benefits.
+But I don't think that means we should devalue the craft. Even in the imperfect, muddled, transitory universe of software, it's possible to make savvy and artistic choices &mdash; or to do the opposite. When we care about craft, we find work more satisfying, and we make our corner of the universe a more hospitable place for our neighbors, which has all kinds of benefits.
 
 Besides, love of craft is my major reason for blogging, so it must be a good thing, right? :-)
 <p style="text-align:center;padding-left:30px;"><span style="color:#000080;"><strong>Action Item</strong></span></p>

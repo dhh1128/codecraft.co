@@ -8,7 +8,7 @@ comments:
   - author: dougbert
     date: 2012-11-05 08:43:22
     comment: |
-      wow - "Usability is all about conveying a mental model with minimum effort on the part of the receiver--and then using that model consistently and easily."  and add "on the part of the sender (developer) as well".
+      wow - "Usability is all about conveying a mental model with minimum effort on the part of the receiver &mdash; and then using that model consistently and easily."  and add "on the part of the sender (developer) as well".
   - author: Daniel
     date: 2012-11-05 11:44:36
     comment: |
@@ -29,13 +29,13 @@ comments:
   - author: Trev Harmon
     date: 2012-11-07 21:45:12
     comment: |
-      I think one thing forgotten by many programmers is by its very existence a program requires a mental model. In the worst case, the mental model is not even considered by the programmer, leaving one with a convoluted representation of a stream of conscience--not particularly helpful beyond the original implementation session. This is closely followed by a "designed" mental model that is simply an outward manifestation of the internal data structures. I find it infinitely frustrating to be presented with a program or API that requires me to fully understand the entire mental model before being allowed to do the simplest task because I must fully "explain" the context to the system through complex calls or data structure construction.
+      I think one thing forgotten by many programmers is by its very existence a program requires a mental model. In the worst case, the mental model is not even considered by the programmer, leaving one with a convoluted representation of a stream of conscience &mdash; not particularly helpful beyond the original implementation session. This is closely followed by a "designed" mental model that is simply an outward manifestation of the internal data structures. I find it infinitely frustrating to be presented with a program or API that requires me to fully understand the entire mental model before being allowed to do the simplest task because I must fully "explain" the context to the system through complex calls or data structure construction.
       
       One principle from general design is that of intent. In order for a physical object to truly have meaning to a human, it must be imbued with intent. Not only must the object exist, it must exist in order to fulfill an intent of its owner. [ See http://www.ted.com/talks/john_hockenberry_we_are_all_designers.html ]
       
       I think programmers often get confused when putting together mental models, meaning they imbue the mental model with their own intents and not those of their users. The mental model is the basis upon which rests all the rest of usability, as it is what will determine, to some extent, affordances, natural interactions and expected cause-effect relationships. Of course, when designing APIs, the model will naturally bend more towards that held by the original programmer. But, in almost every other case, the mental model held by the programmer would become a ball and chain when shackled to the user.
       
-      Bad mental models will always result in poor UI decisions and bad usability, because UI is really just a visual/tactile projection of the mental model. If at all possible, mental models should mimic the real world in which we live. At a minimum, they should not contradict it. I think the best example of this, tying together mental model, UI and usability, comes from some of the dark years in Apple's past. Every time--every single time--I ejected by floppy disk by dropping it into the trash can, there was a twinge of fear, "Perhaps this time, instead of preserving and returning that which held many hours of work, the trash can would perform its other function, the complete and utter destruction of all that entered into it." To preserve something I cherished, I would never through it in the trash. Reality contradicted... mental model broken... intent subverted... UI failure.
+      Bad mental models will always result in poor UI decisions and bad usability, because UI is really just a visual/tactile projection of the mental model. If at all possible, mental models should mimic the real world in which we live. At a minimum, they should not contradict it. I think the best example of this, tying together mental model, UI and usability, comes from some of the dark years in Apple's past. Every time &mdash; every single time &mdash; I ejected by floppy disk by dropping it into the trash can, there was a twinge of fear, "Perhaps this time, instead of preserving and returning that which held many hours of work, the trash can would perform its other function, the complete and utter destruction of all that entered into it." To preserve something I cherished, I would never through it in the trash. Reality contradicted... mental model broken... intent subverted... UI failure.
   - author: Daniel
     date: 2012-11-07 22:14:50
     comment: |
@@ -77,15 +77,15 @@ Both of those critiques are important, I think. But today I have a different bon
 
 <strong>The Deeper Issue</strong>
 
-Whenever we put "product" at the front of equations that describe our industry's output, we make the implicit assumption that product is the major--or even the entire--output of tech companies. This assumption is ubiquitous and almost never articulated, let alone challenged. Ask a tech buddy about what his company does; he'll say something like "We build products that ___."
+Whenever we put "product" at the front of equations that describe our industry's output, we make the implicit assumption that product is the major &mdash; or even the entire &mdash; output of tech companies. This assumption is ubiquitous and almost never articulated, let alone challenged. Ask a tech buddy about what his company does; he'll say something like "We build products that ___."
 
-Of course, tech companies <em>do</em> build products--or solve customer problems by delivering products and services, if you want to make economists happy. But they also create another output, and I think this neglected stepchild deserves far more attention.
+Of course, tech companies <em>do</em> build products &mdash; or solve customer problems by delivering products and services, if you want to make economists happy. But they also create another output, and I think this neglected stepchild deserves far more attention.
 
 Besides products, tech companies produce and propagate mental models. Or in other words, they enable and shape our view of the world.
 
 <figure><img class="zemanta-img-inserted zemanta-img-configured " title="Mental Model II" alt="" src="http://farm5.static.flickr.com/4057/4612823598_a82864475e_m.jpg" height="164" width="240" /><figcaption>Photo credit: daveelf (Flickr)</figcaption></figure>
 
-These mental models of the world matter. They--not products--are the nuggets of gold for which we prospect. Ask Galileo.
+These mental models of the world matter. They &mdash; not products &mdash; are the nuggets of gold for which we prospect. Ask Galileo.
 
 How much of popular culture is built on scaffolding provided by an idea thused to exist only in the mind of an engineer? Engineers didn't just dream up plasma TVs or radios; they enabled the very idea of broadcasting. They didn't just figure out how to download files from the internet; they convinced us to think of data blobs in terms of files and folders in the first place. They didn't just populate the App Store; they thought the concept of "app" into existence. I could go on and on with examples, but I'll leave that as an exercise for the reader.
 
@@ -103,11 +103,11 @@ Patents look nice in a war chest, but it's sophisticated mental models, not pate
 
 If you understand that tech companies produce mental models, then cein issues take on new significance.
 
-<a title="Paying Off Technical Debt" href="paying-off-technical-debt.md">Tech debt</a> isn't just insidious because it makes code ugly. A kludge lets us get by with a flawed, ill-developed mental model of a problem domain--and if we build on that model, eventually we create a house of cards. Bad mental models bite us, sooner or later.
+<a title="Paying Off Technical Debt" href="paying-off-technical-debt.md">Tech debt</a> isn't just insidious because it makes code ugly. A kludge lets us get by with a flawed, ill-developed mental model of a problem domain &mdash; and if we build on that model, eventually we create a house of cards. Bad mental models bite us, sooner or later.
 
 Competition in a turbulent market is often decided by who has the better mental model. "Better" might mean the one closer to the predilections of the customer, or the one that has better long-term applicability.
 
-Usability is all about conveying a mental model with minimum effort on the part of the receiver--and then using that model consistently and easily.
+Usability is all about conveying a mental model with minimum effort on the part of the receiver &mdash; and then using that model consistently and easily.
 
 A product that doesn't improve the mental model of the customer (e.g., by pruning unnecessary clutter, by visualizing connections that were previously impossible to see, by accounting for a neglected issue that's been a thorn in the side) is not innovative, no matter which features it touts. It is providing little of value, and will end up on the dust heap of history.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

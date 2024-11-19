@@ -1,5 +1,5 @@
 ---
-title: How Enums Spread Disease -- And How To Cure It
+title: How Enums Spread Disease &mdash; And How To Cure It
 date: 2012-10-29
 slug: how-enums-spread-disease-and-how-to-cure-it
 redirect_from:
@@ -40,7 +40,7 @@ comments:
   - author: Daniel
     date: 2012-10-30 07:38:53
     comment: |
-      Nathan: That's a great insight--how enums force the question of type extensibility. I'd never thought of their ramifications that way. Thanks for chiming in.
+      Nathan: That's a great insight &mdash; how enums force the question of type extensibility. I'd never thought of their ramifications that way. Thanks for chiming in.
   - author: Antoine Ménard (@Enthouan)
     date: 2015-04-15 12:19:52
     comment: |
@@ -66,7 +66,7 @@ comments:
       
       But let's set that issue aside for a moment and say we settle on simple, stable enums, and they never prove to be controversial. Fine. We still have the problem of how/where additional semantics for each item in the enum are expressed in code. Take color again. How do we decide if a color is "warm" or "cool"? How do we decide which colors are complimentary? How do we map the colors to traffic signal meanings? How do we know which colors are most likely to be problematic for different kinds of color blindness, or which colors carry which connotations in different cultures (black=mourning in many western cultures, but white=mourning in Asia)?
       
-      You might claim that really *good* enums are never like this; if the enum is ever used for something other than a totally opaque numeric constant, it's a bad example. Again, I don't buy it. Take the state machine in a TCP/IP stack. I guarantee that implementations of network protocols have switch statements that clump certain states together--they treat FIN and CLOSE the same way under certain conditions, for example. What this means is that these enumerated states have some common semantic meaning that the code needs to address. 
+      You might claim that really *good* enums are never like this; if the enum is ever used for something other than a totally opaque numeric constant, it's a bad example. Again, I don't buy it. Take the state machine in a TCP/IP stack. I guarantee that implementations of network protocols have switch statements that clump certain states together &mdash; they treat FIN and CLOSE the same way under certain conditions, for example. What this means is that these enumerated states have some common semantic meaning that the code needs to address. 
       
       Of course, a particular codebase may not need lots of rich semantics for its enums, but what I'm claiming is that usually, it needs one or two. They grow like weeds, without any management. And the typical way to address this need, in all the languages I know, is to write helper functions (or, far worse, random blocks of code sprinkled everywhere) that switch based on members of the enum. This is true almost independent of how simple and stable your enum is. There is no place where you can gather all the semantics together and edit them as a single unit. If you want to add a new semantic dimension to your enum, or adjust how an existing semantic dimension works, you have to hunt through the code and analyze semantics from scratch, with every edit. Good unit tests help, but they catch the symptom, not the kernel of the problem.
       
@@ -76,7 +76,7 @@ comments:
     comment: |
       I appreciate the thoughtful comment, Antoine.
       
-      Although it's nice to assert that enums should only store state, most enums that I'm familiar with eventually get messier than that. They may start simple, but we programmers don't leave them that way. Take the state machine in a parser, for example (a place where "state" is surely the key interest.) Even there, there are logical relationships between the states that we need to represent somewhere in the code: which states are allowed to precede and follow which other states? which states represent recoverable versus unrecoverable error conditions? Etc. Even an enum points_of_the_compass {north, south, east, west} has interesting semantics such as the fact that it's legal to compose a new direction north+west or south+east, but not north+south--or the fact that north and south are special because they retain meaning at a pole, whereas east and west do not. About the only "pure" enum that I'm sure would meet your criteria would be boolean {true, false}.
+      Although it's nice to assert that enums should only store state, most enums that I'm familiar with eventually get messier than that. They may start simple, but we programmers don't leave them that way. Take the state machine in a parser, for example (a place where "state" is surely the key interest.) Even there, there are logical relationships between the states that we need to represent somewhere in the code: which states are allowed to precede and follow which other states? which states represent recoverable versus unrecoverable error conditions? Etc. Even an enum points_of_the_compass {north, south, east, west} has interesting semantics such as the fact that it's legal to compose a new direction north+west or south+east, but not north+south &mdash; or the fact that north and south are special because they retain meaning at a pole, whereas east and west do not. About the only "pure" enum that I'm sure would meet your criteria would be boolean {true, false}.
       
       Your comment about OOP is insightful. It is true that the VehicleTypeTuple struct is not full-blown OOP, and that it could be. However, it would be read-only OOP, since all of the attributes (semantics) we're declaring for a vehicle type are known at compile-time and are thus constant for the life of the application. This means we never need setters, and we never need more than one instance of each tuple. To me, it felt like managing that data as POD instead of objects made more sense, but I guess that's more of a stylistic choice.
   - author: crystal_traveler
@@ -161,7 +161,7 @@ The infection from your enum is already coursing through the bloodstream at this
 </ul>
 <figure><img alt="" src="http://farm2.staticflickr.com/1193/3165350717_bf8656ba38.jpg" height="374" width="500" /><figcaption>A vehicle that challenges our tidy enum. Photo credit: Manila Imperial Motor Sales (Flickr)</figcaption></figure>
 
-The infection amplifies when we want to represent the enum in a config file or a UI. Now we need to <!--more-->convert to and from strings, and we use the classic shadow array of string literals, indexed by enum:
+The infection amplifies when we want to represent the enum in a config file or a UI. Now we need to convert to and from strings, and we use the classic shadow array of string literals, indexed by enum:
 <pre style="padding-left:30px;margin-bottom:1em;"><span style="color:#339966;">// THIS ARRAY ***MUST*** BE KEPT IN SYNC WITH THE ENUM DECLARED
 // AT THE TOP OF vehicle_type.h!!!</span>
 char const * VEHICLE_TYPE_NAMES[] = { 
@@ -177,7 +177,7 @@ char const * getVehicleTypeName(VehicleType vt) {
 Lest you think this ugliness is unique to C/C++, the Java or C# equivalent isn't all that pretty, either:
 <pre style="padding-left:30px;margin-bottom:1em;">@override
 String toString() {
-    <span style="color:#339966;">// eVTxyz --> xyz</span>
+    <span style="color:#339966;">// eVTxyz  &mdash; > xyz</span>
     return super.toString().toLowerCase().substring(3);
 }
 
@@ -190,7 +190,7 @@ You might be rolling your eyes at the clumsy conversions. Yes, we could do error
 
 That misses the point.
 
-We're still propagating knowledge indiscriminately. If the UI is involved, chances are there's a view, or an html <select> tag, or a javascript validation function, or--heaven help us--a localized message table--that has knowledge about the possible values of this enum. As the enum grows over time, your maintenance must regularly touch many different modules, possibly at many different layers. This is a recipe for bugs.
+We're still propagating knowledge indiscriminately. If the UI is involved, chances are there's a view, or an html <select> tag, or a javascript validation function, or &mdash; heaven help us &mdash; a localized message table &mdash; that has knowledge about the possible values of this enum. As the enum grows over time, your maintenance must regularly touch many different modules, possibly at many different layers. This is a recipe for bugs.
 
 The code is sick.
 

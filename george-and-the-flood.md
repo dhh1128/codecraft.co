@@ -45,7 +45,7 @@ Ready to grade your answers?
 
 Most people say "go right, toward higher ground" if picture 1 is the only input to their analysis. The logic is pretty indisputable. But...
 
-<!--more-->One of the disturbing lessons of my MBA was that many--perhaps the vast majority--of publicly traded companies operate at the level of insight provided by picture 1. Last quarter they had EPS of 0.27 USD; this quarter they have to do better to keep the stock price up, so they move to higher ground by redoubling their efforts to cut costs, improving their marketing, and adding new features.
+One of the disturbing lessons of my MBA was that many &mdash; perhaps the vast majority &mdash; of publicly traded companies operate at the level of insight provided by picture 1. Last quarter they had EPS of 0.27 USD; this quarter they have to do better to keep the stock price up, so they move to higher ground by redoubling their efforts to cut costs, improving their marketing, and adding new features.
 
 The problem with this approach is that it's short-sighted. Leaders that insist on incremental improvement without exception are bound to find themselves, sooner or later, on a low island with the water rising. As <a href="https://www.facebook.com/notes/kent-beck/when-worse-is-better-incrementally-escaping-local-maxima/498576730175196" target="_blank">Kent Beck recently pointed out</a>, sometimes you have to wade into the water to get to higher ground.
 
@@ -67,7 +67,7 @@ If you said "it depends," then give yourself a star on the forehead. <a title="S
 
 It really <em>does</em> depend, and I have not given you enough information. You could make some reasonable assumptions, but if you can get hard data, so much the better.
 
-Smart black belts don't just notice that these questions need answering--they proactively attack them. I would prefer to fight the competing hordes with a well organized team of black belts around me. Wouldn't you?
+Smart black belts don't just notice that these questions need answering &mdash; they proactively attack them. I would prefer to fight the competing hordes with a well organized team of black belts around me. Wouldn't you?
 
 <strong>The Master Answer</strong>
 

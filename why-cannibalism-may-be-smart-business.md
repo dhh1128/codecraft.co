@@ -42,7 +42,7 @@ I worked for the only technology group within Symantec that overlapped the backu
 
 Our growth stemmed from the fact that we were approaching backup in a radically different way. Instead of capturing changed files and streaming them through a centralized media server to a tape library, we took <a class="zem_slink" title="Disk image" href="http://en.wikipedia.org/wiki/Disk_image" rel="wikipedia" target="_blank">disk images</a> based on snapshotting technology. We were faster (many times faster, often); we had a distributed architecture that scaled out much more easily; we never missed a bit; we captured application state perfectly; we could mount backups or convert them to virtual machines.
 
-As the acquisition finalized, Symantec charged us and the BE folks <!--more-->to devise a coherent market strategy. The instructions were a no-brainer, but the details were messy. The product management folks with Veritas heritage didn't put much stock in our upstart product line; our revenue was smaller than some of BE's optional upsells. They decided that our disk-based product would become another BE option; that way, BE would get to claim immediate victory in the disk-based backup space.
+As the acquisition finalized, Symantec charged us and the BE folks to devise a coherent market strategy. The instructions were a no-brainer, but the details were messy. The product management folks with Veritas heritage didn't put much stock in our upstart product line; our revenue was smaller than some of BE's optional upsells. They decided that our disk-based product would become another BE option; that way, BE would get to claim immediate victory in the disk-based backup space.
 
 <strong>Fear of cannibalism</strong>
 

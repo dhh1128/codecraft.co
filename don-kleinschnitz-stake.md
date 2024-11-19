@@ -17,9 +17,9 @@ comments:
   - author: Daniel
     date: 2012-09-14 19:27:57
     comment: |
-      Your point about pain is well taken. Putting a stake in the ground sometimes hurts. It can be disruptive. You should do it when you calculate that it's a net win--not thoughtlessly. Although this particular principle was an obvious part of Don's style, I also saw him be thoughtful and deliberative on many occasions. That's a better choice if the human stakes are high and the pay-off for quick momentum is not especially compelling.
+      Your point about pain is well taken. Putting a stake in the ground sometimes hurts. It can be disruptive. You should do it when you calculate that it's a net win &mdash; not thoughtlessly. Although this particular principle was an obvious part of Don's style, I also saw him be thoughtful and deliberative on many occasions. That's a better choice if the human stakes are high and the pay-off for quick momentum is not especially compelling.
       
-      I should probably add another caveat to my inaugural post about role models, admitting that none of the principles I want to highlight are <em>always</em> the right answer. Smart tradeoffs -- balance -- that's the eternal dance. Or, to borrow a phrase from another mentor I admire (you know who you are, but I won't let you remain anonymous forever... :-) -- "It depends." :-)
+      I should probably add another caveat to my inaugural post about role models, admitting that none of the principles I want to highlight are <em>always</em> the right answer. Smart tradeoffs &mdash; balance &mdash; that's the eternal dance. Or, to borrow a phrase from another mentor I admire (you know who you are, but I won't let you remain anonymous forever... :-) &mdash; "It depends." :-)
   - author: Don
     date: 2012-09-15 10:05:24
     comment: |
@@ -45,15 +45,15 @@ comments:
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
 My huddle was not going well. I'd called a meeting to debate a tricky architectural problem with other senior engineers, and consensus was scarcer than working markers for our whiteboard. We were going round and round in circles.
 
-<a href="http://www.linkedin.com/pub/don-kleinschnitz/1/779/6a4" target="_blank">Don Kleinschnitz</a> walked in. It was our first interaction--he'd only been introduced to the company as our new CTO a few days before--and I wondered whether he'd help us get off the dime.
+<a href="http://www.linkedin.com/pub/don-kleinschnitz/1/779/6a4" target="_blank">Don Kleinschnitz</a> walked in. It was our first interaction &mdash; he'd only been introduced to the company as our new CTO a few days before &mdash; and I wondered whether he'd help us get off the dime.
 
-Five minutes later, the meeting was over, and the controversy was settled. Don had "put a stake in the ground," as he called it -- picked a spot and made a tangible, semi-permanent choice to anchor our behavior.
+Five minutes later, the meeting was over, and the controversy was settled. Don had "put a stake in the ground," as he called it &mdash; picked a spot and made a tangible, semi-permanent choice to anchor our behavior.
 
 <figure><img title="wooden stake" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Wooden_stake_holding_guy_rope.jpg/320px-Wooden_stake_holding_guy_rope.jpg" alt="" width="320" height="240" /><figcaption>A stake in the ground. :-) Photo credit: Wikimedia Commons.</figcaption></figure>
 
 <strong>Answer the hard questions</strong>
 
-I don't remember the question or the answer, but I do remember some of Don's solution. He immediately pushed us from generalities into specifics--what use case, <em>exactly</em>, would be affected by the decision? How much, <em>exactly</em>, would tradeoffs pay or cost in either direction?
+I don't remember the question or the answer, but I do remember some of Don's solution. He immediately pushed us from generalities into specifics &mdash; what use case, <em>exactly</em>, would be affected by the decision? How much, <em>exactly</em>, would tradeoffs pay or cost in either direction?
 
 Of course we couldn't answer Don's questions very well; nothing is more certain than ambiguity in software. But Don refused to let us off the hook, because he understood that <em>imperfect but specific answers are better than vague generalizations. Even if you have to guess.</em> (More rationale for this principle is elaborated in <a title="Role-Play Centered Design" href="role-play-centered-design.md" target="_blank">the RPCD manifesto</a>.)
 
@@ -75,19 +75,19 @@ Don's model enabled smart action in the face of tremendous uncertainty.
 
 <strong>Show, don't tell</strong>
 
-Don is always tinkering with tools and processes that instill this habit in his troops. On another memorable occasion, we were wrestling with long, dry requirements documents. They were auto-generated from a requirements database, and they ran into the scores--maybe hundreds--of pages. Because they were so long, nobody liked to read them carefully. And because nobody liked to read them, they weren't producing the interlock we needed to keep five development sites aligned in a healthy way.
+Don is always tinkering with tools and processes that instill this habit in his troops. On another memorable occasion, we were wrestling with long, dry requirements documents. They were auto-generated from a requirements database, and they ran into the scores &mdash; maybe hundreds &mdash; of pages. Because they were so long, nobody liked to read them carefully. And because nobody liked to read them, they weren't producing the interlock we needed to keep five development sites aligned in a healthy way.
 
-Don asked us to build a UI that manifested the existence of all features that would be exposed in our next release. It didn't have to <em>do</em> anything--just display what sorts of things would be possible.
+Don asked us to build a UI that manifested the existence of all features that would be exposed in our next release. It didn't have to <em>do</em> anything &mdash; just display what sorts of things would be possible.
 
 At first I thought he was crazy. I told him it would take a long time.
 
 "Not as long as requirements docs," he said.
 
-"It will be ugly--completely lacking in any usability."
+"It will be ugly &mdash; completely lacking in any usability."
 
 "So? We're not trying to model the customer experience. We can throw it away. The value is in forcing ourselves to be specific about what features we have."
 
-I built the UI. And I learned <em>a ton</em>. A picture--even a sloppy one--is easily worth a thousand words. Especially if it's interactive.
+I built the UI. And I learned <em>a ton</em>. A picture &mdash; even a sloppy one &mdash; is easily worth a thousand words. Especially if it's interactive.
 
 Product managers saw the UI. After a suitable re-education so they knew not to worry about ugliness or awkward workflow, they started saying really insightful things, like: "If we expose features A and C but not B, a user who wants to do A→B→C will be frustrated." The concreteness of the UI was almost like magic.
 

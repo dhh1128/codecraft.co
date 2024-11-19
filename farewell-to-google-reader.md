@@ -1,4 +1,4 @@
----
+ &mdash; -
 title: Farewell to Google Reader
 date: 2013-03-14
 slug: farewell-to-google-reader
@@ -31,7 +31,7 @@ comments:
       I downloaded Tiny Tiny RSS directly, but it's possible it could be in a repository. It doesn't have an installer, so there's a few manual steps. It's about as easy as decompress, run the DB install script for MySQL or Postgres, and either setup the cron job or run the PHP daemon script in a screen session. You shouldn't have any issues with it, but Joe User sure wouldn't. (Fun note: it supports self-registration and multiple users, so you can host an instance for your friends.)
       
       Fever is a paid app, but it's just $30. You upload the installer, it verifies compatibility, then completes the install once you buy a key. Even if I don't use it long-term, it was worth $30 to give it a spin. Heck, it might be a good supplemental reader for when I get busy and just need to see the biggest news items.
----
+ &mdash; -
 If you've been following blogs with Google Reader, you were probably unhappy with Google's recent decision to kill it.
 
 <strong>Observation</strong>: this is a great illustration of the <a title="The 8th Characteristic" href="the-8th-characteristic.md">phenomenon of software death</a> that I wrote about a few months ago.

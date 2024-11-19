@@ -20,10 +20,10 @@ comments:
       
       For me, this has been an interesting one. As you mentioned, the book is by no means perfect, but I've found the ideas resonating more than many of my other business books. Tossing the ideas around has proved interesting, and I've learned a few things.
       
-      -- Verbalizing the why can be quite difficult.
-      -- One really needs to have the why first; retrofitting it doesn't really work.
-      -- The interaction between our why, other people's whys and organizational whys have a lot more effect than I'd previously realized.
-      -- Attempting to espouse two different whys creates text-book cognitive dissonance (http://en.wikipedia.org/wiki/Cognitive_dissonance).
+      &mdash; Verbalizing the why can be quite difficult.
+      &mdash; One really needs to have the why first; retrofitting it doesn't really work.
+      &mdash; The interaction between our why, other people's whys and organizational whys have a lot more effect than I'd previously realized.
+      &mdash; Attempting to espouse two different whys creates text-book cognitive dissonance (http://en.wikipedia.org/wiki/Cognitive_dissonance).
       
       I think what your article caused me to ponder was the importance of the personal why. Most of my focus lately has been on organization whys and understanding how they relate to my own. Obviously, in retrospect, attempting a comparison where one thing is loosely defined is really pretty hard. Attempting it when both things are loosely defined is plain near impossible. I've been experiencing both situations recently.
       
@@ -39,7 +39,7 @@ comments:
   - author: Trev
     date: 2013-02-04 10:30:36
     comment: |
-      After a bit of thought on this, I've come to the conclusion it is possible to install a new why, but not retrofit. We've seen it a couple of times in industry--most impressively with Steve Jobs' return to Apple, though from all accounts that was done with a great deal effort and pain.
+      After a bit of thought on this, I've come to the conclusion it is possible to install a new why, but not retrofit. We've seen it a couple of times in industry &mdash; most impressively with Steve Jobs' return to Apple, though from all accounts that was done with a great deal effort and pain.
       
       Here's the reasoning. I think it is impossible for a person or organization to exist without a why. If one isn't implicitly stated, a "natural" one forms. For enterprise, this naturally occurring why is "to make as much money as possible" or some variation thereof. The things with whys is they are used to make self-reinforcing decisions. For example, hiring decisions will be made consciously or subconsciously based on the why. The chosen person will exhibit the attributes preferred by the why, and will therefore reinforce the why culturally in the organization.
       
@@ -47,7 +47,7 @@ comments:
   - author: Daniel Hardman
     date: 2013-02-04 21:17:36
     comment: |
-      I've been reading some of the later chapters in <em>Start With Why</em>, and I'm encouraged by the story of Gordon Bethune turning around Continental Airlines. He seems to have tapped into a latent why that many people at the organization could buy into with all their hearts. It's worth noting, however, that he fired 39 of the 60 top executives when he began shaking things up--and that he was able to institute sweeping change from the top down. It's not clear to me how it works to do it the other way, from the ground up.
+      I've been reading some of the later chapters in <em>Start With Why</em>, and I'm encouraged by the story of Gordon Bethune turning around Continental Airlines. He seems to have tapped into a latent why that many people at the organization could buy into with all their hearts. It's worth noting, however, that he fired 39 of the 60 top executives when he began shaking things up &mdash; and that he was able to institute sweeping change from the top down. It's not clear to me how it works to do it the other way, from the ground up.
   - author: Trev Harmon
     date: 2013-02-04 21:44:43
     comment: |
@@ -82,7 +82,7 @@ Here's my current answer:
 <p style="padding:1em;border:solid 1px black;text-align:center;font-size:150%;background-color:#e8e8e8;font-weight:bold;line-height:160%;">I believe in making complex computing simple so the world can innovate and improve.</p>
 <strong>Testing My Answer</strong>
 
-What I like about this answer is that it ties back to my core values. I believe we have opportunities to do lots of good in the world--eradicating poverty and disease, advancing science, learning to understand and value one another better. And I believe an impediment to that is all the complexity we create and discover. Big data is hiding a lot of the insight that would let companies serve customers better. Number crunching supercomputers are needed to predict the weather better, to help predict crop yields in Bangladesh. And so on.
+What I like about this answer is that it ties back to my core values. I believe we have opportunities to do lots of good in the world &mdash; eradicating poverty and disease, advancing science, learning to understand and value one another better. And I believe an impediment to that is all the complexity we create and discover. Big data is hiding a lot of the insight that would let companies serve customers better. Number crunching supercomputers are needed to predict the weather better, to help predict crop yields in Bangladesh. And so on.
 
 Thus, if I can do my part to make really tough computing problems more tractable, I'm helping make the world a better place.
 

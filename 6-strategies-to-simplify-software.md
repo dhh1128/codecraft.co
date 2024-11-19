@@ -47,7 +47,7 @@ But I've never talked about how to achieve it.
 
 This is not an easy question; if we knew how to make things simple, we'd do it more often and more quickly. It takes some serious effort (and genius) to go from centuries of experiments and volumes of equations to <code style="font-size:120%;color:#303048;">e = mc<sup>2</sup></code>. I've been pondering simplicity in software architecture for a decade, and I'm certain I've only scratched the surface.
 
-Still, simplicity is a learnable skill, and some strategies are consistently helpful...<!--more-->
+Still, simplicity is a learnable skill, and some strategies are consistently helpful...
 
 <strong>1. Encapsulate</strong>
 
@@ -91,7 +91,7 @@ One other hint on this one: Do some reading about <a href="http://en.wikipedia.
 
 <strong>6. Ask a child</strong>
 
-It doesn't have to be someone young, really--the true requirement is that it needs to be someone with some intellectual distance from the problem, who's able to ask probing questions. Children are just the perfect prototype.
+It doesn't have to be someone young, really &mdash; the true requirement is that it needs to be someone with some intellectual distance from the problem, who's able to ask probing questions. Children are just the perfect prototype.
 
 Years ago, thieves were raiding high-end clothing stores. They'd run in, sweep all the hangers to the end of the rack, lift off an armful of expensive merchandise, and run out the door before anybody could stop them. Stores tried all kinds of things, but the thieves were organized and fast, and they kept escaping.
 
@@ -101,9 +101,9 @@ And then there's the story of the <a href="http://www.thesimplest.net/stories/st
 
 <strong>7. ???</strong>
 
-Undoubtedly, other helpful strategies can also contribute to simplicity. Like the ones I've listed above, they will probably have their limits. We are unlikely to discover a silver bullet--and even if we did, the arms race of our industry makes it probable that we'll need a silver missile in the near future. It takes hard thinking, and hard work, to wrestle complexity into clean, reusable packages that fit together nicely. And it always will.
+Undoubtedly, other helpful strategies can also contribute to simplicity. Like the ones I've listed above, they will probably have their limits. We are unlikely to discover a silver bullet &mdash; and even if we did, the arms race of our industry makes it probable that we'll need a silver missile in the near future. It takes hard thinking, and hard work, to wrestle complexity into clean, reusable packages that fit together nicely. And it always will.
 
-But--ah!--the beauty of well crafted minimalism...
+But &mdash; ah! &mdash; the beauty of well crafted minimalism...
 
 Perhaps Leonardo da Vinci said it best: "Simplicity is the ultimate sophistication."
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

@@ -12,7 +12,7 @@ comments:
   - author: Daniel Hardman
     date: 2013-01-11 19:09:02
     comment: |
-      Interesting. I hadn't considered the benefits of running inside a robust and well implemented browser--but you've certainly put your finger on one of them. +1 for not solving problems when you don't have to!
+      Interesting. I hadn't considered the benefits of running inside a robust and well implemented browser &mdash; but you've certainly put your finger on one of them. +1 for not solving problems when you don't have to!
   - author: Don
     date: 2013-01-13 06:42:43
     comment: |
@@ -37,7 +37,7 @@ comments:
     comment: |
       [...] Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about circuit breakers.) [...]
 ---
-Recently I've been pondering an interesting book called <a href="http://pragprog.com/book/mnee/release-it"><em>Release It!</em>, by Michael Nygard</a>. It's full of anecdotes from someone who has spent a major portion of his career troubleshooting high-profile crashes of some of the most complex production <a class="zem_slink" title="Software system" href="http://en.wikipedia.org/wiki/Software_system" target="_blank" rel="wikipedia">software systems</a> in the world--airline reservations, financial institutions, leading online retailers, and so forth.
+Recently I've been pondering an interesting book called <a href="http://pragprog.com/book/mnee/release-it"><em>Release It!</em>, by Michael Nygard</a>. It's full of anecdotes from someone who has spent a major portion of his career troubleshooting high-profile crashes of some of the most complex production <a class="zem_slink" title="Software system" href="http://en.wikipedia.org/wiki/Software_system" target="_blank" rel="wikipedia">software systems</a> in the world &mdash; airline reservations, financial institutions, leading online retailers, and so forth.
 
 <figure><img class="zemanta-img-inserted" title="circuit breaker" alt="circuit breaker" src="http://uad.wikimedia.org/wikipedia/commons/f/fd/Jtecul.jpg" width="238" height="295" /><figcaption>A circuit breaker. Photo credit: Wikimedia Commons.</figcaption></figure>
 
@@ -49,7 +49,7 @@ In systems without circuit breakers, failures in an external call may cause an e
 
 Or, to borrow an old idiom, "it never rains but it pours."
 
-In the circuit breaker pattern, on the other hand, the caller assigns each "circuit" (a codepath that invokes an external entity) to one of three possible states: <span style="color:#993366;">closed</span>, <span style="color:#993366;">open</span>, or <span style="color:#993366;">half-open</span>. <!--more-->In the <span style="color:#993366;">closed</span> state, all is copacetic; calls succeed quickly. However, if the caller starts seeing failures or brownouts, and if these failures eventually create enough resistance on the circuit, the circuit's state is considered <span style="color:#993366;">open</span>--all traffic on the circuit is suspended for a while, allowing backlogs to clear and former equilibrium to return. While in the open state, code that attempts to use the circuit gets an immediate and cheap failure. After enough time has passed, the circuit breaker assumes a <span style="color:#993366;">half-open</span> state, where it is willing to try again to see if things are now better. With success, the circuit transitions back to <span style="color:#993366;">closed</span> (normal); with failure, it reverts to <span style="color:#993366;">open</span> for more waiting.
+In the circuit breaker pattern, on the other hand, the caller assigns each "circuit" (a codepath that invokes an external entity) to one of three possible states: <span style="color:#993366;">closed</span>, <span style="color:#993366;">open</span>, or <span style="color:#993366;">half-open</span>. In the <span style="color:#993366;">closed</span> state, all is copacetic; calls succeed quickly. However, if the caller starts seeing failures or brownouts, and if these failures eventually create enough resistance on the circuit, the circuit's state is considered <span style="color:#993366;">open</span> &mdash; all traffic on the circuit is suspended for a while, allowing backlogs to clear and former equilibrium to return. While in the open state, code that attempts to use the circuit gets an immediate and cheap failure. After enough time has passed, the circuit breaker assumes a <span style="color:#993366;">half-open</span> state, where it is willing to try again to see if things are now better. With success, the circuit transitions back to <span style="color:#993366;">closed</span> (normal); with failure, it reverts to <span style="color:#993366;">open</span> for more waiting.
 
 Nygard's war stories are an excellent argument for building circuit breakers. I see eloquent support in other contexts as well.
 

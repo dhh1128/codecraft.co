@@ -22,7 +22,7 @@ Today I want to write about something a lot more important.
 
 Let me use résumés to provide some context.
 
-I used to think that the "Objective" section of a résumé was fluff--a place to dump vague platitudes, maybe. You know the stuff I'm talking about:
+I used to think that the "Objective" section of a résumé was fluff &mdash; a place to dump vague platitudes, maybe. You know the stuff I'm talking about:
 <blockquote><strong>Objective</strong>: Craft high-quality, enterprise software in an environment where I can make significant contributions to the bottom line of a growing company.</blockquote>
 Blah, blah, blah.
 
@@ -34,21 +34,21 @@ But it doesn't have to be that way.
 
 Your objectives ought to matter.
 
-<!--more-->
+
 
 Last year, I spent a lot of time pondering what makes me tick, as an engineer, an employee, and a company leader. A lot of it grew out of <a title="Why" href="why.md">my exposure</a> to Simon Sinek's TED talk, <a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en" target="_blank">"Start with Why"</a>, and my readings in <em>Conscious Capitalism</em>. (Shoutout to <a href="http://dld.me" target="_blank">@trev_harmon</a> for a fountain of interesting ideas, and generous discussions about them.)
 
 One consequence of my ponderings was that I re-wrote the "Objective" section on my résumé. Here's what it said, hot off the presses, when I responded to a Google recruiter who came calling:
-<blockquote>I long to transmute complex software and data into insight engines that make the world better. Sign me up for awesome--not easy, mediocre, or unimpactful.</blockquote>
-Looking at it now, "long" seems a bit melodramatic. But hey--it's accurate! I ended up deciding it wasn't the right time to move, and suspending the conversation with Google. But I used that revision of the résumé with other recruiters who reached out, for many months.
+<blockquote>I long to transmute complex software and data into insight engines that make the world better. Sign me up for awesome &mdash; not easy, mediocre, or unimpactful.</blockquote>
+Looking at it now, "long" seems a bit melodramatic. But hey &mdash; it's accurate! I ended up deciding it wasn't the right time to move, and suspending the conversation with Google. But I used that revision of the résumé with other recruiters who reached out, for many months.
 
-Amazon pinged me again during this stretch. I'd flown out to Seattle a couple years before, fallen in love with the area, loved the technical problems they wanted me to work on, and received a formal offer--but I felt some dissonance and said no.
+Amazon pinged me again during this stretch. I'd flown out to Seattle a couple years before, fallen in love with the area, loved the technical problems they wanted me to work on, and received a formal offer &mdash; but I felt some dissonance and said no.
 
 This time, I was restless, and I had a pretty good idea of the package they might offer. This time, they wanted me to work on their streaming video service, which is cutting-edge stuff. My first impulse was to revive the conversation. But as I went to send them an updated résumé, I thought about that "Objective" line. Did this opportunity match?
 
 Did I really believe what I'd written?
 
-I politely declined. I get a lot of entertainment online, and I think it's fun--but most fare nowadays is pretty far removed from "make the world a better place." Coolness alone wasn't enough.
+I politely declined. I get a lot of entertainment online, and I think it's fun &mdash; but most fare nowadays is pretty far removed from "make the world a better place." Coolness alone wasn't enough.
 
 I turned down a gig working on the AI and rendering technology in a gaming engine for the same reason.
 
@@ -68,7 +68,7 @@ It also highlights the freedom that each of us has to choose how we'll approach 
 
 The manifesto articulates many of the feelings that drove me to change the objective on my resume, and I signed it as soon as Trev put it up. I've printed a copy and displayed it at my desk.
 
-As I said before, the idealism I put into my résumé may not be for everyone--but I think the straightforward goodness in Trev's manifesto always applies.
+As I said before, the idealism I put into my résumé may not be for everyone &mdash; but I think the straightforward goodness in Trev's manifesto always applies.
 
 I hope you'll read, <a title="Sign the Conscious Business Ethics Manifesto" href="http://trevharmon.com/conscious-business-ethics/sign-the-manifesto/" target="_blank">sign</a>, and talk up the manifesto as well.
 

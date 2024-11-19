@@ -28,13 +28,13 @@ comments:
   - author: Daniel Hardman
     date: 2014-03-07 11:20:44
     comment: |
-      All three of your points are valid. However, I'm not claiming that references are radically better than pointers--only that they're a better fit for certain problems. And they are:
+      All three of your points are valid. However, I'm not claiming that references are radically better than pointers &mdash; only that they're a better fit for certain problems. And they are:
       
-      1) -- answers my questions about changeability of the parameter during the course of the function, but does not clarify any semantics about NULL. The const * const prototype is more verbose and less rich in semantics than using a reference.
+      1) &mdash; answers my questions about changeability of the parameter during the course of the function, but does not clarify any semantics about NULL. The const * const prototype is more verbose and less rich in semantics than using a reference.
       
-      2) -- yes, you can use sort with a comparator, but you have to write a pointer-aware comparator that dereferences your pointers, in addition to implementing comparison logic. That violates the single responsibility principle; it's cleaner in many cases to implement comparison logic, and keep pointer-walking outside the comparator. STL is prejudiced this way; swimming against the stream results in code that's bigger and messier, except in trivial examples. (I'm not a purist on this; I've done exactly what you suggested, lots of times. But I do think it's a bit sub-optimal.)
+      2) &mdash; yes, you can use sort with a comparator, but you have to write a pointer-aware comparator that dereferences your pointers, in addition to implementing comparison logic. That violates the single responsibility principle; it's cleaner in many cases to implement comparison logic, and keep pointer-walking outside the comparator. STL is prejudiced this way; swimming against the stream results in code that's bigger and messier, except in trivial examples. (I'm not a purist on this; I've done exactly what you suggested, lots of times. But I do think it's a bit sub-optimal.)
       
-      3) -- passing pointers works fine, but you open yourself up to exception safety problems by not guaranteeing RAII. Not a big deal in a lot of code, but worth considering.
+      3) &mdash; passing pointers works fine, but you open yourself up to exception safety problems by not guaranteeing RAII. Not a big deal in a lot of code, but worth considering.
   - author: Corinne
     date: 2022-10-20 13:03:12
     comment: |
@@ -42,7 +42,7 @@ comments:
 ---
 I still remember what it was like, as a C programmer, to be introduced to the newfangled concept of references in C++. I thought: "This is dumb. It's just another way to use pointers. More syntactic sugar for no good reason..."
 
-For a long time, I thought of pointers vs. references as a stylistic choice, and I've run into lots of old C pros who feel the same. (The debate on <a href="http://www.cplusplus.com/forum/beginner/3958/" target="_blank">this comment stream</a> is typical.) If you're one of them, let me see if I can explain why I now think I was wrong, and maybe convince you to use references where it makes sense. I won't try to enumerate every reason--just hit a few highlights.
+For a long time, I thought of pointers vs. references as a stylistic choice, and I've run into lots of old C pros who feel the same. (The debate on <a href="http://www.cplusplus.com/forum/beginner/3958/" target="_blank">this comment stream</a> is typical.) If you're one of them, let me see if I can explain why I now think I was wrong, and maybe convince you to use references where it makes sense. I won't try to enumerate every reason &mdash; just hit a few highlights.
 
 <figure><img class=" " src="http://imgs.xkcd.com/comics/compiler_complaint.png" alt="" width="500" height="135" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
@@ -58,7 +58,7 @@ Veteran C programmers recognize that the semantics are unclear, so they come up 
 <span style="color:#008000;"> */</span>
 void setClient(IClient * client) {
     if (client != NULL) { <span style="color:#008000;">//...do something</span></pre>
-This is fine, except why depend on a comment and a programmer's inclination to read and obey, when you can enforce your intentions at compile time, and write less code, too?<!--more-->
+This is fine, except why depend on a comment and a programmer's inclination to read and obey, when you can enforce your intentions at compile time, and write less code, too?
 <pre style="padding-left:30px;">void setClient(IClient const & client) { <span style="color:#008000;">//...do something</span></pre>
 The <code>const</code> in this declaration tells you that client won't be modified. That's not really a pointer vs. ref thing, but I couldn't help myself. See <a title="Put Your Const Foot Forward" href="put-your-const-foot-forward.md">my notes about <code>const</code></a>. The <code>&</code> tells you that the value of client will not change for the duration of <code>setClient</code>, and it also tells you that callers are not supposed to pass <code>NULL</code>. The comment and the check for <code>NULL</code> become unnecessary. As a caller of this function, if you're working with a pointer and you use the * operator to convert it to a pointer, you now know you have a responsibility to guarantee non-<code>NULL</code>-ness. The function writer has firewalled that issue out of his or her scope of concern, and forced someone who should understand it better to deal with it.
 
@@ -70,7 +70,7 @@ But when you <em>can</em> use a reference, you should. It's good defensive progr
 
 <strong>2. References allow value semantics in templates and operators</strong>
 
-Algorithms and containers in the standard C++ library are written as if operating on values, not pointers. References allow the standard library to work transparently on objects in custom classes that you write, without writing messy adapters, because operators are invoked on values and references identically. For example, <code>std::sort()</code> will work on anything that defines the <code><</code> less-than operator -- but it will never work on pointers to things that define <code><</code>. References are also transparent to <code><<</code> and <code>>></code> stream operators, to boolean comparison operators, and so forth.
+Algorithms and containers in the standard C++ library are written as if operating on values, not pointers. References allow the standard library to work transparently on objects in custom classes that you write, without writing messy adapters, because operators are invoked on values and references identically. For example, <code>std::sort()</code> will work on anything that defines the <code><</code> less-than operator &mdash; but it will never work on pointers to things that define <code><</code>. References are also transparent to <code><<</code> and <code>>></code> stream operators, to boolean comparison operators, and so forth.
 
 If you've done serious template work in C++, you know that this is important. This issue is what forced me to reassess my perspective that it was all a matter of style.
 
@@ -82,4 +82,4 @@ This is a huge deal. If you haven't already fallen in love with the performance 
 
 If you think I'm a reference bigot, then I've failed. Pointers and references are just alternate incarnations of indirection, which (as my friend Moray is fond of pointing out) is one of the truly foundational techniques of CS. It's amazing how much more tractable certain problems become when you add a layer of indirection. And pointers were my first experience with the technique, so I can't help but be a fan. Besides the virtues of mutability and nullability, pointers are the easiest way to work with classes of functions having a common signature, and they are used in many advanced idioms. If you looked at my code, you'd see that I still use pointers in C-like ways sometimes. For example, I think functions that take a const char * instead of a std::string const & may make sense in many cases, depending on how layers are organized and how the parameters are used.
 
-But I now try to use references wherever they seem to fit; if I can use either, I always prefer references. I think it makes my code more robust and cleaner--and it sets me up for good performance optimizations in the future.
+But I now try to use references wherever they seem to fit; if I can use either, I always prefer references. I think it makes my code more robust and cleaner &mdash; and it sets me up for good performance optimizations in the future.
