@@ -43,7 +43,9 @@ I've written that <a title="The Power of Simplicity" href="good-code-is-balance
 
 But I've never talked about how to achieve it.
 
-<figure><img alt="" src="http://farm1.staticflickr.com/11/16139468_0d14545348.jpg" width="500" height="375" /><figcaption>photo credit: hurley gurley (Flickr)</figcaption></figure>
+<figure><img src="assets/simple-flower.jpg" />
+<figcaption>image credit: Midjourney</figcaption>
+</figure>
 
 This is not an easy question; if we knew how to make things simple, we'd do it more often and more quickly. It takes some serious effort (and genius) to go from centuries of experiments and volumes of equations to <code style="font-size:120%;color:#303048;">e = mc<sup>2</sup></code>. I've been pondering simplicity in software architecture for a decade, and I'm certain I've only scratched the surface.
 
