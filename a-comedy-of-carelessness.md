@@ -63,7 +63,7 @@ The day after Thanksgiving I went on a long road trip to eastern Wyoming. Total 
 
 At a gas station about 2 hours from home, on the way back, my credit card was declined. Apparently, fraud prevention algorithms at my credit card company had decided that it was suspicious for me to use my credit card out of state. This was rather irritating, since I'd just driven 12 hours on this same highway, using this same credit card to fill up the car, out of state, 2 other times in the previous 24 hours.
 
-<figure><img alt="" src="assets/gas-pump.jpg" width="500" height="375" /><figcaption>Photo credit: herzogbr (Flickr)</figcaption></figure>
+<figure><img src="assets/gas-pump.jpg" /><figcaption>Image credit: Midjourney</figcaption></figure>
 
 I used an alternate card and finished my trip. When I got home, I called American Express to get the card unblocked. (The block didn't just apply to gas stations in Wyoming &mdash; once suspicious, the company wouldn't let me buy gas a block from my house, either.) I spent 5-10 minutes working my way through an automated phone queue. It asked for several pieces of info to prove I was, indeed, the card holder &mdash; all 16 digits of the card, the 3-digit code on the back, last 4 digits of my social security number, phenotype of my dog... I had to call back twice &mdash; once because a family member asked me a question while I was fishing my card out of the wallet, and the system lost patience waiting for a response, and once because I pushed the wrong key and had no way to backspace.
 
@@ -74,6 +74,7 @@ I was flummoxed. Of course I know where I was born, but which place did they wan
 While I was biting my lip, the system rejected my answer, and I was back to square one. I called in again and remained silent until I got routed to a live operator. She unblocked the card and offered to give me a link to an app that I could download, to make it convenient for me to unblock my card whenever this happens in the future.
 
 Well, sorry, American Express &mdash; despite your cheerful customer service representative, you did not make a happy customer with this experience. If you're going to challenge me when I go out of state, <! &mdash; more &mdash; >don't do it at the end of a journey, when I'm up a creek without a paddle and all the potential fraud has already happened. Don't make me wade through an automated phone queue that's inflexible and hard to use, with no option to talk to a human. Don't write a stupid security question that's ambiguous. And don't make me download an app to correct your mistakes after the fact. Just give me an email address or text-capable phone number where I can tell you I'm headed on a trip. Or ask me a challenge question at the pump; you asked me my zip code when I swiped the card, so entering the digits of my street address wouldn't be much of a stretch...
+
 <h2>Act II</h2>
 I needed to register an LLC, so I went to the state's web site, found the tax commission portal, and began the workflow. It requires a login. I'd done this before, so I was pretty sure I'd created a login already, but I had no idea what it was. I went through password recovery, entered the email address that I thought I'd registered, and was promised by the system that it had emailed instructions to choose a new password.
 
@@ -93,7 +94,7 @@ Whoop! Sorry, Charlie. Your phone number wasn't formatted correctly. You entered
 
 I eventually got everything just right, and "Submit" displayed an icon to show me the gears were turning. Then it took me to a screen that said this:
 
-<img src="assets/screen-shot-temp-unavailable.png" /></a></p>
+<img src="assets/screen-shot-temp-unavailable.png" />
 
 You're sorry for the inconvenience? Hmm. I betcha you're not as sorry as I am. If the site is down for scheduled maintenance, then why not tell me before I started that I was about to be interrupted? And why not tell me when the scheduled maintenance window ends, so I know when to check back?
 
@@ -106,7 +107,7 @@ Unfortunately, the act of moving the phone jiggled the plug enough to interrupt 
 
 Why does it make sense to do a 30-second shutdown sequence if the battery's totally dead? Certainly it's not to preserve the battery. To save state, maybe? My user session had lasted all of 1 or 2 seconds; there was no state to preserve. Wouldn't it be smarter to try to wait out a brief power loss, if you have nothing to lose?
 
-<h2><span style="line-height:1.5em;">Critical Analysis</span></h2>
+<h2>Critical Analysis</h2>
 You can probably tell that I'm frustrated. Of course life isn't going to be smooth sailing all the time, and of course each of these lousy experiences arises from complex situations where engineers and business people had to make tradeoffs. Perhaps developing a smarter fraud detection algorithm at AmEx is too expensive. Perhaps a government website's first priority is protecting privacy and not losing data, and creating user accounts is a less frequent process that they haven't had time to polish yet. Perhaps Android phones would rather force orderly shutdown than risk OS corruption.
 
 My beef is not that we make tradeoffs &mdash; it's that we don't regret them enough, communicate them enough, acknowledge enough the bad that comes with the good. And we pass the buck, way too often. The lowly "user" at the bottom of the food chain has a pretty lousy experience.
