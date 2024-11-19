@@ -63,7 +63,7 @@ The day after Thanksgiving I went on a long road trip to eastern Wyoming. Total 
 
 At a gas station about 2 hours from home, on the way back, my credit card was declined. Apparently, fraud prevention algorithms at my credit card company had decided that it was suspicious for me to use my credit card out of state. This was rather irritating, since I'd just driven 12 hours on this same highway, using this same credit card to fill up the car, out of state, 2 other times in the previous 24 hours.
 
-<figure><img alt="" src="http://farm3.staticflickr.com/2002/2069439389_37db50cb39.jpg" width="500" height="375" /><figcaption>Photo credit: herzogbr (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/gas-pump.jpg" width="500" height="375" /><figcaption>Photo credit: herzogbr (Flickr)</figcaption></figure>
 
 I used an alternate card and finished my trip. When I got home, I called American Express to get the card unblocked. (The block didn't just apply to gas stations in Wyoming &mdash; once suspicious, the company wouldn't let me buy gas a block from my house, either.) I spent 5-10 minutes working my way through an automated phone queue. It asked for several pieces of info to prove I was, indeed, the card holder &mdash; all 16 digits of the card, the 3-digit code on the back, last 4 digits of my social security number, phenotype of my dog... I had to call back twice &mdash; once because a family member asked me a question while I was fishing my card out of the wallet, and the system lost patience waiting for a response, and once because I pushed the wrong key and had no way to backspace.
 
@@ -81,32 +81,40 @@ Then I waited.
 
 No email came. Spam folder empty.
 
-<a href="../../../wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-31-19-pm.png"><img class="size-full wp-image-2096 alignright" alt="Best of the Web award for utah.gov" src="http://codecraft.co/wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-31-19-pm.png" width="317" height="157" /></a> Sigh. Gritted teeth. I guess the system lied about sending an email, and I had never registered that email address. (Security nazis: don't tell me the system needed to lie to prevent account discovery by nefarious hackers. The system could have said, "If you've given us an email address that we recognize, we've sent a message." That wouldn't be lying, and it also wouldn't disclose info about whether a particular user exists.)
+Sigh. Gritted teeth. I guess the system lied about sending an email, and I had never registered that email address. (Security nazis: don't tell me the system needed to lie to prevent account discovery by nefarious hackers. The system could have said, "If you've given us an email address that we recognize, we've sent a message." That wouldn't be lying, and it also wouldn't disclose info about whether a particular user exists.)
 
 I started over, creating a new login. On the "Create Account" screen, I noticed that the site was proud of awards it had won. Hmm.
 
-<span style="line-height:1.5em;">I entered my name, address, phone number, and desired password. The system pre-screened my password (gotta force dumb users to pick something robust!) and made sure I typed it the same way twice, then allowed me to press Submit.</span>
+<img src="assets/screen-shot-best-of-web.png" />
+
+I entered my name, address, phone number, and desired password. The system pre-screened my password (gotta force dumb users to pick something robust!) and made sure I typed it the same way twice, then allowed me to press Submit.
 
 Whoop! Sorry, Charlie. Your phone number wasn't formatted correctly. You entered 123 456 7890, but we needed (123) 456-7890. Please try again. And oh by the way, we've erased both password fields and the phone number you provided, since you didn't format your input correctly.
 
-<span style="line-height:1.5em;">I eventually got everything just right, and "Submit" displayed an icon to show me the gears were turning. Then it took me to a screen that said this:</span>
-<p style="text-align:center;"><a href="../../../wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-31-40-pm.png"><img class="size-large wp-image-2097 aligncenter" alt="Screen Shot 2013-12-07 at 4.31.40 PM" src="http://codecraft.co/wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-31-40-pm.png?w=500" width="500" height="77" /></a></p>
+I eventually got everything just right, and "Submit" displayed an icon to show me the gears were turning. Then it took me to a screen that said this:
+
+<img src="assets/screen-shot-temp-unavailable.png" /></a></p>
+
 You're sorry for the inconvenience? Hmm. I betcha you're not as sorry as I am. If the site is down for scheduled maintenance, then why not tell me before I started that I was about to be interrupted? And why not tell me when the scheduled maintenance window ends, so I know when to check back?
 
 I came back half an hour later. The site appeared to be up. I tried to enter my new login. I accidentally entered my email address instead of my username in the login field; I got two errors before I figured that one out. Once I logged in, I got to step 1 of the "Register an LLC" process before I saw the "Temporarily Unavailable" message again.
+
 <h2>Act III</h2>
 My phone's battery was completely dead, so I hooked it up to the charger. I really needed to make a phone call, so I tried to turn it on once charging had begun. I had to hold down the power for 15 seconds or so before it reacted (why?). I saw the Android logo, waited till the phone completed its boot sequence, and lifted the phone to my ear.
 
 Unfortunately, the act of moving the phone jiggled the plug enough to interrupt power for a split second, which triggered the phone's uninterruptible 30-second shutdown sequence.
 
 Why does it make sense to do a 30-second shutdown sequence if the battery's totally dead? Certainly it's not to preserve the battery. To save state, maybe? My user session had lasted all of 1 or 2 seconds; there was no state to preserve. Wouldn't it be smarter to try to wait out a brief power loss, if you have nothing to lose?
+
 <h2><span style="line-height:1.5em;">Critical Analysis</span></h2>
 You can probably tell that I'm frustrated. Of course life isn't going to be smooth sailing all the time, and of course each of these lousy experiences arises from complex situations where engineers and business people had to make tradeoffs. Perhaps developing a smarter fraud detection algorithm at AmEx is too expensive. Perhaps a government website's first priority is protecting privacy and not losing data, and creating user accounts is a less frequent process that they haven't had time to polish yet. Perhaps Android phones would rather force orderly shutdown than risk OS corruption.
 
 My beef is not that we make tradeoffs &mdash; it's that we don't regret them enough, communicate them enough, acknowledge enough the bad that comes with the good. And we pass the buck, way too often. The lowly "user" at the bottom of the food chain has a pretty lousy experience.
 <h2>A Higher Vision</h2>
 While I was writing this post, my internet connection kept dropping due to a snow storm. Look what I sat the top of Wordpress's edit window:
-<p style="text-align:center;"><a href="../../../wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-16-32-pm.png"><img class="size-large wp-image-2095 aligncenter" alt="Screen Shot 2013-12-07 at 4.16.32 PM" src="http://codecraft.co/wp-content/uploads/2013/12/screen-shot-2013-12-07-at-4-16-32-pm.png?w=500" width="500" height="34" /></a></p>
+
+<img src="assets/screen-shot-conn-lost.png" />
+
 Now that's more like it! <a title="Good Code Plans for Problems" href="dont-forget-the-circuit-breakers.md">Take steps to cope</a>, without panicking or inconveniencing the user. I'm not super happy that my internet connection's been flaky, but Wordpress has a reasonably cheerful "net promoter" right now.
 
 We MUST have a vision that encompasses this mindset in the software we build, because I believe software is getting ever more complex. Layer depends upon layer depends upon layer... If we write each layer using only the most convenient assumptions, the multiplicative effect of all those shortcuts will eventually make our users miserable.

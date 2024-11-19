@@ -35,10 +35,6 @@ comments:
       2) &mdash; yes, you can use sort with a comparator, but you have to write a pointer-aware comparator that dereferences your pointers, in addition to implementing comparison logic. That violates the single responsibility principle; it's cleaner in many cases to implement comparison logic, and keep pointer-walking outside the comparator. STL is prejudiced this way; swimming against the stream results in code that's bigger and messier, except in trivial examples. (I'm not a purist on this; I've done exactly what you suggested, lots of times. But I do think it's a bit sub-optimal.)
       
       3) &mdash; passing pointers works fine, but you open yourself up to exception safety problems by not guaranteeing RAII. Not a big deal in a lot of code, but worth considering.
-  - author: Corinne
-    date: 2022-10-20 13:03:12
-    comment: |
-      I enjoyed readingg your post
 ---
 I still remember what it was like, as a C programmer, to be introduced to the newfangled concept of references in C++. I thought: "This is dumb. It's just another way to use pointers. More syntactic sugar for no good reason..."
 

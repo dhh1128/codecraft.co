@@ -108,7 +108,7 @@ Depending on the language you're using and the nature of your data, you might co
 
 I think this is a mediocre solution, at best. Shouldn't programmers work on funner stuff, like "traveling salesman" problems? :-)
 
-<figure><img class="" src="http://imgs.xkcd.com/comics/travelling_salesman_problem.png" alt="" width="640" height="283" /><figcaption>image credit: xkcd.com</figcaption></figure>
+<figure><img class="" src="http://imgs.xkcd.com/comics/travelling_salesman_problem.png"/><figcaption>image credit: xkcd.com</figcaption></figure>
 
 
 <h3>What's wrong with how we code tables?</h3>
