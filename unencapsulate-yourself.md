@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: Konstantin
     date: 2012-10-23 14:02:21
-    comment: >
+    comment: |
       A really thoughtful post. But actually I thought that in both Europe and America it is more usual (and considered to be just better) to be a narrow-specialized engineer. Is it true?
   - author: Daniel
     date: 2012-10-23 14:20:52
-    comment: >
+    comment: |
       Good question, Konstantin. I think specialization is indispensable. You have to get really deep at a few things. It is impossible to be super deep in everything, and if you dilute your expertise and energy too much, you can become what English speakers call "jack of all trades, master of none." However, sometimes I have seen specialists get too comfortable in their narrow world, without understanding how their narrow focus imposes costs on the larger organization. It has been my experience that a specialist with a good, broad foundation is more valuable than a specialist that can't see the larger picture. It is also the case that organizations suffer if they don't have a certain percentage of very competent generalists to translate and facilitate.
       
       In my own career, I have chosen to get very, very deep on topics like text processing, internationalization, and all things related to language and computers, due to my graduate studies in linguistics. I am moderately deep on topics like RESTful web services, database theory, and web UI. On many other topics, I am just deep enough to do journeyman bug fixes and to understand estimates, but not to solve subtle and multivariate problems.
@@ -19,7 +19,7 @@ comments:
       Each engineer has to choose his or her own preferred balance, but I believe having some breadth is healthy, even if you prefer to operate mostly as a specialist.
   - author: Konstantin
     date: 2012-10-23 15:27:18
-    comment: >
+    comment: |
       I generally agree with your point, so just wanted to know how unusual your ideas are for the market of your country.
       So thank you for the answer!
       

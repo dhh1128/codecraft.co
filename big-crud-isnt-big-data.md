@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Jesse Harris
     date: 2013-04-09 20:48:42
-    comment: >
+    comment: |
       Data that isn't valuable today could be critical tomorrow, and getting rid of it is irreversible. The very nature of data forces us to become digital packrats, accumulating and maintaining bits (pun intended) of cruft for what seems like an incomprehensible period of time. With storage getting cheaper and cheaper, there's not much disincentive to do so.
       
       I was really disappointed that Microsoft backed off of its ambitious WinFS project. It would have helped home users tame some of this ever-increasing data.

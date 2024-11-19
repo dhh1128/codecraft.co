@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Daniel
     date: 2012-09-15 00:26:03
-    comment: >
+    comment: |
       Ocean Mist theme -- standard option in wordpress. I think I customized css slightly and added a different header graphic. Everything else is out-of-the-box.
 ---
 <p style="text-align:right;margin-left:250px;"><span style="color:#555555;">(This post is an excerpt from my forthcoming book, <em>Lifeware</em>. Follow my blog [see right sidebar] to catch the publication announcement.)</span></p>

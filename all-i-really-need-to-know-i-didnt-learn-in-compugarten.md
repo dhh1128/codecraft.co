@@ -7,75 +7,75 @@ redirect_from:
 comments:
   - author: matt
     date: 2012-11-15 10:20:24
-    comment: >
+    comment: |
       effective logging techniques.  what, when
   - author: matt
     date: 2012-11-15 10:20:52
-    comment: >
+    comment: |
       what constitutes good code documentation...
   - author: shawn
     date: 2012-11-15 10:26:35
-    comment: >
+    comment: |
       I think more information about life cycles would be good to teach, I was taught the basics, but we never went into waterfall or agile, or anything else for that matter.
   - author: Brian Bellon
     date: 2012-11-15 10:52:06
-    comment: >
+    comment: |
       Coding to facilitate effective QA Automation - Hows, Whys, Benefits
       
       Working with a QA Engineer - What to expect from them - and what should be expected of you as a developer.
   - author: Daniel
     date: 2012-11-15 10:55:06
-    comment: >
+    comment: |
       Good ones, Brian! Automation is absolutely fundamental, nowadays. And it's definitely the case that some codebases are easier to automate than others.
       
       Working with QA is another great focus. So many developers don't make interactions with testers as productive as they could be. Maybe you should come guest lecture to set us straight. :-)
   - author: Daniel
     date: 2012-11-15 10:56:38
-    comment: >
+    comment: |
       Yes. It surprises me how little process/methodologies get discussed. CS classes where you have team assignments might be a good way to expose students to pair programming, sprints and scrum masters, and the rest of that part of what we do.
   - author: Daniel
     date: 2012-11-15 10:58:01
-    comment: >
+    comment: |
       Ooh, yes! Just yesterday I was meeting with a customer who was complaining that at normal verbosity, our log files had way too much detail about certain routine operations. Knowing what to put in a log, when--and knowing how to make the info that's written as useful as possible--would be a great topic.
   - author: Erik Dietrich (@daedtech)
     date: 2012-11-15 11:50:22
-    comment: >
+    comment: |
       I think it would be interesting and beneficial to have a CS program where students started a project as freshmen and it extended beyond the "boundaries" of the semester long course.  There are a lot of good lessons to be learned from having to live with your code for months and years rather than days and maybe weeks.
   - author: Daniel
     date: 2012-11-15 11:54:06
-    comment: >
+    comment: |
       Great idea. This might be particularly useful if students had to collaborate on the code with others. Imagine seniors having freshmen edit their code, and trying to manage the mentoring and communication to keep the design pure.
       
       Your idea reminds me of a <a href="http://www.ted.com/talks/shimon_schocken_the_self_organizing_computer_course.html" rel="nofollow">TED talk</a> I saw recently. A professor decided to have students start by building logic gates, then integrated circuits, then CPUs, then a compiler and programming language, and finally a game. Very cool. I want to take that class.
   - author: Daniel
     date: 2012-11-15 12:41:47
-    comment: >
+    comment: |
       Forgot one obvious biggie: antipatterns. Really great opportunity to discuss lots of Dilbert cartoons. :-)
   - author: Shawn Holmstead
     date: 2012-11-15 15:36:04
-    comment: >
+    comment: |
       Effective refactoring... learning to live with code that has been around for a long time and how to make it better.  Putting in time in a schedule to refactor.
       Test driven development (unit, integration, and acceptance tests).
       Communicating with product managers through acceptance tests (Required Reading: <a href="http://www.amazon.com/Bridging-Communication-Gap-Specification-Acceptance/dp/0955683610" rel="nofollow">Bridging the Communication Gap</a>)
   - author: Carl Appellof
     date: 2012-11-15 19:08:48
-    comment: >
+    comment: |
       Ways of suppressing repeated errors in logs would be good too.  It does no good to fill a log with the same critical message 10,000 times in a row, even if the error occurs 10,000 times in one minute. Even better if you really CAN record all the errors in compact form, with a smart viewer.  I can't count the times I've asked a customer - "Could you run that failed backup one more time, but with the verbosity turned up just a little?"
   - author: Carl Appellof
     date: 2012-11-15 19:10:53
-    comment: >
+    comment: |
       How to persuade your boss something really IS worth doing, even if it's not in the schedule, not vetted by a product manager, and doesn't look cool on the surface.
   - author: Daniel
     date: 2012-11-15 19:17:02
-    comment: >
+    comment: |
       Now <em>that</em> is a skill we all need! Are you sure you don't want a career in politics? :-)
   - author: Daniel
     date: 2012-11-15 19:18:04
-    comment: >
+    comment: |
       This is a great sidebar topic. Maybe logging systems need some kind of a logIfThisHasntHappenedRecently() function. What ideas do you have about how to achieve this?
   - author: Brian
     date: 2012-11-16 15:45:57
-    comment: >
+    comment: |
       Daniel - a few additional ones that come to mind:
       
       SOWs, Contract Negotiations, Open Source Rules (GPL, etc.), IP Protection, Escrows, Legal issues - Engineers often get pulled into these areas but don’t have the formal background or introduction in many of these topics, aside from what they learn on the job. They will get pulled in at some point.
@@ -95,11 +95,11 @@ comments:
       Consistency!  Consistency!  Consistency!  - Repeatable, best-practice processes that ensure the success of each release.  Plow improvements into the process with each successive release.  You’d be surprised how few companies actually have good process in place, or how many have no process whatsoever.  Fly-by-the-seat of your pants programming doesn't cut it, unless you’re building your own Angry Birds knockoff in your basement for iTunes.
   - author: Linda Hardman
     date: 2012-11-16 16:50:31
-    comment: >
+    comment: |
       Love my awesome, smart, husband Daniel.
   - author: Daniel
     date: 2012-11-16 16:51:03
-    comment: >
+    comment: |
       Wow, Brian. You should be teaching this imaginary class--and just with your list, I think there'd be material for a semester or two, easily.
       
       Your first time items, especially, had me slapping my forehead. All the legal issues around software development need to be more broadly understood. No doubt about it. And understanding what a healthy tech company looks like, in terms of all the different disciplines it takes to build a business, is absolutely critical.
@@ -109,7 +109,7 @@ comments:
       The competitive understanding discussion is one that you and the rest of the gang from Symantec could talk about at length. Some of the price/performance analysis you did, (the beating-the-streets aspect, the research through IDC/Gartner databases, the linear regression, the analyst and customer calls), deserves to be legendary. It's too much of a well-kept secret.
   - author: Daniel
     date: 2012-11-16 17:02:34
-    comment: >
+    comment: |
       Okay, Sean. You've added a book to my reading list!
 ---
 I'm glad newly minted software engineers are exposed to data structures, compilers, concurrency, graph theory, assembly language, and the other goodies that constitute a computer science curriculum. All that stuff is important.

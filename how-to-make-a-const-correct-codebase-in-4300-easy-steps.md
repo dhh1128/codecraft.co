@@ -7,13 +7,13 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2014-03-25 13:10:26
-    comment: >
+    comment: |
       Oh the memories....the memories of code bases past.......
       
       dougbert
   - author: Jason Ivey
     date: 2014-03-27 20:11:13
-    comment: >
+    comment: |
       That is awesome.  I believe I had the exact same idea at a previous company where we were both employed.  It sounds like you were much more relentless than myself though.  After discovering only a few of these parsing problems I decided it was a problem that I didn't want to solve with a regular expression.  At the time I also looked at clang and gcc but came to a similar conclusion that once you were into the AST it was very difficult to do a replace on the original text.
       
       I'm excited to see what you had to do to solve the problem for so many functions.
@@ -21,19 +21,19 @@ comments:
       Jason
   - author: Daniel Hardman
     date: 2014-03-27 21:45:10
-    comment: >
+    comment: |
       Yes, I smiled when I read your comment, because we both know other codebases where this would have been quite helpful. :-)
   - author: Daniel Hardman
     date: 2014-03-27 21:46:16
-    comment: >
+    comment: |
       Hopefully they're not the kind of memories that wake you up at night, screaming... :-) We're making progress. Thanks for all the work you did to point us in a good direction.
   - author: λ
     date: 2014-04-26 13:48:13
-    comment: >
+    comment: |
       You're very right about compilers in the last statement. I think that's very good idea and I'd like to hear some compiler guys opinions.
   - author: λ
     date: 2014-04-27 04:15:17
-    comment: >
+    comment: |
       After some research I found this thread: http://gcc.gnu.org/ml/gcc-patches/2010-04/msg01465.html
       And it turns out that Wsuggest-attribute is already implemented in gcc (http://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html).
       Sadly, it's only about functions but not their arguments.
@@ -41,7 +41,7 @@ comments:
       Speaking of clang, there is a proposal http://lists.cs.uiuc.edu/pipermail/cfe-dev/2013-February/027816.html but I can't find any results of it.
   - author: Daniel Hardman
     date: 2014-04-27 20:10:21
-    comment: >
+    comment: |
       Hey, thanks for the tip about Wsuggest-attribute! That is awesome, and I didn't know about it at all. I'm glad compilers are getting better.
 ---
 One of the codebases that I work on is theoretically C++, but if you peer under the hood, it looks more like 1990-vintage C. It's 500 KLOC of almost purely procedural code, with lots of structs and few true objects. More dusty and brittle than I'd like.

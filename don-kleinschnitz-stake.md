@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Steve Tolman
     date: 2012-09-14 18:47:07
-    comment: >
+    comment: |
       Oh the memories!  I think you correctly described Don's ability to *enthusiastically* put a stake in the ground, but you are a little short in describing the amount of pain that caused, even after we were accustomed to this behavior.  I agree that it did wonders for our ability to make decisions, but it also yanked us through multiple knotholes on the way.  Looking back, I think they were necessary knotholes because we learned how to do multiple things.
       1. We learned to deal with the discomfort of guessing and actually became quite good at using the available tools to sort through the uncertainty
       2. We stopped fearing the unknown and became fearless at working through it all
@@ -16,13 +16,13 @@ comments:
       5. We were able to modify multiple processes to accommodate this approach - something our sister sites never could figure out
   - author: Daniel
     date: 2012-09-14 19:27:57
-    comment: >
+    comment: |
       Your point about pain is well taken. Putting a stake in the ground sometimes hurts. It can be disruptive. You should do it when you calculate that it's a net win--not thoughtlessly. Although this particular principle was an obvious part of Don's style, I also saw him be thoughtful and deliberative on many occasions. That's a better choice if the human stakes are high and the pay-off for quick momentum is not especially compelling.
       
       I should probably add another caveat to my inaugural post about role models, admitting that none of the principles I want to highlight are <em>always</em> the right answer. Smart tradeoffs -- balance -- that's the eternal dance. Or, to borrow a phrase from another mentor I admire (you know who you are, but I won't let you remain anonymous forever... :-) -- "It depends." :-)
   - author: Don
     date: 2012-09-15 10:05:24
-    comment: >
+    comment: |
       You guys were on a team that in my career of 30+ years exceeded the performance of any team that I worked on before or after. 75 revolutionary features in one release is what rings in my ears as a benchmark that has yet to be beaten.
       The more I learn about the craft of NPD the more I realize and we prove that at its foundation is learning and adaptability.
       Most legacy NPD systems are based on "planning-do-act" kind of thinking. This assumes that NPD is a deterministic environment. ITS NOT!
@@ -31,15 +31,15 @@ comments:
       Yes, change is always painfull, uncertainty is painful, but the eventual success and the excitement and fun of innovative engineering can make it worth it!
   - author: Daniel
     date: 2012-10-05 07:02:44
-    comment: >
+    comment: |
       Don: just came across a post from Seth Godin that teaches this same principle in a slightly different way: http://sethgodin.typepad.com/seths_blog/2012/10/waiting-for-all-the-facts.html
   - author: Baby Steps &laquo; Codecraft
     date: 2012-10-24 20:15:11
-    comment: >
+    comment: |
       [...] You might also think that baby steps are a repeat of my advice to put a stake in the ground. [...]
   - author: Interrupting my interruptions &laquo; Codecraft
     date: 2013-01-24 11:48:51
-    comment: >
+    comment: |
       [...] (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts are part of learning [...]
 ---
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>

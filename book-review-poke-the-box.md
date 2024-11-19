@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: golebiewski.net
     date: 2012-10-29 11:39:08
-    comment: >
+    comment: |
       Hello, just wanted to say, I liked this blog post. It was practical.
       Keep on posting!
 ---

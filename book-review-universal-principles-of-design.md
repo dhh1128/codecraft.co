@@ -7,13 +7,13 @@ redirect_from:
 comments:
   - author: Trev Harmon
     date: 2013-02-03 22:34:34
-    comment: >
+    comment: |
       Daniel, thank you for the mention. This really is a great book. Although I have several others that have very similar content, none of the others really convey it in as simple, concise manner as this book.
       
       I've found a number of uses for the concepts beyond your basic graphic design. It's really about how we as humans "load" and "process" information.
   - author: Daniel Hardman
     date: 2013-02-04 09:01:40
-    comment: >
+    comment: |
       I agree that the book is really an insightful description of the way human beings think and understand. That's a subject of inquiry sure to pay off for software folks, but also for many other disciplines. Kind of ties in to epistomology, which ought to be included in the foundation of any serious education.
 ---
 <a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879"><img class="alignright" alt="" src="http://ecx.images-amazon.com/images/I/41nQFR%2BFSCL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg" width="300" height="300" /></a>A few months back, my friend <a href="http://dld.me" target="_blank">Trev</a> recommended <a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879" target="_blank">this book</a> to me. I've been digesting it one topic at a time, on my lunch breaks.

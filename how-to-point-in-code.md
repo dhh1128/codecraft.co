@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: trevharmon
     date: 2014-09-29 22:51:25
-    comment: >
+    comment: |
       I have a question and then a comment.
       
       Question: I find what essentially amounts to inline comments described in #2 as an interesting idea. I am curious, though. Is Intent going to require those inline "comments" in order for it to compile? If not, that seems to allow programmers to just skip them, leaving us with code that's essentially the same as what we have today in terms of conveying additional meaning.
@@ -17,7 +17,7 @@ comments:
       If you are interested, a discussion on Perl Labels can be found here: http://www.perlmonks.org/?node_id=616302
   - author: Daniel Hardman
     date: 2014-09-30 07:24:52
-    comment: >
+    comment: |
       Trev: thanks for the thoughtful comment.
       
       Perl labels are interesting. I had run across them once before, and the use case that I saw for them was the same one described in the post you linked--transferring control with precision in nested loops. I have never seen an answer to that problem that's as elegant as the one Perl offers. The alternatives in other languages--pure gotos, or nested loop state variables with conditionals--are uglier and far less clear.
@@ -29,7 +29,7 @@ comments:
       Regarding your question: my current plan is to make the inline comments optional. As you point out, this means people are free to omit them, making code no more expressive than it is today. However, I can't see a good justification for requiring them, for three reasons: 1) if code has good variable names, and a parenthesized expression is simple, the comment would often be redundant; 2) I have no algorithmic way to evaluate the appropriateness of the comment, so requiring something might just cause people to grumble and put in placeholder text; 3) although I want every place it code to be name-able, I don't want to require names everywhere. Some blocks may not be name-worthy.
   - author: In Link 3&#8217;s Example &#8211; Foame
     date: 2024-08-29 15:30:55
-    comment: >
+    comment: |
       […] is just a tenet, and nothing can change checking the domains manually. Make sure that to solely construct hyperlinks that can contribute positively to your total online presence. Still acquired almost 9,000. Let’s […]
 ---
 In my <a title="Exploring the Power of Deixis" href="exploring-the-power-of-deixis.md">previous post</a>, I explored why deixis is helpful, how it shows up in our language, and how its use in source code is hampered by limitations in our current programming ecosystems.

@@ -7,31 +7,31 @@ redirect_from:
 comments:
   - author: Example RPCD Interaction &laquo; Software, Wetware, Webware
     date: 2012-06-21 08:56:43
-    comment: >
+    comment: |
       [...] my last post on RPCD, I explained its key tenets. In this one, I’ll imagine one way to put it into [...]
   - author: Long-Term Benefits of RPCD &laquo; Software, Wetware, Webware
     date: 2012-06-21 10:24:28
-    comment: >
+    comment: |
       [...] a previous post, I wrote about a methodology for designing software that has role-playing at it’s heart. If [...]
   - author: What Role Are You Playing in RPCD? &laquo; Software, Wetware, Webware
     date: 2012-06-25 09:10:38
-    comment: >
+    comment: |
       [...] you role play in RPCD, you could be standing in for either software, or a flesh-and-blood human being. As RPCD explicitly [...]
   - author: Evolving Software Politics &laquo; Codecraft
     date: 2012-09-11 11:01:22
-    comment: >
+    comment: |
       [...] python and “convention over configuration“–both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...–that’s about as ultra liberal as it [...]
   - author: Evolving Software Politics &laquo; Codecraft
     date: 2012-09-13 01:38:16
-    comment: >
+    comment: |
       [...] python and “convention over configuration“–both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...–that’s about as ultra liberal as it gets.    Take Our [...]
   - author: Progressive Disclosure Everywhere &laquo; Codecraft
     date: 2012-09-16 17:15:27
-    comment: >
+    comment: |
       [...] in programming languages, and in the software craft in general. I explored one in the series on role-play centered design. I’ll disclose some more ideas … progressively … in other posts. [...]
   - author: Baby Steps &laquo; Codecraft
     date: 2012-10-24 19:02:45
-    comment: >
+    comment: |
       [...] If you worry that it would be too expensive to code up two alternate solutions, consider using role-play centered design to let humans substitute for key modules with almost zero [...]
 ---
 User-centered design (UCD) is important. I hope I've been a good advocate for it during my career. Its basic tenet is that software should be constructed as much as possible according to how users think and work, not according to techie considerations. (A seminal book on this topic is <a href="http://www.amazon.com/dp/0465067107/ref=rdr_ext_tmb">The Design of Everyday Things</a>, by Donald Norman.) At its best, UCD promotes an alignment between technology and customer pain points that keeps software's value proposition compelling. Even on a bad day, UCD makes software a lot more pleasant to use.

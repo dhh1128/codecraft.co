@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: Andy Lawrence
     date: 2012-12-10 10:51:38
-    comment: >
+    comment: |
       George is toast. The banks on either side are too steep to get out of the water :)
   - author: Daniel
     date: 2012-12-10 13:47:42
-    comment: >
+    comment: |
       Hah! I've just discovered how to make him drink a kryptonite potion so he can sprout gills! :-)
       
       There's a serious side to the comment about steep banks, though. Sometimes you want so badly to get across the water that you don't consider how practical it is to be on the other side. You might be better off taking your chances where you're at. That's why the old "it depends" answer never goes out of style...

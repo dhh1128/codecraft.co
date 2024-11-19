@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: Role-Play Centered Design &laquo; Software, Wetware, Webware
     date: 2012-06-25 09:29:26
-    comment: >
+    comment: |
       [...] You should "be" the software in the system, and you should "be" the people as we.... [...]
   - author: best food storage companies
     date: 2014-08-06 07:38:14
-    comment: >
+    comment: |
       Customers handle their own anti-freeze, flsh bulbs, and lighter 
       fluid. If its taken you 5, 10 or 15 years to get into the condition youre in now, then trust me, a stroll just 
       isnt enough. While dragging on your screen with your mouse and holding 

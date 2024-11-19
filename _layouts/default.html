@@ -27,7 +27,7 @@
       </header>
       <section>
         <h1>{{ page.title }}</h1>
-        <p style="font-style: italic; font-weight: 100;">{{page.date}}</p>
+        <p style="font-style: italic; font-weight: 100;">{{ page.date | date: "%Y-%m-%d" }}</p>
 
       {{ content }}
 
@@ -38,7 +38,7 @@
         <ul>
           {% for comment in page.comments %}
             <li>
-              <p><strong>{{ comment.name }}</strong>, {{ comment.date }}:</p>
+              <p><strong>{{ comment.author }}</strong>, {{ comment.date | date: "%Y-%m-%d" }}:</p>
               <p>{{ comment.comment }}</p>
             </li>
           {% endfor %}

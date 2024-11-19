@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
     date: 2013-02-05 08:57:48
-    comment: >
+    comment: |
       [...] We forget that we are optimizing many variables at once. [...]
 ---
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>

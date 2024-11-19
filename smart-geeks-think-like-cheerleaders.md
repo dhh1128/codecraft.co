@@ -7,15 +7,15 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2013-02-05 10:10:01
-    comment: >
+    comment: |
       mmm, yeah, great observation. That "syncs" with me - lol
   - author: Why Software Artisans Should Manage Their Influence &laquo; Codecraft
     date: 2013-02-07 08:49:22
-    comment: >
+    comment: |
       [...] craftsmen, I see direct application of his thinking to our field. Since so much of what we do requires buy-in, coordination and shared mental models, we have to be savvy about how we communicate, advocate, and train. [...]
   - author: God, Evolution, Systems, and Eternity &#8211; An Eye of Faith
     date: 2018-12-07 15:49:11
-    comment: >
+    comment: |
       […] across large spans of time. There’s incredible interplay and feedback loops. I’ve blogged about this, more than […]
 ---
 <p style="text-align:right;"><span style="color:#808080;font-size:90%;">Technorati code: FMUS579NQBM8</span></p>

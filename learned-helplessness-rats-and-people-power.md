@@ -7,47 +7,47 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2012-11-26 10:40:35
-    comment: >
+    comment: |
       good model to follow.
       
       dead rat here
   - author: Daniel
     date: 2012-11-26 21:05:15
-    comment: >
+    comment: |
       Aw, c'mon, Doug! Maybe a bedraggled and waterlogged rat. You were still cracking jokes last time I saw you coding, so you must be alive and kickin'... :-)
   - author: LisaAn
     date: 2012-11-27 09:46:59
-    comment: >
+    comment: |
       I have often wondered why teams don't take the approach of grabbing a few backlog items and stuffing them in the cracks, so to speak, to chip away at the technical debt. Perhaps we are overwhelmed by the task.
   - author: Daniel
     date: 2012-11-27 10:03:20
-    comment: >
+    comment: |
       One of the more insidious consequences of always stretching to fit in "just one more feature," late in the game, is that all ability to mine nooks and crannies in the schedule is lost. We spend every last cent on new bells and whistles, instead of on cleaning the workshop. Sigh...
   - author: dougbert
     date: 2012-11-28 09:12:53
-    comment: >
+    comment: |
       alright, alright - good reality check - thanks, but I definitely felt the pattern you are describing.  We are having an issue with a grandson who is "helpless" if you will due to a parent who is a corrections officer, and this pattern applies here too.  Hope is key to working in a "tight" environment anywhere.
   - author: Trev
     date: 2012-12-05 10:10:55
-    comment: >
+    comment: |
       A professional kitchen needs to be cleaned each and every night, with an occasional deep clean where one pulls out all of the equipment and cleans everywhere. If its not done, Health and Safety will eventually come by close it all down.
       
       The suggested approach reminds me of Old Man Yu (http://ancientchinesestories.com/2009/04/04/ancient-chinese-stories-the-tale-of-old-man-yu-gong-and-the-mountain/). So, the question is how does one combine Eastern long-term thinking with the Western reliance on quarterly earnings?
   - author: Daniel
     date: 2012-12-10 13:49:50
-    comment: >
+    comment: |
       I think all of us that have been educated in Western universities need a crash course in gestalt, system thinking. And then we need regular reminders, until we understand that analysis (in the sense of its original meaning, of reducing everything to smaller units) is not the be-all, end-all outcome of serious thought.
   - author: Ian Nate
     date: 2012-12-28 23:46:03
-    comment: >
+    comment: |
       Profound and applicable. Love this post. Reminds me of Frank Abignale, Sr., played by the indubitable Christopher Walken, from "Catch Me If You Can": http://youtu.be/51lFmdChOA0
   - author: Daniel
     date: 2012-12-29 11:06:50
-    comment: >
+    comment: |
       Ian: I had not made that connection, but it is a *great* one. Thanks for pointing it out!
   - author: Earned Pragmatism &laquo; Codecraft
     date: 2013-01-18 08:53:29
-    comment: >
+    comment: |
       [...] this type of “architect” tend to be rife with tech debt, with no roadmap or process to haul the team up and out. Where there is no vision, the people [...]
 ---
 In the 1950s, researchers at Johns Hopkins conducted some very troubling experiments. They caught wild rats and squeezed them in their hands until they stopped struggling, teaching them that nothing they did would let them escape the crushing grip of their human captors. Then they dropped the rats in a bucket of water and watched them swim.

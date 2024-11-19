@@ -7,15 +7,15 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2013-05-06 12:53:08
-    comment: >
+    comment: |
       great thoughts
   - author: Gene Hughson
     date: 2013-05-06 19:17:17
-    comment: >
+    comment: |
       very interesting...I think the increasing interest in resilience is a sign of growing industry maturity.
   - author: François Reynald
     date: 2013-05-07 02:15:19
-    comment: >
+    comment: |
       What you describes already exists in Apple's UIKit framework. ViewControllers get notified by the system of low memory situations. It's the developer's responsibility to implement the didReceiveMemoryWarning method. I have copied the relevant excerpt from the class reference page below.
       
       didReceiveMemoryWarning
@@ -28,21 +28,21 @@ comments:
       You can override this method to release any additional memory used by your view controller. If you do, your implementation of this method must call the super implementation at some point.
   - author: Daniel Hardman
     date: 2013-05-07 07:24:08
-    comment: >
+    comment: |
       François: Thanks for the information. I was not aware of this feature in UIKit. I'm glad Apple has added it. Do they also have a way to be notified about low disk space, or is that not considered an issue in iOS?
       
       Resource exhaustion is only one of many possible situations where software needs sensors. Another obvious one is connectivity problems; those plague software all the time and are poorly diagnosed and handled in most software that I've seen. There are many other sources of "pain" as well.
   - author: Daniel Hardman
     date: 2013-05-07 07:24:52
-    comment: >
+    comment: |
       Yes, I think the industry is gradually starting to "get it." I'm just impatiently trying to hurry us along. :-)
   - author: François Reynald
     date: 2013-05-07 07:46:59
-    comment: >
+    comment: |
       Daniel: That is the only notification I know of but I am not (yet) an UIKit expert. It may be because memory is such a big deal for mobile devices.
   - author: RalfMC
     date: 2013-05-24 14:39:07
-    comment: >
+    comment: |
       This is an interesting line of thought. Personally, I would generalize to conditioning pretty fast, as pain is 'just' a kind of reinforcement. Maybe take a look at classical and operant conditioning.
       
       Coincidentally, Bayesian statistics seem like a related subject and have indeed found their way into spam filters, for instance ("hey, this message smells like a rotten apple").
@@ -50,7 +50,7 @@ comments:
       I think one important thing to remember is that life is driven by heuristics, averages, etc. Stuff works 'most of the time' and 'in general'; however, by the time my programming gives me 95% reliable software, I will not have gained much.
   - author: Daniel Hardman
     date: 2013-05-24 15:41:25
-    comment: >
+    comment: |
       Nice connection to Bayesian statistics. I used to work on search, and hit ranking uses Bayesian models (in a subset of search products); I should have seen that link more quickly. Very good point to ponder.
       
       Totally agree about life being driven by heuristics.

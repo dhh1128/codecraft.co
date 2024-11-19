@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: David H
     date: 2015-09-03 07:24:09
-    comment: >
+    comment: |
       This post really resonates with me as it reminds me of a lot of the technical problems I'm dealing with now. So how did we get into these kinds of messes?
       
       To me it doesn't seem to be a matter of not being in the top 15% of the bell curve and not being smart enough to see generalizations. Rather I see it as natural outcome of problems with any resource over which there is shared stewardship. It has been called "the tragedy of the commons." It occurs when there are problems that require more authority and more perceived responsibility than one person or one small group of people with common shared interests can solve.
@@ -21,19 +21,19 @@ comments:
       In my current job there are definitely a pile of problems of this nature to be solved. I am working out a strategy (with the knowledge and consent of my boss) to multiplex between working on current urgencies and doing the kind of cleansing and fixing that needs to be done. It sounds like you are doing something similar.
   - author: Daniel Hardman
     date: 2015-09-03 09:39:05
-    comment: >
+    comment: |
       It's a good point, David: often our inability to generalize is caused by circumstances that we can't easily change. There can be complex, mutually reinforcing reasons why we don't spend time on long-term housekeeping. Tragedy of the commons, indeed...
       
       Perhaps what makes the most difference is not different intelligence, so much as it is an "if it is to be, it's up to me" attitude that leads us to take the bull by the horns and not allow the status quo to get the better of us.
   - author: Nathan
     date: 2015-09-03 17:04:01
-    comment: >
+    comment: |
       The type of generalization used matters a great deal.  Our brains like familiar patterns and habits, and its very easy to use the most comfortable pattern without considering alternatives.  That is what makes jokes like "The Evolution of a Programmer" so funny (http://www.ariel.com.au/jokes/The_Evolution_of_a_Programmer.html).  I'm also reminded of the "Zen of Python" quote, "There should be one-- and preferably only one --obvious way to do it.  Although that way may not be obvious at first unless you're Dutch."  A generalization idea needs to resonate with more than your own mental model, or it may not be accomplishing what you set out to do.
       
       Consider debates about type systems such as those found in Python and Haskell--they both accomplish very different kinds of generalization with very different outcomes.  Which form of generalization we chose depends on *both* technical requirements and how we best communicate those intentions to the other humans who will be working with the code over time.  For a generalization to be sustainable it must communicate your intent more clearly than the alternative.  This is why its a joy to work with programmers who are both life-long learners, and effective communicators.  They are more likely to understand your abstractions as you intended (even if you missed the mark when you coded it), and communicate effectively enough to teach about what is found in the code base so that the abstractions stick.
   - author: Daniel Hardman
     date: 2015-09-03 18:20:45
-    comment: >
+    comment: |
       It seems to me that you've made a very astute observation, Nathan; just using what's familiar or easy to express in our favorite worldview is often suboptimal, but we fall into that trap all too easily. Careful thinking is advised.
       
       I know of no easy and objective way to prove that a particular mental model is the ideal choice. Tech holy wars make me think no such way exists. However, I've begun to wonder if semi-objective measures of "good" or "better" choices might be possible: the net promoter score of a codebase among the people that develop and test it, for example. I don't think mindless measurement of these metrics is a panacea, but some attention to such numbers might be helpful in raising awareness and triggering discussions.
@@ -41,7 +41,7 @@ comments:
       In the meantime, I think we depend on the talents of the sort of programmer you identified, that helps to bridge communication gaps and keep imperfect people and technology as productive as possible.
   - author: Andy Lawrence
     date: 2015-09-07 19:12:51
-    comment: >
+    comment: |
       One form of generalization is finding ways to push functionality as far up the class inheritance tree as possible. If you are working with a modern code base, you probably have some fairly deep class hierarchies. Every time you need to add a new method or a private variable to a class, first think "are there other classes (parents or siblings) that could benefit from this as well". You might need to make it a little more general to make it apply to multiple classes, but it can really help you not have to reinvent the wheel next month or next year when another class needs the same thing.
       
       The project I am working on has lots of objects that are similar. When I add a new feature, I try to generalize it as much as possible, I can often add it to a base class near the root of my tree. All the child classes can then benefit from the added functionality.
@@ -49,13 +49,13 @@ comments:
       I know this is a basic class design and implementation practice, but how many times have we seen something like a SerializeAndSaveToDisk method that was written a dozen times because someone different added it to lots of leaf classes over time (and probably named it differently in every case so it is difficult to notice unless you are looking for it).
   - author: Daniel Hardman
     date: 2015-09-08 20:09:33
-    comment: >
+    comment: |
       Nice example, Andy--both in general, and with the specifics of serialization. I agree that putting functionality higher in the hierarchy is often a big win. It's not mechanically difficult to push the code there, but seeing the need to do so is a challenge at times. Maybe we need to get all CS students to have a learning exercise that teaches this specific issue.
       
       In a related vein, I'm coming to believe that the biggest predictor of code health isn't how smart we are to start with, or how good our tools or design decisions are--it's how often we refactor as we get smarter and more confident about the "right" shape of the code.
   - author: Sparks Of Melody
     date: 2024-02-26 13:48:32
-    comment: >
+    comment: |
       Thank yoou for being you
 ---
 When an English speaker is drowning in details that make the big picture hard to see, she might complain, "I can't see the forest for the trees."

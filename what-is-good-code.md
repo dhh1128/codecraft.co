@@ -7,19 +7,19 @@ redirect_from:
 comments:
   - author: Good Code Is Balanced &laquo; Software, Wetware, Webware
     date: 2012-08-27 09:55:53
-    comment: >
+    comment: |
       [...] my first post about what constitutes “good code,” I claimed we were dealing with a complex question. This is why I distrust short [...]
   - author: Good Code Is Named Right &laquo; Software, Wetware, Webware
     date: 2012-08-28 10:04:27
-    comment: >
+    comment: |
       [...] post in my “What is ‘Good Code’?” [...]
   - author: Good Code Is Optimized &laquo; Software, Wetware, Webware
     date: 2012-08-28 10:05:26
-    comment: >
+    comment: |
       [...] post in my “What is ‘Good Code’?” [...]
   - author: Daniel
     date: 2012-10-01 10:24:48
-    comment: >
+    comment: |
       Just ran across a tweet by @trev_harmon. It dovetails so nicely with the Martin Fowler quote that I just had to repeat it: Dear communicators: I don't care if you understand complex thoughts or concepts, but rather if I do after listening to you. #simplify
 ---
 This is one of those questions that I often ask when I am interviewing a computer programmer job applicant, trying to get a sense for an engineer's maturity with the craft. (And for the record, I don't think the question has a "right" answer. Certainly there is no ideal one-sentence response.)

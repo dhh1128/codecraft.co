@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: trevharmon
     date: 2013-05-31 09:11:27
-    comment: >
+    comment: |
       Well said, Daniel. It is much better to succeed or fail in spectacular fashion for one's passion than to linger in the soul-sucking mediocrity. As Henry David Thoreau wrote in Walden, "The mass of men lead lives of quiet desperation. What is called resignation is confirmed desperation." And, I agree with you, it is scary... really scary sometimes. That's why I appreciated you calling out the fact you're still kicking even after failures.
       
       I must not fear.
@@ -22,7 +22,7 @@ comments:
       - Bene Gesserit Litany Against Fear - From Frank Herbert's Dune Book Series
   - author: dougbert
     date: 2013-05-31 09:56:40
-    comment: >
+    comment: |
       Again spot on the mark.  Been there done that many times (fear and courage both). As I near retirement (13 years from now), I am more able to push on with MY ideas on things, backed up with some new ideas I read in a new book or a blog along with some ideas from here.
       
       You second witness many things I come up with as well.
@@ -30,11 +30,11 @@ comments:
       * Courage is being afraid but saddling up anyway . - John Wayne
   - author: Daniel Hardman
     date: 2013-05-31 10:44:49
-    comment: >
+    comment: |
       That's an awesome quote from the Duke! Thanks for sharing.
   - author: Daniel Hardman
     date: 2013-05-31 10:48:26
-    comment: >
+    comment: |
       When I first read Dune as a teenager, I thought of the Bene Gesserit litany as pseudo martial arts mumbo jumbo that added some nice artistic flair to the milieu of the novel.
       
       Since then I've decided that it's quite profound--maybe Herbert's great philosophical contribution.

@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2012-10-30 11:11:04
-    comment: >
+    comment: |
       geez, you have some great thoughts
   - author: Daniel
     date: 2012-10-30 12:12:06
-    comment: >
+    comment: |
       Just a few days ago, I heard you talking about an antipattern, and I decided that I needed to get more conversant with the antipattern catalog. I've studied the gang of four design pattern book, and various related topics, for years, but I've only noted the antipattern stuff as a casual passer-by. So I setup an event in google calendar that bugs me once a week to spend a few minutes studying an antipattern. So I get my good ideas from smart people like you. :-)
 ---
 In <em>Seven Habits of Highly Effective People</em>, Stephen Covey reminds readers to periodically suspend their lumberjacking long enough to sharpen the metaphorical saw. In other words -- take time to renew, to learn, to get better, to work smarter.

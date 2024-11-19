@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: tyrionlannister26
     date: 2024-02-16 03:49:59
-    comment: >
+    comment: |
       Nice information. Thanks for sharing
 ---
 I've been involved in a learning experiment these past six weeks. Now that it's winding down, I thought I'd reflect a bit on some themes that emerged.

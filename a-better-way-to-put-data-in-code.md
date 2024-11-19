@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Laurent Caillette
     date: 2014-10-08 14:53:17
-    comment: >
+    comment: |
       Hi Daniel,
       
       I think I understand what you mean. I wrote something to read an indexed table of Unicode characters:
@@ -23,13 +23,13 @@ comments:
       You probably met those big projects with some business analyst carefully spoonfeeding databases with reference data, that we ship later as database dumps. Should they switch to git and Maven? I think so.
   - author: Daniel Hardman
     date: 2014-10-08 15:14:07
-    comment: >
+    comment: |
       Laurent: Thanks for the insightful comment. I agree that versioning is a tricky question. Data does evolve. On another project that I recently did, I had to ingest large numbers of records. I barely finished the ingesting code when the data provider decided to add new columns to the data. It was frustrating.
       
       I don't know of any silver bullet that makes the continuous delivery challenge go away, but I'm interested in learning about things that my smart friends have done. I guess with unicode, change happens seldom enough that it's not a problem--but how have you solved that issue in other scenarios?
   - author: laurentcaillette
     date: 2014-10-08 15:36:47
-    comment: >
+    comment: |
       I'm currently working on a financial application, which describes a few hundreds of built-in financial products. The buisness analyst is truly editing Java code to create new products. I can ship a fresh version in less than 15 minutes, and restarting the server at the end of the day causes the new products to go live. Of coures some buisness contexts don't allow that.
       
       But this shows that the line between code, data, and configuration is somewhat blurry. There are so many applications with complex scripts that live outside a version control system. Users love configuration over standard programming, because the delivery system takes too much time for them. But configuration bugs are as nasty as others. (In fact they are worse because there are no real tools to track them.)
@@ -43,35 +43,35 @@ comments:
       https://groups.google.com/forum/#!msg/techos/4wjoo2a_0K0/VfNs1Fm4eAwJ
   - author: Daniel Hardman
     date: 2014-10-08 16:08:45
-    comment: >
+    comment: |
       I went and read your posts on the techos forum. Very interesting. LMAX sounds like a fabulous design. I recently built a system that has a lot of conceptual overlap; it uses the Event Sourcing pattern that Martin Fowler described (and that you referenced) to capture the evolving state of a supercomputer cluster over time. See http://j.mp/1ndmah4. But I don't think I did it quite as well as the LMAX system does.
       
       Your insight that configuration changes can be represented by messages, the same as any other event, is awesome.
   - author: laurentcaillette
     date: 2014-10-08 16:10:32
-    comment: >
+    comment: |
       Thank you!
   - author: davidrea
     date: 2014-10-09 05:45:25
-    comment: >
+    comment: |
       This is a particularly-tricky problem in embedded systems, where there can often be multiple processors that must "agree" on the meaning and significance of keyed data. Enums are a favorite mechanism, but give rise to synchronization issues when processor firmware versions evolve asynchronously (or when embedded systems must interact with the outside world; i.e. through PCs, mobile devices, IoT interfaces, etc.) - still working on a solution here!
   - author: Daniel Hardman
     date: 2014-10-09 07:17:55
-    comment: >
+    comment: |
       Embedded systems isn't an area where I have deep expertise; thanks for adding that dimension to the discussion. I think the Internet of Things is going to make this sort of environment more and more a part of the experience of the average developer--and it's going to make this versioning/evolution problem even more pressing.
   - author: trevharmon
     date: 2014-10-11 14:49:36
-    comment: >
+    comment: |
       The only example of this type of thing working really well that comes immediately to mind is tzdata, However, take a look at the Wikipedia article (http://en.wikipedia.org/wiki/Tz_database) to see what's taken to put that in place. And, this case, we don't interact with the data directly, but instead use the APIs. Building that type of structure does let us swap out data as necessary, but is overkill in many, many situations.
   - author: Daniel Hardman
     date: 2014-10-11 17:13:47
-    comment: >
+    comment: |
       Trev: I first gained an appreciation for the complexity behind tzdata when I had to implement timezone-aware date/time conversion for filesystems *without* any OS services or API at all (I was doing filesystem surgery in a rescue environment that barely had a kernel, let alone a "real" OS). So the example you cite is an interesting one to me.
       
       What conclusion do you draw from the observation that a complex ecosystem to support data-sensitive code is often overkill? Should we live with flaky/incomplete/sometimes wrong captures of the data? Do you think being able to consume data in the simple way I describe will make things better, or will just encourage sloppiness?
   - author: Andy Lawrence
     date: 2014-10-12 20:18:28
-    comment: >
+    comment: |
       Daniel,
       
       The problem you outlined is one of the main features I have been trying to solve with my Didget Management System. The "Database Table" Didgets and "Tag" Didgets do a lot of what you describe.
@@ -87,13 +87,13 @@ comments:
       The beauty is that the structured data is already in a usable format that multiple programs can use without "importing" it into some custom table. The program doesn't have to figure out how to parse some CSV, XML, or Json file or perform all kinds of integrity checks on the data to validate it.
   - author: Daniel Hardman
     date: 2014-10-12 22:37:26
-    comment: >
+    comment: |
       Andy: I think didgets shows a lot of promise. However, when you say in your final paragraph that didgets data would be in a usable format without importing it into some custom table, aren't you glossing over the effort that would be required to import it into didgets, and the code that would be required to call a didgets API? Or are you assuming a world where didgets has become pervasive and therefore transparent?
       
       If I make any headway on the intent programming language, perhaps I could figure out a way to license didgets to ship with it... I am also interested in seeing if I can license some of your bitmap code (that's an area where few if any programming languages provide something out-of-the-box [vector is pretty weak], and it would be nice to ship a standard library that addressed such a need).
   - author: Andy Lawrence
     date: 2014-10-13 10:03:56
-    comment: >
+    comment: |
       Obviously things would be much simpler if Didgets were ubiquitous like file systems and just about every program was written to use the Didget API for all persistent storage functions. (I can dream can't I?) But it really isn't that hard to import data into Didgets. Using our browser application, one can drop a simple CSV file on a definition and it will automatically generate a table and each column and import all the data. Using our API, a program can then interact with that table or with individual columns to extract out values according to search criteria (e.g. Fetch all country values that start with the letter 'Z' or Fetch all zipcodes between the numbers 85000 and 87500). All the code to handle the values is embedded in the library. A program could access lots of different kinds of Didgets with just a few lines of code. It wouldn't need to import the data into its own memory table and implement its own search functions in order to find a value or a set of values. I think the code in the browser which processes queries and displays all the results in a table format is only a couple hundred lines of code.
       
       I am open to working with anyone who is interested in using the Didget technology. I have also thought about promoting my bitmap class used by the Didget Manager into its own Didget type. Bitmaps would thus become first class objects where any program can create and use its own set of bitmaps. Bitmaps could then be shared, protected, replicated, and synchronized across containers just like every other Didget.

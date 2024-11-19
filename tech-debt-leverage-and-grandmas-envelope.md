@@ -7,15 +7,15 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2012-10-30 11:03:22
-    comment: >
+    comment: |
       great solution to the inheirtance of tech-debt, here and there an improvement. Hopefully it won't be passed on to the next generation (like our feds are doing to my grandchildren). Then share (help/encourge)  the effort with others and over time, there is improvement.
   - author: Daniel
     date: 2012-10-30 11:06:01
-    comment: >
+    comment: |
       I saw you doing exactly this -- modeling good habits and trying to inspire your peers. Although you may not have made as much progress as you wanted, there is no doubt in my mind that you left things much better off than they would have been without that discipline. Thanks!
   - author: Learned Helplessness, Rats, and People Power &laquo; Codecraft
     date: 2012-11-26 08:40:03
-    comment: >
+    comment: |
       [...] previously written about my Grandma paying off her mortgage after many years of diligent effort. This was the harvest of a good habit, applied [...]
 ---
 In my previous posts about tech debt, I focused on <a title="Coping With Organizational Alzheimers" href="paying-off-technical-debt.md">how tech debts are funded and paid back</a>.

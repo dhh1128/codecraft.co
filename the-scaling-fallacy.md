@@ -7,27 +7,27 @@ redirect_from:
 comments:
   - author: Andy Lawrence
     date: 2012-12-19 09:18:10
-    comment: >
+    comment: |
       Nice article. Scale means everything to the project I am working on. I have to be able to handle billions of data items in a fast, efficient manner. The software has to be able to break a problem apart so that it can be processed in parallel. The system architecture, the algorithms used, and the data structures used must be designed from the ground up with scaling in mind.
       
       But when people talk about scaling software, they might be mixing up terms. In my blog "How Does It Scale?" at DidgetMaster.blogspot.com I discuss three different dimensions of scaling. While related, they are not the same. Your article touches on a couple of them.
   - author: Daniel
     date: 2012-12-19 09:35:40
-    comment: >
+    comment: |
       The article at didgetmaster is excellent; thanks for the link, Andy.
       
       One aspect of scaling that I totally ignore here, but that you mention (by implication), is scaling *down*. In our rush to get bigger and faster, we sometimes overbuild. Didgets is that rare combination that can play in the world of big data, yet still be super practical at the micro scale. Nice! That's not very common in enterprise software, and I've come to recognize it as the mark of a truly fundamental advance as opposed to lipstick on a pig.
   - author: dougbert
     date: 2012-12-19 10:23:44
-    comment: >
+    comment: |
       good presentation on a principle that I have seen and encountered for 30 years. Though back in the day, 1 MEGA byte of RAM was a big constraint.  Several projects I worked on, trying to get management to understand that last 20% was NON-LINEAR was a huge (if not a NP) issue.
   - author: Daniel Hardman
     date: 2013-02-01 08:14:57
-    comment: >
+    comment: |
       Your comment about "back in the day" leads me to make another connection: if the scale of resources that modern computers consume is so dramatically higher than it used to be, I wonder whether the complexity of the software we're building is drastically different as well. We programmers might be like the proverbial frog that's boiled by swimming in water as it heats on the stove--not noticing how much tougher it's getting to produce good stuff. Perhaps industry best practices like TDD and continuous integration, and better foundational libraries, are providing enough compensation to mostly compensate...
   - author: posicionamiento web
     date: 2013-03-05 07:58:47
-    comment: >
+    comment: |
       I simply couldn't leave your web site without saying that I loved the useful information. I'm going to be back regularly to check up on new posts.
 ---
 <em>If X works for 1 ___ </em>[<em>minute | user | computer | customer | ...</em>]<em>, then 100X ought to work for 100, right? And 1000X for 1000?</em>

@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Dano
     date: 2012-10-05 17:40:54
-    comment: >
+    comment: |
       Daniel,
       
       It actually was worse than that.  The SMB product line was in total disarray and when I got involved with this shortly after 2006 our Sr VP was trying to create unique solutions for 5 backup products and how to Market and Sell then without disrupting the current revenue streams.
@@ -25,7 +25,7 @@ comments:
       Dano
   - author: Daniel
     date: 2012-10-06 01:01:32
-    comment: >
+    comment: |
       Thanks for the extra detail, Dano. You're quite right to include GSS and Continuous Protection. For that matter, the products from Waltham, though focused on systems mgmt, also had some interesting application in the backup space.
       
       The history of BE and BESR (and of the SEA business unit before that) has some frustrating parts, and this is one of them. But it also has some happy parts. I had the chance to work with many talented, hard-working people (from all backgrounds, not just on my own team), and I learned a lot.

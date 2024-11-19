@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: Erik Prusse
     date: 2013-03-23 11:38:28
-    comment: >
+    comment: |
       What about COBOL, Pascal, Modula-2 and the other languages I learned in school? OK, I didn't learn COBOL in school; I'm not that old.
   - author: Daniel Hardman
     date: 2013-03-23 17:30:37
-    comment: >
+    comment: |
       Hah! I'm old enough that I learned Pascal and had teachers threaten to teach me Fortran, but I also missed the COBOL fun. Too bad; I could have made a mint on the Y2K bug. :-)
 ---
 Here's an<a href="http://langpop.corger.nl/" target="_blank"> interesting chart</a>, giving a realtime view of which programming languages have high mindshare. The chart has one axis devoted to number of lines in code commits on GitHub, and another to how often the language shows up in tags on StackOverflow.

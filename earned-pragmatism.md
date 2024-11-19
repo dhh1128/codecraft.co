@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Gene Hughson
     date: 2013-01-18 09:39:15
-    comment: >
+    comment: |
       First of all, I have to say "thank you" for the compliments.  I don't expect to see those pop up in the feeds I subscribe to - it was a pleasant surprise.
       
       Regarding your follow up points, I definitely agree.  I put pragmatism in the center of a continuum that starts with dogma on one end and anarchy on the other.  Drifting aimlessly is no better than following blindly.  Your second point illustrates the cure to the first - being able to justify your decisions should help to keep you from swinging too far to either side.
@@ -15,21 +15,21 @@ comments:
       Thanks again, and great post!
   - author: Erik Dietrich (@daedtech)
     date: 2013-01-18 11:19:27
-    comment: >
+    comment: |
       One thing I've noticed is that in my experience, my own willingness to burn the midnight oil can make up for the occasional drift too far into the realm of the idealist.  I may look at a functional code base with some technical debt that's not hurting the business and experience a kind of OCD "we can make this better."  If I solve this on the company dime, that's no good, but if I go home with the challenge, prove it out, implement it and present it, it's a win for everyone -- company gets less tech debt for free and I learn something in the process while satisfying my own neurosis.
       
       Long story short -- a way to bridge the idealist-pragmatist gap is to indulge idealism when nothing is at stake.
   - author: Daniel Hardman
     date: 2013-01-18 12:10:47
-    comment: >
+    comment: |
       Erik: Thank you for a very insightful observation! You've put into words something that I intuited but could never quite articulate--why it's vital that architects tinker and write code on their own time. This is one example of a perfect compromise where everybody comes out ahead.
   - author: Daniel Hardman
     date: 2013-01-18 13:09:04
-    comment: >
+    comment: |
       Gene: thanks for some great content on your own blog, and for pointing me to the oath. Good learning all around!
   - author: Trev Harmon
     date: 2013-01-19 17:37:41
-    comment: >
+    comment: |
       I think the most important sentence you wrote was:
       
       "You need both."
@@ -39,13 +39,13 @@ comments:
       I guess we could get into a discussion of eastern philosophy at this point....
   - author: Daniel Hardman
     date: 2013-01-19 20:27:33
-    comment: >
+    comment: |
       I'm chuckling about the "eastern philosophy" comment. Did you connect to that worldview while in Japan--or earlier?
       
       I also have lots of examples where I haven't struck the balance wisely. Sigh...
   - author: trevharmon
     date: 2013-01-19 20:36:14
-    comment: >
+    comment: |
       Earlier. My family has long had a connection with the Orient (Asia particularly). 中庸, or the Golden Mean, was at times brought up in home discussions while growing up.
       
       http://en.wikipedia.org/wiki/Doctrine_of_the_Golden_Mean

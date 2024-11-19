@@ -7,17 +7,17 @@ redirect_from:
 comments:
   - author: Jason Ivey
     date: 2012-10-07 00:46:40
-    comment: >
+    comment: |
       Herb Sutter is one of few other blogs that I will follow as closely as yours due to the amount of great content which he regularly posts.  I would also have to agree with you that GCC really moved into the mainstream #1 compiler spot in the last few years.  Unfortunately, there are so many of the developers working in Linux are locked into a platform which has them handcuffed to an earlier version of GCC (i.e. pre-GCC 4.7 without all of the latest C++11 support).  It's this reason that I still think that Microsoft, even though they are fashionably late to the party, will still be the most popular girl at the end of the night.
   - author: Daniel
     date: 2012-10-07 12:43:38
-    comment: >
+    comment: |
       I think you're right.
       
       The other reason MS remains popular, despite its foibles, is that it still has the world's best C++ IDE, by a *long* shot.
   - author: masajes reductivos
     date: 2012-10-28 18:08:13
-    comment: >
+    comment: |
       Buen Post
       Me encantó la forma en que relata sobre el tema.
       Seguiré visitando esta web para seguir profundizando sobre la materia.

@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: David H
     date: 2014-10-29 07:12:42
-    comment: >
+    comment: |
       "But when the intent of a function call is to cause certain effects, pure functions don’t help us; all these messy issues crowd in."
       
       For those of us who write code for a living, an important side effect of a function is that the customer gives us money. I'm glad you said that there is no silver bullet, because that whole making-the-customer-happy thing is very difficult to automatically verify at compile time. :)
@@ -19,7 +19,7 @@ comments:
       [1] https://docs.python.org/2/library/doctest.html
   - author: Daniel Hardman
     date: 2014-10-29 07:21:42
-    comment: >
+    comment: |
       David: thank you for pointing out the "side effect" of getting paid. Very à propos! :-)
       
       I agree about the value of TDD. I haven't used doctests very often, but I am at a loss to explain why--they're quite nifty. One thing that I particularly like about them is that they are embedded in the code, *not* stored in a separate file. This makes it more likely that a programmer will actually read/be aware of the semantics they enforce.

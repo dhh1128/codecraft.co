@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: Role-Play Centered Design &laquo; Codecraft
     date: 2012-09-05 10:10:18
-    comment: >
+    comment: |
       [...] your software. If your list has less than four or five unique roles, think some more. Hint: see this post. Rate this:Share this:PrintEmailTwitterDiggRedditTumblrFacebookLinkedInStumbleUponPinterestLike [...]
   - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
     date: 2013-02-05 08:58:01
-    comment: >
+    comment: |
       [...] of these memory lapses can be viewed as failures in system thinking. The software we create, and the people that surround and permeate it, constitute a system. We will not be successful unless we create harmony in the [...]
 ---
 I'm all for a healthy focus on HCI (Human-Computer Interaction), UCD (User-Centered Design), and UX (User eXperience). (See <a title="Role-Play Centered Design" href="role-play-centered-design.md">my post about role-play centered design</a>, for example.)

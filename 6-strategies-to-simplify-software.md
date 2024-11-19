@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: segmation
     date: 2013-03-12 09:04:09
-    comment: >
+    comment: |
       I like ask a child!  Children can come up with the greatest of things!  Thanks for sharing this awesome blog!
   - author: Daniel Hardman
     date: 2013-03-12 10:22:23
-    comment: >
+    comment: |
       The other day my young nephew and his older brother were having a conversation.
       
       Older brother: "What's a baby dog called?"
@@ -24,7 +24,7 @@ comments:
       Funny. But also shows how kids have different perspectives that can break us out of the box. :-)
   - author: Julie
     date: 2013-03-13 15:05:25
-    comment: >
+    comment: |
       You hit the nail with a sledgehammer with this post!
       
       Metaphor becomes more important every time I work with a new system that no one can explain. Usually the problem is that they don't have a metaphor to relate it to. People work best with an abstraction in their heads.
@@ -34,7 +34,7 @@ comments:
       My goal is: make it simple enough to understand and wrap that understanding in a memorable metaphor.
   - author: Daniel Hardman
     date: 2013-03-13 15:19:21
-    comment: >
+    comment: |
       The internet is such a good example. Not only is TCP/IP amazingly simple (in concept, not necessarily in impl), but so is the HTTP protocol. It seems amazing to me that I ever lived without it. Thank you, Tim Berners-Lee and Roy Fielding and all the other smart people who achieved so much by simplifying so much!
 ---
 How do you make things simple?

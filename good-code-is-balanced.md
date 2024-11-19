@@ -7,19 +7,19 @@ redirect_from:
 comments:
   - author: Metrics, Plumb Lines, and System Thinking &laquo; Codecraft
     date: 2012-11-12 08:37:28
-    comment: >
+    comment: |
       [...] I’m also a big believer in balance, as I’ve written about before. Good software balances many considerations. [...]
   - author: 3 Commandments of Performance Optimization &laquo; Codecraft
     date: 2013-01-08 09:08:29
-    comment: >
+    comment: |
       [...] On the other hand, it is possible to be too passionate about performance; optimizing the performance of the dev team (by decreasing coding and testing time) is often a better business choice than optimizing execution speed in ways that make code more complex and harder to verify. I have encountered performance zealots disqualifying a perfectly good design on the grounds that it’s not performant enough in a use case that only 2 customers on the entire planet would ever care about. Not smart. As I’ve said many times, good code is balanced. [...]
   - author: Earned Pragmatism &laquo; Codecraft
     date: 2013-01-18 08:53:32
-    comment: >
+    comment: |
       [...] you can be a pragmatist, you have to understand what’s possible, what’s good and bad about each alternative, and why certain considerations might trump others given a certain business context and time [...]
   - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
     date: 2013-02-05 08:57:45
-    comment: >
+    comment: |
       [...] We champion the ideal implementation, programming language, product schedule, or architecture–so much so that we lose momentum or balance. [...]
 ---
 In my <a href="what-is-good-code.md">first post about what constitutes "good code,"</a> I claimed we were dealing with a complex question. This is why I distrust short answers.

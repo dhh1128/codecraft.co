@@ -7,13 +7,13 @@ redirect_from:
 comments:
   - author: Wheeljack
     date: 2018-06-18 08:16:59
-    comment: >
+    comment: |
       I caught this way too late to matter but I would say that the "standard" (because we all know it's not one) should be available not just for new hires but interviewers as well.  Concealing an insane set of half-baked rules really just wastes competent programmers' time and reinforces the notion that you did this deliberately to trap them.  Let me just walk out of the interview or turn down the offer before we get to the point and save us all alot of trouble.
       
       Because the instant some framework monkey struggling with Hello World gets on my case about bracket placement, that's it, I'm done.  I'll hang around and collect a paycheck until I find something else but you won't get anything of value out of me for whatever time remains.
   - author: Daniel Hardman
     date: 2018-06-18 11:43:04
-    comment: >
+    comment: |
       Agreed!
 ---
 [caption id="attachment_580" align="alignright" width="285"]<a href="http://www.epicfail.com/2012/08/31/todays-special-fail/todays-special-fail/"><img class="size-full wp-image-580" title="sign-fail" alt="" src="http://codecraft.co/wp-content/uploads/2012/09/sign-fail.png" width="285" height="525" /></a> Yes, a restaurant really displayed this sign. I doubt it influenced anybody's behavior...[/caption]

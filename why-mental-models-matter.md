@@ -7,20 +7,20 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2012-11-05 08:43:22
-    comment: >
+    comment: |
       wow - "Usability is all about conveying a mental model with minimum effort on the part of the receiver--and then using that model consistently and easily."  and add "on the part of the sender (developer) as well".
   - author: Daniel
     date: 2012-11-05 11:44:36
-    comment: >
+    comment: |
       Low effort on the part of the developer is always desirable, of course. :-)
   - author: Julie
     date: 2012-11-06 09:53:14
-    comment: >
+    comment: |
       You finally put into words what has been bothering me for years. I often compare some of the early successes in personal computing to the current offerings, MacWrite vs MS Word for example. The mental model was so clean and clear that understanding and use was intuitive. For all the complaints people have about functionality, or lack thereof, Notes on the iPhone has a usable mental model. I challenge anyone to produce a good mental model of MS Word.
       Finally, from a developer perspective a good mental model lowers the cost of implementation and maintenance. Even more, a good mental model produces a simpler design which makes software more reliable and scalable. The catch is (of course there is always a catch) that a really good mental model takes hard work to develop.
   - author: Daniel
     date: 2012-11-06 10:32:48
-    comment: >
+    comment: |
       Good point about MS Word, Julie. You made me think of the old adage that eventually all programs evolve to send email. :-)
       
       >>> Good mental model takes hard work to develop
@@ -28,7 +28,7 @@ comments:
       Amen. Albert Einstein: “Any fool can make things bigger, more complex, and more violent. It takes a touch of genius-and a lot of courage-to move in the opposite direction.”
   - author: Trev Harmon
     date: 2012-11-07 21:45:12
-    comment: >
+    comment: |
       I think one thing forgotten by many programmers is by its very existence a program requires a mental model. In the worst case, the mental model is not even considered by the programmer, leaving one with a convoluted representation of a stream of conscience--not particularly helpful beyond the original implementation session. This is closely followed by a "designed" mental model that is simply an outward manifestation of the internal data structures. I find it infinitely frustrating to be presented with a program or API that requires me to fully understand the entire mental model before being allowed to do the simplest task because I must fully "explain" the context to the system through complex calls or data structure construction.
       
       One principle from general design is that of intent. In order for a physical object to truly have meaning to a human, it must be imbued with intent. Not only must the object exist, it must exist in order to fulfill an intent of its owner. [ See http://www.ted.com/talks/john_hockenberry_we_are_all_designers.html ]
@@ -38,21 +38,21 @@ comments:
       Bad mental models will always result in poor UI decisions and bad usability, because UI is really just a visual/tactile projection of the mental model. If at all possible, mental models should mimic the real world in which we live. At a minimum, they should not contradict it. I think the best example of this, tying together mental model, UI and usability, comes from some of the dark years in Apple's past. Every time--every single time--I ejected by floppy disk by dropping it into the trash can, there was a twinge of fear, "Perhaps this time, instead of preserving and returning that which held many hours of work, the trash can would perform its other function, the complete and utter destruction of all that entered into it." To preserve something I cherished, I would never through it in the trash. Reality contradicted... mental model broken... intent subverted... UI failure.
   - author: Daniel
     date: 2012-11-07 22:14:50
-    comment: >
+    comment: |
       Trev: very astute observation that there are horrible, mediocre, and good mental models. I've seen a lot of cases where a program wants people on the outside of a program to think in terms of its internal data structures, which is very regrettable. Sigh...
       
       I had forgotten the eject-via-trash problem on the Macs, but that example brought it all back. I winced many times myself. When I was unfamiliar with the expected behavior, I think I may have actually used a pin to manually eject from a disk drive rather than try the trash. Definitely a case where the chosen metaphor did the user a horrible disservice.
   - author: 3 Commandments of Performance Optimization &laquo; Codecraft
     date: 2013-01-08 09:08:38
-    comment: >
+    comment: |
       [...] is useful to learn certain rules of thumb. We have to have a mental model that lets us make simplifying predictions, such as “It’s probably going to be a waste [...]
   - author: Interrupting my interruptions &laquo; Codecraft
     date: 2013-01-24 11:48:44
-    comment: >
+    comment: |
       [...] is both a tool and an end unto itself. Those meetings I’m attending (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat [...]
   - author: Why Software Artisans Should Manage Their Influence &laquo; Codecraft
     date: 2013-02-07 08:49:25
-    comment: >
+    comment: |
       [...] of his thinking to our field. Since so much of what we do requires buy-in, coordination and shared mental models, we have to be savvy about how we communicate, advocate, and train. Assuming equal technical [...]
 ---
 As they leave school and embark on professional adventures, naive engineers believe their purpose is more or less summed up by this equation:

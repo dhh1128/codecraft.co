@@ -7,27 +7,27 @@ redirect_from:
 comments:
   - author: katyscode
     date: 2013-03-09 04:12:21
-    comment: >
+    comment: |
       Thanks for the citation, agree 100% with what you wrote here. The non-nullability of references is both a blessing and a curse; it is frustrating not to be able to declare a reference as a class member and initialize it later, since it of course must be initialized in the constructor's initializer list, so you often end up being forced to use -> in your mehods when it would be syntactically cleaner and safer to use ".". As you said though, references are an important and integral part of C++, not just a syntactic sometimes-alternative to pointers.
   - author: Daniel Hardman
     date: 2013-03-09 09:41:32
-    comment: >
+    comment: |
       Yes, I've often found myself saying: "I'm happy to live with the limitation that I can only assign to this reference once; I just wish I could do it later than the constructor..." Lazy initialization is one obvious use case.
       
       Great article on lvalues, rvalues, and move semantics, btw.
   - author: ardanew
     date: 2014-03-06 23:42:12
-    comment: >
+    comment: |
       1) void setClient(const IClient *const client);
       2) template sort(...)
       3) no use for move semantics when passing a pointer
   - author: ardanew
     date: 2014-03-06 23:43:12
-    comment: >
+    comment: |
       2) was cutted... sort with comparator
   - author: Daniel Hardman
     date: 2014-03-07 11:20:44
-    comment: >
+    comment: |
       All three of your points are valid. However, I'm not claiming that references are radically better than pointers--only that they're a better fit for certain problems. And they are:
       
       1) -- answers my questions about changeability of the parameter during the course of the function, but does not clarify any semantics about NULL. The const * const prototype is more verbose and less rich in semantics than using a reference.
@@ -37,7 +37,7 @@ comments:
       3) -- passing pointers works fine, but you open yourself up to exception safety problems by not guaranteeing RAII. Not a big deal in a lot of code, but worth considering.
   - author: Corinne
     date: 2022-10-20 13:03:12
-    comment: >
+    comment: |
       I enjoyed readingg your post
 ---
 I still remember what it was like, as a C programmer, to be introduced to the newfangled concept of references in C++. I thought: "This is dumb. It's just another way to use pointers. More syntactic sugar for no good reason..."

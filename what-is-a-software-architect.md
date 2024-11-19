@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: What a Software Architect is NOT &laquo; Software, Wetware, Webware
     date: 2012-06-26 09:04:23
-    comment: >
+    comment: |
       [...] another post, I defined the role of a software architect. This post points out some duties that are not [...]
 ---
 When people ask me what I do for a living, I usually say I'm a computer guy and leave it there. But if they want more detail, I tell them I'm a software architect. When I give that answer, I often wonder if I sound pretentious, like those who say "sanitation engineer" instead of "garbage man." Do those who ask the question think a "software architect" is just a fancy way of saying "computer programmer?"

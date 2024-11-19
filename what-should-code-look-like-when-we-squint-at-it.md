@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: trevharmon
     date: 2013-09-19 14:45:15
-    comment: >
+    comment: |
       Daniel, I know you and I discussed this for some length of time earlier, but I've come across another thought. And, it deals with the different approaches we use when coding. Naturally, I can only use myself as an example.
       
       I wonder if some of this behavior comes from doing some form of bottom-up programming. What I mean by this is after the brainstorming that goes on when planning a project, do programmers naturally start by building the objects or building the flow?
@@ -33,13 +33,13 @@ comments:
       So, that's my long-winded way of agreeing with you that program flow and progressive disclosure are often not given the level of attention they deserve.
   - author: Daniel Hardman
     date: 2013-09-19 21:52:39
-    comment: >
+    comment: |
       Interesting analysis, Trev. You've got me wondering if I do the same thing. I know I jump right into flow on small stuff, but I'm not sure what I do on large stuff; next time I embark, I'll turn my radar on.
       
       I wonder if the "create the objects first" behavior comes from a subconsciously recognized need to have useful tools at your disposal before exploring flow. Maybe we can't think about flow until we have the object-level constructs to work with...
   - author: Vladimir Starostenkov
     date: 2013-09-20 09:36:17
-    comment: >
+    comment: |
       Daniel, I thought you were talking mostly about project with existing code base in the post. Looks like Trev starts from scratch or POC. That's a huge difference. Consider adding few lines into linux kernel without being professional in it. No way. You have to take a book which has this built-in “granularity slider”.
       
       You mentioned Hadoop. That's one more case. That's easy to read a pair of papers on Map-Reduce paradigm, look through a book on Hadoop and write your project on top of it. But you don't need to go through Hadoop code at all. That is why Hadoop is popular. The same case is Qt for C++ developer. You don't have to know how it works to use it properly. You have to accept the paradigm. If you want to learn the core without the “granularity slider” - you'd better start from scratch. Qt has it's audience not only because it's architectural integrity, but detailed documentation.
@@ -47,7 +47,7 @@ comments:
       One more interesting example is SPARK project by Berkley AMP lab. It gives a Scala programmer the ability to work with distributed data structures just the same way he does with the local ones. That is against "Artists sometimes squint to blur out what they don’t want to see, leaving only general patterns and colors. But coders never do, because we don’t expect code to work that way." Sorry :)
   - author: Daniel Hardman
     date: 2013-09-20 12:27:14
-    comment: >
+    comment: |
       Vladimir: I had not thought about how codebases are often associated with books, and how those books provide the sort of "granularity slider" I was wishing for. That's a good insight! Thanks.
       
       I am somewhat familiar with SPARK, but I need to study it a little more. I think that it provides one kind of progressive disclosure, but not many of the other ones I want.

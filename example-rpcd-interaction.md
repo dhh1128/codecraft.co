@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: Role-Play Centered Design &laquo; Software, Wetware, Webware
     date: 2012-06-21 08:56:40
-    comment: >
+    comment: |
       [...] my next post, I’ll give an example about how RPCD works. Like this:LikeOne blogger likes [...]
   - author: Long-Term Benefits of RPCD &laquo; Software, Wetware, Webware
     date: 2012-06-21 10:24:30
-    comment: >
+    comment: |
       [...] for designing software that has role-playing at it’s heart. If you take a look at the example RPCD interaction, I think some benefits will be immediately [...]
 ---
 In my <a href="role-play-centered-design.md">last post on RPCD</a>, I explained its key tenets. In this one, I'll imagine one way to put it into practice.

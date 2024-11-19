@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: Decoupling Interfaces as Versions Evolve, Part 2 &laquo; Software, Wetware, Webware
     date: 2008-08-19 11:10:44
-    comment: >
+    comment: |
       [...] Interfaces as Versions Evolve, Part 2    This is part 2 of a series. You can read part 1 and part 3 as [...]
   - author: Decoupling Interfaces as Versions Evolve, Part 3 &laquo; Software, Wetware, Webware
     date: 2008-08-19 11:27:41
-    comment: >
+    comment: |
       [...] Interfaces as Versions Evolve, Part 3    This is part 3 of a series. You can read part 1 and part 2 as [...]
 ---
 <em>This is part 1 of a series. You can read <a title="Decoupling Interfaces as Versions Evolve, Part 2" href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a> as well.</em>

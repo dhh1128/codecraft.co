@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Julie Jones
     date: 2013-09-08 22:19:18
-    comment: >
+    comment: |
       I think you really hit the nail on the head with "change the way we think". Of all the languages that come and gone none have really changed the way we think about solving problems in the last thirty years. There have been a few that had potential, but I can't think of any that brought a new paradigm to light. Erlang is the only one I can think of that has picked up a decent following by managing to make one previously hard thing easy (multi-processing), but it is hardly revolutionary.
 ---
 A while back, I was reading the blog of somebody smart (can't remember who), and a comment jumped out at me: "If you <em>really</em> want a black belt in computer science, try writing a programming language. The depth and breadth of experience you get when you invent Python or Lisp or Smalltalk or C++ or C#--and implement its ecosystem, not just code a parser for a CS class--gives you a wisdom and education that's rare and precious." (I'm paraphrasing here, but that's the gist of it.)

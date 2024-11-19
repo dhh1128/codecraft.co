@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Andrew Titenko
     date: 2023-05-12 11:49:15
-    comment: >
+    comment: |
       Great blog you havee
 ---
 Have you noticed how seldom people put the modifier "computer" in front of "programming" nowadays?

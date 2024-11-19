@@ -7,15 +7,15 @@ redirect_from:
 comments:
   - author: How to turn coding standards into epic fails &#8212; or not &laquo; Codecraft
     date: 2012-09-27 02:04:55
-    comment: >
+    comment: |
       [...] follow the codebase’s error and exception strategy. (Example: “In C++, use RAII to guarantee exception safety. Make sure all errors are [...]
   - author: Why Exceptions Aren&#8217;t Enough &laquo; Codecraft
     date: 2012-10-09 23:14:34
-    comment: >
+    comment: |
       [...] (This post is a logical sequel to my earlier musings about having a coherent strategy to handle problems.) [...]
   - author: Don&#8217;t forget the circuit breakers &laquo; Codecraft
     date: 2013-01-11 18:01:57
-    comment: >
+    comment: |
       [...] One design pattern that Nygard recommends was new to me, but it rang true as soon as I saw its description. Like many classic patterns, I’ve implemented variations on it without knowing the terminology. I like Nygard’s formulation, so I thought I’d summarize it here; as I’ve said before, good code plans for problems. [...]
 ---
 <p style="text-align:right;"><em>(Another post in my "<a title="What Is “Good Code”?" href="what-is-good-code.md">What is 'Good Code'?</a>" series...)</em></p>

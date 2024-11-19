@@ -7,23 +7,23 @@ redirect_from:
 comments:
   - author: Don
     date: 2012-10-15 08:02:15
-    comment: >
+    comment: |
       The key in my opinion is not to let debt accumulate from sprint to sprint. Control the level of function such that the debt is managed. True doneness minimizes debt to an acceptable level and true doneness = real quality.
   - author: Daniel
     date: 2012-10-15 10:44:24
-    comment: >
+    comment: |
       Good insight, Don. Sounds a lot like the advice to pay off credit cards regularly... :-)
   - author: doug
     date: 2012-10-15 16:20:34
-    comment: >
+    comment: |
       you nail exactly what I have been thinking for MANY years, but not able to articulate. There is a COST to such debt, but there have NOT been metrics to expose it's reality to the decisions makers
   - author: Mike Ebert (@mike_ebert)
     date: 2012-10-16 00:39:33
-    comment: >
+    comment: |
       When technical debt becomes too great, sometimes organizations have to declare bankruptcy--certainly technical bankruptcy, if they survive financially--I'd be interested to hear thoughts about what's involved in technical bankruptcy, esp. if there's anything non-obvious.
   - author: Daniel
     date: 2012-10-16 02:01:31
-    comment: >
+    comment: |
       Good comment, Mike!
       
       I would equate bankruptcy with declaring a codebase insolvent -- incapable of providing any future value. If you get to that point, you're looking at a total rewrite.
@@ -35,15 +35,15 @@ comments:
       What kinds of events do you associated with bankruptcy?
   - author: Earned Pragmatism &laquo; Codecraft
     date: 2013-01-18 08:53:25
-    comment: >
+    comment: |
       [...] architectures healthy. Codebases owned by this type of “architect” tend to be rife with tech debt, with no roadmap or process to haul the team up and out. Where there is no vision, the people [...]
   - author: jasonodtr.inube.com
     date: 2013-03-06 20:25:02
-    comment: >
+    comment: |
       Wonderful insight. What a web site you have! Keep it up.
   - author: Kerry
     date: 2013-03-21 11:40:46
-    comment: >
+    comment: |
       Greetings from Colorado! I'm bored to death at work so I decided to browse your website on my iphone during lunch break. I really like the discussion of programming comments you provide here and can't wait to read more. Anyhow, awesome blog!
 ---
 <figure><img alt="" src="http://farm3.staticflickr.com/2785/4105722502_a442444bb9_n.jpg" height="320" width="213" /><figcaption>We don't get spam about how to consolidate our technical debts. :-) Image credit: Alan Cleaver (Flickr)</figcaption></figure>

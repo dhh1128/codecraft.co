@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: 3 Commandments of Performance Optimization &laquo; Codecraft
     date: 2013-01-08 09:08:35
-    comment: >
+    comment: |
       [...] assume you buy my criticism of the extremes, and you’re willing to apply the “it depends” doctrine. In some cases, you do nothing about performance, because the stakes are low. (Yes, all you [...]
 ---
 <p style="text-align:right;"><em>(A post in my “<a href="../../../category/role-models/">Role Models</a>” series…)</em></p>

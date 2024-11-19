@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: What is a &#8220;Software Architect?&#8221; &laquo; Software, Wetware, Webware
     date: 2012-06-26 08:58:53
-    comment: >
+    comment: |
       [...] also might be worth highlighting some things that I *don’t* consider part of an architect’s job, for the sake of clarity. I’ll do that in a separate post. Like this:LikeBe the first to like [...]
 ---
 In <a href="what-is-a-software-architect.md">another post</a>, I defined the role of a software architect. This post points out some duties that are not necessarily part of his or her job, for clarity.

@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: David H
     date: 2014-07-17 07:29:40
-    comment: >
+    comment: |
       Hi Daniel -
       You've definitely got me curious!
       Can you give us your reasoning why a whole new language vs. extending an existing language to solve your use cases? Becaues the problems you cite sound more like a wish list for additional features to a language, not complaints about features you want removed from any given language.
@@ -15,7 +15,7 @@ comments:
       David H
   - author: Daniel Hardman
     date: 2014-07-17 08:41:10
-    comment: >
+    comment: |
       David: the problem I'm highlighting doesn't require a new programming language; it could easily be solved by extending existing ones. In fact, I even toyed with the idea of writing up a proposal for C++17... However, "extending" doesn't just mean adding a library or package into the core runtime; it would require a change in assumptions about what we believe is valid content for code. For that reason, I suspect that existing languages won't glom onto it.
       
       In my next couple posts, I'll describe the solution. I've been slow to post, lately, but I'll try to write them quickly so you're not left hanging for too long. :-) I'm not trying to be mysterious; I'm just having a dickens of a time pulling half a dozen mental threads into a coherent tapestry.

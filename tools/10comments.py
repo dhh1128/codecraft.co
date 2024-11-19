@@ -29,7 +29,7 @@ for file in os.listdir("."):
             ctxt = 'comments:\n'
             for c in clist:
                 if c.rest:
-                    ctxt += '  - author: ' + c.author + '\n' + '    date: ' + c.date + '\n' + '    comment: >'
+                    ctxt += '  - author: ' + c.author + '\n' + '    date: ' + c.date + '\n' + '    comment: |'
                     for line in c.rest.split('\n'):
                         ctxt += '\n      ' + line
                     ctxt += '\n'

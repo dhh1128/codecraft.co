@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: tianyuzhu
     date: 2013-08-09 16:17:49
-    comment: >
+    comment: |
       I'm going to argue that free markets aren't necessary in *general* in software development because economics assumes that everyone is selfish.
       
       For example, when you're writing a function, you establish a contract saying, "If you provide me with the proper resources and fulfill the preconditions, I will perform this service for you." Now the function trusts that it will be used properly, and the user trusts that the function will do its job. In software development, you don't try to sneakily call the function without satisfying all of its preconditions. In fact, you probably go to extra lengths to meet them.
@@ -21,7 +21,7 @@ comments:
       The thing is, you see economic models in programming all the time. All you have to do is look at systems where humans can make certain parts of the system more selfish. For example, ISPs give you higher bandwidth and limits if you pay more.
   - author: Daniel Hardman
     date: 2013-08-09 17:07:12
-    comment: >
+    comment: |
       Thanks for the thoughtful response.
       
       I agree that software doesn't translate perfectly into the economic metaphor. There are some examples where it shows up -- the ISP example you mention is a good one -- and there are also examples where central planning is very helpful.

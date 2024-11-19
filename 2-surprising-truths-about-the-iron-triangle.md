@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Don
     date: 2013-07-02 07:01:22
-    comment: >
+    comment: |
       You struck a cord :)
       I have been using the iron triangle with teams for years successfully and I think it works but there are alot of misconceptions about its use in management especially as it relates to quality (Q).
       
@@ -21,13 +21,13 @@ comments:
       Lastly how do you plan and communicate this balance. The secret is "DONENESS". In agile DONENESS=Q! Part of every releases plan should include identifying DONENESS. This is where BASIC and any other "you arent done until this is done" criterea is documented. When you add these to the backog of STANDARD and EXCITING tradeoffs you have the release plan and the "TOTALLY DONE" criterea. This is the intersection of NPD-Q and the triangle.
   - author: Daniel Hardman
     date: 2013-07-02 09:02:20
-    comment: >
+    comment: |
       Don: Thanks for a meaty response. I had not heard of KANO before, so your comments led me to some interesting study. I really like distinguishing between BASIC, STANDARD, and EXCITING. This makes explicit a set of tradeoffs that I've usually seen being managed entirely by intuition.
       
       When are we going to see a book with all your accumulated wisdom? :-)
   - author: Gene Hughson
     date: 2013-07-02 10:48:36
-    comment: >
+    comment: |
       Dan,
       
       Excellent analogy re: the codebase is like a doctor's patient.  One of the best reasons for managing technical debt is to avoid the situation where the patient is too fragile to withstand the surgery it needs to live.
@@ -35,15 +35,15 @@ comments:
       Great post.
   - author: Daniel Hardman
     date: 2013-07-02 14:56:36
-    comment: >
+    comment: |
       Good connection, Gene. I heard someone yesterday try to define "technical debt" primarily in terms of unimplemented features. I think that's too narrow. No matter how complete the feature matrix, you're in debt if your codebase is unhealthy.
   - author: Gene Hughson
     date: 2013-07-03 10:14:13
-    comment: >
+    comment: |
       I agree...in fact, in one of my posts I've discussed platform rot (e.g. not keeping up with .Net, OS, and SQL Server versions) as an example of technical debt.  Sometimes debt is justified to reach a goal, but if it's not managed, chances are it will come back to haunt you.
   - author: PM Hut
     date: 2013-07-05 09:13:36
-    comment: >
+    comment: |
       Hi Daniel,
       
       The iron triangle has been proclaimed dead years ago. See: http://www.pmhut.com/the-death-of-the-project-management-triangle
@@ -51,13 +51,13 @@ comments:
       It was killed by PMBOK 4.
   - author: Daniel Hardman
     date: 2013-07-05 22:44:12
-    comment: >
+    comment: |
       Interesting. I knew that there were many competing theories, but not that the discipline believes it is "dead." I still think it's a useful source of insight.
       
       Thanks for the link to the blog post; very helpful.
   - author: donkleinschnitz
     date: 2013-07-06 07:37:27
-    comment: >
+    comment: |
       Sorry but I don't buy this death ...... I would also like to know what practical tool replaced it? I have witnessed the improper use of this tool and in fact the link provided to the PMI and the comments and dialog seem to prove such. For example, this is not a strategic planning tool it is a tool that is used to adjust sprint payloads based on a teams velocity as it works down a backlog. Its the only "reality check" in the agile process.
       
       Perhaps the problem is in the missuse of this tool and that is its application as a project management tool, which it is not. This tool is used by architects, product owners and designers to make design tradeoffs based on balancing work capacity, function and time. I can't imagine how a scrum team rationally adjusts its payload without such a tool used at each increment review.
@@ -67,7 +67,7 @@ comments:
       I would like to see some clarity around what has replaced the triangle, in the mean time I wll continue to coach my 300 scrum teams on its use?
   - author: dougbert
     date: 2013-07-22 13:08:15
-    comment: >
+    comment: |
       great insight, and codebases do have a health metric - bad or good.
       We are the "doctors" who work to better that metric - or do something else when things look bad
       

@@ -7,25 +7,25 @@ redirect_from:
 comments:
   - author: mordachaiwolf
     date: 2015-02-05 10:15:27
-    comment: >
+    comment: |
       Thanks for sharing this!  And congrats on tracking it down.
   - author: Daniel Hardman
     date: 2015-02-05 13:00:27
-    comment: >
+    comment: |
       Since I complain about not communicating limits, I would be remiss if I didn't record what I learned so it's at least findable in a web search. :-) I don't think I've ever been more relieved to put a stake through the heart of a bug.
   - author: David H
     date: 2015-02-05 20:08:09
-    comment: >
+    comment: |
       Interesting how a really hard-to-find bug motivated you to really "clean house" and address a bunch of other issues. "If it aint broke don't fix it", but since it was broke you got to fix some things.
   - author: Daniel Hardman
     date: 2015-02-05 23:19:02
-    comment: >
+    comment: |
       For me, this is proof that fixing something "right", instead of just kludging something good enough, is often (not always, but often) the most efficient approach. The quick-and-dirty solution might feel faster, but by the time we add in the cost of a learning curve, future maintenance, testing, and support, making haste more slowly is often better.
       
       Of course there are exceptions to every rule...
   - author: Moray King
     date: 2015-02-09 22:01:52
-    comment: >
+    comment: |
       Double kudos to you Daniel:
       1. A well written piece that was fun to read.
       2. You resolved the bug!
@@ -33,17 +33,17 @@ comments:
       Your essay confirms a point I always believed: Care must be taken when designing and coding a multi-threaded system where concurrent sharing is involved. Concurrency bugs are notoriously difficult to resolve especially if they are intermittent and difficult to trigger. At least you had a trigger, and with it you skillfully converged onto the bug. Well done, Daniel!
   - author: Daniel Hardman
     date: 2015-02-10 07:31:07
-    comment: >
+    comment: |
       So good to hear from you, Moray! I think that years ago I told you that I thought concurrency wasn't that hard. This makes me eat my words. :-) It may not be that hard in theory, or when a codebase is in its infancy--but by the time we get to hundreds of thousands of lines of code, with large numbers of threads interacting in complex and unpredictable ways, we better have it right, or we can find ourselves in deep trouble.
       
       I thought of your clean and robust epoll-based http server while I was doing this work...
   - author: earwicker
     date: 2015-02-27 04:10:24
-    comment: >
+    comment: |
       Congrats on fixing it. I spent a couple of weeks in the late 90s connecting to customer machines and looking at stack traces of several threads that were either deadlocking or trashing each other's data. This was enough to make me back away from that school of currency whose motto is "Just keep adding mutexes until it seems to stay up!" Since then I've stuck to threads that communicate only via queues that contain very simplistic/immutable "work item" objects, or I go the whole hog and use process isolation, with a pool of single-threaded worker processes orchestrated by a single-threaded manager. I also avoid languages with undefined behaviour (like they are plague-carrying rats). This is why I'm not touching Go with a barge pole (undefined behaviour under race conditions).
   - author: Daniel Hardman
     date: 2015-02-27 07:33:55
-    comment: >
+    comment: |
       It's so interesting to me that people who have deep experience debugging a concurrency problem are usually changed by the experience. They begin to value features of their language or their tools differently when they've experienced the bleak prospect of not being able to figure something out except with a lot of blood, sweat, and tears. And maybe not even then.
       
       I did not know anything about Go and race conditions; that's troubling.

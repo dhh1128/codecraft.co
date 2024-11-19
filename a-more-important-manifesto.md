@@ -7,13 +7,13 @@ redirect_from:
 comments:
   - author: trevharmon
     date: 2015-01-07 22:09:39
-    comment: >
+    comment: |
       Daniel,
       I really want to thank you for all of the support (and the shout-outs). I very much enjoyed those talks that we had. They helped me clarify and refine my thinking in so many ways. I'm very grateful to have you as a friend. To everyone else, please join us!
       - Trev
   - author: craiglaurence
     date: 2015-01-14 12:08:14
-    comment: >
+    comment: |
       Brilliant.
 ---
 A couple years ago, I <a title="Manifestos" href="manifestos.md">wrote</a> about signing the Agile Manifesto and the Manifesto for Software Craftsmanship.

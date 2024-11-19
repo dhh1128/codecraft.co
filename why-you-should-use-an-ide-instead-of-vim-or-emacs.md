@@ -7,26 +7,26 @@ redirect_from:
 comments:
   - author: kc5tja
     date: 2014-05-13 17:40:35
-    comment: >
+    comment: |
       It's not uncommon for me to have up to three different editors open at once on a single project (Vim, ACME, and Sublime Text 2).  Sometimes, they'll even be editing the same file.  Depending on the project, I might replace ST2 with NetBeans.
   - author: Daniel Hardman
     date: 2014-05-13 17:43:53
-    comment: >
+    comment: |
       I'm chuckling because that sounds so much like me. I often have vim running in 3 or 4 different windows, and half the time I open the same file more than once. I'll get in the middle of making mods with one tool, and then switch to another when I have some other change that's easier to do in the other window. Thank goodness all good tools warn you about changes to the file you're editing. :-)
   - author: Nitsan
     date: 2014-05-14 05:51:43
-    comment: >
+    comment: |
       Very nice read, thank you.
       But what can you do when most of your work deals with editing files on a production server, where Vim/nano are the only options you have, and you are forced to leave your beloved text-editor?
   - author: Daniel Hardman
     date: 2014-05-14 13:28:00
-    comment: >
+    comment: |
       That is an excellent question, Nitsan--and I have no doubt that you already know the correct answer. You use vim/nano. Usually, this is not the classic "software engineering" scenario where you have git, a ticketing system, scrum, and all sorts of process and complexity. But it *is* an important scenario to most of us, at one time or another.
       
       I have one other compelling reason why all of us should also learn a good text editor--not use it by preference for everything we do, but have it in our repertoire, as a useful skill. I'll discuss that in a follow-up post.
   - author: Nitsan
     date: 2014-05-15 05:47:14
-    comment: >
+    comment: |
       I believe a short video like this:
       https://www.youtube.com/watch?v=E2t2614cNAs
       can show the true power of sublime's workflow, which is easy to master, and vastly improve productivity.
@@ -34,11 +34,11 @@ comments:
       sublime is my tool of craft
   - author: lol internet
     date: 2015-05-10 06:06:30
-    comment: >
+    comment: |
       I use sshfs to mount remote filesystems in userspace.
   - author: Daniel Hardman
     date: 2015-05-11 10:55:56
-    comment: >
+    comment: |
       Yep, that also works, and I've done the same thing from time to time. Thanks for chiming in!
 ---
 With a title like the one above, you may be expecting a rant from an IDE bigot. I know there are plenty of flame wars on this topic, on both sides, and if I raised your hackles (or whet your appetite), I'm sorry.

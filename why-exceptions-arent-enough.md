@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Jason Ivey
     date: 2012-10-10 01:08:24
-    comment: >
+    comment: |
       Daniel,
       
       We have talked about this subject at length in the past and I think you did a really great job on this post introducing the issues, deficiencies and a few of the minor enhancements you have discovered within the last few years.
@@ -19,11 +19,11 @@ comments:
       Don't get me wrong, I think its a great idea to add context to the exception. I just hope we can either find a more elegant way to solve the problem or ask for language help (via the standard).
   - author: Daniel
     date: 2012-10-10 09:04:21
-    comment: >
+    comment: |
       Good point about try...catch littering the code. Making error handling richer trades away some straightforwardness in the core logic. My only thought is to use "convention over configuration" to perhaps limit what you have to write. But that approach has limits; the consequences of a failure aren't something you can probably assign with smart defaults. Jason, maybe we should brainstorm an improvement to the language...
   - author: Andy Lawrence
     date: 2012-10-10 10:25:47
-    comment: >
+    comment: |
       It would be nice if languages like C++ offered a way for a function to "drop breadcrumbs" in a manner that looks a lot like code comments, are largely ignored during normal execution, and are automatically gathered up and added to the exception context during the "stack unwind" when an exception is thrown.
       
       Pseudocode Example:
@@ -50,17 +50,17 @@ comments:
       To me, this approach would be much cleaner than littering your code with try..catch statements and remembering which messages have to be added to the exception in each catch block. Later, you can add a breadcrumb anywhere in the code and only those code paths that actually crossed it (and all all code paths that crossed it) would automatically add it to any exceptions they may encounter.
   - author: Daniel
     date: 2012-10-10 11:26:10
-    comment: >
+    comment: |
       I love it, Andy. This addresses the need for context without some of the drawbacks of try...catch everywhere. How do we get ideas like this into the sights of language designers and standards committees?
   - author: Jesse Harris
     date: 2012-10-10 15:07:10
-    comment: >
+    comment: |
       Another variant of poor error trapping is what I'll call "The Hanging If". A function would check to see if a POST value was non-null. If it was, it would take that passed value and assign it to a variable. And that's it. It never defined what to do if the value was unset. (Let's not even get into the complete and total lack of validation.) I found myself wonder why a developer would go to the trouble of checking if the value was null if they didn't intend to define what to do if it was.
       
       And yes, this was a case where the function was receiving a null value and causing a lovely Java explosion all over the page since the rest of the program had no idea what to do if that variable was unset.
   - author: Andy Lawrence
     date: 2012-10-10 19:28:38
-    comment: >
+    comment: |
       I thought you were on two or three of those committees. :)
 ---
 <p style="text-align:right;"><em>(This post is a logical sequel to <a title="Good Code Plans for Problems" href="good-code-plans-for-problems.md">my earlier musings about having a coherent strategy to handle problems</a>.)</em></p>

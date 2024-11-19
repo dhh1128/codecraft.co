@@ -7,17 +7,17 @@ redirect_from:
 comments:
   - author: Tianyu Zhu
     date: 2013-10-31 21:21:06
-    comment: >
+    comment: |
       Just a thought: what if your RAII object stored a lambda to the expression you wanted to evaluate?
       
       Actually, that's exactly what scope_guard does, which I believe solves both of your problems nicely.
   - author: Daniel Hardman
     date: 2013-10-31 21:57:01
-    comment: >
+    comment: |
       Hmm. I'm going to go study scope_guard and lambdas in C++ 11/14 again and see. You're right that that a closure lambda would make the postcondition macro better (good catch! thanks). I'll have to ponder whether it makes the first use case cleaner.
   - author: tianyuzhu
     date: 2013-11-01 21:26:44
-    comment: >
+    comment: |
       The bad thing about using RAII for post conditions is that you'd have to instantiate the RAII object as soon as possible. If your code throws before the object is instantiated, then it won't run.
       
       So you're forced to think about when a post condition might become applicable. The good thing, though, is that you'd have to think about that anyways, and RAII actually allows you to not have a whole bunch of nested try...finally blocks.
@@ -53,7 +53,7 @@ comments:
       }
   - author: sstereomatchingkiss
     date: 2013-11-02 18:55:17
-    comment: >
+    comment: |
       this blog(http://the-witness.net/news/2012/11/scopeexit-in-c11/) introduce a very interesting solution
       
       in short
@@ -83,13 +83,13 @@ comments:
       I still like the way of RAII better than try...finally
   - author: earwicker
     date: 2013-11-03 17:06:38
-    comment: >
+    comment: |
       Here's another way of implementing try-finally in C++11, no need to declare a wrapper object explicitly:
       
       http://stackoverflow.com/a/385081/27423
   - author: Daniel Hardman
     date: 2013-11-04 08:38:12
-    comment: >
+    comment: |
       Very nice! Thanks for teaching me something I hadn't fully understood. I have been away from C++ for a few years, and somehow ScopeGuard didn't make it on my radar. The big thing I learned when I went back and read <a href="http://www.drdobbs.com/cpp/generic-change-the-way-you-write-excepti/184403758" title="scopeguard" target="_blank" rel="nofollow">Alexandrescu's original ScopeGuard article</a> is that C++ 98 allows reference variables to extend the lifetime of temporaries. That little gem had not been one I'd understood; it is the major reason why his technique can get around my complaint that if you declare your postcondition early, you're stuck snapshotting an early version of state against which postconditions are evaluated.
       
       I also tracked down Alexandrescu's talk about the C++ version of ScopeGuard, and did a little studying about how lambdas make this so much better. Hooray!
@@ -97,27 +97,27 @@ comments:
       I still think it's symptomatic of unfortunate language design that someone with that much brainpower had to get involved, just to solve a straightforward problem that every user of the language ought to care about.
   - author: Daniel Hardman
     date: 2013-11-04 08:45:54
-    comment: >
+    comment: |
       Thanks for pointing this out. I write software that runs on supercomputers, and the compilers there are way behind the times. (I'm just barely convincing people to move from C to C++ 98. Sigh...) Anyway, I had run across ScopeGuard and its variants in the past, but understood it only as a nice way to do cleanup on exit. I thought it evaluated code when the ScopeGuard class was created, which wouldn't work for postconditions. After a little study this past weekend, I realize that the technique solved my postcondition problem as well. It's nice to see that in C++11, the technique has become fully mainstreamed. (And I agree with Castaño, who you referred to, that the idiom in D is super slick.)
   - author: Daniel Hardman
     date: 2013-11-04 08:48:25
-    comment: >
+    comment: |
       Daniel: You were quick to pick up on the implications of lambdas, if you realized you could have try...finally back in 2008! Wow. Thanks for the link, and for the smart answer on StackOverflow. I've up-voted that answer.
   - author: earwicker
     date: 2013-11-08 03:37:52
-    comment: >
+    comment: |
       Thank you, but certainly not my insight/foresight :) Dates back to Lisp and Smalltalk (40 years?) http://www.ai.mit.edu/projects/iiip/doc/CommonLISP/HyperSpec/Body/mac_with-open-file.html Same idea in Java: http://www.octopull.co.uk/java/ACCU-Spring-2001/img15.htm
   - author: J
     date: 2014-11-11 06:04:55
-    comment: >
+    comment: |
       D has had scoped exit from the beginning. Unfortunately there are no big companies supporting it, but that may well be the language you should be using instead of c++11
   - author: Daniel Hardman
     date: 2014-11-11 08:34:42
-    comment: >
+    comment: |
       Yes, that is a nifty feature of D. I have debated switching to D on some of my projects...
   - author: Bastian
     date: 2015-10-20 11:48:34
-    comment: >
+    comment: |
       Yet another try/finally:
       
       try { try { // alias "TRY"
@@ -127,23 +127,23 @@ comments:
       throw; } catch (Finally const &) { } // alias "END"
   - author: Daniel Hardman
     date: 2015-10-20 11:54:40
-    comment: >
+    comment: |
       That gave me a good chuckle. Yuck! But it definitely works...
   - author: quicknir
     date: 2015-12-28 14:30:30
-    comment: >
+    comment: |
       As soon as I read this I thought of scopeguard, which I see that other people have mentioned. I'm curious, does this cause you to recant the position in the title of your article? I actually think that scopeguard is nicer than try/finally in every way, it avoids the complicated nasty nesting. And practically, the majority of the time, the finally block is just cleaning up non-memory resources anyhow, which RAII does much more nicely.
   - author: Daniel Hardman
     date: 2015-12-28 18:00:37
-    comment: >
+    comment: |
       I'd say it takes a lot of the teeth out of my argument. Scopeguard does have many great features that mostly make my concern go away. However, you mentioned one virtue of scopeguard that I don't actually like so much: the lack of nesting. I am not a fan of massively nested stuff, of course, but sometimes I kind of *like* the curly braces of try...finally to make the guarded scope totally explicit. I guess if I really want curlies, I can add them just for form... :-)
   - author: whatsbottle
     date: 2016-03-11 09:04:41
-    comment: >
+    comment: |
       I totally disagree your point. As a daily Java developer, I hate try-finally with passion. RAII initially looks more efforts, in fact it save time and make code cleaner and correct. C++'s RAII is "repeatable", you write the class once and forget it forever. With try-finally, people tend to copy-paste it here and there, or just ignore it. There is nothing to ensure they won't forget to write the "finally" block.
   - author: Daniel Hardman
     date: 2016-03-15 07:31:31
-    comment: >
+    comment: |
       I agree that RAII has some nice benefits. Those benefits are more apparent if the cleanup you want to do is very standardized (e.g., close a file handle, release memory). But if the cleanup you want to do is unique to the particular block of code you are in--such as my example about having an avatar take a bow--then creating a custom class for just that one block of code seems less desirable. In other words, repeatability is only useful if you need to repeat something. :-)
 ---
 The claim has been made that because C++ supports <a class="zem_slink" title="Resource Acquisition Is Initialization" href="http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization" target="_blank" rel="wikipedia">RAII</a> (resource acquisition is initialization), it doesn't need <span style="font-family:courier, fixedwidth;">try...finally</span>. I think this is wrong. There is at least one use case for <span style="font-family:courier, fixedwidth;">try...finally</span> that's very awkward to model with RAII, and one that's so ugly it ought to be outlawed.

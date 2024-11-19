@@ -7,15 +7,15 @@ redirect_from:
 comments:
   - author: SutoCom
     date: 2012-10-12 12:35:37
-    comment: >
+    comment: |
       Reblogged this on <a href="2284.md" rel="nofollow">Sutoprise Avenue, A SutoCom Source</a>.
   - author: ryancorradini
     date: 2012-10-16 06:34:58
-    comment: >
+    comment: |
       The “how” tickets are a great idea, but in my experience, they frequently tend to end up in the forever-in-the-future “unobtainium” release, because there are *always* going to be new feature requests / legitimate bugfixes / etc, and those will always take priority over refactoring tasks. That said, sometimes when I have a new task that touches on one of these needs-to-be-rewritten code blocks, if I can justify it, I do the refactoring anyway, guerilla-style, as part of the new feature. The challenge is knowing when it’s worth doing so.
   - author: Daniel
     date: 2012-10-16 08:34:16
-    comment: >
+    comment: |
       Ryan: You've got a nice way with words. The "unobtanium release" made me laugh. So true. Sigh...
       
       Martin Fowler dedicated an entire book, <em>Refactoring</em>, to the question of how to make sure needed changes don't languish. It probably isn't fair to try to boil him down to a single pithy piece of advice, but I'll try anyway. He advocates changing our perspective on refactoring so that it's no longer a behavior separable from maintenance/improvement/extension. Instead, refactoring becomes a sort of dialog that you always have with the code as you evolve it into its next form. If you do refactoring that way, it just happens naturally, and code remains very healthy.
@@ -23,7 +23,7 @@ comments:
       This is a radical change of mindset, but it seems to me that it would help us in many ways.
   - author: ryancorradini
     date: 2012-10-16 09:04:28
-    comment: >
+    comment: |
       I like the concept of a constantly-evolving codebase. That kind of approach would also enable some potentially interesting "code health" metrics derivable from your source control system. (e.g. percentage of code change between releases/milestones, etc). I'll have to look up that book, thanks for the recommendation.
       
       As an aside, your link to Steve Yegge's post spurred some productive conversation at work. Always nice when that happens.

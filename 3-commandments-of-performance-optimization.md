@@ -7,17 +7,17 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2013-01-08 10:19:35
-    comment: >
+    comment: |
       Can't improve it if you can't measure it!
       
       Measuring twice is key, because then you have two points to compare to each other. Otherwise, one data point is simply a factoid for some tabloid to sell paper.
   - author: Daniel Hardman
     date: 2013-01-08 22:45:09
-    comment: >
+    comment: |
       I agree; it's awfully hard to get the slope of a line from one point...
   - author: Andy Lawrence
     date: 2013-01-09 22:00:01
-    comment: >
+    comment: |
       Personally I tend to err toward the "passionate" side of optimization. While I am sure that I have wasted some time fine-tuning some code that only ended up being called once or twice; I have also been pleasantly surprised in many cases where the whole product became much more functional just because some code I wrote worked faster than the spec required.
       
       With my current project, I have had a number of features just "fall out" of the design and work simply because the code ran so fast that it became trivial to process some query.
@@ -25,7 +25,7 @@ comments:
       Performance coding is becoming a lost art. Too many programmers think that faster processors or bigger pipes can overcome bad algorithms. That can work in some cases until a competitor comes along who does it right.
   - author: Daniel Hardman
     date: 2013-01-10 08:43:47
-    comment: >
+    comment: |
       Andy: I strongly agree with a lot of your comment--especially the part about "too many programmers think that faster processors or bigger pipes can overcome bad algorithms." One of the big insights that should be developed during the CS data structures classes is that some data structures, and some algorithms that work those data structures, are inherently faster that others at large scale. Programmers that choose a solution that's adequate at one scale, but woefully inefficient at another, may be doing themselves and their team a great disservice.
 ---
 In my experience, most programmer attitudes on speed fall into one of these categories:

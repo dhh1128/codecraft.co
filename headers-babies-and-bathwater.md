@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2013-08-12 12:10:21
-    comment: >
+    comment: |
       I know what you mean. I really, really know what you mean.
       
       To me, the headers represent the INTERFACE, not the implementation of an object. Sometimes I put an adapter pattern between the INTERFACE and internal implementation - I don't what my consumer to make assumptions that he/she can use to touch inside my box.
@@ -15,7 +15,7 @@ comments:
       then again - I am a bit different
   - author: Ryan Marcus
     date: 2013-08-12 15:18:48
-    comment: >
+    comment: |
       I generally agree with you -- but I had one question.
       
       What's the difference between the "automatically generated headers" you suggest and, say, JavaDocs? It seems like, in Java code (and in other languages via Doxygen), the part of a 3rd-party package you are supposed to look at for understanding is the documentation. This doesn't seem unreasonable to me.
@@ -29,15 +29,15 @@ comments:
       Thanks for the post -- very thought provoking.
   - author: weberc2
     date: 2013-08-12 16:28:16
-    comment: >
+    comment: |
       When you describe how headers "ought to work", you're describing Ada's Specification/Body files. Specs contain the API details (the interface), and the Body contains the implementation. And you get that as a guarantee, enforced by the compiler.
   - author: Daniel Hardman
     date: 2013-08-12 17:58:44
-    comment: >
+    comment: |
       You may be different, Dougbert--but I wish all the C++ programmers I've worked with over the years were different in exactly the same way! It would be a lot more fun to code if they understood how to keep interfaces clean... :-)
   - author: Daniel Hardman
     date: 2013-08-12 18:14:25
-    comment: >
+    comment: |
       Ryan: thanks for the thoughtful response!
       
       You're right that javadoc overlaps quite a bit with the idea I'm suggesting. When I first discovered doxygen and javadoc long ago, I was infatuated with the tools, and I didn't see much gap between what they offered and the ideal I describe.
@@ -53,27 +53,27 @@ comments:
       Nonetheless, I think your point about generated docs is a good one and somewhat weakens the value of what I'm proposing.
   - author: Daniel Hardman
     date: 2013-08-12 18:15:34
-    comment: >
+    comment: |
       Thanks for the note. I'm unfamiliar with Ada, but you are the third person who's told me that. Which tells me that it was a memorable feature of the language. I wonder why it got discarded?
   - author: Brady Kimball (@bradykimball)
     date: 2013-08-13 08:19:25
-    comment: >
+    comment: |
       Good points.  A few thoughts that I have on the matter include maintainability and syntactic cruft.  Why have separated interfaces for every class unless you need to?  Obviously, you should use interfaces for things like layer abstraction or collaborative projects with teams that you don't want to be dependent on.  I know this is a dangerous assumption that every developer is savvy enough to understand when to use them, but I would argue that part of the point that some of these more terse languages is to work around manual busy work overhead.
       
       Your proposals at the end of the post are good food for thought as how to combat the maintenance and cruft issues.  Maybe it is personal preference, but I prefer good developer documentation.  This doesn't mean the developer needs to write a thesis on the class.  Often, the method signatures are enough with a simple description of any prerequisites or post conditions are sufficient.
   - author: Daniel Hardman
     date: 2013-08-13 16:54:03
-    comment: >
+    comment: |
       Good point about pragmatism, Brady. Although it might be nice to be able to separate interface and impl on key classes, perhaps doing it for everything is overkill.
       
       I guess the developer docs vs. code question boils down to personal preference. I have never seen developers read docs consistently. They'll look up a prototype in a reference, but they like to be in the code rather than in some other tool. However, as I mentioned in the response to Ryan, modern IDEs often provide hover autoexpansion which makes this tool discrepancy vanish.
   - author: Julie Jones
     date: 2013-09-10 23:15:45
-    comment: >
+    comment: |
       I have been thinking about this from a different perspective, although it would be easy to extend to generating separate header files. I really like the self contained modules in languages like Java and C#. I think implementation in header files in C++ is a huge wart. What I want is everything in one file in one place. However, I want to be able to control the view of the module or class. When I look at is as client I just want to see the public interface (aka header). But when I need to see how something works I just want to drill down (think light table) and see more detail
   - author: Daniel Hardman
     date: 2013-09-12 19:55:59
-    comment: >
+    comment: |
       Self-contained modules are nice, most of the time. However, I periodically write java classes that are 1k to 2k lines, and that starts to feel a bit cumbersome. Certainly I could decompose further, but sometimes I wish I could split the impl into several files in the way that C# partial classes supports. I like those partial classes; they're a nice way to keep the eventing for a UI class separate from the procedural code. Also, I don't think that a pure view is adequate if you want to share an interface with someone without sharing the implementation (e.g., to protect IP).
 ---
 I claim that by eliminating the C/C++-style dichotomy between headers and implementation, most modern programming languages have thrown out the baby with the bathwater.

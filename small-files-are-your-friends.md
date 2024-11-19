@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Andy Lawrence
     date: 2013-03-21 10:43:52
-    comment: >
+    comment: |
       Good article. I think you made some great points.
       
       I think your strongest argument for small files is the loose coupling and encapsulation one. It can impose an artificial constraint that forces the programmer to think more about those issues. It is kind of like if your company has a coding standard that says "no function can be longer than x number of lines". This can force the programmer to think more about modular programming and break that mammoth function into several smaller ones which can enhance readability and code re-use.
@@ -17,7 +17,7 @@ comments:
       We have probably all had bad experiences with files and/or functions that were too big or too small. Finding the right balance is what keeps programming as much of an art as it is a science.
   - author: dougbert
     date: 2013-03-21 10:44:44
-    comment: >
+    comment: |
       Exactly my points as well, but again well presented by you.
       My mind cache is 7-8 items, ANYWAY to factor things to have a 'collective' of that size is wonderful for my sanity. If more are added, then a refactor is needed to reduce the size by some sort of organization.
       
@@ -26,27 +26,27 @@ comments:
       Object relationship then need some refactoring.  Huge files are like huge objects, a mass of confusion and disorder
   - author: Daniel Hardman
     date: 2013-03-21 12:05:44
-    comment: >
+    comment: |
       Doug: I'm so grateful that you pushed on this issue in Moab. Although we're not very close to the ideal yet, we're much better off because of your efforts.
   - author: Daniel Hardman
     date: 2013-03-21 12:35:44
-    comment: >
+    comment: |
       Your observation about balance really resonates with me. That's one of my pet themes (see http://codecraft.co/2012/08/27/good-code-is-balanced/). 
       
       One thing that I find interesting is the different nature of the consequences at the two ends of the spectrum. At the <em>files-are-too-big</em> end, the consequences seem a bit scary. They make problems less understandable; they steal velocity, accuracy, and quality of design from developers. At the <em>files-are-too-small</em> end, you start paying a "silliness tax" where you have to recurse down too many levels while coding and debugging. This can also make it hard to see the bigger picture (so in that respect the two ends of the continuum are similar) -- but I don't think it impedes loose coupling and code reuse. It's also easier to undo/change, I think.
   - author: Jason Law
     date: 2013-03-21 15:24:38
-    comment: >
+    comment: |
       Great points, Daniel. Early in my career, I found that small classes and small methods let me model more complex problems. Encapsulation is key, and it's how I think our brains work. Reminds me of some of the points made in Robert C. Martin's Clean Code. Nice article.
   - author: Daniel Hardman
     date: 2013-03-21 21:44:49
-    comment: >
+    comment: |
       Jason! Great to hear from you. Long time no see. Thanks for all the Oracle goodness you taught me.
       
       Robert Martin is one of my heros, but I haven't read Clean Code. So now I've got something new for my reading list. Thanks!
   - author: Wally
     date: 2013-03-22 15:36:31
-    comment: >
+    comment: |
       I'm going to have to disagree that small files should be a "goal".  I think that the goal is to have good data encapsulation and boundaries.  Files are one way of accomplishing this via scoping, but they don't ensure that a project breaks itself up into manageable pieces.  Splitting a monstrous files into multiple small files that still utilize externs and global includes to share all the same data they had in the first place ends up being a zero-sum change.
       
       The important goal should be to separate and isolate the various project components into logical divisions.  If they don't have logical cleavage planes, then refactor them until they do. The location of the pieces in specific files is really an afterthought that follows naturally.  Just splitting things into smaller files to achieve a certain line/function quota seems useless to me.  
@@ -54,7 +54,7 @@ comments:
       I like to think of this from an organic perspective.  Many garden plants grow larger and larger until they start to choke themselves out.  They can be divided and replanted and you can get multiples from one original.  However, you don't just take a shovel and slice the thing apart indiscriminately.   You also don't want to leave roots and connections back to the parent plant.  Instead, you carefully disentangle roots and tubers and find places where things look like they belong together and then you make judicious cuts and sacrifices and end up with smaller plants that can survive on their own.  Cutting up a plant just to fit it in a smaller pot is never a good idea.   http://gardening.about.com/od/perennials/ss/DividingSBS.htm
   - author: Daniel Hardman
     date: 2013-03-22 15:51:25
-    comment: >
+    comment: |
       I think that's a very true and insightful analogy, Wally. Thanks so much for adding to the conversation!
       
       I guess implicit in my thinking was the idea that if you have big files, and you split them, that the activity becomes an enabler for many of the forms of true goodness that you're highlighting.
@@ -62,7 +62,7 @@ comments:
       I do think that it's harder to accomplish the encapsulation and logical division if you leave things in a single file -- mainly because the ugliness of globals and other forms of coupling aren't as obvious.
   - author: Doug
     date: 2019-07-08 12:28:49
-    comment: >
+    comment: |
       I came to software through a background in hardware at Bell Labs in the mid 1980s.
       
       I learned embedded C development from a couple of DMTS level engineers and I still cherish how they bootstrapped my transition into software.

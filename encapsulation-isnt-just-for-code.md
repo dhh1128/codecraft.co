@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: SutoCom
     date: 2013-09-04 03:51:41
-    comment: >
+    comment: |
       Reblogged this on <a href="encapsulation-isnt-just-for-code.md" rel="nofollow">Sutoprise Avenue, A SutoCom Source</a>.
 ---
 When computer science folks talk about encapsulation, they are usually thinking of how the principle applies to objects and functions inside a codebase. Best practice calls for a separation of concerns--each object responsible for one type of work, hiding all details from its neighbors.

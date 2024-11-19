@@ -7,13 +7,13 @@ redirect_from:
 comments:
   - author: Scott
     date: 2015-09-25 15:49:42
-    comment: >
+    comment: |
       > get permission from the sysadmin to monkey with packages 
       
       Umm, no.
   - author: digitallyfreeblog
     date: 2017-03-19 03:07:11
-    comment: >
+    comment: |
       I just saw your blog post.  I have moved from Eclipse (well almost ) to Emacs for Python programming.  I stress the word Python, because for Java I think Eclipse still rocks.  But for all other reasons you rightly mentioned, plus the fact that now Emacs is also kind of IDE, auto completion, intelisence, code highlighting, Project system through plugins, integration with things like git and on and on.  I always knew that this potential existed at least in Emacs.  So I always kept my touch on Emacs.  And now it pays off.
 ---
 In my last post, I pointed out <a title="Why you should use an IDE instead of vim or emacs" href="why-you-should-use-an-ide-instead-of-vim-or-emacs.md">two little-discussed reasons why I think most engineers should spend most of their time in an IDE</a>.

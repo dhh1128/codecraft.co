@@ -7,31 +7,31 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2012-10-31 14:32:43
-    comment: >
+    comment: |
       Fowler's statement is my motto (separately generated) as well. My first 10  or so years were spent in maintainingsomeone else's code, trying to find a bug in a sea of statements.  Even a tidbit of comment to describe the WHAT the code was trying to do, would save much time "decoding" the HOW of the code back into the WHAT was intended, in order to find "the bug" of the bughunt.
       
       Since code spends the majority of its "life cycle" in the maintenance phase, I found that trying to INFORM/TELL the maintainer of the code WHAT I intended at the time of writing new code to be at least as important trying to tell the computer what I wanted. I have sought to do that ever since.
   - author: Daniel
     date: 2012-10-31 15:05:30
-    comment: >
+    comment: |
       I don't think it's a coincidence that people who care about comments usually have battlescars... :-)
   - author: All I Really Need To Know I Didn&#8217;t Learn In Compugarten &laquo; Codecraft
     date: 2012-11-15 08:32:55
-    comment: >
+    comment: |
       [...] Effective commenting. [...]
   - author: Virgil Ellsworth
     date: 2013-03-24 06:11:34
-    comment: >
+    comment: |
       Wow, incredible blog! How long have you ever been blogging for?
   - author: Carmon
     date: 2013-07-25 04:55:52
-    comment: >
+    comment: |
       Please let me know if you're looking for a article writer for your blog. You have some really good posts and I feel I would be a good asset. If you ever want to take some of the load off, I'd absolutely love to write some content 
       for your blog in exchange for a link back to mine. Please blast 
       me an email if interested. Many thanks!
   - author: Petra
     date: 2013-08-30 15:26:49
-    comment: >
+    comment: |
       Hello, I do believe your website could possibly be having internet browser compatibility issues.
       When I take a look at your website in Safari, it looks fine but when opening in I.E., 
       it has some overlapping issues. I just wanted to give you a quick 

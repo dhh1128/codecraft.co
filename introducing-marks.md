@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: David H
     date: 2014-07-24 11:24:47
-    comment: >
+    comment: |
       Daniel, this is looking very interesting.
       
       Very few projects nowadays are all written in one programming language. In my professional work a single project involves a server written in C++, another one written in Java/Groovy, and a bunch of related code written in Python, all communicating with each other. Yet the example you give of "no GPL code" could apply across such a multi-language project.
@@ -15,23 +15,23 @@ comments:
       Although I can see the value in a language designed around the marks concept, it would sure be useful to have an external toolchain implementing your marks system across multiple programming languages. The tools would know how to parse the langauges, generate graphs, and parse your style of marks.  An appropriate marking syntax would be devised for each programming language. Maybe decorators in Python, maybe specially formatted comments in other languages if necessary. The tool would run as part of building and/or testing. Such a toolchain could report code coverage statics. For example, "85% of the this code (written in C++, Python, and Javascript) is covered by an explicit license." And of course such a tool would work very well on code written in your intent programming language, which I am looking forward to reading more about.
   - author: David H
     date: 2014-07-25 06:42:02
-    comment: >
+    comment: |
       I woke up this morning and thought "wow, writing an external tool that creates an accurate call graph for Javascript would be really hard. How do you figure out where a closure gets used?" Valuable as it is, it would be difficult to retrofit your marks system to other programming languages...
   - author: Daniel Hardman
     date: 2014-07-25 06:55:11
-    comment: >
+    comment: |
       Actually, tracking down the usage of closures is going to be hard no matter where/how it's done. Even tougher is accounting for the use of function pointers. That's been worrying me for a while.
       
       Because of this, I think some kinds of propagation calculations will need to have caveats attached, if the compiler also detects the existence of phenomena that make calculation imperfect. :-(
   - author: Daniel Hardman
     date: 2014-07-25 06:57:29
-    comment: >
+    comment: |
       I had not seriously considered making marks work across a multilingual tool chain, but it's an intriguing enhancement. This is why I blogged--I needed smart people to point out ways this needed polish. Thank you!
       
       I love the idea of statistics gathering, BTW. It fits very well with another natural use of marks, which is simple tagging. You can imagine stats for individual tags, but also for intersections and unions of tags that are interesting...
   - author: trevharmon
     date: 2014-09-08 23:33:04
-    comment: >
+    comment: |
       In addition to the other comments already made, I feel like this is also addressing some of the bad behavior we do when we try to embed many of these ideas into the names of our functions or methods. Often, these because unnecessary habits that we carry from language to language. Why are all of my object initialization methods named _init()? At one point, because particular languages wouldn't enforce encapsulation, we were doing things like starting function names with underscores. We all "understood" this to mean, "don't call this function from outside this file". Even if encapsulation was enforced, we still tended to do it just so we could quickly look at the function name and gain some understanding of how it was to be used, not just what it did. I can think of probably another half-dozen such behaviors off the top of my head. However, personalized markup certainly had its problems. For example:
       
       - Did I understand it? Yes... well... probably for the first few years.

@@ -7,11 +7,11 @@ redirect_from:
 comments:
   - author: Decoupling Interfaces As Versions Evolve, Part 1 &laquo; Codecraft
     date: 2013-02-21 11:54:59
-    comment: >
+    comment: |
       [...] look at some approaches to that goal, and discuss why they still leave me unsatisfied. In part 3, I’ll offer my own [...]
   - author: Decoupling Interfaces as Versions Evolve, Part 2 &laquo; Codecraft
     date: 2013-02-21 11:58:39
-    comment: >
+    comment: |
       [...] is part 2 of a series. You can read part 1 and part 3 as [...]
 ---
 <em>This is part 3 of a series. You can read <a href="decoupling-interfaces-as-versions-evolve-part-2.md">part 2</a> as well.</em>

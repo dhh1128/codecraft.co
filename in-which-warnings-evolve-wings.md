@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: David H
     date: 2014-08-07 06:58:11
-    comment: >
+    comment: |
       I often download and compile open-source software. As I watch the compile messages scroll by, I get a warm, fuzzy feeling when it just quietly compiles without warnings. On the other hand, when I get lots of noise about incompatible integer sizes and such, I don't feel so good about the software. Maybe some projects use gcc flags that suppress all warnings, but usually it seems like they either care about warnings and address them all, or else they don't care about whatever noise spews out at compile time.
       
       I like the idea of more intelligent suppressing of warnings, where you have to more explicitly say why the warning does not apply in your situation.
@@ -19,7 +19,7 @@ comments:
       Sorry Daniel, just thinking this through out loud, I hope it helps.
   - author: Daniel Hardman
     date: 2014-08-07 11:35:49
-    comment: >
+    comment: |
       Thank you so much for thinking about this in depth, and asking smart questions, David!
       
       I relate to your comment about getting warm fuzzies from a clean build. I also agree that deterministic build results is a big deal. A HUGE deal, actually. Having a build which is noisy on some platforms, or which becomes noisy in surprising ways, is not good. Perhaps the idea of expiring warnings on a date or after a milestone is therefore iffy.
@@ -31,13 +31,13 @@ comments:
       Regarding "TODO" lists, I'm not sure. Gonna have to noodle on that. Warnings as described here are basically questions intended to resolve ambiguity. Extending them to items that must be completed might or might not be a good idea.
   - author: David H
     date: 2014-08-07 16:26:27
-    comment: >
+    comment: |
       Having different sets of warning levels for different roles (maintainer, automated build system, end user) seems like it could be useful. I assume there would be a command-line switch that let's you easily switch roles. This of course resembles the warning level switches that compilers already support. But you are describing something more complicated that just an integer level for filtering warnings.
       
       I wasn't really advocating using warnings as TODO lists, it just seemed like the particular use case was headed that direction. I believe warnings should be dealt with immediately. As you said, they represent ambiguity, and I don't want ambiguity to persist.
   - author: trevharmon
     date: 2014-09-08 23:49:52
-    comment: >
+    comment: |
       This article caused me to reflect on some of my coding experience with Perl where one has the ability in code through pragmas to not only disable different types of warnings (assuming they were turned on in the first place), but also disable strict code checking (e.g., variable declaration) (also assuming they were turned on) inline in the code. Annoying warning? Disable warnings in that particular block.
       
       I've done this many times, almost always for one of the reasons you've listed above (i.e., the warning doesn't apply in this one particular case, "No, I really know what I'm doing", "sudo make me a sandwich", etc.). I din't always do it for the "right" reasons either.
@@ -53,7 +53,7 @@ comments:
       Thanks for always providing good food for thought!
   - author: Daniel Hardman
     date: 2014-09-09 09:04:58
-    comment: >
+    comment: |
       Trev: you have a dry sense of humor. "Oddly, they had issues later." First I chuckled. Then I cried. I can so, so relate. :-)
       
       I totally agree that we don't want to encourage behaviors that make "cleaning up warnings" less important or less of a best practice. I wasn't thinking of marks having such an effect; instead, I was imagining that by making it possible to drive ambiguity out of code, they'd make warnings that remain much more likely to get the attention of coders. But now you've got me wondering whether marks might unintentionally become a big, clumsy hammer that encourages bad behavior. If so, that's awful.

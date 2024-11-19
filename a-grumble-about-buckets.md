@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Sean
     date: 2015-04-08 16:07:46
-    comment: >
+    comment: |
       I agree with all the principles you have mentioned: gather customer feedback, keep interactions simple, you can't please everyone, etc. I also recognize that your posts, Daniel, usually describe lofty, but worthy ideals. We should always strive to be better and do better, but perhaps it's my role as a project manager that has me scratching my head over how to handle the trade-offs that often exists between the ideal and what is good enough. I'm not talking about ethical trade-offs but rather those trade-offs between two good things when you are only staffed for one.
       
       Whether you blame the financial institution or the third-party software integration package that your financial institution probably used, my question is this: aren't those security questions good enough? How many users honestly don't have a good answer for any of those "bucket" questions? In the case of Netflix, put yourself in the Product Manager's shoes: even if you had the feedback that the buckets are too general, would you feel a greater urgency to fix that or address streaming issues that are impacting most customers?
@@ -25,7 +25,7 @@ comments:
       P.S. - A tip for security questions: I've discovered that you don't have to have a pet to imagine one up. My "imaginary" first car and pet are actually quite more memorable than some of the other questions because I picked wild answers that are funny / memorable to me. I just make sure to use that same pet for every site that asks the question. Plus I have the added bonus that no one will ever be able to discover my answers because they never actually existed! I'll bet your first car was really a Ferrari, wasn't it? ;)
   - author: Daniel Hardman
     date: 2015-04-08 16:31:45
-    comment: >
+    comment: |
       Sean! How wonderful to hear from you. Very thought-provoking comment.
       
       Yes, it is true that dev teams usually do their darndest (or want to) to anticipate customer needs and make things easy. As I said, I'm more irked at companies that make it impossible to get feedback to such folks, and less irked with initial mistakes. You're so right--dev teams are usually overcommitted and doing the best they can. But sometimes, I just can't help crying "shame!" on companies for not letting them do better. And I don't think it's a bad thing for developers to exhibit a little "divine discontent" with their customer-aiding constraints.

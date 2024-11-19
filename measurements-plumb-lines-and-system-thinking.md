@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2012-11-13 09:58:01
-    comment: >
+    comment: |
       I am not a pilot but I understand "instrument flying" operation.  It is possible to "fly the plane" by chasing the "artificial horizon", constantly trying to keep the horizon 'level'. Yet by solely following that type of flying, it is very easy to lose track of the overall objectuve if actually going somewhere desired. One can fly the plane correctly and safely, yet never get any where.
       
       Tracking bugs fixed is good, but does that tracking increase or decrease the entropy of the code? A metric is there and can be used for reports, but what metric is used to measure "better code", "cleaner code", or "code that properly reflects the model of the problem being solved"?
@@ -15,7 +15,7 @@ comments:
       As always, some great insight
   - author: Daniel
     date: 2012-11-13 10:15:14
-    comment: >
+    comment: |
       Doug: I hadn't considered the analogy to flight, but I think it's a very insightful one. The problem of optimizing a particular number on the instruments, as opposed to seeking the overall best flying experience, is exactly the sort of problem that Seth Godin talked about with his caution about false proxies. We get enamored of a number and forget that it's only a means to an end.
       
       That said, I'd rather have two or three useful numbers than just a vague intention. This is why it was so smart of you to pick a specific target (e.g., "no modules > 10k lines") and work to hit it in your moab work.

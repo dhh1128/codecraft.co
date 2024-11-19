@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: dougbert
     date: 2012-11-14 11:22:17
-    comment: >
+    comment: |
       I have to admit, I learned that (0 == i) trick myself in the past 18 months, but I adopted it myself AND it saved me from introducing several bugs within DAYS of coding it that way. I continue to do it now.
       
       Yeah, the old C "left, right" reading can be very helpful
@@ -17,13 +17,13 @@ comments:
       Instead of:  C   Use:  ConfigurationData
   - author: Daniel
     date: 2012-11-14 22:17:13
-    comment: >
+    comment: |
       The trick of choosing good names is so fundamental it deserves its own post. Have a look at <a href="good-code-is-named-right.md" title="Good Code Is Named Right" rel="nofollow">Good Code is Named Right</a>.
       
       (I can tell you've got battlescars; young engineers are often blind to the power of that particular habit. :-)
   - author: Julie
     date: 2012-11-26 14:25:09
-    comment: >
+    comment: |
       First, I would like to add a reference for how to use const. It provides a very good description of why to put const after the type. It is the original reference from Dan Saks that I based my style change on. http://www.dansaks.com/articles/1999-02%20const%20T%20vs%20T%20const.pdf
       
       As for assignment in a conditional, I used to recommend the constant on the left. However, I no longer do. Over time two things have changed my mind: 1) compilers issue warnings for use of an assignment in a conditional (which can be turned of by an extra set of parenthesis if that is what you really desire), and 2) It often makes the code harder to understand for a human reader. 
@@ -35,21 +35,21 @@ comments:
       I have definitely noticed that unseasoned C/C++ programmers often get confused when they see "if (0 == foo())". Instead of explaining the reasoning for that non-obvious operand order I explain that turning on compiler warnings is a good idea. :-)
   - author: Daniel
     date: 2012-11-26 21:03:12
-    comment: >
+    comment: |
       Julie: So glad you added a reference to the Dan Saks article. He explains it so much better than I could!
       
       The constant on the left is a tradeoff. I agree that it doesn't read as nicely, and that modern compilers are better at warning about the issue. However, I recently started working on some open source code, and there are members of the community for this particular codebase that are using pre-1990s C (not C++) compilers. I kid you not. So dialing up warnings is not always feasible. Where it is, I think I agree that the pendulum swings the other way.
   - author: How Sutter&#8217;s Wrong About const in C++ 11 &laquo; Codecraft
     date: 2013-01-02 08:50:24
-    comment: >
+    comment: |
       [...] community’s attention. I learned something important; I recommend that you watch the talk. Using const well is an essential skill. But I think in his enthusiasm about the way the language has evolved to make semantics clearer, [...]
   - author: Dan
     date: 2014-05-20 20:17:20
-    comment: >
+    comment: |
       Note that as long as the code still at least compiles under newer compilers, I'd argue that this isn't a valid justification for outdated or otherwise sub-optimal practices. If at least one member of the community encounters the warning, in principle the entire community is aware of the problem. A heterogeneous collection of compilers has access to the *union* of their respective warnings, not the intersection.
   - author: Daniel Hardman
     date: 2014-05-20 20:26:22
-    comment: >
+    comment: |
       @Dan: You make a fair point. Unfortunately, in the codebase I mentioned above, the community as a whole is in the habit of ignoring warnings; if it compiles, it must be good. Aargh!
       
       I wonder if your last sentence is a gem of wisdom that explains the power of open source in general. Good food for thought...

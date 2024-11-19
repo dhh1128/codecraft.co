@@ -7,15 +7,15 @@ redirect_from:
 comments:
   - author: Decoupling Interfaces As Versions Evolve, Part 1 &laquo; Codecraft
     date: 2013-02-21 11:54:55
-    comment: >
+    comment: |
       [...] to interface versioning with the flexibility of late binding to get the best of both worlds. In part 2 of this series, I’ll look at some approaches to that goal, and discuss why they still leave [...]
   - author: Julie
     date: 2013-03-08 17:40:07
-    comment: >
+    comment: |
       Such a timely post. I am right in the middle of moving a distributed system from a custom RPC style communication to a messaging system. My current thought is to at least use the document mechanism to at least allow some compatibility among components running different versions. I am looking forward to part 3.
   - author: Daniel Hardman
     date: 2013-03-08 18:32:54
-    comment: >
+    comment: |
       Synchronicity! I just wrote my first RabbitMQ client last week. Great minds think alike! :-)
 ---
 <em>This is part 2 of a series. You can read <a href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a> as well.</em>

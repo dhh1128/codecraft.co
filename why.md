@@ -7,15 +7,15 @@ redirect_from:
 comments:
   - author: Rick
     date: 2013-01-31 00:47:10
-    comment: >
+    comment: |
       Great insight here, Daniel. This is definitely a challenge worthy of taking to heart. I'm glad to have a person with your mix of talents working where you do. For me personally, the "why" for what I do (or what I aspire to do) has not emerged as clearly or as easily as I would have liked, but I definitely appreciate the way you've expressed it. I can relate to having a strong desire to contribute to something that I deem truly worthwhile to humanity. I would add that this is a process, and assert that seeking our motivations and then occasionally going back to analyze and reevaluate them is an important exercise as we learn and develop.
   - author: Daniel Hardman
     date: 2013-01-31 08:13:10
-    comment: >
+    comment: |
       Thanks for the thoughtful comment, Rick. I think you've said something important about "start with why" being a process. We learn more about ourselves as life goes by, and if we're tuned in to that sort of discovery, it can lead us to question and refine our why. Having to wrestle with it is a sign that we're being thoughtful and honest; I mistrust easy answers. Hopefully I'll still be thinking carefully about this topic in a few years, and maybe I'll have a better answer. :-)
   - author: Trev Harmon
     date: 2013-02-03 22:46:13
-    comment: >
+    comment: |
       Daniel,
       
       For me, this has been an interesting one. As you mentioned, the book is by no means perfect, but I've found the ideas resonating more than many of my other business books. Tossing the ideas around has proved interesting, and I've learned a few things.
@@ -32,13 +32,13 @@ comments:
       Also, thank you for back-to-back mentions.
   - author: Daniel Hardman
     date: 2013-02-04 08:59:44
-    comment: >
+    comment: |
       It was hard for me to put my own "why" into words, and I don't think I've got it completely right, yet. What I have here is pretty close, and I felt like it was important to make the attempt to articulate, even if I missed the center of the target a little. It was healthy to struggle.
       
       You highlight a whole other level of this issue, which is finding a "why" for teams or larger organizations. I conveniently ignored that in this post, but I think it's a vital question. I am wondering if it's possible to discover a why after the fact. Do great organizations always begin with their why well understood, or can you socialize a why and build a groundswell of enthusiasm for it after the fact? I think many companies don't have much of a why at the forefront of their thinking, so if you have to begin already knowing it, the picture is bleak for most enterprises...
   - author: Trev
     date: 2013-02-04 10:30:36
-    comment: >
+    comment: |
       After a bit of thought on this, I've come to the conclusion it is possible to install a new why, but not retrofit. We've seen it a couple of times in industry--most impressively with Steve Jobs' return to Apple, though from all accounts that was done with a great deal effort and pain.
       
       Here's the reasoning. I think it is impossible for a person or organization to exist without a why. If one isn't implicitly stated, a "natural" one forms. For enterprise, this naturally occurring why is "to make as much money as possible" or some variation thereof. The things with whys is they are used to make self-reinforcing decisions. For example, hiring decisions will be made consciously or subconsciously based on the why. The chosen person will exhibit the attributes preferred by the why, and will therefore reinforce the why culturally in the organization.
@@ -46,19 +46,19 @@ comments:
       Here's the concerning thing, in our western society there are cautionary tales for those who only seek money (think how the once while name Scrooge has taken on a life of its own). However, those who would object to the accusation that they put money first and foremost in their lives have no problem building a human-based organization to do so. All organizations, even enterprise, are composed of humans with human traits and actions. Hence the reason an appropriate why is necessary.
   - author: Daniel Hardman
     date: 2013-02-04 21:17:36
-    comment: >
+    comment: |
       I've been reading some of the later chapters in <em>Start With Why</em>, and I'm encouraged by the story of Gordon Bethune turning around Continental Airlines. He seems to have tapped into a latent why that many people at the organization could buy into with all their hearts. It's worth noting, however, that he fired 39 of the 60 top executives when he began shaking things up--and that he was able to institute sweeping change from the top down. It's not clear to me how it works to do it the other way, from the ground up.
   - author: Trev Harmon
     date: 2013-02-04 21:44:43
-    comment: >
+    comment: |
       Because of the nature of the self-reinforcing decisions, I don't think it is possible for the change to work in a permanent, organization-wide manner from the ground up (save the ground-up movement changing the mind the person at the top, who then institutes it from the top down). At this point, I think those in the best those in the bottom and middle of an organization can do is to affect their own sphere of influence. If enough change is made there, then hopefully it will start to gain traction organization-wide, which conveniently takes the conversation full circle: the importance of the personal why.
   - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
     date: 2013-02-05 08:57:56
-    comment: >
+    comment: |
       [...] We accept all feature requests at face value and don’t vett them thoughtfully against our why. [...]
   - author: kareklesgrafeiou
     date: 2013-03-07 21:04:34
-    comment: >
+    comment: |
       whoah this weblog is fantastic i like studying your articles.
       Keep up the great work!
 ---

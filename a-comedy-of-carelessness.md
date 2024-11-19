@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: trevharmon
     date: 2013-12-09 09:58:06
-    comment: >
+    comment: |
       I think one of the most egregious examples I've recently run into was the hoops necessary to jump through to buy rail tickets online for India. Now the IRCTC (Indian Railway Catering and Tourism Corporation Limited irctc.co.in) is arguably one of the largest ticketing/booking systems in the entire world, and is by far the easiest method for booking train tickets (unless you happen to live in a country that has an IndRail pass agency, of which the U.S. is not).
       
       Here's the issue.
@@ -21,17 +21,17 @@ comments:
       So, I think we are slowly getting better.
   - author: Daniel Hardman
     date: 2013-12-09 13:25:25
-    comment: >
+    comment: |
       Yes, when we ask crisper questions (your Apple example), we definitely improve the user experience.
       
       Your story about railway tickets in India reminds me of a great short story by Stanislaw Lem, called "Trurl's Prescription." It's about a society that has an intrusive beast settle on their planet. They can't get rid of it. They try everything up to and including nuclear bombs, and it seems impervious to influence. So they hire Trurl (a great inventor). He immediately serves a writ of dense legalese on the creature, requiring a notarized signature in triplicate. Things get progressively sillier from there, until eventually the creature vanishes. Trurl's parting observation is that when all else fails, you can always use bureaucracy--no way has ever been found out of its insidious clutches. :-)
   - author: lkafle
     date: 2013-12-10 02:19:36
-    comment: >
+    comment: |
       Reblogged this on <a href="a-comedy-of-carelessness.md" rel="nofollow">healthcare software solutions lava kafle kathmandu nepal lava prasad kafle lava kafle on google+ <a href="https://plus.google.com/102726194262702292606" rel="publisher">Google+</a></a>.
   - author: doug thompson
     date: 2013-12-10 13:23:06
-    comment: >
+    comment: |
       SOOOOOOO BTDT!!!!!!!!!!!!!!!!
       (been there done that)
       
@@ -47,11 +47,11 @@ comments:
       Later found a better station near the airport.
   - author: Daniel Hardman
     date: 2013-12-10 17:09:26
-    comment: >
+    comment: |
       I had to laugh (groan) a bit about your triple-swipe example. I've bought stuff at Wal-mart, realized I forgot something, and circled back through checkout 3 minutes later enough times--and triggered a fraud alert enough times--to recognize that scenario all too well. I now work around it without even thinking, by using an alternate card the second time through. Ugh. We shouldn't have to think this hard to do something simple...
   - author: Jared
     date: 2013-12-14 21:48:38
-    comment: >
+    comment: |
       Ambiguous challenge questions is a pet peeve of mine.  "What is the name of your elementary school?"  Forget that I don't know if I would have put "Lincoln Elementary" or "lincoln", I can't be the only one who attended multiple elementary schools.  The school where my children attend has something like a 10% turnover PER YEAR.  First pet?  My older siblings talk about dogs I barely remember, would I have put one of those names, or the one I remember clearest?  
       
       I laughed the other day when I was prompted at a new site with a question I had never seen before: What is the name of the girl you first kissed?  Now that I remember!

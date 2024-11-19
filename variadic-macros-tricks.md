@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: Jason Ivey
     date: 2015-01-05 18:23:11
-    comment: >
+    comment: |
       I love the preprocessor for exactly this kind of work.  Although macros get a bad name these days, the preprocessor itself is still a powerful and wonderful tool when used for the problems you described.  
       
       What I've discovered recently as I have been writing custom macros is that many, if not all, of the underlying code I invent is already written in the boost.preprocessor library.  I'm not sure if it has an identical solution to what you have created above but I know it has a macro to convert the var_args to a count and list. (BOOST_PP_VARIADIC_TO_LIST)
@@ -17,27 +17,27 @@ comments:
       In my opinion, the boost.preprocessor library documentation leaves a little to be desired in terms of examples and descriptions.  But there is a lot there to work with.
   - author: Daniel Hardman
     date: 2015-01-05 18:57:03
-    comment: >
+    comment: |
       Jason: I've run into boost.preprocessor a few times, but I haven't used it much. Shame on me! Thanks for reminding me to learn about it.
       
       When I run into a programming problem that I don't know how to solve, I often like to write my own solution--not so much because I want to *use* my own solution, as because I want to learn what it takes to solve the problem. Once I've solved it to my own satisfaction (and, sometimes, written about it so I understand how it works well), then I can appreciate a more elegant or general solution, and chuck my own. I'll have to look into boost.preprocessor to see if it solves the problem I was seeing in the intent codebase; if so, I'll gladly switch over, since I'm already using boost a fair amount.
   - author: Franz G
     date: 2017-10-25 10:01:29
-    comment: >
+    comment: |
       "Use Boost" doesn't make for compelling blog posts ;)
   - author: Mattias
     date: 2017-12-14 05:44:02
-    comment: >
+    comment: |
       Hi. I try the example "macros_overridden_by_arg_count" but I get the warning "not enoug parameter for macro '_GET_OVERRIDE'
   - author: cormacc
     date: 2018-03-26 05:40:19
-    comment: >
+    comment: |
       Hi Daniel,
       I found this recursive implementation useful in some mocking/unit testing work -- thanks! Wrapped it and some extensions in a ruby generator script for an arbitrary number of arguments here  if it's of any use to anyone else:
       https://github.com/cormacc/va_args_iterators
   - author: Rune Paamand
     date: 2019-10-01 01:35:40
-    comment: >
+    comment: |
       Mind that your examples will not work on MSVC where the variadic macro does not expand. You need an expansion step to achieve the `COUNT_VARARGS`:
       
       // Count how many args are in a variadic macro. Only works for up to N-1 args.
@@ -47,11 +47,11 @@ comments:
       #define COUNT_VARARGS(...) RETURN_ARG_COUNT EXPAND_ARGS((__VA_ARGS__, 4, 3, 2, 1, 0))
   - author: Daniel Hardman
     date: 2019-10-02 07:03:03
-    comment: >
+    comment: |
       Thank you! I think I ran my code through a version of MSVC at one point, but I've long since let any insight about it grow stale, so this is a great help. I appreciate the improvement.
   - author: metablaster
     date: 2019-10-04 13:53:31
-    comment: >
+    comment: |
       Hi Daniel, thank you a lot for these macro hacks which are awesome, I knew all of them except the "for each" macro, it doesn't work in MSVC out of the box, here is a trick for those who want to make it work!
       
       #define EXPAND(x) x
@@ -75,19 +75,19 @@ comments:
       }
   - author: Daniel Hardman
     date: 2019-10-04 15:31:27
-    comment: >
+    comment: |
       Thanks for improving this content! I really appreciate the note about MSVC.
   - author: Dave MacLachlan
     date: 2020-07-29 09:41:39
-    comment: >
+    comment: |
       Thanks so much for the article. Just an FYI that you have a typo in your second `eprintf` block. I think you want `#__VA_ARGS__` as opposed to `#__VA_ARGS`
   - author: Daniel Hardman
     date: 2020-08-04 08:43:14
-    comment: >
+    comment: |
       Thanks, Dave, for the comment and for the catch on the typo. I've updated the gist.
   - author: 为什么我的可变参数宏不能正确接受参数？ &#8211; FIXBBS
     date: 2020-09-09 08:10:27
-    comment: >
+    comment: |
       […] https://codecraft.co/2014/11/25/variadic-macros-tricks/ […]
 ---
 Have you ever wanted to write a "for each" loop over all the args of a variadic macro? Or have you ever wanted to overload a macro on the number of arguments? (If you're saying to yourself, "good grief, why?" -- I'll describe a use case at the bottom of this post.)

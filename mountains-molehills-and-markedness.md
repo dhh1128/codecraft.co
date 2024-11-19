@@ -7,17 +7,17 @@ redirect_from:
 comments:
   - author: Dennis
     date: 2014-07-30 01:24:05
-    comment: >
+    comment: |
       Just one little correction to the German example in section "Aside". You use the word "Löwin" as genderless expression, but this is the female lion. Whereas "Löwinnen" is the plural of "Löwin". If you wan't to correct it, it would be "Ich sah einige Löwen" :: "Ich sag einige Löwinnen".
       
       But nevertheless thank you for sharing your insights!
   - author: Daniel Hardman
     date: 2014-07-30 08:36:47
-    comment: >
+    comment: |
       Thank you so much for the catch, Dennis! I've updated the post.
   - author: David H
     date: 2014-08-07 06:35:21
-    comment: >
+    comment: |
       The additional use cases for marks that you have described here look much more challenging to implement than the ones you gave previously. The earlier use cases could have been implemented by examining a call graph and a DOM of the compiled code. But the use cases involving temporal boundaries, wouldn't those require more sophisticated flow analysis?
       
       So, if difficulty of implementation is not to be considered at all, then I can add some more use cases to your list. :)
@@ -31,7 +31,7 @@ comments:
       There are probably a lot more security-related rules that, if your marks system was fully functional as you described, could finally be enforced.
   - author: Daniel Hardman
     date: 2014-08-07 11:17:25
-    comment: >
+    comment: |
       Excellent notes, David. The one about direct user input is a great use case, and a piece of cake to implement--and I think it would even be possible to take most of the burden off of the coder, because functions that receive direct user input can be painted with a mark that propagates to anything that calls them in an assignment. This makes it so the very act of calling something like sscanf() can automatically cause the variables that get set to acquire the "direct user input" mark, without the coder lifting a finger.
       
       You are right that temporal propagation is harder to implement than some of the other ones. Maybe I'll have to defer that one if it proves too challenging--although I have some ideas about how it would work, and they seem feasible in my mind. I guess we'll see when I get there. At the moment I'm still in the early stages of lexing/parsing...

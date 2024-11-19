@@ -7,7 +7,7 @@ redirect_from:
 comments:
   - author: trevharmon
     date: 2013-08-22 09:58:59
-    comment: >
+    comment: |
       Excellent article, Daniel.
       
       I wonder where the line is between accepting a certain amount of context-sensitive ambiguities as just being a part of human communication (which programming is, in some sense) and allowing the creation of arbitrary grammers like in Perl 6 (http://en.wikipedia.org/wiki/Perl_6_rules#Grammars), which I would expect leads to the emergence of dialects, like we see in spoken and written human language.
@@ -19,7 +19,7 @@ comments:
       Like always, your article provides me with much to ponder and consider.
   - author: Samuel A. Falvo II
     date: 2013-08-22 11:32:08
-    comment: >
+    comment: |
       Extreme programming advocates coding without comments to the greatest degree possible, but no more than that.  The idea is to use well-chosen, verbose names for types and methods that work on those types.  For example, instead of your C++ code in listing 1, we might see:
       
       [1] int Vehicle::VehicleFromString(const char * source, std::list * attributes, int maxLoadCount) {
@@ -74,7 +74,7 @@ comments:
       Notice also that I can refactor common predicates into definitions that manipulate return and data stacks, and as long as I call these definitions from words that have the same stack shapes on entry, I can re-use these predicates WITHOUT having to rely on macros, as I would in C and C++.  This not only improves the readability of code, making it that much more declarative in nature, but it also saves valuable program space by preventing repetitious code in the compiled binary image.
   - author: tianyuzhu
     date: 2013-08-22 12:38:39
-    comment: >
+    comment: |
       With some effort, we can convey a sense of semantics in C++. For example we should be able to write:
       
       int Vehicle::LoadVehicleFromStr(std::string serializedAttrs,
@@ -94,11 +94,11 @@ comments:
       shared_ptr: Like "T *", except the funciton gets shared ownership of the instance.
   - author: Daniel Hardman
     date: 2013-08-22 16:26:46
-    comment: >
+    comment: |
       Yes, I agree that making language more rich can be taken too far. Python is one of my favorite languages, but it foregoes a lot of the ideas I'm advocating, in favor of terseness and simplicity. And it works. I think the reason why has something to do with the problem domain that's its sweet spot, which I think is on somewhat smaller and less complex projects than the sort I've spent most of my career leading. When you need to rip through a thousand files and slice and dice the data they contain, for a quick-and-dirty project, you don't really want "semantic density" getting in the way. You can hold the whole problem in your head, more or less, and you just want to get on with expressing the solution. On the other hand, if you're writing a hairy system with a dozen or a hundred other programmers at multiple sites, and it will be maintained and enhanced for years to come, being crystal clear about your intentions is probably worthwhile.
   - author: Daniel Hardman
     date: 2013-08-22 16:33:45
-    comment: >
+    comment: |
       Samuel: Your craftsmanship is showing. :-)
       
       I picked these samples from actual production codebases that were conveniently laying around. They weren't intended to be great code, only realistic. The C++ snippet is one I had to rewrite slightly to protect the (semi)innocent, and my rewrite introduced the bug you caught.
@@ -110,7 +110,7 @@ comments:
       Thanks for the thoughtful response.
   - author: Daniel Hardman
     date: 2013-08-22 16:51:38
-    comment: >
+    comment: |
       Good observation, Tianyuzhu. Thanks for the comment.
       
       I agree that it is *possible* to express most or all of the ideas in this post, using cutting-edge C++. We must think alike. On several C++ codebases, I've done stuff like this--only to see a majority of the other programmers on the teams react with puzzlement and eye-rolling. This frustrates me.
@@ -123,7 +123,7 @@ comments:
       I guess I can't blame C++ compilers for cheerfully consuming code that uses none of the techniques you've identified. The set of use cases that C++ aims to address is incredibly broad, and careful communication is not always worthwhile if you're writing small or short-lived projects.
   - author: j2kun
     date: 2013-08-22 17:54:46
-    comment: >
+    comment: |
       Great post! My two cents:
       
       It seems to me that there's a fine line between semantics of a programming language and "semantics" as you describe it in this post. I would consider many tasks like generating unit tests and documentation generation to be programmer tools, not strictly part of the language itself. Are you arguing that these *should* be part of the language? If so, I would say you're expecting too much of semantics and the compiler. Besides, those programmers who care that much about fine optimizations are hugging the machine architecture so tightly that (I imagine) they'd rather do it themselves and have it be explicit in the code than rely on the contextual knowledge of which compiler optimization is in play at what time. I imagine the compiler would be able to optimize something if you have +range(0,N) but not +range(0,N+1) for some sufficiently large value of N, and this would just add to the contextual knowledge needed.
@@ -131,23 +131,23 @@ comments:
       That being said, I think you're thinking too small! With the current state of technology, why restrict yourself to text? Moreover, if you want simplicity and cleanliness without sacrificing "semantic density," why not design a language as you wish, and design an editor that transforms terse and detailed representations back and forth at the will of the coder? (say, by mouseover, or C-x M-c M-expand, or whatever mechanism you like) Or why not have the compiler learn the appropriate constraints? A dynamically written Python-style program could be transformed into a statically-typed version which can then be compiled and optimized as desired.
   - author: Daniel Hardman
     date: 2013-08-22 18:02:04
-    comment: >
+    comment: |
       Jeremy: Thanks for a thought-provoking idea. Implementing an optimized editor along with a language is what the designers of Smalltalk did, and lo and behold, the modern IDE was born. It sounds like a lot of work, but maybe a lot of coolness would result. I'll have to chew on that for a while...
   - author: j2kun
     date: 2013-08-22 18:04:07
-    comment: >
+    comment: |
       Have you heard of LightTable? They are already doing some things in the realm of automated test generation, but their goal is somewhat different: they wish to alleviate and add inspiration to the process of writing new code.
   - author: Daniel Hardman
     date: 2013-08-22 18:13:17
-    comment: >
+    comment: |
       Wow! I went and watched the kickstarter video, and I started salivating. That is an awesome concept. I want to get me one, today! I'm going to download the preview and see if they do more than lisp... Thanks for the suggestion.
   - author: j2kun
     date: 2013-08-22 18:19:25
-    comment: >
+    comment: |
       Well now that I've got your attention :) the Light Table project was inspired by a talk of Bret Victor called Inventing on Principle, and he has a second talk called The Future of Programming which I think you'll enjoy. Both bring up some very important questions about the way we interact with computers in designing programs.
   - author: tianyuzhu
     date: 2013-08-22 21:34:45
-    comment: >
+    comment: |
       It's kind of funny because there are libraries like Guava that implement things like Optional for Java, and Java developers happily use it.
       
       Here's the thing:
