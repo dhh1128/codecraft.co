@@ -27,8 +27,11 @@ Clayton Christensen is famous for writing about this in <em>The Innovator's Dile
 
 I've seen good examples of thinking outside the box during my career. The decision at PowerQuest to invest in disk-based backup instead of building another version of PartitionMagic comes to mind. But I've also seen the opposite &mdash; blind commitment to version 5.0 and 6.0 to such a degree that teams could not innovate.
 
-Seth Godin writes insightfully about this in <em>Poke the Box</em>:
-<blockquote>[Most organizations] are based on this assembly line model of scalability. <em>The system is the system. Don't mess with it.</em> ... Now, think about Apple, Google, director James Cameron's team, Ideo, Pixar, and Electronic Arts. These are project-centric organizations. ... No projects, no organization. Coasting isn't an option because projects don't last forever. The people stick around, the posture persists, but the projects need to be refreshed.</blockquote>
+Seth Godin writes insightfully about this in <cite>Poke the Box</cite>:
+
+>[Most organizations] are based on this assembly line model of scalability. <em>The system is the system. Don't mess with it.</em> ... Now, think about Apple, Google, director James Cameron's team, Ideo, Pixar, and Electronic Arts. These are project-centric organizations. ... No projects, no organization. Coasting isn't an option because projects don't last forever. The people stick around, the posture persists, but the projects need to be refreshed.
+
 It feels to me like one way to encourage innovation in a software-creating org is to not assume that there will be a next version. There may be &mdash; but once this version ships, we spend at least a little time with first principles, re-validating assumptions about what can best delight customers.
+
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Analyze where your current product fits on Clayton Christensen's model of innovation vs. mature product. Does this suggest anything to you about a need for radical (as opposed to incremental) innovation?</span></em></p>
