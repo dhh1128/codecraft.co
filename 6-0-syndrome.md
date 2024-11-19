@@ -13,7 +13,7 @@ So what comes next?
 This is a silly question, right? If you just built version 5.0, then 6.0 is next. Or maybe 5.1. Unless marketing decides to call it Contraption 2013 instead.
 
 <figure>
-<img src="assets/rube-goldberg.png">
+<img src="assets/rube-goldberg.jpg">
 <figcaption> A highly-evolved contraption. Image credit: Midjourney.</figcaption>
 </figure>
 
