@@ -40,13 +40,11 @@ However, this strategy comes with an important caveat:
 <div style="margin-left:2em;margin-right:2em;border:solid 1px black;font-size:105%;font-weight:bold;font-style:italic;text-align:center;background-color:#f0f0f0;padding:1em;margin-bottom:1.5em;">If you're going to force all choices into a few predefined buckets, you better provide buckets that <a href="why-mental-models-matter">match the needs</a> of your <a href="why-people-are-part-of-a-software-architecture" title="Why People Are Part of A Software Architecture">users</a>.</div>
 Broken buckets will not earn you brownie points. Or revenue.
 
-<figure><img class="" src="https://farm3.staticflickr.com/2509/3993532812_e63f29c43b_z.jpg" alt="" width="640" height="480" /><figcaption>image credit: Eva the Weaver (Flickr)</figcaption></figure>
+<figure><img src="assets/broken-bucket.jpg" alt="" width="640" height="480" /><figcaption>image credit: Midjourney</figcaption></figure>
 
 Today I was adjusting my 401k contribution. Here's the broken buckets I saw when I logged in to the financial services website:
 
-
-
-<a href="https://codecraft.co/wp-content/uploads/2015/04/screen-shot-2015-04-08-at-11-26-44-am.png"><img class="aligncenter wp-image-6054 size-medium" src="https://codecraft.co/wp-content/uploads/2015/04/screen-shot-2015-04-08-at-11-26-44-am.png?w=300" alt="security questions" width="300" height="258" /></a>
+<img src="assets/security-questions.png" alt="security questions" />
 
 See, here's the problem. I have 3 favorite restaurants ("<em>what's your favorite ___?</em>" security questions are <em>all</em> useless to me), I'm not a pet person, I don't remember what kind of car I first drove, I lived in 20 different places by the time I was 18, I didn't have just one best friend in high school, and I don't have a security keyword that I reuse.
 
