@@ -137,13 +137,16 @@ What programming languages ought to do is allow coders to import data from their
 </pre>
 If a compiler supported such code, it might read the attached .csv file, parse it using CSV rules, and create an array of structs where each struct instance is a tuple or row of data. The array would be indexed by ID, a value that the compiler would generate in the same way enum values are assigned. The end result would be an a static constant array, exactly as if I had hand-coded a manual translation of the data. Essentially, this is the technique I recommended when I wrote about <a title="How Enums Spread Disease — And How To Cure It" href="how-enums-spread-disease-and-how-to-cure-it.md">how to avoid breaking encapsulation with enums</a>.
 
-[caption id="attachment_5895" align="aligncenter" width="646"]<a href="http://www.xe.com/symbols.php"><img class="size-large wp-image-5895" src="https://codecraft.co/wp-content/uploads/2014/10/screen-shot-2014-10-08-at-1-12-43-pm.png?w=646" alt="Currency Table at XE.com" width="646" height="390" /></a> Currency Table at XE.com[/caption]
+<figure>
+<img src="assets/currency-table.png"/>
+<figcaption>Currency Table at XE.com</figcaption>
+</figure>
 
 Think about the advantages for a minute. Christine Lagarde isn't going to call me up or help me write code if the IMF decides to make loans in Bitcoin (to pick a ridiculous example) &mdash; but I can write a cron job that downloads data about accepted currencies worldwide, as published on <a href="http://www.xe.com/symbols.php" target="_blank">xe.com</a>. Suddenly my code is up-to-date. I never have to do reformatting work, and I don't have to worry about code getting out-of-sync with reality.
 
 This isn't rocket science, but it's remarkably powerful. You no longer need to use programming language syntax to describe data &mdash; you can use a familiar, standard data representation language. That means non-coders can give it to you directly. Data sources turn into code with minimal effort.
 
-At work, I maintain code that helps categorize content on the web. The <a href="http://sitereview.bluecoat.com/categories.jsp" target="_blank">set of possible categories</a> is in a coded table in both C++ and java, but it is not chosen by engineers &mdash; product managers and executives debate about what's most useful to customers, and they periodically change their minds. If I had compilers that supported the behavior I'm advocating, I could tell my product management to email me a .xlsx whenever they make a change, and my reaction time would be minutes. And I could be certain that the C++ and java versions of the table were identical, since they used the same input data.
+At work, I maintain code that helps categorize content on the web. The <a href="https://sitereview.bluecoat.com/#/category-descriptions" target="_blank">set of possible categories</a> is in a coded table in both C++ and java, but it is not chosen by engineers &mdash; product managers and executives debate about what's most useful to customers, and they periodically change their minds. If I had compilers that supported the behavior I'm advocating, I could tell my product management to email me a .xlsx whenever they make a change, and my reaction time would be minutes. And I could be certain that the C++ and java versions of the table were identical, since they used the same input data.
 <h3>Getting fancy</h3>
 I can think of enhancements that would make such a mechanism even more powerful:
 <ul>
