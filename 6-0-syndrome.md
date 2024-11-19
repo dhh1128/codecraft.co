@@ -12,7 +12,10 @@ So what comes next?
 
 This is a silly question, right? If you just built version 5.0, then 6.0 is next. Or maybe 5.1. Unless marketing decides to call it Contraption 2013 instead.
 
-[caption id="attachment_374" align="aligncenter" width="320"]<a href="http://www.flickr.com/photos/argonne/6863155588/"><img class="size-full wp-image-374" title="6863155588_5d71447a96_n" src="http://codecraft.co/wp-content/uploads/2012/09/6863155588_5d71447a96_n.jpg" alt="" width="320" height="213" /></a> A highly-evolved contraption. Photo credit: Argonne National Laboratory (Flickr).[/caption]
+<figure>
+<img src="assets/rube-goldberg.png">
+<figcaption> A highly-evolved contraption. Image credit: Midjourney.</figcaption>
+</figure>
 
 I'd like to suggest that it is healthy to wonder if you should build a new incarnation of your current product <em>at all</em>. Sometimes, if you're smart, you'll realize that the answer is <em>no</em>.
 

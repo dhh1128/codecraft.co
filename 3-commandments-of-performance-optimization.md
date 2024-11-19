@@ -95,7 +95,7 @@ In order to work the bottleneck (or bottlenecks!) correctly, you must construct 
 
 <figure>
 <img src="assets/pipeline.png" width="500" height="500" />
-<figurecaption>Sample pipeline diagram for a process that might be optimized (in this case, a browser requesting a page that requires database query support). Greater height = greater throughput of a subsection of the process. Current bottleneck = shortest rectangle (in this case, security filter).</figurecaption>
+<figcaption>Sample pipeline diagram for a process that might be optimized (in this case, a browser requesting a page that requires database query support). Greater height = greater throughput of a subsection of the process. Current bottleneck = shortest rectangle (in this case, security filter).</figcaption>
 </figure>
 
 Once you have such a model, the proper focus for optimization should become obvious. (It should also be clear when/whether work on secondary bottlenecks might pay off. For example, if you can increase the capacity of the most constrained section of your pipeline, then perhaps the next-most-constrained section's capacity will become relevant...)
@@ -107,5 +107,6 @@ This is not redundant, and it is not simply repeated for dramatic effect.
 After you've measured and made your tradeoffs, you must continue to measure, at least often enough to notice if the tradeoffs you made become invalid. Remember the part about how often rules of thumb change? Don't make the assumption that the right tradeoffs today will always be the right tradeoffs tomorrow.
 
 I have worked several times in my career on technologies that were orders of magnitude faster than their competitors in the marketplace. In each case, the faster tech was disruptive, and the established and slower equivalent was long in the tooth. And in each case, the slower technology wasn't nearly so slow to begin with; its performance eroded steadily over time as it became more complex and addressed more and more corner cases. (Consider how the introduction of security affects performance in the pipeline diagram above.) So a word of warning to all purveyors of disruptive, radically faster coolness: if you don't continue to measure the performance of your stuff, on an on-going basis, I predict that you will lose a lot of your edge.
+
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Build a pipeline diagram for a process that you want to optimize. Identify bottlenecks. What aspects of the process should you ignore?</span></em></p>

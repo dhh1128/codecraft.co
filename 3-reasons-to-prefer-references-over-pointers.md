@@ -44,7 +44,7 @@ I still remember what it was like, as a C programmer, to be introduced to the ne
 
 For a long time, I thought of pointers vs. references as a stylistic choice, and I've run into lots of old C pros who feel the same. (The debate on <a href="http://www.cplusplus.com/forum/beginner/3958/" target="_blank">this comment stream</a> is typical.) If you're one of them, let me see if I can explain why I now think I was wrong, and maybe convince you to use references where it makes sense. I won't try to enumerate every reason &mdash; just hit a few highlights.
 
-<figure><img class=" " src="http://imgs.xkcd.com/comics/compiler_complaint.png" alt="" width="500" height="135" /><figcaption>image credit: xkcd.com</figcaption></figure>
+<figure><img src="http://imgs.xkcd.com/comics/compiler_complaint.png" width="500" height="135" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
 <strong>1. References have clearer semantics</strong>
 
