@@ -38,7 +38,7 @@ I don't think either of these extremes is healthy in all cases. I have seen prog
 
 On the other hand, it is possible to be <em>too</em> passionate about performance; optimizing the performance of the dev team (by decreasing coding and testing time) is often a better business choice than optimizing execution speed in ways that make code more complex and harder to verify. I have encountered performance zealots disqualifying a perfectly good design on the grounds that it's not performant enough in a use case that only 2 customers on the entire planet would ever care about. Not smart. As I've said many times, <a title="Good Code Is Balanced" href="good-code-is-balanced" target="_blank">good code is balanced</a>.
 
-<figure><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ThrustSSC_front.jpg/800px-ThrustSSC_front.jpg" width="480" height="320" /><figcaption>ThrustSSC &mdash; the first car to break the sound barrier. Sometimes speed is the ultimate criterion. However, most money is made on cars with more modest performance requirements. Photo credit: cmglee (Wikimedia Commons)</figcaption></figure>
+<figure><img src="assets/rocket-car.png" width="480" height="320" /><figcaption>A car that's maybe a bit too optimized for speed? Image credit: Midjourney</figcaption></figure>
 
 Let's assume you buy my criticism of the extremes, and you're willing to apply the <a title="Steve Tolman: It depends." href="steve-tolman-it-depends" target="_blank">"it depends" doctrine</a>. In some cases, you do nothing about performance, because the stakes are low. (Yes, all you performance zealots, there really are cases like this.) In other cases, you have to bring your A game. You want to strive for a pragmatic position that preps the code to be scalable up and down for years to come, that delights customers with its responsiveness, that's not overly complex or expensive to create or maintain, that makes wise use of scarce resources, and that will be friendly to innovations like massive parallelism and faster disk, network, and CPUs.
 
@@ -93,7 +93,10 @@ If a process is I/O bound, then a better sort algorithm ain't gonna matter, even
 
 In order to work the bottleneck (or bottlenecks!) correctly, you must construct a mental model of a processing pipeline, backed by the data you collect, that looks something like this:
 
-[caption id="attachment_901" align="aligncenter" width="500"]<img class="size-full wp-image-901" alt="Sample diagram of a process that might be optimized (in this case, a browser requesting a page that requires database query support). Greater height = greater throughput of a subsection of the process. Current bottleneck = shortest rectangle." src="http://codecraft.co/wp-content/uploads/2013/01/pipeline.png" width="500" height="500" /> Sample pipeline diagram for a process that might be optimized (in this case, a browser requesting a page that requires database query support). Greater height = greater throughput of a subsection of the process. Current bottleneck = shortest rectangle (in this case, security filter).[/caption]
+<figure>
+<img src="assets/pipeline.png" width="500" height="500" />
+<figurecaption>Sample pipeline diagram for a process that might be optimized (in this case, a browser requesting a page that requires database query support). Greater height = greater throughput of a subsection of the process. Current bottleneck = shortest rectangle (in this case, security filter).</figurecaption>
+</figure>
 
 Once you have such a model, the proper focus for optimization should become obvious. (It should also be clear when/whether work on secondary bottlenecks might pay off. For example, if you can increase the capacity of the most constrained section of your pipeline, then perhaps the next-most-constrained section's capacity will become relevant...)
 
