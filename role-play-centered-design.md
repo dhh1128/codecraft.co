@@ -4,8 +4,36 @@ date: 2012-06-20
 slug: role-play-centered-design
 redirect_from:
   - /2012/06/20/role-play-centered-design
+comments:
+  - author: Example RPCD Interaction &laquo; Software, Wetware, Webware
+    date: 2012-06-21 08:56:43
+    comment: >
+      [...] my last post on RPCD, I explained its key tenets. In this one, I’ll imagine one way to put it into [...]
+  - author: Long-Term Benefits of RPCD &laquo; Software, Wetware, Webware
+    date: 2012-06-21 10:24:28
+    comment: >
+      [...] a previous post, I wrote about a methodology for designing software that has role-playing at it’s heart. If [...]
+  - author: What Role Are You Playing in RPCD? &laquo; Software, Wetware, Webware
+    date: 2012-06-25 09:10:38
+    comment: >
+      [...] you role play in RPCD, you could be standing in for either software, or a flesh-and-blood human being. As RPCD explicitly [...]
+  - author: Evolving Software Politics &laquo; Codecraft
+    date: 2012-09-11 11:01:22
+    comment: >
+      [...] python and “convention over configuration“–both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...–that’s about as ultra liberal as it [...]
+  - author: Evolving Software Politics &laquo; Codecraft
+    date: 2012-09-13 01:38:16
+    comment: >
+      [...] python and “convention over configuration“–both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...–that’s about as ultra liberal as it gets.    Take Our [...]
+  - author: Progressive Disclosure Everywhere &laquo; Codecraft
+    date: 2012-09-16 17:15:27
+    comment: >
+      [...] in programming languages, and in the software craft in general. I explored one in the series on role-play centered design. I’ll disclose some more ideas … progressively … in other posts. [...]
+  - author: Baby Steps &laquo; Codecraft
+    date: 2012-10-24 19:02:45
+    comment: >
+      [...] If you worry that it would be too expensive to code up two alternate solutions, consider using role-play centered design to let humans substitute for key modules with almost zero [...]
 ---
-
 User-centered design (UCD) is important. I hope I've been a good advocate for it during my career. Its basic tenet is that software should be constructed as much as possible according to how users think and work, not according to techie considerations. (A seminal book on this topic is <a href="http://www.amazon.com/dp/0465067107/ref=rdr_ext_tmb">The Design of Everyday Things</a>, by Donald Norman.) At its best, UCD promotes an alignment between technology and customer pain points that keeps software's value proposition compelling. Even on a bad day, UCD makes software a lot more pleasant to use.
 
 However, UCD rarely yields all potential benefits, which is why I'd like to suggest a specialized form of UCD for many software teams. I'll dub this idea "Role-Play Centered Design" (RPCD, prounounced /ˈrɪpˌsɪd/) because of the way the various parts of the system come to life. (This idea is similar to--though conceived independently from--the concepts in <a title="The use of improvisational role-play in user centered design processes" href="http://dl.acm.org/citation.cfm?id=1772520" target="_blank">this article</a> from the proceedings of HCI '07.)
@@ -34,48 +62,3 @@ Let me justify each of these ideas, and then I'll give an example of an RPCD pro
 In my <a href="example-rpcd-interaction.md">next post</a>, I'll give an example about how RPCD works.
 <p style="padding-left:30px;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">List all the people that interact with or help create your software. If your list has less than four or five unique roles, think some more. Hint: see <a title="Users Aren’t The Only People In Your Software" href="users-arent-the-only-people-in-your-software.md"><span style="color:#000080;">this post</span></a>.</span></em></p>
-
----
-
-Example RPCD Interaction &laquo; Software, Wetware, Webware (2012-06-21 08:56:43)
-
-[...] my last post on RPCD, I explained its key tenets. In this one, I’ll imagine one way to put it into [...]
-
----
-
-Long-Term Benefits of RPCD &laquo; Software, Wetware, Webware (2012-06-21 10:24:28)
-
-[...] a previous post, I wrote about a methodology for designing software that has role-playing at it’s heart. If [...]
-
----
-
-What Role Are You Playing in RPCD? &laquo; Software, Wetware, Webware (2012-06-25 09:10:38)
-
-[...] you role play in RPCD, you could be standing in for either software, or a flesh-and-blood human being. As RPCD explicitly [...]
-
----
-
-Evolving Software Politics &laquo; Codecraft (2012-09-11 11:01:22)
-
-[...] python and “convention over configuration“–both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...–that’s about as ultra liberal as it [...]
-
----
-
-Evolving Software Politics &laquo; Codecraft (2012-09-13 01:38:16)
-
-[...] python and “convention over configuration“–both liberal favorites. My idea that teams should deploy evolving software by assigning humans to role play architectural components, and...–that’s about as ultra liberal as it gets.    Take Our [...]
-
----
-
-Progressive Disclosure Everywhere &laquo; Codecraft (2012-09-16 17:15:27)
-
-[...] in programming languages, and in the software craft in general. I explored one in the series on role-play centered design. I’ll disclose some more ideas … progressively … in other posts. [...]
-
----
-
-Baby Steps &laquo; Codecraft (2012-10-24 19:02:45)
-
-[...] If you worry that it would be too expensive to code up two alternate solutions, consider using role-play centered design to let humans substitute for key modules with almost zero [...]
-
-
-

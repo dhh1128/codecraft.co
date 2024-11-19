@@ -4,8 +4,48 @@ date: 2012-10-14
 slug: paying-off-technical-debt
 redirect_from:
   - /2012/10/14/paying-off-technical-debt
+comments:
+  - author: Don
+    date: 2012-10-15 08:02:15
+    comment: >
+      The key in my opinion is not to let debt accumulate from sprint to sprint. Control the level of function such that the debt is managed. True doneness minimizes debt to an acceptable level and true doneness = real quality.
+  - author: Daniel
+    date: 2012-10-15 10:44:24
+    comment: >
+      Good insight, Don. Sounds a lot like the advice to pay off credit cards regularly... :-)
+  - author: doug
+    date: 2012-10-15 16:20:34
+    comment: >
+      you nail exactly what I have been thinking for MANY years, but not able to articulate. There is a COST to such debt, but there have NOT been metrics to expose it's reality to the decisions makers
+  - author: Mike Ebert (@mike_ebert)
+    date: 2012-10-16 00:39:33
+    comment: >
+      When technical debt becomes too great, sometimes organizations have to declare bankruptcy--certainly technical bankruptcy, if they survive financially--I'd be interested to hear thoughts about what's involved in technical bankruptcy, esp. if there's anything non-obvious.
+  - author: Daniel
+    date: 2012-10-16 02:01:31
+    comment: >
+      Good comment, Mike!
+      
+      I would equate bankruptcy with declaring a codebase insolvent -- incapable of providing any future value. If you get to that point, you're looking at a total rewrite.
+      
+      However, this may be too simplistic. In my post about "The 8th Characteristic," I claimed that codebases naturally die; maybe declaring a codebase dead isn't the same as declaring bankruptcy.
+      
+      I'll noodle on it, and blog if I think of anything useful.
+      
+      What kinds of events do you associated with bankruptcy?
+  - author: Earned Pragmatism &laquo; Codecraft
+    date: 2013-01-18 08:53:25
+    comment: >
+      [...] architectures healthy. Codebases owned by this type of “architect” tend to be rife with tech debt, with no roadmap or process to haul the team up and out. Where there is no vision, the people [...]
+  - author: jasonodtr.inube.com
+    date: 2013-03-06 20:25:02
+    comment: >
+      Wonderful insight. What a web site you have! Keep it up.
+  - author: Kerry
+    date: 2013-03-21 11:40:46
+    comment: >
+      Greetings from Colorado! I'm bored to death at work so I decided to browse your website on my iphone during lunch break. I really like the discussion of programming comments you provide here and can't wait to read more. Anyhow, awesome blog!
 ---
-
 <figure><img alt="" src="http://farm3.staticflickr.com/2785/4105722502_a442444bb9_n.jpg" height="320" width="213" /><figcaption>We don't get spam about how to consolidate our technical debts. :-) Image credit: Alan Cleaver (Flickr)</figcaption></figure>
 <blockquote><em>“Interest never sleeps nor sickens nor dies; it never goes to the hospital; it works on Sundays and holidays; it never takes a vacation; it never visits nor travels; it takes no pleasure; it is never laid off work nor discharged from employment; it never works on reduced hours. . . . Once in debt, interest is your companion every minute of the day and night; you cannot shun it or slip away from it; you cannot dismiss it; it yields neither to entreaties, demands, or orders; and whenever you get in its way or cross its course or fail to meet its demands, it crushes you.”</em>
 <p style="padding-left:30px;"><em>— <a class="zem_slink" title="J. Reuben Clark" href="http://en.wikipedia.org/wiki/Reuben_Clark" target="_blank" rel="wikipedia">J. Reuben Clark</a></em></p>
@@ -62,72 +102,3 @@ If your organization doesn't understand where they're carrying technical debt, a
 Perhaps you feel that this is too much of a bother. For small debts, I guess it could be. But large debts have a way of creating toxic assets. You just cannot play shell games forever. Remember Bear Stearns and Lehman Brothers...
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Find out which people in other departments besides dev understand how technical debt works. Recruit some allies and devise a plan to make your debts more auditable.</em></span></p>
-
-
-
----
-
-Don (2012-10-15 08:02:15)
-
-The key in my opinion is not to let debt accumulate from sprint to sprint. Control the level of function such that the debt is managed. True doneness minimizes debt to an acceptable level and true doneness = real quality.
-
----
-
-Daniel (2012-10-15 10:44:24)
-
-Good insight, Don. Sounds a lot like the advice to pay off credit cards regularly... :-)
-
----
-
-doug (2012-10-15 16:20:34)
-
-you nail exactly what I have been thinking for MANY years, but not able to articulate. There is a COST to such debt, but there have NOT been metrics to expose it's reality to the decisions makers
-
----
-
-Mike Ebert (@mike_ebert) (2012-10-16 00:39:33)
-
-When technical debt becomes too great, sometimes organizations have to declare bankruptcy--certainly technical bankruptcy, if they survive financially--I'd be interested to hear thoughts about what's involved in technical bankruptcy, esp. if there's anything non-obvious.
-
----
-
-Daniel (2012-10-16 02:01:31)
-
-Good comment, Mike!
-
-I would equate bankruptcy with declaring a codebase insolvent -- incapable of providing any future value. If you get to that point, you're looking at a total rewrite.
-
-However, this may be too simplistic. In my post about "The 8th Characteristic," I claimed that codebases naturally die; maybe declaring a codebase dead isn't the same as declaring bankruptcy.
-
-I'll noodle on it, and blog if I think of anything useful.
-
-What kinds of events do you associated with bankruptcy?
-
----
-
-Earned Pragmatism &laquo; Codecraft (2013-01-18 08:53:25)
-
-[...] architectures healthy. Codebases owned by this type of “architect” tend to be rife with tech debt, with no roadmap or process to haul the team up and out. Where there is no vision, the people [...]
-
----
-
-jasonodtr.inube.com (2013-03-06 20:25:02)
-
-Wonderful insight. What a web site you have! Keep it up.
-
----
-
-Kerry (2013-03-21 11:40:46)
-
-Greetings from Colorado! I'm bored to death at work so I decided to browse your website on my iphone during lunch break. I really like the discussion of programming comments you provide here and can't wait to read more. Anyhow, awesome blog!
-
-
-
-
-
-
-
-
-
-
-

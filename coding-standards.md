@@ -4,8 +4,18 @@ date: 2012-09-27
 slug: coding-standards
 redirect_from:
   - /2012/09/27/coding-standards
+comments:
+  - author: Wheeljack
+    date: 2018-06-18 08:16:59
+    comment: >
+      I caught this way too late to matter but I would say that the "standard" (because we all know it's not one) should be available not just for new hires but interviewers as well.  Concealing an insane set of half-baked rules really just wastes competent programmers' time and reinforces the notion that you did this deliberately to trap them.  Let me just walk out of the interview or turn down the offer before we get to the point and save us all alot of trouble.
+      
+      Because the instant some framework monkey struggling with Hello World gets on my case about bracket placement, that's it, I'm done.  I'll hang around and collect a paycheck until I find something else but you won't get anything of value out of me for whatever time remains.
+  - author: Daniel Hardman
+    date: 2018-06-18 11:43:04
+    comment: >
+      Agreed!
 ---
-
 [caption id="attachment_580" align="alignright" width="285"]<a href="http://www.epicfail.com/2012/08/31/todays-special-fail/todays-special-fail/"><img class="size-full wp-image-580" title="sign-fail" alt="" src="http://codecraft.co/wp-content/uploads/2012/09/sign-fail.png" width="285" height="525" /></a> Yes, a restaurant really displayed this sign. I doubt it influenced anybody's behavior...[/caption]
 
 Some attempts to influence the behavior of other people succeed; others are doomed from the get-go.
@@ -79,24 +89,3 @@ Stupid coding standards are offensive and a complete waste of everybody's time. 
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">If you have existing coding standards, look at a few guidelines and decide A) how much technical and business value they provide; B) how easy they are to learn and follow; C) how well they're implemented. Do you see any places where you want to adjust?</span></em></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">If you want to create a coding standard, make a list of rules that have a high ratio of value to cost. Pick the top 10 (or as many as you can fit on one (1) sheet of paper with a normal font and margins). Float a few past other thought leaders. Keep the best ones only.</span></em></p>
-
-
-
----
-
-Wheeljack (2018-06-18 08:16:59)
-
-I caught this way too late to matter but I would say that the "standard" (because we all know it's not one) should be available not just for new hires but interviewers as well.  Concealing an insane set of half-baked rules really just wastes competent programmers' time and reinforces the notion that you did this deliberately to trap them.  Let me just walk out of the interview or turn down the offer before we get to the point and save us all alot of trouble.
-
-Because the instant some framework monkey struggling with Hello World gets on my case about bracket placement, that's it, I'm done.  I'll hang around and collect a paycheck until I find something else but you won't get anything of value out of me for whatever time remains.
-
----
-
-Daniel Hardman (2018-06-18 11:43:04)
-
-Agreed!
-
-
-
-
-

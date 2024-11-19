@@ -4,8 +4,18 @@ date: 2012-12-10
 slug: george-and-the-flood
 redirect_from:
   - /2012/12/10/george-and-the-flood
+comments:
+  - author: Andy Lawrence
+    date: 2012-12-10 10:51:38
+    comment: >
+      George is toast. The banks on either side are too steep to get out of the water :)
+  - author: Daniel
+    date: 2012-12-10 13:47:42
+    comment: >
+      Hah! I've just discovered how to make him drink a kryptonite potion so he can sprout gills! :-)
+      
+      There's a serious side to the comment about steep banks, though. Sometimes you want so badly to get across the water that you don't consider how practical it is to be on the other side. You might be better off taking your chances where you're at. That's why the old "it depends" answer never goes out of style...
 ---
-
 Here's a simple little test that teaches an important lesson. Take a moment to work through all 3 questions. I promise it won't take long. :-)
 
  
@@ -68,19 +78,3 @@ If you said, "learn to swim" or "put on a life preserver" then you have captured
 How does your team operate most of the time? Are you evaluating the ramifications of your designs, processes, roadmaps, and other plans only by short-term payoff? Or do you think from many perspectives at once? Do you give proper weight to long-term? Do you have core principles that you tenaciously follow, because they're tried-and-true? Do you have a plan to learn to swim?
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Next time you have a controversial decision to make, listen to how the alternatives are evaluated. Give your team a virtual blue belt or black belt or whatever belt you're wearing, and then consider how to improve.</span></em></p>
-
-
-
----
-
-Andy Lawrence (2012-12-10 10:51:38)
-
-George is toast. The banks on either side are too steep to get out of the water :)
-
----
-
-Daniel (2012-12-10 13:47:42)
-
-Hah! I've just discovered how to make him drink a kryptonite potion so he can sprout gills! :-)
-
-There's a serious side to the comment about steep banks, though. Sometimes you want so badly to get across the water that you don't consider how practical it is to be on the other side. You might be better off taking your chances where you're at. That's why the old "it depends" answer never goes out of style...

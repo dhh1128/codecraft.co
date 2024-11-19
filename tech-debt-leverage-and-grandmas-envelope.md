@@ -4,8 +4,20 @@ date: 2012-10-30
 slug: tech-debt-leverage-and-grandmas-envelope
 redirect_from:
   - /2012/10/30/tech-debt-leverage-and-grandmas-envelope
+comments:
+  - author: dougbert
+    date: 2012-10-30 11:03:22
+    comment: >
+      great solution to the inheirtance of tech-debt, here and there an improvement. Hopefully it won't be passed on to the next generation (like our feds are doing to my grandchildren). Then share (help/encourge)  the effort with others and over time, there is improvement.
+  - author: Daniel
+    date: 2012-10-30 11:06:01
+    comment: >
+      I saw you doing exactly this -- modeling good habits and trying to inspire your peers. Although you may not have made as much progress as you wanted, there is no doubt in my mind that you left things much better off than they would have been without that discipline. Thanks!
+  - author: Learned Helplessness, Rats, and People Power &laquo; Codecraft
+    date: 2012-11-26 08:40:03
+    comment: >
+      [...] previously written about my Grandma paying off her mortgage after many years of diligent effort. This was the harvest of a good habit, applied [...]
 ---
-
 In my previous posts about tech debt, I focused on <a title="Coping With Organizational Alzheimers" href="paying-off-technical-debt.md">how tech debts are funded and paid back</a>.
 
 [caption id="attachment_965" align="alignright" width="300"]<a href="http://www.flickr.com/photos/foei/9530111/"><img class="size-full wp-image-965" alt="Photo credit: Friends of the Earth International (Flickr)" src="http://codecraft.co/wp-content/uploads/2012/10/screen-shot-2013-02-01-at-8-20-20-am.png" width="300" height="222" /></a> Photo credit: Friends of the Earth International (Flickr)[/caption]
@@ -85,24 +97,3 @@ You may be saying: "That's all well and good, but it's a drop in the bucket comp
 Even if that's true, I guarantee that at least half of the massive problem you have with <em>X</em> is one of attitude. You'll never solve it if you can't <a title="Roland Whatcott: Manage momentum." href="roland-whatcott-manage-momentum.md">generate some momentum</a> and optimism for the future. Give yourself a reason to believe things can get better, and watch how much more tractable your tech debt becomes.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify a low-cost, high-impact habit that will raise your spirits and your team's vision with regard to tech debt, and ingrain that habit in your own day-to-day work.</span></em></p>
-
----
-
-Learned Helplessness, Rats, and People Power &laquo; Codecraft (2012-11-26 08:40:03)
-
-[...] previously written about my Grandma paying off her mortgage after many years of diligent effort. This was the harvest of a good habit, applied [...]
-
----
-
-dougbert (2012-10-30 11:03:22)
-
-great solution to the inheirtance of tech-debt, here and there an improvement. Hopefully it won't be passed on to the next generation (like our feds are doing to my grandchildren). Then share (help/encourge)  the effort with others and over time, there is improvement.
-
----
-
-Daniel (2012-10-30 11:06:01)
-
-I saw you doing exactly this -- modeling good habits and trying to inspire your peers. Although you may not have made as much progress as you wanted, there is no doubt in my mind that you left things much better off than they would have been without that discipline. Thanks!
-
-
-

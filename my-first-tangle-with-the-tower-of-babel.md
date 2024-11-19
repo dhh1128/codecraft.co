@@ -4,8 +4,12 @@ date: 2013-04-26
 slug: my-first-tangle-with-the-tower-of-babel
 redirect_from:
   - /2013/04/26/my-first-tangle-with-the-tower-of-babel
+comments:
+  - author: Julie Jones
+    date: 2013-09-08 22:19:18
+    comment: >
+      I think you really hit the nail on the head with "change the way we think". Of all the languages that come and gone none have really changed the way we think about solving problems in the last thirty years. There have been a few that had potential, but I can't think of any that brought a new paradigm to light. Erlang is the only one I can think of that has picked up a decent following by managing to make one previously hard thing easy (multi-processing), but it is hardly revolutionary.
 ---
-
 A while back, I was reading the blog of somebody smart (can't remember who), and a comment jumped out at me: "If you <em>really</em> want a black belt in computer science, try writing a programming language. The depth and breadth of experience you get when you invent Python or Lisp or Smalltalk or C++ or C#--and implement its ecosystem, not just code a parser for a CS class--gives you a wisdom and education that's rare and precious." (I'm paraphrasing here, but that's the gist of it.)
 
 <em>Sounds good</em>, I thought. <em>I think I'll give it a shot.</em>
@@ -44,25 +48,3 @@ So I've had my first tangle with the Tower of Babel, and I'm now in ponder mode.
 I think the answer may lie in <a title="6 Strategies to Simplify Software" href="smart-geeks-think-like-cheerleaders.md">system thinking</a> may help. I'm now studying shared transactional memory, actor systems, variants of declarative programming, and so forth. I'm not sure where I'll end up, but I plan to blog about my discoveries as I go along. Look for posts in the "better programming language" category...
 
 I am also very interested in your insights. <span style="color:#000080;">What do you think would make a new programming language not just fun or interesting, but so compelling that you'd have to master it and tell all your friends?</span>
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-Julie Jones (2013-09-08 22:19:18)
-
-I think you really hit the nail on the head with "change the way we think". Of all the languages that come and gone none have really changed the way we think about solving problems in the last thirty years. There have been a few that had potential, but I can't think of any that brought a new paradigm to light. Erlang is the only one I can think of that has picked up a decent following by managing to make one previously hard thing easy (multi-processing), but it is hardly revolutionary.
-
-
-
-
-

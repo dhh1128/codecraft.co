@@ -4,8 +4,122 @@ date: 2012-10-29
 slug: how-enums-spread-disease-and-how-to-cure-it
 redirect_from:
   - /2012/10/29/how-enums-spread-disease-and-how-to-cure-it
+comments:
+  - author: dougbert
+    date: 2012-10-29 08:24:21
+    comment: >
+      EXACTLY! Well put
+  - author: Daniel
+    date: 2012-10-29 09:32:04
+    comment: >
+      They say great minds think alike... :-)
+      
+      Seriously, I'm bummed that we didn't get to work together longer. I can tell that we would have been good allies on lots of issues.
+  - author: Brian Saville
+    date: 2012-10-29 09:38:55
+    comment: >
+      I like the idea.  I think that the power of Java enums is not as widely known, and this merges very well with your macro concept.  Enums in Java behave a little like classes, you can even have private constructors and additional properties in the classes (unlike C# or other languages).  
+      
+      We discovered this a couple of years ago and it is used quite extensively in some places in our code base.  I wish that more knew of the power of enums in Java honestly.
+  - author: dougbert
+    date: 2012-10-29 09:53:56
+    comment: >
+      timing....it either voltage or timing.....that is what a good hardware debugger tech told when I was working with him....
+  - author: Daniel
+    date: 2012-10-29 09:58:39
+    comment: >
+      Yes, I agree that java enums are quite powerful. They allow you to encapsulate everything about an enum, including its semantics. We often pay the cost in poor code elsewhere, when we fail to take advantage of that power. So many java enum classes are just as rudimentary as their C ancestors...
+  - author: dougbert
+    date: 2012-10-29 10:06:05
+    comment: >
+      one of descriptions that I use in describing the opposite of a "single point of implementation" encapsulation  is "distributed implementation of the same logic".  And the use of the term "Typoid Mary" is a beautiful description of the consequences of that.
+  - author: nwwells
+    date: 2012-10-30 06:03:37
+    comment: >
+      Enums have always been an interesting topic for me. I think they really force you to make important decisions about your domain, in terms of type extensibility. Great post.
+  - author: Daniel
+    date: 2012-10-30 07:38:53
+    comment: >
+      Nathan: That's a great insight--how enums force the question of type extensibility. I'd never thought of their ramifications that way. Thanks for chiming in.
+  - author: Antoine Ménard (@Enthouan)
+    date: 2015-04-15 12:19:52
+    comment: >
+      I guess the way to solve this disease is just to use Enum for what they are supposed to be used for. Which is storing a state, that's it.
+      
+      This article really lacks of OOP concept. In the first example the enum is a property on the 'vehicule' object, it would be way better to add all the properties needed to that class instead of creating a weird 'VehicleTypeTuple' struct...
+  - author: J Henry
+    date: 2015-04-15 13:15:42
+    comment: >
+      The type of data you describe in your example is not appropriate for enumerations, as the type of vehicles in existence is not a finite list.  Enumerations are more appropriate for finite lists that change extremely rarely, if at all, and represent discreet pieces of information such as days in the week, months in the year, colors, types of mammals...you get the message.  
+      
+      You would not create an enumeration with a value of 'Primate', because there are many different types of primates.  You could however create an enumeration that has a value of 'Homo Sapien' because that is a discreet classification.
+      
+      Enumerations are a powerful way to build assumptions into your code that you want to enforce on other parties that are using your code.  When used incorrectly, like in your example, they serve as a way to shoot yourself in the foot.
+  - author: Daniel Hardman
+    date: 2015-04-15 13:59:02
+    comment: >
+      Thanks for the thoughtful response!
+      
+      Whether or not the set of items in an enum is well bounded is interesting, and I agree with you that making bad choices about what to model as an enum can have negative consequences. However, I think some of your examples are just as fuzzy as mine. When I studied linguistics I learned that some languages recognize only 3 or 4 colors. We may be used to the ROYGBIV set, but artists and interior designers would probably want many more items in their color enum. Classification is a very deep topic that is far more subjective than most people think. Even the set of species in the genus "homo" changes as scientists debate whether homo heidelbergensis and homo sapiens rhodesiensis are really separate species.
+      
+      Days of the week and months of the year are a bit crisper, though of course different calendars slice and dice time differently.
+      
+      But let's set that issue aside for a moment and say we settle on simple, stable enums, and they never prove to be controversial. Fine. We still have the problem of how/where additional semantics for each item in the enum are expressed in code. Take color again. How do we decide if a color is "warm" or "cool"? How do we decide which colors are complimentary? How do we map the colors to traffic signal meanings? How do we know which colors are most likely to be problematic for different kinds of color blindness, or which colors carry which connotations in different cultures (black=mourning in many western cultures, but white=mourning in Asia)?
+      
+      You might claim that really *good* enums are never like this; if the enum is ever used for something other than a totally opaque numeric constant, it's a bad example. Again, I don't buy it. Take the state machine in a TCP/IP stack. I guarantee that implementations of network protocols have switch statements that clump certain states together--they treat FIN and CLOSE the same way under certain conditions, for example. What this means is that these enumerated states have some common semantic meaning that the code needs to address. 
+      
+      Of course, a particular codebase may not need lots of rich semantics for its enums, but what I'm claiming is that usually, it needs one or two. They grow like weeds, without any management. And the typical way to address this need, in all the languages I know, is to write helper functions (or, far worse, random blocks of code sprinkled everywhere) that switch based on members of the enum. This is true almost independent of how simple and stable your enum is. There is no place where you can gather all the semantics together and edit them as a single unit. If you want to add a new semantic dimension to your enum, or adjust how an existing semantic dimension works, you have to hunt through the code and analyze semantics from scratch, with every edit. Good unit tests help, but they catch the symptom, not the kernel of the problem.
+      
+      The *real* problem is that we don't acknowledge all the meaning that attaches to our enums, and we make no effort to encapsulate that meaning.
+  - author: Daniel Hardman
+    date: 2015-04-15 14:12:47
+    comment: >
+      I appreciate the thoughtful comment, Antoine.
+      
+      Although it's nice to assert that enums should only store state, most enums that I'm familiar with eventually get messier than that. They may start simple, but we programmers don't leave them that way. Take the state machine in a parser, for example (a place where "state" is surely the key interest.) Even there, there are logical relationships between the states that we need to represent somewhere in the code: which states are allowed to precede and follow which other states? which states represent recoverable versus unrecoverable error conditions? Etc. Even an enum points_of_the_compass {north, south, east, west} has interesting semantics such as the fact that it's legal to compose a new direction north+west or south+east, but not north+south--or the fact that north and south are special because they retain meaning at a pole, whereas east and west do not. About the only "pure" enum that I'm sure would meet your criteria would be boolean {true, false}.
+      
+      Your comment about OOP is insightful. It is true that the VehicleTypeTuple struct is not full-blown OOP, and that it could be. However, it would be read-only OOP, since all of the attributes (semantics) we're declaring for a vehicle type are known at compile-time and are thus constant for the life of the application. This means we never need setters, and we never need more than one instance of each tuple. To me, it felt like managing that data as POD instead of objects made more sense, but I guess that's more of a stylistic choice.
+  - author: crystal_traveler
+    date: 2015-04-16 01:50:13
+    comment: >
+      Nice article. Advice seems more general than enum usage and reminds me more of overuse of special cases. Reminds me of  Rule 5 of Rob Pike's 5 rules (http://users.ece.utexas.edu/~adnan/pike.html):
+      
+      "write stupid code that uses smart objects"
+      
+      I haven't written code with lots of special cases like this in years though I can imagine it's a bad habit many new programmers never eventually shake. Disclaimer: I'm not a Rob Pike fanboy, on the whole I think he is closed minded, dogmatic, and stuck in his ways.
+      
+      BTW That C macro trick has no place in modern C++. You should be using templates meta-programming instead. There are ways to guarantee consistency between the Enum definitions and that data definition without needing a shared intermediate include file. Look into constexpr and static_assert().
+  - author: Daniel Hardman
+    date: 2015-04-18 10:39:22
+    comment: >
+      Thanks for the reference to Pike. I'd run across his rules years ago, then forgotten all about them. He puts some good wisdom into words.
+      
+      Regarding the comment about macros and modern C++: I am curious. I don't consider myself a template black-belt, but I'm maybe a blue belt or brown belt. I can tell you what SFINAE is, anyway. Yet I'm not aware of a way to replicate this technique in any meaningful way without macros. Could you give me a hint what you are thinking?
+  - author: joao vasconcelos
+    date: 2017-05-30 05:29:10
+    comment: >
+      Good read, I was looking into other uses for enums in C# and stumbled on this post which made me rethink my design, although i am not sure i would follow the example in any language apart from .C because as far as im aware all other languages mentioned (including c++) allow a OO solution to be achieved   
+      
+      I haven't touched C++ for a while but im pretty sure it supports interfaces, as well as the dreaded multiple inheritance (which i personally enjoy having at my disposal although never found the need for it). 
+      
+      with an IVehicle interface. you can then create your 
+      "Car : IVehicle" 
+      bool IsLowerThan(int heightInCentimeters);
+      
+      and do somthing like 
+      IVehicle car = new Car(400);
+      
+      on the usage file you invert the responcibility and do 
+      
+      bool Bridge:CanVehiclePass(Ivehicle vehicle)
+      {
+        return vehicle.IsLowerThan(_heigh);
+      }
+  - author: Daniel Hardman
+    date: 2017-05-30 21:03:37
+    comment: >
+      Good point about solving this problem with interfaces, João. It can totally be done that way, and sometimes that is the better answer.
 ---
-
 Poorly handled enums can infect code with fragility and tight coupling like a digital <a href="http://en.wikipedia.org/wiki/Typhoid_Mary" target="_blank" rel="wikipedia">Typhoid Mary</a>.
 
 Say you're writing software that optimizes traffic flow patterns, and you need to model different vehicle types. So you code up something like this:
@@ -206,157 +320,3 @@ or...
 ... will be hidden in functions that capture (encapsulate) the semantic condition you really want to test. In fact, enum values themselves will only appear in places where an object's state is set directly; even in semantic wrappers, you'll often be testing a characteristic (like weight [mass], in our example) instead of actual enum values themselves. Certainly, all other code works off of semantics. When you add a new enum value, you only have to examine a handful of semantic functions to tease out ramifications, and your confidence in the tweak is high. Unit tests break in predictable and isolated ways, and the fixes become obvious.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Find one enum that's problematic in your code, and clean it up.</span></em></p>
-
-
-
----
-
-Daniel (2012-10-29 09:32:04)
-
-They say great minds think alike... :-)
-
-Seriously, I'm bummed that we didn't get to work together longer. I can tell that we would have been good allies on lots of issues.
-
----
-
-Brian Saville (2012-10-29 09:38:55)
-
-I like the idea.  I think that the power of Java enums is not as widely known, and this merges very well with your macro concept.  Enums in Java behave a little like classes, you can even have private constructors and additional properties in the classes (unlike C# or other languages).  
-
-We discovered this a couple of years ago and it is used quite extensively in some places in our code base.  I wish that more knew of the power of enums in Java honestly.
-
----
-
-dougbert (2012-10-29 09:53:56)
-
-timing....it either voltage or timing.....that is what a good hardware debugger tech told when I was working with him....
-
----
-
-Daniel (2012-10-29 09:58:39)
-
-Yes, I agree that java enums are quite powerful. They allow you to encapsulate everything about an enum, including its semantics. We often pay the cost in poor code elsewhere, when we fail to take advantage of that power. So many java enum classes are just as rudimentary as their C ancestors...
-
----
-
-dougbert (2012-10-29 08:24:21)
-
-EXACTLY! Well put
-
----
-
-Daniel (2012-10-30 07:38:53)
-
-Nathan: That's a great insight--how enums force the question of type extensibility. I'd never thought of their ramifications that way. Thanks for chiming in.
-
----
-
-nwwells (2012-10-30 06:03:37)
-
-Enums have always been an interesting topic for me. I think they really force you to make important decisions about your domain, in terms of type extensibility. Great post.
-
----
-
-dougbert (2012-10-29 10:06:05)
-
-one of descriptions that I use in describing the opposite of a "single point of implementation" encapsulation  is "distributed implementation of the same logic".  And the use of the term "Typoid Mary" is a beautiful description of the consequences of that.
-
-
-
----
-
-Daniel Hardman (2015-04-15 14:12:47)
-
-I appreciate the thoughtful comment, Antoine.
-
-Although it's nice to assert that enums should only store state, most enums that I'm familiar with eventually get messier than that. They may start simple, but we programmers don't leave them that way. Take the state machine in a parser, for example (a place where "state" is surely the key interest.) Even there, there are logical relationships between the states that we need to represent somewhere in the code: which states are allowed to precede and follow which other states? which states represent recoverable versus unrecoverable error conditions? Etc. Even an enum points_of_the_compass {north, south, east, west} has interesting semantics such as the fact that it's legal to compose a new direction north+west or south+east, but not north+south--or the fact that north and south are special because they retain meaning at a pole, whereas east and west do not. About the only "pure" enum that I'm sure would meet your criteria would be boolean {true, false}.
-
-Your comment about OOP is insightful. It is true that the VehicleTypeTuple struct is not full-blown OOP, and that it could be. However, it would be read-only OOP, since all of the attributes (semantics) we're declaring for a vehicle type are known at compile-time and are thus constant for the life of the application. This means we never need setters, and we never need more than one instance of each tuple. To me, it felt like managing that data as POD instead of objects made more sense, but I guess that's more of a stylistic choice.
-
----
-
-Daniel Hardman (2015-04-15 13:59:02)
-
-Thanks for the thoughtful response!
-
-Whether or not the set of items in an enum is well bounded is interesting, and I agree with you that making bad choices about what to model as an enum can have negative consequences. However, I think some of your examples are just as fuzzy as mine. When I studied linguistics I learned that some languages recognize only 3 or 4 colors. We may be used to the ROYGBIV set, but artists and interior designers would probably want many more items in their color enum. Classification is a very deep topic that is far more subjective than most people think. Even the set of species in the genus "homo" changes as scientists debate whether homo heidelbergensis and homo sapiens rhodesiensis are really separate species.
-
-Days of the week and months of the year are a bit crisper, though of course different calendars slice and dice time differently.
-
-But let's set that issue aside for a moment and say we settle on simple, stable enums, and they never prove to be controversial. Fine. We still have the problem of how/where additional semantics for each item in the enum are expressed in code. Take color again. How do we decide if a color is "warm" or "cool"? How do we decide which colors are complimentary? How do we map the colors to traffic signal meanings? How do we know which colors are most likely to be problematic for different kinds of color blindness, or which colors carry which connotations in different cultures (black=mourning in many western cultures, but white=mourning in Asia)?
-
-You might claim that really *good* enums are never like this; if the enum is ever used for something other than a totally opaque numeric constant, it's a bad example. Again, I don't buy it. Take the state machine in a TCP/IP stack. I guarantee that implementations of network protocols have switch statements that clump certain states together--they treat FIN and CLOSE the same way under certain conditions, for example. What this means is that these enumerated states have some common semantic meaning that the code needs to address. 
-
-Of course, a particular codebase may not need lots of rich semantics for its enums, but what I'm claiming is that usually, it needs one or two. They grow like weeds, without any management. And the typical way to address this need, in all the languages I know, is to write helper functions (or, far worse, random blocks of code sprinkled everywhere) that switch based on members of the enum. This is true almost independent of how simple and stable your enum is. There is no place where you can gather all the semantics together and edit them as a single unit. If you want to add a new semantic dimension to your enum, or adjust how an existing semantic dimension works, you have to hunt through the code and analyze semantics from scratch, with every edit. Good unit tests help, but they catch the symptom, not the kernel of the problem.
-
-The *real* problem is that we don't acknowledge all the meaning that attaches to our enums, and we make no effort to encapsulate that meaning.
-
----
-
-crystal_traveler (2015-04-16 01:50:13)
-
-Nice article. Advice seems more general than enum usage and reminds me more of overuse of special cases. Reminds me of  Rule 5 of Rob Pike's 5 rules (http://users.ece.utexas.edu/~adnan/pike.html):
-
-"write stupid code that uses smart objects"
-
-I haven't written code with lots of special cases like this in years though I can imagine it's a bad habit many new programmers never eventually shake. Disclaimer: I'm not a Rob Pike fanboy, on the whole I think he is closed minded, dogmatic, and stuck in his ways.
-
-BTW That C macro trick has no place in modern C++. You should be using templates meta-programming instead. There are ways to guarantee consistency between the Enum definitions and that data definition without needing a shared intermediate include file. Look into constexpr and static_assert().
-
-
-
----
-
-J Henry (2015-04-15 13:15:42)
-
-The type of data you describe in your example is not appropriate for enumerations, as the type of vehicles in existence is not a finite list.  Enumerations are more appropriate for finite lists that change extremely rarely, if at all, and represent discreet pieces of information such as days in the week, months in the year, colors, types of mammals...you get the message.  
-
-You would not create an enumeration with a value of 'Primate', because there are many different types of primates.  You could however create an enumeration that has a value of 'Homo Sapien' because that is a discreet classification.
-
-Enumerations are a powerful way to build assumptions into your code that you want to enforce on other parties that are using your code.  When used incorrectly, like in your example, they serve as a way to shoot yourself in the foot.
-
----
-
-Antoine Ménard (@Enthouan) (2015-04-15 12:19:52)
-
-I guess the way to solve this disease is just to use Enum for what they are supposed to be used for. Which is storing a state, that's it.
-
-This article really lacks of OOP concept. In the first example the enum is a property on the 'vehicule' object, it would be way better to add all the properties needed to that class instead of creating a weird 'VehicleTypeTuple' struct...
-
----
-
-Daniel Hardman (2015-04-18 10:39:22)
-
-Thanks for the reference to Pike. I'd run across his rules years ago, then forgotten all about them. He puts some good wisdom into words.
-
-Regarding the comment about macros and modern C++: I am curious. I don't consider myself a template black-belt, but I'm maybe a blue belt or brown belt. I can tell you what SFINAE is, anyway. Yet I'm not aware of a way to replicate this technique in any meaningful way without macros. Could you give me a hint what you are thinking?
-
-
-
----
-
-joao vasconcelos (2017-05-30 05:29:10)
-
-Good read, I was looking into other uses for enums in C# and stumbled on this post which made me rethink my design, although i am not sure i would follow the example in any language apart from .C because as far as im aware all other languages mentioned (including c++) allow a OO solution to be achieved   
-
-I haven't touched C++ for a while but im pretty sure it supports interfaces, as well as the dreaded multiple inheritance (which i personally enjoy having at my disposal although never found the need for it). 
-
-with an IVehicle interface. you can then create your 
-"Car : IVehicle" 
-bool IsLowerThan(int heightInCentimeters);
-
-and do somthing like 
-IVehicle car = new Car(400);
-
-on the usage file you invert the responcibility and do 
-
-bool Bridge:CanVehiclePass(Ivehicle vehicle)
-{
-  return vehicle.IsLowerThan(_heigh);
-}
-
----
-
-Daniel Hardman (2017-05-30 21:03:37)
-
-Good point about solving this problem with interfaces, João. It can totally be done that way, and sometimes that is the better answer.

@@ -4,8 +4,52 @@ date: 2015-02-05
 slug: know-your-limits
 redirect_from:
   - /2015/02/05/know-your-limits
+comments:
+  - author: mordachaiwolf
+    date: 2015-02-05 10:15:27
+    comment: >
+      Thanks for sharing this!  And congrats on tracking it down.
+  - author: Daniel Hardman
+    date: 2015-02-05 13:00:27
+    comment: >
+      Since I complain about not communicating limits, I would be remiss if I didn't record what I learned so it's at least findable in a web search. :-) I don't think I've ever been more relieved to put a stake through the heart of a bug.
+  - author: David H
+    date: 2015-02-05 20:08:09
+    comment: >
+      Interesting how a really hard-to-find bug motivated you to really "clean house" and address a bunch of other issues. "If it aint broke don't fix it", but since it was broke you got to fix some things.
+  - author: Daniel Hardman
+    date: 2015-02-05 23:19:02
+    comment: >
+      For me, this is proof that fixing something "right", instead of just kludging something good enough, is often (not always, but often) the most efficient approach. The quick-and-dirty solution might feel faster, but by the time we add in the cost of a learning curve, future maintenance, testing, and support, making haste more slowly is often better.
+      
+      Of course there are exceptions to every rule...
+  - author: Moray King
+    date: 2015-02-09 22:01:52
+    comment: >
+      Double kudos to you Daniel:
+      1. A well written piece that was fun to read.
+      2. You resolved the bug!
+      
+      Your essay confirms a point I always believed: Care must be taken when designing and coding a multi-threaded system where concurrent sharing is involved. Concurrency bugs are notoriously difficult to resolve especially if they are intermittent and difficult to trigger. At least you had a trigger, and with it you skillfully converged onto the bug. Well done, Daniel!
+  - author: Daniel Hardman
+    date: 2015-02-10 07:31:07
+    comment: >
+      So good to hear from you, Moray! I think that years ago I told you that I thought concurrency wasn't that hard. This makes me eat my words. :-) It may not be that hard in theory, or when a codebase is in its infancy--but by the time we get to hundreds of thousands of lines of code, with large numbers of threads interacting in complex and unpredictable ways, we better have it right, or we can find ourselves in deep trouble.
+      
+      I thought of your clean and robust epoll-based http server while I was doing this work...
+  - author: earwicker
+    date: 2015-02-27 04:10:24
+    comment: >
+      Congrats on fixing it. I spent a couple of weeks in the late 90s connecting to customer machines and looking at stack traces of several threads that were either deadlocking or trashing each other's data. This was enough to make me back away from that school of currency whose motto is "Just keep adding mutexes until it seems to stay up!" Since then I've stuck to threads that communicate only via queues that contain very simplistic/immutable "work item" objects, or I go the whole hog and use process isolation, with a pool of single-threaded worker processes orchestrated by a single-threaded manager. I also avoid languages with undefined behaviour (like they are plague-carrying rats). This is why I'm not touching Go with a barge pole (undefined behaviour under race conditions).
+  - author: Daniel Hardman
+    date: 2015-02-27 07:33:55
+    comment: >
+      It's so interesting to me that people who have deep experience debugging a concurrency problem are usually changed by the experience. They begin to value features of their language or their tools differently when they've experienced the bleak prospect of not being able to figure something out except with a lot of blood, sweat, and tears. And maybe not even then.
+      
+      I did not know anything about Go and race conditions; that's troubling.
+      
+      I, too, have had good experiences with cross-thread communication only via queues. That's essentially the same solution that the designer of zmq advocated: http://zeromq.org/blog:multithreading-magic
 ---
-
 I just finished the nastiest debugging experience of my career--nearly 3 weeks on a single bug. After days and days of staring at code, swearing at core dumps, tailing logs, connecting to gdbserver via a multi-hop ssh tunnel from inside a secure environment, and general programmer misery, I felt like doing cartwheels when I finally figured it out, tweaked a few lines of code, and observed stability again.
 
 Hindsight teaches me this lesson: <em style="color:#706;">undocumented, unhandled constraints waste enormous amounts of time and energy</em>. If you're interested in writing good code, you must know your limits, and you must communicate them. This especially matters when the constraints are obscure or surprising.
@@ -36,63 +80,3 @@ Eventually I waded through all these layers of undocumented, improperly handled 
 I feel a little silly; the library code is solid and reasonable, and the need for this particular mutex should have occurred to me long ore. But in my defense, the library is all about parallelism, the channel object that needed mutexing is intended to support many simultaneous requests, and the docs are utterly silent about the topic. So are all the samples I found; not one shows a mutex. (That's because all the samples are asynchronous but single-threaded; I should have been more careful as I extrapolated to my slightly different use case...)
 
 Anyway, I'm a sadder but wiser programmer now. :-) I need to add <a title="Introducing Marks" href="on-bread-recipes-maps-and-intentions.md"><code>intent</code> programming language I'm creating</a>, so that this type of issue is easy to formally communicate. But even without fancy new languages, the programming ecosystems that we all work in today would benefit from more attention to understanding, handling, and communicating limits.
-
----
-
-Daniel Hardman (2015-02-05 23:19:02)
-
-For me, this is proof that fixing something "right", instead of just kludging something good enough, is often (not always, but often) the most efficient approach. The quick-and-dirty solution might feel faster, but by the time we add in the cost of a learning curve, future maintenance, testing, and support, making haste more slowly is often better.
-
-Of course there are exceptions to every rule...
-
----
-
-David H (2015-02-05 20:08:09)
-
-Interesting how a really hard-to-find bug motivated you to really "clean house" and address a bunch of other issues. "If it aint broke don't fix it", but since it was broke you got to fix some things.
-
----
-
-mordachaiwolf (2015-02-05 10:15:27)
-
-Thanks for sharing this!  And congrats on tracking it down.
-
----
-
-Daniel Hardman (2015-02-05 13:00:27)
-
-Since I complain about not communicating limits, I would be remiss if I didn't record what I learned so it's at least findable in a web search. :-) I don't think I've ever been more relieved to put a stake through the heart of a bug.
-
----
-
-Moray King (2015-02-09 22:01:52)
-
-Double kudos to you Daniel:
-1. A well written piece that was fun to read.
-2. You resolved the bug!
-
-Your essay confirms a point I always believed: Care must be taken when designing and coding a multi-threaded system where concurrent sharing is involved. Concurrency bugs are notoriously difficult to resolve especially if they are intermittent and difficult to trigger. At least you had a trigger, and with it you skillfully converged onto the bug. Well done, Daniel!
-
----
-
-Daniel Hardman (2015-02-10 07:31:07)
-
-So good to hear from you, Moray! I think that years ago I told you that I thought concurrency wasn't that hard. This makes me eat my words. :-) It may not be that hard in theory, or when a codebase is in its infancy--but by the time we get to hundreds of thousands of lines of code, with large numbers of threads interacting in complex and unpredictable ways, we better have it right, or we can find ourselves in deep trouble.
-
-I thought of your clean and robust epoll-based http server while I was doing this work...
-
----
-
-earwicker (2015-02-27 04:10:24)
-
-Congrats on fixing it. I spent a couple of weeks in the late 90s connecting to customer machines and looking at stack traces of several threads that were either deadlocking or trashing each other's data. This was enough to make me back away from that school of currency whose motto is "Just keep adding mutexes until it seems to stay up!" Since then I've stuck to threads that communicate only via queues that contain very simplistic/immutable "work item" objects, or I go the whole hog and use process isolation, with a pool of single-threaded worker processes orchestrated by a single-threaded manager. I also avoid languages with undefined behaviour (like they are plague-carrying rats). This is why I'm not touching Go with a barge pole (undefined behaviour under race conditions).
-
----
-
-Daniel Hardman (2015-02-27 07:33:55)
-
-It's so interesting to me that people who have deep experience debugging a concurrency problem are usually changed by the experience. They begin to value features of their language or their tools differently when they've experienced the bleak prospect of not being able to figure something out except with a lot of blood, sweat, and tears. And maybe not even then.
-
-I did not know anything about Go and race conditions; that's troubling.
-
-I, too, have had good experiences with cross-thread communication only via queues. That's essentially the same solution that the designer of zmq advocated: http://zeromq.org/blog:multithreading-magic

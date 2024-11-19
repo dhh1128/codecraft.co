@@ -4,8 +4,30 @@ date: 2012-10-22
 slug: unencapsulate-yourself
 redirect_from:
   - /2012/10/22/unencapsulate-yourself
+comments:
+  - author: Konstantin
+    date: 2012-10-23 14:02:21
+    comment: >
+      A really thoughtful post. But actually I thought that in both Europe and America it is more usual (and considered to be just better) to be a narrow-specialized engineer. Is it true?
+  - author: Daniel
+    date: 2012-10-23 14:20:52
+    comment: >
+      Good question, Konstantin. I think specialization is indispensable. You have to get really deep at a few things. It is impossible to be super deep in everything, and if you dilute your expertise and energy too much, you can become what English speakers call "jack of all trades, master of none." However, sometimes I have seen specialists get too comfortable in their narrow world, without understanding how their narrow focus imposes costs on the larger organization. It has been my experience that a specialist with a good, broad foundation is more valuable than a specialist that can't see the larger picture. It is also the case that organizations suffer if they don't have a certain percentage of very competent generalists to translate and facilitate.
+      
+      In my own career, I have chosen to get very, very deep on topics like text processing, internationalization, and all things related to language and computers, due to my graduate studies in linguistics. I am moderately deep on topics like RESTful web services, database theory, and web UI. On many other topics, I am just deep enough to do journeyman bug fixes and to understand estimates, but not to solve subtle and multivariate problems.
+      
+      Each engineer has to choose his or her own preferred balance, but I believe having some breadth is healthy, even if you prefer to operate mostly as a specialist.
+  - author: Konstantin
+    date: 2012-10-23 15:27:18
+    comment: >
+      I generally agree with your point, so just wanted to know how unusual your ideas are for the market of your country.
+      So thank you for the answer!
+      
+      As for my experience, I can't imagine myself to be a really narrow-interested developer. There are the things that I am payed for (and they are not always challenging, sometimes just a routine with no adventure). 
+      And on the other hand there are some areas that I would like to investigate deeper but these areas are of quite academic sense (e.g. compilers, syntactic analyzers etc). And trying both directions to be satisfied makes me feel that I can do something :) I guess it is quite normal situation.
+      
+      PS. A funny thing: in Russia the analog of "jack of all trades" (which sounds like 'all-hands master') has a positive connotation. So it makes sense to think positively :)
 ---
-
 <figure><img alt="" src="http://farm4.staticflickr.com/3040/2998411234_ceb9e6f752_n.jpg" height="320" width="212" /><figcaption>We loved to escape the boxes when we were kids... Photo credit: thewoodenshoes (Flickr)</figcaption></figure>
 
 If I had to make a "top 5" list of foundational tools in software development, <em><a class="zem_slink" title="Encapsulation (object-oriented programming)" href="http://en.wikipedia.org/wiki/Encapsulation_%28object-oriented_programming%29" target="_blank" rel="wikipedia">encapsulation</a></em> would certainly make the cut. It's a major enabler of abstraction; it's what makes conceptual complexity tractable.
@@ -51,33 +73,3 @@ If you're an engineer, unencapsulate yourself.
 Thinking outside the box pays big dividends.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify one way that you can learn something about the problem domain of a team other than your own. Pay the price for that learning. Then put your investment to good use.</span></em></p>
-
-
-
----
-
-Konstantin (2012-10-23 15:27:18)
-
-I generally agree with your point, so just wanted to know how unusual your ideas are for the market of your country.
-So thank you for the answer!
-
-As for my experience, I can't imagine myself to be a really narrow-interested developer. There are the things that I am payed for (and they are not always challenging, sometimes just a routine with no adventure). 
-And on the other hand there are some areas that I would like to investigate deeper but these areas are of quite academic sense (e.g. compilers, syntactic analyzers etc). And trying both directions to be satisfied makes me feel that I can do something :) I guess it is quite normal situation.
-
-PS. A funny thing: in Russia the analog of "jack of all trades" (which sounds like 'all-hands master') has a positive connotation. So it makes sense to think positively :)
-
----
-
-Konstantin (2012-10-23 14:02:21)
-
-A really thoughtful post. But actually I thought that in both Europe and America it is more usual (and considered to be just better) to be a narrow-specialized engineer. Is it true?
-
----
-
-Daniel (2012-10-23 14:20:52)
-
-Good question, Konstantin. I think specialization is indispensable. You have to get really deep at a few things. It is impossible to be super deep in everything, and if you dilute your expertise and energy too much, you can become what English speakers call "jack of all trades, master of none." However, sometimes I have seen specialists get too comfortable in their narrow world, without understanding how their narrow focus imposes costs on the larger organization. It has been my experience that a specialist with a good, broad foundation is more valuable than a specialist that can't see the larger picture. It is also the case that organizations suffer if they don't have a certain percentage of very competent generalists to translate and facilitate.
-
-In my own career, I have chosen to get very, very deep on topics like text processing, internationalization, and all things related to language and computers, due to my graduate studies in linguistics. I am moderately deep on topics like RESTful web services, database theory, and web UI. On many other topics, I am just deep enough to do journeyman bug fixes and to understand estimates, but not to solve subtle and multivariate problems.
-
-Each engineer has to choose his or her own preferred balance, but I believe having some breadth is healthy, even if you prefer to operate mostly as a specialist.

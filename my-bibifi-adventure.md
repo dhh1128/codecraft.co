@@ -4,8 +4,12 @@ date: 2015-06-15
 slug: my-bibifi-adventure
 redirect_from:
   - /2015/06/15/my-bibifi-adventure
+comments:
+  - author: tyrionlannister26
+    date: 2024-02-16 03:49:59
+    comment: >
+      Nice information. Thanks for sharing
 ---
-
 I've been involved in a learning experiment these past six weeks. Now that it's winding down, I thought I'd reflect a bit on some themes that emerged.
 
 For the past 9 months or so, I've been taking classes online from <a href="http://coursera.org">Coursera</a> to complete a <a href="https://www.coursera.org/specialization/cybersecurity/7">Cybersecurity specialization</a> taught by the University of Maryland. I've learned about security and usability, various flavors of software vulnerability, secure integrated circuit design, digital watermarks, and encryption theory.
@@ -35,9 +39,3 @@ I don't yet know what the final scores will be, because some adjustments are sti
 	<li><strong style="color:#633;">Programming is a team sport</strong>. Some of the "teams" were actually individual students. I don't know how they fared, as a whole, but I know that our team benefitted from the complementary strengths of multiple people. I am not the world's greatest pen tester, and some of the encryption theory we studied made my head hurt--but I know a thing or two about robust software development processes. We helped each other, and did better as a result. See my recent post about the <a href="rockstars.md">myth of the "rockstar developer"</a>.</li>
 </ul>
 How about you? Have you ever had an experience like the contest I describe here? What did you learn from it?
-
----
-
-tyrionlannister26 (2024-02-16 03:49:59)
-
-Nice information. Thanks for sharing

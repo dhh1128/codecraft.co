@@ -4,8 +4,37 @@ date: 2013-02-15
 slug: the-power-of-simplicity
 redirect_from:
   - /2013/02/15/the-power-of-simplicity
+comments:
+  - author: trevharmon
+    date: 2013-02-15 11:42:58
+    comment: >
+      This is one of those phenomenon I've noticed, as well. In fact, I've spent quite a lot of time trying to understand the reasons behind it in what may be a misguided effort. I think if I can understand the cause, I can fix it. Here are some of the reasons defending complexity:
+      
+      - Everyone else is doing it --- That argument didn't fly when I was a kid, so I don't see why it's valid now.
+      - Customers are demanding new features --- Maybe they are, but that doesn't necessarily mean those features should be enabled if they increase complexity. In my experience it's the edge cases that create the most complexity.
+      - Flexibility is more important than usability --- This is a philosophical debate, and I admit I fall into different camps depending on the circumstance. However, I'm always for simplicity.
+      - We prove how smart we are by making something complex --- No one ever says this one out loud, though I've seen it implied a number of times. There's an unfounded fear the finesse of a simple approach will hide the creator's brilliance. Oddly, usable simplicity is far more difficult to achieve than complexity. Anyone can make something more complex.
+      
+      Now, assuming one provides a product and is not a bespoke services shop, I think I comes down to one of two things: fear or greed. Making something simple means one knows and understands their target customer, which by its very definition means one has limited the customer base. A simple to use product is not going to do everything any possible user may want. So, one is either fearful the simple to use product will overly limit the customer base or just plain doesn't want to limit it in any way. So, one falls into the trap of trying to make it work for everyone. Complexity rears its ugly head.
+      
+      The trick is to truly know your one's customers and allow the product to be no more complex than is absolutely needed for their needs. That's why Photoshop works for some but is far too complex for the majority of digital camera owners.
+      
+      Too bad it seems everyone feels compelled to build the IT equivalent of Photoshop.
+  - author: Daniel Hardman
+    date: 2013-02-15 15:18:40
+    comment: >
+      As always, I learn something from your thoughtful comments, Trev. I had not seen, before, such a clear summary of the "prove how smart we are" problem.
+      
+      One of the reasons why I'm attracted to biology as a metaphor and guiding light for software is that life does incredible--perhaps "awe-inspiring" would be even more apt--things with complexity. The amount of complexity in something as "simple" as a single cell, or even a single strand of DNA, is mind-boggling. And yet that complexity is all encapsulated behind layers and layers of interfaces that allow us, at any given level of detail, to describe and predict interactions in useful ways. We can make sweeping generalizations at the level of an organ, an individual, or even an ecosystem, and find that those generalizations hold true, and allow us to manage with confidence. The system doesn't degenerate into chaos, even at levels of complexity many orders of magnitude beyond a single cell. I would like to be able to say the same about software, but although I see hopeful signs here and there, I think we're nowhere near as good as biology at making the complexity tractable.
+  - author: Andy Lawrence
+    date: 2013-02-19 10:48:30
+    comment: >
+      It is not just software and systems where increased complexity has become the norm. Data itself is increasingly "locked" into very complex and proprietary formats. Instead of keeping data in its "raw" format and devising several different ways to view that data, the data itself is being wrapped in a ton of markup, imported into databases, or split into other kinds of separate systems. Such systems make it hard to extract out the original data in order to perform new and interesting functions against it.
+  - author: Daniel Hardman
+    date: 2013-02-19 12:42:51
+    comment: >
+      I hadn't thought about it in quite those terms before, Andy, but you're totally right. One more reason for Didgets, which in some ways has the same vision as the old "winfs" idea that MS used to talk about -- describe data in robust and general-purpose ways that provide efficient searching -- without imposing lots of burden on the data due to the particular application that's using it.
 ---
-
 Most stories about zen masters, gurus, or other paragons of wisdom follow a similar pattern. The pupil discovers a problem. He or she struggles with it. The problem gets more and more overwhelming. Solutions are elusive. Finally the pupil goes to the master and pours out his heart, whereupon the master offers a pearl of insight that radically reinterprets the problem.
 
 [caption id="attachment_989" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/departingyyz/6858912596/"><img class="size-full wp-image-989 " alt="Seek the simple... Photo credit: departing(YYZ) (Flickr)" src="http://codecraft.co/wp-content/uploads/2013/02/screen-shot-2013-02-14-at-10-12-29-pm.png" width="500" height="330" /></a> Seek the simple... Photo credit: departing(YYZ) (Flickr)[/caption]
@@ -33,53 +62,3 @@ If you want to be a zen master, don't give them 20 more menu items in the next r
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">For a week, spend 2 minutes per day imagining ways to simplify. Incremental improvements are good, but also push yourself to think more radically. Could you deliver your product in a new way that totally obviates the need for an install, instead of just making the install easier? Instead of making two components talk more robustly through web services, could you collapse a process boundary altogether? Instead of integrating with a third-party app, could you throw away 1/3 of your product and simply use that app to get the job done?</span></em></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">I will be blogging more about how to simplify in coming weeks, and would be very interested in your thoughts on this topic. Please comment.</span></em></p>
-
-
-
----
-
-trevharmon (2013-02-15 11:42:58)
-
-This is one of those phenomenon I've noticed, as well. In fact, I've spent quite a lot of time trying to understand the reasons behind it in what may be a misguided effort. I think if I can understand the cause, I can fix it. Here are some of the reasons defending complexity:
-
-- Everyone else is doing it --- That argument didn't fly when I was a kid, so I don't see why it's valid now.
-- Customers are demanding new features --- Maybe they are, but that doesn't necessarily mean those features should be enabled if they increase complexity. In my experience it's the edge cases that create the most complexity.
-- Flexibility is more important than usability --- This is a philosophical debate, and I admit I fall into different camps depending on the circumstance. However, I'm always for simplicity.
-- We prove how smart we are by making something complex --- No one ever says this one out loud, though I've seen it implied a number of times. There's an unfounded fear the finesse of a simple approach will hide the creator's brilliance. Oddly, usable simplicity is far more difficult to achieve than complexity. Anyone can make something more complex.
-
-Now, assuming one provides a product and is not a bespoke services shop, I think I comes down to one of two things: fear or greed. Making something simple means one knows and understands their target customer, which by its very definition means one has limited the customer base. A simple to use product is not going to do everything any possible user may want. So, one is either fearful the simple to use product will overly limit the customer base or just plain doesn't want to limit it in any way. So, one falls into the trap of trying to make it work for everyone. Complexity rears its ugly head.
-
-The trick is to truly know your one's customers and allow the product to be no more complex than is absolutely needed for their needs. That's why Photoshop works for some but is far too complex for the majority of digital camera owners.
-
-Too bad it seems everyone feels compelled to build the IT equivalent of Photoshop.
-
----
-
-Daniel Hardman (2013-02-15 15:18:40)
-
-As always, I learn something from your thoughtful comments, Trev. I had not seen, before, such a clear summary of the "prove how smart we are" problem.
-
-One of the reasons why I'm attracted to biology as a metaphor and guiding light for software is that life does incredible--perhaps "awe-inspiring" would be even more apt--things with complexity. The amount of complexity in something as "simple" as a single cell, or even a single strand of DNA, is mind-boggling. And yet that complexity is all encapsulated behind layers and layers of interfaces that allow us, at any given level of detail, to describe and predict interactions in useful ways. We can make sweeping generalizations at the level of an organ, an individual, or even an ecosystem, and find that those generalizations hold true, and allow us to manage with confidence. The system doesn't degenerate into chaos, even at levels of complexity many orders of magnitude beyond a single cell. I would like to be able to say the same about software, but although I see hopeful signs here and there, I think we're nowhere near as good as biology at making the complexity tractable.
-
----
-
-Daniel Hardman (2013-02-19 12:42:51)
-
-I hadn't thought about it in quite those terms before, Andy, but you're totally right. One more reason for Didgets, which in some ways has the same vision as the old "winfs" idea that MS used to talk about -- describe data in robust and general-purpose ways that provide efficient searching -- without imposing lots of burden on the data due to the particular application that's using it.
-
----
-
-Andy Lawrence (2013-02-19 10:48:30)
-
-It is not just software and systems where increased complexity has become the norm. Data itself is increasingly "locked" into very complex and proprietary formats. Instead of keeping data in its "raw" format and devising several different ways to view that data, the data itself is being wrapped in a ton of markup, imported into databases, or split into other kinds of separate systems. Such systems make it hard to extract out the original data in order to perform new and interesting functions against it.
-
-
-
-
-
-
-
-
-
-
-

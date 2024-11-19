@@ -4,8 +4,30 @@ date: 2012-10-17
 slug: flexibility-is-no-virtue
 redirect_from:
   - /2012/10/17/flexibility-is-no-virtue
+comments:
+  - author: The Power of Simplicity &laquo; Codecraft
+    date: 2013-02-15 08:56:51
+    comment: >
+      [...] And all the planning that built those features? They’re symptoms of a problem, not solutions. Nobody really wants a shopping cart framework with 10,000 configuration options; they want to sell in a way that delights and engages customers. (Okay, I guess some software [...]
+  - author: David H
+    date: 2015-09-09 19:29:51
+    comment: >
+      Wow you hit on another hot-button topic for me. Super-configurable flexibility really benefits most the ISV salesperson who gets paid when the deal is signed, not when the customer is happy nor when the company makes a profit. It's about attempting (vainly) to be all things to everyone. "It is a sign that you don’t know who your customer is, or what they want." -> Nailed it.
+  - author: Daniel Hardman
+    date: 2015-09-22 12:44:07
+    comment: >
+      The more time goes by, the more I see this phenomenon everywhere. I don't think it's necessarily wrong to *start out* building in a lot of configurability; we might need it while we learn what's the right set of tradeoffs in the early days of our products. But once we have some experience in the field, we will eliminate some of the configuration options, in favor of "hardened" features. By then we should know that "give" in those places is counterproductive.
+  - author: David H
+    date: 2015-09-23 07:01:04
+    comment: >
+      Have you ever seen configuration options removed from a product in real life? Maybe it can be done. I think it would help if it was explicitly stated up front, internally and externally "this product is in Beta and some configuration options will be removed in the future as we gain experience", or something to that effect.
+  - author: Daniel Hardman
+    date: 2015-09-23 10:16:49
+    comment: >
+      >>Have you ever seen configuration options removed
+      
+      @David: it's a very astute question. The short answer is: "almost never". But at least I can hedge with "almost"... :-) You've made some wheels turn in my head about why it should be so hard to eliminated config. I'm pondering...
 ---
-
 <blockquote><em>Vice is a monster of so frightful mien,
 As to be hated needs but to be seen;
 Yet seen too oft, familiar with her face,
@@ -73,39 +95,3 @@ Theoretically, products could ship with smart defaults (so they'd require little
 I know I'm being idealistic. But it seems to me that we should acknowledge who's benefitting from flexibility, and what it's costing. We should make easy and correct fit, rather than flexibility, the ideal for our customers, and do what we can to achieve it. We may always be stuck making things flexible for our own internal purposes, but that should be our problem, not the customer's.
 <p style="padding-left:30px;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Study the "<a href="http://www.antipatterns.com/arch_cat.htm" target="_blank">Swiss Army Knife" and "Cover Your Assets" antipatterns</a>. These antipatterns are often associated with an incorrect admiration for flexibility. Look for places in your world where these antipatterns are used.</span></em></p>
-
-
-
----
-
-The Power of Simplicity &laquo; Codecraft (2013-02-15 08:56:51)
-
-[...] And all the planning that built those features? They’re symptoms of a problem, not solutions. Nobody really wants a shopping cart framework with 10,000 configuration options; they want to sell in a way that delights and engages customers. (Okay, I guess some software [...]
-
----
-
-Daniel Hardman (2015-09-22 12:44:07)
-
-The more time goes by, the more I see this phenomenon everywhere. I don't think it's necessarily wrong to *start out* building in a lot of configurability; we might need it while we learn what's the right set of tradeoffs in the early days of our products. But once we have some experience in the field, we will eliminate some of the configuration options, in favor of "hardened" features. By then we should know that "give" in those places is counterproductive.
-
----
-
-David H (2015-09-09 19:29:51)
-
-Wow you hit on another hot-button topic for me. Super-configurable flexibility really benefits most the ISV salesperson who gets paid when the deal is signed, not when the customer is happy nor when the company makes a profit. It's about attempting (vainly) to be all things to everyone. "It is a sign that you don’t know who your customer is, or what they want." -> Nailed it.
-
-
-
----
-
-David H (2015-09-23 07:01:04)
-
-Have you ever seen configuration options removed from a product in real life? Maybe it can be done. I think it would help if it was explicitly stated up front, internally and externally "this product is in Beta and some configuration options will be removed in the future as we gain experience", or something to that effect.
-
----
-
-Daniel Hardman (2015-09-23 10:16:49)
-
->>Have you ever seen configuration options removed
-
-@David: it's a very astute question. The short answer is: "almost never". But at least I can hedge with "almost"... :-) You've made some wheels turn in my head about why it should be so hard to eliminated config. I'm pondering...

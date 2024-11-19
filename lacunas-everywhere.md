@@ -4,8 +4,24 @@ date: 2014-07-16
 slug: lacunas-everywhere
 redirect_from:
   - /2014/07/16/lacunas-everywhere
+comments:
+  - author: David H
+    date: 2014-07-17 07:29:40
+    comment: >
+      Hi Daniel -
+      You've definitely got me curious!
+      Can you give us your reasoning why a whole new language vs. extending an existing language to solve your use cases? Becaues the problems you cite sound more like a wish list for additional features to a language, not complaints about features you want removed from any given language.
+      Also, what you've written so far reminds me of Donald Knuth and his "literate programming", which was intended to address your concerns about the human aspect of programming. If I understand correctly, in Knuth's system you write a document whose primary language is English (or Spanish or whatever your human language is) and the compiler extracts embedded code out of it and creates the program. That way the code and documentation are never far apart. Comments on that?
+      David H
+  - author: Daniel Hardman
+    date: 2014-07-17 08:41:10
+    comment: >
+      David: the problem I'm highlighting doesn't require a new programming language; it could easily be solved by extending existing ones. In fact, I even toyed with the idea of writing up a proposal for C++17... However, "extending" doesn't just mean adding a library or package into the core runtime; it would require a change in assumptions about what we believe is valid content for code. For that reason, I suspect that existing languages won't glom onto it.
+      
+      In my next couple posts, I'll describe the solution. I've been slow to post, lately, but I'll try to write them quickly so you're not left hanging for too long. :-) I'm not trying to be mysterious; I'm just having a dickens of a time pulling half a dozen mental threads into a coherent tapestry.
+      
+      Your connection with Knuth is an interesting one. I've heard of literate programming, and I've read some stuff by him before, but I am not very familiar with the specific idea you describe, so now I've got a new homework assignment.
 ---
-
 I'm <a href="http://matadornetwork.com/abroad/20-awesomely-untranslatable-words-from-around-the-world/" target="_blank">told</a> that in Czech, the word "prozvonit" means "to call a mobile phone and let it ring once so that the other person will call back, saving the first caller money."
 
 <figure><img src="https://farm5.staticflickr.com/4113/5080987526_cdbf30487f_z_d.jpg" alt="" width="640" height="421" /><figcaption>Image credit: AstridWestvang (Flickr)</figcaption></figure>
@@ -41,40 +57,3 @@ Perhaps you're saying to yourself: "Language X has a way to solve problem Y." At
 Perhaps you're saying to yourself: "Use the right tool for the right job. A programming language shouldn't have the fuzzy jobs in the examples above." Really? Almost every piece of code on the planet ends up having some kind of copyright/license associated with it. The license can be described in text, and it directly impacts hthe software is produced and consumed--but the language of the software should only concern itself with classes and functions, and ignore this issue? A language shouldn't be indicted for creating useless redundancy that undermines <a title="Good fences make good neighbors" href="good-fences-make-good-neighbors.md">encapsulation</a> and the accuracy of docs? A language is well designed, even if it generates tons of useless warnings, displayed redundantly, for all time, to all coders who work on a codebase? I'm not claiming that tech writers should create content in the same programming language as developers, or that graphic artists should start coding instead of photoshopping their icons. We don't need to compile gantt charts. I'm just saying that even within the domain of problems that software engineers usually own, our languages are too semantically barren to solve lots of real-world problems. This costs us real time and money.
 <h3>Plugging the Gaps</h3>
 It doesn't have to be this way. If you're following my blog, you know that I've been designing a new programming language. One of its most important innovations offers a quantum leap in semantic density, without lots of noise or bother. I'll be explaining this feature, "marks," in a series of <a href="bridging-the-lacuna-humana.md">follow-on posts</a>. I hope you'll subscribe or check back to see where I'm headed.
-
-
-
-
-
-
-
-
-
-
-
----
-
-David H (2014-07-17 07:29:40)
-
-Hi Daniel -
-You've definitely got me curious!
-Can you give us your reasoning why a whole new language vs. extending an existing language to solve your use cases? Becaues the problems you cite sound more like a wish list for additional features to a language, not complaints about features you want removed from any given language.
-Also, what you've written so far reminds me of Donald Knuth and his "literate programming", which was intended to address your concerns about the human aspect of programming. If I understand correctly, in Knuth's system you write a document whose primary language is English (or Spanish or whatever your human language is) and the compiler extracts embedded code out of it and creates the program. That way the code and documentation are never far apart. Comments on that?
-David H
-
-
-
----
-
-Daniel Hardman (2014-07-17 08:41:10)
-
-David: the problem I'm highlighting doesn't require a new programming language; it could easily be solved by extending existing ones. In fact, I even toyed with the idea of writing up a proposal for C++17... However, "extending" doesn't just mean adding a library or package into the core runtime; it would require a change in assumptions about what we believe is valid content for code. For that reason, I suspect that existing languages won't glom onto it.
-
-In my next couple posts, I'll describe the solution. I've been slow to post, lately, but I'll try to write them quickly so you're not left hanging for too long. :-) I'm not trying to be mysterious; I'm just having a dickens of a time pulling half a dozen mental threads into a coherent tapestry.
-
-Your connection with Knuth is an interesting one. I've heard of literate programming, and I've read some stuff by him before, but I am not very familiar with the specific idea you describe, so now I've got a new homework assignment.
-
-
-
-
-

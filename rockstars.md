@@ -4,8 +4,36 @@ date: 2015-03-04
 slug: rockstars
 redirect_from:
   - /2015/03/04/rockstars
+comments:
+  - author: Mick Oberlin
+    date: 2015-03-06 01:41:00
+    comment: >
+      I can't agree with your last statement more. I have the same issue with "Guru". Rather than "Rockstar", couldn't we have something that at least incorporates the features of a winning programmer? You know, like "Savant", "Virtuoso", or even "Gladiator"? I don't even really listen to Rock & Roll.
+  - author: Daniel Hardman
+    date: 2015-03-06 07:29:41
+    comment: >
+      Ooh, I really like "virtuoso." Gladiator is an interesting one, too. I don't usually think of what we do as a battle, but now that I think about it, I do talk about having "battlescars"...
+  - author: David H
+    date: 2015-03-06 11:37:00
+    comment: >
+      Daniel, I'm really glad you wrote this post. I wish more people, especially managers, understood that a prima donna developer really undermines their organization and can torpedo their results. In one group I was in (company name shall remain anonymous) we had three "rock stars" on the same team all ignoring the others and writing redundant code at rapid velocity. They impressed the boss with their short-term results and then quit or changed to another group before the consequences had time to catch up to them. I got to clean up the mess.
+      
+      Oh, to add to your list: "unicorn developers." Heaven help us.
+  - author: Daniel Hardman
+    date: 2015-03-07 22:18:51
+    comment: >
+      Yes, it's really unfortunate that folks sometimes skip out just when the exacting work of maintaining a newly created codebase (finding and fixing all the subtle bugs, and trying to polish the rough edges) is beginning. What seemed like a good design early on can look pretty dismal when compromises begin to manifest their long-term consequences...
+      
+      I admire you for being the sort of guy who is in it for the long haul...
+  - author: Andy Lawrence
+    date: 2015-03-10 22:54:48
+    comment: >
+      Does this mean I should quit referring to you as the best rockstar, guru, code ninja that I know when people ask me "Do you know Daniel Hardman?"?
+  - author: Daniel Hardman
+    date: 2015-03-10 22:58:28
+    comment: >
+      Hah! Of course you should. You know lots of awesome coders (and you are one yourself). :-) Whenever I do something boneheaded (like when I wrote, recently, about taking forever to diagnose a simple missing mutex), I am reminded of my amazing capacity to not be very smart...
 ---
-
 Recently I've run across several uses of the phrase "rockstar developer" or "rockstar programmer" ("code ninja" is another hip variant). The term shows up on slashdot, for example. I've also seen it in job postings and in blogs.<sup>[<a target="_blank" href="http://www.infoworld.com/article/2886735/it-careers/should-you-hire-a-software-developer-talent-agent.html">1</a>],[<a target="_blank" href="http://sethgodin.typepad.com/seths_blog/2014/12/a-one-day-design-sprint-and-an-app-directory.html">2</a>],[<a target="_blank" href="http://skeptics.stackexchange.com/questions/7559/are-there-studies-clearly-illustrating-the-great-discrepancies-in-programmer-pro3">3</a>]</sup> A rockstar hacker archetype is standard fare in TV shows, where his or her computing feats are practically a superpower (<em>Agents of Shield</em>, <em>Person of Interest</em>, <em>Leverage</em>, <em>Scorpion</em>, ...) Of course Hollywood loves the notion, too; I thought <em>The Imitation Game</em> was fascinating, but besides taking liberties with history, it portrays Alan Turing in a distorted way that feeds such mystique. (Turing <em>was</em> absolutely brilliant, and certainly one of the most important pioneers in computing. But he <a href="http://www.slate.com/blogs/browbeat/2014/12/03/the_imitation_game_fact_vs_fiction_how_true_the_new_movie_is_to_alan_turing.html" target="_blank">didn't invent his codebreaking machine alone</a>.)
 
 [caption id="attachment_6021" align="aligncenter" width="646"]<a href="http://youtu.be/j2jRs4EAvWM"><img src="https://codecraft.co/wp-content/uploads/2015/03/screen-shot-2015-03-05-at-6-52-57-pm.png?w=646" alt="Alan Turing and team members at Bletchley Park, with a forerunner of the modern computer-- technology invented by brilliant people to break the Nazi Enigma encryption. Screenshot from official trailer, under fair use." width="646" height="271" class="size-large wp-image-6021" /></a> from <em>The Imitation Game</em>: Alan Turing and team members at Bletchley Park, with a forerunner of the modern computer — technology invented by brilliant people to break the Nazi Enigma encryption. Screenshot from official trailer, under fair use.[/caption]
@@ -44,48 +72,3 @@ Nonetheless, the worldview behind the "rockstar" label is naive and dangerous, a
 To temper my complaining just a wee bit, perhaps it's worth acknowledging one way that the "rockstar" metaphor <em>does</em> work: I have seen many performances during my career that were worthy of admiration--even applause. Working with people who are humble and smart and generous, who push the limits and raise the bar in all the best ways--that's an experience as memorable as any rock concert. Definitely worth the price of admission.
 
 Do you agree?
-
----
-
-Daniel Hardman (2015-03-07 22:18:51)
-
-Yes, it's really unfortunate that folks sometimes skip out just when the exacting work of maintaining a newly created codebase (finding and fixing all the subtle bugs, and trying to polish the rough edges) is beginning. What seemed like a good design early on can look pretty dismal when compromises begin to manifest their long-term consequences...
-
-I admire you for being the sort of guy who is in it for the long haul...
-
-
-
----
-
-Andy Lawrence (2015-03-10 22:54:48)
-
-Does this mean I should quit referring to you as the best rockstar, guru, code ninja that I know when people ask me "Do you know Daniel Hardman?"?
-
----
-
-Daniel Hardman (2015-03-10 22:58:28)
-
-Hah! Of course you should. You know lots of awesome coders (and you are one yourself). :-) Whenever I do something boneheaded (like when I wrote, recently, about taking forever to diagnose a simple missing mutex), I am reminded of my amazing capacity to not be very smart...
-
----
-
-Mick Oberlin (2015-03-06 01:41:00)
-
-I can't agree with your last statement more. I have the same issue with "Guru". Rather than "Rockstar", couldn't we have something that at least incorporates the features of a winning programmer? You know, like "Savant", "Virtuoso", or even "Gladiator"? I don't even really listen to Rock & Roll.
-
----
-
-Daniel Hardman (2015-03-06 07:29:41)
-
-Ooh, I really like "virtuoso." Gladiator is an interesting one, too. I don't usually think of what we do as a battle, but now that I think about it, I do talk about having "battlescars"...
-
----
-
-David H (2015-03-06 11:37:00)
-
-Daniel, I'm really glad you wrote this post. I wish more people, especially managers, understood that a prima donna developer really undermines their organization and can torpedo their results. In one group I was in (company name shall remain anonymous) we had three "rock stars" on the same team all ignoring the others and writing redundant code at rapid velocity. They impressed the boss with their short-term results and then quit or changed to another group before the consequences had time to catch up to them. I got to clean up the mess.
-
-Oh, to add to your list: "unicorn developers." Heaven help us.
-
-
-

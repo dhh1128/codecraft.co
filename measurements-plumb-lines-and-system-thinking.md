@@ -4,8 +4,22 @@ date: 2012-11-12
 slug: measurements-plumb-lines-and-system-thinking
 redirect_from:
   - /2012/11/12/measurements-plumb-lines-and-system-thinking
+comments:
+  - author: dougbert
+    date: 2012-11-13 09:58:01
+    comment: >
+      I am not a pilot but I understand "instrument flying" operation.  It is possible to "fly the plane" by chasing the "artificial horizon", constantly trying to keep the horizon 'level'. Yet by solely following that type of flying, it is very easy to lose track of the overall objectuve if actually going somewhere desired. One can fly the plane correctly and safely, yet never get any where.
+      
+      Tracking bugs fixed is good, but does that tracking increase or decrease the entropy of the code? A metric is there and can be used for reports, but what metric is used to measure "better code", "cleaner code", or "code that properly reflects the model of the problem being solved"?
+      
+      As always, some great insight
+  - author: Daniel
+    date: 2012-11-13 10:15:14
+    comment: >
+      Doug: I hadn't considered the analogy to flight, but I think it's a very insightful one. The problem of optimizing a particular number on the instruments, as opposed to seeking the overall best flying experience, is exactly the sort of problem that Seth Godin talked about with his caution about false proxies. We get enamored of a number and forget that it's only a means to an end.
+      
+      That said, I'd rather have two or three useful numbers than just a vague intention. This is why it was so smart of you to pick a specific target (e.g., "no modules > 10k lines") and work to hit it in your moab work.
 ---
-
 Friday morning I was at a seminar taught by <a href="www.linkedin.com/in/jhtaylorjason" target="_blank">Jason Taylor</a>, CTO at <a href="http://www.allegiance.com" target="_blank">Allegiance</a>. We were discussing how dev team <a href="http://en.wikipedia.org/wiki/Velocity_(software_development)">velocity</a> and product quality can compete for our attention; sometimes we trade one for the other. Jason mentioned that he's a fan of competing metrics, and some neurons connected in my brain.
 
 <figure><img alt="" src="http://farm4.staticflickr.com/3110/2600773685_8934c3327f_n.jpg" height="320" width="213" /><figcaption>Plumb line suspended from the center point of multiple balancing legs. Photo credit: suttonhoo (Flickr)</figcaption></figure>
@@ -31,28 +45,3 @@ In my younger years, I grumbled a few times about how feature creep impacts qual
 I'm going to paint more complete pictures with my metrics, and see where it gets me.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Think of a team problem where you'd like a different balance. How can you measure each factor that plays into the overall dynamics of the situation?</span></em></p>
-
-
-
----
-
-Daniel (2012-11-13 10:15:14)
-
-Doug: I hadn't considered the analogy to flight, but I think it's a very insightful one. The problem of optimizing a particular number on the instruments, as opposed to seeking the overall best flying experience, is exactly the sort of problem that Seth Godin talked about with his caution about false proxies. We get enamored of a number and forget that it's only a means to an end.
-
-That said, I'd rather have two or three useful numbers than just a vague intention. This is why it was so smart of you to pick a specific target (e.g., "no modules > 10k lines") and work to hit it in your moab work.
-
----
-
-dougbert (2012-11-13 09:58:01)
-
-I am not a pilot but I understand "instrument flying" operation.  It is possible to "fly the plane" by chasing the "artificial horizon", constantly trying to keep the horizon 'level'. Yet by solely following that type of flying, it is very easy to lose track of the overall objectuve if actually going somewhere desired. One can fly the plane correctly and safely, yet never get any where.
-
-Tracking bugs fixed is good, but does that tracking increase or decrease the entropy of the code? A metric is there and can be used for reports, but what metric is used to measure "better code", "cleaner code", or "code that properly reflects the model of the problem being solved"?
-
-As always, some great insight
-
-
-
-
-

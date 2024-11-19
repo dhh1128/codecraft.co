@@ -4,8 +4,12 @@ date: 2012-09-19
 slug: ken-ebert-kill-three-birds
 redirect_from:
   - /2012/09/19/ken-ebert-kill-three-birds
+comments:
+  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
+    date: 2013-02-05 08:57:48
+    comment: >
+      [...] We forget that we are optimizing many variables at once. [...]
 ---
-
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
 
 
@@ -49,12 +53,3 @@ Of course, nobody can do all of these, exhaustively, all the time. <a title="Don
 Thanks for the lesson, Ken.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Look at the bulleted list of perspectives above; find one you've been neglecting. Pick a significant decision that's on the horizon, and spend some time thinking seriously about that decision in the context of the neglected perspective. What did you learn?</span></em></p>
-
----
-
-Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:48)
-
-[...] We forget that we are optimizing many variables at once. [...]
-
-
-

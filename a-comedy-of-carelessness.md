@@ -4,8 +4,60 @@ date: 2013-12-09
 slug: a-comedy-of-carelessness
 redirect_from:
   - /2013/12/09/a-comedy-of-carelessness
+comments:
+  - author: trevharmon
+    date: 2013-12-09 09:58:06
+    comment: >
+      I think one of the most egregious examples I've recently run into was the hoops necessary to jump through to buy rail tickets online for India. Now the IRCTC (Indian Railway Catering and Tourism Corporation Limited irctc.co.in) is arguably one of the largest ticketing/booking systems in the entire world, and is by far the easiest method for booking train tickets (unless you happen to live in a country that has an IndRail pass agency, of which the U.S. is not).
+      
+      Here's the issue.
+      
+      In order to create an account you're required to provide a never-before-used +91 Indian cell phone number. This is clearly problematic for foreigners. The workaround (http://www.seat61.com/India.htm#book%20-%20from%20outside) is to provide a fake (i.e., valid, but not yours) cell number and then contact support to get the all important SMS security code that you didn't get (but someone else might have gotten) sent to the provided cell number.
+      
+      This is obviously problematic on so many different levels.
+      
+      On a slightly different note, the other night I helped my father set up his new iPad, which necessitated the creation of a new Apple ID. That process wasn't perfect, but when we got to the security question/answer creation part, the questions provided by Apple were completely unambiguous at to what was being asked for. For example, "What was the last name of your favorite teacher in elementary school?" Every possible ambiguous section was preceded by a needed descriptor.
+      
+      So, I think we are slowly getting better.
+  - author: Daniel Hardman
+    date: 2013-12-09 13:25:25
+    comment: >
+      Yes, when we ask crisper questions (your Apple example), we definitely improve the user experience.
+      
+      Your story about railway tickets in India reminds me of a great short story by Stanislaw Lem, called "Trurl's Prescription." It's about a society that has an intrusive beast settle on their planet. They can't get rid of it. They try everything up to and including nuclear bombs, and it seems impervious to influence. So they hire Trurl (a great inventor). He immediately serves a writ of dense legalese on the creature, requiring a notarized signature in triplicate. Things get progressively sillier from there, until eventually the creature vanishes. Trurl's parting observation is that when all else fails, you can always use bureaucracy--no way has ever been found out of its insidious clutches. :-)
+  - author: lkafle
+    date: 2013-12-10 02:19:36
+    comment: >
+      Reblogged this on <a href="a-comedy-of-carelessness.md" rel="nofollow">healthcare software solutions lava kafle kathmandu nepal lava prasad kafle lava kafle on google+ <a href="https://plus.google.com/102726194262702292606" rel="publisher">Google+</a></a>.
+  - author: doug thompson
+    date: 2013-12-10 13:23:06
+    comment: >
+      SOOOOOOO BTDT!!!!!!!!!!!!!!!!
+      (been there done that)
+      
+      Was in Las Vegas at a CNG refueling station. System was so old, I had to swipe 3 times, each taking about 1 cent of fuel.
+      
+      THEN I get the phone call about suspicous activity and was it I. I had used the card all the way down I-15 in Utah, but once outside the state I got flagged.
+      
+      Same issues on the other acts, BTDT.
+      Very frustrating.
+      Yet the charges that came from Paris France, still went through and I noticed them on my montly statement....Go figure
+      
+      
+      Later found a better station near the airport.
+  - author: Daniel Hardman
+    date: 2013-12-10 17:09:26
+    comment: >
+      I had to laugh (groan) a bit about your triple-swipe example. I've bought stuff at Wal-mart, realized I forgot something, and circled back through checkout 3 minutes later enough times--and triggered a fraud alert enough times--to recognize that scenario all too well. I now work around it without even thinking, by using an alternate card the second time through. Ugh. We shouldn't have to think this hard to do something simple...
+  - author: Jared
+    date: 2013-12-14 21:48:38
+    comment: >
+      Ambiguous challenge questions is a pet peeve of mine.  "What is the name of your elementary school?"  Forget that I don't know if I would have put "Lincoln Elementary" or "lincoln", I can't be the only one who attended multiple elementary schools.  The school where my children attend has something like a 10% turnover PER YEAR.  First pet?  My older siblings talk about dogs I barely remember, would I have put one of those names, or the one I remember clearest?  
+      
+      I laughed the other day when I was prompted at a new site with a question I had never seen before: What is the name of the girl you first kissed?  Now that I remember!
+      
+      I am currently doing a lot of work with a very poorly-designed component of my company's software.  I can understand that a complex function call takes longer in the real world than in the dev lab, but why do I stare at a status bar that reads "Ready" while the function runs for hours without feedback except what is see in debugview? Is it still running?  Did I type something wrong?  Was my mouse click lost over the RDP connection?  I don'e expect perfection, but feedback is necessary.
 ---
-
 <h2>Act I</h2>
 The day after Thanksgiving I went on a long road trip to eastern Wyoming. Total driving time: about 7 hours, each way.
 
@@ -60,78 +112,3 @@ Now that's more like it! <a title="Good Code Plans for Problems" href="dont-for
 We MUST have a vision that encompasses this mindset in the software we build, because I believe software is getting ever more complex. Layer depends upon layer depends upon layer... If we write each layer using only the most convenient assumptions, the multiplicative effect of all those shortcuts will eventually make our users miserable.
 
 I don't want to use software like that, and I don't want to write software like that, either.
-
----
-
-Jared (2013-12-14 21:48:38)
-
-Ambiguous challenge questions is a pet peeve of mine.  "What is the name of your elementary school?"  Forget that I don't know if I would have put "Lincoln Elementary" or "lincoln", I can't be the only one who attended multiple elementary schools.  The school where my children attend has something like a 10% turnover PER YEAR.  First pet?  My older siblings talk about dogs I barely remember, would I have put one of those names, or the one I remember clearest?  
-
-I laughed the other day when I was prompted at a new site with a question I had never seen before: What is the name of the girl you first kissed?  Now that I remember!
-
-I am currently doing a lot of work with a very poorly-designed component of my company's software.  I can understand that a complex function call takes longer in the real world than in the dev lab, but why do I stare at a status bar that reads "Ready" while the function runs for hours without feedback except what is see in debugview? Is it still running?  Did I type something wrong?  Was my mouse click lost over the RDP connection?  I don'e expect perfection, but feedback is necessary.
-
-
-
----
-
-trevharmon (2013-12-09 09:58:06)
-
-I think one of the most egregious examples I've recently run into was the hoops necessary to jump through to buy rail tickets online for India. Now the IRCTC (Indian Railway Catering and Tourism Corporation Limited irctc.co.in) is arguably one of the largest ticketing/booking systems in the entire world, and is by far the easiest method for booking train tickets (unless you happen to live in a country that has an IndRail pass agency, of which the U.S. is not).
-
-Here's the issue.
-
-In order to create an account you're required to provide a never-before-used +91 Indian cell phone number. This is clearly problematic for foreigners. The workaround (http://www.seat61.com/India.htm#book%20-%20from%20outside) is to provide a fake (i.e., valid, but not yours) cell number and then contact support to get the all important SMS security code that you didn't get (but someone else might have gotten) sent to the provided cell number.
-
-This is obviously problematic on so many different levels.
-
-On a slightly different note, the other night I helped my father set up his new iPad, which necessitated the creation of a new Apple ID. That process wasn't perfect, but when we got to the security question/answer creation part, the questions provided by Apple were completely unambiguous at to what was being asked for. For example, "What was the last name of your favorite teacher in elementary school?" Every possible ambiguous section was preceded by a needed descriptor.
-
-So, I think we are slowly getting better.
-
----
-
-Daniel Hardman (2013-12-09 13:25:25)
-
-Yes, when we ask crisper questions (your Apple example), we definitely improve the user experience.
-
-Your story about railway tickets in India reminds me of a great short story by Stanislaw Lem, called "Trurl's Prescription." It's about a society that has an intrusive beast settle on their planet. They can't get rid of it. They try everything up to and including nuclear bombs, and it seems impervious to influence. So they hire Trurl (a great inventor). He immediately serves a writ of dense legalese on the creature, requiring a notarized signature in triplicate. Things get progressively sillier from there, until eventually the creature vanishes. Trurl's parting observation is that when all else fails, you can always use bureaucracy--no way has ever been found out of its insidious clutches. :-)
-
----
-
-lkafle (2013-12-10 02:19:36)
-
-Reblogged this on <a href="a-comedy-of-carelessness.md" rel="nofollow">healthcare software solutions lava kafle kathmandu nepal lava prasad kafle lava kafle on google+ <a href="https://plus.google.com/102726194262702292606" rel="publisher">Google+</a></a>.
-
----
-
-doug thompson (2013-12-10 13:23:06)
-
-SOOOOOOO BTDT!!!!!!!!!!!!!!!!
-(been there done that)
-
-Was in Las Vegas at a CNG refueling station. System was so old, I had to swipe 3 times, each taking about 1 cent of fuel.
-
-THEN I get the phone call about suspicous activity and was it I. I had used the card all the way down I-15 in Utah, but once outside the state I got flagged.
-
-Same issues on the other acts, BTDT.
-Very frustrating.
-Yet the charges that came from Paris France, still went through and I noticed them on my montly statement....Go figure
-
-
-Later found a better station near the airport.
-
----
-
-Daniel Hardman (2013-12-10 17:09:26)
-
-I had to laugh (groan) a bit about your triple-swipe example. I've bought stuff at Wal-mart, realized I forgot something, and circled back through checkout 3 minutes later enough times--and triggered a fraud alert enough times--to recognize that scenario all too well. I now work around it without even thinking, by using an alternate card the second time through. Ugh. We shouldn't have to think this hard to do something simple...
-
-
-
-
-
-
-
-
-

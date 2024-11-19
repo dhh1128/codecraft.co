@@ -4,8 +4,30 @@ date: 2013-01-08
 slug: 3-commandments-of-performance-optimization
 redirect_from:
   - /2013/01/08/3-commandments-of-performance-optimization
+comments:
+  - author: dougbert
+    date: 2013-01-08 10:19:35
+    comment: >
+      Can't improve it if you can't measure it!
+      
+      Measuring twice is key, because then you have two points to compare to each other. Otherwise, one data point is simply a factoid for some tabloid to sell paper.
+  - author: Daniel Hardman
+    date: 2013-01-08 22:45:09
+    comment: >
+      I agree; it's awfully hard to get the slope of a line from one point...
+  - author: Andy Lawrence
+    date: 2013-01-09 22:00:01
+    comment: >
+      Personally I tend to err toward the "passionate" side of optimization. While I am sure that I have wasted some time fine-tuning some code that only ended up being called once or twice; I have also been pleasantly surprised in many cases where the whole product became much more functional just because some code I wrote worked faster than the spec required.
+      
+      With my current project, I have had a number of features just "fall out" of the design and work simply because the code ran so fast that it became trivial to process some query.
+      
+      Performance coding is becoming a lost art. Too many programmers think that faster processors or bigger pipes can overcome bad algorithms. That can work in some cases until a competitor comes along who does it right.
+  - author: Daniel Hardman
+    date: 2013-01-10 08:43:47
+    comment: >
+      Andy: I strongly agree with a lot of your comment--especially the part about "too many programmers think that faster processors or bigger pipes can overcome bad algorithms." One of the big insights that should be developed during the CS data structures classes is that some data structures, and some algorithms that work those data structures, are inherently faster that others at large scale. Programmers that choose a solution that's adequate at one scale, but woefully inefficient at another, may be doing themselves and their team a great disservice.
 ---
-
 In my experience, most programmer attitudes on speed fall into one of these categories:
 
 <em>laissez-faire</em>
@@ -84,42 +106,3 @@ After you've measured and made your tradeoffs, you must continue to measure, at 
 I have worked several times in my career on technologies that were orders of magnitude faster than their competitors in the marketplace. In each case, the faster tech was disruptive, and the established and slower equivalent was long in the tooth. And in each case, the slower technology wasn't nearly so slow to begin with; its performance eroded steadily over time as it became more complex and addressed more and more corner cases. (Consider how the introduction of security affects performance in the pipeline diagram above.) So a word of warning to all purveyors of disruptive, radically faster coolness: if you don't continue to measure the performance of your stuff, on an on-going basis, I predict that you will lose a lot of your edge.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Build a pipeline diagram for a process that you want to optimize. Identify bottlenecks. What aspects of the process should you ignore?</span></em></p>
-
-
-
----
-
-dougbert (2013-01-08 10:19:35)
-
-Can't improve it if you can't measure it!
-
-Measuring twice is key, because then you have two points to compare to each other. Otherwise, one data point is simply a factoid for some tabloid to sell paper.
-
----
-
-Daniel Hardman (2013-01-10 08:43:47)
-
-Andy: I strongly agree with a lot of your comment--especially the part about "too many programmers think that faster processors or bigger pipes can overcome bad algorithms." One of the big insights that should be developed during the CS data structures classes is that some data structures, and some algorithms that work those data structures, are inherently faster that others at large scale. Programmers that choose a solution that's adequate at one scale, but woefully inefficient at another, may be doing themselves and their team a great disservice.
-
----
-
-Andy Lawrence (2013-01-09 22:00:01)
-
-Personally I tend to err toward the "passionate" side of optimization. While I am sure that I have wasted some time fine-tuning some code that only ended up being called once or twice; I have also been pleasantly surprised in many cases where the whole product became much more functional just because some code I wrote worked faster than the spec required.
-
-With my current project, I have had a number of features just "fall out" of the design and work simply because the code ran so fast that it became trivial to process some query.
-
-Performance coding is becoming a lost art. Too many programmers think that faster processors or bigger pipes can overcome bad algorithms. That can work in some cases until a competitor comes along who does it right.
-
----
-
-Daniel Hardman (2013-01-08 22:45:09)
-
-I agree; it's awfully hard to get the slope of a line from one point...
-
-
-
-
-
-
-

@@ -4,8 +4,12 @@ date: 2013-04-05
 slug: adios-to-computer-programming
 redirect_from:
   - /2013/04/05/adios-to-computer-programming
+comments:
+  - author: Andrew Titenko
+    date: 2023-05-12 11:49:15
+    comment: >
+      Great blog you havee
 ---
-
 Have you noticed how seldom people put the modifier "computer" in front of "programming" nowadays?
 
 This may be because our formerly esoteric discipline is now so mainstream that it needs no elaboration.
@@ -55,11 +59,3 @@ We don't use the term "computer programming" much anymore, but when are we going
 Until we do, I think we're missing the boat.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Discuss the idea of ecosystems in software with a colleague. How do you see the metaphor relating to your day-to-day work?</em></span></p>
-
-
-
----
-
-Andrew Titenko (2023-05-12 11:49:15)
-
-Great blog you havee

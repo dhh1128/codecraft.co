@@ -4,8 +4,26 @@ date: 2014-10-28
 slug: taming-side-agreements
 redirect_from:
   - /2014/10/28/taming-side-agreements
+comments:
+  - author: David H
+    date: 2014-10-29 07:12:42
+    comment: >
+      "But when the intent of a function call is to cause certain effects, pure functions don’t help us; all these messy issues crowd in."
+      
+      For those of us who write code for a living, an important side effect of a function is that the customer gives us money. I'm glad you said that there is no silver bullet, because that whole making-the-customer-happy thing is very difficult to automatically verify at compile time. :)
+      
+      For purposes of expressing and enforcing the "real" contract, I have found test-driven-development to be helpful. A docstring on a recent test: "The save() method creates a file that is only readable and writable by the owner." How's that for a contract?
+      
+      The problem with my test suite is that no one seems to want to read over my unit tests to see what the code does. :) Tests in one place are enforcing what docs in another place are saying, and hopefully the two match. Python doctests [1] can help with this, for certain types of tests and certain types of code.
+      
+      [1] https://docs.python.org/2/library/doctest.html
+  - author: Daniel Hardman
+    date: 2014-10-29 07:21:42
+    comment: >
+      David: thank you for pointing out the "side effect" of getting paid. Very à propos! :-)
+      
+      I agree about the value of TDD. I haven't used doctests very often, but I am at a loss to explain why--they're quite nifty. One thing that I particularly like about them is that they are embedded in the code, *not* stored in a separate file. This makes it more likely that a programmer will actually read/be aware of the semantics they enforce.
 ---
-
 When I was a technical director at Symantec, I had to formally certify at the end of each quarter that I had not entered into any "side agreements" with customers.
 
 A side agreement is any arrangement that takes place out-of-band, off-the-books, or using private channels not normally examined by accountants. In business, they are usually a bad thing; they can be used to build Enron- or Madoff-style house-of-cards revenue pipelines that are gleaming and glittery at first glance, but that are ripe for collapse because they're full of hidden caveats and preconditions.
@@ -60,27 +78,3 @@ Fourth, <em>the size of your accounting staff depends on the scale of your opera
 <h3>Your battlescars</h3>
 
 How about you? When have you been bit by "side agreements" in code? What techniques have you used to drive them out? Please share.
-
-
----
-
-David H (2014-10-29 07:12:42)
-
-"But when the intent of a function call is to cause certain effects, pure functions don’t help us; all these messy issues crowd in."
-
-For those of us who write code for a living, an important side effect of a function is that the customer gives us money. I'm glad you said that there is no silver bullet, because that whole making-the-customer-happy thing is very difficult to automatically verify at compile time. :)
-
-For purposes of expressing and enforcing the "real" contract, I have found test-driven-development to be helpful. A docstring on a recent test: "The save() method creates a file that is only readable and writable by the owner." How's that for a contract?
-
-The problem with my test suite is that no one seems to want to read over my unit tests to see what the code does. :) Tests in one place are enforcing what docs in another place are saying, and hopefully the two match. Python doctests [1] can help with this, for certain types of tests and certain types of code.
-
-[1] https://docs.python.org/2/library/doctest.html
-
----
-
-Daniel Hardman (2014-10-29 07:21:42)
-
-David: thank you for pointing out the "side effect" of getting paid. Very à propos! :-)
-
-I agree about the value of TDD. I haven't used doctests very often, but I am at a loss to explain why--they're quite nifty. One thing that I particularly like about them is that they are embedded in the code, *not* stored in a separate file. This makes it more likely that a programmer will actually read/be aware of the semantics they enforce.
-

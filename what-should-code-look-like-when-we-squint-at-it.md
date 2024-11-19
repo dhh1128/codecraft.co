@@ -4,8 +4,56 @@ date: 2013-09-19
 slug: what-should-code-look-like-when-we-squint-at-it
 redirect_from:
   - /2013/09/19/what-should-code-look-like-when-we-squint-at-it
+comments:
+  - author: trevharmon
+    date: 2013-09-19 14:45:15
+    comment: >
+      Daniel, I know you and I discussed this for some length of time earlier, but I've come across another thought. And, it deals with the different approaches we use when coding. Naturally, I can only use myself as an example.
+      
+      I wonder if some of this behavior comes from doing some form of bottom-up programming. What I mean by this is after the brainstorming that goes on when planning a project, do programmers naturally start by building the objects or building the flow?
+      
+      Let's compare this to writing a paper vs. a computer program.
+      
+      If I'm writing something small (e.g., for my blog), I'm likely to just do stream-of-conscience writing. Whatever comes into my head as the next logical step will be put directly written down without much thought. I do the same thing with quick-and-dirty scripts.
+      
+      Now, when I'm writing something larger, my behavior changes. Even though the brainstorming may have resulting in many, many individual pieces, I start the actual writing process by defining a clear flow of ideas (usually through defining chapter/section/sub-section headings). The details are then filled in using the brainstormed material.
+      
+      When coding a large project, I tend to do something different. Instead of starting with the overall flow, I go to creating the underlying objects. I build all of this infrastructure-providing pieces first. Later, I go back and add the logical flow. While both tasks are completed, it's clear my main focus is on the building blocks, not the overall flow.
+      
+      Interestingly enough, on medium-sized programming projects, I do sometimes follow the pattern of doing flow first. That's seen in the progressive disclosure MAIN: section we were discussing. I have a section of code at the beginning of an obvious file that consists of the following:
+      
+      - Initialization
+      - Functions and flow control
+      - Termination
+      
+      In this case it's always clear what the flow is and everything else is built around it. If I do this first and use good function names, those function (in their call order) are then copied to later in the file to be used as the skeleton for the rest of the code.
+      
+      Obviously, these are not large projects and are heavily skewed to procedural programming paradigms. As stated, in larger code bases my behavior appears to be different.
+      
+      So, that's my long-winded way of agreeing with you that program flow and progressive disclosure are often not given the level of attention they deserve.
+  - author: Daniel Hardman
+    date: 2013-09-19 21:52:39
+    comment: >
+      Interesting analysis, Trev. You've got me wondering if I do the same thing. I know I jump right into flow on small stuff, but I'm not sure what I do on large stuff; next time I embark, I'll turn my radar on.
+      
+      I wonder if the "create the objects first" behavior comes from a subconsciously recognized need to have useful tools at your disposal before exploring flow. Maybe we can't think about flow until we have the object-level constructs to work with...
+  - author: Vladimir Starostenkov
+    date: 2013-09-20 09:36:17
+    comment: >
+      Daniel, I thought you were talking mostly about project with existing code base in the post. Looks like Trev starts from scratch or POC. That's a huge difference. Consider adding few lines into linux kernel without being professional in it. No way. You have to take a book which has this built-in “granularity slider”.
+      
+      You mentioned Hadoop. That's one more case. That's easy to read a pair of papers on Map-Reduce paradigm, look through a book on Hadoop and write your project on top of it. But you don't need to go through Hadoop code at all. That is why Hadoop is popular. The same case is Qt for C++ developer. You don't have to know how it works to use it properly. You have to accept the paradigm. If you want to learn the core without the “granularity slider” - you'd better start from scratch. Qt has it's audience not only because it's architectural integrity, but detailed documentation.
+      
+      One more interesting example is SPARK project by Berkley AMP lab. It gives a Scala programmer the ability to work with distributed data structures just the same way he does with the local ones. That is against "Artists sometimes squint to blur out what they don’t want to see, leaving only general patterns and colors. But coders never do, because we don’t expect code to work that way." Sorry :)
+  - author: Daniel Hardman
+    date: 2013-09-20 12:27:14
+    comment: >
+      Vladimir: I had not thought about how codebases are often associated with books, and how those books provide the sort of "granularity slider" I was wishing for. That's a good insight! Thanks.
+      
+      I am somewhat familiar with SPARK, but I need to study it a little more. I think that it provides one kind of progressive disclosure, but not many of the other ones I want.
+      
+      Thanks for the thoughtful comment!
 ---
-
 It's the start of another school year, and my seventh-grade son is learning algebra. As I sat beside him to coach him through some homework the other night, I shared my favorite bit of wisdom about how to make math problems—even complex ones—simple and error-free:
 <p style="text-align:center;font-size:110%;border:solid 1px #333;background-color:#eee;padding:1em;font-style:italic;">Write the progression from known to unknown, one step at a time.</p>
 In my experience, the surest recipe for disaster is to short-circuit this rule. Collapse a few steps in your head in the name of <em>efficiency, </em>and you'll forget a minus sign, or yol group incorrectly, or you'll lose track of an exponent or an absolute value—and you'll end up with a mess. You'll have to debug your solution by slogging back through the problem from the beginning until you figure out where you went wrong.
@@ -66,66 +114,3 @@ I don't think this lack-of-a-big-picture problem can be solved with a single sil
 I have a few other ideas about how progressive disclosure might work in a <a title="better programming language" href="../../../category/better-programming-language/" target="_blank">better programming language</a>, but I think I'll stop there. I'm very curious to see if other smart people out there have good suggestions of their own.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Tell me what you think would make it easier to perceive the rough behavior and structure of a big, complicated codebase in more efficient ways.</span></em></p>
-
-
-
----
-
-trevharmon (2013-09-19 14:45:15)
-
-Daniel, I know you and I discussed this for some length of time earlier, but I've come across another thought. And, it deals with the different approaches we use when coding. Naturally, I can only use myself as an example.
-
-I wonder if some of this behavior comes from doing some form of bottom-up programming. What I mean by this is after the brainstorming that goes on when planning a project, do programmers naturally start by building the objects or building the flow?
-
-Let's compare this to writing a paper vs. a computer program.
-
-If I'm writing something small (e.g., for my blog), I'm likely to just do stream-of-conscience writing. Whatever comes into my head as the next logical step will be put directly written down without much thought. I do the same thing with quick-and-dirty scripts.
-
-Now, when I'm writing something larger, my behavior changes. Even though the brainstorming may have resulting in many, many individual pieces, I start the actual writing process by defining a clear flow of ideas (usually through defining chapter/section/sub-section headings). The details are then filled in using the brainstormed material.
-
-When coding a large project, I tend to do something different. Instead of starting with the overall flow, I go to creating the underlying objects. I build all of this infrastructure-providing pieces first. Later, I go back and add the logical flow. While both tasks are completed, it's clear my main focus is on the building blocks, not the overall flow.
-
-Interestingly enough, on medium-sized programming projects, I do sometimes follow the pattern of doing flow first. That's seen in the progressive disclosure MAIN: section we were discussing. I have a section of code at the beginning of an obvious file that consists of the following:
-
-- Initialization
-- Functions and flow control
-- Termination
-
-In this case it's always clear what the flow is and everything else is built around it. If I do this first and use good function names, those function (in their call order) are then copied to later in the file to be used as the skeleton for the rest of the code.
-
-Obviously, these are not large projects and are heavily skewed to procedural programming paradigms. As stated, in larger code bases my behavior appears to be different.
-
-So, that's my long-winded way of agreeing with you that program flow and progressive disclosure are often not given the level of attention they deserve.
-
----
-
-Daniel Hardman (2013-09-20 12:27:14)
-
-Vladimir: I had not thought about how codebases are often associated with books, and how those books provide the sort of "granularity slider" I was wishing for. That's a good insight! Thanks.
-
-I am somewhat familiar with SPARK, but I need to study it a little more. I think that it provides one kind of progressive disclosure, but not many of the other ones I want.
-
-Thanks for the thoughtful comment!
-
----
-
-Vladimir Starostenkov (2013-09-20 09:36:17)
-
-Daniel, I thought you were talking mostly about project with existing code base in the post. Looks like Trev starts from scratch or POC. That's a huge difference. Consider adding few lines into linux kernel without being professional in it. No way. You have to take a book which has this built-in “granularity slider”.
-
-You mentioned Hadoop. That's one more case. That's easy to read a pair of papers on Map-Reduce paradigm, look through a book on Hadoop and write your project on top of it. But you don't need to go through Hadoop code at all. That is why Hadoop is popular. The same case is Qt for C++ developer. You don't have to know how it works to use it properly. You have to accept the paradigm. If you want to learn the core without the “granularity slider” - you'd better start from scratch. Qt has it's audience not only because it's architectural integrity, but detailed documentation.
-
-One more interesting example is SPARK project by Berkley AMP lab. It gives a Scala programmer the ability to work with distributed data structures just the same way he does with the local ones. That is against "Artists sometimes squint to blur out what they don’t want to see, leaving only general patterns and colors. But coders never do, because we don’t expect code to work that way." Sorry :)
-
----
-
-Daniel Hardman (2013-09-19 21:52:39)
-
-Interesting analysis, Trev. You've got me wondering if I do the same thing. I know I jump right into flow on small stuff, but I'm not sure what I do on large stuff; next time I embark, I'll turn my radar on.
-
-I wonder if the "create the objects first" behavior comes from a subconsciously recognized need to have useful tools at your disposal before exploring flow. Maybe we can't think about flow until we have the object-level constructs to work with...
-
-
-
-
-

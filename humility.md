@@ -4,8 +4,32 @@ date: 2012-10-01
 slug: humility
 redirect_from:
   - /2012/10/01/humility
+comments:
+  - author: Jason Ivey
+    date: 2012-10-01 22:11:56
+    comment: >
+      Great article Daniel!  Had I been given that question in an interview I'm sure I would have handled it badly as I do with most interview questions.  But you're right, it's a great question which really cuts to the quick. 
+      
+      Keep up the great posts!
+  - author: Daniel
+    date: 2012-10-03 14:17:57
+    comment: >
+      Jason: you'd ace that question, since you're a great example of the virtue it pokes at. :-)
+  - author: Stas Shaposhnikov
+    date: 2012-10-06 01:10:28
+    comment: >
+      My feeling is something like this but until now, it was mostly intuitive. Thanks for the great article.
+  - author: Daniel
+    date: 2012-10-07 12:58:02
+    comment: >
+      This is one of the reasons why I blog: it forces me to put into words ideas that have only been vague feelings before. I like being forced to think clearly.
+      
+      Thanks for the feedback, Stas. I hope things are going great for you.
+  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
+    date: 2013-02-05 08:57:50
+    comment: >
+      [...] achieve something important, get enamored of our own success, and forget to be humble and to learn from [...]
 ---
-
 I was applying for a very senior architect role. I'd already been through several rounds of interviews with a whole committee of thought leaders in the department. I'd taken a technical proficiency test, and (I hope) given a good impression about how I'd be able to contribute.
 
 The CEO cleared a block on her schedule and sat down with me. She poked a bit at my business experience, my ideas of process, and my aspirations. Then she said, "Tell me your thoughts on humility."
@@ -48,50 +72,3 @@ A humble engineer <strong>cheerfully tackles mundane tasks</strong>, not just ex
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Items</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Make a list of things you've learned from teammates. If your list is too short, pick something specific where you are willing to be taught.</span></em></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Resolve to make a habit out of restating another person's perspective fairly and thoroughly.</span></em></p>
-
----
-
-Jason Ivey (2012-10-01 22:11:56)
-
-Great article Daniel!  Had I been given that question in an interview I'm sure I would have handled it badly as I do with most interview questions.  But you're right, it's a great question which really cuts to the quick. 
-
-Keep up the great posts!
-
----
-
-Stas Shaposhnikov (2012-10-06 01:10:28)
-
-My feeling is something like this but until now, it was mostly intuitive. Thanks for the great article.
-
----
-
-Daniel (2012-10-03 14:17:57)
-
-Jason: you'd ace that question, since you're a great example of the virtue it pokes at. :-)
-
----
-
-Daniel (2012-10-07 12:58:02)
-
-This is one of the reasons why I blog: it forces me to put into words ideas that have only been vague feelings before. I like being forced to think clearly.
-
-Thanks for the feedback, Stas. I hope things are going great for you.
-
-
-
-
-
----
-
-Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:50)
-
-[...] achieve something important, get enamored of our own success, and forget to be humble and to learn from [...]
-
-
-
-
-
-
-
-
-

@@ -4,8 +4,46 @@ date: 2014-03-25
 slug: how-to-make-a-const-correct-codebase-in-4300-easy-steps
 redirect_from:
   - /2014/03/25/how-to-make-a-const-correct-codebase-in-4300-easy-steps
+comments:
+  - author: dougbert
+    date: 2014-03-25 13:10:26
+    comment: >
+      Oh the memories....the memories of code bases past.......
+      
+      dougbert
+  - author: Jason Ivey
+    date: 2014-03-27 20:11:13
+    comment: >
+      That is awesome.  I believe I had the exact same idea at a previous company where we were both employed.  It sounds like you were much more relentless than myself though.  After discovering only a few of these parsing problems I decided it was a problem that I didn't want to solve with a regular expression.  At the time I also looked at clang and gcc but came to a similar conclusion that once you were into the AST it was very difficult to do a replace on the original text.
+      
+      I'm excited to see what you had to do to solve the problem for so many functions.
+      
+      Jason
+  - author: Daniel Hardman
+    date: 2014-03-27 21:45:10
+    comment: >
+      Yes, I smiled when I read your comment, because we both know other codebases where this would have been quite helpful. :-)
+  - author: Daniel Hardman
+    date: 2014-03-27 21:46:16
+    comment: >
+      Hopefully they're not the kind of memories that wake you up at night, screaming... :-) We're making progress. Thanks for all the work you did to point us in a good direction.
+  - author: λ
+    date: 2014-04-26 13:48:13
+    comment: >
+      You're very right about compilers in the last statement. I think that's very good idea and I'd like to hear some compiler guys opinions.
+  - author: λ
+    date: 2014-04-27 04:15:17
+    comment: >
+      After some research I found this thread: http://gcc.gnu.org/ml/gcc-patches/2010-04/msg01465.html
+      And it turns out that Wsuggest-attribute is already implemented in gcc (http://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html).
+      Sadly, it's only about functions but not their arguments.
+      
+      Speaking of clang, there is a proposal http://lists.cs.uiuc.edu/pipermail/cfe-dev/2013-February/027816.html but I can't find any results of it.
+  - author: Daniel Hardman
+    date: 2014-04-27 20:10:21
+    comment: >
+      Hey, thanks for the tip about Wsuggest-attribute! That is awesome, and I didn't know about it at all. I'm glad compilers are getting better.
 ---
-
 One of the codebases that I work on is theoretically C++, but if you peer under the hood, it looks more like 1990-vintage C. It's 500 KLOC of almost purely procedural code, with lots of structs and few true objects. More dusty and brittle than I'd like.
 
 <figure><img src="http://farm3.staticflickr.com/2357/2090235485_56a89491d4.jpg" alt="" width="500" height="375" /><figcaption>Image credit: <a href="http://www.flickr.com/photos/tgillin/2090235485/" target="_blank">Tim Gillin</a> (Flickr)</figcaption></figure>
@@ -104,58 +142,3 @@ Stepping back from the details of this experience, I draw a few general conclusi
 <strong>Coding something right is cheaper and a whole lot less hassle than <a title="Paying Off Technical Debt" href="paying-off-technical-debt.md">fixing an antipattern once it's firmly entrenched</a></strong>. We'll never get away from refactoring (nor would we want to)--but it pays to establish good habits of code hygeine, early, instead of after you write 500,000 lines of gunk.
 
 <strong>Compilers ought to offer a "this should be const" warning, so this work would have been unnecessary</strong>. I googled; there isn't any such option that I could find. Yet my need is not that unusual. Why isn't this problem already solved?
-
-
-
----
-
-λ (2014-04-27 04:15:17)
-
-After some research I found this thread: http://gcc.gnu.org/ml/gcc-patches/2010-04/msg01465.html
-And it turns out that Wsuggest-attribute is already implemented in gcc (http://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html).
-Sadly, it's only about functions but not their arguments.
-
-Speaking of clang, there is a proposal http://lists.cs.uiuc.edu/pipermail/cfe-dev/2013-February/027816.html but I can't find any results of it.
-
----
-
-Daniel Hardman (2014-03-27 21:46:16)
-
-Hopefully they're not the kind of memories that wake you up at night, screaming... :-) We're making progress. Thanks for all the work you did to point us in a good direction.
-
----
-
-Daniel Hardman (2014-03-27 21:45:10)
-
-Yes, I smiled when I read your comment, because we both know other codebases where this would have been quite helpful. :-)
-
----
-
-Jason Ivey (2014-03-27 20:11:13)
-
-That is awesome.  I believe I had the exact same idea at a previous company where we were both employed.  It sounds like you were much more relentless than myself though.  After discovering only a few of these parsing problems I decided it was a problem that I didn't want to solve with a regular expression.  At the time I also looked at clang and gcc but came to a similar conclusion that once you were into the AST it was very difficult to do a replace on the original text.
-
-I'm excited to see what you had to do to solve the problem for so many functions.
-
-Jason
-
----
-
-Daniel Hardman (2014-04-27 20:10:21)
-
-Hey, thanks for the tip about Wsuggest-attribute! That is awesome, and I didn't know about it at all. I'm glad compilers are getting better.
-
----
-
-dougbert (2014-03-25 13:10:26)
-
-Oh the memories....the memories of code bases past.......
-
-dougbert
-
----
-
-λ (2014-04-26 13:48:13)
-
-You're very right about compilers in the last statement. I think that's very good idea and I'd like to hear some compiler guys opinions.
-

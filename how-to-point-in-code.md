@@ -4,8 +4,34 @@ date: 2014-09-25
 slug: how-to-point-in-code
 redirect_from:
   - /2014/09/25/how-to-point-in-code
+comments:
+  - author: trevharmon
+    date: 2014-09-29 22:51:25
+    comment: >
+      I have a question and then a comment.
+      
+      Question: I find what essentially amounts to inline comments described in #2 as an interesting idea. I am curious, though. Is Intent going to require those inline "comments" in order for it to compile? If not, that seems to allow programmers to just skip them, leaving us with code that's essentially the same as what we have today in terms of conveying additional meaning.
+      
+      Comment: Going back to one of my favorite languages, Perl (I know I'm an oddity), I find this idea of anchors to be interesting. Perl has a concept of Labels, which effectively behave very similar to HTML anchors. They can be applied to not only arbitrary code blocks (used for GOTO calls--yeah, if you really want to do that), but also for fine-grain nested loop control. Essentially, they allow the programmer to put down "anchors" at specific parts of the code, independent of line numbers, and then use them to control execution flow. Granted, this isn't exactly what you are getting at here in the article, but I've found it very useful (if used correctly) to make the code more readable. I believe this adds additional credence to what you are trying to accomplish overall.
+      
+      If you are interested, a discussion on Perl Labels can be found here: http://www.perlmonks.org/?node_id=616302
+  - author: Daniel Hardman
+    date: 2014-09-30 07:24:52
+    comment: >
+      Trev: thanks for the thoughtful comment.
+      
+      Perl labels are interesting. I had run across them once before, and the use case that I saw for them was the same one described in the post you linked--transferring control with precision in nested loops. I have never seen an answer to that problem that's as elegant as the one Perl offers. The alternatives in other languages--pure gotos, or nested loop state variables with conditionals--are uglier and far less clear.
+      
+      Are there other scenarios where you like to use them?
+      
+      Maybe they need to go into intent...
+      
+      Regarding your question: my current plan is to make the inline comments optional. As you point out, this means people are free to omit them, making code no more expressive than it is today. However, I can't see a good justification for requiring them, for three reasons: 1) if code has good variable names, and a parenthesized expression is simple, the comment would often be redundant; 2) I have no algorithmic way to evaluate the appropriateness of the comment, so requiring something might just cause people to grumble and put in placeholder text; 3) although I want every place it code to be name-able, I don't want to require names everywhere. Some blocks may not be name-worthy.
+  - author: In Link 3&#8217;s Example &#8211; Foame
+    date: 2024-08-29 15:30:55
+    comment: >
+      […] is just a tenet, and nothing can change checking the domains manually. Make sure that to solely construct hyperlinks that can contribute positively to your total online presence. Still acquired almost 9,000. Let’s […]
 ---
-
 In my <a title="Exploring the Power of Deixis" href="exploring-the-power-of-deixis.md">previous post</a>, I explored why deixis is helpful, how it shows up in our language, and how its use in source code is hampered by limitations in our current programming ecosystems.
 
 I promised I'd explain how we could remedy this problem to increase the expressiveness of our code... That's what this post is all about.
@@ -78,37 +104,3 @@ I said in my previous post that I got frustrated when my daughter used words lik
 By making it easy to point at any idea in the daily experience of a coder, I think the quality and terseness of our communication will grow dramatically. I gave a few <a href="../../../2014/09/23/exploring-the-power-of-deixis/#examples">examples</a> of how that power might generate innovation. (And btw, notice how my hyperlink to "examples" in that last sentence is a lot more useful because I can point to a specific paragraph).
 
 Like all innovations, though, I don't think the exciting stuff is in the obvious examples. I believe we'll discover cool new ideas that we haven't even imagined yet, once the power of an improved paradigm permeates our coding lives.
-
----
-
-trevharmon (2014-09-29 22:51:25)
-
-I have a question and then a comment.
-
-Question: I find what essentially amounts to inline comments described in #2 as an interesting idea. I am curious, though. Is Intent going to require those inline "comments" in order for it to compile? If not, that seems to allow programmers to just skip them, leaving us with code that's essentially the same as what we have today in terms of conveying additional meaning.
-
-Comment: Going back to one of my favorite languages, Perl (I know I'm an oddity), I find this idea of anchors to be interesting. Perl has a concept of Labels, which effectively behave very similar to HTML anchors. They can be applied to not only arbitrary code blocks (used for GOTO calls--yeah, if you really want to do that), but also for fine-grain nested loop control. Essentially, they allow the programmer to put down "anchors" at specific parts of the code, independent of line numbers, and then use them to control execution flow. Granted, this isn't exactly what you are getting at here in the article, but I've found it very useful (if used correctly) to make the code more readable. I believe this adds additional credence to what you are trying to accomplish overall.
-
-If you are interested, a discussion on Perl Labels can be found here: http://www.perlmonks.org/?node_id=616302
-
----
-
-Daniel Hardman (2014-09-30 07:24:52)
-
-Trev: thanks for the thoughtful comment.
-
-Perl labels are interesting. I had run across them once before, and the use case that I saw for them was the same one described in the post you linked--transferring control with precision in nested loops. I have never seen an answer to that problem that's as elegant as the one Perl offers. The alternatives in other languages--pure gotos, or nested loop state variables with conditionals--are uglier and far less clear.
-
-Are there other scenarios where you like to use them?
-
-Maybe they need to go into intent...
-
-Regarding your question: my current plan is to make the inline comments optional. As you point out, this means people are free to omit them, making code no more expressive than it is today. However, I can't see a good justification for requiring them, for three reasons: 1) if code has good variable names, and a parenthesized expression is simple, the comment would often be redundant; 2) I have no algorithmic way to evaluate the appropriateness of the comment, so requiring something might just cause people to grumble and put in placeholder text; 3) although I want every place it code to be name-able, I don't want to require names everywhere. Some blocks may not be name-worthy.
-
-
-
----
-
-In Link 3&#8217;s Example &#8211; Foame (2024-08-29 15:30:55)
-
-[…] is just a tenet, and nothing can change checking the domains manually. Make sure that to solely construct hyperlinks that can contribute positively to your total online presence. Still acquired almost 9,000. Let’s […]

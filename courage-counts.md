@@ -4,8 +4,45 @@ date: 2013-05-31
 slug: courage-counts
 redirect_from:
   - /2013/05/31/courage-counts
+comments:
+  - author: trevharmon
+    date: 2013-05-31 09:11:27
+    comment: >
+      Well said, Daniel. It is much better to succeed or fail in spectacular fashion for one's passion than to linger in the soul-sucking mediocrity. As Henry David Thoreau wrote in Walden, "The mass of men lead lives of quiet desperation. What is called resignation is confirmed desperation." And, I agree with you, it is scary... really scary sometimes. That's why I appreciated you calling out the fact you're still kicking even after failures.
+      
+      I must not fear.
+      Fear is the mind-killer.
+      Fear is the little-death that brings total obliteration.
+      I will face my fear.
+      I will permit it to pass over me and through me.
+      And when it has gone past I will turn the inner eye to see its path.
+      Where the fear has gone there will be nothing.
+      Only I will remain.
+      
+      - Bene Gesserit Litany Against Fear - From Frank Herbert's Dune Book Series
+  - author: dougbert
+    date: 2013-05-31 09:56:40
+    comment: >
+      Again spot on the mark.  Been there done that many times (fear and courage both). As I near retirement (13 years from now), I am more able to push on with MY ideas on things, backed up with some new ideas I read in a new book or a blog along with some ideas from here.
+      
+      You second witness many things I come up with as well.
+      
+      * Courage is being afraid but saddling up anyway . - John Wayne
+  - author: Daniel Hardman
+    date: 2013-05-31 10:44:49
+    comment: >
+      That's an awesome quote from the Duke! Thanks for sharing.
+  - author: Daniel Hardman
+    date: 2013-05-31 10:48:26
+    comment: >
+      When I first read Dune as a teenager, I thought of the Bene Gesserit litany as pseudo martial arts mumbo jumbo that added some nice artistic flair to the milieu of the novel.
+      
+      Since then I've decided that it's quite profound--maybe Herbert's great philosophical contribution.
+      
+      Thanks for reminding me about it; I have something else that I need to print out and put on my door for inspiration.
+      
+      BTW, your post on fear at http://dld.me/fear/ is awesome!
 ---
-
 If you've read <em>Call it Courage</em>, then you know the story of Mafatu, the boy who was afraid.
 
 Mafatu grows up in Polynesia, surrounded by the ocean—but everything about the sea terrifies him, because he remembers his mother drowning when he was young. Determined to conquer his fear or die trying, Mafatu sets out alone in a dugout canoe, into the element that terrifies him most. He ends up stranded on an island that harbors cannibals. In one memorable scene, his faithful companion dog is endangered by a tiger shark; Mafatu jumps in the water and attacks with only a knife. When he kills the shark, he realizes that something fundamental in his heart is now different.
@@ -100,55 +137,3 @@ However, Falstaff is rationalizing. The audience knows it, and so does he.
 I'm going to make a conscious effort to notice when I'm listening to fear more than I should, and I'm going to try to be more courageous when it matters.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Find a moment when courage counts, and seize it. Celebrate the success of the commitment, regardless of the outcome.</span></em></p>
-
-
-
-
-
----
-
-Daniel Hardman (2013-05-31 10:48:26)
-
-When I first read Dune as a teenager, I thought of the Bene Gesserit litany as pseudo martial arts mumbo jumbo that added some nice artistic flair to the milieu of the novel.
-
-Since then I've decided that it's quite profound--maybe Herbert's great philosophical contribution.
-
-Thanks for reminding me about it; I have something else that I need to print out and put on my door for inspiration.
-
-BTW, your post on fear at http://dld.me/fear/ is awesome!
-
----
-
-dougbert (2013-05-31 09:56:40)
-
-Again spot on the mark.  Been there done that many times (fear and courage both). As I near retirement (13 years from now), I am more able to push on with MY ideas on things, backed up with some new ideas I read in a new book or a blog along with some ideas from here.
-
-You second witness many things I come up with as well.
-
-* Courage is being afraid but saddling up anyway . - John Wayne
-
----
-
-Daniel Hardman (2013-05-31 10:44:49)
-
-That's an awesome quote from the Duke! Thanks for sharing.
-
----
-
-trevharmon (2013-05-31 09:11:27)
-
-Well said, Daniel. It is much better to succeed or fail in spectacular fashion for one's passion than to linger in the soul-sucking mediocrity. As Henry David Thoreau wrote in Walden, "The mass of men lead lives of quiet desperation. What is called resignation is confirmed desperation." And, I agree with you, it is scary... really scary sometimes. That's why I appreciated you calling out the fact you're still kicking even after failures.
-
-I must not fear.
-Fear is the mind-killer.
-Fear is the little-death that brings total obliteration.
-I will face my fear.
-I will permit it to pass over me and through me.
-And when it has gone past I will turn the inner eye to see its path.
-Where the fear has gone there will be nothing.
-Only I will remain.
-
-- Bene Gesserit Litany Against Fear - From Frank Herbert's Dune Book Series
-
-
-

@@ -4,8 +4,12 @@ date: 2012-10-23
 slug: on-seps-squirrels-and-meta-questions
 redirect_from:
   - /2012/10/23/on-seps-squirrels-and-meta-questions
+comments:
+  - author: God, Evolution, Systems, and Eternity &#8211; An Eye of Faith
+    date: 2018-12-07 15:49:12
+    comment: >
+      […] I see this constantly in software. Building something complex like the Facebook ecosystem is more than just building the pieces. It involves the mustering of technical, legal, business, and cultural forces in multiple dimensions, across large spans of time. There’s incredible interplay and feedback loops. I’ve blogged about this, more than once. […]
 ---
-
 In <a class="zem_slink" title="Douglas Adams" href="http://douglasadams.com/" target="_blank" rel="homepage noopener">Douglas Adams</a>' novel, <em>Life, the Universe, and Everything</em>, a spaceship lands in the middle of a stadium of screaming fans during a cricket match, and nobody notices. The ship doesn't use a Klingon-style cloaking device to accomplish this amazing feat; instead, it is hidden by a "Somebody Else's Problem" field, which operates on the principle that if something is perceived to be somebody else's problem, the brain of onlookers will treat it as if it were invisible.
 
 Adams was a sci-fi author, but I see applications of his metaphor in the day-to-day work of software engineering.
@@ -50,17 +54,3 @@ You might even see a link between asking meta questions and two other virtues I'
 I'd like to hear about other connections you see. Please comment. (See how I'm posing a meta question of my own? :-) And please follow my blog so we can discuss the craft of coding together.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Do a post-mortem on a recent conversation you've had--perhaps something like the estimation example I gave above. What questions could you have asked to deliver greater value faster? Could you have anticipated the conversation and prepped for it, like our zen master?</span></em></p>
-
-
-
-
-
-
-
-
-
----
-
-God, Evolution, Systems, and Eternity &#8211; An Eye of Faith (2018-12-07 15:49:12)
-
-[…] I see this constantly in software. Building something complex like the Facebook ecosystem is more than just building the pieces. It involves the mustering of technical, legal, business, and cultural forces in multiple dimensions, across large spans of time. There’s incredible interplay and feedback loops. I’ve blogged about this, more than once. […]

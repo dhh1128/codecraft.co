@@ -4,8 +4,45 @@ date: 2015-10-06
 slug: use-kind-words
 redirect_from:
   - /2015/10/06/use-kind-words
+comments:
+  - author: David H
+    date: 2015-10-06 19:59:55
+    comment: >
+      I agree that a hostile and toxic environment is not necessary to technology development. People may communicate that way because they don't know a better way, but that doesn't make it effective nor right.
+      
+      In fact I would argue that in a technical environment the harshness of reality is sufficient stern feedback. If we don't get our stuff right, planes don't take off, ships sink, bridges collapse, rockets explode in flight, and code crashes. That's harsh.
+      
+      Censorship, political correctness, "reverse" discrimination, etc. are also unnecessary and unhelpful. Just be decent human beings who neither try to dominate nor shame each other.
+  - author: Daniel Hardman
+    date: 2015-10-06 20:16:01
+    comment: >
+      Excellent point about reality being our harshest critic. I hadn't looked at it from that perspective--but now that you point it out, it's undeniable.
+  - author: David H
+    date: 2015-10-06 20:35:34
+    comment: >
+      One of my Electrical Engineering professors at BYU put it to me this way: You can't lie to the sea.
+  - author: H.Trickler
+    date: 2015-10-07 01:11:27
+    comment: >
+      I agree that a friendlier tone would be much better. 
+      
+      But this young lady on her blog does not publish all those comments that she does not like, and some even get edited without saying so!
+      
+      May she have a long happy life in her own world!
+  - author: Daniel Hardman
+    date: 2015-10-07 07:48:26
+    comment: >
+      Hmm. I think it's usually better to keep comments, even if they disagree with us--but I suppose it's a blogger's prerogative to eliminate comments they find offensive. She did say in her post that she reserved the right to change hateful comments to something innocuous... If she changed their meaning in another way, that seems unfortunate.
+      
+      Thanks for the thoughtful feedback!
+  - author: Shoeb
+    date: 2024-01-05 03:56:24
+    comment: >
+      I got stuck here
+      "However, I find it ironic that a profession so passionate about message passing and interfaces and producer/consumer contracts could lightly dismiss communication concerns when they involve humans. Do the messes created by DDoS, attackers probing vulnerabilities, and poorly behaved clients teach us nothing?"
+      
+      We create technologies to make the world a better place, but we forget that we can start this process from our surroundings.
 ---
-
 My title might seem oddly out of place on a tech blog, but aashdot post today led me to an email thread for linux kernel developers, and the thread and its fallout leave me troubled.
 
 Apparently, a veteran contributor is <a href="closing-a-door.md" target="_blank">leaving the kernel dev community</a> because she feels like the communication style there is too harsh. This is unfortunate, but what seems even more lamentable to me is the lack of sympathy in <a href="http://marc.info/?l=linux-kernel&m=137392506516022&w=2" target="_blank">Linus Torvalds' reaction</a>. It seems to me that his attitude is: "That's just the way us kernel devs are, and we aren't going to change to accommodate anybody. If you can't take the heat, get out of the kitchen."
@@ -40,52 +77,3 @@ But I never have yet
 Had a twinge of regret
 For being a little too kind.”
 —C. R. Gibson</blockquote>
-
----
-
-H.Trickler (2015-10-07 01:11:27)
-
-I agree that a friendlier tone would be much better. 
-
-But this young lady on her blog does not publish all those comments that she does not like, and some even get edited without saying so!
-
-May she have a long happy life in her own world!
-
----
-
-David H (2015-10-06 19:59:55)
-
-I agree that a hostile and toxic environment is not necessary to technology development. People may communicate that way because they don't know a better way, but that doesn't make it effective nor right.
-
-In fact I would argue that in a technical environment the harshness of reality is sufficient stern feedback. If we don't get our stuff right, planes don't take off, ships sink, bridges collapse, rockets explode in flight, and code crashes. That's harsh.
-
-Censorship, political correctness, "reverse" discrimination, etc. are also unnecessary and unhelpful. Just be decent human beings who neither try to dominate nor shame each other.
-
----
-
-Daniel Hardman (2015-10-07 07:48:26)
-
-Hmm. I think it's usually better to keep comments, even if they disagree with us--but I suppose it's a blogger's prerogative to eliminate comments they find offensive. She did say in her post that she reserved the right to change hateful comments to something innocuous... If she changed their meaning in another way, that seems unfortunate.
-
-Thanks for the thoughtful feedback!
-
----
-
-David H (2015-10-06 20:35:34)
-
-One of my Electrical Engineering professors at BYU put it to me this way: You can't lie to the sea.
-
----
-
-Daniel Hardman (2015-10-06 20:16:01)
-
-Excellent point about reality being our harshest critic. I hadn't looked at it from that perspective--but now that you point it out, it's undeniable.
-
----
-
-Shoeb (2024-01-05 03:56:24)
-
-I got stuck here
-"However, I find it ironic that a profession so passionate about message passing and interfaces and producer/consumer contracts could lightly dismiss communication concerns when they involve humans. Do the messes created by DDoS, attackers probing vulnerabilities, and poorly behaved clients teach us nothing?"
-
-We create technologies to make the world a better place, but we forget that we can start this process from our surroundings.

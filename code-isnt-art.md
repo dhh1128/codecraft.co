@@ -4,8 +4,14 @@ date: 2012-09-23
 slug: code-isnt-art
 redirect_from:
   - /2012/09/23/code-isnt-art
+comments:
+  - author: Daniel
+    date: 2012-09-23 17:55:58
+    comment: >
+      I see echoes of Martin Fowler ("any fool can write code a computer can understand; good programmers write code that humans can understand") in your thinking, Jesse. Also, you remind me of Richard Gabriel's notion of "habitability" (from _Patterns of Software_). He deplores cleverness and instead advocates making code approachable and comfortable for others.
+      
+      BTW, in the subtitle of my blog, I assert that software = science + art + people. This might sound like we're at odds, but I don't think so. I'm claiming that human creativity, not just hard-core algorithms, is an essential ingredient of software; you're warning coders not to get carried away. I think that's good advice.
 ---
-
 <a href="/category/guest-posts/"><img class="alignright size-full wp-image-553" title="guest post" src="http://codecraft.co/wp-content/uploads/2012/09/guest-post.png" alt="" width="183" height="40" /></a>Programmers, tell your inner artist to shut up.
 
 One of the defining aspects of the Ruby programming language is that it is very flexible. It takes a very UNIX-like approach of having a few simple and well-defined functions that allow you to build rather complex systems. Unfortunately, it also ends up encouraging programmers to start thinking of their code as art, and then they start writing “clever” code. There’s nothing necessarily wrong with finding an unconventional solution to a coding problem, but that often falls apart when you have to involve another human in reading your “art”.
@@ -28,11 +34,3 @@ The question you have to ask yourself is if the ego boost from “clever” code
 
 <em><a href="https://plus.google.com/108404514060536763555/posts" target="_blank">Jesse Harris</a> has been a geek since cutting his teeth on the Commodore 64 in pre-school. He currently works in support at RSA, the security division of EMC, and has been doing support, systems administration, and web development for 13 years.</em>
 <p style="padding-top:1em;"></p>
-
----
-
-Daniel (2012-09-23 17:55:58)
-
-I see echoes of Martin Fowler ("any fool can write code a computer can understand; good programmers write code that humans can understand") in your thinking, Jesse. Also, you remind me of Richard Gabriel's notion of "habitability" (from _Patterns of Software_). He deplores cleverness and instead advocates making code approachable and comfortable for others.
-
-BTW, in the subtitle of my blog, I assert that software = science + art + people. This might sound like we're at odds, but I don't think so. I'm claiming that human creativity, not just hard-core algorithms, is an essential ingredient of software; you're warning coders not to get carried away. I think that's good advice.

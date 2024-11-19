@@ -4,8 +4,34 @@ date: 2012-09-21
 slug: roland-whatcott-manage-momentum
 redirect_from:
   - /2012/09/21/roland-whatcott-manage-momentum
+comments:
+  - author: Coping With Organizational Alzheimers &laquo; Codecraft
+    date: 2012-10-12 11:37:24
+    comment: >
+      [...] big problem with most companies,” said Roland, “is that they have no institutional [...]
+  - author: Kim
+    date: 2012-10-19 08:08:46
+    comment: >
+      Daniel,
+      
+      Thanks for sharing. 
+      
+      "He went looking for momentum." - I wonder if starting on the portion of a project that seems less interesting architecturally may be more value because of the momentum it brings into the picture.
+      
+      Kim
+  - author: Daniel
+    date: 2012-10-19 11:02:17
+    comment: >
+      Momentum is not equally important in all circumstances, but as a general rule, I think this is a very astute observation, Kim. Part of the balance you have to strike is to be able to recognize very early (often based on battle scars and/or intuition) when focusing on architectural questions is necessary, and when getting momentum on more humdrum stuff is a bigger benefit. (These two orientations are not necessary mutually exclusive, but they *do* compete to some degree.)
+  - author: Interrupting my interruptions &laquo; Codecraft
+    date: 2013-01-24 11:48:47
+    comment: >
+      [...] I’m attending (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts [...]
+  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
+    date: 2013-02-05 08:57:43
+    comment: >
+      [...] programming language, product schedule, or architecture–so much so that we lose momentum or [...]
 ---
-
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
 <p style="text-align:left;">In late 2000, I joined a small team tasked with rewriting the core technology at PowerQuest. The old codebase--despite embodying a number of patent-pending concepts, and serving as the foundation for all our revenue--was fragile, rife with technical debt, and unfriendly to localization, new platforms, and other roadmap priorities.</p>
 
@@ -46,40 +72,3 @@ redirect_from:
 <p style="text-align:left;">Thanks for the lesson, Roland.</p>
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="text-align:left;padding-left:30px;"><em><span style="color:#000080;">Analyze the momentum for a recent or current project. What challenges to momentum do you have? How can you overcome them.</span></em></p>
-
----
-
-Coping With Organizational Alzheimers &laquo; Codecraft (2012-10-12 11:37:24)
-
-[...] big problem with most companies,” said Roland, “is that they have no institutional [...]
-
----
-
-Kim (2012-10-19 08:08:46)
-
-Daniel,
-
-Thanks for sharing. 
-
-"He went looking for momentum." - I wonder if starting on the portion of a project that seems less interesting architecturally may be more value because of the momentum it brings into the picture.
-
-Kim
-
----
-
-Daniel (2012-10-19 11:02:17)
-
-Momentum is not equally important in all circumstances, but as a general rule, I think this is a very astute observation, Kim. Part of the balance you have to strike is to be able to recognize very early (often based on battle scars and/or intuition) when focusing on architectural questions is necessary, and when getting momentum on more humdrum stuff is a bigger benefit. (These two orientations are not necessary mutually exclusive, but they *do* compete to some degree.)
-
----
-
-Interrupting my interruptions &laquo; Codecraft (2013-01-24 11:48:47)
-
-[...] I’m attending (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts [...]
-
----
-
-Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:43)
-
-[...] programming language, product schedule, or architecture–so much so that we lose momentum or [...]
-

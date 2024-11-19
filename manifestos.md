@@ -4,8 +4,12 @@ date: 2012-09-13
 slug: manifestos
 redirect_from:
   - /2012/09/13/manifestos
+comments:
+  - author: Earned Pragmatism &laquo; Codecraft
+    date: 2013-01-18 08:53:21
+    comment: >
+      [...] one of the early torchbearers for the agile software movement. I’ve written previously about signing the Agile manifesto, so I felt like I was swimming in friendly [...]
 ---
-
 I signed two software manifestos yesterday.
 
 <figure><img title="Quill" src="http://farm3.staticflickr.com/2504/3805699025_d68718a091_n.jpg" alt="" width="320" height="212" /><figcaption>photo credit: SpecialKRB (Flickr)</figcaption></figure>
@@ -23,10 +27,3 @@ But I don't think that means we should devalue the craft. Even in the imperfect,
 Besides, love of craft is my major reason for blogging, so it must be a good thing, right? :-)
 <p style="text-align:center;padding-left:30px;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Go read the manifestos. If you're inclined, poke around for the links that let you sign.</em></span></p>
-
----
-
-Earned Pragmatism &laquo; Codecraft (2013-01-18 08:53:21)
-
-[...] one of the early torchbearers for the agile software movement. I’ve written previously about signing the Agile manifesto, so I felt like I was swimming in friendly [...]
-

@@ -4,8 +4,16 @@ date: 2012-06-21
 slug: example-rpcd-interaction
 redirect_from:
   - /2012/06/21/example-rpcd-interaction
+comments:
+  - author: Role-Play Centered Design &laquo; Software, Wetware, Webware
+    date: 2012-06-21 08:56:40
+    comment: >
+      [...] my next post, I’ll give an example about how RPCD works. Like this:LikeOne blogger likes [...]
+  - author: Long-Term Benefits of RPCD &laquo; Software, Wetware, Webware
+    date: 2012-06-21 10:24:30
+    comment: >
+      [...] for designing software that has role-playing at it’s heart. If you take a look at the example RPCD interaction, I think some benefits will be immediately [...]
 ---
-
 In my <a href="role-play-centered-design.md">last post on RPCD</a>, I explained its key tenets. In this one, I'll imagine one way to put it into practice.
 
 Suppose a team is chartered to build a tool that locates birth mothers of adopted children. The team's received some vague marching orders ("make it as easy as possible; we want to sell this as a service on facebook and the iTunes app store"). Maybe they're using "agile" methods or even full-blown XP to guarantee that the customer's viewpoint is represented, and that small units of work are fully processed into releasable systems on a regular basis. Or maybe they're doing traditional waterfall, with an elaborate design phase followed by a long implementation.
@@ -30,16 +38,3 @@ Regardless, adding RPCD to this team's behaviors might result in interactions li
 <strong>Step 7. The team returns to role plays whenever additional clarity is needed</strong>.
 
 <strong>Step 8. When "the system" is delivered, it is always done as both code AND people</strong>. This means at the end of an iteration, for example, you don't just provide a build with no bugs. You provide a role play of the system. This role play is more than a canned demo; it is an interactive demo, with people filling roles that code is not yet mature enough to handle. By viewing delivery of a "system" as delivery of a code+people ecosystem, the team is forced to consider things like how tech support will be staffed, how help will be delivered, and so forth.
-
----
-
-Role-Play Centered Design &laquo; Software, Wetware, Webware (2012-06-21 08:56:40)
-
-[...] my next post, I’ll give an example about how RPCD works. Like this:LikeOne blogger likes [...]
-
----
-
-Long-Term Benefits of RPCD &laquo; Software, Wetware, Webware (2012-06-21 10:24:30)
-
-[...] for designing software that has role-playing at it’s heart. If you take a look at the example RPCD interaction, I think some benefits will be immediately [...]
-

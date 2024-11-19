@@ -4,8 +4,156 @@ date: 2013-08-22
 slug: when-good-comments-mean-bad-language
 redirect_from:
   - /2013/08/22/when-good-comments-mean-bad-language
+comments:
+  - author: trevharmon
+    date: 2013-08-22 09:58:59
+    comment: >
+      Excellent article, Daniel.
+      
+      I wonder where the line is between accepting a certain amount of context-sensitive ambiguities as just being a part of human communication (which programming is, in some sense) and allowing the creation of arbitrary grammers like in Perl 6 (http://en.wikipedia.org/wiki/Perl_6_rules#Grammars), which I would expect leads to the emergence of dialects, like we see in spoken and written human language.
+      
+      Don't get me wrong, I agree with the premise and conclusions of the post. I just wonder how far we can really go in marrying context, semantics and syntax without making it overly burdensome to manage and grok.
+      
+      Putting forth a logically flawed argument, I really don't want to have to learn a new grammar for every function call. :-)
+      
+      Like always, your article provides me with much to ponder and consider.
+  - author: Samuel A. Falvo II
+    date: 2013-08-22 11:32:08
+    comment: >
+      Extreme programming advocates coding without comments to the greatest degree possible, but no more than that.  The idea is to use well-chosen, verbose names for types and methods that work on those types.  For example, instead of your C++ code in listing 1, we might see:
+      
+      [1] int Vehicle::VehicleFromString(const char * source, std::list * attributes, int maxLoadCount) {
+      [2]   if(ISNT_EMPTY(source)) return FALSE;
+      [3]   if(!(LIST_EMPTY(attributes)) return FALSE;
+      [4]   if(!BETWEEN(maxLoadCount, 1, 100) && (maxLoadCount != -1)) return FALSE;
+      
+      In line [1], some names were changed to protect the intent.  In general, programming communities seem to have adopted the XfromY naming convention for procedures used to convert from one type to another.  It seems that's what this method is doing, so I made the appropriate change.  Following conventions reduces mental burden.  Additionally, I changed the string parameter's name to "source", since that's the source code of the data.  Presumably, VehicleFromString is a parser, and you feed source code to parsers.  Also, notice the code you wrote in listing 1 is buggy -- you have no parameter named serializedAttrs.  ;-)  Your list of attributes implies a plurality of attributes, and so I just called those "attributes."  Short, simpler, and carries the full semantic load of the concept.
+      
+      In line [2], [3], and [4], I use preprocessor macros to make common range-based and pointer validation checks succinct and easily re-used.  Indeed, if the "return false on invalid input" thing is a pattern, then each if-statement can be replaced by a suitable macro, or even the entire block of if-statements if they repeat often.
+      
+      Now, people can derive everything you just expressed in comments by reading actionable source-code, and it's English-enough to be understood by a large number of people; the only prerequisite is that they know how to read and understand C++.  As far as _why_ this code was written the way it was, XP advocates looking at your commit logs in your revision control system of choice.  E.g., one could use "git blame" to identify who last affected the code you're interested in, and it will also show the most recent commit hash for each line in the code.  Use "git log" on that commit hash to then read why the change was put in place.  The advantage to this is that a _single comment_ can then apply automatically to a large number of related changes in a plurality of source files.  Normal program comments _cannot_ do that, no matter how hard you try.
+      
+      One last thing about coding preconditions like this, if I may.  This is such a good idea, in fact, that Eiffel, Sather, and if I recall correctly, Ada actually has first-class support for pre-conditions, post-conditions, and class-wide invariants, expressed using real, actionable, compilable code.  They can be turned off with a compiler switch if performance is too adversely affected.
+      
+      This kind of ruthless refactoring can apply to virtually any language.  Your listing 2 can be easily rewritten:
+      
+      while (*ptr != '')
+      {
+      if ((tail = strchr(ptr,';')) != NULL)  process_line(ptr, tail);
+      if (tail == NULL)  break;
+      ptr = tail + 1;
+      }
+      
+      Full stop.  That's all you need.  If you need more than three variables shared, use a common data structure and pass in its address, like so:
+      
+      struct Blort b;
+      // ...
+      while (*b.ptr) {
+        if(!(b.tail = strchr(b.ptr, ';'))) break;
+        process_line(&b);
+        b.ptr = b.tail + 1;
+      }
+      
+      Linguistic idioms come into play as well; *ptr != '' looks weird to me, so I rewrote it simply *ptr, as is common in most other C code.  Also, restructuring if-statements to serve as invariant guards, instead of expressing high-level thought processes, often simplifies the code.  Compare the original C code to that above.  It's requires fewer characters to type in, proportionately reducing the opportunity for inadvertent bugs.  Of course, it's perhaps best to wrap the entire while-statement in a function of its own as well.  Be sure to use a good quality name for it!
+      
+      I should point out that Forth is the king of writing expressive code, *IF* you know how to use its power for good.  The secret is to write your code declaratively:
+      
+      ( etc... )
+      : semicolon   ptr @ [char] ; strchr dup if process-line then ;
+      : line   semicolon  dup 0= if r> 2drop then ;
+      : lines   begin ptr @ c@ while line 1+ ptr ! repeat ;
+      
+      To the uninitiated, this is baud-barf from the 80s.  But, let me explain...
+      
+      The 'lines' definition expresses the same outer while-loop that the C code does.  But notice I expect the response for 'line' to be a non-null value which I update ptr with.  This implies, by reading this one line, that 'line' _must_ check for this condition and act upon it accordingly.  I simply don't have to worry about it at this level of abstraction.
+      
+      'line', attempts to process a semicolon-delimited line.  Somehow.  Again, details aren't important at this stage.  But, we expect it to return a value (the tail pointer).  If zero (null), we the return address of line off their respective stacks, and return.  Popping the return address of line will terminate the activation of 'lines', which is why we need to clean up the stack here, and not within lines itself.  Still, we've expressed in just two lines of code what it took 4 in C, and it's every bit as readable, once you know enough Forth to competently read it.  Also notice that code reads left to right, like English; it does not read top-down, and also notice that you can read individual lines of code in total isolation from any other line, and derive useful knowledge from it.  That's powerful.
+      
+      Note that Forth prefers short names over long names, but this is due to Forth's context sensitivity.  A program that reads lines of text from a file and uses them to draw lines on the screen will likely have two or three definitions of 'lines', if not of 'line.'  This is also incredibly useful, and I often wish other languages provided similar behavior.  But, I digress.
+      
+      Notice also that I can refactor common predicates into definitions that manipulate return and data stacks, and as long as I call these definitions from words that have the same stack shapes on entry, I can re-use these predicates WITHOUT having to rely on macros, as I would in C and C++.  This not only improves the readability of code, making it that much more declarative in nature, but it also saves valuable program space by preventing repetitious code in the compiled binary image.
+  - author: tianyuzhu
+    date: 2013-08-22 12:38:39
+    comment: >
+      With some effort, we can convey a sense of semantics in C++. For example we should be able to write:
+      
+      int Vehicle::LoadVehicleFromStr(std::string serializedAttrs,
+          optional<std::list&> attrList, IntRange maxLoadCount);
+      
+      Now optional isn't in the standard yet, and IntRange probably won't ever be in the standard, but you can write both types fairly easily.
+      
+      In fact, efficiently encapsulating semantics in types is something that C++ specializes in. And of course, since C++ is statically typed, doing so allows the compiler to verify semantics for you.
+      
+      Here's a short list of how different types have different semantics when used as function arguments. For some type T:
+      
+      T: means you're passing object by value. The function gets it's own instance of T and owns it (will destroy it or transfer ownership of it to somewhere else).
+      T &: A reference to an instance of T. It can't be null. The function does not own it.
+      T *: A pointer to an instance of T. It can be null. The function does not own it.
+      optional: Like passing T by value, except it can be "null".
+      unique_ptr: Like "T *", except the function gets unique ownership of the instance.
+      shared_ptr: Like "T *", except the funciton gets shared ownership of the instance.
+  - author: Daniel Hardman
+    date: 2013-08-22 16:26:46
+    comment: >
+      Yes, I agree that making language more rich can be taken too far. Python is one of my favorite languages, but it foregoes a lot of the ideas I'm advocating, in favor of terseness and simplicity. And it works. I think the reason why has something to do with the problem domain that's its sweet spot, which I think is on somewhat smaller and less complex projects than the sort I've spent most of my career leading. When you need to rip through a thousand files and slice and dice the data they contain, for a quick-and-dirty project, you don't really want "semantic density" getting in the way. You can hold the whole problem in your head, more or less, and you just want to get on with expressing the solution. On the other hand, if you're writing a hairy system with a dozen or a hundred other programmers at multiple sites, and it will be maintained and enhanced for years to come, being crystal clear about your intentions is probably worthwhile.
+  - author: Daniel Hardman
+    date: 2013-08-22 16:33:45
+    comment: >
+      Samuel: Your craftsmanship is showing. :-)
+      
+      I picked these samples from actual production codebases that were conveniently laying around. They weren't intended to be great code, only realistic. The C++ snippet is one I had to rewrite slightly to protect the (semi)innocent, and my rewrite introduced the bug you caught.
+      
+      In practice, I would likely do much of the same refactoring that you advocate, although I don't think I'd be as good at it as you are. It puzzles me how often my fellow programmers leave yuckiness around when they could be clearer and more terse if they spent a *very* few minutes improving the code. Maybe they look at my code and wonder why I put up with stuff that seems arcane to them. I dunno.
+      
+      Your comments about Forth are very intriguing. More for me to study! :-)
+      
+      Thanks for the thoughtful response.
+  - author: Daniel Hardman
+    date: 2013-08-22 16:51:38
+    comment: >
+      Good observation, Tianyuzhu. Thanks for the comment.
+      
+      I agree that it is *possible* to express most or all of the ideas in this post, using cutting-edge C++. We must think alike. On several C++ codebases, I've done stuff like this--only to see a majority of the other programmers on the teams react with puzzlement and eye-rolling. This frustrates me.
+      
+      I think the reason I don't see this idea catching on in C++ is because:
+      
+      A) Most C++ today is still written against the C++ 98 standard (partly due to mental inertia and partly due to compatibility concerns). Sigh...
+      B) C++ makes tons of stuff *possible* but does a poor job of encouraging it or making it attractive and easy. Look at how hard Alexandrescu had to work to write Loki for traits-based programming, and how foreign his idiom is to most C++ coders.
+      
+      I guess I can't blame C++ compilers for cheerfully consuming code that uses none of the techniques you've identified. The set of use cases that C++ aims to address is incredibly broad, and careful communication is not always worthwhile if you're writing small or short-lived projects.
+  - author: j2kun
+    date: 2013-08-22 17:54:46
+    comment: >
+      Great post! My two cents:
+      
+      It seems to me that there's a fine line between semantics of a programming language and "semantics" as you describe it in this post. I would consider many tasks like generating unit tests and documentation generation to be programmer tools, not strictly part of the language itself. Are you arguing that these *should* be part of the language? If so, I would say you're expecting too much of semantics and the compiler. Besides, those programmers who care that much about fine optimizations are hugging the machine architecture so tightly that (I imagine) they'd rather do it themselves and have it be explicit in the code than rely on the contextual knowledge of which compiler optimization is in play at what time. I imagine the compiler would be able to optimize something if you have +range(0,N) but not +range(0,N+1) for some sufficiently large value of N, and this would just add to the contextual knowledge needed.
+      
+      That being said, I think you're thinking too small! With the current state of technology, why restrict yourself to text? Moreover, if you want simplicity and cleanliness without sacrificing "semantic density," why not design a language as you wish, and design an editor that transforms terse and detailed representations back and forth at the will of the coder? (say, by mouseover, or C-x M-c M-expand, or whatever mechanism you like) Or why not have the compiler learn the appropriate constraints? A dynamically written Python-style program could be transformed into a statically-typed version which can then be compiled and optimized as desired.
+  - author: Daniel Hardman
+    date: 2013-08-22 18:02:04
+    comment: >
+      Jeremy: Thanks for a thought-provoking idea. Implementing an optimized editor along with a language is what the designers of Smalltalk did, and lo and behold, the modern IDE was born. It sounds like a lot of work, but maybe a lot of coolness would result. I'll have to chew on that for a while...
+  - author: j2kun
+    date: 2013-08-22 18:04:07
+    comment: >
+      Have you heard of LightTable? They are already doing some things in the realm of automated test generation, but their goal is somewhat different: they wish to alleviate and add inspiration to the process of writing new code.
+  - author: Daniel Hardman
+    date: 2013-08-22 18:13:17
+    comment: >
+      Wow! I went and watched the kickstarter video, and I started salivating. That is an awesome concept. I want to get me one, today! I'm going to download the preview and see if they do more than lisp... Thanks for the suggestion.
+  - author: j2kun
+    date: 2013-08-22 18:19:25
+    comment: >
+      Well now that I've got your attention :) the Light Table project was inspired by a talk of Bret Victor called Inventing on Principle, and he has a second talk called The Future of Programming which I think you'll enjoy. Both bring up some very important questions about the way we interact with computers in designing programs.
+  - author: tianyuzhu
+    date: 2013-08-22 21:34:45
+    comment: >
+      It's kind of funny because there are libraries like Guava that implement things like Optional for Java, and Java developers happily use it.
+      
+      Here's the thing:
+      A) A lot of useful features like optional can be implemented in C++98. There's no excuse for not using them, especially if they're already available in libraries such as Loki.
+      B) Although it isn't easy to implement things like optional, it's still valuable because such components are highly reusable. And honestly, they're not that hard to use.
 ---
-
 I've had an epiphany.
 
 For years, I've urged developers to <a title="// Comments on Comments" href="comments-on-comments.md">write better comments</a>. I still claim that's a good idea (a <em>very</em> good one), but as I've pondered <a title="better programming language" href="../../../category/better-programming-language/" target="_blank">what a better programming language might look like</a>, I've come to an important conclusion:
@@ -193,182 +341,3 @@ Don't get me wrong--we need comments. I am a big advocate. I just wish we didn't
 
 <hr style="width:200px;" />
 <p style="padding-left:30px;">[1<a name="footnote1"></a>] I found a youtube clip where Quayle says "pull a Bill Clinton on me", but I can't find one for "pull a Slick Willy on me". Maybe I'm remembering it wrong. Either way, the linguistic phenomenon is the same.</p>
-
-
-
----
-
-trevharmon (2013-08-22 09:58:59)
-
-Excellent article, Daniel.
-
-I wonder where the line is between accepting a certain amount of context-sensitive ambiguities as just being a part of human communication (which programming is, in some sense) and allowing the creation of arbitrary grammers like in Perl 6 (http://en.wikipedia.org/wiki/Perl_6_rules#Grammars), which I would expect leads to the emergence of dialects, like we see in spoken and written human language.
-
-Don't get me wrong, I agree with the premise and conclusions of the post. I just wonder how far we can really go in marrying context, semantics and syntax without making it overly burdensome to manage and grok.
-
-Putting forth a logically flawed argument, I really don't want to have to learn a new grammar for every function call. :-)
-
-Like always, your article provides me with much to ponder and consider.
-
----
-
-Samuel A. Falvo II (2013-08-22 11:32:08)
-
-Extreme programming advocates coding without comments to the greatest degree possible, but no more than that.  The idea is to use well-chosen, verbose names for types and methods that work on those types.  For example, instead of your C++ code in listing 1, we might see:
-
-[1] int Vehicle::VehicleFromString(const char * source, std::list * attributes, int maxLoadCount) {
-[2]   if(ISNT_EMPTY(source)) return FALSE;
-[3]   if(!(LIST_EMPTY(attributes)) return FALSE;
-[4]   if(!BETWEEN(maxLoadCount, 1, 100) && (maxLoadCount != -1)) return FALSE;
-
-In line [1], some names were changed to protect the intent.  In general, programming communities seem to have adopted the XfromY naming convention for procedures used to convert from one type to another.  It seems that's what this method is doing, so I made the appropriate change.  Following conventions reduces mental burden.  Additionally, I changed the string parameter's name to "source", since that's the source code of the data.  Presumably, VehicleFromString is a parser, and you feed source code to parsers.  Also, notice the code you wrote in listing 1 is buggy -- you have no parameter named serializedAttrs.  ;-)  Your list of attributes implies a plurality of attributes, and so I just called those "attributes."  Short, simpler, and carries the full semantic load of the concept.
-
-In line [2], [3], and [4], I use preprocessor macros to make common range-based and pointer validation checks succinct and easily re-used.  Indeed, if the "return false on invalid input" thing is a pattern, then each if-statement can be replaced by a suitable macro, or even the entire block of if-statements if they repeat often.
-
-Now, people can derive everything you just expressed in comments by reading actionable source-code, and it's English-enough to be understood by a large number of people; the only prerequisite is that they know how to read and understand C++.  As far as _why_ this code was written the way it was, XP advocates looking at your commit logs in your revision control system of choice.  E.g., one could use "git blame" to identify who last affected the code you're interested in, and it will also show the most recent commit hash for each line in the code.  Use "git log" on that commit hash to then read why the change was put in place.  The advantage to this is that a _single comment_ can then apply automatically to a large number of related changes in a plurality of source files.  Normal program comments _cannot_ do that, no matter how hard you try.
-
-One last thing about coding preconditions like this, if I may.  This is such a good idea, in fact, that Eiffel, Sather, and if I recall correctly, Ada actually has first-class support for pre-conditions, post-conditions, and class-wide invariants, expressed using real, actionable, compilable code.  They can be turned off with a compiler switch if performance is too adversely affected.
-
-This kind of ruthless refactoring can apply to virtually any language.  Your listing 2 can be easily rewritten:
-
-while (*ptr != '')
-{
-if ((tail = strchr(ptr,';')) != NULL)  process_line(ptr, tail);
-if (tail == NULL)  break;
-ptr = tail + 1;
-}
-
-Full stop.  That's all you need.  If you need more than three variables shared, use a common data structure and pass in its address, like so:
-
-struct Blort b;
-// ...
-while (*b.ptr) {
-  if(!(b.tail = strchr(b.ptr, ';'))) break;
-  process_line(&b);
-  b.ptr = b.tail + 1;
-}
-
-Linguistic idioms come into play as well; *ptr != '' looks weird to me, so I rewrote it simply *ptr, as is common in most other C code.  Also, restructuring if-statements to serve as invariant guards, instead of expressing high-level thought processes, often simplifies the code.  Compare the original C code to that above.  It's requires fewer characters to type in, proportionately reducing the opportunity for inadvertent bugs.  Of course, it's perhaps best to wrap the entire while-statement in a function of its own as well.  Be sure to use a good quality name for it!
-
-I should point out that Forth is the king of writing expressive code, *IF* you know how to use its power for good.  The secret is to write your code declaratively:
-
-( etc... )
-: semicolon   ptr @ [char] ; strchr dup if process-line then ;
-: line   semicolon  dup 0= if r> 2drop then ;
-: lines   begin ptr @ c@ while line 1+ ptr ! repeat ;
-
-To the uninitiated, this is baud-barf from the 80s.  But, let me explain...
-
-The 'lines' definition expresses the same outer while-loop that the C code does.  But notice I expect the response for 'line' to be a non-null value which I update ptr with.  This implies, by reading this one line, that 'line' _must_ check for this condition and act upon it accordingly.  I simply don't have to worry about it at this level of abstraction.
-
-'line', attempts to process a semicolon-delimited line.  Somehow.  Again, details aren't important at this stage.  But, we expect it to return a value (the tail pointer).  If zero (null), we the return address of line off their respective stacks, and return.  Popping the return address of line will terminate the activation of 'lines', which is why we need to clean up the stack here, and not within lines itself.  Still, we've expressed in just two lines of code what it took 4 in C, and it's every bit as readable, once you know enough Forth to competently read it.  Also notice that code reads left to right, like English; it does not read top-down, and also notice that you can read individual lines of code in total isolation from any other line, and derive useful knowledge from it.  That's powerful.
-
-Note that Forth prefers short names over long names, but this is due to Forth's context sensitivity.  A program that reads lines of text from a file and uses them to draw lines on the screen will likely have two or three definitions of 'lines', if not of 'line.'  This is also incredibly useful, and I often wish other languages provided similar behavior.  But, I digress.
-
-Notice also that I can refactor common predicates into definitions that manipulate return and data stacks, and as long as I call these definitions from words that have the same stack shapes on entry, I can re-use these predicates WITHOUT having to rely on macros, as I would in C and C++.  This not only improves the readability of code, making it that much more declarative in nature, but it also saves valuable program space by preventing repetitious code in the compiled binary image.
-
----
-
-Daniel Hardman (2013-08-22 16:26:46)
-
-Yes, I agree that making language more rich can be taken too far. Python is one of my favorite languages, but it foregoes a lot of the ideas I'm advocating, in favor of terseness and simplicity. And it works. I think the reason why has something to do with the problem domain that's its sweet spot, which I think is on somewhat smaller and less complex projects than the sort I've spent most of my career leading. When you need to rip through a thousand files and slice and dice the data they contain, for a quick-and-dirty project, you don't really want "semantic density" getting in the way. You can hold the whole problem in your head, more or less, and you just want to get on with expressing the solution. On the other hand, if you're writing a hairy system with a dozen or a hundred other programmers at multiple sites, and it will be maintained and enhanced for years to come, being crystal clear about your intentions is probably worthwhile.
-
----
-
-Daniel Hardman (2013-08-22 16:33:45)
-
-Samuel: Your craftsmanship is showing. :-)
-
-I picked these samples from actual production codebases that were conveniently laying around. They weren't intended to be great code, only realistic. The C++ snippet is one I had to rewrite slightly to protect the (semi)innocent, and my rewrite introduced the bug you caught.
-
-In practice, I would likely do much of the same refactoring that you advocate, although I don't think I'd be as good at it as you are. It puzzles me how often my fellow programmers leave yuckiness around when they could be clearer and more terse if they spent a *very* few minutes improving the code. Maybe they look at my code and wonder why I put up with stuff that seems arcane to them. I dunno.
-
-Your comments about Forth are very intriguing. More for me to study! :-)
-
-Thanks for the thoughtful response.
-
----
-
-Daniel Hardman (2013-08-22 16:51:38)
-
-Good observation, Tianyuzhu. Thanks for the comment.
-
-I agree that it is *possible* to express most or all of the ideas in this post, using cutting-edge C++. We must think alike. On several C++ codebases, I've done stuff like this--only to see a majority of the other programmers on the teams react with puzzlement and eye-rolling. This frustrates me.
-
-I think the reason I don't see this idea catching on in C++ is because:
-
-A) Most C++ today is still written against the C++ 98 standard (partly due to mental inertia and partly due to compatibility concerns). Sigh...
-B) C++ makes tons of stuff *possible* but does a poor job of encouraging it or making it attractive and easy. Look at how hard Alexandrescu had to work to write Loki for traits-based programming, and how foreign his idiom is to most C++ coders.
-
-I guess I can't blame C++ compilers for cheerfully consuming code that uses none of the techniques you've identified. The set of use cases that C++ aims to address is incredibly broad, and careful communication is not always worthwhile if you're writing small or short-lived projects.
-
----
-
-j2kun (2013-08-22 17:54:46)
-
-Great post! My two cents:
-
-It seems to me that there's a fine line between semantics of a programming language and "semantics" as you describe it in this post. I would consider many tasks like generating unit tests and documentation generation to be programmer tools, not strictly part of the language itself. Are you arguing that these *should* be part of the language? If so, I would say you're expecting too much of semantics and the compiler. Besides, those programmers who care that much about fine optimizations are hugging the machine architecture so tightly that (I imagine) they'd rather do it themselves and have it be explicit in the code than rely on the contextual knowledge of which compiler optimization is in play at what time. I imagine the compiler would be able to optimize something if you have +range(0,N) but not +range(0,N+1) for some sufficiently large value of N, and this would just add to the contextual knowledge needed.
-
-That being said, I think you're thinking too small! With the current state of technology, why restrict yourself to text? Moreover, if you want simplicity and cleanliness without sacrificing "semantic density," why not design a language as you wish, and design an editor that transforms terse and detailed representations back and forth at the will of the coder? (say, by mouseover, or C-x M-c M-expand, or whatever mechanism you like) Or why not have the compiler learn the appropriate constraints? A dynamically written Python-style program could be transformed into a statically-typed version which can then be compiled and optimized as desired.
-
----
-
-tianyuzhu (2013-08-22 12:38:39)
-
-With some effort, we can convey a sense of semantics in C++. For example we should be able to write:
-
-int Vehicle::LoadVehicleFromStr(std::string serializedAttrs,
-    optional<std::list&> attrList, IntRange maxLoadCount);
-
-Now optional isn't in the standard yet, and IntRange probably won't ever be in the standard, but you can write both types fairly easily.
-
-In fact, efficiently encapsulating semantics in types is something that C++ specializes in. And of course, since C++ is statically typed, doing so allows the compiler to verify semantics for you.
-
-Here's a short list of how different types have different semantics when used as function arguments. For some type T:
-
-T: means you're passing object by value. The function gets it's own instance of T and owns it (will destroy it or transfer ownership of it to somewhere else).
-T &: A reference to an instance of T. It can't be null. The function does not own it.
-T *: A pointer to an instance of T. It can be null. The function does not own it.
-optional: Like passing T by value, except it can be "null".
-unique_ptr: Like "T *", except the function gets unique ownership of the instance.
-shared_ptr: Like "T *", except the funciton gets shared ownership of the instance.
-
----
-
-Daniel Hardman (2013-08-22 18:02:04)
-
-Jeremy: Thanks for a thought-provoking idea. Implementing an optimized editor along with a language is what the designers of Smalltalk did, and lo and behold, the modern IDE was born. It sounds like a lot of work, but maybe a lot of coolness would result. I'll have to chew on that for a while...
-
----
-
-j2kun (2013-08-22 18:04:07)
-
-Have you heard of LightTable? They are already doing some things in the realm of automated test generation, but their goal is somewhat different: they wish to alleviate and add inspiration to the process of writing new code.
-
----
-
-Daniel Hardman (2013-08-22 18:13:17)
-
-Wow! I went and watched the kickstarter video, and I started salivating. That is an awesome concept. I want to get me one, today! I'm going to download the preview and see if they do more than lisp... Thanks for the suggestion.
-
----
-
-j2kun (2013-08-22 18:19:25)
-
-Well now that I've got your attention :) the Light Table project was inspired by a talk of Bret Victor called Inventing on Principle, and he has a second talk called The Future of Programming which I think you'll enjoy. Both bring up some very important questions about the way we interact with computers in designing programs.
-
----
-
-tianyuzhu (2013-08-22 21:34:45)
-
-It's kind of funny because there are libraries like Guava that implement things like Optional for Java, and Java developers happily use it.
-
-Here's the thing:
-A) A lot of useful features like optional can be implemented in C++98. There's no excuse for not using them, especially if they're already available in libraries such as Loki.
-B) Although it isn't easy to implement things like optional, it's still valuable because such components are highly reusable. And honestly, they're not that hard to use.
-
-
-
-
-

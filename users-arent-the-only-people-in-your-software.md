@@ -4,8 +4,16 @@ date: 2012-09-04
 slug: users-arent-the-only-people-in-your-software
 redirect_from:
   - /2012/09/04/users-arent-the-only-people-in-your-software
+comments:
+  - author: Role-Play Centered Design &laquo; Codecraft
+    date: 2012-09-05 10:10:18
+    comment: >
+      [...] your software. If your list has less than four or five unique roles, think some more. Hint: see this post. Rate this:Share this:PrintEmailTwitterDiggRedditTumblrFacebookLinkedInStumbleUponPinterestLike [...]
+  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
+    date: 2013-02-05 08:58:01
+    comment: >
+      [...] of these memory lapses can be viewed as failures in system thinking. The software we create, and the people that surround and permeate it, constitute a system. We will not be successful unless we create harmony in the [...]
 ---
-
 I'm all for a healthy focus on HCI (Human-Computer Interaction), UCD (User-Centered Design), and UX (User eXperience). (See <a title="Role-Play Centered Design" href="role-play-centered-design.md">my post about role-play centered design</a>, for example.)
 
 However, some insight gets lost when we think that only "end users" interact with our software, and only their experience needs to be polished.
@@ -19,28 +27,3 @@ It's not just the consumer side of the value chain that's studded with interesti
  
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">List 3 people besides end users that interact with your software in important ways. How well does your software communicate with them and satisfy their need to be productive and drive business value?</span></em></p>
-
----
-
-Role-Play Centered Design &laquo; Codecraft (2012-09-05 10:10:18)
-
-[...] your software. If your list has less than four or five unique roles, think some more. Hint: see this post. Rate this:Share this:PrintEmailTwitterDiggRedditTumblrFacebookLinkedInStumbleUponPinterestLike [...]
-
-
-
----
-
-Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:58:01)
-
-[...] of these memory lapses can be viewed as failures in system thinking. The software we create, and the people that surround and permeate it, constitute a system. We will not be successful unless we create harmony in the [...]
-
-
-
-
-
-
-
-
-
-
-

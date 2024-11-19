@@ -4,8 +4,16 @@ date: 2012-09-25
 slug: six-learning-tips-for-tech-folks
 redirect_from:
   - /2012/09/25/six-learning-tips-for-tech-folks
+comments:
+  - author: dougbert
+    date: 2012-10-30 11:11:04
+    comment: >
+      geez, you have some great thoughts
+  - author: Daniel
+    date: 2012-10-30 12:12:06
+    comment: >
+      Just a few days ago, I heard you talking about an antipattern, and I decided that I needed to get more conversant with the antipattern catalog. I've studied the gang of four design pattern book, and various related topics, for years, but I've only noted the antipattern stuff as a casual passer-by. So I setup an event in google calendar that bugs me once a week to spend a few minutes studying an antipattern. So I get my good ideas from smart people like you. :-)
 ---
-
 In <em>Seven Habits of Highly Effective People</em>, Stephen Covey reminds readers to periodically suspend their lumberjacking long enough to sharpen the metaphorical saw. In other words -- take time to renew, to learn, to get better, to work smarter.
 
 <figure><img title="crosscut saw" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Five-foot_crosscut_saw.jpg/320px-Five-foot_crosscut_saw.jpg" alt="" width="320" height="131" /><figcaption>rpen the saw. Photo credit: ATsawyer (Wikimedia Commons).</figcaption></figure>
@@ -48,18 +56,3 @@ Chances are, you'll regularly encounter viewpoints different from your own, with
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Pick an item or two from the suggestions above--or find some ideas of your own, that work for you--and start today to turn them into habits. Slow and steady is better than inconsistent bursts...</span></em></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Extra credit: Tell others about the goals you set. This commits you, and might stimulate some worthwhile conversations. Or add a comment here, sharing other ideas you have. (Remember the value of teaching... :-)</em></span></p>
-
----
-
-dougbert (2012-10-30 11:11:04)
-
-geez, you have some great thoughts
-
----
-
-Daniel (2012-10-30 12:12:06)
-
-Just a few days ago, I heard you talking about an antipattern, and I decided that I needed to get more conversant with the antipattern catalog. I've studied the gang of four design pattern book, and various related topics, for years, but I've only noted the antipattern stuff as a casual passer-by. So I setup an event in google calendar that bugs me once a week to spend a few minutes studying an antipattern. So I get my good ideas from smart people like you. :-)
-
-
-

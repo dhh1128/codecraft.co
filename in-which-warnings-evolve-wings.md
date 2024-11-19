@@ -4,8 +4,64 @@ date: 2014-08-06
 slug: in-which-warnings-evolve-wings
 redirect_from:
   - /2014/08/06/in-which-warnings-evolve-wings
+comments:
+  - author: David H
+    date: 2014-08-07 06:58:11
+    comment: >
+      I often download and compile open-source software. As I watch the compile messages scroll by, I get a warm, fuzzy feeling when it just quietly compiles without warnings. On the other hand, when I get lots of noise about incompatible integer sizes and such, I don't feel so good about the software. Maybe some projects use gcc flags that suppress all warnings, but usually it seems like they either care about warnings and address them all, or else they don't care about whatever noise spews out at compile time.
+      
+      I like the idea of more intelligent suppressing of warnings, where you have to more explicitly say why the warning does not apply in your situation.
+      
+      I'm not as sure about warning suppression outside of the code itself: "different developers might have different answers for different circumstances, and because answers must expire or vary without the code changing." Typically the goal is to have deterministic build results. Having a whole boatload of warnings show up today that weren't there yesterday, or having one developer see warnings the other developer doesn't see, makes the build results less repeatable.
+      
+      In the case of using warning suppressions that expire after the demo shipped -- The day after the demo ships, now all your pragmatic stubbed code generates warnings. Will you just ignore the warnings your build system produces while you transition from stubs to full production code? That could take weeks or months. Then are we back to habitually ignoring warnings? Or are you saying that the warning system has become the development TODO list? In that case, are you going to place the other development TODO items in the code as artificially generated warnings, to keep all of your TODO items in once place?
+      
+      Sorry Daniel, just thinking this through out loud, I hope it helps.
+  - author: Daniel Hardman
+    date: 2014-08-07 11:35:49
+    comment: >
+      Thank you so much for thinking about this in depth, and asking smart questions, David!
+      
+      I relate to your comment about getting warm fuzzies from a clean build. I also agree that deterministic build results is a big deal. A HUGE deal, actually. Having a build which is noisy on some platforms, or which becomes noisy in surprising ways, is not good. Perhaps the idea of expiring warnings on a date or after a milestone is therefore iffy.
+      
+      However, I don't think this invalidates the whole idea. Git has a requirement that before you push, you must declare your identity. Take that one step further and imagine that the compiler wants to know who it's dealing with--a code owner, a casual downloader/reuser, a build slave... It might be the case that code owners invoke a much more demanding posture with respect to warnings than a casual downloader/reuser, and that build slaves refuse to ignore any warnings that could change their status non-deterministically. Just last night I was working with CMake and got a warning that said, "This warning is for internal project developers; if you're just using somebody else's cmake project, you can ignore it." So I know I'm not imagining this use case. That doesn't mean this is a good idea, though. Certainly, if you can drive ambiguity out of the codebase for everyone, permanently, that's better than leaving questions unaddressed.
+      
+      Maybe the right solution is to allow warning filters to be changed, but only manually. I guess that's not much different from hand-editing a Makefile to add or remove -W switches; what I'm proposing is just a bit easier to use.
+      
+      Regarding "TODO" lists, I'm not sure. Gonna have to noodle on that. Warnings as described here are basically questions intended to resolve ambiguity. Extending them to items that must be completed might or might not be a good idea.
+  - author: David H
+    date: 2014-08-07 16:26:27
+    comment: >
+      Having different sets of warning levels for different roles (maintainer, automated build system, end user) seems like it could be useful. I assume there would be a command-line switch that let's you easily switch roles. This of course resembles the warning level switches that compilers already support. But you are describing something more complicated that just an integer level for filtering warnings.
+      
+      I wasn't really advocating using warnings as TODO lists, it just seemed like the particular use case was headed that direction. I believe warnings should be dealt with immediately. As you said, they represent ambiguity, and I don't want ambiguity to persist.
+  - author: trevharmon
+    date: 2014-09-08 23:49:52
+    comment: >
+      This article caused me to reflect on some of my coding experience with Perl where one has the ability in code through pragmas to not only disable different types of warnings (assuming they were turned on in the first place), but also disable strict code checking (e.g., variable declaration) (also assuming they were turned on) inline in the code. Annoying warning? Disable warnings in that particular block.
+      
+      I've done this many times, almost always for one of the reasons you've listed above (i.e., the warning doesn't apply in this one particular case, "No, I really know what I'm doing", "sudo make me a sandwich", etc.). I din't always do it for the "right" reasons either.
+      
+      Here's my concern, though. If it's in a bit of truly isolated code that no one else is ever going to call, fine. I no longer believe any code falls into that category. I have to assume anything I code will be called by someone else, for likely a completely different reason than its original design. I once saw an entire project of mine hijacked in that way. Oddly, they had issues later.
+      
+      Any time I find a 3rd-party module that I'm calling deciding to suppress warnings in this way, I always get nervous. It isn't good to believe the compiler is omnipotent, but those warning rules have been put in there for a reason... usually because someone screwed something up... badly.
+      
+      I know it's a royal pain to have to clean up warnings--especially the "silly" ones. I just wonder, do we want to encourage any of the behaviors that push us to not clean up warnings? I don't know. Clearly, we want a balance to be struck. Maybe marks can provide enough context to solve this problem without encouraging bad behavior.
+      
+      I'm going to have to think on this a bit.
+      
+      Thanks for always providing good food for thought!
+  - author: Daniel Hardman
+    date: 2014-09-09 09:04:58
+    comment: >
+      Trev: you have a dry sense of humor. "Oddly, they had issues later." First I chuckled. Then I cried. I can so, so relate. :-)
+      
+      I totally agree that we don't want to encourage behaviors that make "cleaning up warnings" less important or less of a best practice. I wasn't thinking of marks having such an effect; instead, I was imagining that by making it possible to drive ambiguity out of code, they'd make warnings that remain much more likely to get the attention of coders. But now you've got me wondering whether marks might unintentionally become a big, clumsy hammer that encourages bad behavior. If so, that's awful.
+      
+      Wheels are turning in my head...
+      
+      Thanks for the thoughtful response.
 ---
-
 Ignoring warnings is a bad idea. At some level, we all know this. If we see a sign that says "Warning: Dangerous Undertow" at the beach, we pause (I hope!) and think twice before we get in the water.
 
 <figure><img class="" src="http://imgs.xkcd.com/comics/the_mother_of_all_suspicious_files.png" alt="" width="538" height="234" /><figcaption>Ignore warnings at your peril. :-) Image credit: xkcd.com</figcaption></figure>
@@ -66,71 +122,3 @@ I think those wings could lift the quality and artistry of our software.
 <hr style="width:60%;" />
 
 <sup><a name="1"></a>[1]</sup> I can think of several reasons why you might want to do this. One is that you're making a temporary change, and you don't want to be bothered to delete something, only to have to reinsert it later. Another is that you may want to use dead code to force linkage. Or maybe you just want to be able to explore an alternate path by resetting EIP while you debug. A final reason is that you want to prove the code compiles (e.g., because it's quoted in documentation), even though you will never run it. This is the reason why you <a title="disabling gtest methods" href="https://code.google.com/p/googletest/wiki/AdvancedGuide#Temporarily_Disabling_Tests" target="_blank">disable gtest methods</a> but do not #ifdef them; continuing to compile them prevents staleness.
-
-
-
----
-
-Daniel Hardman (2014-08-07 11:35:49)
-
-Thank you so much for thinking about this in depth, and asking smart questions, David!
-
-I relate to your comment about getting warm fuzzies from a clean build. I also agree that deterministic build results is a big deal. A HUGE deal, actually. Having a build which is noisy on some platforms, or which becomes noisy in surprising ways, is not good. Perhaps the idea of expiring warnings on a date or after a milestone is therefore iffy.
-
-However, I don't think this invalidates the whole idea. Git has a requirement that before you push, you must declare your identity. Take that one step further and imagine that the compiler wants to know who it's dealing with--a code owner, a casual downloader/reuser, a build slave... It might be the case that code owners invoke a much more demanding posture with respect to warnings than a casual downloader/reuser, and that build slaves refuse to ignore any warnings that could change their status non-deterministically. Just last night I was working with CMake and got a warning that said, "This warning is for internal project developers; if you're just using somebody else's cmake project, you can ignore it." So I know I'm not imagining this use case. That doesn't mean this is a good idea, though. Certainly, if you can drive ambiguity out of the codebase for everyone, permanently, that's better than leaving questions unaddressed.
-
-Maybe the right solution is to allow warning filters to be changed, but only manually. I guess that's not much different from hand-editing a Makefile to add or remove -W switches; what I'm proposing is just a bit easier to use.
-
-Regarding "TODO" lists, I'm not sure. Gonna have to noodle on that. Warnings as described here are basically questions intended to resolve ambiguity. Extending them to items that must be completed might or might not be a good idea.
-
----
-
-David H (2014-08-07 06:58:11)
-
-I often download and compile open-source software. As I watch the compile messages scroll by, I get a warm, fuzzy feeling when it just quietly compiles without warnings. On the other hand, when I get lots of noise about incompatible integer sizes and such, I don't feel so good about the software. Maybe some projects use gcc flags that suppress all warnings, but usually it seems like they either care about warnings and address them all, or else they don't care about whatever noise spews out at compile time.
-
-I like the idea of more intelligent suppressing of warnings, where you have to more explicitly say why the warning does not apply in your situation.
-
-I'm not as sure about warning suppression outside of the code itself: "different developers might have different answers for different circumstances, and because answers must expire or vary without the code changing." Typically the goal is to have deterministic build results. Having a whole boatload of warnings show up today that weren't there yesterday, or having one developer see warnings the other developer doesn't see, makes the build results less repeatable.
-
-In the case of using warning suppressions that expire after the demo shipped -- The day after the demo ships, now all your pragmatic stubbed code generates warnings. Will you just ignore the warnings your build system produces while you transition from stubs to full production code? That could take weeks or months. Then are we back to habitually ignoring warnings? Or are you saying that the warning system has become the development TODO list? In that case, are you going to place the other development TODO items in the code as artificially generated warnings, to keep all of your TODO items in once place?
-
-Sorry Daniel, just thinking this through out loud, I hope it helps.
-
----
-
-David H (2014-08-07 16:26:27)
-
-Having different sets of warning levels for different roles (maintainer, automated build system, end user) seems like it could be useful. I assume there would be a command-line switch that let's you easily switch roles. This of course resembles the warning level switches that compilers already support. But you are describing something more complicated that just an integer level for filtering warnings.
-
-I wasn't really advocating using warnings as TODO lists, it just seemed like the particular use case was headed that direction. I believe warnings should be dealt with immediately. As you said, they represent ambiguity, and I don't want ambiguity to persist.
-
----
-
-trevharmon (2014-09-08 23:49:52)
-
-This article caused me to reflect on some of my coding experience with Perl where one has the ability in code through pragmas to not only disable different types of warnings (assuming they were turned on in the first place), but also disable strict code checking (e.g., variable declaration) (also assuming they were turned on) inline in the code. Annoying warning? Disable warnings in that particular block.
-
-I've done this many times, almost always for one of the reasons you've listed above (i.e., the warning doesn't apply in this one particular case, "No, I really know what I'm doing", "sudo make me a sandwich", etc.). I din't always do it for the "right" reasons either.
-
-Here's my concern, though. If it's in a bit of truly isolated code that no one else is ever going to call, fine. I no longer believe any code falls into that category. I have to assume anything I code will be called by someone else, for likely a completely different reason than its original design. I once saw an entire project of mine hijacked in that way. Oddly, they had issues later.
-
-Any time I find a 3rd-party module that I'm calling deciding to suppress warnings in this way, I always get nervous. It isn't good to believe the compiler is omnipotent, but those warning rules have been put in there for a reason... usually because someone screwed something up... badly.
-
-I know it's a royal pain to have to clean up warnings--especially the "silly" ones. I just wonder, do we want to encourage any of the behaviors that push us to not clean up warnings? I don't know. Clearly, we want a balance to be struck. Maybe marks can provide enough context to solve this problem without encouraging bad behavior.
-
-I'm going to have to think on this a bit.
-
-Thanks for always providing good food for thought!
-
----
-
-Daniel Hardman (2014-09-09 09:04:58)
-
-Trev: you have a dry sense of humor. "Oddly, they had issues later." First I chuckled. Then I cried. I can so, so relate. :-)
-
-I totally agree that we don't want to encourage behaviors that make "cleaning up warnings" less important or less of a best practice. I wasn't thinking of marks having such an effect; instead, I was imagining that by making it possible to drive ambiguity out of code, they'd make warnings that remain much more likely to get the attention of coders. But now you've got me wondering whether marks might unintentionally become a big, clumsy hammer that encourages bad behavior. If so, that's awful.
-
-Wheels are turning in my head...
-
-Thanks for the thoughtful response.

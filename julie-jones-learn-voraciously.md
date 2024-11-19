@@ -4,8 +4,50 @@ date: 2012-09-24
 slug: julie-jones-learn-voraciously
 redirect_from:
   - /2012/09/24/julie-jones-learn-voraciously
+comments:
+  - author: Scott Hansen
+    date: 2012-09-24 18:33:32
+    comment: >
+      Thanks for the great ideas that you are sharing. I will be putting them into effect for myself.
+  - author: Daniel
+    date: 2012-09-24 23:32:19
+    comment: >
+      Quite by accident, I just came across this post from Andrei Alexandrescu (C++ guru and major proponent of the D programming language), in which he argues that learning how to learn is the most important skill for any technophile: http://www.informit.com/articles/article.aspx?p=1945828
+  - author: Alpheus
+    date: 2012-09-25 11:01:09
+    comment: >
+      I have this stupid idea for a startup:  gather three to six people together, to learn Common Lisp and mathematics, and then make things up as we go from there.  So, in a way, I would like to be in the business of learning!
+      
+      In some ways, I'm not so interested in learning, as I am in discovering new things.  Some of it may be written down, because it's been done by others; some of it may be done for the first time (or one of the first times, if you have no idea that someone else discovered the idea before you, yet independently of you).  Indeed, Alan Kay once said, "The best way to predict the future is to invent it."
+      
+      Of course, ultimately, discovery is just an extension of learning!
+  - author: Daniel
+    date: 2012-09-28 13:46:10
+    comment: >
+      Sounds like a fun dream, Alphy. I agree that discovery is exciting. Maybe that's why I like software as a career field; it gives me a fertile field to learn and experiment.
+      
+      Love the Alan Kay quote; it's both true and profound.
+  - author: Ashton
+    date: 2012-10-04 16:46:30
+    comment: >
+      Greetings! Very useful advice within this post! It's the little changes which will make the most significant changes. Many thanks for sharing!
+  - author: Daniel
+    date: 2012-10-04 16:55:20
+    comment: >
+      I agree. Needing to keep learning might seem like a big item on a to-do list, but it can (and should) be done here a little, there a little. My <a href="six-learning-tips-for-tech-folks.md" title="Six Learning Tips For Tech Folks" rel="nofollow">post with tips for tech learners</a> was an attempt to capture some small habits with big benefits.
+  - author: Interrupting my interruptions &laquo; Codecraft
+    date: 2013-01-24 11:48:54
+    comment: >
+      [...] stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts are part of learning voraciously, which is a strategic imperative for any software [...]
+  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
+    date: 2013-02-05 08:57:53
+    comment: >
+      [...] We achieve something important, get enamored of our own success, and forget to be humble and to learn from others. [...]
+  - author: Snapfairy
+    date: 2013-02-16 09:52:20
+    comment: >
+      This is wonderful advice and one we can all apply.  Thanks for sharing and for following my blog. Bendiciones ; )
 ---
-
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
 When you're a twenty-something computer geek, the pace of the software industry doesn't worry you much. You're full of energy and enthusiasm for your chosen career, and you're confident you'll quickly absorb whatever wasn't covered during college.
 
@@ -40,76 +82,3 @@ Learn to learn. In the long run, the engineer who's mastered <em>that</em> skill
 Thanks for the lesson, Julie.
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Identify a few habits you could form to help you learn more, more often, and more easily. (Check out <a title="Six Learning Tips For Tech Folks" href="six-learning-tips-for-tech-folks.md">this post</a> for some ideas.) Start working on them.</em></span></p>
-
----
-
-Ashton (2012-10-04 16:46:30)
-
-Greetings! Very useful advice within this post! It's the little changes which will make the most significant changes. Many thanks for sharing!
-
----
-
-Daniel (2012-09-24 23:32:19)
-
-Quite by accident, I just came across this post from Andrei Alexandrescu (C++ guru and major proponent of the D programming language), in which he argues that learning how to learn is the most important skill for any technophile: http://www.informit.com/articles/article.aspx?p=1945828
-
----
-
-Daniel (2012-09-28 13:46:10)
-
-Sounds like a fun dream, Alphy. I agree that discovery is exciting. Maybe that's why I like software as a career field; it gives me a fertile field to learn and experiment.
-
-Love the Alan Kay quote; it's both true and profound.
-
----
-
-Scott Hansen (2012-09-24 18:33:32)
-
-Thanks for the great ideas that you are sharing. I will be putting them into effect for myself.
-
----
-
-Daniel (2012-10-04 16:55:20)
-
-I agree. Needing to keep learning might seem like a big item on a to-do list, but it can (and should) be done here a little, there a little. My <a href="six-learning-tips-for-tech-folks.md" title="Six Learning Tips For Tech Folks" rel="nofollow">post with tips for tech learners</a> was an attempt to capture some small habits with big benefits.
-
----
-
-Alpheus (2012-09-25 11:01:09)
-
-I have this stupid idea for a startup:  gather three to six people together, to learn Common Lisp and mathematics, and then make things up as we go from there.  So, in a way, I would like to be in the business of learning!
-
-In some ways, I'm not so interested in learning, as I am in discovering new things.  Some of it may be written down, because it's been done by others; some of it may be done for the first time (or one of the first times, if you have no idea that someone else discovered the idea before you, yet independently of you).  Indeed, Alan Kay once said, "The best way to predict the future is to invent it."
-
-Of course, ultimately, discovery is just an extension of learning!
-
----
-
-Interrupting my interruptions &laquo; Codecraft (2013-01-24 11:48:54)
-
-[...] stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts are part of learning voraciously, which is a strategic imperative for any software [...]
-
-
-
----
-
-Snapfairy (2013-02-16 09:52:20)
-
-This is wonderful advice and one we can all apply.  Thanks for sharing and for following my blog. Bendiciones ; )
-
----
-
-Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:53)
-
-[...] We achieve something important, get enamored of our own success, and forget to be humble and to learn from others. [...]
-
-
-
-
-
-
-
-
-
-
-

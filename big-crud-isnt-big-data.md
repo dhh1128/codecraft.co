@@ -4,8 +4,14 @@ date: 2013-04-09
 slug: big-crud-isnt-big-data
 redirect_from:
   - /2013/04/09/big-crud-isnt-big-data
+comments:
+  - author: Jesse Harris
+    date: 2013-04-09 20:48:42
+    comment: >
+      Data that isn't valuable today could be critical tomorrow, and getting rid of it is irreversible. The very nature of data forces us to become digital packrats, accumulating and maintaining bits (pun intended) of cruft for what seems like an incomprehensible period of time. With storage getting cheaper and cheaper, there's not much disincentive to do so.
+      
+      I was really disappointed that Microsoft backed off of its ambitious WinFS project. It would have helped home users tame some of this ever-increasing data.
 ---
-
 "Big Data" is another one of those buzz words that seems to be everywhere these days. We hear stories regularly about how fast the world's data grows and how big it's going to be by 20xx. Vendors then reason that we should buy their wares to cope. This infographic is typical:
 
 <a href="http://www.businessinsider.com.au/infographic-heres-how-much-data-is-created-on-the-web-every-minute-2015-8" target="_blank"><img class="alignnone size-full wp-image-6282" src="https://codecraft.co/wp-content/uploads/2013/04/dataneversleeps_2-0_v2.jpg" alt="dataneversleeps_2-0_v2" width="810" height="1287" /></a>
@@ -37,15 +43,3 @@ Now I work at <a href="http://www.adaptivecomputing.com" target="_blank">Adaptiv
 [<a name="foot2"></a>2] I know, I know. Deleting isn't easy. You have to know what can be deleted and what can't. You have regulatory compliance issues. I still claim that getting better at deleting is easier than getting better at big data. That's probably a good subject for another post...
 
 </div>
-
-
-
-
----
-
-Jesse Harris (2013-04-09 20:48:42)
-
-Data that isn't valuable today could be critical tomorrow, and getting rid of it is irreversible. The very nature of data forces us to become digital packrats, accumulating and maintaining bits (pun intended) of cruft for what seems like an incomprehensible period of time. With storage getting cheaper and cheaper, there's not much disincentive to do so.
-
-I was really disappointed that Microsoft backed off of its ambitious WinFS project. It would have helped home users tame some of this ever-increasing data.
-

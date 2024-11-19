@@ -4,8 +4,18 @@ date: 2014-05-15
 slug: why-you-should-be-proficient-in-a-tool-like-vim-or-emacs
 redirect_from:
   - /2014/05/15/why-you-should-be-proficient-in-a-tool-like-vim-or-emacs
+comments:
+  - author: Scott
+    date: 2015-09-25 15:49:42
+    comment: >
+      > get permission from the sysadmin to monkey with packages 
+      
+      Umm, no.
+  - author: digitallyfreeblog
+    date: 2017-03-19 03:07:11
+    comment: >
+      I just saw your blog post.  I have moved from Eclipse (well almost ) to Emacs for Python programming.  I stress the word Python, because for Java I think Eclipse still rocks.  But for all other reasons you rightly mentioned, plus the fact that now Emacs is also kind of IDE, auto completion, intelisence, code highlighting, Project system through plugins, integration with things like git and on and on.  I always knew that this potential existed at least in Emacs.  So I always kept my touch on Emacs.  And now it pays off.
 ---
-
 In my last post, I pointed out <a title="Why you should use an IDE instead of vim or emacs" href="why-you-should-use-an-ide-instead-of-vim-or-emacs.md">two little-discussed reasons why I think most engineers should spend most of their time in an IDE</a>.
 
 I knew I was venturing into the realm of religious wars to make such a claim. When I shared the post, the first comment I got was, "Do you have a death wish?" :-) I had to laugh.
@@ -67,17 +77,3 @@ I said in my last post that most developers should prefer to use an IDE, and I s
 But in addition, I also recommend that all developers take the time, at least during one stage in their career, to become proficient in the more spare, more low-level experience that text editors offer.
 
 And I stand by that recommendation, too.
-
----
-
-Scott (2015-09-25 15:49:42)
-
-> get permission from the sysadmin to monkey with packages 
-
-Umm, no.
-
----
-
-digitallyfreeblog (2017-03-19 03:07:11)
-
-I just saw your blog post.  I have moved from Eclipse (well almost ) to Emacs for Python programming.  I stress the word Python, because for Java I think Eclipse still rocks.  But for all other reasons you rightly mentioned, plus the fact that now Emacs is also kind of IDE, auto completion, intelisence, code highlighting, Project system through plugins, integration with things like git and on and on.  I always knew that this potential existed at least in Emacs.  So I always kept my touch on Emacs.  And now it pays off.

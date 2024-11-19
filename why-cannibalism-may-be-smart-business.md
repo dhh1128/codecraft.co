@@ -4,8 +4,32 @@ date: 2012-10-05
 slug: why-cannibalism-may-be-smart-business
 redirect_from:
   - /2012/10/05/why-cannibalism-may-be-smart-business
+comments:
+  - author: Dano
+    date: 2012-10-05 17:40:54
+    comment: >
+      Daniel,
+      
+      It actually was worse than that.  The SMB product line was in total disarray and when I got involved with this shortly after 2006 our Sr VP was trying to create unique solutions for 5 backup products and how to Market and Sell then without disrupting the current revenue streams.
+      
+      The products at the time were NBU, BE, GSS, LSR (BESR), and the complementary products for Continuous Protection for both server and desktop.
+      
+      This was a marketing nightmare! More time and market research should have been spent leveraging the markets needs.  There was a ton of money out there to made, but we didn't have the infrastructure in place to go after the SMB MID markets.  We couldn't sell in there and we couldn't support it if we sold it there thus without a proper plan we have failure.
+      
+      BESR was a solid product and had a image market all to it's own that was different than the rest of Symantec's product line.  Yes Symantec/VERITAS products that were also good and solved many problems, but executive management didn't know how to handle the overlap when it came to the image technology and traditional backup which made some very bad decisions.
+      
+      From 2001 - 2012 I seen the demise of many good backup products produced by Symantec/VERITAS and I have told this story to anyone who had an ear to hear.
+      
+      I could go on and on, but I'd rather say thank you for speaking up.
+      
+      Dano
+  - author: Daniel
+    date: 2012-10-06 01:01:32
+    comment: >
+      Thanks for the extra detail, Dano. You're quite right to include GSS and Continuous Protection. For that matter, the products from Waltham, though focused on systems mgmt, also had some interesting application in the backup space.
+      
+      The history of BE and BESR (and of the SEA business unit before that) has some frustrating parts, and this is one of them. But it also has some happy parts. I had the chance to work with many talented, hard-working people (from all backgrounds, not just on my own team), and I learned a lot.
 ---
-
 Get out your fork. I've got a story for you...
 
 <figure><img title="fork, meat" src="http://farm3.staticflickr.com/2282/2362260782_c834e5bc13_n.jpg" alt="" width="240" height="320" /><figcaption>Dig in. Don't hold back. Photo credit: AleBonvini (Flickr)</figcaption></figure>
@@ -43,36 +67,3 @@ I am satisfied that the essence I've given here is true: in business, fear of ca
 Even if the process is a bit grisly.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Examine your current product through the lens of disruptive innovation (described by <a class="zem_slink" title="Clayton M. Christensen" href="http://www.claytonchristensen.com" rel="homepage" target="_blank">Clayton Christensen</a> in The <a class="zem_slink" title="Disruptive technology" href="http://en.wikipedia.org/wiki/Disruptive_technology" rel="wikipedia" target="_blank">Innovator's Dilemma</a> and graphed above). Are you new and disruptive, long-in-the-tooth, or somewhere else? What does this suggest about wise strategy?</span></em></p>
-
-
-
----
-
-Daniel (2012-10-06 01:01:32)
-
-Thanks for the extra detail, Dano. You're quite right to include GSS and Continuous Protection. For that matter, the products from Waltham, though focused on systems mgmt, also had some interesting application in the backup space.
-
-The history of BE and BESR (and of the SEA business unit before that) has some frustrating parts, and this is one of them. But it also has some happy parts. I had the chance to work with many talented, hard-working people (from all backgrounds, not just on my own team), and I learned a lot.
-
----
-
-Dano (2012-10-05 17:40:54)
-
-Daniel,
-
-It actually was worse than that.  The SMB product line was in total disarray and when I got involved with this shortly after 2006 our Sr VP was trying to create unique solutions for 5 backup products and how to Market and Sell then without disrupting the current revenue streams.
-
-The products at the time were NBU, BE, GSS, LSR (BESR), and the complementary products for Continuous Protection for both server and desktop.
-
-This was a marketing nightmare! More time and market research should have been spent leveraging the markets needs.  There was a ton of money out there to made, but we didn't have the infrastructure in place to go after the SMB MID markets.  We couldn't sell in there and we couldn't support it if we sold it there thus without a proper plan we have failure.
-
-BESR was a solid product and had a image market all to it's own that was different than the rest of Symantec's product line.  Yes Symantec/VERITAS products that were also good and solved many problems, but executive management didn't know how to handle the overlap when it came to the image technology and traditional backup which made some very bad decisions.
-
-From 2001 - 2012 I seen the demise of many good backup products produced by Symantec/VERITAS and I have told this story to anyone who had an ear to hear.
-
-I could go on and on, but I'd rather say thank you for speaking up.
-
-Dano
-
-
-

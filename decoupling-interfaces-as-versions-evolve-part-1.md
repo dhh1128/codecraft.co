@@ -4,8 +4,16 @@ date: 2008-07-29
 slug: decoupling-interfaces-as-versions-evolve-part-1
 redirect_from:
   - /2008/07/29/decoupling-interfaces-as-versions-evolve-part-1
+comments:
+  - author: Decoupling Interfaces as Versions Evolve, Part 2 &laquo; Software, Wetware, Webware
+    date: 2008-08-19 11:10:44
+    comment: >
+      [...] Interfaces as Versions Evolve, Part 2    This is part 2 of a series. You can read part 1 and part 3 as [...]
+  - author: Decoupling Interfaces as Versions Evolve, Part 3 &laquo; Software, Wetware, Webware
+    date: 2008-08-19 11:27:41
+    comment: >
+      [...] Interfaces as Versions Evolve, Part 3    This is part 3 of a series. You can read part 1 and part 2 as [...]
 ---
-
 <em>This is part 1 of a series. You can read <a title="Decoupling Interfaces as Versions Evolve, Part 2" href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a> as well.</em>
 <h3>The Goal</h3>
 Software interfaces were invented to promote <a href="http://en.wikipedia.org/wiki/Encapsulation_(classes_-_computers)" target="wikipedia">encapsulation</a> and <a href="http://www.cs.unc.edu/~stotts/COMP145/modules.html" target="_blank">loose coupling</a>. In theory this enables developing and deploying without undue interdependence, which is a <em>very</em> good thing.
@@ -41,18 +49,3 @@ There are subtler costs as well. When you late bind, you still have to use the i
 Another disadvantage of late binding is that you introduce a new dependency -- this time on the supporting infrastructure. Maybe you're using a great SOAP toolkit for PHP and that toolkit makes it easy to late bind to a web service. But now you depend on your SOAP toit. What if another actor in your system doesn't have the same version of the toolkit?
 
 What we'd like is a mechanism that combines the predictability and robust tool support of the traditional approach to interface versioning with the flexibility of late binding to get the best of both worlds. In <a href="decoupling-interfaces-as-versions-evolve-part-3.md">part 3</a>, I'll offer my own solution.
-
----
-
-Decoupling Interfaces as Versions Evolve, Part 2 &laquo; Software, Wetware, Webware (2008-08-19 11:10:44)
-
-[...] Interfaces as Versions Evolve, Part 2    This is part 2 of a series. You can read part 1 and part 3 as [...]
-
----
-
-Decoupling Interfaces as Versions Evolve, Part 3 &laquo; Software, Wetware, Webware (2008-08-19 11:27:41)
-
-[...] Interfaces as Versions Evolve, Part 3    This is part 3 of a series. You can read part 1 and part 2 as [...]
-
-
-

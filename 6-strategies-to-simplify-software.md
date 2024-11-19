@@ -4,8 +4,39 @@ date: 2013-03-12
 slug: 6-strategies-to-simplify-software
 redirect_from:
   - /2013/03/12/6-strategies-to-simplify-software
+comments:
+  - author: segmation
+    date: 2013-03-12 09:04:09
+    comment: >
+      I like ask a child!  Children can come up with the greatest of things!  Thanks for sharing this awesome blog!
+  - author: Daniel Hardman
+    date: 2013-03-12 10:22:23
+    comment: >
+      The other day my young nephew and his older brother were having a conversation.
+      
+      Older brother: "What's a baby dog called?"
+      Younger nephew: "A puppy."
+      Older brother: "What's a baby sheep called?"
+      Younger nephew: "A lamb."
+      Older brother: "What's a baby chicken called?"
+      Younger nephew: "A yolk!"
+      
+      Funny. But also shows how kids have different perspectives that can break us out of the box. :-)
+  - author: Julie
+    date: 2013-03-13 15:05:25
+    comment: >
+      You hit the nail with a sledgehammer with this post!
+      
+      Metaphor becomes more important every time I work with a new system that no one can explain. Usually the problem is that they don't have a metaphor to relate it to. People work best with an abstraction in their heads.
+      
+      And, I will add another vote for simplicity. As systems become more distributed and massive, communication becomes the problem. Funny how that mirrors the human problem when people work together. The answer is often simplicity. Think of the largest autonomous system out there - the internet. TCP/IP works with what might be the simplest solution to multiple machines trying to talk at the same time "wait a bit and try again". I'm sure everyone can think of a much "better" solution. I am also sure it is more complicated, and I am resonable sure that it wouldn't work as well. 
+      
+      My goal is: make it simple enough to understand and wrap that understanding in a memorable metaphor.
+  - author: Daniel Hardman
+    date: 2013-03-13 15:19:21
+    comment: >
+      The internet is such a good example. Not only is TCP/IP amazingly simple (in concept, not necessarily in impl), but so is the HTTP protocol. It seems amazing to me that I ever lived without it. Thank you, Tim Berners-Lee and Roy Fielding and all the other smart people who achieved so much by simplifying so much!
 ---
-
 How do you make things simple?
 
 I've written that <a title="The Power of Simplicity" href="good-code-is-balanced.md" target="_blank">balance</a>, I've quoted Oliver Wendell Holmes about the simplicity on the other side of complexity.
@@ -77,53 +108,3 @@ But--ah!--the beauty of well crafted minimalism...
 Perhaps Leonardo da Vinci said it best: "Simplicity is the ultimate sophistication."
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify a metaphor that's important to your architecture. Find at least one other metaphor that you could use to replace it. Spend 5 minutes exploring the alternate metaphor. Do you see strengths, weaknesses, opportunities, and threats to your architecture in new ways?</span></em></p>
-
-
-
----
-
-Julie (2013-03-13 15:05:25)
-
-You hit the nail with a sledgehammer with this post!
-
-Metaphor becomes more important every time I work with a new system that no one can explain. Usually the problem is that they don't have a metaphor to relate it to. People work best with an abstraction in their heads.
-
-And, I will add another vote for simplicity. As systems become more distributed and massive, communication becomes the problem. Funny how that mirrors the human problem when people work together. The answer is often simplicity. Think of the largest autonomous system out there - the internet. TCP/IP works with what might be the simplest solution to multiple machines trying to talk at the same time "wait a bit and try again". I'm sure everyone can think of a much "better" solution. I am also sure it is more complicated, and I am resonable sure that it wouldn't work as well. 
-
-My goal is: make it simple enough to understand and wrap that understanding in a memorable metaphor.
-
----
-
-segmation (2013-03-12 09:04:09)
-
-I like ask a child!  Children can come up with the greatest of things!  Thanks for sharing this awesome blog!
-
----
-
-Daniel Hardman (2013-03-12 10:22:23)
-
-The other day my young nephew and his older brother were having a conversation.
-
-Older brother: "What's a baby dog called?"
-Younger nephew: "A puppy."
-Older brother: "What's a baby sheep called?"
-Younger nephew: "A lamb."
-Older brother: "What's a baby chicken called?"
-Younger nephew: "A yolk!"
-
-Funny. But also shows how kids have different perspectives that can break us out of the box. :-)
-
----
-
-Daniel Hardman (2013-03-13 15:19:21)
-
-The internet is such a good example. Not only is TCP/IP amazingly simple (in concept, not necessarily in impl), but so is the HTTP protocol. It seems amazing to me that I ever lived without it. Thank you, Tim Berners-Lee and Roy Fielding and all the other smart people who achieved so much by simplifying so much!
-
-
-
-
-
-
-
-
-

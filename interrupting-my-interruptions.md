@@ -4,8 +4,54 @@ date: 2013-01-24
 slug: interrupting-my-interruptions
 redirect_from:
   - /2013/01/24/interrupting-my-interruptions
+comments:
+  - author: dougbert
+    date: 2013-01-27 12:58:05
+    comment: >
+      Man, I have been pushing Tom DeMarco's book "Peopleware (1988)"{ for over 15years. He describes how to maximize knowledge workers (and programmers are the ultimate in knowledge workers) during their creative periods. Result:  Allow them time to ramp up and time to do their work - KEEP INTERRUPTIONS at bay.
+      
+      Takes 15-20 minutes to get in to the "engineering flow or zone" and any interruptions will lose that zone - any interruptions: phone, email, boss, co-worker, etc.  Solution: PRIVATE offices, quiet work areas, LESS real time communication work areas (send an email). Most "I got to have this info now from Joe" is false, send an email request for joe to answer when he wants to.
+      
+      Cube offices make for terrible knowledge worker environments. If people say: I get more done before 7AM and after 5PM, that is an indictment for a bad work environment for a knowledge worker. That is why I rather come in at 10-11AM and work to 7-9PM (I am a empty nester though).
+      
+      dougbert
+  - author: Daniel Hardman
+    date: 2013-01-27 17:08:40
+    comment: >
+      I just started reading <em>Peopleware</em> this last week. Hopefully this reinforces my resolve. My first couple days of new habits have been a mixed bag. I've interrupted others less, and I've tried to be more focused myself, but I'm still averaging an interruption every 5 or 10 minutes, it seems...
+  - author: dougbert
+    date: 2013-01-28 17:17:52
+    comment: >
+      it is funny that at Adaptive, people put a sign on their door/cube that says to the effect: Don't bug ME!
+      
+      I had my dilbert tape which I would put up once in awhile which did the same thing
+      
+      Allowing an engineer 2 to 4 hours once a day to actually DO WORK in creation/support etc, without interruption (and people honor those CLOSED doors/cubs), much could be done
+      
+      My most product days were at Novell, where we had a door we could close. I usually left it 6 inches ajar, which allowed others to peek in to see if I would accept them. A small amount of time, I would close the door and program like a devil - LOVED those times
+      
+      thx again for your thoughful posts, they are great
+      
+      dougbert
+  - author: Daniel Hardman
+    date: 2013-01-28 21:37:12
+    comment: >
+      Just ran into another article that says much the same thing: http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html
+  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
+    date: 2013-02-05 08:57:59
+    comment: >
+      [...] We retreat to our cubes and grumble that people keep getting in the way of us getting work done, but we don’t get serious enough about managing everybody’s interruptions wisely. [...]
+  - author: Daniel Hardman
+    date: 2013-02-06 09:43:50
+    comment: >
+      I've found another blog post that's a nice complement to this one: http://www.rachellegardner.com/2013/02/be-the-gatekeeper-of-your-mind/.
+      
+      I've continued to work on my interruptions since I posted, and I can report some fair success on all aspects of my 3-part plan. But I'm not yet at the point where I've entrenched new and better habits...
+  - author: Daniel Hardman
+    date: 2013-02-08 13:58:46
+    comment: >
+      Here's another article with a similar theme: http://architects.dzone.com/articles/four-hours-concentration
 ---
-
 Tonight I was just settling down for a ponder on some personal stuff when I noticed an email from my brilliant brother-in-law (hi, Stephen!), recommending <a href="http://blog.ninlabs.com/2013/01/programmer-interrupted/" target="_blank">an article</a> about the cost of interrupting programmers. Half an hour later, I'm blogging about it. Yes, I see the irony in the read, the blog, and the shout-out, but I just can't help it.
 
 I've heard lots of estimates of the cost of interrupting, but the research in this article seems particularly clear. I think the article oversimplifies by assuming that the problem and solution derive purely from memory, but there's enough insight and clever thinking in the article to make it worth a read...
@@ -49,66 +95,3 @@ I'm going to respect other people's time and try to interrupt them less. Email o
 I'll report back to you if I discover anything helpful as I work this problem. When your feed reader or email notifies you that I've posted again, I'm sure you'll drop everything to read it immediately. Right? :-)
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">I'd really like to hear your ideas on this topic. Do you have silver bullets that kill the interruption problem? If so, please share! Or if you want to chime in with your own 12-step-style confession, I'm all ears as well...</span></em></p>
-
-
-
----
-
-Daniel Hardman (2013-01-27 17:08:40)
-
-I just started reading <em>Peopleware</em> this last week. Hopefully this reinforces my resolve. My first couple days of new habits have been a mixed bag. I've interrupted others less, and I've tried to be more focused myself, but I'm still averaging an interruption every 5 or 10 minutes, it seems...
-
----
-
-Daniel Hardman (2013-02-08 13:58:46)
-
-Here's another article with a similar theme: http://architects.dzone.com/articles/four-hours-concentration
-
----
-
-dougbert (2013-01-27 12:58:05)
-
-Man, I have been pushing Tom DeMarco's book "Peopleware (1988)"{ for over 15years. He describes how to maximize knowledge workers (and programmers are the ultimate in knowledge workers) during their creative periods. Result:  Allow them time to ramp up and time to do their work - KEEP INTERRUPTIONS at bay.
-
-Takes 15-20 minutes to get in to the "engineering flow or zone" and any interruptions will lose that zone - any interruptions: phone, email, boss, co-worker, etc.  Solution: PRIVATE offices, quiet work areas, LESS real time communication work areas (send an email). Most "I got to have this info now from Joe" is false, send an email request for joe to answer when he wants to.
-
-Cube offices make for terrible knowledge worker environments. If people say: I get more done before 7AM and after 5PM, that is an indictment for a bad work environment for a knowledge worker. That is why I rather come in at 10-11AM and work to 7-9PM (I am a empty nester though).
-
-dougbert
-
----
-
-dougbert (2013-01-28 17:17:52)
-
-it is funny that at Adaptive, people put a sign on their door/cube that says to the effect: Don't bug ME!
-
-I had my dilbert tape which I would put up once in awhile which did the same thing
-
-Allowing an engineer 2 to 4 hours once a day to actually DO WORK in creation/support etc, without interruption (and people honor those CLOSED doors/cubs), much could be done
-
-My most product days were at Novell, where we had a door we could close. I usually left it 6 inches ajar, which allowed others to peek in to see if I would accept them. A small amount of time, I would close the door and program like a devil - LOVED those times
-
-thx again for your thoughful posts, they are great
-
-dougbert
-
----
-
-Daniel Hardman (2013-01-28 21:37:12)
-
-Just ran into another article that says much the same thing: http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html
-
----
-
-Smart Geeks Think Like Cheerleaders &laquo; Codecraft (2013-02-05 08:57:59)
-
-[...] We retreat to our cubes and grumble that people keep getting in the way of us getting work done, but we don’t get serious enough about managing everybody’s interruptions wisely. [...]
-
----
-
-Daniel Hardman (2013-02-06 09:43:50)
-
-I've found another blog post that's a nice complement to this one: http://www.rachellegardner.com/2013/02/be-the-gatekeeper-of-your-mind/.
-
-I've continued to work on my interruptions since I posted, and I can report some fair success on all aspects of my 3-part plan. But I'm not yet at the point where I've entrenched new and better habits...
-

@@ -4,8 +4,80 @@ date: 2013-03-21
 slug: small-files-are-your-friends
 redirect_from:
   - /2013/03/21/small-files-are-your-friends
+comments:
+  - author: Andy Lawrence
+    date: 2013-03-21 10:43:52
+    comment: >
+      Good article. I think you made some great points.
+      
+      I think your strongest argument for small files is the loose coupling and encapsulation one. It can impose an artificial constraint that forces the programmer to think more about those issues. It is kind of like if your company has a coding standard that says "no function can be longer than x number of lines". This can force the programmer to think more about modular programming and break that mammoth function into several smaller ones which can enhance readability and code re-use.
+      
+      Having every class definition and method in its own separate file can be great if your IDE makes it very easy to navigate and manage all related files as a group, but it can become a file management nightmare if using traditional editors and file folders. The benefit of having everything in a single file is that if you copy just one file, you get all your code. If every function is in a separate file, you run the risk of forgetting to copy one of them or having one of them in a folder that isn't backed up.
+      
+      We have probably all had bad experiences with files and/or functions that were too big or too small. Finding the right balance is what keeps programming as much of an art as it is a science.
+  - author: dougbert
+    date: 2013-03-21 10:44:44
+    comment: >
+      Exactly my points as well, but again well presented by you.
+      My mind cache is 7-8 items, ANYWAY to factor things to have a 'collective' of that size is wonderful for my sanity. If more are added, then a refactor is needed to reduce the size by some sort of organization.
+      
+      If some files is SO big, I ask: WHY?  Usually it is some huge monster OBJECT that has so many attributes, that action functions just plain explode.
+      
+      Object relationship then need some refactoring.  Huge files are like huge objects, a mass of confusion and disorder
+  - author: Daniel Hardman
+    date: 2013-03-21 12:05:44
+    comment: >
+      Doug: I'm so grateful that you pushed on this issue in Moab. Although we're not very close to the ideal yet, we're much better off because of your efforts.
+  - author: Daniel Hardman
+    date: 2013-03-21 12:35:44
+    comment: >
+      Your observation about balance really resonates with me. That's one of my pet themes (see http://codecraft.co/2012/08/27/good-code-is-balanced/). 
+      
+      One thing that I find interesting is the different nature of the consequences at the two ends of the spectrum. At the <em>files-are-too-big</em> end, the consequences seem a bit scary. They make problems less understandable; they steal velocity, accuracy, and quality of design from developers. At the <em>files-are-too-small</em> end, you start paying a "silliness tax" where you have to recurse down too many levels while coding and debugging. This can also make it hard to see the bigger picture (so in that respect the two ends of the continuum are similar) -- but I don't think it impedes loose coupling and code reuse. It's also easier to undo/change, I think.
+  - author: Jason Law
+    date: 2013-03-21 15:24:38
+    comment: >
+      Great points, Daniel. Early in my career, I found that small classes and small methods let me model more complex problems. Encapsulation is key, and it's how I think our brains work. Reminds me of some of the points made in Robert C. Martin's Clean Code. Nice article.
+  - author: Daniel Hardman
+    date: 2013-03-21 21:44:49
+    comment: >
+      Jason! Great to hear from you. Long time no see. Thanks for all the Oracle goodness you taught me.
+      
+      Robert Martin is one of my heros, but I haven't read Clean Code. So now I've got something new for my reading list. Thanks!
+  - author: Wally
+    date: 2013-03-22 15:36:31
+    comment: >
+      I'm going to have to disagree that small files should be a "goal".  I think that the goal is to have good data encapsulation and boundaries.  Files are one way of accomplishing this via scoping, but they don't ensure that a project breaks itself up into manageable pieces.  Splitting a monstrous files into multiple small files that still utilize externs and global includes to share all the same data they had in the first place ends up being a zero-sum change.
+      
+      The important goal should be to separate and isolate the various project components into logical divisions.  If they don't have logical cleavage planes, then refactor them until they do. The location of the pieces in specific files is really an afterthought that follows naturally.  Just splitting things into smaller files to achieve a certain line/function quota seems useless to me.  
+      
+      I like to think of this from an organic perspective.  Many garden plants grow larger and larger until they start to choke themselves out.  They can be divided and replanted and you can get multiples from one original.  However, you don't just take a shovel and slice the thing apart indiscriminately.   You also don't want to leave roots and connections back to the parent plant.  Instead, you carefully disentangle roots and tubers and find places where things look like they belong together and then you make judicious cuts and sacrifices and end up with smaller plants that can survive on their own.  Cutting up a plant just to fit it in a smaller pot is never a good idea.   http://gardening.about.com/od/perennials/ss/DividingSBS.htm
+  - author: Daniel Hardman
+    date: 2013-03-22 15:51:25
+    comment: >
+      I think that's a very true and insightful analogy, Wally. Thanks so much for adding to the conversation!
+      
+      I guess implicit in my thinking was the idea that if you have big files, and you split them, that the activity becomes an enabler for many of the forms of true goodness that you're highlighting.
+      
+      I do think that it's harder to accomplish the encapsulation and logical division if you leave things in a single file -- mainly because the ugliness of globals and other forms of coupling aren't as obvious.
+  - author: Doug
+    date: 2019-07-08 12:28:49
+    comment: >
+      I came to software through a background in hardware at Bell Labs in the mid 1980s.
+      
+      I learned embedded C development from a couple of DMTS level engineers and I still cherish how they bootstrapped my transition into software.
+      
+      They had a few hard rules that required enormous justification to override.
+      
+      Only one external function per file. You could have static helpers, but only one globally accessible function.
+      
+      No function was more than 100 lines.
+      
+      Those two were the biggies. There were other coding style rules, but the two above you would violate at your peril. Much for the reasons you list above, but one you did not. In most organizations of any size, your code is going to end up in a repository of some form, and over time, parts of it are going to be edited to either extend features, or to fix a defect, and likely be someone other than you.
+      If there are numerous functions in a single file, it increases the chance that a single file will be out being modified by more than one person, and then having to be merged. Small, single function files are less likely to face merge conflicts.
+      
+      One other note that goes along with some of your other posts. When you write code, it is easy to fall into the trap of thinking you are writing for the machine, but you are really writing for other humans that will come after you. If you always design and code as if you are writing for people, you will be doing your future self a huge favor.
 ---
-
 Yesterday I was discussing refactoring priorities with a colleague who's a brilliant engineer, and I happened to mention my strong desire for smaller files in our codebase. I told him that I thought .h and .cpp (or .py or .java or .whatever) files with thousands of lines were a problem.
 
 He asked me why.
@@ -57,102 +129,3 @@ My comeback is: use packages or subdirectories or libraries (another level of ma
 The bottom line for me is experiential, not theoretical. I nearly always have cruddy experiences in code bases where large files are common. Small files don't guarantee pleasant and productive work, but big ones seem to go hand-in-hand with other problems. I find it telling that codebases with big files are also codebases where people lament the <a title="// Comments on Comments" href="comments-on-comments.md" target="_blank">lack of comments</a> the most, for example. Over the years, I've become convinced that a simple rule of thumb about keeping files small will pay off more handsomely than almost any other coding best practice.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Leave a comment to tell me what you think. Am I making a mountain out of a molehill? Or do you feel strongly about small file sizes as well? Have I omitted any important pros and cons from the discussion?</span></em></p>
-
-
-
-
-
----
-
-Andy Lawrence (2013-03-21 10:43:52)
-
-Good article. I think you made some great points.
-
-I think your strongest argument for small files is the loose coupling and encapsulation one. It can impose an artificial constraint that forces the programmer to think more about those issues. It is kind of like if your company has a coding standard that says "no function can be longer than x number of lines". This can force the programmer to think more about modular programming and break that mammoth function into several smaller ones which can enhance readability and code re-use.
-
-Having every class definition and method in its own separate file can be great if your IDE makes it very easy to navigate and manage all related files as a group, but it can become a file management nightmare if using traditional editors and file folders. The benefit of having everything in a single file is that if you copy just one file, you get all your code. If every function is in a separate file, you run the risk of forgetting to copy one of them or having one of them in a folder that isn't backed up.
-
-We have probably all had bad experiences with files and/or functions that were too big or too small. Finding the right balance is what keeps programming as much of an art as it is a science.
-
----
-
-dougbert (2013-03-21 10:44:44)
-
-Exactly my points as well, but again well presented by you.
-My mind cache is 7-8 items, ANYWAY to factor things to have a 'collective' of that size is wonderful for my sanity. If more are added, then a refactor is needed to reduce the size by some sort of organization.
-
-If some files is SO big, I ask: WHY?  Usually it is some huge monster OBJECT that has so many attributes, that action functions just plain explode.
-
-Object relationship then need some refactoring.  Huge files are like huge objects, a mass of confusion and disorder
-
----
-
-Daniel Hardman (2013-03-21 12:05:44)
-
-Doug: I'm so grateful that you pushed on this issue in Moab. Although we're not very close to the ideal yet, we're much better off because of your efforts.
-
----
-
-Daniel Hardman (2013-03-21 12:35:44)
-
-Your observation about balance really resonates with me. That's one of my pet themes (see http://codecraft.co/2012/08/27/good-code-is-balanced/). 
-
-One thing that I find interesting is the different nature of the consequences at the two ends of the spectrum. At the <em>files-are-too-big</em> end, the consequences seem a bit scary. They make problems less understandable; they steal velocity, accuracy, and quality of design from developers. At the <em>files-are-too-small</em> end, you start paying a "silliness tax" where you have to recurse down too many levels while coding and debugging. This can also make it hard to see the bigger picture (so in that respect the two ends of the continuum are similar) -- but I don't think it impedes loose coupling and code reuse. It's also easier to undo/change, I think.
-
----
-
-Jason Law (2013-03-21 15:24:38)
-
-Great points, Daniel. Early in my career, I found that small classes and small methods let me model more complex problems. Encapsulation is key, and it's how I think our brains work. Reminds me of some of the points made in Robert C. Martin's Clean Code. Nice article.
-
----
-
-Daniel Hardman (2013-03-21 21:44:49)
-
-Jason! Great to hear from you. Long time no see. Thanks for all the Oracle goodness you taught me.
-
-Robert Martin is one of my heros, but I haven't read Clean Code. So now I've got something new for my reading list. Thanks!
-
----
-
-Wally (2013-03-22 15:36:31)
-
-I'm going to have to disagree that small files should be a "goal".  I think that the goal is to have good data encapsulation and boundaries.  Files are one way of accomplishing this via scoping, but they don't ensure that a project breaks itself up into manageable pieces.  Splitting a monstrous files into multiple small files that still utilize externs and global includes to share all the same data they had in the first place ends up being a zero-sum change.
-
-The important goal should be to separate and isolate the various project components into logical divisions.  If they don't have logical cleavage planes, then refactor them until they do. The location of the pieces in specific files is really an afterthought that follows naturally.  Just splitting things into smaller files to achieve a certain line/function quota seems useless to me.  
-
-I like to think of this from an organic perspective.  Many garden plants grow larger and larger until they start to choke themselves out.  They can be divided and replanted and you can get multiples from one original.  However, you don't just take a shovel and slice the thing apart indiscriminately.   You also don't want to leave roots and connections back to the parent plant.  Instead, you carefully disentangle roots and tubers and find places where things look like they belong together and then you make judicious cuts and sacrifices and end up with smaller plants that can survive on their own.  Cutting up a plant just to fit it in a smaller pot is never a good idea.   http://gardening.about.com/od/perennials/ss/DividingSBS.htm
-
----
-
-Daniel Hardman (2013-03-22 15:51:25)
-
-I think that's a very true and insightful analogy, Wally. Thanks so much for adding to the conversation!
-
-I guess implicit in my thinking was the idea that if you have big files, and you split them, that the activity becomes an enabler for many of the forms of true goodness that you're highlighting.
-
-I do think that it's harder to accomplish the encapsulation and logical division if you leave things in a single file -- mainly because the ugliness of globals and other forms of coupling aren't as obvious.
-
-
-
-
-
----
-
-Doug (2019-07-08 12:28:49)
-
-I came to software through a background in hardware at Bell Labs in the mid 1980s.
-
-I learned embedded C development from a couple of DMTS level engineers and I still cherish how they bootstrapped my transition into software.
-
-They had a few hard rules that required enormous justification to override.
-
-Only one external function per file. You could have static helpers, but only one globally accessible function.
-
-No function was more than 100 lines.
-
-Those two were the biggies. There were other coding style rules, but the two above you would violate at your peril. Much for the reasons you list above, but one you did not. In most organizations of any size, your code is going to end up in a repository of some form, and over time, parts of it are going to be edited to either extend features, or to fix a defect, and likely be someone other than you.
-If there are numerous functions in a single file, it increases the chance that a single file will be out being modified by more than one person, and then having to be merged. Small, single function files are less likely to face merge conflicts.
-
-One other note that goes along with some of your other posts. When you write code, it is easy to fall into the trap of thinking you are writing for the machine, but you are really writing for other humans that will come after you. If you always design and code as if you are writing for people, you will be doing your future self a huge favor.
-

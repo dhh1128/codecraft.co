@@ -4,8 +4,30 @@ date: 2013-08-09
 slug: the-third-half-of-computational-economics
 redirect_from:
   - /2013/08/09/the-third-half-of-computational-economics
+comments:
+  - author: tianyuzhu
+    date: 2013-08-09 16:17:49
+    comment: >
+      I'm going to argue that free markets aren't necessary in *general* in software development because economics assumes that everyone is selfish.
+      
+      For example, when you're writing a function, you establish a contract saying, "If you provide me with the proper resources and fulfill the preconditions, I will perform this service for you." Now the function trusts that it will be used properly, and the user trusts that the function will do its job. In software development, you don't try to sneakily call the function without satisfying all of its preconditions. In fact, you probably go to extra lengths to meet them.
+      
+      Take another example. When you're writing an application for a certain OS, the OS, the kernel tells you, "your process can have these resources and do its work provided that it is well-behaved and that it doesn't consume more than this much memory/file descriptors/etc." In return, when you write this well-behaved application, you trust that the kernel won't starve your process, etc.
+      
+      In short, selfishness isn't an issue in software development, since every entity strives to trust and be trustworthy in the name of getting stuff done. Now it's true that things might seem a bit communist at times. Misbehaving processes are ruthlessly terminated by the kernel. But in return well-behaving processes have peace of mind that they will get their fair share of resources -- and that's important, because watching your back all the time is an expensive endeavour.
+      
+      So if we introduced free market mechanics into software development, what might happen? I suspect it will be similar to the real world. Some entities who think they're more important than others will try to manipulate the system and hog all the resources. "My process has better performance because it messes up other processes' stack pointers, causing them to crash. MUAHAHA." Everybody will have to start watching their backs. It'll be impossible to program for.
+      
+      The thing is, you see economic models in programming all the time. All you have to do is look at systems where humans can make certain parts of the system more selfish. For example, ISPs give you higher bandwidth and limits if you pay more.
+  - author: Daniel Hardman
+    date: 2013-08-09 17:07:12
+    comment: >
+      Thanks for the thoughtful response.
+      
+      I agree that software doesn't translate perfectly into the economic metaphor. There are some examples where it shows up -- the ISP example you mention is a good one -- and there are also examples where central planning is very helpful.
+      
+      Your example about processes getting resources from the kernel is worth pondering. In my experience, it is very common for processes to be selfish and to abuse the kernel's generosity. There are some kernels that are more militant about enforcing good behavior, but it's not at all difficult for me in most cases to write software that uses all resources with utter disregard to the needs of other processes on a box. That's a case where I wonder if economics might help. However, as you point out, watching your back at all times is expensive, so introducing the extra complexity of modeling resource allocation economically would have to provide a fairly big benefit to be worthy of consideration.
 ---
-
 If you look up "computational economics" on wikipedia, you'll find out all about software models that economists use to study game theory, recessions, scarcity, and so forth.
 
 Tweak your search terms a bit, and google takes you to discussions about the economics of the computer industry--how Moore's Law plays out in changing prices for compute power, why cloud computing and cheap GPUs are changing how much we expect to pay, how the mobile revolution is killing traditional PCs, what the job market looks like for us software geeks.
@@ -35,31 +57,3 @@ So why not apply the free market in software?
 I don't think a system like this would be worth building in all cases, and it might have some unpleasant side effects like starvation of a humble process that can't adequately compete for resources. It would require <a title="3 Commandments of Performance Optimization" href="my-first-tangle-with-the-tower-of-babel.md">better programming language</a>...
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">What complications do you foresee in such an approach? And how would you enhance it?</span></em></p>
-
-
-
----
-
-tianyuzhu (2013-08-09 16:17:49)
-
-I'm going to argue that free markets aren't necessary in *general* in software development because economics assumes that everyone is selfish.
-
-For example, when you're writing a function, you establish a contract saying, "If you provide me with the proper resources and fulfill the preconditions, I will perform this service for you." Now the function trusts that it will be used properly, and the user trusts that the function will do its job. In software development, you don't try to sneakily call the function without satisfying all of its preconditions. In fact, you probably go to extra lengths to meet them.
-
-Take another example. When you're writing an application for a certain OS, the OS, the kernel tells you, "your process can have these resources and do its work provided that it is well-behaved and that it doesn't consume more than this much memory/file descriptors/etc." In return, when you write this well-behaved application, you trust that the kernel won't starve your process, etc.
-
-In short, selfishness isn't an issue in software development, since every entity strives to trust and be trustworthy in the name of getting stuff done. Now it's true that things might seem a bit communist at times. Misbehaving processes are ruthlessly terminated by the kernel. But in return well-behaving processes have peace of mind that they will get their fair share of resources -- and that's important, because watching your back all the time is an expensive endeavour.
-
-So if we introduced free market mechanics into software development, what might happen? I suspect it will be similar to the real world. Some entities who think they're more important than others will try to manipulate the system and hog all the resources. "My process has better performance because it messes up other processes' stack pointers, causing them to crash. MUAHAHA." Everybody will have to start watching their backs. It'll be impossible to program for.
-
-The thing is, you see economic models in programming all the time. All you have to do is look at systems where humans can make certain parts of the system more selfish. For example, ISPs give you higher bandwidth and limits if you pay more.
-
----
-
-Daniel Hardman (2013-08-09 17:07:12)
-
-Thanks for the thoughtful response.
-
-I agree that software doesn't translate perfectly into the economic metaphor. There are some examples where it shows up -- the ISP example you mention is a good one -- and there are also examples where central planning is very helpful.
-
-Your example about processes getting resources from the kernel is worth pondering. In my experience, it is very common for processes to be selfish and to abuse the kernel's generosity. There are some kernels that are more militant about enforcing good behavior, but it's not at all difficult for me in most cases to write software that uses all resources with utter disregard to the needs of other processes on a box. That's a case where I wonder if economics might help. However, as you point out, watching your back at all times is expensive, so introducing the extra complexity of modeling resource allocation economically would have to provide a fairly big benefit to be worthy of consideration.

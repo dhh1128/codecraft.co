@@ -4,8 +4,12 @@ date: 2012-09-06
 slug: designing-an-apex-predator
 redirect_from:
   - /2012/09/06/designing-an-apex-predator
+comments:
+  - author: Daniel
+    date: 2012-09-15 00:26:03
+    comment: >
+      Ocean Mist theme -- standard option in wordpress. I think I customized css slightly and added a different header graphic. Everything else is out-of-the-box.
 ---
-
 <p style="text-align:right;margin-left:250px;"><span style="color:#555555;">(This post is an excerpt from my forthcoming book, <em>Lifeware</em>. Follow my blog [see right sidebar] to catch the publication announcement.)</span></p>
 <p style="text-align:left;"><span style="color:#000000;">A paleontologist walks along a canyon. She finds part of a fossilized crocodilian skull in a layer of sandstone. She immediately knows that this creature's environment was wet and warm, with an abundance of animal and plant life at all layers in the energy pyramid. In fact, that single clue implies an entire ecosystem with an amazing amount of detail.</span></p>
 
@@ -22,10 +26,3 @@ redirect_from:
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="text-align:left;padding-left:30px;"><em><span style="color:#000080;">Look at your roadmap. Is the next round of releases going to drop an "apex predator" on the market like a crocodile in the arctic? What must be true of the ecosystem for the product to succeed, and how can you make those things true?</span></em></p>
 <p style="text-align:left;"></p>
-
----
-
-Daniel (2012-09-15 00:26:03)
-
-Ocean Mist theme -- standard option in wordpress. I think I customized css slightly and added a different header graphic. Everything else is out-of-the-box.
-

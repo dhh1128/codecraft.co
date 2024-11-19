@@ -4,8 +4,18 @@ date: 2015-01-05
 slug: a-more-important-manifesto
 redirect_from:
   - /2015/01/05/a-more-important-manifesto
+comments:
+  - author: trevharmon
+    date: 2015-01-07 22:09:39
+    comment: >
+      Daniel,
+      I really want to thank you for all of the support (and the shout-outs). I very much enjoyed those talks that we had. They helped me clarify and refine my thinking in so many ways. I'm very grateful to have you as a friend. To everyone else, please join us!
+      - Trev
+  - author: craiglaurence
+    date: 2015-01-14 12:08:14
+    comment: >
+      Brilliant.
 ---
-
 A couple years ago, I <a title="Manifestos" href="manifestos.md">wrote</a> about signing the Agile Manifesto and the Manifesto for Software Craftsmanship.
 
 Today I want to write about something a lot more important.
@@ -63,17 +73,3 @@ As I said before, the idealism I put into my résumé may not be for everyone--b
 I hope you'll read, <a title="Sign the Conscious Business Ethics Manifesto" href="http://trevharmon.com/conscious-business-ethics/sign-the-manifesto/" target="_blank">sign</a>, and talk up the manifesto as well.
 
 Let's promote some awesomeness together.
-
----
-
-trevharmon (2015-01-07 22:09:39)
-
-Daniel,
-I really want to thank you for all of the support (and the shout-outs). I very much enjoyed those talks that we had. They helped me clarify and refine my thinking in so many ways. I'm very grateful to have you as a friend. To everyone else, please join us!
-- Trev
-
----
-
-craiglaurence (2015-01-14 12:08:14)
-
-Brilliant.

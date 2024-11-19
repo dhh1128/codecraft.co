@@ -4,8 +4,40 @@ date: 2014-07-28
 slug: mountains-molehills-and-markedness
 redirect_from:
   - /2014/07/28/mountains-molehills-and-markedness
+comments:
+  - author: Dennis
+    date: 2014-07-30 01:24:05
+    comment: >
+      Just one little correction to the German example in section "Aside". You use the word "Löwin" as genderless expression, but this is the female lion. Whereas "Löwinnen" is the plural of "Löwin". If you wan't to correct it, it would be "Ich sah einige Löwen" :: "Ich sag einige Löwinnen".
+      
+      But nevertheless thank you for sharing your insights!
+  - author: Daniel Hardman
+    date: 2014-07-30 08:36:47
+    comment: >
+      Thank you so much for the catch, Dennis! I've updated the post.
+  - author: David H
+    date: 2014-08-07 06:35:21
+    comment: >
+      The additional use cases for marks that you have described here look much more challenging to implement than the ones you gave previously. The earlier use cases could have been implemented by examining a call graph and a DOM of the compiled code. But the use cases involving temporal boundaries, wouldn't those require more sophisticated flow analysis?
+      
+      So, if difficulty of implementation is not to be considered at all, then I can add some more use cases to your list. :)
+      
+      How about marking variables that contain direct user input? Or that contain data POSTed from the internet, etc? And then have the compiler make sure that you never use untrusted input e.g. to form SQL expressions, nor pass it to an exec() function call, etc.
+      
+      How about marking functions that should only be performed by users with admin privileges?
+      
+      How about marking functions that should only execute within a security sandbox? Or, conversely, marking those functions trusted to make changes outside of the sandbox, making everything else restricted?
+      
+      There are probably a lot more security-related rules that, if your marks system was fully functional as you described, could finally be enforced.
+  - author: Daniel Hardman
+    date: 2014-08-07 11:17:25
+    comment: >
+      Excellent notes, David. The one about direct user input is a great use case, and a piece of cake to implement--and I think it would even be possible to take most of the burden off of the coder, because functions that receive direct user input can be painted with a mark that propagates to anything that calls them in an assignment. This makes it so the very act of calling something like sscanf() can automatically cause the variables that get set to acquire the "direct user input" mark, without the coder lifting a finger.
+      
+      You are right that temporal propagation is harder to implement than some of the other ones. Maybe I'll have to defer that one if it proves too challenging--although I have some ideas about how it would work, and they seem feasible in my mind. I guess we'll see when I get there. At the moment I'm still in the early stages of lexing/parsing...
+      
+      The whole security angle is huge, and I'm hoping someone who's got a deep background in vulnerability analysis can chime in with wisdom.
 ---
-
 In my previous three posts, I explained why the semantics of programming languages are <a title="Lacunas Everywhere" href="introducing-marks.md">introduced "marks"</a>--a feature of the <code>intent</code> programming language I'm creating--and gave you a taste for how they work.
 
 In this post, I'm going to offer more examples, so you see the breadth of their application.
@@ -74,51 +106,3 @@ Another of my friends, <a title="David on LinkedIn" href="http://www.linkedin.co
 So marks can't butter your toast, or write poetry. :-)
 
 Still, I think they're a useful innovation. I'm hoping that smarter minds than mine can pick up on the kernel of the idea and take it to cool new places I haven't yet imagined. My friend David also pointed out some cool ways that marks could be used to gather statistics, which I had not considered. What else will you dream up? If you're interested in collaborating, let me know. Also, I would appreciate you sharing this series of posts with people who don't read my blog; I'm interested in broadening the conversation as much as possible.
-
-
-
-
-
-
-
----
-
-Daniel Hardman (2014-07-30 08:36:47)
-
-Thank you so much for the catch, Dennis! I've updated the post.
-
----
-
-Dennis (2014-07-30 01:24:05)
-
-Just one little correction to the German example in section "Aside". You use the word "Löwin" as genderless expression, but this is the female lion. Whereas "Löwinnen" is the plural of "Löwin". If you wan't to correct it, it would be "Ich sah einige Löwen" :: "Ich sag einige Löwinnen".
-
-But nevertheless thank you for sharing your insights!
-
-
-
----
-
-Daniel Hardman (2014-08-07 11:17:25)
-
-Excellent notes, David. The one about direct user input is a great use case, and a piece of cake to implement--and I think it would even be possible to take most of the burden off of the coder, because functions that receive direct user input can be painted with a mark that propagates to anything that calls them in an assignment. This makes it so the very act of calling something like sscanf() can automatically cause the variables that get set to acquire the "direct user input" mark, without the coder lifting a finger.
-
-You are right that temporal propagation is harder to implement than some of the other ones. Maybe I'll have to defer that one if it proves too challenging--although I have some ideas about how it would work, and they seem feasible in my mind. I guess we'll see when I get there. At the moment I'm still in the early stages of lexing/parsing...
-
-The whole security angle is huge, and I'm hoping someone who's got a deep background in vulnerability analysis can chime in with wisdom.
-
----
-
-David H (2014-08-07 06:35:21)
-
-The additional use cases for marks that you have described here look much more challenging to implement than the ones you gave previously. The earlier use cases could have been implemented by examining a call graph and a DOM of the compiled code. But the use cases involving temporal boundaries, wouldn't those require more sophisticated flow analysis?
-
-So, if difficulty of implementation is not to be considered at all, then I can add some more use cases to your list. :)
-
-How about marking variables that contain direct user input? Or that contain data POSTed from the internet, etc? And then have the compiler make sure that you never use untrusted input e.g. to form SQL expressions, nor pass it to an exec() function call, etc.
-
-How about marking functions that should only be performed by users with admin privileges?
-
-How about marking functions that should only execute within a security sandbox? Or, conversely, marking those functions trusted to make changes outside of the sandbox, making everything else restricted?
-
-There are probably a lot more security-related rules that, if your marks system was fully functional as you described, could finally be enforced.

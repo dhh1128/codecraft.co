@@ -4,8 +4,13 @@ date: 2012-10-16
 slug: book-review-poke-the-box
 redirect_from:
   - /2012/10/16/book-review-poke-the-box
+comments:
+  - author: golebiewski.net
+    date: 2012-10-29 11:39:08
+    comment: >
+      Hello, just wanted to say, I liked this blog post. It was practical.
+      Keep on posting!
 ---
-
 I just finished reading <a class="zem_slink" title="Seth Godin" href="http://twitter.com/thisissethsblog" target="_blank" rel="twitter">Seth Godin's</a> <em>Poke the Box</em>, and I recommend that you add it to your reading list. It's short, punchy, and thought-provoking.
 
 [youtube=http://youtu.be/6IapqgokfNU]
@@ -21,12 +26,3 @@ Yes, there are a few caveats. Some people are forever starting, but never finish
 The only critique I have is that Godin could have said the same thing in about half the space. He has lots of short anecdotes, which are fun, but he had me convinced long before I got to the end.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Go out and do something great! Now.</span></em></p>
-
-
-
----
-
-golebiewski.net (2012-10-29 11:39:08)
-
-Hello, just wanted to say, I liked this blog post. It was practical.
-Keep on posting!

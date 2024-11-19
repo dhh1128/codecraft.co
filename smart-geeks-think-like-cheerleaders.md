@@ -4,8 +4,20 @@ date: 2013-02-05
 slug: smart-geeks-think-like-cheerleaders
 redirect_from:
   - /2013/02/05/smart-geeks-think-like-cheerleaders
+comments:
+  - author: dougbert
+    date: 2013-02-05 10:10:01
+    comment: >
+      mmm, yeah, great observation. That "syncs" with me - lol
+  - author: Why Software Artisans Should Manage Their Influence &laquo; Codecraft
+    date: 2013-02-07 08:49:22
+    comment: >
+      [...] craftsmen, I see direct application of his thinking to our field. Since so much of what we do requires buy-in, coordination and shared mental models, we have to be savvy about how we communicate, advocate, and train. [...]
+  - author: God, Evolution, Systems, and Eternity &#8211; An Eye of Faith
+    date: 2018-12-07 15:49:11
+    comment: >
+      […] across large spans of time. There’s incredible interplay and feedback loops. I’ve blogged about this, more than […]
 ---
-
 <p style="text-align:right;"><span style="color:#808080;font-size:90%;">Technorati code: FMUS579NQBM8</span></p>
 Saturday I went to a high school half an hour north of our home, to watch my 16-year-old daughter compete in a cheerleading competition. And I learned something about software.
 
@@ -54,29 +66,3 @@ All of these memory lapses can be viewed as failures in system thinking. The sof
 Smart geeks think like cheerleaders!
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Create a new kind of architecture diagram that shows how </em>all<em> the parts of your system are related--not just the software components, but the people who create requirements, the sales force, the dev team, the executives, support, customers,  your CRM or ERP apps... Instead of arrows for "is-a" or "one-to-many", how about arrows for "provides moral support" and "keeps the lights on" and "frees me to concentrate on the kind of problem I like best"? How is this system compensating for minor imperfections in individual performers? How can you add to its symmetry and synchronization?</em></span></p>
-
-
-
----
-
-dougbert (2013-02-05 10:10:01)
-
-mmm, yeah, great observation. That "syncs" with me - lol
-
----
-
-Why Software Artisans Should Manage Their Influence &laquo; Codecraft (2013-02-07 08:49:22)
-
-[...] craftsmen, I see direct application of his thinking to our field. Since so much of what we do requires buy-in, coordination and shared mental models, we have to be savvy about how we communicate, advocate, and train. [...]
-
-
-
-
-
-
-
----
-
-God, Evolution, Systems, and Eternity &#8211; An Eye of Faith (2018-12-07 15:49:11)
-
-[…] across large spans of time. There’s incredible interplay and feedback loops. I’ve blogged about this, more than […]

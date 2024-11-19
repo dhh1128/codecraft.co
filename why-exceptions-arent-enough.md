@@ -4,8 +4,65 @@ date: 2012-10-09
 slug: why-exceptions-arent-enough
 redirect_from:
   - /2012/10/09/why-exceptions-arent-enough
+comments:
+  - author: Jason Ivey
+    date: 2012-10-10 01:08:24
+    comment: >
+      Daniel,
+      
+      We have talked about this subject at length in the past and I think you did a really great job on this post introducing the issues, deficiencies and a few of the minor enhancements you have discovered within the last few years.
+      
+      From a readability stand-point traditional error codes were a nightmare compared to the centralized model of exception handling.  In the C world the error handling was mixed liberally throughout the entire code.  Whereas in C++ and using exceptions correctly you will usually find a few central spots where the error handling occurs. 
+      
+      Daniel's suggestion of adding context to the rich exception would change this clean C++ exception land and we will start to find more and more try-catch blocks littering the code.  The error handling will once again begin to encroach upon the business logic of the application making a readability nightmare. 
+      
+      Don't get me wrong, I think its a great idea to add context to the exception. I just hope we can either find a more elegant way to solve the problem or ask for language help (via the standard).
+  - author: Daniel
+    date: 2012-10-10 09:04:21
+    comment: >
+      Good point about try...catch littering the code. Making error handling richer trades away some straightforwardness in the core logic. My only thought is to use "convention over configuration" to perhaps limit what you have to write. But that approach has limits; the consequences of a failure aren't something you can probably assign with smart defaults. Jason, maybe we should brainstorm an improvement to the language...
+  - author: Andy Lawrence
+    date: 2012-10-10 10:25:47
+    comment: >
+      It would be nice if languages like C++ offered a way for a function to "drop breadcrumbs" in a manner that looks a lot like code comments, are largely ignored during normal execution, and are automatically gathered up and added to the exception context during the "stack unwind" when an exception is thrown.
+      
+      Pseudocode Example:
+      
+      void BackupEverything( )
+      {
+         :) "Backing up all the data on all drives"   // Drop breadcrumb
+      
+         for( drive = 0; drive < numDrives; drive++)
+         {
+             :) "Processing Drive %d", drive   // Another breadcrumb
+      
+             for( folder = 0; folder < numFolders; folder++ )
+             {
+                 :) "Processing Folder %d", folder  // Yet another breadcrumb
+      
+                 ProcessFile( file );    // Call function that can throw exception
+             }
+          }
+      }
+      
+      The statements that start with :) are breadcrumb markers that are ignored during normal execution (other than having a way to track which breadcrumbs were encountered in the code path). If ProcessFile() throws an exception, during the stack unwind operation, any breadcrumbs passed are processed (in this case by putting the current values of the drive and folder variables into their respective breadcrumb messages) and added to the context of the thrown exception. The stack unwind operation will continue up the stack and add any breadcrumbs dropped by the caller of BackupEverything(), and its caller, etc., until it encounters a catch() statement.
+      
+      To me, this approach would be much cleaner than littering your code with try..catch statements and remembering which messages have to be added to the exception in each catch block. Later, you can add a breadcrumb anywhere in the code and only those code paths that actually crossed it (and all all code paths that crossed it) would automatically add it to any exceptions they may encounter.
+  - author: Daniel
+    date: 2012-10-10 11:26:10
+    comment: >
+      I love it, Andy. This addresses the need for context without some of the drawbacks of try...catch everywhere. How do we get ideas like this into the sights of language designers and standards committees?
+  - author: Jesse Harris
+    date: 2012-10-10 15:07:10
+    comment: >
+      Another variant of poor error trapping is what I'll call "The Hanging If". A function would check to see if a POST value was non-null. If it was, it would take that passed value and assign it to a variable. And that's it. It never defined what to do if the value was unset. (Let's not even get into the complete and total lack of validation.) I found myself wonder why a developer would go to the trouble of checking if the value was null if they didn't intend to define what to do if it was.
+      
+      And yes, this was a case where the function was receiving a null value and causing a lovely Java explosion all over the page since the rest of the program had no idea what to do if that variable was unset.
+  - author: Andy Lawrence
+    date: 2012-10-10 19:28:38
+    comment: >
+      I thought you were on two or three of those committees. :)
 ---
-
 <p style="text-align:right;"><em>(This post is a logical sequel to <a title="Good Code Plans for Problems" href="good-code-plans-for-problems.md">my earlier musings about having a coherent strategy to handle problems</a>.)</em></p>
 Back in the dark ages, programmers wrote functions that returned numeric errors:
 <pre style="border:solid 1px #ccc;background-color:#eee;margin-left:4em;padding:.5em;display:inline-block;margin-bottom:1em;">if (prepare() == SUCCESS) {
@@ -149,75 +206,3 @@ Exceptions should allow compositing. If you do old += new, you should get compos
 Have I covered all the biggies, or are there other features that you think exceptions ought to have?
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">If you use exceptions, take a few moments to study places where you are propagating through multiple layers of code without providing new context. How could you correct this?</span></em></p>
-
----
-
-Jason Ivey (2012-10-10 01:08:24)
-
-Daniel,
-
-We have talked about this subject at length in the past and I think you did a really great job on this post introducing the issues, deficiencies and a few of the minor enhancements you have discovered within the last few years.
-
-From a readability stand-point traditional error codes were a nightmare compared to the centralized model of exception handling.  In the C world the error handling was mixed liberally throughout the entire code.  Whereas in C++ and using exceptions correctly you will usually find a few central spots where the error handling occurs. 
-
-Daniel's suggestion of adding context to the rich exception would change this clean C++ exception land and we will start to find more and more try-catch blocks littering the code.  The error handling will once again begin to encroach upon the business logic of the application making a readability nightmare. 
-
-Don't get me wrong, I think its a great idea to add context to the exception. I just hope we can either find a more elegant way to solve the problem or ask for language help (via the standard).
-
----
-
-Daniel (2012-10-10 09:04:21)
-
-Good point about try...catch littering the code. Making error handling richer trades away some straightforwardness in the core logic. My only thought is to use "convention over configuration" to perhaps limit what you have to write. But that approach has limits; the consequences of a failure aren't something you can probably assign with smart defaults. Jason, maybe we should brainstorm an improvement to the language...
-
----
-
-Andy Lawrence (2012-10-10 10:25:47)
-
-It would be nice if languages like C++ offered a way for a function to "drop breadcrumbs" in a manner that looks a lot like code comments, are largely ignored during normal execution, and are automatically gathered up and added to the exception context during the "stack unwind" when an exception is thrown.
-
-Pseudocode Example:
-
-void BackupEverything( )
-{
-   :) "Backing up all the data on all drives"   // Drop breadcrumb
-
-   for( drive = 0; drive < numDrives; drive++)
-   {
-       :) "Processing Drive %d", drive   // Another breadcrumb
-
-       for( folder = 0; folder < numFolders; folder++ )
-       {
-           :) "Processing Folder %d", folder  // Yet another breadcrumb
-
-           ProcessFile( file );    // Call function that can throw exception
-       }
-    }
-}
-
-The statements that start with :) are breadcrumb markers that are ignored during normal execution (other than having a way to track which breadcrumbs were encountered in the code path). If ProcessFile() throws an exception, during the stack unwind operation, any breadcrumbs passed are processed (in this case by putting the current values of the drive and folder variables into their respective breadcrumb messages) and added to the context of the thrown exception. The stack unwind operation will continue up the stack and add any breadcrumbs dropped by the caller of BackupEverything(), and its caller, etc., until it encounters a catch() statement.
-
-To me, this approach would be much cleaner than littering your code with try..catch statements and remembering which messages have to be added to the exception in each catch block. Later, you can add a breadcrumb anywhere in the code and only those code paths that actually crossed it (and all all code paths that crossed it) would automatically add it to any exceptions they may encounter.
-
----
-
-Daniel (2012-10-10 11:26:10)
-
-I love it, Andy. This addresses the need for context without some of the drawbacks of try...catch everywhere. How do we get ideas like this into the sights of language designers and standards committees?
-
----
-
-Jesse Harris (2012-10-10 15:07:10)
-
-Another variant of poor error trapping is what I'll call "The Hanging If". A function would check to see if a POST value was non-null. If it was, it would take that passed value and assign it to a variable. And that's it. It never defined what to do if the value was unset. (Let's not even get into the complete and total lack of validation.) I found myself wonder why a developer would go to the trouble of checking if the value was null if they didn't intend to define what to do if it was.
-
-And yes, this was a case where the function was receiving a null value and causing a lovely Java explosion all over the page since the rest of the program had no idea what to do if that variable was unset.
-
----
-
-Andy Lawrence (2012-10-10 19:28:38)
-
-I thought you were on two or three of those committees. :)
-
-
-

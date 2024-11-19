@@ -4,8 +4,12 @@ date: 2012-08-28
 slug: a-quibble-with-martins-optimize-later-notion
 redirect_from:
   - /2012/08/28/a-quibble-with-martins-optimize-later-notion
+comments:
+  - author: 3 Commandments of Performance Optimization &laquo; Codecraft
+    date: 2013-01-08 09:08:25
+    comment: >
+      [...] I don’t think either of these extremes is healthy in all cases. I have seen programmers who chronically think about performance too late,  creating large refactoring burdens and sabotaging their company’s success. Sometimes when you go from “make it work” to “make it fast” you find that all your original work is a waste, because a totally different design (even different tests, conceivably) is the only way forward; I wrote about this in “A Quibble with Martin’s ‘Optimize Later’ Notion“. [...]
 ---
-
 In <a href="http://martinfowler.com/books/#refactoring" target="_blank"><em>Refactoring</em></a>, Martin Fowler (a brilliant engineer whom I greatly admire) articulates an idea that I have heard from smart engineers for a long time: <em>first make it work, then make it fast</em>. He puts it this way:
 <blockquote>"Until I profile I cannot tell how much time is needed for the loop to calculate or whether the loop is called often enough for it to affect the overall performance of the system. Don't worry about this while refactoring. When you optimize you will have to worry about it, but you will then be in a much better position to do something about it, and you will have more options to optimize effectively."</blockquote>
 I mostly agree. Certainly, premature optimization can cause lots of problems (pollute an otherwise clean design, overvalue corner cases, dilute conceptual integrity), and profiler-driven optimization (science, not black magic!) is the way to get the best results. Donald Knuth famously observed that "premature optimization is the root of all evil" -- a bit over the top, maybe, yet true often enough to give me fits.
@@ -24,11 +28,3 @@ Before you get around to optimizing, what happens if programmers go looking for 
 I have seen this happen over and over and over again. Late optimization, while smart in many cases, must be managed (communicated, commented, evangelized, trained, reinforced, audited, planned for) carefully or else it will provoke a lot of NIH and contempt from (ironically) less savvy programmers. Result: more guck that needs refactoring.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Find a notoriously sub-optimized function in your code. Study how its existence in non-optimal form has influenced how other code has evolved.</span></em></p>
-
-
-
----
-
-3 Commandments of Performance Optimization &laquo; Codecraft (2013-01-08 09:08:25)
-
-[...] I don’t think either of these extremes is healthy in all cases. I have seen programmers who chronically think about performance too late,  creating large refactoring burdens and sabotaging their company’s success. Sometimes when you go from “make it work” to “make it fast” you find that all your original work is a waste, because a totally different design (even different tests, conceivably) is the only way forward; I wrote about this in “A Quibble with Martin’s ‘Optimize Later’ Notion“. [...]

@@ -4,8 +4,59 @@ date: 2013-05-06
 slug: why-your-software-should-cry
 redirect_from:
   - /2013/05/06/why-your-software-should-cry
+comments:
+  - author: dougbert
+    date: 2013-05-06 12:53:08
+    comment: >
+      great thoughts
+  - author: Gene Hughson
+    date: 2013-05-06 19:17:17
+    comment: >
+      very interesting...I think the increasing interest in resilience is a sign of growing industry maturity.
+  - author: François Reynald
+    date: 2013-05-07 02:15:19
+    comment: >
+      What you describes already exists in Apple's UIKit framework. ViewControllers get notified by the system of low memory situations. It's the developer's responsibility to implement the didReceiveMemoryWarning method. I have copied the relevant excerpt from the class reference page below.
+      
+      didReceiveMemoryWarning
+      Sent to the view controller when the app receives a memory warning.
+      
+      - (void)didReceiveMemoryWarning
+      Discussion
+      Your app never calls this method directly. Instead, this method is called when the system determines that the amount of available memory is low.
+      
+      You can override this method to release any additional memory used by your view controller. If you do, your implementation of this method must call the super implementation at some point.
+  - author: Daniel Hardman
+    date: 2013-05-07 07:24:08
+    comment: >
+      François: Thanks for the information. I was not aware of this feature in UIKit. I'm glad Apple has added it. Do they also have a way to be notified about low disk space, or is that not considered an issue in iOS?
+      
+      Resource exhaustion is only one of many possible situations where software needs sensors. Another obvious one is connectivity problems; those plague software all the time and are poorly diagnosed and handled in most software that I've seen. There are many other sources of "pain" as well.
+  - author: Daniel Hardman
+    date: 2013-05-07 07:24:52
+    comment: >
+      Yes, I think the industry is gradually starting to "get it." I'm just impatiently trying to hurry us along. :-)
+  - author: François Reynald
+    date: 2013-05-07 07:46:59
+    comment: >
+      Daniel: That is the only notification I know of but I am not (yet) an UIKit expert. It may be because memory is such a big deal for mobile devices.
+  - author: RalfMC
+    date: 2013-05-24 14:39:07
+    comment: >
+      This is an interesting line of thought. Personally, I would generalize to conditioning pretty fast, as pain is 'just' a kind of reinforcement. Maybe take a look at classical and operant conditioning.
+      
+      Coincidentally, Bayesian statistics seem like a related subject and have indeed found their way into spam filters, for instance ("hey, this message smells like a rotten apple").
+      
+      I think one important thing to remember is that life is driven by heuristics, averages, etc. Stuff works 'most of the time' and 'in general'; however, by the time my programming gives me 95% reliable software, I will not have gained much.
+  - author: Daniel Hardman
+    date: 2013-05-24 15:41:25
+    comment: >
+      Nice connection to Bayesian statistics. I used to work on search, and hit ranking uses Bayesian models (in a subset of search products); I should have seen that link more quickly. Very good point to ponder.
+      
+      Totally agree about life being driven by heuristics.
+      
+      Thanks for the comment!
 ---
-
 The problem of pain has bothered philosophers--particularly those with a religious bent--for a long time. What might be the purpose of suffering, they've wondered, and how does it relate to the human experience?
 
 But pain barely impinges on the thinking of software engineers at all. Computers never wince, or complain, or mourn the loss of a favorite program (Marvin the paranoid android excepted). An OS runs at full speed until the instant when its kernel "panics" without warning; once you reboot, it acts as if nothing ever happened. No sniffles, no whimpers, no scabs...
@@ -67,87 +118,3 @@ What are some other ways that software might use pain to its advantage?
 I was writing recently about <a title="My First Tangle With the Tower of Babel" href="my-first-tangle-with-the-tower-of-babel.md">my adventures designing a programming language</a>. I concluded that more sugary syntax isn't really a great value to the community--but a language that allows programmers to reason about, describe, and react to various kinds of pain might do wonders for the health of the ecosystems we build.
 
 <span style="color:#000080;">What do you think? Please drop me a line</span> in the comments or through the "Contact" tab at the top. Include your ideas about pain and software, and maybe (with your permission) I can refer to them in my upcoming book about what software has to learn from living systems.
-
----
-
-Gene Hughson (2013-05-06 19:17:17)
-
-very interesting...I think the increasing interest in resilience is a sign of growing industry maturity.
-
----
-
-François Reynald (2013-05-07 07:46:59)
-
-Daniel: That is the only notification I know of but I am not (yet) an UIKit expert. It may be because memory is such a big deal for mobile devices.
-
----
-
-Daniel Hardman (2013-05-07 07:24:52)
-
-Yes, I think the industry is gradually starting to "get it." I'm just impatiently trying to hurry us along. :-)
-
----
-
-Daniel Hardman (2013-05-07 07:24:08)
-
-François: Thanks for the information. I was not aware of this feature in UIKit. I'm glad Apple has added it. Do they also have a way to be notified about low disk space, or is that not considered an issue in iOS?
-
-Resource exhaustion is only one of many possible situations where software needs sensors. Another obvious one is connectivity problems; those plague software all the time and are poorly diagnosed and handled in most software that I've seen. There are many other sources of "pain" as well.
-
----
-
-François Reynald (2013-05-07 02:15:19)
-
-What you describes already exists in Apple's UIKit framework. ViewControllers get notified by the system of low memory situations. It's the developer's responsibility to implement the didReceiveMemoryWarning method. I have copied the relevant excerpt from the class reference page below.
-
-didReceiveMemoryWarning
-Sent to the view controller when the app receives a memory warning.
-
-- (void)didReceiveMemoryWarning
-Discussion
-Your app never calls this method directly. Instead, this method is called when the system determines that the amount of available memory is low.
-
-You can override this method to release any additional memory used by your view controller. If you do, your implementation of this method must call the super implementation at some point.
-
----
-
-dougbert (2013-05-06 12:53:08)
-
-great thoughts
-
----
-
-Daniel Hardman (2013-05-24 15:41:25)
-
-Nice connection to Bayesian statistics. I used to work on search, and hit ranking uses Bayesian models (in a subset of search products); I should have seen that link more quickly. Very good point to ponder.
-
-Totally agree about life being driven by heuristics.
-
-Thanks for the comment!
-
-
-
----
-
-RalfMC (2013-05-24 14:39:07)
-
-This is an interesting line of thought. Personally, I would generalize to conditioning pretty fast, as pain is 'just' a kind of reinforcement. Maybe take a look at classical and operant conditioning.
-
-Coincidentally, Bayesian statistics seem like a related subject and have indeed found their way into spam filters, for instance ("hey, this message smells like a rotten apple").
-
-I think one important thing to remember is that life is driven by heuristics, averages, etc. Stuff works 'most of the time' and 'in general'; however, by the time my programming gives me 95% reliable software, I will not have gained much.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -4,8 +4,12 @@ date: 2008-09-10
 slug: what-is-a-software-architect
 redirect_from:
   - /2008/09/10/what-is-a-software-architect
+comments:
+  - author: What a Software Architect is NOT &laquo; Software, Wetware, Webware
+    date: 2012-06-26 09:04:23
+    comment: >
+      [...] another post, I defined the role of a software architect. This post points out some duties that are not [...]
 ---
-
 When people ask me what I do for a living, I usually say I'm a computer guy and leave it there. But if they want more detail, I tell them I'm a software architect. When I give that answer, I often wonder if I sound pretentious, like those who say "sanitation engineer" instead of "garbage man." Do those who ask the question think a "software architect" is just a fancy way of saying "computer programmer?"
 
 Well, although I am a programmer of sorts, what I do is different enough from standard computer programming to require a different name.
@@ -35,9 +39,3 @@ The duties of a software architect include:
 Of these duties, items 1, 2, and 3 sometimes get lost or watered down if an aitect is just a senior engineer. In that sort of environment, PM may convey a vision to dev without involving architects. As a result, the team has conversations about feasibility or cost of implementing, but rarely if ever about whether a requirement is a good idea in the first place. Whether a requirement is a good idea is more than just a question of whether customers want it, whether it can generate revenue, and whether it can be built -- it also must take into account things like technical opportunity cost, long-term baggage, effect on the expertise and focus of the engineers who will build it, technical differentiation, and so forth.
 
 It also might be worth highlighting <a href="what-a-software-architect-is-not.md">some things that I *don't* consider part of an architect's job</a>, for the sake of clarity. I'll do that in a separate post.
-
----
-
-What a Software Architect is NOT &laquo; Software, Wetware, Webware (2012-06-26 09:04:23)
-
-[...] another post, I defined the role of a software architect. This post points out some duties that are not [...]

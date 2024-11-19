@@ -4,8 +4,39 @@ date: 2013-01-11
 slug: dont-forget-the-circuit-breakers
 redirect_from:
   - /2013/01/11/dont-forget-the-circuit-breakers
+comments:
+  - author: Rob Stutton
+    date: 2013-01-11 18:25:47
+    comment: >
+      I'm loving coding a fat client UI in JavaScript - and learning to worry less about comms errors; I never change my state unless the call succeeds and just report any failures to the user with no retries or logging. Since all I/O is tied directly to user actions, they are free to retry whatever they did ... it's very relaxing :-)
+  - author: Daniel Hardman
+    date: 2013-01-11 19:09:02
+    comment: >
+      Interesting. I hadn't considered the benefits of running inside a robust and well implemented browser--but you've certainly put your finger on one of them. +1 for not solving problems when you don't have to!
+  - author: Don
+    date: 2013-01-13 06:42:43
+    comment: >
+      I call this subject, defensive architecture. Its common to write code within an architecture and design based upon a story working. In architecture I think that there is an opportunity to use "circuit breaker" techniques but I also think there is an opportunity to build in sensors and diagnostics that can run inline or better yet in "white space". 
+      Enterprise code should be written with sensors that pass information to another system whose purpose it is to monitor performance, stability and analyze potential failure. This system could also decide on routing the code another way in case of failure. In this case the routing switches would replace circuit breakers and the "service" essentially reroutes around a failure or poorly functioning element......
+      Bottom line is that we have lots of sensors in most hardware, few in software ....
+      I see this need for monitoring from within code becoming more critical as the use of open source increases and enterprises provision their code inside the likes of AWS. I bet that Netflix would agree with this notion after the holiday fiasco .......
+  - author: Daniel Hardman
+    date: 2013-01-13 15:05:00
+    comment: >
+      Don: Your background with hardware gives you a valuable angle on this that those of us who are pure software folks miss. Thanks for chiming in. I agree with your prediction about this becoming more and more important as software gets more complex. In fact, I've been meaning for quite a while to write a post about how living systems (in biology) profit from the ability that all living things share, to react to stimuli. Your observation about sensors points to the same truth.
+  - author: LisaAn
+    date: 2013-01-13 16:40:32
+    comment: >
+      I have often found it interesting that over half the code is devoted to checking for error conditions and dealing with errors but we don't often test error conditions but the "golden path" instead. Perhaps the "circuit breaker" would push us to test errors more often.
+  - author: Daniel Hardman
+    date: 2013-01-13 19:28:59
+    comment: >
+      One of my favorite job interview questions (for potential dev or QA hires) is to ask someone how they'd test a simple program. Some people stare at me blankly. Some just regurgitate the golden path. The ones I like to hire are the ones that immediately reel off half a dozen ways that they could imagine the code being broken. That kind of thinker is not only better at writing error-resistant code and better at writing comprehensive tests, but is also more creative and fun to work with overall.
+  - author: Architects: manage risk like a Vegas bookie &laquo; Codecraft
+    date: 2013-02-21 09:31:31
+    comment: >
+      [...] Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about circuit breakers.) [...]
 ---
-
 Recently I've been pondering an interesting book called <a href="http://pragprog.com/book/mnee/release-it"><em>Release It!</em>, by Michael Nygard</a>. It's full of anecdotes from someone who has spent a major portion of his career troubleshooting high-profile crashes of some of the most complex production <a class="zem_slink" title="Software system" href="http://en.wikipedia.org/wiki/Software_system" target="_blank" rel="wikipedia">software systems</a> in the world--airline reservations, financial institutions, leading online retailers, and so forth.
 
 <figure><img class="zemanta-img-inserted" title="circuit breaker" alt="circuit breaker" src="http://uad.wikimedia.org/wikipedia/commons/f/fd/Jtecul.jpg" width="238" height="295" /><figcaption>A circuit breaker. Photo credit: Wikimedia Commons.</figcaption></figure>
@@ -29,63 +60,3 @@ If biology isn't your thing, what about finances? Remember the cascading failure
 We need software built with this same "expect failure and plan to handle it" mindset.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Next time you are designing an interaction with an external component or subsystem, consider implementing a circuit breaker to make the interaction less fragile and more prone to auto-balancing.</span></em></p>
-
-
-
----
-
-Architects: manage risk like a Vegas bookie &laquo; Codecraft (2013-02-21 09:31:31)
-
-[...] Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about circuit breakers.) [...]
-
-
-
----
-
-Rob Stutton (2013-01-11 18:25:47)
-
-I'm loving coding a fat client UI in JavaScript - and learning to worry less about comms errors; I never change my state unless the call succeeds and just report any failures to the user with no retries or logging. Since all I/O is tied directly to user actions, they are free to retry whatever they did ... it's very relaxing :-)
-
----
-
-Don (2013-01-13 06:42:43)
-
-I call this subject, defensive architecture. Its common to write code within an architecture and design based upon a story working. In architecture I think that there is an opportunity to use "circuit breaker" techniques but I also think there is an opportunity to build in sensors and diagnostics that can run inline or better yet in "white space". 
-Enterprise code should be written with sensors that pass information to another system whose purpose it is to monitor performance, stability and analyze potential failure. This system could also decide on routing the code another way in case of failure. In this case the routing switches would replace circuit breakers and the "service" essentially reroutes around a failure or poorly functioning element......
-Bottom line is that we have lots of sensors in most hardware, few in software ....
-I see this need for monitoring from within code becoming more critical as the use of open source increases and enterprises provision their code inside the likes of AWS. I bet that Netflix would agree with this notion after the holiday fiasco .......
-
----
-
-Daniel Hardman (2013-01-13 15:05:00)
-
-Don: Your background with hardware gives you a valuable angle on this that those of us who are pure software folks miss. Thanks for chiming in. I agree with your prediction about this becoming more and more important as software gets more complex. In fact, I've been meaning for quite a while to write a post about how living systems (in biology) profit from the ability that all living things share, to react to stimuli. Your observation about sensors points to the same truth.
-
----
-
-Daniel Hardman (2013-01-11 19:09:02)
-
-Interesting. I hadn't considered the benefits of running inside a robust and well implemented browser--but you've certainly put your finger on one of them. +1 for not solving problems when you don't have to!
-
----
-
-LisaAn (2013-01-13 16:40:32)
-
-I have often found it interesting that over half the code is devoted to checking for error conditions and dealing with errors but we don't often test error conditions but the "golden path" instead. Perhaps the "circuit breaker" would push us to test errors more often.
-
----
-
-Daniel Hardman (2013-01-13 19:28:59)
-
-One of my favorite job interview questions (for potential dev or QA hires) is to ask someone how they'd test a simple program. Some people stare at me blankly. Some just regurgitate the golden path. The ones I like to hire are the ones that immediately reel off half a dozen ways that they could imagine the code being broken. That kind of thinker is not only better at writing error-resistant code and better at writing comprehensive tests, but is also more creative and fun to work with overall.
-
-
-
-
-
-
-
-
-
-
-

@@ -4,8 +4,44 @@ date: 2012-09-14
 slug: don-kleinschnitz-stake
 redirect_from:
   - /2012/09/14/don-kleinschnitz-stake
+comments:
+  - author: Steve Tolman
+    date: 2012-09-14 18:47:07
+    comment: >
+      Oh the memories!  I think you correctly described Don's ability to *enthusiastically* put a stake in the ground, but you are a little short in describing the amount of pain that caused, even after we were accustomed to this behavior.  I agree that it did wonders for our ability to make decisions, but it also yanked us through multiple knotholes on the way.  Looking back, I think they were necessary knotholes because we learned how to do multiple things.
+      1. We learned to deal with the discomfort of guessing and actually became quite good at using the available tools to sort through the uncertainty
+      2. We stopped fearing the unknown and became fearless at working through it all
+      3. We learned to apply this kind of thinking throughout the organization - at all levels
+      4. We became extremely effective and efficient at nailing what the customer wanted (although it took a while to work through the learning curve) - it allowed our engineering teams and our product management teams to learn to work together so much better
+      5. We were able to modify multiple processes to accommodate this approach - something our sister sites never could figure out
+  - author: Daniel
+    date: 2012-09-14 19:27:57
+    comment: >
+      Your point about pain is well taken. Putting a stake in the ground sometimes hurts. It can be disruptive. You should do it when you calculate that it's a net win--not thoughtlessly. Although this particular principle was an obvious part of Don's style, I also saw him be thoughtful and deliberative on many occasions. That's a better choice if the human stakes are high and the pay-off for quick momentum is not especially compelling.
+      
+      I should probably add another caveat to my inaugural post about role models, admitting that none of the principles I want to highlight are <em>always</em> the right answer. Smart tradeoffs -- balance -- that's the eternal dance. Or, to borrow a phrase from another mentor I admire (you know who you are, but I won't let you remain anonymous forever... :-) -- "It depends." :-)
+  - author: Don
+    date: 2012-09-15 10:05:24
+    comment: >
+      You guys were on a team that in my career of 30+ years exceeded the performance of any team that I worked on before or after. 75 revolutionary features in one release is what rings in my ears as a benchmark that has yet to be beaten.
+      The more I learn about the craft of NPD the more I realize and we prove that at its foundation is learning and adaptability.
+      Most legacy NPD systems are based on "planning-do-act" kind of thinking. This assumes that NPD is a deterministic environment. ITS NOT!
+      The alternate is an adaptive system which operates on shortest possible start-work-failure-correct cycles .... like any adaptive control system would.
+      In an uncertain environment everyone especially us engineers seek precision but that will come only with learning cycles. So the STAKE starts the learning cycle....:)
+      Yes, change is always painfull, uncertainty is painful, but the eventual success and the excitement and fun of innovative engineering can make it worth it!
+  - author: Daniel
+    date: 2012-10-05 07:02:44
+    comment: >
+      Don: just came across a post from Seth Godin that teaches this same principle in a slightly different way: http://sethgodin.typepad.com/seths_blog/2012/10/waiting-for-all-the-facts.html
+  - author: Baby Steps &laquo; Codecraft
+    date: 2012-10-24 20:15:11
+    comment: >
+      [...] You might also think that baby steps are a repeat of my advice to put a stake in the ground. [...]
+  - author: Interrupting my interruptions &laquo; Codecraft
+    date: 2013-01-24 11:48:51
+    comment: >
+      [...] (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts are part of learning [...]
 ---
-
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
 My huddle was not going well. I'd called a meeting to debate a tricky architectural problem with other senior engineers, and consensus was scarcer than working markers for our whiteboard. We were going round and round in circles.
 
@@ -60,51 +96,3 @@ I could go on and on about how Don lives this principle, but you get the idea: p
 Thanks for the lesson, Don.
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>
 <p style="padding-left:30px;"><span style="color:#000080;"><em>Consider a current (or past) design decision that's been difficult to make. How could you make the decision easier by guessing about the likelihood of a use case, the preference of a user, or other aspects of context? If you got the answer wrong, how soon would you be likely to discover your mistake, and how expensive would it be to adjust your trajectory?</em></span></p>
-
----
-
-Steve Tolman (2012-09-14 18:47:07)
-
-Oh the memories!  I think you correctly described Don's ability to *enthusiastically* put a stake in the ground, but you are a little short in describing the amount of pain that caused, even after we were accustomed to this behavior.  I agree that it did wonders for our ability to make decisions, but it also yanked us through multiple knotholes on the way.  Looking back, I think they were necessary knotholes because we learned how to do multiple things.
-1. We learned to deal with the discomfort of guessing and actually became quite good at using the available tools to sort through the uncertainty
-2. We stopped fearing the unknown and became fearless at working through it all
-3. We learned to apply this kind of thinking throughout the organization - at all levels
-4. We became extremely effective and efficient at nailing what the customer wanted (although it took a while to work through the learning curve) - it allowed our engineering teams and our product management teams to learn to work together so much better
-5. We were able to modify multiple processes to accommodate this approach - something our sister sites never could figure out
-
----
-
-Daniel (2012-09-14 19:27:57)
-
-Your point about pain is well taken. Putting a stake in the ground sometimes hurts. It can be disruptive. You should do it when you calculate that it's a net win--not thoughtlessly. Although this particular principle was an obvious part of Don's style, I also saw him be thoughtful and deliberative on many occasions. That's a better choice if the human stakes are high and the pay-off for quick momentum is not especially compelling.
-
-I should probably add another caveat to my inaugural post about role models, admitting that none of the principles I want to highlight are <em>always</em> the right answer. Smart tradeoffs -- balance -- that's the eternal dance. Or, to borrow a phrase from another mentor I admire (you know who you are, but I won't let you remain anonymous forever... :-) -- "It depends." :-)
-
----
-
-Don (2012-09-15 10:05:24)
-
-You guys were on a team that in my career of 30+ years exceeded the performance of any team that I worked on before or after. 75 revolutionary features in one release is what rings in my ears as a benchmark that has yet to be beaten.
-The more I learn about the craft of NPD the more I realize and we prove that at its foundation is learning and adaptability.
-Most legacy NPD systems are based on "planning-do-act" kind of thinking. This assumes that NPD is a deterministic environment. ITS NOT!
-The alternate is an adaptive system which operates on shortest possible start-work-failure-correct cycles .... like any adaptive control system would.
-In an uncertain environment everyone especially us engineers seek precision but that will come only with learning cycles. So the STAKE starts the learning cycle....:)
-Yes, change is always painfull, uncertainty is painful, but the eventual success and the excitement and fun of innovative engineering can make it worth it!
-
----
-
-Baby Steps &laquo; Codecraft (2012-10-24 20:15:11)
-
-[...] You might also think that baby steps are a repeat of my advice to put a stake in the ground. [...]
-
----
-
-Daniel (2012-10-05 07:02:44)
-
-Don: just came across a post from Seth Godin that teaches this same principle in a slightly different way: http://sethgodin.typepad.com/seths_blog/2012/10/waiting-for-all-the-facts.html
-
----
-
-Interrupting my interruptions &laquo; Codecraft (2013-01-24 11:48:51)
-
-[...] (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts are part of learning [...]

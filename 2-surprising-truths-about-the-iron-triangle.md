@@ -4,8 +4,75 @@ date: 2013-07-01
 slug: 2-surprising-truths-about-the-iron-triangle
 redirect_from:
   - /2013/07/01/2-surprising-truths-about-the-iron-triangle
+comments:
+  - author: Don
+    date: 2013-07-02 07:01:22
+    comment: >
+      You struck a cord :)
+      I have been using the iron triangle with teams for years successfully and I think it works but there are alot of misconceptions about its use in management especially as it relates to quality (Q).
+      
+      In fact some agile seekers look for speed from agile and I think speed is not the main focus, cadence, velocity and value is.  Optimizing the area under the time and value curve is the management challenge.
+      
+      The core idea is to deliver the most valuable payload in each increment for the capacity that the team has been given. The increments timing is based on the minimal impactful payload delivered at an estimated velocity and capacity. My experience is that in most cases it is better to deliver a small valuable payload on time than a killer payload late. My experience also is that teams are late because they do not have the capacity to perform the planned work within the time envelope when all unknows ar finially realized. That is why you start with a balanced triangle and keep it that way, sprint to sprint until you deliver. When the triangle balance is communicated transparently it allows management to participate in making critical decisions, like to add resources or to change the arrival time vs loosing function. It also drives an appreciation for what the development team is facing when unknowns arrive.
+      
+      Now Quality? This has bothered me for some time in that I always assumed that Q, the center of the triangle was held constant but that seemed more thoretical than practice. The key to adding Q into the equation lies in the KANO model. It outlines NPD quality (which is different than the quality that manufacturing provides) in three dimensions BASIC-STANDARD-EXCITING.
+      The constant part is "BASIC" and that cannot be traded off. When you ship below BASIC, customers stop buying and talking with you. The core design process must have artifacts that get to BASIC within the iron triangle constraints. That means there is standard work on every backlog that defines BASIC Q and BASIC Q eclipses all other tradeoffs. Now it gets complex (as NPD is). The remaining two dimensions (standard and exciting) can be traded for each other. They are chosen based on the competitions function (standard) and functions that eclipse the competition (exciting). Explaining these tradeoffos would require alot of posting realestate so I will stop here. Suffice it to say that that the balance of STANDARD + EXCITING while not trading off BASIC is the key to a balanced release using the triangle.
+      
+      Lastly how do you plan and communicate this balance. The secret is "DONENESS". In agile DONENESS=Q! Part of every releases plan should include identifying DONENESS. This is where BASIC and any other "you arent done until this is done" criterea is documented. When you add these to the backog of STANDARD and EXCITING tradeoffs you have the release plan and the "TOTALLY DONE" criterea. This is the intersection of NPD-Q and the triangle.
+  - author: Daniel Hardman
+    date: 2013-07-02 09:02:20
+    comment: >
+      Don: Thanks for a meaty response. I had not heard of KANO before, so your comments led me to some interesting study. I really like distinguishing between BASIC, STANDARD, and EXCITING. This makes explicit a set of tradeoffs that I've usually seen being managed entirely by intuition.
+      
+      When are we going to see a book with all your accumulated wisdom? :-)
+  - author: Gene Hughson
+    date: 2013-07-02 10:48:36
+    comment: >
+      Dan,
+      
+      Excellent analogy re: the codebase is like a doctor's patient.  One of the best reasons for managing technical debt is to avoid the situation where the patient is too fragile to withstand the surgery it needs to live.
+      
+      Great post.
+  - author: Daniel Hardman
+    date: 2013-07-02 14:56:36
+    comment: >
+      Good connection, Gene. I heard someone yesterday try to define "technical debt" primarily in terms of unimplemented features. I think that's too narrow. No matter how complete the feature matrix, you're in debt if your codebase is unhealthy.
+  - author: Gene Hughson
+    date: 2013-07-03 10:14:13
+    comment: >
+      I agree...in fact, in one of my posts I've discussed platform rot (e.g. not keeping up with .Net, OS, and SQL Server versions) as an example of technical debt.  Sometimes debt is justified to reach a goal, but if it's not managed, chances are it will come back to haunt you.
+  - author: PM Hut
+    date: 2013-07-05 09:13:36
+    comment: >
+      Hi Daniel,
+      
+      The iron triangle has been proclaimed dead years ago. See: http://www.pmhut.com/the-death-of-the-project-management-triangle
+      
+      It was killed by PMBOK 4.
+  - author: Daniel Hardman
+    date: 2013-07-05 22:44:12
+    comment: >
+      Interesting. I knew that there were many competing theories, but not that the discipline believes it is "dead." I still think it's a useful source of insight.
+      
+      Thanks for the link to the blog post; very helpful.
+  - author: donkleinschnitz
+    date: 2013-07-06 07:37:27
+    comment: >
+      Sorry but I don't buy this death ...... I would also like to know what practical tool replaced it? I have witnessed the improper use of this tool and in fact the link provided to the PMI and the comments and dialog seem to prove such. For example, this is not a strategic planning tool it is a tool that is used to adjust sprint payloads based on a teams velocity as it works down a backlog. Its the only "reality check" in the agile process.
+      
+      Perhaps the problem is in the missuse of this tool and that is its application as a project management tool, which it is not. This tool is used by architects, product owners and designers to make design tradeoffs based on balancing work capacity, function and time. I can't imagine how a scrum team rationally adjusts its payload without such a tool used at each increment review.
+      
+      Is it the old way of just hoping that there is enough capacity or guessing what is needed to deliver some content on some optomistic date, then punishing developers when things didn't happen like project management imagined. How about we return to time carding and track every move a software developer makes to see how productive she is ...... then there is PERT planning, we could return to critical path planning and relearn that in NPD everything is new and uncertain and underfunded and changing ...... and....
+      
+      I would like to see some clarity around what has replaced the triangle, in the mean time I wll continue to coach my 300 scrum teams on its use?
+  - author: dougbert
+    date: 2013-07-22 13:08:15
+    comment: >
+      great insight, and codebases do have a health metric - bad or good.
+      We are the "doctors" who work to better that metric - or do something else when things look bad
+      
+      dougbert
 ---
-
 Project management 101 teaches that, when managing outcomes, you cannot alter scope, schedule, or cost (resources) without affecting at least one of the other dimensions. This interrelationship is known colloquially as the "Iron Triangle." Sometimes we put "quality" in the middle to show how it is unavoidably shaped by choices on the other constraints:
 
 <figure><img src="http://upload.wikimedia.org/wikipedia/commons/a/a6/The_triad_constraints.jpg" width="429" height="313" /><figcaption>Image credit: John M. Kennedy T (Wikimedia Commons)</figcaption></figure>
@@ -83,89 +150,3 @@ Within those limits, though, it's amazing what quality can do for you.
 In order to pursue this strategy, you have to get management to take their foot off the gas pedal and let you build things right. That can be a difficult (maybe even impossible) task. I'm not claiming it's easy. I'm not offering a recipe to convince them (though <a title="Roland Whatcott: Manage momentum." href="roland-whatcott-manage-momentum">momentum</a> will probably be an ingredient). I'm just saying it's worth the effort, because there is a happy land on the other side of the rainbow where you get better and faster at the same time.
 
 I've been there.
-
-
----
-
-dougbert (2013-07-22 13:08:15)
-
-great insight, and codebases do have a health metric - bad or good.
-We are the "doctors" who work to better that metric - or do something else when things look bad
-
-dougbert
-
----
-
-Gene Hughson (2013-07-02 10:48:36)
-
-Dan,
-
-Excellent analogy re: the codebase is like a doctor's patient.  One of the best reasons for managing technical debt is to avoid the situation where the patient is too fragile to withstand the surgery it needs to live.
-
-Great post.
-
----
-
-Daniel Hardman (2013-07-02 09:02:20)
-
-Don: Thanks for a meaty response. I had not heard of KANO before, so your comments led me to some interesting study. I really like distinguishing between BASIC, STANDARD, and EXCITING. This makes explicit a set of tradeoffs that I've usually seen being managed entirely by intuition.
-
-When are we going to see a book with all your accumulated wisdom? :-)
-
----
-
-Don (2013-07-02 07:01:22)
-
-You struck a cord :)
-I have been using the iron triangle with teams for years successfully and I think it works but there are alot of misconceptions about its use in management especially as it relates to quality (Q).
-
-In fact some agile seekers look for speed from agile and I think speed is not the main focus, cadence, velocity and value is.  Optimizing the area under the time and value curve is the management challenge.
-
-The core idea is to deliver the most valuable payload in each increment for the capacity that the team has been given. The increments timing is based on the minimal impactful payload delivered at an estimated velocity and capacity. My experience is that in most cases it is better to deliver a small valuable payload on time than a killer payload late. My experience also is that teams are late because they do not have the capacity to perform the planned work within the time envelope when all unknows ar finially realized. That is why you start with a balanced triangle and keep it that way, sprint to sprint until you deliver. When the triangle balance is communicated transparently it allows management to participate in making critical decisions, like to add resources or to change the arrival time vs loosing function. It also drives an appreciation for what the development team is facing when unknowns arrive.
-
-Now Quality? This has bothered me for some time in that I always assumed that Q, the center of the triangle was held constant but that seemed more thoretical than practice. The key to adding Q into the equation lies in the KANO model. It outlines NPD quality (which is different than the quality that manufacturing provides) in three dimensions BASIC-STANDARD-EXCITING.
-The constant part is "BASIC" and that cannot be traded off. When you ship below BASIC, customers stop buying and talking with you. The core design process must have artifacts that get to BASIC within the iron triangle constraints. That means there is standard work on every backlog that defines BASIC Q and BASIC Q eclipses all other tradeoffs. Now it gets complex (as NPD is). The remaining two dimensions (standard and exciting) can be traded for each other. They are chosen based on the competitions function (standard) and functions that eclipse the competition (exciting). Explaining these tradeoffos would require alot of posting realestate so I will stop here. Suffice it to say that that the balance of STANDARD + EXCITING while not trading off BASIC is the key to a balanced release using the triangle.
-
-Lastly how do you plan and communicate this balance. The secret is "DONENESS". In agile DONENESS=Q! Part of every releases plan should include identifying DONENESS. This is where BASIC and any other "you arent done until this is done" criterea is documented. When you add these to the backog of STANDARD and EXCITING tradeoffs you have the release plan and the "TOTALLY DONE" criterea. This is the intersection of NPD-Q and the triangle.
-
----
-
-Gene Hughson (2013-07-03 10:14:13)
-
-I agree...in fact, in one of my posts I've discussed platform rot (e.g. not keeping up with .Net, OS, and SQL Server versions) as an example of technical debt.  Sometimes debt is justified to reach a goal, but if it's not managed, chances are it will come back to haunt you.
-
----
-
-Daniel Hardman (2013-07-02 14:56:36)
-
-Good connection, Gene. I heard someone yesterday try to define "technical debt" primarily in terms of unimplemented features. I think that's too narrow. No matter how complete the feature matrix, you're in debt if your codebase is unhealthy.
-
----
-
-donkleinschnitz (2013-07-06 07:37:27)
-
-Sorry but I don't buy this death ...... I would also like to know what practical tool replaced it? I have witnessed the improper use of this tool and in fact the link provided to the PMI and the comments and dialog seem to prove such. For example, this is not a strategic planning tool it is a tool that is used to adjust sprint payloads based on a teams velocity as it works down a backlog. Its the only "reality check" in the agile process.
-
-Perhaps the problem is in the missuse of this tool and that is its application as a project management tool, which it is not. This tool is used by architects, product owners and designers to make design tradeoffs based on balancing work capacity, function and time. I can't imagine how a scrum team rationally adjusts its payload without such a tool used at each increment review.
-
-Is it the old way of just hoping that there is enough capacity or guessing what is needed to deliver some content on some optomistic date, then punishing developers when things didn't happen like project management imagined. How about we return to time carding and track every move a software developer makes to see how productive she is ...... then there is PERT planning, we could return to critical path planning and relearn that in NPD everything is new and uncertain and underfunded and changing ...... and....
-
-I would like to see some clarity around what has replaced the triangle, in the mean time I wll continue to coach my 300 scrum teams on its use?
-
----
-
-PM Hut (2013-07-05 09:13:36)
-
-Hi Daniel,
-
-The iron triangle has been proclaimed dead years ago. See: http://www.pmhut.com/the-death-of-the-project-management-triangle
-
-It was killed by PMBOK 4.
-
----
-
-Daniel Hardman (2013-07-05 22:44:12)
-
-Interesting. I knew that there were many competing theories, but not that the discipline believes it is "dead." I still think it's a useful source of insight.
-
-Thanks for the link to the blog post; very helpful.
