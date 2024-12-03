@@ -26,15 +26,13 @@ I used to think that the "Objective" section of a résumé was fluff &mdash; a p
 <blockquote><strong>Objective</strong>: Craft high-quality, enterprise software in an environment where I can make significant contributions to the bottom line of a growing company.</blockquote>
 Blah, blah, blah.
 
-Theoretically, this stuff helps you get jobs, but as someone who writes a lot, my drivel-o-meter pegs at such verbiage. Usually, it means about as much as the <a href="http://projects.wsj.com/buzzwords2014/" target="_blank">Business Buzzwords Generator recently posted by the Wall Street Journal</a>.
+Theoretically, this stuff helps you get jobs, but as someone who writes a lot, my drivel-o-meter pegs at such verbiage. Usually, it means about as much as random business buzz word generators ([1](https://www.atrixnet.com/bs-generator.html), [2](https://sweary.com/business-buzzword-generator/)).
 
-<figure><img class="" src="https://farm8.staticflickr.com/7256/6922749580_c17ac1b67d.jpg" alt="" width="500" height="411" /><figcaption>image credit: David Blackwell (Flickr)</figcaption></figure>
+<figure><img src="assets/boring-business.jpg" /><figcaption>image credit: Midjourney</figcaption></figure>
 
 But it doesn't have to be that way.
 
 Your objectives ought to matter.
-
-
 
 Last year, I spent a lot of time pondering what makes me tick, as an engineer, an employee, and a company leader. A lot of it grew out of <a title="Why" href="why.md">my exposure</a> to Simon Sinek's TED talk, <a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en" target="_blank">"Start with Why"</a>, and my readings in <em>Conscious Capitalism</em>. (Shoutout to <a href="http://dld.me" target="_blank">@trev_harmon</a> for a fountain of interesting ideas, and generous discussions about them.)
 
