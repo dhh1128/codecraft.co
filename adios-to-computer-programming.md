@@ -22,7 +22,7 @@ But I think there's something deeper.
 
 The set of things besides traditional computers that need to be programmed is growing by leaps and bounds: TV remotes, holiday light displays, e-readers, smartphones and tablets, <a class="zem_slink" title="Arduino" href="http://arduino.cc" target="_blank" rel="homepage">Arduino</a> boards, fuel injectors, point-of-sale terminals, MRI machines, 3D printers, LEGO MindStorm robots, networks (software-defined networking / <a title="Software-defined networking" href="http://en.wikipedia.org/wiki/Software-defined_networking" target="_blank" rel="wikipedia">SDN</a>), storage (<a title="Software defined storage" href="http://en.wikipedia.org/wiki/Software_defined_storage" target="_blank" rel="wikipedia">software-defined storage</a> / SDS), nanobots, social networks, clouds...
 
-<figure><img alt="" src="http://farm1.staticflickr.com/229/484826733_713c781d55.jpg" width="432" height="288" /><figcaption>Nanobots replicating in a petri dish. Is it fair to say we "program" nanobots? Photo credit: PhOtOnQuAnTiQuE (Flickr)</figcaption></figure>
+<figure><img src="assets/nanobots.jpg" /><figcaption>Nanobots on a circuit board. Is it fair to say we "program" nanobots? Image credit: Midjourney</figcaption></figure>
 
 "Right," I hear you say. "That's why I like the term <em>software engineering</em>. Wherever you see programming, it's software that's in play. And engineering implies a more sophisticated approach than mere hackish programming."
 

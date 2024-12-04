@@ -116,7 +116,7 @@ I'm glad newly minted software engineers are exposed to data structures, compile
 
 But it's not enough.
 
-<figure><img alt="" src="http://farm4.staticflickr.com/3439/3722413559_c3837314a2.jpg" width="500" height="291" /><figcaption>Not all classroom material for CS folks should be technical. Photo credit: uniinnsbruck (Flickr).</figcaption></figure>
+<figure><img src="assets/cs-lecture.jpg" /><figcaption>Not all classroom material for CS folks should be technical. Image credit: Midjourney.</figcaption></figure>
 
 Since I'm half way to curmudgeon-hood, I frequently find myself lamenting educational blindspots in the young. I've even toyed with the idea of teaching at the nearest university, some day when I Have More Time™. If academia would take me, my lesson plans might cover some of the following topics:
 <ul>
