@@ -33,14 +33,6 @@ comments:
     date: 2013-03-08 18:30:28
     comment: |
       I find it interesting how "fail faster" is good advice for a program (I'm thinking of preconditions), and also for people... :-)
-  - author: Continually Educate Yourself - Lincoln Daily Management
-    date: 2013-07-08 19:18:33
-    comment: |
-      […] “Are You Losing Enough Battles?” by Daniel Hardman for more on George […]
-  - author: Lincoln Used Continuing Education to Win the War - Lincoln Daily Management
-    date: 2013-07-18 06:02:00
-    comment: |
-      […] “Are You Losing Enough Battles?” by Daniel Hardman for more on George […]
 ---
 <figure><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG/320px-George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG" width="320" height="240" /><figcaption>Portrait of McClellan. Image credit: Wikimedia Commons.</figcaption></figure>
 
@@ -54,7 +46,7 @@ Thomas Edison tried 1000 times to invent a light bulb before he succeeded. Why d
 
 If you don't lose the occasional battle, you will never win the war.
 
-Losing an occasional battle keeps us <a title="Humility" href="users-arent-the-only-people-in-your-software.md" target="_blank">the needs of other people</a>.
+Losing an occasional battle keeps us empathetic and <a title="Humility" href="users-arent-the-only-people-in-your-software.md" target="_blank">humble</a> with respect to the needs of other people</a>.
 
 Go try. A lost battle of the sort we fight with software is never an Antietam or Gettysburg.
 
