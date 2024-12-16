@@ -53,7 +53,7 @@ He is free.
 
 I've been blogging about the skills and mindset of effective software architects for quite a while now, but I recently realized that I've omitted the fundamental subject of courage.
 
-<figure><img alt="" src="https://farm4.staticflickr.com/3134/2888919972_b79a8432ff_z.jpg?zz=1" width="500" height="332" /><figcaption>image credit: nalsa (Flickr)</figcaption></figure>
+<figure><img src="assets/courage.jpg" /><figcaption>image credit: Midjourney</figcaption></figure>
 
 This is an important gap, because <em>courage counts</em>. The cleverest, most skilled architect or engineer will accomplish very little, at key junctures in a career, without it.
 
