@@ -39,7 +39,7 @@ comments:
 ---
 Recently I've been pondering an interesting book called <a href="http://pragprog.com/book/mnee/release-it"><em>Release It!</em>, by Michael Nygard</a>. It's full of anecdotes from someone who has spent a major portion of his career troubleshooting high-profile crashes of some of the most complex production <a class="zem_slink" title="Software system" href="http://en.wikipedia.org/wiki/Software_system" target="_blank" rel="wikipedia">software systems</a> in the world &mdash; airline reservations, financial institutions, leading online retailers, and so forth.
 
-<figure><img class="zemanta-img-inserted" title="circuit breaker" alt="circuit breaker" src="http://uad.wikimedia.org/wikipedia/commons/f/fd/Jtecul.jpg" width="238" height="295" /><figcaption>A circuit breaker. Photo credit: Wikimedia Commons.</figcaption></figure>
+<figure><img src="assets/circuit-breaker.jpg" /><figcaption>A circuit breaker. Image credit: Midjourney</figcaption></figure>
 
 One <a class="zem_slink" title="Design pattern (computer science)" href="good-code-plans-for-problems.md">good code plans for problems</a>.
 

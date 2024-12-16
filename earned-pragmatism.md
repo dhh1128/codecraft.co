@@ -50,14 +50,17 @@ comments:
       
       http://en.wikipedia.org/wiki/Doctrine_of_the_Golden_Mean
 ---
-<a href="http://alistair.cockburn.us/Oath+of+Non-Allegiance"><img class="alignright" alt="" src="http://alistair.cockburn.us/get/3037" width="154" height="179" /></a>The other day I was on <a href="http://genehughson.wordpress.com/" target="_blank">Gene Hughson's blog</a> (he's a smart guy, btw; I recommend a visit), and I noticed a badge that said that he had signed "The Oath of Non-Allegiance."
+<a href="http://alistair.cockburn.us/Oath+of+Non-Allegiance"><img src="assets/oath.jpg" /></a>
+
+The other day I was on <a href="http://genehughson.wordpress.com/" target="_blank">Gene Hughson's blog</a> (he's a smart guy, btw; I recommend a visit), and I noticed a badge that said that he had signed "The Oath of Non-Allegiance."
 
 That piqued my curiosity.
 
 I followed Gene's link and ended up on <a href="manifestos.md" target="_blank">signing the Agile manifesto</a>, so I felt like I was swimming in friendly waters.
 
 The oath is about being open-minded and pragmatic:
-<p style="margin:1em;padding:1em;background-color:#eee;border:solid 1px black;"><em>I promise not to exclude from consideration any idea based on its source, but to consider ideas across schools and heritages in order to find the ones that best suit the current situation.</em></p>
+ >I promise not to exclude from consideration any idea based on its source, but to consider ideas across schools and heritages in order to find the ones that best suit the current situation.
+ 
 In other words, let's examine ideas on their merit, rather than dismissing them because they don't align with the programming or process or architecture or platform <em>buzzword du jour</em>.
 
 I signed. Good stuff.
