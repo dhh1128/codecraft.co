@@ -16,7 +16,10 @@ comments:
     comment: |
       Agreed!
 ---
-[caption id="attachment_580" align="alignright" width="285"]<a href="http://www.epicfail.com/2012/08/31/todays-special-fail/todays-special-fail/"><img class="size-full wp-image-580" title="sign-fail" alt="" src="http://codecraft.co/wp-content/uploads/2012/09/sign-fail.png" width="285" height="525" /></a> Yes, a restaurant really displayed this sign. I doubt it influenced anybody's behavior...[/caption]
+<figure>
+<img src="assets/sign-fail.png" width="285" height="525" />
+<figcaption>A restaurant actually displayed this sign. I wonder if anybody was impressed...</figcaption>
+</figure>
 
 Some attempts to influence the behavior of other people succeed; others are doomed from the get-go.
 
