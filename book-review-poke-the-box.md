@@ -13,7 +13,7 @@ comments:
 ---
 I just finished reading <a class="zem_slink" title="Seth Godin" href="http://twitter.com/thisissethsblog" target="_blank" rel="twitter">Seth Godin's</a> <em>Poke the Box</em>, and I recommend that you add it to your reading list. It's short, punchy, and thought-provoking.
 
-<a href="https://youtu.be/6IapqgokfNU" target="_blank"><img src="assets/godin-poke-box.jpg"/></a>
+<p><a href="https://youtu.be/6IapqgokfNU" target="_blank"><img src="assets/godin-poke-box.jpg"/></a></p>
  
 The main idea he advocates is that we should not wait around for the world to give us permission, and we should not be afraid to fail. We should just jump in with two feet and make things happen.
 

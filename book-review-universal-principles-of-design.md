@@ -16,7 +16,9 @@ comments:
     comment: |
       I agree that the book is really an insightful description of the way human beings think and understand. That's a subject of inquiry sure to pay off for software folks, but also for many other disciplines. Kind of ties in to epistomology, which ought to be included in the foundation of any serious education.
 ---
-<a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879"><img class="alignright" alt="" src="http://ecx.images-amazon.com/images/I/41nQFR%2BFSCL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg" width="300" height="300" /></a>A few months back, my friend <a href="http://dld.me" target="_blank">Trev</a> recommended <a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879" target="_blank">this book</a> to me. I've been digesting it one topic at a time, on my lunch breaks.
+<p><a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879"><img class="alignright" alt="" src="http://ecx.images-amazon.com/images/I/41nQFR%2BFSCL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg" width="300" height="300" /></a></p>
+
+A few months back, my friend <a href="http://dld.me" target="_blank">Trev</a> recommended <a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879" target="_blank">this book</a> to me. I've been digesting it one topic at a time, on my lunch breaks.
 
 It is profound and fascinating reading.
 
