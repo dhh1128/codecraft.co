@@ -49,9 +49,9 @@ My huddle was not going well. I'd called a meeting to debate a tricky architectu
 
 Five minutes later, the meeting was over, and the controversy was settled. Don had "put a stake in the ground," as he called it &mdash; picked a spot and made a tangible, semi-permanent choice to anchor our behavior.
 
-<figure><img title="wooden stake" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Wooden_stake_holding_guy_rope.jpg/320px-Wooden_stake_holding_guy_rope.jpg" alt="" width="320" height="240" /><figcaption>A stake in the ground. :-) Photo credit: Wikimedia Commons.</figcaption></figure>
+<figure><img title="wooden stake" src="assets/stake.jpg" /><figcaption>A stake in the ground. :-) Image credit: Midjourney</figcaption></figure>
 
-<strong>Answer the hard questions</strong>
+## Answer the hard questions
 
 I don't remember the question or the answer, but I do remember some of Don's solution. He immediately pushed us from generalities into specifics &mdash; what use case, <em>exactly</em>, would be affected by the decision? How much, <em>exactly</em>, would tradeoffs pay or cost in either direction?
 
@@ -59,7 +59,7 @@ Of course we couldn't answer Don's questions very well; nothing is more certain 
 
 By putting a stake in the ground, Don wasn't being arrogant or unwilling to listen. He was simply recognizing that we had incomplete input, that the right answer was maybe guessable but not clear-cut, and that we'd be better off making a tangible experiment instead of debating intuitions. Maybe our answer would be wrong; if so, we'd adjust later. The cost of altering our trajectory would not be so high that it would invalidate the benefit of immediate progress.
 
-<strong>Understand your assumptions</strong>
+## Understand your assumptions
 
 I saw Don model this pattern again when he was general manager of a newly created business unit inside Symantec. We were planning the first release of a suite melded from independently acquired products; the sales force's compensation and training were in flux; our outbound marketing strategy was unknown.
 
@@ -73,7 +73,7 @@ He got pushback. "You've got so many assumptions that the model can't possibly b
 
 Don's model enabled smart action in the face of tremendous uncertainty.
 
-<strong>Show, don't tell</strong>
+## Show, don't tell
 
 Don is always tinkering with tools and processes that instill this habit in his troops. On another memorable occasion, we were wrestling with long, dry requirements documents. They were auto-generated from a requirements database, and they ran into the scores &mdash; maybe hundreds &mdash; of pages. Because they were so long, nobody liked to read them carefully. And because nobody liked to read them, they weren't producing the interlock we needed to keep five development sites aligned in a healthy way.
 
