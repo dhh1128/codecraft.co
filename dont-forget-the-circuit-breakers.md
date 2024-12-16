@@ -41,7 +41,7 @@ Recently I've been pondering an interesting book called <a href="http://pragprog
 
 <figure><img src="assets/circuit-breaker.jpg" /><figcaption>A circuit breaker. Image credit: Midjourney</figcaption></figure>
 
-One <a class="zem_slink" title="Design pattern (computer science)" href="good-code-plans-for-problems.md">good code plans for problems</a>.
+One truth that's been reinforced for me is that <a class="zem_slink" title="Design pattern (computer science)" href="good-code-plans-for-problems.md">good code plans for problems</a>. Nygard spends quite a lot of time talking about a specific embodiment of this principle.
 
 The pattern is called <strong>circuit breaker</strong>, and its purpose is to prevent runaway failures.
 
