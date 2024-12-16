@@ -15,7 +15,11 @@ Today I'm channeling my inner grumpy old man. And these guys are helping. (I am 
 
 The reason I'm feeling grumpy is that I've had another in a long, long line of conversations about how to write faster code.\nIt's not that optimization experts are dumb. Far from it. They are invariably smart, and in general, they are better informed than I am about how pipeline burst cache and GPUs and RAM prefetch algorithms work. I generally learn a lot when I talk to guys like this.\nI applaud their passion, even if I think <a title="3 Commandments of Performance Optimization" href="steve-tolman-it-depends.md">it depends</a>. :-)
 
-My point today is not about inlines, though. It's not even about performance dogma. Rather, it's about opacity.\nThe optimization choices that a compiler makes about inlining and sundry other issues are <em>opaque</em> to most coders. And I claim that it is this fact &mdash; not irrational zealots &mdash; at the heart of a lot of holy wars, debates, and FUD about optimization. The classic paper by <a href="http://www.drdobbs.com/cpp/c-and-the-perils-of-double-checked-locki/184405726" target="_blank">Meyers and Alexandrescu about how compiler optimization defeats the intent of the double-checked locking pattern</a> provides eloquent examples of this opacity. If you haven't read it, I encourage you to do so.\nWe should fix this.
+My point today is not about inlines, though. It's not even about performance dogma. Rather, it's about opacity.
+
+The optimization choices that a compiler makes about inlining and sundry other issues are <em>opaque</em> to most coders. And I claim that it is this fact &mdash; not irrational zealots &mdash; at the heart of a lot of holy wars, debates, and FUD about optimization. The classic paper by <a href="http://www.drdobbs.com/cpp/c-and-the-perils-of-double-checked-locki/184405726" target="_blank">Meyers and Alexandrescu about how compiler optimization defeats the intent of the double-checked locking pattern</a> provides eloquent examples of this opacity. If you haven't read it, I encourage you to do so.
+
+We should fix this.
 
 Compiler makers, I hereby request a feature. Please add the ability to generate an "optimization plan" for a function, analogous to the "explain query plan" feature that DB admins have used to tune their work for decades.\nI can imagine this working as a compiler switch, similar to <code>-E</code> which dumps preprocessor output to stdout. If I add <code> &mdash; explain-optimizations</code> to the cmdline, I would like a report that tells me:
 

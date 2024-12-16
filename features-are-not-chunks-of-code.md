@@ -8,8 +8,11 @@ redirect_from:
 
 Before the industrial age, "features" were noteworthy aspects of a face or a geography: a patch of color, abundant wrinkles, a scar... The human brain is stunningly good at identifying and comparing such features &mdash; perhaps because that ability has been central to our nurture as children, our bonding into family units, and our survival as a species.
 
-<img class="size-full wp-image-6794 aligncenter" src="https://codecraft.co/wp-content/uploads/2013/07/danie-franco-o1pkm7-8ah4-unsplash.jpg" alt="danie-franco-o1PKM7-8AH4-unsplash" width="5731" height="3821" />
-<p style="text-align:center;">Photo by <a href="https://unsplash.com/@dani_franco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Danie Franco</a> on <a href="https://unsplash.com/s/photos/face-wrinkles-scars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<figure>
+<img src="assets/facial-features.jpg"/>
+<figcaption>Image credit: Midjourney</figcaption>
+</figure>
+
 When we want to say what a face looks like, we describe its features. They are an entrée into experience with it.
 
 At the dawn of the computer age, the advertising and publishing industries were already talking about how products &mdash; or aspects of them &mdash; could be "featured" in media. Highlighted characteristics were called "features", and this metaphor transferred seamlessly into digital language. Software product managers now traffic in "features" and "feature sets."
