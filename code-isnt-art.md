@@ -12,7 +12,11 @@ comments:
       
       BTW, in the subtitle of my blog, I assert that software = science + art + people. This might sound like we're at odds, but I don't think so. I'm claiming that human creativity, not just hard-core algorithms, is an essential ingredient of software; you're warning coders not to get carried away. I think that's good advice.
 ---
-<a href="/category/guest-posts/"><img class="alignright size-full wp-image-553" title="guest post" src="http://codecraft.co/wp-content/uploads/2012/09/guest-post.png" alt="" width="183" height="40" /></a>Programmers, tell your inner artist to shut up.
+(guest post by Jesse Harris)
+
+<p><img src="assets/modern-art.jpg" /></p>
+
+Programmers, tell your inner artist to shut up.
 
 One of the defining aspects of the Ruby programming language is that it is very flexible. It takes a very UNIX-like approach of having a few simple and well-defined functions that allow you to build rather complex systems. Unfortunately, it also ends up encouraging programmers to start thinking of their code as art, and then they start writing “clever” code. There’s nothing necessarily wrong with finding an unconventional solution to a coding problem, but that often falls apart when you have to involve another human in reading your “art”.
 
