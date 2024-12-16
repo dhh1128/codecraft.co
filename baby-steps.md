@@ -6,7 +6,7 @@ redirect_from:
   - /2012/10/24/baby-steps
 ---
 
-<figure><img src="http://upload.wikimedia.org/wikipedia/en/8/84/What_About_Bob_film.jpg" /><figcaption>Film poster, displayed under fair use as documented on Wikimedia Commons.</figcaption></figure>
+<figure><img src="https://upload.wikimedia.org/wikipedia/en/2/26/What_About_Bob_%281991%29.png" /><figcaption>Film poster, displayed under fair use as documented on Wikimedia Commons.</figcaption></figure>
 
 If you've seen the delightful comedy movie, <em><a title="What About Bob?" href="http://www.rottentomatoes.com/m/what_about_bob" target="_blank" rel="rottentomatoes">What About Bob</a>?</em>, you are no doubt smiling at my title.
 

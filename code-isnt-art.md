@@ -14,7 +14,10 @@ comments:
 ---
 (guest post by Jesse Harris)
 
-<p><img src="assets/modern-art.jpg" /></p>
+<figure>
+<img src="assets/modern-art.jpg" />
+<figcaption>Image credit: Midjourney</figcaption>
+</figure>
 
 Programmers, tell your inner artist to shut up.
 

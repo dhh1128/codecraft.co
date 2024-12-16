@@ -18,28 +18,33 @@ comments:
 ---
 Here's a simple little test that teaches an important lesson. Take a moment to work through all 3 questions. I promise it won't take long. :-)
 
- 
- 
-
-Question 1. A flood is coming. George can only swim for a little while. What should George do?
-
-<a href="../../../2012/12/10/george-and-the-flood/screen-shot-2012-12-09-at-12-27-01-pm/" rel="attachment wp-att-866"><img class="aligncenter size-medium wp-image-866" alt="Screen Shot 2012-12-09 at 12.27.01 PM" src="http://codecraft.co/wp-content/uploads/2012/12/screen-shot-2012-12-09-at-12-27-01-pm.png?w=300" width="500" height="303" /></a>
-
- 
- 
-
-Question 2. A flood is coming. George can only swim for a little while. What should George do?
-
-<a href="../../../2012/12/10/george-and-the-flood/screen-shot-2012-12-09-at-12-28-05-pm/" rel="attachment wp-att-867"><img class="aligncenter size-medium wp-image-867" alt="Screen Shot 2012-12-09 at 12.28.05 PM" src="http://codecraft.co/wp-content/uploads/2012/12/screen-shot-2012-12-09-at-12-28-05-pm.png?w=300" width="500" height="237" /></a>
-
- 
+<details>
+  <summary>Question 1</summary>.
+  
+  <p>A flood is coming. George can only swim for a little while. What should George do?</p>
+  
+  <img src="assets/george1.png"/>
+</details>
  
 
-Question 3. A flood is coming. George can only swim for a little while. What should George do?
+<details>
+  <summary>Question 2</summary>
+  
+  <p>A flood is coming. George can only swim for a little while. What should George do?</p>
 
-<a href="../../../2012/12/10/george-and-the-flood/screen-shot-2012-12-09-at-12-28-43-pm/" rel="attachment wp-att-868"><img class="aligncenter size-medium wp-image-868" alt="Screen Shot 2012-12-09 at 12.28.43 PM" src="http://codecraft.co/wp-content/uploads/2012/12/screen-shot-2012-12-09-at-12-28-43-pm.png?w=300" width="500" height="250" /></a>
+  <img src="assets/george2.png"/>
+</details>
+ 
 
-Ready to grade your answers?
+<details>
+  <summary>Question 3</summary>
+  
+  <p>A flood is coming. George can only swim for a little while. What should George do?</p>
+
+  <img src="assets/george3.png"/>
+</details>
+
+<p>Ready to grade your answers?</p>
 
 <strong>The Yellow Belt Answer</strong>
 
