@@ -14,13 +14,14 @@ comments:
 ---
 "Big Data" is another one of those buzz words that seems to be everywhere these days. We hear stories regularly about how fast the world's data grows and how big it's going to be by 20xx. Vendors then reason that we should buy their wares to cope. This infographic is typical:
 
-<a href="http://www.businessinsider.com.au/infographic-heres-how-much-data-is-created-on-the-web-every-minute-2015-8" target="_blank"><img class="alignnone size-full wp-image-6282" src="https://codecraft.co/wp-content/uploads/2013/04/dataneversleeps_2-0_v2.jpg" alt="dataneversleeps_2-0_v2" width="810" height="1287" /></a>
+<figure>
+<a href="https://financesonline.com/how-much-data-is-created-every-day/" target="_blank"><img src="assets/data-infographic.png" /></a><figcaption>infographic credit: <a href="https://financesonline.com/how-much-data-is-created-every-day/" target="_blank">financesonline.com</a></figcaption></figure>
 
 I have several deep professional connections to big data<sup>[<a href="#foot1">1</a>]</sup>, going back decades, so when I say I think a lot of it is manufactured silliness, I'm hoping you'll pause before laughing me off.
 
 The fact is, most of the "data" that's exploding is not hard-won intellectual treasure for the ages; it's marginal stuff like the viewing history on Fred Flintstone's deleted Netflix account. More than big data, we're experiencing a "big crud" wave, because we're pack rats. This comic has it right:
 
-<figure><img class=" " src="http://www.qwantz.com/comics/comic2-2303.png" alt="" width="441" height="300" /><figcaption>image credit: Ryan North (qwantz.com)</figcaption></figure>
+<figure><img src="http://www.qwantz.com/comics/comic2-2303.png" alt="" width="441" height="300" /><figcaption>image credit: Ryan North (qwantz.com)</figcaption></figure>
 
 I'm not claiming that all big data is worthless; some amazing things become possible at the scale of billions of records. For Netflix, maybe Fred Flintstone's viewing history <em>is</em> valuable. Maybe. However, big data is only an asset if we can derive some value from it. And an awful lot of big data doesn't pass that smell test, either because our tools are inadequate, or because the data becomes stale, or because it wasn't particularly interesting data to start with.
 

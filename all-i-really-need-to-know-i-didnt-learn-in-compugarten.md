@@ -121,13 +121,13 @@ But it's not enough.
 Since I'm half way to curmudgeon-hood, I frequently find myself lamenting educational blindspots in the young. I've even toyed with the idea of teaching at the nearest university, some day when I Have More Time™. If academia would take me, my lesson plans might cover some of the following topics:
 <ul>
 	<li>How to work with smart but misaligned teammates, manage opinioand personalities, and contribute to a cohesive team. (Software development is a <em>team</em> sport, young padawan.)</li>
-	<li>The power of metaphor in software design. (See <a title="Good Code Is Nd Right" href="good-code-is-named-right.md">this post</a>.)</li>
+	<li>The power of metaphor in software design. (See <a title="Good Code Is Named Right" href="good-code-is-named-right.md">this post</a>.)</li>
 	<li><a title="Why Exceptions Aren’t Enough" href="why-exceptions-arent-enough.md">Choosing a goorror raising and error handling strategy</a>. (Assignment: find half a dozen error messages in open source projects, and rewrite them to make them intelligible to the Average Human.)</li>
 	<li>The art of <a title="Good Code Is Balanced" href="good-code-is-balanced.md">tradeoffs</a>. (Usually, there ain't no such thing as a free lunch.)</li>
 	<li><a title="Coping With Organizational Alzheimers" href="coping-with-organizational-alzheimers.md">Managing technical debt</a>.</li>
 	<li>Using version control, especially somewhat diverged branches.</li>
 	<li>Communicating effectively with remote collaborators, including those whose native language is not your own.</li>
-	<li>Data- and <a title="Good Code Is Optimized" href="good-code-is-optimized.md">use-c-driven optimization</a>. (Required reading: <em><a class="zem_slink" title="The Goal: A Process of Ongoing Improvement" href="http://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271781%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dzemanta-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0884271781" target="_blank" rel="amazon">The Goal</a></em>, by Eliyahu M. Goldratt).</li>
+	<li>Data- and <a title="Good Code Is Optimized" href="good-code-is-optimized.md">user-driven optimization</a>. (Required reading: <em><a class="zem_slink" title="The Goal: A Process of Ongoing Improvement" href="http://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271781%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dzemanta-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0884271781" target="_blank" rel="amazon">The Goal</a></em>, by Eliyahu M. Goldratt).</li>
 	<li>Understanding and speaking the language of business.</li>
 	<li><a title="Six Learning Tips For Tech Folks" href="six-learning-tips-for-tech-folks.md">Learning how to learn</a>, to keep up with the industry after you leave school.</li>
 	<li>Estimating wisely.</li>
