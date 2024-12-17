@@ -14,7 +14,7 @@ I call this lack of semantic continuity the <em>lacuna humana</em> &mdash; the h
 
 The good news is, gaps can often be bridged.
 
-<figure><img src="https://farm4.staticflickr.com/3462/3892862441_b574a8f9e7_z.jpg" alt="" width="640" height="428" /><figcaption>image credit: <a href="https://www.flickr.com/photos/vestman/3892862441/sizes/z/" target="_blank">vestman</a> (Flickr)</figcaption></figure>
+<figure><img src="assets/footbridge.jpg" /><figcaption>image credit: Midjourney</figcaption></figure>
 
 I promised I would describe a bridge that has a lot of virtues, and I'm going to begin that work here. It might take us a couple posts to get all the way across, though. Thanks for hanging with me...
 

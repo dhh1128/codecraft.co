@@ -42,7 +42,7 @@ Now I know better.
 
 If your software can be installed and configured a hundred different ways, this is <strong>Not Good</strong>. It is a sign that you don't know who your customer is, or what they want. If your programming language has nine separate functions that provide the same functionality, shame on its designers. If your UI presents users with oodles of choices and calls it a customer focus, go vomit into the nearest garbage can.
 
-<figure><img class=" " src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/3rd_Battalion_3rd_Marines_Osprey_flights.jpg/640px-3rd_Battalion_3rd_Marines_Osprey_flights.jpg" alt="" width="480" height="249" /><figcaption>V22-Osprey &mdash; an unusually flexible aircraft. Photo credit: Sgt. Mike Fayloga (Wikimedia Commons)</figcaption></figure>
+<figure><img src="assets/v22-osprey.jpg"/><figcaption>V22-Osprey &mdash; an unusually flexible aircraft. Image credit: Midjourney</figcaption></figure>
 
 I can already hear the protests, so let me pause here to admit that my generalization isn't true 100% of the time. The Department of Defense spent billions of dollars developing the Osprey, because it really did want Marines to be able to take off and land like a helicopter or a plane, according to changing circumstances. And the DOD was not crazy.
 
