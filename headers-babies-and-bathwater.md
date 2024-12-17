@@ -78,7 +78,9 @@ comments:
 ---
 I claim that by eliminating the C/C++-style dichotomy between headers and implementation, most modern programming languages have thrown out the baby with the bathwater.
 
-[caption id="attachment_1264" align="aligncenter" width="500"]<a href="../../../wp-content/uploads/2013/08/screen-shot-2013-08-11-at-7-35-35-pm.png"><img class="size-large wp-image-1264" alt="Don't throw out the baby with the bathwater! Photo credit: StubbyFingers (Flickr)" src="http://codecraft.co/wp-content/uploads/2013/08/screen-shot-2013-08-11-at-7-35-35-pm.png?w=500" width="500" height="438" /></a> Don't throw out the baby with the bathwater! Photo credit: <a href="http://www.flickr.com/photos/stubbyfingers/5940964193" target="_blank">StubbyFingers (Flickr)</a>[/caption]
+<figure>
+<img alt="Don't throw out the baby with the bathwater" src="assets/baby-bathwater.jpg" /><figcaption>Image credit: Midjourney</figcaption>
+</figure>
 
 If that sounds crazy, just hang with me for a minute.
 
