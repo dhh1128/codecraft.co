@@ -56,7 +56,7 @@ The other day I was on <a href="http://genehughson.wordpress.com/" target="_blan
 
 That piqued my curiosity.
 
-I followed Gene's link and ended up on <a href="manifestos.md" target="_blank">signing the Agile manifesto</a>, so I felt like I was swimming in friendly waters.
+I followed Gene's link and ended up feeling like I was swimming in friendly waters, since I had previously <a href="manifestos" target="_blank">signed the Agile manifesto</a>.
 
 The oath is about being open-minded and pragmatic:
  >I promise not to exclude from consideration any idea based on its source, but to consider ideas across schools and heritages in order to find the ones that best suit the current situation.
@@ -75,7 +75,7 @@ You need both.
 
 I have seen architects that are way too ivory-tower. They make recommendations based on their favorite patterns and methodologies, with little regard for practical consequences. Smart engineers quickly dismiss them as being out of touch and irrelevant, and they are right to do so.
 
-On the other hand, I have seen "architects" who, despite deep talent as engineers, are forever in the mode of "whatever gets the job done" and "if it ain't broke, don't fix it." I believe this view is short-sighted; it loses touch with the <a class="zem_slink" title="Opportunity cost" href="learned-helplessness-rats-and-people-power.md">haul the team up and out</a>. Where there is no vision, the people perish.
+On the other hand, I have seen "architects" who, despite deep talent as engineers, are forever in the mode of "whatever gets the job done" and "if it ain't broke, don't fix it." I believe this view is short-sighted; it loses touch with the imperative to <a href="learned-helplessness-rats-and-people-power">haul the team up and out</a> of the mire. Where there is no vision, the people perish.
 
 <strong>Caution 2: Pragmatism must be earned.</strong>
 

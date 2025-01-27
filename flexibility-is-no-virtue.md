@@ -52,7 +52,7 @@ It's also not about the flexibility in construction that you address with modula
 
 This post is about products that can be deployed and configured in a thousand permutations, when the reasons and the costs for that flexibility are not understood or acknowledged. <em>That</em> kind of flexibility pushes problem-solving onto the customer's plate (and QA's plate), and is usually laziness in disguise. Yet we tell ourselves it's a virtue so often that we start to believe it.
 
-<strong>Cement as a poster child</strong>
+## Cement as a poster child
 
 When you pour cement to make a driveway, you value the pliable nature of the material just long enough to get it to fit your form. Ninety minutes of flexibility must be followed by decades of perfect rigidity, or you'll never buy from that cement maker again. You couldn't care less that the cement you purchased could be made to fit the shape of your neighbor's sidewalk, or of the basketball court at the park.
 
@@ -62,7 +62,7 @@ In the long run, does a customer value the ability of a "flexible" product to me
 
 As with cement, once a customer gets things configured correctly, he is guaranteed to prefer "set it and forget it" to an experience where he can experience the wonders of your product's flexibility over and over again.
 
-<strong>The cost of flexibility</strong>
+## The cost of flexibility
 
 The <a class="zem_slink" title="Bell Boeing V-22 Osprey" href="http://en.wikipedia.org/wiki/Bell_Boeing_V-22_Osprey" target="_blank" rel="wikipedia">MV-22 Osprey</a> makes a great cautionary tale. It took <em>much</em> longer to test, and was <em>far</em> more expensive to develop, than <a href="http://www.nytimes.com/2011/11/20/us/costly-osprey-symbol-of-fight-to-cut-pentagon.html" target="_blank">originally expected</a>.
 
@@ -76,7 +76,7 @@ Besides the cost of developing and testing the Osprey, and the cost of purchasin
 
 Again, flexible software is no different.
 
-<strong>Rational self-interest and the invisible hand</strong>
+## Rational self-interest and the invisible hand
 
 If you want to sell into a varied market, you have to tolerate variety. Dev teams that make flexible products are attacking that problem, and they are behaving in a mostly rational fashion.
 
@@ -93,5 +93,5 @@ If it's necessary at all...
 Theoretically, products could ship with smart defaults (so they'd require little tweaking), and could adjust themselves to unique needs with little effort on the part of customers. In some cases, they could even make these changes automatically and instantaneously, on deployment. Think about how much less doc we'd have to write, and how much less support we'd have to provide, if we didn't buy into the flexibility approach...
 
 I know I'm being idealistic. But it seems to me that we should acknowledge who's benefitting from flexibility, and what it's costing. We should make easy and correct fit, rather than flexibility, the ideal for our customers, and do what we can to achieve it. We may always be stuck making things flexible for our own internal purposes, but that should be our problem, not the customer's.
-<p style="padding-left:30px;"><strong><span style="color:#000080;">Action Item</span></strong></p>
-<p style="padding-left:30px;"><em><span style="color:#000080;">Study the "<a href="http://www.antipatterns.com/arch_cat.htm" target="_blank">Swiss Army Knife" and "Cover Your Assets" antipatterns</a>. These antipatterns are often associated with an incorrect admiration for flexibility. Look for places in your world where these antipatterns are used.</span></em></p>
+<p style="padding-left:30px;"><strong>Action Item</strong></p>
+<p style="padding-left:30px;"><em>Study the "<a href="http://www.antipatterns.com/arch_cat.htm" target="_blank">Swiss Army Knife" and "Cover Your Assets" antipatterns</a>. These antipatterns are often associated with an incorrect admiration for flexibility. Look for places in your world where these antipatterns are used.</em></p>
