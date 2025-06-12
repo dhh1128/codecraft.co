@@ -16,7 +16,7 @@ Adams was a sci-fi author, but I see applications of his metaphor in the day-to-
 
 To one degree or another, we all exhibit <a class="zem_slink" title="Inattentional blindness" href="http://en.wikipedia.org/wiki/Inattentional_blindness" target="_blank" rel="wikipedia noopener">inattentional blindness</a> from time to time. And that can be a good thing. Being able to zero in on a particular block of code, to the exclusion of the guy sneezing or yawning in the next cube, is healthy. We don't want to be like the dogs in Pixar's <em>Up!</em>, who keep getting distracted by squirrels.
 
-[youtube=https://youtu.be/SSUXXzN26zg]
+<a href="https://youtu.be/SSUXXzN26zg"><img src="assets/squirrel-clip.jpg"></a>
 
 However, truly superb engineers have a capacity to see through the cloak of somebody else's problem; they think simultaneously on multiple levels of abstraction. They tend to ask "meta questions" (judiciously) that poke at larger issues, broader contexts, or more distant time horizons. Not coincidentally, this <a title="Unencapsulate Yourself" href="unencapsulate-yourself.md">breaks them out of the tidy horizontal layers or vertical silos that sometimes constrain the thinking of organizations</a>.
 
