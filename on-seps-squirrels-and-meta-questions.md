@@ -47,10 +47,9 @@ Plenty of problems don't merit deep thinking; the zen master found time for our 
 
 <strong>Broader Application</strong>
 
-If you've been asking meta questions about my post, you'll no doubt agree that the SEP phenomenon, and the meta question habit, apply beyond just in softw engineering. Asking big meta questions caused all sorts of adventure and hilarity in Douglas Adams' books, but there's a serious side. Consummate product managers and marketers and business executives use these principles across all industries. Great scientists and generals and statesmen and religious leaders are serial meta questioners. Great parents and great friends are as well.
+If you've been asking meta questions about my post, you'll no doubt agree that the SEP phenomenon, and the meta question habit, apply beyond just in software engineering. Asking big meta questions caused all sorts of adventure and hilarity in Douglas Adams' books, but there's a serious side. Consummate product managers and marketers and business executives use these principles across all industries. Great scientists and generals and statesmen and religious leaders are serial meta questioners. Great parents and great friends are as well.
 
-You might even see a link between asking meta questions and two other virtues I've written about before &mdash; <a title="Lynn Bendixsen: Listen." href="humility.md">being humble</a>.
+You might even see a link between asking meta questions and two other virtues I've written about before &mdash; <a title="Lynn Bendixsen: Listen." href="lynn-bendixsen-listen.md">listening</a> and <a href="humility.md">being humble</a>.
 
-I'd like to hear about other connections you see. Please comment. (See how I'm posing a meta question of my own? :-) And please follow my blog so we can discuss the craft of coding together.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Do a post-mortem on a recent conversation you've had &mdash; perhaps something like the estimation example I gave above. What questions could you have asked to deliver greater value faster? Could you have anticipated the conversation and prepped for it, like our zen master?</span></em></p>
