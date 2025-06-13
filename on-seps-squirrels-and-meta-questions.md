@@ -10,7 +10,7 @@ comments:
     comment: |
       […] I see this constantly in software. Building something complex like the Facebook ecosystem is more than just building the pieces. It involves the mustering of technical, legal, business, and cultural forces in multiple dimensions, across large spans of time. There’s incredible interplay and feedback loops. I’ve blogged about this, more than once. […]
 ---
-In <a class="zem_slink" title="Douglas Adams" href="http://douglasadams.com/" target="_blank" rel="homepage noopener">Douglas Adams</a>' novel, <em>Life, the Universe, and Everything</em>, a spaceship lands in the middle of a stadium of screaming fans during a cricket match, and nobody notices. The ship doesn't use a Klingon-style cloaking device to accomplish this amazing feat; instead, it is hidden by a "Somebody Else's Problem" field, which operates on the principle that if something is perceived to be somebody else's problem, the brain of onlookers will treat it as if it were invisible.
+In <a href="http://douglasadams.com/" target="_blank">Douglas Adams</a>' novel, <cite>Life, the Universe, and Everything</cite>, a spaceship lands in the middle of a stadium of screaming fans during a cricket match, and nobody notices. The ship doesn't use a Klingon-style cloaking device to accomplish this amazing feat; instead, it is hidden by a "Somebody Else's Problem" field, which operates on the principle that if something is perceived to be somebody else's problem, the brain of onlookers will treat it as if it were invisible.
 
 Adams was a sci-fi author, but I see applications of his metaphor in the day-to-day work of software engineering.
 

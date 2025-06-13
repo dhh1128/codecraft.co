@@ -54,9 +54,9 @@ comments:
     comment: |
       Ambiguous challenge questions is a pet peeve of mine.  "What is the name of your elementary school?"  Forget that I don't know if I would have put "Lincoln Elementary" or "lincoln", I can't be the only one who attended multiple elementary schools.  The school where my children attend has something like a 10% turnover PER YEAR.  First pet?  My older siblings talk about dogs I barely remember, would I have put one of those names, or the one I remember clearest?  
       
-      I laughed the other day when I was prompted at a new site with a question I had never seen before: What is the name of the girl you first kissed?  Now that I remember!
+      I laughed the other day when I was prompted at a new site with a question I had never seen before: What is the name of the girl you first kissed? Now that I remember!
       
-      I am currently doing a lot of work with a very poorly-designed component of my company's software.  I can understand that a complex function call takes longer in the real world than in the dev lab, but why do I stare at a status bar that reads "Ready" while the function runs for hours without feedback except what is see in debugview? Is it still running?  Did I type something wrong?  Was my mouse click lost over the RDP connection?  I don'e expect perfection, but feedback is necessary.
+      I am currently doing a lot of work with a very poorly-designed component of my company's software.  I can understand that a complex function call takes longer in the real world than in the dev lab, but why do I stare at a status bar that reads "Ready" while the function runs for hours without feedback except what is see in debugview? Is it still running?  Did I type something wrong? Was my mouse click lost over the RDP connection?  I don't expect perfection, but feedback is necessary.
 ---
 <h2>Act I</h2>
 The day after Thanksgiving I went on a long road trip to eastern Wyoming. Total driving time: about 7 hours, each way.
@@ -112,7 +112,7 @@ You can probably tell that I'm frustrated. Of course life isn't going to be smoo
 
 My beef is not that we make tradeoffs &mdash; it's that we don't regret them enough, communicate them enough, acknowledge enough the bad that comes with the good. And we pass the buck, way too often. The lowly "user" at the bottom of the food chain has a pretty lousy experience.
 <h2>A Higher Vision</h2>
-While I was writing this post, my internet connection kept dropping due to a snow storm. Look what I sat the top of Wordpress's edit window:
+While I was writing this post, my internet connection kept dropping due to a snow storm. Look what I saw at the top of Wordpress's edit window:
 
 <img src="assets/screen-shot-conn-lost.png" />
 
