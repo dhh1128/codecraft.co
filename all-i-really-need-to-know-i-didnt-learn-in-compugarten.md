@@ -122,7 +122,7 @@ Since I'm half way to curmudgeon-hood, I frequently find myself lamenting educat
 <ul>
 	<li>How to work with smart but misaligned teammates, manage opinioand personalities, and contribute to a cohesive team. (Software development is a <em>team</em> sport, young padawan.)</li>
 	<li>The power of metaphor in software design. (See <a title="Good Code Is Named Right" href="good-code-is-named-right.md">this post</a>.)</li>
-	<li><a title="Why Exceptions Aren’t Enough" href="why-exceptions-arent-enough.md">Choosing a goorror raising and error handling strategy</a>. (Assignment: find half a dozen error messages in open source projects, and rewrite them to make them intelligible to the Average Human.)</li>
+	<li><a title="Why Exceptions Aren’t Enough" href="why-exceptions-arent-enough.md">Choosing a good error raising and error handling strategy</a>. (Assignment: find half a dozen error messages in open source projects, and rewrite them to make them intelligible to the Average Human.)</li>
 	<li>The art of <a title="Good Code Is Balanced" href="good-code-is-balanced.md">tradeoffs</a>. (Usually, there ain't no such thing as a free lunch.)</li>
 	<li><a title="Coping With Organizational Alzheimers" href="coping-with-organizational-alzheimers.md">Managing technical debt</a>.</li>
 	<li>Using version control, especially somewhat diverged branches.</li>

@@ -24,6 +24,7 @@ Let me use résumés to provide some context.
 
 I used to think that the "Objective" section of a résumé was fluff &mdash; a place to dump vague platitudes, maybe. You know the stuff I'm talking about:
 <blockquote><strong>Objective</strong>: Craft high-quality, enterprise software in an environment where I can make significant contributions to the bottom line of a growing company.</blockquote>
+
 Blah, blah, blah.
 
 Theoretically, this stuff helps you get jobs, but as someone who writes a lot, my drivel-o-meter pegs at such verbiage. Usually, it means about as much as random business buzz word generators ([1](https://www.atrixnet.com/bs-generator.html), [2](https://sweary.com/business-buzzword-generator/)).
