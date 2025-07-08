@@ -56,7 +56,7 @@ I have a similar beef about parental controls on Netflix. Last time I checked, t
 
 I'm grumbling about my choice of buckets, but in the end, it's not the bucket menu, in and of itself, that bugs me. Like I said above, I get why developers might need to simplify. You <a href="flexibility-is-no-virtue" title="Flexibility is No Virtue" target="_blank">can't please everyone</a>.
 
-No. What <em>really</em> bugs me is that software with poorly chosen buckets also tends to be software that &mdash; either by <a href="users-arent-the-only-people-in-your-software" title="Users Aren’t The Only People In Your Software">humans they serve</a>. And I dare you to find any way for a Netflix customer to contact the dev team or product manager that owns parental controls. I tried and failed.
+No. What <em>really</em> bugs me is that software with poorly chosen buckets also tends to be software that offers limited support to its <a href="users-arent-the-only-people-in-your-software" title="Users Aren’t The Only People In Your Software">users and other stakeholders</a>. And I dare you to find any way for a Netflix customer to contact the dev team or product manager that owns parental controls. I tried and failed.
 
 Seth Godin recently blogged about how <a href="http://sethgodin.typepad.com/seths_blog/2015/03/what-is-customer-service-for.html" target="_blank">different corporate cultures approach customer interactions differently</a> &mdash; and why that makes a world of difference. He was nice and non-controversial; he didn't take a strong position on whether certain approaches are unethical.
 
