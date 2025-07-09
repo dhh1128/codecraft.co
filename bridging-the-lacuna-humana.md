@@ -24,7 +24,7 @@ Before I lay out my solution, let's think about possibilities.
 
 Human languages have a rich toolkit to draw from. Meaning is conveyed through words and sentences, of course &mdash; but also, through intonation, register, gesture, pronunciation, cultural allusion, and a host of other techniques. Importantly, all of these mechanisms depend in one way or another on shared context. If I say "What is your favorite color?" with just the right intonation and just the right British accent, and you're a Monty Python fan, I suspect I can get a laugh out of you, due to many of these extra channels of meaning. If you point out misbehavior, and I say, "I'm shocked! Shocked!" &mdash; and you've seen <em>Casablanca</em> &mdash; you'll grin cynically, for similar reasons.
 
-http://www.youtube.com/watch?v=HMIyDf3gBoY
+<a href="https://www.youtube.com/watch?v=HMIyDf3gBoY"><img src="assets/casablanca-scene.jpg"/></a>
 
 In this post, I'm making heavy use of metaphor (lacuna, bridge, toolkit). If you speak a latin-based language, you might have picked up on the common origin of "lacuna" and English "lagoon", and appreciated the way these metaphors relate to the picture above. You might even have snorted at the whiff of double entendre in my Monty Python allusion, since the scene is all about a "bridge of death."
 
