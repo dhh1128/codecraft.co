@@ -51,7 +51,7 @@ Here is my attempt to raise the bar a little.
 
 <strong>Why We Comment</strong>
 
-Sooner or later, most interesting programming problems require a sophisticated mental model of a problem. Building these models is hard worknd once we have them, <em>we are paid to share with our team (or our future selves)</em>.
+Sooner or later, most interesting programming problems require a sophisticated mental model of a problem. Building these models is hard work, and once we have them, <em>we are paid to share with our team (or our future selves)</em>.
 
 The best way to share mental models with other engineers is to <a title="Good Code Is Named Right" href="good-code-is-named-right.md" target="_blank">code with names and syntax that make our meaning crystal clear</a>. But formal expressions often lack the semantic richness, the subtlety, and the scope that we need for full knowledge transfer. So we comment to make sure the sharing succeeds.
 
@@ -61,13 +61,14 @@ Shared mental models make complex software possible. Shared mental models, not 
 
 A programmer that leaves critical knowledge unshared is seriously derelict in her or his duty, no matter how well the code works. I've quoted <a class="zem_slink" title="Martin Fowler" href="http://martinfowler.com/" target="_blank" rel="homepage">Martin Fowler</a> on this point before, but I'll do it again, because he's so, so right:
 <blockquote>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</blockquote>
+
 Some of the more <a href="http://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered" target="_blank">hilarious comments</a> I've ever read are connected with moments when this principle goes out the window. (Go to the bathroom before you read this collection, so you don't wet your pants laughing.)
 
 <figure><img alt="" src="http://imgs.xkcd.com/comics/random_number.png" height="144" width="400" /><figcaption>No amount of commenting makes up for a silly algorithm. But you might give another programmer a good chuckle. Image credit: xkcd</figcaption></figure>
 
 <strong>How to Write "Good" Comments</strong>
 
-Seriously, make a habit of asking yourself: "What must I explain, that I can't easily say in code, that instills a healthy mental model of this class/module/function/app?" You can't go far wrong it that's your point of departure.
+Seriously, make a habit of asking yourself: "What must I explain, that I can't easily say in code, that instills a healthy mental model of this class/module/function/app?" You can't go far wrong if that's your point of departure.
 
 You'll find yourself naturally aligning with guidelines like this:
 <p style="padding-left:30px;"><strong>Good comments supplement, never replace, what can be said with code.</strong></p>

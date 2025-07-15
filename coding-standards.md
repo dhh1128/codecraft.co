@@ -68,7 +68,7 @@ If you read that list and think: "Well, then, why have coding standards at all?"
 
 <strong>Sample suggestions (not "rules") from a wise coding standard</strong>
 
-In general, model new code after the conventions embodied by recent and cl code you see in the codebase. The following modules are known to be good examples: moduleA, moduleB, ... <em>(Value: high. Cost: low. Pointing out some good examples will do more than a dozen pages of text. Also, pointing people to new code allows wisdom about conventions to accrete organically.)</em>
+In general, model new code after the conventions embodied by recent and clean code you see in the codebase. The following modules are known to be good examples: moduleA, moduleB, ... <em>(Value: high. Cost: low. Pointing out some good examples will do more than a dozen pages of text. Also, pointing people to new code allows wisdom about conventions to accrete organically.)</em>
 
 <a title="Small Files Are Your Friends" href="small-files-are-your-friends.md">Keep files small</a>. <em>(Value: high for casual maintainers. Cost: usually low. Many good habits are tied to this guideline, including loose coupling, encapsulation, refactoring, and modularity.)</em>
 
