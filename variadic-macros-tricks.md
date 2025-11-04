@@ -34,19 +34,19 @@ comments:
     comment: |
       Hi Daniel,
       I found this recursive implementation useful in some mocking/unit testing work &mdash; thanks! Wrapped it and some extensions in a ruby generator script for an arbitrary number of arguments here  if it's of any use to anyone else:
-      [https://github.com/cormacc/va_args_iterators](https://github.com/cormacc/va_args_iterators)
+      <a href="https://github.com/cormacc/va_args_iterators">https://github.com/cormacc/va_args_iterators</a>
   - author: Rune Paamand
     date: 2019-10-01 01:35:40
     comment: |
       Mind that your examples will not work on MSVC where the variadic macro does not expand. You need an expansion step to achieve the `COUNT_VARARGS`:
       
-      ```cpp
+      <pre>
       // Count how many args are in a variadic macro. Only works for up to N-1 args.
       #define RETURN_ARG_COUNT(_1, _2, _3, _4, N, ...) N
       #define EXPAND_ARGS(args) args
       // Notice double parenthesis for expansion single to var arguments
       #define COUNT_VARARGS(...) RETURN_ARG_COUNT EXPAND_ARGS((__VA_ARGS__, 4, 3, 2, 1, 0))
-      ```
+      <pre>
   - author: Daniel Hardman
     date: 2019-10-02 07:03:03
     comment: |
@@ -84,7 +84,7 @@ comments:
   - author: Dave MacLachlan
     date: 2020-07-29 09:41:39
     comment: |
-      Thanks so much for the article. Just an FYI that you have a typo in your second `eprintf` block. I think you want `#__VA_ARGS__` as opposed to `#__VA_ARGS`
+      Thanks so much for the article. Just an FYI that you have a typo in your second <code>eprintf</code> block. I think you want <code>#__VA_ARGS__</code> as opposed to </code>#__VA_ARGS</code>
   - author: Daniel Hardman
     date: 2020-08-04 08:43:14
     comment: |
