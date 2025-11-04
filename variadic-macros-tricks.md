@@ -94,27 +94,34 @@ Have you ever wanted to write a "for each" loop over all the args of a variadic 
 
 I learned how to do this today, and I wanted to blog about it to cement the technique in my own mind. (And I hereby put all the code I show here into the public domain.)
 
-[caption id="" align="aligncenter" width="404"]<a href="http://xkcd.com/1319/"><img class="" src="http://imgs.xkcd.com/comics/automation.png" width="404" height="408"></a> What happened when I decided to learn this technique. I'm trying to spare you... :-) Image credit: xkcd.com[/caption]
-<h3>Simple variadic macros</h3>
+<figure>
+<img class="" src="http://imgs.xkcd.com/comics/automation.png" width="404" height="408">
+<figcaption>What happened when I decided to learn this technique. I'm trying to spare you... :-) Image credit: xkcd.com</figcaption>
+</figure>
+
+### Simple variadic macros
+
 The first piece of magic you need to do something like this is <code>__VA_ARGS__</code>. This allows you to write macros that take an arbitrary number of arguments, using <code>...</code> to represent the macro's parameters:
 
-https://gist.github.com/dhh1128/4f2e50c5aa23589ad4ad
+[gist](https://gist.github.com/dhh1128/4f2e50c5aa23589ad4ad)
 
 Nice. <code>__VA_ARGS__</code> is a standard feature of C99, and I've known about it for a long time. I've also known about GCC (and Clang's) extension, which attaches special meaning to <code>##__VA_ARGS__</code> if it's preceded by a comma &mdash; it removes the comma if <code>##__VA_ARGS__</code> expands to nothing. If I change my macro definition to:
 
-https://gist.github.com/dhh1128/a0972d8750c3d57f4c0a004dd04a5416
+[gist](https://gist.github.com/dhh1128/a0972d8750c3d57f4c0a004dd04a5416)
 
 ...I can now call <code>eprintf("hello, world");</code> without a complaint from the compiler.
-<h3>But it's not enough</h3>
-That doesn't let me do a "for each" loop, though. All the args that I pass are expanded, but I can't do anything with them, individually. I have no names for my macro's parameters &mdash; just the anonymous <em>...</em>.
+
+### But it's not enough
+
+That doesn't let me do a "for each" loop, though. All the args that I pass are expanded, but I can't do anything with them, individually. I have no names for my macro's parameters &mdash; just the anonymous <code>...</code>
 
 I went poking around, not expecting to find a solution, but I was pleasantly surprised.
 
+### The "paired, sliding arg list" trick
 
-<h3>The "paired, sliding arg list" trick</h3>
 The next building block we need is a technique that uses two complementary macros plus <code>__VA_ARGS__</code> to select something specific out of a macro arg list of unknown size. I found it in an <a href="http://stackoverflow.com/a/11763277" target="_blank" rel="noopener">answer on stackoverflow.com</a>, and you can parse it all out directly from there, but the magic's a little opaque. Here's an explanation that takes it one step at a time:
 
-https://gist.github.com/dhh1128/62770dd17c6632cf0abe
+[gist](https://gist.github.com/dhh1128/62770dd17c6632cf0abe]
 
 See how it works? The first macro, <code>_GET_NTH_ARG()</code>, takes any number of args >= <em>N</em>, but always returns item <em>N</em> (in this case, <em>N</em>=5). The second macro, <code>COUNT_VARARGS(...)</code>, takes an arbitrary number of args < <em>N</em>, pads with candidate values it wants to extract, and uses its args to call <code>_GET_NTH_ARG()</code> in a way that puts the right candidate value in the known <em>N</em> position. In this case, the meaningful piece of info that we want in position <em>N</em> is an arg count; we've provided the values <code>4, 3, 2, 1</code> as candidate values, and one of those values will be in position <em>N</em> on expansion.
 
@@ -122,16 +129,18 @@ Tweaking this macro pair to handle a different <em>N</em> is a matter of adjusti
 
 We don't have to select a numeric count with this technique; we could use it to select arg names with the <code>#</code> operator, or even other macros. This will come in handy in a moment. But first, let's address one shortcoming: <code>COUNT_VARARGS(...)</code> doesn't handle the case of zero args. Here's the fix:
 
-https://gist.github.com/dhh1128/0cf088f4f681f619b051
-<h3>Macro overrides</h3>
+[gist](https://gist.github.com/dhh1128/0cf088f4f681f619b051)
+
+### Macro overrides
 Now, we can build on this to define a variadic macro that has an expansion overridden by how many args it receives. This is what the original stackoverflow answer did. Something like this:
 
-https://gist.github.com/dhh1128/36bc220b10f6dafefa33
+[gist](https://gist.github.com/dhh1128/36bc220b10f6dafefa33)
 
 Now we're getting close to being able to code a "for each" loop over all the args to a variadic macro. If the macro that gets overridden has a "for each" flavor, it all comes together:
 
-https://gist.github.com/dhh1128/d1dd24b492819c65f1e1
-<h3>Okay, but why?</h3>
+[gist](https://gist.github.com/dhh1128/d1dd24b492819c65f1e1)
+
+### Okay, but why?
 I said I'd provide some explanation of why this technique could be useful. In general, I am not a fan of macros rewriting the syntax of a programming language; that can obscure what's really happening, and make for a steeper learning curve.
 
 On the other hand, sometimes they are really helpful. They can make code much less verbose/repetitive by eliminating noise and boilerplate. Occasionally, I run into cases where that tradeoff seems worth it to me.
