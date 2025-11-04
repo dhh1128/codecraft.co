@@ -107,7 +107,10 @@ The first piece of magic you need to do something like this is <code>__VA_ARGS__
 
 Nice. <code>__VA_ARGS__</code> is a standard feature of C99, and I've known about it for a long time. I've also known about GCC (and Clang's) extension, which attaches special meaning to <code>##__VA_ARGS__</code> if it's preceded by a comma &mdash; it removes the comma if <code>##__VA_ARGS__</code> expands to nothing. If I change my macro definition to:
 
-[gist](https://gist.github.com/dhh1128/a0972d8750c3d57f4c0a004dd04a5416)
+```cpp
+#define eprintf(fmt, ...) \
+    fprintf(stderr, fmt, __VA_ARGS__)
+```
 
 ...I can now call <code>eprintf("hello, world");</code> without a complaint from the compiler.
 
@@ -121,7 +124,26 @@ I went poking around, not expecting to find a solution, but I was pleasantly sur
 
 The next building block we need is a technique that uses two complementary macros plus <code>__VA_ARGS__</code> to select something specific out of a macro arg list of unknown size. I found it in an <a href="http://stackoverflow.com/a/11763277" target="_blank" rel="noopener">answer on stackoverflow.com</a>, and you can parse it all out directly from there, but the magic's a little opaque. Here's an explanation that takes it one step at a time:
 
-[gist](https://gist.github.com/dhh1128/62770dd17c6632cf0abe]
+```cpp
+// Accept any number of args >= N, but expand to just the Nth one. In this case,
+// we have settled on 5 as N. We could pick a different number by adjusting
+// the count of throwaway args before N. Note that this macro is preceded by
+// an underscore--it's an implementation detail, not something we expect people
+// to call directly.
+#define _GET_NTH_ARG(_1, _2, _3, _4, N, ...) N
+
+// Count how many args are in a variadic macro. Only works for up to N-1 args.
+#define COUNT_VARARGS(...) _GET_NTH_ARG(__VA_ARGS__, 4, 3, 2, 1)
+
+int main() {
+    printf("one arg: %d\n", COUNT_VARARGS(1));
+    printf("three args: %d\n", COUNT_VARARGS(1, 2, 3));
+}
+ 
+// ------ output --------
+one arg: 1
+three args: 3
+```
 
 See how it works? The first macro, <code>_GET_NTH_ARG()</code>, takes any number of args >= <em>N</em>, but always returns item <em>N</em> (in this case, <em>N</em>=5). The second macro, <code>COUNT_VARARGS(...)</code>, takes an arbitrary number of args < <em>N</em>, pads with candidate values it wants to extract, and uses its args to call <code>_GET_NTH_ARG()</code> in a way that puts the right candidate value in the known <em>N</em> position. In this case, the meaningful piece of info that we want in position <em>N</em> is an arg count; we've provided the values <code>4, 3, 2, 1</code> as candidate values, and one of those values will be in position <em>N</em> on expansion.
 
@@ -129,16 +151,93 @@ Tweaking this macro pair to handle a different <em>N</em> is a matter of adjusti
 
 We don't have to select a numeric count with this technique; we could use it to select arg names with the <code>#</code> operator, or even other macros. This will come in handy in a moment. But first, let's address one shortcoming: <code>COUNT_VARARGS(...)</code> doesn't handle the case of zero args. Here's the fix:
 
-[gist](https://gist.github.com/dhh1128/0cf088f4f681f619b051)
+```cpp
+// Accept any number of args >= N, but expand to just the Nth one. The macro
+// that calls us still only supports 4 args, but the set of values we might
+// need to return is 1 larger, so we increase N to 6.
+#define _GET_NTH_ARG(_1, _2, _3, _4, _5, N, ...) N
+ 
+// Count how many args are in a variadic macro. We now use GCC/Clang's extension to
+// handle the case where ... expands to nothing. We must add a placeholder arg before
+// ##__VA_ARGS__ (its value is totally irrelevant, but it's necessary to preserve
+// the shifting offset we want). In addition, we must add 0 as a valid value to be in
+// the N position.
+#define COUNT_VARARGS(...) _GET_NTH_ARG("ignored", ##__VA_ARGS__, 4, 3, 2, 1, 0)
+
+int main() {
+    printf("zero args: %d\n", COUNT_VARARGS());
+    printf("three args: %d\n", COUNT_VARARGS(1, 2, 3));
+}
+
+// ------ output --------
+zero args: 0
+three args: 3
+```
 
 ### Macro overrides
 Now, we can build on this to define a variadic macro that has an expansion overridden by how many args it receives. This is what the original stackoverflow answer did. Something like this:
 
-[gist](https://gist.github.com/dhh1128/36bc220b10f6dafefa33)
+```cpp
+// Define two overrides that can be used by the expansion of 
+// our main macro.
+#define _MY_CONCAT3(a, b, c) a b c
+#define _MY_CONCAT2(a, b) a b
+
+// Define a macro that uses the "paired, sliding arg list"
+// technique to select the appropriate override. You should
+// recognize this as similar to the GET_NTH_ARG() macro in
+// previous examples.
+#define _GET_OVERRIDE(_1, _2, _3, NAME, ...) NAME
+
+// Define a macro that concats either 3 or 2 strings together.
+#define MY_CONCAT(...) _GET_OVERRIDE(__VA_ARGS__, \
+    _MY_CONCAT3, _MY_CONCAT2)(__VA_ARGS__)
+
+int main() {
+    printf("3 args: %s\n", MY_CONCAT("a", "b", "c"));
+    printf("2 args: %s", MY_CONCAT("a", "b"));
+}
+ 
+// ------ output --------
+3 args: abc
+2 args: ab
+```
 
 Now we're getting close to being able to code a "for each" loop over all the args to a variadic macro. If the macro that gets overridden has a "for each" flavor, it all comes together:
 
-[gist](https://gist.github.com/dhh1128/d1dd24b492819c65f1e1)
+```cpp
+// Accept any number of args >= N, but expand to just the Nth one.
+// Here, N == 6.
+#define _GET_NTH_ARG(_1, _2, _3, _4, _5, N, ...) N
+
+// Define some macros to help us create overrides based on the
+// arity of a for-each-style macro.
+#define _fe_0(_call, ...)
+#define _fe_1(_call, x) _call(x)
+#define _fe_2(_call, x, ...) _call(x) _fe_1(_call, __VA_ARGS__)
+#define _fe_3(_call, x, ...) _call(x) _fe_2(_call, __VA_ARGS__)
+#define _fe_4(_call, x, ...) _call(x) _fe_3(_call, __VA_ARGS__)
+
+/**
+ * Provide a for-each construct for variadic macros. Supports up
+ * to 4 args.
+ *
+ * Example usage1:
+ *     #define FWD_DECLARE_CLASS(cls) class cls;
+ *     CALL_MACRO_X_FOR_EACH(FWD_DECLARE_CLASS, Foo, Bar)
+ *
+ * Example usage 2:
+ *     #define START_NS(ns) namespace ns {
+ *     #define END_NS(ns) }
+ *     #define MY_NAMESPACES System, Net, Http
+ *     CALL_MACRO_X_FOR_EACH(START_NS, MY_NAMESPACES)
+ *     typedef foo int;
+ *     CALL_MACRO_X_FOR_EACH(END_NS, MY_NAMESPACES)
+ */
+#define CALL_MACRO_X_FOR_EACH(x, ...) \
+    _GET_NTH_ARG("ignored", ##__VA_ARGS__, \
+    _fe_4, _fe_3, _fe_2, _fe_1, _fe_0)(x, ##__VA_ARGS__)
+```
 
 ### Okay, but why?
 I said I'd provide some explanation of why this technique could be useful. In general, I am not a fan of macros rewriting the syntax of a programming language; that can obscure what's really happening, and make for a steeper learning curve.
