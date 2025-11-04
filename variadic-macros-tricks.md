@@ -103,13 +103,16 @@ I learned how to do this today, and I wanted to blog about it to cement the tech
 
 The first piece of magic you need to do something like this is <code>__VA_ARGS__</code>. This allows you to write macros that take an arbitrary number of arguments, using <code>...</code> to represent the macro's parameters:
 
-[gist](https://gist.github.com/dhh1128/4f2e50c5aa23589ad4ad)
+```cpp
+#define eprintf(fmt, ...) \
+    fprintf(stderr, fmt, __VA_ARGS__)
+```
 
 Nice. <code>__VA_ARGS__</code> is a standard feature of C99, and I've known about it for a long time. I've also known about GCC (and Clang's) extension, which attaches special meaning to <code>##__VA_ARGS__</code> if it's preceded by a comma &mdash; it removes the comma if <code>##__VA_ARGS__</code> expands to nothing. If I change my macro definition to:
 
 ```cpp
 #define eprintf(fmt, ...) \
-    fprintf(stderr, fmt, __VA_ARGS__)
+    fprintf(stderr, fmt, ##__VA_ARGS__)
 ```
 
 ...I can now call <code>eprintf("hello, world");</code> without a complaint from the compiler.
