@@ -34,17 +34,19 @@ comments:
     comment: |
       Hi Daniel,
       I found this recursive implementation useful in some mocking/unit testing work &mdash; thanks! Wrapped it and some extensions in a ruby generator script for an arbitrary number of arguments here  if it's of any use to anyone else:
-      https://github.com/cormacc/va_args_iterators
+      [https://github.com/cormacc/va_args_iterators](https://github.com/cormacc/va_args_iterators)
   - author: Rune Paamand
     date: 2019-10-01 01:35:40
     comment: |
       Mind that your examples will not work on MSVC where the variadic macro does not expand. You need an expansion step to achieve the `COUNT_VARARGS`:
       
+      ```cpp
       // Count how many args are in a variadic macro. Only works for up to N-1 args.
       #define RETURN_ARG_COUNT(_1, _2, _3, _4, N, ...) N
       #define EXPAND_ARGS(args) args
       // Notice double parenthesis for expansion single to var arguments
       #define COUNT_VARARGS(...) RETURN_ARG_COUNT EXPAND_ARGS((__VA_ARGS__, 4, 3, 2, 1, 0))
+      ```
   - author: Daniel Hardman
     date: 2019-10-02 07:03:03
     comment: |
@@ -54,6 +56,7 @@ comments:
     comment: |
       Hi Daniel, thank you a lot for these macro hacks which are awesome, I knew all of them except the "for each" macro, it doesn't work in MSVC out of the box, here is a trick for those who want to make it work!
       
+      <pre>
       #define EXPAND(x) x
       
       #define _GET_NTH_ARG(_1, _2, _3, _4, N, ...) N
@@ -73,6 +76,7 @@ comments:
       {
       	CALL_MACRO_X_FOR_EACH(FWD_DECLARE_CLASS, Foo, Bar, Baz, Fubar);
       }
+      </pre>
   - author: Daniel Hardman
     date: 2019-10-04 15:31:27
     comment: |
