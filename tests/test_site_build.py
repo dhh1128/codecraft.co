@@ -138,6 +138,14 @@ def test_no_back_link_on_index(built):
     assert "back-link" not in index, "the home/TOC page should not have a '← back' link"
 
 
+def test_no_status_badges_on_the_site(built):
+    """README carries the CI badge for GitHub; the published site must not."""
+    out, _ = built
+    index = (out / "docs" / "index.md").read_text(encoding="utf-8")
+    assert "badge.svg" not in index and "/badge" not in index, \
+        "status badges belong in README (GitHub view), not on the site TOC"
+
+
 def test_back_link_is_print_hidden_in_css(built):
     out, _ = built
     css = (out / "docs" / "stylesheets" / "extra.css").read_text(encoding="utf-8")

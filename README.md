@@ -1,123 +1,70 @@
-* [2 Surprising Truths About the Iron Triangle](2-surprising-truths-about-the-iron-triangle)
-* [3 Commandments of Performance Optimization](3-commandments-of-performance-optimization)
-* [3 Reasons to Prefer References Over Pointers](3-reasons-to-prefer-references-over-pointers)
-* [6.0 Syndrome](6-0-syndrome)
-* [6 Strategies to Simplify Software](6-strategies-to-simplify-software)
-* [A Better Way to Put Data in Code](a-better-way-to-put-data-in-code)
-* [A Comedy of Carelessness](a-comedy-of-carelessness)
-* [A Grumble About Buckets](a-grumble-about-buckets)
-* [A More Important Manifesto](a-more-important-manifesto)
-* [A Quibble with Martin's Optimize Later Notion](a-quibble-with-martins-optimize-later-notion)
-* [Add Some More Extra Redundancy Again](add-some-more-extra-redundancy-again)
-* [Adios to Computer Programming](adios-to-computer-programming)
-* [All I Really Need to Know I Didn't Learn in Compugarten](all-i-really-need-to-know-i-didnt-learn-in-compugarten)
-* [Annotating the Web](annotating-the-web)
-* [Architects: Manage Risk Like a Vegas Bookie](architects-manage-risk-like-a-vegas-bookie)
-* [Are You Losing Enough Battles?](are-you-losing-enough-battles)
-* [Baby Steps](baby-steps)
-* [Big Crud Isn't Big Data](big-crud-isnt-big-data)
-* [Big Data in Motion](big-data-in-motion)
-* [Book Review: Poke the Box](book-review-poke-the-box)
-* [Book Review: Universal Principles of Design](book-review-universal-principles-of-design)
-* [Bridging the Lacuna Humana](bridging-the-lacuna-humana)
-* [Code Isn't Art](code-isnt-art)
-* [Coding Standards](coding-standards)
-* [Comments on Comments](comments-on-comments)
-* [Convoys As a Model For Distributed Architectures](convoys-as-a-model-for-distributed-architectures)
-* [Coping with Organizational Alzheimers](coping-with-organizational-alzheimers)
-* [Courage Counts](courage-counts)
-* [Decoupling Interfaces As Versions Evolve, Part 1](decoupling-interfaces-as-versions-evolve-part-1)
-* [Decoupling Interfaces As Versions Evolve, Part 2](decoupling-interfaces-as-versions-evolve-part-2)
-* [Decoupling Interfaces As Versions Evolve, Part 3](decoupling-interfaces-as-versions-evolve-part-3)
-* [Designing an Apex Predator](designing-an-apex-predator)
-* [Do Androids Browse For Electric Sheep?](do-androids-browse-for-electric-sheep)
-* [Don Kleinschnitz: Put a Stake In the Ground](don-kleinschnitz-stake)
-* [Don't Forget the Circuit Breakers](dont-forget-the-circuit-breakers)
-* [Earned Pragmatism](earned-pragmatism)
-* [Encapsulation Isn't Just For Code](encapsulation-isnt-just-for-code)
-* [Evolving Software Politics](evolving-software-politics)
-* [Example RPCD Interaction](example-rpcd-interaction)
-* [Exploring the Power of Deixis](exploring-the-power-of-deixis)
-* [Farewell to Google Reader](farewell-to-google-reader)
-* [Features Are Not Chunks of Code](features-are-not-chunks-of-code)
-* [Flexibility Is No Virtue](flexibility-is-no-virtue)
-* [George and the Flood](george-and-the-flood)
-* [Good Code Is Balanced](good-code-is-balanced)
-* [Good Code Is Named Right](good-code-is-named-right)
-* [Good Code Is Optimized](good-code-is-optimized)
-* [Good Code Plans For Problems](good-code-plans-for-problems)
-* [Good Fences Make Good Neighbors](good-fences-make-good-neighbors)
-* [Grumpy Old Men, Opacity, and Optimizers](grumpy-old-men-opacity-and-optimizers)
-* [Hair Raising Words](hair-raising-words)
-* [Headers, Babies, and Bathwater](headers-babies-and-bathwater)
-* [High-Value Questions](high-value-questions)
-* [How Enums Spread Disease and How to Cure It](how-enums-spread-disease-and-how-to-cure-it)
-* [How Software Is Like Biology](how-software-is-like-biology)
-* [How Sutter's Wrong About Const in CPP 11](how-sutters-wrong-about-const-in-cpp-11)
-* [How to Make a Const Correct Codebase in 4300 Easy Steps](how-to-make-a-const-correct-codebase-in-4300-easy-steps)
-* [How to Point in Code](how-to-point-in-code)
-* [Humility](humility)
-* [In Which Warnings Evolve Wings](in-which-warnings-evolve-wings)
-* [Interrupting My Interruptions](interrupting-my-interruptions)
-* [Introducing Marks](introducing-marks)
-* [Julie Jones: Learn Voraciously](julie-jones-learn-voraciously)
-* [Ken Ebert: Kill Three Birds](ken-ebert-kill-three-birds)
-* [Know Your Limits](know-your-limits)
-* [Lacunas Everywhere](lacunas-everywhere)
-* [Learned Helplessness, Rats, and People Power](learned-helplessness-rats-and-people-power)
-* [Long Term Benefits of RPCD](long-term-benefits-of-rpcd)
-* [Lynn Bendixsen: Listen](lynn-bendixsen-listen)
-* [Manifestos](manifestos)
-* [Measurements, Plumb Lines, and System Thinking](measurements-plumb-lines-and-system-thinking)
-* [Mountains, Molehills, and Markedness](mountains-molehills-and-markedness)
-* [My Bibifi Adventure](my-bibifi-adventure)
-* [My First Software-Defined Supercompute Cluster](my-first-software-defined-supercompute-cluster)
-* [My First Tangle with the Tower of Babel](my-first-tangle-with-the-tower-of-babel)
-* [On Bread Recipes, Maps, and Intentions](on-bread-recipes-maps-and-intentions)
-* [On Forests and Trees](on-forests-and-trees)
-* [On Pains and Brains](on-pains-and-brains)
-* [On SEPs, Squirrels, and Meta Questions](on-seps-squirrels-and-meta-questions)
-* [Paying Off Technical Debt](paying-off-technical-debt)
-* [Programmers: Learn How to Cloudify](programmers-learn-how-to-cloudify)
-* [Programming Language Popularity Index](programming-language-popularity-inde)
-* [Progressive Disclosure Everywhere](progressive-disclosure-everywhere)
-* [Put Your Const Foot Forward](put-your-const-foot-forward)
-* [Rockstars](rockstars)
-* [Roland Whatcott: Manage Momentum](roland-whatcott-manage-momentum)
-* [Role Models](role-models)
-* [Role Play Centered Design](role-play-centered-design)
-* [Six Learning Tips For Tech Folks](six-learning-tips-for-tech-folks)
-* [Small Files Are Your Friends](small-files-are-your-friends)
-* [Smart Geeks Think Like Cheerleaders](smart-geeks-think-like-cheerleaders)
-* [Steve Jackson: Lead with Passion](steve-jackson-lead-with-passion)
-* [Steve Tolman: It Depends](steve-tolman-it-depends)
-* [Taming Side Agreements](taming-side-agreements)
-* [Tech Debt, Leverage, and Grandmas Envelope](tech-debt-leverage-and-grandmas-envelope)
-* [The 8th Characteristic](the-8th-characteristic)
-* [The Power of Simplicity](the-power-of-simplicity)
-* [The Scaling Fallacy](the-scaling-fallacy)
-* [The Third Half of Computational Economics](the-third-half-of-computational-economics)
-* [Unencapsulate Yourself](unencapsulate-yourself)
-* [Use Kind Words](use-kind-words)
-* [Users Aren't the Only People in Your Software](users-arent-the-only-people-in-your-software)
-* [Variadic Macros Tricks](variadic-macros-tricks)
-* [Weakened Dev Teams NIH](weakened-dev-teams-nih)
-* [What a Software Architect Is Not](what-a-software-architect-is-not)
-* [What Are Your Software's Vital Signs?](what-are-your-softwares-vital-signs)
-* [What Is a Software Architect?](what-is-a-software-architect)
-* [What Is Good Code?](what-is-good-code)
-* [What Role Are You Playing in RPCD?](what-role-are-you-playing-in-rpcd)
-* [What Should Be in Next C Compiler](what-should-be-in-next-c-compiler)
-* [What Should Code Look Like When We Squint at It](what-should-code-look-like-when-we-squint-at-it)
-* [When Good Comments Mean Bad Language](when-good-comments-mean-bad-language)
-* [Why Cannibalism May Be Smart Business](why-cannibalism-may-be-smart-business)
-* [Why Exceptions Aren't Enough](why-exceptions-arent-enough)
-* [Why I Don't Blog About Great Code](why-i-dont-blog-about-great-code)
-* [Why Mental Models Matter](why-mental-models-matter)
-* [Why People Are Part of a Software Architecture](why-people-are-part-of-a-software-architecture)
-* [Why Software Artisans Should Manage Their Influence](why-software-artisans-should-manage-their-influence)
-* [Why We Need Try Finally, Not Just RAII](why-we-need-try-finally-not-just-raii)
-* [Why You Should Be Proficient in a Tool Like Vim Or Emacs](why-you-should-be-proficient-in-a-tool-like-vim-or-emacs)
-* [Why You Should Use an Ide Instead of Vim Or Emacs](why-you-should-use-an-ide-instead-of-vim-or-emacs)
-* [Why Your Software Should Cry](why-your-software-should-cry)
-* [Why](why)
+# Codecraft
+
+[![CI](https://github.com/dhh1128/codecraft.co/actions/workflows/ci.yml/badge.svg)](https://github.com/dhh1128/codecraft.co/actions/workflows/ci.yml)
+
+*software = science + art + people*
+
+A curated anthology of essays on software architecture and the craft of
+programming, by Daniel Hardman — published at
+**[codecraft.co](https://codecraft.co)**.
+
+This repository holds the essay sources (Markdown), the owned images, and a
+tested Python toolkit that maintains and publishes them. The site is built with
+Zensical (the actively-maintained MkDocs-Material successor).
+
+> **New here? Read [AGENTS.md](AGENTS.md) first** — it's the single source of
+> truth for vision, conventions, and how to work in this repo. The tickable
+> plan is in [ROADMAP.md](ROADMAP.md); the metadata schema and ID convention
+> are in [docs/conventions.md](docs/conventions.md).
+
+## Quick start
+
+```bash
+git clone git@github.com:dhh1128/codecraft.co.git
+cd codecraft.co
+./build.sh            # assemble the essays + run zensical build → build/site/
+```
+
+Live preview while editing:
+
+```bash
+cd build && zensical serve     # http://127.0.0.1:8000
+```
+
+Run the test suite — it *proves* the quality goals, so `pytest` green means
+publication-ready:
+
+```bash
+pip install -r requirements.txt
+pytest
+```
+
+## How it's built
+
+The root-level `*.md` files are the canonical essay sources. `build.sh` runs
+`scripts/build_site.py`, an *assembler* that generates a disposable MkDocs tree
+under `build/` (gitignored), then `zensical build` renders `build/site/`. The
+site's table of contents is the generated `index.md` — **this README is not part
+of the published site.**
+
+## Toolkit (`scripts/`)
+
+Every quality goal is a script plus a prover test in `tests/` (`pytest`).
+
+| Script | Purpose |
+|---|---|
+| `build_site.py` | Assemble the essays into the Zensical site |
+| `assign_ids.py` | Assign permanent `CC-YYMMOO` item-ids and tags |
+| `fix_frontmatter.py` | Repair WordPress-export YAML frontmatter |
+| `lint_wordpress.py` | Strip WordPress residue (captions, pingbacks, …) |
+| `inventory_images.py` | Catalog every image into the triage manifest |
+| `check_images.py` | Gate: no external/broken images; alt-text present |
+| `apply_image_triage.py` | Localize owned images per the manifest |
+| `recover_wikimedia.py` | Recover broken Wikimedia images + record rights |
+
+## License
+
+Content is licensed
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) unless
+otherwise noted. Per-image rights and provenance are tracked in
+[`assets/CREDITS.yml`](assets/CREDITS.yml).
