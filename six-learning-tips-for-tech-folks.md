@@ -2,7 +2,7 @@
 title: Six Learning Tips For Tech Folks
 date: 2012-09-25
 slug: six-learning-tips-for-tech-folks
-item_id: CC-120915
+item_id: CC-120914
 tags: [learning]
 redirect_from:
   - /2012/09/25/six-learning-tips-for-tech-folks

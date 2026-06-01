@@ -2,7 +2,7 @@
 title: "Julie Jones: Learn voraciously."
 date: 2012-09-24
 slug: julie-jones-learn-voraciously
-item_id: CC-120914
+item_id: CC-120913
 tags: [learning]
 series: "Mentors"
 redirect_from:

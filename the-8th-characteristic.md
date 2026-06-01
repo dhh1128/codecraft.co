@@ -2,7 +2,7 @@
 title: The 8th Characteristic
 date: 2012-09-28
 slug: the-8th-characteristic
-item_id: CC-120917
+item_id: CC-120916
 tags: [meta, systems]
 redirect_from:
   - /2012/09/28/the-8th-characteristic

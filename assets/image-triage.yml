@@ -250,22 +250,6 @@ images:
   local_match: casablanca-scene.jpg
   alt: ''
   disposition: own
-- essay: code-isnt-art.md
-  type: img
-  kind: local
-  host: ''
-  src: assets/modern-art.jpg
-  local_match: modern-art.jpg
-  alt: ''
-  disposition: own
-- essay: code-isnt-art.md
-  type: img
-  kind: external
-  host: lh5.googleusercontent.com
-  src: https://lh5.googleusercontent.com/-JeFtN8B6Ogc/AAAAAAAAAAI/AAAAAAAABQc/SgA4WJc7j20/s250-c-k/photo.jpg
-  local_match: ''
-  alt: ''
-  disposition: ''
 - essay: coding-standards.md
   type: img
   kind: local
@@ -936,30 +920,6 @@ images:
   host: codecraft.co
   src: http://codecraft.co/wp-content/uploads/2013/02/screen-shot-2013-02-04-at-9-42-59-pm.png
   local_match: screen-shot-2013-02-04-at-9-42-59-pm.png
-  alt: ''
-  disposition: own
-- essay: steve-jackson-lead-with-passion.md
-  type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2013/09/gokart.png
-  local_match: gokart.png
-  alt: Whether it was go karts or pop-bottle rockets, Jackson always found a way to combine mentoring with fun.
-  disposition: own
-- essay: steve-jackson-lead-with-passion.md
-  type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2013/09/steve-tolman.png
-  local_match: steve-tolman.png
-  alt: steve-tolman
-  disposition: own
-- essay: steve-jackson-lead-with-passion.md
-  type: link
-  kind: wp
-  host: ''
-  src: ../../../wp-content/uploads/2013/09/steve-tolman.png
-  local_match: steve-tolman.png
   alt: ''
   disposition: own
 - essay: steve-tolman-it-depends.md

@@ -7,6 +7,8 @@ tags: [craft]
 series: "What Is Good Code"
 redirect_from:
   - /2012/08/26/what-is-good-code
+  - /code-isnt-art               # archived guest post (Jesse Harris)
+  - /2012/09/23/code-isnt-art
 comments:
   - author: Daniel
     date: 2012-10-01 10:24:48

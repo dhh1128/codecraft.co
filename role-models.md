@@ -7,6 +7,8 @@ tags: [learning]
 series: "Mentors"
 redirect_from:
   - /2012/09/12/role-models
+  - /steve-jackson-lead-with-passion          # archived guest post (Steve Tolman)
+  - /2013/09/30/steve-jackson-lead-with-passion
 ---
 
 <p style="text-align:right;"><em>This is the inaugural post in <a href="/category/role-models/">a series that highlights people who've influenced me</a>.</em></p>

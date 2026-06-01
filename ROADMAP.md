@@ -52,6 +52,7 @@ _M1 pure items complete; remaining M1 work folded into M2._
 - [ ] Validate the whole corpus against the schema
 
 ## M3.5 — Curation gate
+- [x] Archive the 2 guest posts by other authors → `archive/` (excluded from build): `code-isnt-art` (Jesse Harris), `steve-jackson-lead-with-passion` (Steve Tolman). Authorship recorded; old URLs redirect to `what-is-good-code` / `role-models`; corpus 123 → 121. Guard test `tests/test_archive.py`.
 - [ ] Per-essay keep/retire decision; set `status: published | retired`
 - [ ] Confirm retired essays are excluded from index, sitemap, and PDFs (but kept in repo)
 

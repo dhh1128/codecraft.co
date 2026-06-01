@@ -1,11 +1,12 @@
 ---
 title: Code Isn't Art
+author: Jesse Harris
+archived: true
+note: Guest post by Jesse Harris. Archived (not published); redirect lives on what-is-good-code.
 date: 2012-09-23
 slug: code-isnt-art
 item_id: CC-120913
 tags: [meta, craft]
-redirect_from:
-  - /2012/09/23/code-isnt-art
 comments:
   - author: Daniel
     date: 2012-09-23 17:55:58
