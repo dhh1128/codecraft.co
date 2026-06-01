@@ -89,8 +89,8 @@ item-id format/uniqueness/determinism, and tag validity/coverage.
 - [ ] `check_seo.py` ↔ test: required SEO fields present + within length, no dupes
 - [ ] `build_pdfs.py` ↔ test: a current PDF exists per published essay
 - [ ] `lint_wordpress.py` ↔ test: no `[caption]`, `wp-content`, or WP residue
-- [ ] CI: add `check-requirements.yml` (pytest + `--check-only`); keep scheduled link-check
-- [ ] Bump CI actions off deprecated `node20` versions when touched
+- [x] CI: `.github/workflows/ci.yml` runs pytest + the `--check-only` guards on every push/PR; status badge in README. Keep scheduled link-check.
+- [x] Pin CI actions to node24 (`checkout@v6`, `setup-python@v6`; verified `setup-python@v5` is node20)
 
 ## M8 — Book (Amazon KDP)
 - [ ] Define selection criteria; mark chosen essays `book: true`

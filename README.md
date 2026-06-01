@@ -1,3 +1,5 @@
+[![CI](https://github.com/dhh1128/codecraft.co/actions/workflows/ci.yml/badge.svg)](https://github.com/dhh1128/codecraft.co/actions/workflows/ci.yml)
+
 * [2 Surprising Truths About the Iron Triangle](2-surprising-truths-about-the-iron-triangle)
 * [3 Commandments of Performance Optimization](3-commandments-of-performance-optimization)
 * [3 Reasons to Prefer References Over Pointers](3-reasons-to-prefer-references-over-pointers)
