@@ -11,7 +11,8 @@ _Created 2026-06-01._
 
 **Locked decisions:** images case-by-case (own/generate/redraw/drop); comments →
 collapsed appendix; prose = mechanical fixes only; public archive is itself
-curated (`status: published | retired`, `book: true` subset).
+curated (`status: published | retired`, `book: true` subset); **publishing
+platform = Zensical** (replaces Jekyll, decided 2026-06-01).
 
 ---
 
@@ -30,7 +31,7 @@ curated (`status: published | retired`, `book: true` subset).
 - [x] Convert `[caption]` shortcodes to clean `<figure>` markup (19 blocks in 17 essays) — `scripts/lint_wordpress.py`, test `tests/test_no_wordpress_residue.py`
 - [x] Audit & repair garbled/missing post metadata — done via the frontmatter repair + ID/date backfill above
 - [x] Drop pingback/trackback comments; keep genuine human comments — `scripts/lint_wordpress.py` (245 lines across 33 essays; « marker), test `test_no_pingback_comments`
-- [x] Move comments to a collapsed `<details>` appendix in `_layouts/default.html` (also fixed the stray `</h2>`); test `tests/test_layout.py`
+- [x] Move comments to a collapsed appendix — originally a Jekyll `<details>` in `_layouts/default.html`; superseded in M3.6 by the Zensical `??? quote` admonition. The guarantee now lives on the real build output (`tests/test_site_build.py`); the legacy `tests/test_layout.py` was retired with the Jekyll layout.
 - → _Moved to M2 (entangled with the image inventory; 22/23 wp-content images already in `assets/`):_ resolve `wp-content` refs, fix malformed image URLs (`staticfliccom`, `static.flickr.com`), normalize `<img>` tags
 
 _M1 pure items complete; remaining M1 work folded into M2._
@@ -56,6 +57,17 @@ _M1 pure items complete; remaining M1 work folded into M2._
 - [ ] Per-essay keep/retire decision; set `status: published | retired`
 - [ ] Confirm retired essays are excluded from index, sitemap, and PDFs (but kept in repo)
 
+## M3.6 — Platform migration (Jekyll → Zensical)
+- [x] Decide platform: **Zensical** (MkDocs-Material successor), validated by a full-corpus build (de-risked via a 6-essay spike first)
+- [x] `scripts/build_site.py` — the assembler: root essays → disposable `build/` MkDocs tree; `build.sh` wraps assemble + `zensical build`; test `tests/test_site_build.py` (8 tests)
+- [x] Reader comments → collapsed `??? quote` admonition ("Original discussion"); `md_in_html`+`attr_list` render the inline `<figure>`/`<img>`; page frontmatter slimmed to title+tags
+- [x] Legacy `redirect_from` URLs preserved as self-contained meta-refresh HTML stubs (no dependence on `mkdocs-redirects`; Zensical plugin-compat is narrow)
+- [x] House styling ported → `assets/css/zensical-extra.css` (Barlow Condensed/Open Sans, brown palette, print-without-sidebar, mobile)
+- [ ] GitHub Actions **publish** workflow: `build.sh` → GitHub Pages (pin actions to `node24`); retire Jekyll auto-build
+- [ ] Provisional `build/docs/index.md` TOC + tag-grouped nav are first-pass — finalize under M4
+- [ ] Clean up the 138 internal-link warnings the build surfaces (legacy `/category/…` and cross-essay links) — feeds M4/M7
+- [ ] Once deploy is live, retire the legacy Jekyll files (`_config.yml`, `_layouts/`, `_includes/`, `assets/css/style.scss`)
+
 ## M4 — Navigation, cross-refs & citations
 - [ ] Decide the primary TOC structure now that essays are tag-classified (no single category): e.g. a curated reading order / section set keyed off each essay's first tag, with tags as secondary "see also" nav — keep the anthology feel, avoid a blog-style tag cloud
 - [ ] Generate tag-aware, date-aware `index.md` (published only)
@@ -65,8 +77,8 @@ _M1 pure items complete; remaining M1 work folded into M2._
 - [ ] Normalize external citations; verify each source resolves or is archived
 
 ## M5 — SEO posture
-- [ ] Per-page SEO fields feed `jekyll-seo-tag` (title/description/keywords)
-- [ ] JSON-LD structured data (`Article`/`BlogPosting`) in the layout
+- [ ] Per-page SEO fields → Zensical/Material meta (title/description/keywords) via the assembler (was `jekyll-seo-tag`)
+- [ ] JSON-LD structured data (`Article`/`BlogPosting`) injected by the assembler / a Material partial
 - [ ] `sitemap.xml`, canonical URLs, corrected `robots.txt`
 - [ ] Open Graph + Twitter card images
 - [ ] Verify **all** legacy WordPress `redirect_from` URLs still resolve
@@ -83,6 +95,7 @@ Live suite: `tests/` (run `pytest`) — 10 tests green covering frontmatter pars
 item-id format/uniqueness/determinism, and tag validity/coverage.
 - [~] `validate_frontmatter.py` ↔ test: `tests/test_frontmatter.py` covers required-now fields (title/date/slug/item_id/tags); M3 fields (status/keywords/abstract/version/revision_date) still to enforce
 - [x] `assign_ids.py` ↔ test: `tests/test_item_ids.py` + `tests/test_tags.py` — unique, well-formed, deterministic ids; controlled tags
+- [x] `build_site.py` ↔ test: `tests/test_site_build.py` — assembler emits one page per published essay, slim frontmatter, comments admonition, redirect stubs, valid mkdocs.yml, styling carried over
 - [ ] `check_links.py` ↔ test: no broken internal/external links
 - [ ] `check_images.py` ↔ test: no external images; all local images exist + alt-text + quality
 - [ ] `generate_index.py` ↔ test: index/TOC in sync with corpus
@@ -108,4 +121,4 @@ item-id format/uniqueness/determinism, and tag validity/coverage.
 - [ ] Archive legacy one-shot migration scripts under `tools/migration/` (don't extend them)
 - [x] Fix Dependabot alert #1: bump `lycheeverse/lychee-action` v1.10.0 → v2.8.0 (arbitrary code injection in `< 2.0.2`); also bumped `actions/checkout` v4 → v6 (node20 → node24)
 - [ ] Keep the Dependabot security tab clean as standing hygiene (see AGENTS.md)
-- [ ] **Decision (deferred):** migrate publishing platform Jekyll → Zensical? See `../tti/home` for a working example; orthogonal to dependency hygiene
+- [x] **Decision made:** migrate publishing platform Jekyll → Zensical (see M3.6; modelled on `../tti/home`)

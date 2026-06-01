@@ -9,8 +9,9 @@
 
 A collection of ~124 essays written years ago by Daniel Hardman about software
 architecture and the craft of programming. They were authored on WordPress,
-exported, and converted to Markdown. They are published as a Jekyll site on
-GitHub Pages at **codecraft.co** (CC BY 4.0).
+exported, and converted to Markdown. Published at **codecraft.co** (CC BY 4.0).
+The site is migrating from its original Jekyll/GitHub-Pages setup to **Zensical**
+(decided 2026-06-01 — see Platform under "Decisions already made").
 
 The repo is mid-transformation: from a date-ordered WordPress blog export into a
 **curated, professional anthology of essays**. A sister repo, `../papers`,
@@ -84,37 +85,59 @@ the work here is porting and adapting that proven system.
 - **Archive scope:** the public site is itself curated. Three tiers expressed in
   frontmatter `status`: cleaned → `published` → `book: true`. Retired essays stay
   in the repo and git history but are excluded from the index, sitemap, and PDFs.
+- **Publishing platform: Zensical** (the MkDocs-Material successor; decided
+  2026-06-01, replacing Jekyll). Validated by a full-corpus build. The site is
+  produced by an **assembler**, mirroring `../tti/home`: `scripts/build_site.py`
+  reads the canonical root essays and generates a *disposable* MkDocs source tree
+  under `build/` (gitignored), then `zensical build` renders `build/site/`. One
+  command: `./build.sh`. Migration mechanics that any collaborator must preserve:
+  - **Root `*.md` essays stay canonical.** Never hand-edit `build/`; change the
+    essays (or the assembler) and rebuild.
+  - **Reader comments** → a collapsed `??? quote` admonition under an "Original
+    discussion" heading (the Zensical equivalent of the old Jekyll `<details>`).
+  - **`md_in_html` + `attr_list`** extensions are what render the inline
+    `<figure>`/`<img>` HTML; don't drop them.
+  - **Page frontmatter is slimmed** to `title` + `tags`; Jekyll-only keys
+    (`date`, `slug`, `item_id`, `redirect_from`, raw `comments`) are dropped from
+    the built page (they remain on the canonical source essay).
+  - **Legacy `redirect_from` URLs** are preserved as self-contained meta-refresh
+    HTML stubs written straight into the build tree — Zensical's mkdocs-plugin
+    compatibility is narrow, so we deliberately do **not** rely on
+    `mkdocs-redirects`.
+  - **House styling** (Barlow Condensed headings, Open Sans body, the brown
+    palette, print-without-sidebar, mobile) lives in
+    `assets/css/zensical-extra.css`, copied into the build as
+    `stylesheets/extra.css`. Edit styling there.
+  - The legacy Jekyll files (`_config.yml`, `_layouts/`, `_includes/`,
+    `assets/css/style.scss`) are retained as reference but no longer drive the
+    build; they can be retired once the Zensical deploy is live.
+  - Still TODO (own milestones): a GitHub Actions publish workflow (build →
+    Pages, `node24` actions), and porting M4/M5 features (TOC, SEO/JSON-LD,
+    sitemap) to the Zensical/Material idiom rather than Jekyll plugins.
 
 ## Open questions (decide when relevant, don't assume)
 
-- **Publishing platform.** The site currently builds with **Jekyll** on GitHub
-  Pages (no `Gemfile` — it uses Pages' built-in Jekyll, so there are no Ruby gem
-  dependencies for Dependabot to track; the only dependency surface is the
-  Actions workflows). Jekyll is blog-oriented; the author is migrating newer
-  static sites to **Zensical** (an actively-maintained successor to MkDocs,
-  MkDocs-API-compatible, more publication- than blog-oriented). A Zensical
-  migration is under consideration for this repo — see `../tti/home` for a
-  working example (`requirements.txt` pins `zensical`, `build.sh` runs
-  `zensical build`, published via `.github/workflows/publish.yml`). Not decided;
-  do not migrate without an explicit decision. Note this is **orthogonal** to
-  dependency hygiene — the link-check action must be kept current regardless of
-  the SSG.
+- _(none currently open — the publishing-platform question was resolved in favour
+  of Zensical; see Decisions above.)_
 
 ## Repository layout
 
 ```
-*.md                 essays (one file per essay; slug == filename)
-index.md / README.md  table of contents (README currently a flat list; to be replaced)
+*.md                 essays (canonical source; one file per essay; slug == filename)
+README.md            repo landing / flat TOC (the built site's TOC is build/docs/index.md)
 assets/              owned images (target: ALL images live here)
-_layouts/            Jekyll layouts (default.html renders essays + comments)
-_includes/           Jekyll partials
-_config.yml          Jekyll config (minimal remote theme, plugins)
+assets/css/zensical-extra.css  house styling for the Zensical build (fonts/colours/print)
+build.sh             one-shot build: assemble + zensical build → build/site/
+scripts/build_site.py  the assembler (root essays → MkDocs source tree)
 scripts/             durable maintenance/polish toolkit (Python) — see scripts/README.md
 tests/               pytest suite that proves the goals — see tests/README.md
-docs/                conventions (frontmatter schema, item-id convention)
+docs/                project conventions (frontmatter schema, item-id convention)
+build/               GENERATED Zensical source+site tree (gitignored; never hand-edit)
+_layouts/ _includes/ _config.yml  LEGACY Jekyll (reference only; no longer builds the site)
+assets/css/style.scss  LEGACY Jekyll stylesheet (superseded by zensical-extra.css)
 tools/               LEGACY one-shot migration scripts (1convert.py…). Do not
                      extend; new tooling goes in scripts/.
-.github/workflows/   CI (link-check today; requirements-check to be added)
+.github/workflows/   CI (pytest + guards, scheduled link-check; publish workflow TBD)
 ROADMAP.md           the tickable project plan
 ```
 

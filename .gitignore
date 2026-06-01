@@ -2,6 +2,10 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
+.venv-demo/
+
+# Generated Zensical build tree (assembled from the root essays by build_site.py)
+build/
 
 # Generated local view of the image triage manifest
 images_inventory.html

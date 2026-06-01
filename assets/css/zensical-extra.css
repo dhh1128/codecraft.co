@@ -1,0 +1,107 @@
+/* Codecraft house style on top of Material/Zensical.
+ * Carries the original Jekyll look: Barlow Condensed headings, Open Sans body,
+ * the signature brown palette, plus printable-without-sidebar and mobile rules.
+ * Source of truth lives at assets/css/zensical-extra.css; build_site.py copies
+ * it into the build tree as stylesheets/extra.css.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  /* Brand palette (light scheme). */
+  --md-primary-fg-color: #491705;
+  --md-primary-fg-color--light: #765043;
+  --md-primary-fg-color--dark: #310f03;
+  --md-accent-fg-color: #914f37;
+  --md-typeset-a-color: #914f37;
+
+  /* Fonts. */
+  --md-text-font: "Open Sans";
+  --md-text-font-family: "Open Sans", -apple-system, system-ui, sans-serif;
+}
+
+/* Body text. */
+.md-typeset {
+  font-family: "Open Sans", -apple-system, system-ui, sans-serif;
+  font-weight: 400;
+  color: #444;
+}
+
+/* Headings: condensed display face, signature browns. */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: "Barlow Condensed", "Open Sans", sans-serif;
+}
+.md-typeset h1 {
+  font-weight: 500;
+  color: #491705;
+}
+.md-typeset h2 {
+  font-weight: 400;
+}
+.md-typeset h3 {
+  font-weight: 300;
+  color: #666;
+}
+
+/* Links: keep the original underlined brown treatment. */
+.md-typeset a {
+  color: #914f37;
+  border-bottom: solid 1px #e0b69c;
+}
+.md-typeset a:hover {
+  color: #491705;
+  border-bottom: double #765043;
+}
+.md-typeset a:visited {
+  color: #765043;
+}
+
+/* Figure captions. */
+.md-typeset figcaption {
+  font-size: 85%;
+  font-style: italic;
+  color: #777;
+}
+
+/* Keep essay images from overflowing on any viewport (mobile-friendly). */
+.md-typeset img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---- Print: clean, sidebar-free, full-width essay ---- */
+@media print {
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-nav,
+  .md-content__button,
+  .md-source,
+  .md-top {
+    display: none !important;
+  }
+  .md-main__inner,
+  .md-content,
+  .md-content__inner {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+  .md-grid {
+    max-width: 100% !important;
+  }
+  .md-typeset {
+    color: #000;
+  }
+  /* Expand the collapsed "Original discussion" block so it prints in full. */
+  .md-typeset details {
+    display: block;
+  }
+  .md-typeset details > summary {
+    display: none;
+  }
+}
