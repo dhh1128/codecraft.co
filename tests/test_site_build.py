@@ -121,6 +121,31 @@ def test_mkdocs_yml_valid_and_complete(built):
     assert "stylesheets/extra.css" in cfg.get("extra_css", [])
 
 
+def test_back_link_on_every_essay_page(built):
+    out, _ = built
+    docs = out / "docs"
+    slugs = _published_slugs()
+    for slug in slugs:
+        text = (docs / f"{slug}.md").read_text(encoding="utf-8")
+        body = text.split("---", 2)[2]  # after frontmatter
+        assert 'class="back-link"' in body, f"{slug} missing back link"
+        assert 'href="/"' in body, f"{slug} back link not pointing at root"
+
+
+def test_no_back_link_on_index(built):
+    out, _ = built
+    index = (out / "docs" / "index.md").read_text(encoding="utf-8")
+    assert "back-link" not in index, "the home/TOC page should not have a '← back' link"
+
+
+def test_back_link_is_print_hidden_in_css(built):
+    out, _ = built
+    css = (out / "docs" / "stylesheets" / "extra.css").read_text(encoding="utf-8")
+    # the print block must hide the back link
+    print_block = css.split("@media print", 1)[1]
+    assert "back-link" in print_block
+
+
 def test_styling_carried_over(built):
     out, _ = built
     css = (out / "docs" / "stylesheets" / "extra.css").read_text(encoding="utf-8")

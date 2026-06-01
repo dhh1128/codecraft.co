@@ -59,6 +59,10 @@ SITE = dict(
 
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n?(.*)$", re.S)
 
+# A "← back" link to the TOC at the top of every essay (mirrors ../papers).
+# Print-hidden via the .back-link rule in zensical-extra.css; not added to the index.
+BACK_LINK = '<p class="back-link"><a href="/">&larr; back</a></p>'
+
 
 def parse(path):
     """Return (frontmatter dict, body str) for an essay file."""
@@ -118,7 +122,7 @@ def page_markdown(essay):
     if page_fm.get("tags"):
         out.append("tags:")
         out += [f"  - {t}" for t in page_fm["tags"]]
-    out += ["---", "", essay["body"].rstrip()]
+    out += ["---", "", BACK_LINK, "", essay["body"].rstrip()]
     comments = fm.get("comments") or []
     if comments:
         out.append(render_comments(comments))

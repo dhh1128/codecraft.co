@@ -59,6 +59,12 @@
   color: #765043;
 }
 
+/* "← back" link at the top of every essay (to the TOC). */
+.md-typeset .back-link {
+  margin: 0 0 1.4em;
+  font-size: 0.85rem;
+}
+
 /* Figure captions. */
 .md-typeset figcaption {
   font-size: 85%;
@@ -81,7 +87,8 @@
   .md-nav,
   .md-content__button,
   .md-source,
-  .md-top {
+  .md-top,
+  .back-link {
     display: none !important;
   }
   .md-main__inner,
