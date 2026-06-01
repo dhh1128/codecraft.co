@@ -1,5 +1,3 @@
-[![CI](https://github.com/dhh1128/codecraft.co/actions/workflows/ci.yml/badge.svg)](https://github.com/dhh1128/codecraft.co/actions/workflows/ci.yml)
-
 * [2 Surprising Truths About the Iron Triangle](2-surprising-truths-about-the-iron-triangle)
 * [3 Commandments of Performance Optimization](3-commandments-of-performance-optimization)
 * [3 Reasons to Prefer References Over Pointers](3-reasons-to-prefer-references-over-pointers)
@@ -22,6 +20,7 @@
 * [Book Review: Poke the Box](book-review-poke-the-box)
 * [Book Review: Universal Principles of Design](book-review-universal-principles-of-design)
 * [Bridging the Lacuna Humana](bridging-the-lacuna-humana)
+* [Code Isn't Art](code-isnt-art)
 * [Coding Standards](coding-standards)
 * [Comments on Comments](comments-on-comments)
 * [Convoys As a Model For Distributed Architectures](convoys-as-a-model-for-distributed-architectures)
@@ -90,6 +89,7 @@
 * [Six Learning Tips For Tech Folks](six-learning-tips-for-tech-folks)
 * [Small Files Are Your Friends](small-files-are-your-friends)
 * [Smart Geeks Think Like Cheerleaders](smart-geeks-think-like-cheerleaders)
+* [Steve Jackson: Lead with Passion](steve-jackson-lead-with-passion)
 * [Steve Tolman: It Depends](steve-tolman-it-depends)
 * [Taming Side Agreements](taming-side-agreements)
 * [Tech Debt, Leverage, and Grandmas Envelope](tech-debt-leverage-and-grandmas-envelope)

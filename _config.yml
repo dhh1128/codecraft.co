@@ -13,8 +13,3 @@ show_downloads: false
 include:
   - robots.txt
   - LICENSE
-exclude:
-  - archive/      # guest posts & other content kept but not published
-  - scripts/
-  - tests/
-  - requirements.txt
