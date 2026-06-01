@@ -65,7 +65,7 @@ _M1 pure items complete; remaining M1 work folded into M2._
 - [x] Reader comments → collapsed `??? quote` admonition ("Original discussion"); `md_in_html`+`attr_list` render the inline `<figure>`/`<img>`; page frontmatter slimmed to title+tags
 - [x] Legacy `redirect_from` URLs preserved as self-contained meta-refresh HTML stubs (no dependence on `mkdocs-redirects`; Zensical plugin-compat is narrow)
 - [x] House styling ported → `assets/css/zensical-extra.css` (Barlow Condensed/Open Sans, brown palette, print-without-sidebar, mobile)
-- [ ] GitHub Actions **publish** workflow: `build.sh` → GitHub Pages (pin actions to `node24`); retire Jekyll auto-build
+- [~] GitHub Actions **publish** workflow `.github/workflows/publish.yml`: pytest → assemble → `zensical build` → deploy `build/site` to Pages. All actions node24/composite-verified (checkout@v6, setup-python@v6, configure-pages@v6, upload-pages-artifact@v5, deploy-pages@v5). Assembler now copies `CNAME`+`robots.txt` into the build so the custom domain survives (test). **Remaining go-live step (manual, production-affecting):** flip Pages source legacy→workflow — `gh api -X PUT repos/dhh1128/codecraft.co/pages -f build_type=workflow` (or Settings→Pages→Source: GitHub Actions). That retires the Jekyll `pages-build-deployment`.
 - [ ] Provisional `build/docs/index.md` TOC + tag-grouped nav are first-pass — finalize under M4
 - [ ] Clean up the 138 internal-link warnings the build surfaces (legacy `/category/…` and cross-essay links) — feeds M4/M7
 - [ ] Once deploy is live, retire the legacy Jekyll files (`_config.yml`, `_layouts/`, `_includes/`, `assets/css/style.scss`)

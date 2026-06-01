@@ -255,6 +255,13 @@ def assemble(root, out_dir):
     os.makedirs(css_dst_dir, exist_ok=True)
     shutil.copyfile(css_src, os.path.join(css_dst_dir, "extra.css"))
 
+    # root static files that must land at the published site root (MkDocs copies
+    # non-.md files from docs/ verbatim). CNAME preserves the custom domain.
+    for static in ("CNAME", "robots.txt"):
+        src = os.path.join(root, static)
+        if os.path.isfile(src):
+            shutil.copyfile(src, os.path.join(docs, static))
+
     # legacy redirect stubs (preserve WordPress SEO equity)
     redirects = 0
     for e in essays:

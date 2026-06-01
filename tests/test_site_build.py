@@ -154,6 +154,16 @@ def test_back_link_is_print_hidden_in_css(built):
     assert "back-link" in print_block
 
 
+def test_root_static_files_copied_for_pages(built):
+    """CNAME (custom domain) and robots.txt must reach the published site."""
+    out, _ = built
+    docs = out / "docs"
+    cname = docs / "CNAME"
+    assert cname.is_file(), "CNAME missing — deploying would break the custom domain"
+    assert cname.read_text(encoding="utf-8").strip() == "codecraft.co"
+    assert (docs / "robots.txt").is_file()
+
+
 def test_styling_carried_over(built):
     out, _ = built
     css = (out / "docs" / "stylesheets" / "extra.css").read_text(encoding="utf-8")
