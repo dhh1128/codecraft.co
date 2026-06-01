@@ -76,11 +76,13 @@ curated (`status: published | retired`, `book: true` subset).
 - [ ] Decide: commit PDFs vs. build as CI release artifacts
 
 ## M7 — Toolkit + pytest suite _(continuous, grows with every milestone)_
-Each quality goal gets a fixer script (`--check-only` capable) and a prover test:
-- [ ] `validate_frontmatter.py` ↔ test: complete, schema-valid metadata
+Each quality goal gets a fixer script (`--check-only` capable) and a prover test.
+Live suite: `tests/` (run `pytest`) — 10 tests green covering frontmatter parse,
+item-id format/uniqueness/determinism, and tag validity/coverage.
+- [~] `validate_frontmatter.py` ↔ test: `tests/test_frontmatter.py` covers required-now fields (title/date/slug/item_id/tags); M3 fields (status/keywords/abstract/version/revision_date) still to enforce
+- [x] `assign_ids.py` ↔ test: `tests/test_item_ids.py` + `tests/test_tags.py` — unique, well-formed, deterministic ids; controlled tags
 - [ ] `check_links.py` ↔ test: no broken internal/external links
 - [ ] `check_images.py` ↔ test: no external images; all local images exist + alt-text + quality
-- [ ] `assign_ids.py` ↔ test: unique, well-formed, immutable `item_id`s
 - [ ] `generate_index.py` ↔ test: index/TOC in sync with corpus
 - [ ] `check_crossrefs.py` ↔ test: related-essay links resolve
 - [ ] `check_citations.py` ↔ test: external sources well-formed + reachable/archived
