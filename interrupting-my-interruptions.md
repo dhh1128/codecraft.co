@@ -2,6 +2,8 @@
 title: Interrupting my interruptions
 date: 2013-01-24
 slug: interrupting-my-interruptions
+item_id: CC-130105
+tags: [learning, process]
 redirect_from:
   - /2013/01/24/interrupting-my-interruptions
 comments:

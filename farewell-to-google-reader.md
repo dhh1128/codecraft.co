@@ -2,6 +2,8 @@
 title: Farewell to Google Reader
 date: 2013-03-14
 slug: farewell-to-google-reader
+item_id: CC-130304
+tags: [meta]
 redirect_from:
   - /2013/03/14/farewell-to-google-reader
 comments:

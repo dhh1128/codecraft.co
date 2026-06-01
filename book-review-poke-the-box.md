@@ -2,6 +2,9 @@
 title: "Book Review: Poke the Box"
 date: 2012-10-16
 slug: book-review-poke-the-box
+item_id: CC-121010
+tags: [learning]
+series: "Reviews"
 redirect_from:
   - /2012/10/16/book-review-poke-the-box
 comments:

@@ -2,6 +2,8 @@
 title: 'Programmers: learn how to "cloudify"'
 date: 2013-07-23
 slug: programmers-learn-how-to-cloudify
+item_id: CC-130702
+tags: [systems, learning]
 redirect_from:
   - /2013/07/23/programmers-learn-how-to-cloudify
 ---

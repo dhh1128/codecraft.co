@@ -2,6 +2,8 @@
 title: Evolving Software Politics
 date: 2012-09-11
 slug: evolving-software-politics
+item_id: CC-120905
+tags: [org]
 redirect_from:
   - /2012/09/11/evolving-software-politics
 ---

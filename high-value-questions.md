@@ -2,6 +2,8 @@
 title: What makes high-value questions?
 date: 2012-06-20
 slug: high-value-questions
+item_id: CC-120601
+tags: [comm, learning]
 redirect_from:
   - /2012/06/20/high-value-questions
 ---

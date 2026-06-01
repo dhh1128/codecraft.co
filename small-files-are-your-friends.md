@@ -2,6 +2,8 @@
 title: Small Files Are Your Friends
 date: 2013-03-21
 slug: small-files-are-your-friends
+item_id: CC-130305
+tags: [craft]
 redirect_from:
   - /2013/03/21/small-files-are-your-friends
 comments:

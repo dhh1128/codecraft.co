@@ -2,6 +2,9 @@
 title: Good Code Is Optimized
 date: 2012-08-27
 slug: good-code-is-optimized
+item_id: CC-120804
+tags: [craft]
+series: "What Is Good Code"
 redirect_from:
   - /2012/08/27/good-code-is-optimized
 ---

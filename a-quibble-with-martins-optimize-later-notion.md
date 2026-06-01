@@ -2,6 +2,8 @@
 title: A Quibble With Martin's "Optimize Later" Notion
 date: 2012-08-28
 slug: a-quibble-with-martins-optimize-later-notion
+item_id: CC-120805
+tags: [craft]
 redirect_from:
   - /2012/08/28/a-quibble-with-martins-optimize-later-notion
 comments:

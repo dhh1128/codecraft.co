@@ -2,6 +2,8 @@
 title: Users Aren't The Only People In Your Software
 date: 2012-09-04
 slug: users-arent-the-only-people-in-your-software
+item_id: CC-120903
+tags: [ux, org]
 redirect_from:
   - /2012/09/04/users-arent-the-only-people-in-your-software
 comments:

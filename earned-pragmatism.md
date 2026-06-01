@@ -2,6 +2,8 @@
 title: Earned Pragmatism
 date: 2013-01-18
 slug: earned-pragmatism
+item_id: CC-130104
+tags: [learning, craft]
 redirect_from:
   - /2013/01/18/earned-pragmatism
 comments:

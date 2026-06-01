@@ -2,6 +2,8 @@
 title: Programming Language Popularity Index
 date: 2013-03-22
 slug: programming-language-popularity-inde
+item_id: CC-130306
+tags: [languages]
 redirect_from:
   - /2013/03/22/programming-language-popularity-inde
 comments:

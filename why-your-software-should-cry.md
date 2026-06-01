@@ -2,6 +2,9 @@
 title: Why Your Software Should Cry
 date: 2013-05-06
 slug: why-your-software-should-cry
+item_id: CC-130501
+tags: [systems]
+series: "Software Pain"
 redirect_from:
   - /2013/05/06/why-your-software-should-cry
 comments:

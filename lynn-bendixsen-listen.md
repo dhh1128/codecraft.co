@@ -2,6 +2,9 @@
 title: "Lynn Bendixsen: Listen."
 date: 2012-10-02
 slug: lynn-bendixsen-listen
+item_id: CC-121002
+tags: [learning, comm]
+series: "Mentors"
 redirect_from:
   - /2012/10/02/lynn-bendixsen-listen
 ---

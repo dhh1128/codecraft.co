@@ -2,6 +2,9 @@
 title: "Steve Tolman: It depends."
 date: 2012-09-17
 slug: steve-tolman-it-depends
+item_id: CC-120910
+tags: [learning]
+series: "Mentors"
 redirect_from:
   - /2012/09/17/steve-tolman-it-depends
 comments:

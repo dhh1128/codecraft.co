@@ -2,6 +2,9 @@
 title: Role Models
 date: 2012-09-12
 slug: role-models
+item_id: CC-120906
+tags: [learning]
+series: "Mentors"
 redirect_from:
   - /2012/09/12/role-models
 ---

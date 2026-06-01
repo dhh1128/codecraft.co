@@ -2,6 +2,8 @@
 title: "Architects: manage risk like a Vegas bookie"
 date: 2013-02-21
 slug: architects-manage-risk-like-a-vegas-bookie
+item_id: CC-130204
+tags: [strategy]
 redirect_from:
   - /2013/02/21/architects-manage-risk-like-a-vegas-bookie
 comments:

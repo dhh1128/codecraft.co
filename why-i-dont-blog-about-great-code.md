@@ -2,6 +2,8 @@
 title: Why I don't blog about "great code"
 date: 2012-10-03
 slug: why-i-dont-blog-about-great-code
+item_id: CC-121004
+tags: [meta, learning]
 redirect_from:
   - /2012/10/03/why-i-dont-blog-about-great-code
 ---

@@ -2,6 +2,8 @@
 title: 6.0 Syndrome
 date: 2012-09-03
 slug: 6-0-syndrome
+item_id: CC-120901
+tags: [strategy]
 redirect_from:
   - /2012/09/03/6-0-syndrome
 ---

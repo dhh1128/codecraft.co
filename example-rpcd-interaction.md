@@ -2,6 +2,9 @@
 title: Example RPCD Interaction
 date: 2012-06-21
 slug: example-rpcd-interaction
+item_id: CC-120603
+tags: [ux]
+series: "RPCD"
 redirect_from:
   - /2012/06/21/example-rpcd-interaction
 comments:

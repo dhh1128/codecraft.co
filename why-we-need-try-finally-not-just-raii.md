@@ -2,6 +2,8 @@
 title: Why we need try...finally, not just RAII
 date: 2013-10-31
 slug: why-we-need-try-finally-not-just-raii
+item_id: CC-131002
+tags: [languages]
 redirect_from:
   - /2013/10/31/why-we-need-try-finally-not-just-raii
 comments:

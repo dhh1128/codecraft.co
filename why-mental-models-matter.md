@@ -2,6 +2,8 @@
 title: Why Mental Models Matter
 date: 2012-11-05
 slug: why-mental-models-matter
+item_id: CC-121101
+tags: [learning]
 redirect_from:
   - /2012/11/05/why-mental-models-matter
 comments:

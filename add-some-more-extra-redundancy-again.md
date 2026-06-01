@@ -2,6 +2,8 @@
 title: Add some more extra redundancy again
 date: 2014-01-15
 slug: add-some-more-extra-redundancy-again
+item_id: CC-140101
+tags: [systems]
 redirect_from:
   - /2014/01/15/add-some-more-extra-redundancy-again
 ---

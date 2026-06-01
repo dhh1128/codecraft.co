@@ -2,6 +2,8 @@
 title: Don't forget the circuit breakers
 date: 2013-01-11
 slug: dont-forget-the-circuit-breakers
+item_id: CC-130103
+tags: [systems]
 redirect_from:
   - /2013/01/11/dont-forget-the-circuit-breakers
 comments:

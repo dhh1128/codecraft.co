@@ -2,6 +2,8 @@
 title: A grumble about buckets
 date: 2015-04-08
 slug: a-grumble-about-buckets
+item_id: CC-150401
+tags: [ux]
 redirect_from:
   - /2015/04/08/a-grumble-about-buckets
 comments:

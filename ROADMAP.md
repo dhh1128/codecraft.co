@@ -22,8 +22,8 @@ curated (`status: published | retired`, `book: true` subset).
 - [x] Define the frontmatter schema → `docs/conventions.md`
 - [x] Define the `CC-XXX-YYMMOO` item-id convention → `docs/conventions.md`
 - [x] Scaffold `scripts/` + `tests/` + `requirements.txt`
-- [x] Freeze the category taxonomy (7 categories — see `docs/conventions.md`)
-- [ ] Assign a permanent `item_id` to every essay
+- [x] Freeze the classification: multi-valued `tags` (controlled vocab of 10), not mutually-exclusive categories — see `docs/conventions.md`
+- [x] Assign a permanent `item_id` (`CC-YYMMOO`, no category segment) + `tags` to every essay — `scripts/assign_ids.py`, data in `scripts/tags.yml`
 
 ## M1 — De-WordPress & clean the Markdown _(mechanical only — no prose edits)_
 - [x] Repair broken YAML frontmatter in 16 essays (mangled `---` fences; unquoted `title:`/`author:` values with colons) — `scripts/fix_frontmatter.py`. Unblocked dates/IDs.
@@ -55,7 +55,8 @@ curated (`status: published | retired`, `book: true` subset).
 - [ ] Confirm retired essays are excluded from index, sitemap, and PDFs (but kept in repo)
 
 ## M4 — Navigation, cross-refs & citations
-- [ ] Generate categorized, date-aware `index.md` (published only)
+- [ ] Decide the primary TOC structure now that essays are tag-classified (no single category): e.g. a curated reading order / section set keyed off each essay's first tag, with tags as secondary "see also" nav — keep the anthology feel, avoid a blog-style tag cloud
+- [ ] Generate tag-aware, date-aware `index.md` (published only)
 - [ ] Replace flat `README.md` list with the themed TOC
 - [ ] Wire up cross-references between related essays
 - [ ] Add series navigation (e.g. "Good Code Is…", decoupling parts, mentor profiles)

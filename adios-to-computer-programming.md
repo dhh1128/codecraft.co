@@ -2,6 +2,8 @@
 title: Adios to "computer programming"
 date: 2013-04-05
 slug: adios-to-computer-programming
+item_id: CC-130401
+tags: [meta]
 redirect_from:
   - /2013/04/05/adios-to-computer-programming
 comments:

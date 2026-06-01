@@ -2,6 +2,9 @@
 title: Good Code Is Named Right
 date: 2012-08-28
 slug: good-code-is-named-right
+item_id: CC-120806
+tags: [craft]
+series: "What Is Good Code"
 redirect_from:
   - /2012/08/28/good-code-is-named-right
 ---

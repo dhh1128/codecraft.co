@@ -2,6 +2,9 @@
 title: On pains and brains
 date: 2016-01-01
 slug: on-pains-and-brains
+item_id: CC-160101
+tags: [systems]
+series: "Software Pain"
 redirect_from:
   - /2016/01/01/on-pains-and-brains
 ---

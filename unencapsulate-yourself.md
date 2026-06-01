@@ -2,6 +2,8 @@
 title: Unencapsulate Yourself
 date: 2012-10-22
 slug: unencapsulate-yourself
+item_id: CC-121012
+tags: [comm, learning]
 redirect_from:
   - /2012/10/22/unencapsulate-yourself
 comments:

@@ -2,6 +2,8 @@
 title: The Power of Simplicity
 date: 2013-02-15
 slug: the-power-of-simplicity
+item_id: CC-130203
+tags: [craft]
 redirect_from:
   - /2013/02/15/the-power-of-simplicity
 comments:

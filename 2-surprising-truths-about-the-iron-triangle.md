@@ -2,6 +2,8 @@
 title: 2 Surprising Truths About The Iron Triangle
 date: 2013-07-01
 slug: 2-surprising-truths-about-the-iron-triangle
+item_id: CC-130701
+tags: [process, strategy]
 redirect_from:
   - /2013/07/01/2-surprising-truths-about-the-iron-triangle
 comments:

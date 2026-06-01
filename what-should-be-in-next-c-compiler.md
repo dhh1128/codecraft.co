@@ -2,6 +2,8 @@
 title: What Should Be In The Next C++ Compiler?
 date: 2012-10-03
 slug: what-should-be-in-next-c-compiler
+item_id: CC-121003
+tags: [languages]
 redirect_from:
   - /2012/10/03/what-should-be-in-next-c-compiler
 comments:

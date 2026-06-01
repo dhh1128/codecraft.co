@@ -2,6 +2,9 @@
 title: Why you should use an IDE instead of vim or emacs
 date: 2014-05-13
 slug: why-you-should-use-an-ide-instead-of-vim-or-emacs
+item_id: CC-140501
+tags: [craft]
+series: "Editors"
 redirect_from:
   - /2014/05/13/why-you-should-use-an-ide-instead-of-vim-or-emacs
 comments:

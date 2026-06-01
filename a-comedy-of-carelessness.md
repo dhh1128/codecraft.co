@@ -2,6 +2,8 @@
 title: A Comedy of Carelessness
 date: 2013-12-09
 slug: a-comedy-of-carelessness
+item_id: CC-131201
+tags: [ux]
 redirect_from:
   - /2013/12/09/a-comedy-of-carelessness
 comments:

@@ -2,6 +2,9 @@
 title: What a Software Architect is NOT
 date: 2012-06-26
 slug: what-a-software-architect-is-not
+item_id: CC-120606
+tags: [meta]
+series: "The Architect's Role"
 redirect_from:
   - /2012/06/26/what-a-software-architect-is-not
 comments:

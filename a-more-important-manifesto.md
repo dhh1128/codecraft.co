@@ -2,6 +2,8 @@
 title: A More Important Manifesto
 date: 2015-01-05
 slug: a-more-important-manifesto
+item_id: CC-150101
+tags: [meta]
 redirect_from:
   - /2015/01/05/a-more-important-manifesto
 comments:

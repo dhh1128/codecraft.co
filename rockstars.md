@@ -2,6 +2,8 @@
 title: '"Rockstar Developers" are a dangerous myth'
 date: 2015-03-04
 slug: rockstars
+item_id: CC-150301
+tags: [org]
 redirect_from:
   - /2015/03/04/rockstars
 comments:

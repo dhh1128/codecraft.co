@@ -2,6 +2,8 @@
 title: Features are not chunks of code
 date: 2013-07-25
 slug: features-are-not-chunks-of-code
+item_id: CC-130703
+tags: [systems, craft]
 redirect_from:
   - /2013/07/25/features-are-not-chunks-of-code
 ---

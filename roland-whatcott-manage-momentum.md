@@ -2,6 +2,9 @@
 title: "Roland Whatcott: Manage momentum."
 date: 2012-09-21
 slug: roland-whatcott-manage-momentum
+item_id: CC-120912
+tags: [learning]
+series: "Mentors"
 redirect_from:
   - /2012/09/21/roland-whatcott-manage-momentum
 comments:

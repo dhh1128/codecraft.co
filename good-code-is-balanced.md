@@ -2,6 +2,9 @@
 title: Good Code Is Balanced
 date: 2012-08-27
 slug: good-code-is-balanced
+item_id: CC-120803
+tags: [craft]
+series: "What Is Good Code"
 redirect_from:
   - /2012/08/27/good-code-is-balanced
 comments:

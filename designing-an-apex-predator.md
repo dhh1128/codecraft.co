@@ -2,6 +2,8 @@
 title: Are You Designing an Apex Predator?
 date: 2012-09-06
 slug: designing-an-apex-predator
+item_id: CC-120904
+tags: [strategy]
 redirect_from:
   - /2012/09/06/designing-an-apex-predator
 comments:

@@ -2,6 +2,9 @@
 title: "Book Review: Universal Principles of Design"
 date: 2013-01-29
 slug: book-review-universal-principles-of-design
+item_id: CC-130106
+tags: [learning]
+series: "Reviews"
 redirect_from:
   - /2013/01/29/book-review-universal-principles-of-design
 comments:

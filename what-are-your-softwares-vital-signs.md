@@ -2,6 +2,8 @@
 title: What are your software's vital signs?
 date: 2013-08-11
 slug: what-are-your-softwares-vital-signs
+item_id: CC-130803
+tags: [systems]
 redirect_from:
   - /2013/08/11/what-are-your-softwares-vital-signs
 ---

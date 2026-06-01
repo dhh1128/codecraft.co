@@ -2,6 +2,8 @@
 title: What should code look like when we squint at it?
 date: 2013-09-19
 slug: what-should-code-look-like-when-we-squint-at-it
+item_id: CC-130901
+tags: [craft, languages]
 redirect_from:
   - /2013/09/19/what-should-code-look-like-when-we-squint-at-it
 comments:

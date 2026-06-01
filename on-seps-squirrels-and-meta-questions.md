@@ -2,6 +2,8 @@
 title: On SEPs, Squirrels, and Meta Questions
 date: 2012-10-23
 slug: on-seps-squirrels-and-meta-questions
+item_id: CC-121013
+tags: [meta]
 redirect_from:
   - /2012/10/23/on-seps-squirrels-and-meta-questions
 comments:

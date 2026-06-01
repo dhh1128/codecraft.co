@@ -2,6 +2,8 @@
 title: Progressive Disclosure Everywhere
 date: 2012-09-16
 slug: progressive-disclosure-everywhere
+item_id: CC-120909
+tags: [ux]
 redirect_from:
   - /2012/09/16/progressive-disclosure-everywhere
 ---

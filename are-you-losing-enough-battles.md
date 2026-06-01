@@ -2,6 +2,8 @@
 title: Are You Losing Enough Battles?
 date: 2013-03-05
 slug: are-you-losing-enough-battles
+item_id: CC-130301
+tags: [org, comm]
 redirect_from:
   - /2013/03/05/are-you-losing-enough-battles
 comments:

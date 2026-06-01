@@ -2,6 +2,8 @@
 title: Variadic macros tricks
 date: 2014-11-25
 slug: variadic-macros-tricks
+item_id: CC-141101
+tags: [languages]
 redirect_from:
   - /2014/11/25/variadic-macros-tricks
 comments:

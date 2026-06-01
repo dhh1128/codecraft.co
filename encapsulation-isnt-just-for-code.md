@@ -2,6 +2,8 @@
 title: Encapsulation isn't just for code
 date: 2013-08-02
 slug: encapsulation-isnt-just-for-code
+item_id: CC-130801
+tags: [org, craft]
 redirect_from:
   - /2013/08/02/encapsulation-isnt-just-for-code
 comments:

@@ -2,6 +2,8 @@
 title: Annotating the Web
 date: 2008-09-05
 slug: annotating-the-web
+item_id: CC-080901
+tags: [ux, meta]
 redirect_from:
   - /2008/09/05/annotating-the-web
 ---

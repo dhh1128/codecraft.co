@@ -2,6 +2,9 @@
 title: Why you should be proficient in a tool like vim or emacs
 date: 2014-05-15
 slug: why-you-should-be-proficient-in-a-tool-like-vim-or-emacs
+item_id: CC-140502
+tags: [craft]
+series: "Editors"
 redirect_from:
   - /2014/05/15/why-you-should-be-proficient-in-a-tool-like-vim-or-emacs
 comments:

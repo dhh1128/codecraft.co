@@ -2,6 +2,9 @@
 title: Long-Term Benefits of RPCD
 date: 2012-06-21
 slug: long-term-benefits-of-rpcd
+item_id: CC-120604
+tags: [ux]
+series: "RPCD"
 redirect_from:
   - /2012/06/21/long-term-benefits-of-rpcd
 ---

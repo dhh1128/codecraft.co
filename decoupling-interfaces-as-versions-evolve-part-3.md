@@ -2,6 +2,9 @@
 title: Decoupling Interfaces as Versions Evolve, Part 3
 date: 2008-08-19
 slug: decoupling-interfaces-as-versions-evolve-part-3
+item_id: CC-080802
+tags: [systems]
+series: "Decoupling Interfaces"
 redirect_from:
   - /2008/08/19/decoupling-interfaces-as-versions-evolve-part-3
 comments:

@@ -2,6 +2,9 @@
 title: Exploring the Power of Deixis
 date: 2014-09-23
 slug: exploring-the-power-of-deixis
+item_id: CC-140902
+tags: [languages]
+series: "intent"
 redirect_from:
   - /2014/09/23/exploring-the-power-of-deixis
 ---

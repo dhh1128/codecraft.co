@@ -2,6 +2,8 @@
 title: Manifestos
 date: 2012-09-13
 slug: manifestos
+item_id: CC-120907
+tags: [meta]
 redirect_from:
   - /2012/09/13/manifestos
 comments:

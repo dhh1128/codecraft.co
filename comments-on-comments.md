@@ -2,6 +2,8 @@
 title: // Comments on Comments
 date: 2012-10-31
 slug: comments-on-comments
+item_id: CC-121017
+tags: [craft]
 redirect_from:
   - /2012/10/31/comments-on-comments
 comments:

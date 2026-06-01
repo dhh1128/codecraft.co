@@ -2,6 +2,8 @@
 title: Good fences make good neighbors
 date: 2013-05-15
 slug: good-fences-make-good-neighbors
+item_id: CC-130502
+tags: [systems, craft]
 redirect_from:
   - /2013/05/15/good-fences-make-good-neighbors
 comments:

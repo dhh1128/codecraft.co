@@ -2,6 +2,8 @@
 title: Courage Counts
 date: 2013-05-31
 slug: courage-counts
+item_id: CC-130503
+tags: [learning]
 redirect_from:
   - /2013/05/31/courage-counts
 comments:

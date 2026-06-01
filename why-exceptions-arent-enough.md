@@ -2,6 +2,8 @@
 title: Why Exceptions Aren't Enough
 date: 2012-10-09
 slug: why-exceptions-arent-enough
+item_id: CC-121006
+tags: [languages]
 redirect_from:
   - /2012/10/09/why-exceptions-arent-enough
 comments:

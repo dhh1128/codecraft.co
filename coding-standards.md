@@ -2,6 +2,8 @@
 title: How to turn coding standards into epic fails &mdash; or not
 date: 2012-09-27
 slug: coding-standards
+item_id: CC-120916
+tags: [craft]
 redirect_from:
   - /2012/09/27/coding-standards
 comments:

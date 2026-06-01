@@ -2,6 +2,8 @@
 title: Metrics, Plumb Lines, and System Thinking
 date: 2012-11-12
 slug: measurements-plumb-lines-and-system-thinking
+item_id: CC-121103
+tags: [process, systems]
 redirect_from:
   - /2012/11/12/measurements-plumb-lines-and-system-thinking
 comments:

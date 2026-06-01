@@ -2,6 +2,8 @@
 title: How Software Is Like Biology
 date: 2012-08-14
 slug: how-software-is-like-biology
+item_id: CC-120801
+tags: [meta]
 redirect_from:
   - /2012/08/14/how-software-is-like-biology
 ---

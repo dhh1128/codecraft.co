@@ -2,6 +2,9 @@
 title: Role-Play Centered Design
 date: 2012-06-20
 slug: role-play-centered-design
+item_id: CC-120602
+tags: [ux]
+series: "RPCD"
 redirect_from:
   - /2012/06/20/role-play-centered-design
 comments:

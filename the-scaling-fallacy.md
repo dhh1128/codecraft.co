@@ -2,6 +2,8 @@
 title: The Scaling Fallacy
 date: 2012-12-19
 slug: the-scaling-fallacy
+item_id: CC-121202
+tags: [systems]
 redirect_from:
   - /2012/12/19/the-scaling-fallacy
 comments:

@@ -2,6 +2,9 @@
 title: "Ken Ebert: Kill three birds."
 date: 2012-09-19
 slug: ken-ebert-kill-three-birds
+item_id: CC-120911
+tags: [learning]
+series: "Mentors"
 redirect_from:
   - /2012/09/19/ken-ebert-kill-three-birds
 comments:

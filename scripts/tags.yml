@@ -1,0 +1,146 @@
+# Essay tags (controlled vocabulary; 1+ per essay). First tag = center of gravity.
+# Authoritative input to scripts/assign_ids.py. Tags are NOT in the item-id, so
+# they can be revised any time without changing ids. See docs/conventions.md.
+
+# craft (primary: 17, total: 29)
+3-commandments-of-performance-optimization: {tags: [craft]}
+6-strategies-to-simplify-software: {tags: [craft]}
+a-quibble-with-martins-optimize-later-notion: {tags: [craft]}
+coding-standards: {tags: [craft]}
+comments-on-comments: {tags: [craft]}
+flexibility-is-no-virtue: {tags: [craft]}
+good-code-is-balanced: {tags: [craft], series: "What Is Good Code"}
+good-code-is-named-right: {tags: [craft], series: "What Is Good Code"}
+good-code-is-optimized: {tags: [craft], series: "What Is Good Code"}
+good-code-plans-for-problems: {tags: [craft], series: "What Is Good Code"}
+what-is-good-code: {tags: [craft], series: "What Is Good Code"}
+in-which-warnings-evolve-wings: {tags: [craft, languages]}
+small-files-are-your-friends: {tags: [craft]}
+the-power-of-simplicity: {tags: [craft]}
+what-should-code-look-like-when-we-squint-at-it: {tags: [craft, languages]}
+why-you-should-be-proficient-in-a-tool-like-vim-or-emacs: {tags: [craft], series: "Editors"}
+why-you-should-use-an-ide-instead-of-vim-or-emacs: {tags: [craft], series: "Editors"}
+
+# systems (primary: 17, total: 20)
+add-some-more-extra-redundancy-again: {tags: [systems]}
+big-crud-isnt-big-data: {tags: [systems]}
+big-data-in-motion: {tags: [systems]}
+convoys-as-a-model-for-distributed-architectures: {tags: [systems]}
+decoupling-interfaces-as-versions-evolve-part-1: {tags: [systems], series: "Decoupling Interfaces"}
+decoupling-interfaces-as-versions-evolve-part-2: {tags: [systems], series: "Decoupling Interfaces"}
+decoupling-interfaces-as-versions-evolve-part-3: {tags: [systems], series: "Decoupling Interfaces"}
+dont-forget-the-circuit-breakers: {tags: [systems]}
+features-are-not-chunks-of-code: {tags: [systems, craft]}
+good-fences-make-good-neighbors: {tags: [systems, craft]}
+my-first-software-defined-supercompute-cluster: {tags: [systems]}
+on-pains-and-brains: {tags: [systems], series: "Software Pain"}
+programmers-learn-how-to-cloudify: {tags: [systems, learning]}
+the-scaling-fallacy: {tags: [systems]}
+what-are-your-softwares-vital-signs: {tags: [systems]}
+why-your-software-should-cry: {tags: [systems], series: "Software Pain"}
+taming-side-agreements: {tags: [systems, process]}
+
+# languages (primary: 21, total: 24)
+3-reasons-to-prefer-references-over-pointers: {tags: [languages, craft]}
+a-better-way-to-put-data-in-code: {tags: [languages, craft]}
+bridging-the-lacuna-humana: {tags: [languages], series: "intent"}
+exploring-the-power-of-deixis: {tags: [languages], series: "intent"}
+grumpy-old-men-opacity-and-optimizers: {tags: [languages, craft]}
+headers-babies-and-bathwater: {tags: [languages]}
+how-enums-spread-disease-and-how-to-cure-it: {tags: [languages, craft]}
+how-sutters-wrong-about-const-in-cpp-11: {tags: [languages], series: "const-correctness"}
+how-to-make-a-const-correct-codebase-in-4300-easy-steps: {tags: [languages, craft], series: "const-correctness"}
+how-to-point-in-code: {tags: [languages], series: "intent"}
+introducing-marks: {tags: [languages], series: "intent"}
+lacunas-everywhere: {tags: [languages], series: "intent"}
+mountains-molehills-and-markedness: {tags: [languages], series: "intent"}
+my-first-tangle-with-the-tower-of-babel: {tags: [languages, learning]}
+programming-language-popularity-inde: {tags: [languages]}
+put-your-const-foot-forward: {tags: [languages], series: "const-correctness"}
+variadic-macros-tricks: {tags: [languages]}
+what-should-be-in-next-c-compiler: {tags: [languages]}
+when-good-comments-mean-bad-language: {tags: [languages, craft], series: "intent"}
+why-exceptions-arent-enough: {tags: [languages]}
+why-we-need-try-finally-not-just-raii: {tags: [languages]}
+
+# strategy (primary: 7, total: 8)
+6-0-syndrome: {tags: [strategy]}
+architects-manage-risk-like-a-vegas-bookie: {tags: [strategy]}
+designing-an-apex-predator: {tags: [strategy]}
+paying-off-technical-debt: {tags: [strategy], series: "Technical Debt"}
+tech-debt-leverage-and-grandmas-envelope: {tags: [strategy], series: "Technical Debt"}
+the-third-half-of-computational-economics: {tags: [strategy, systems]}
+why-cannibalism-may-be-smart-business: {tags: [strategy]}
+
+# process (primary: 3, total: 5)
+2-surprising-truths-about-the-iron-triangle: {tags: [process, strategy]}
+baby-steps: {tags: [process, craft]}
+measurements-plumb-lines-and-system-thinking: {tags: [process, systems]}
+
+# comm (primary: 6, total: 8)
+hair-raising-words: {tags: [comm]}
+high-value-questions: {tags: [comm, learning]}
+smart-geeks-think-like-cheerleaders: {tags: [comm]}
+unencapsulate-yourself: {tags: [comm, learning]}
+use-kind-words: {tags: [comm]}
+why-software-artisans-should-manage-their-influence: {tags: [comm, org]}
+
+# org (primary: 7, total: 10)
+are-you-losing-enough-battles: {tags: [org, comm]}
+coping-with-organizational-alzheimers: {tags: [org]}
+encapsulation-isnt-just-for-code: {tags: [org, craft]}
+evolving-software-politics: {tags: [org]}
+learned-helplessness-rats-and-people-power: {tags: [org]}
+rockstars: {tags: [org]}
+weakened-dev-teams-nih: {tags: [org]}
+
+# ux (primary: 9, total: 9)
+a-comedy-of-carelessness: {tags: [ux]}
+a-grumble-about-buckets: {tags: [ux]}
+annotating-the-web: {tags: [ux, meta]}
+example-rpcd-interaction: {tags: [ux], series: "RPCD"}
+long-term-benefits-of-rpcd: {tags: [ux], series: "RPCD"}
+progressive-disclosure-everywhere: {tags: [ux]}
+role-play-centered-design: {tags: [ux], series: "RPCD"}
+users-arent-the-only-people-in-your-software: {tags: [ux, org]}
+what-role-are-you-playing-in-rpcd: {tags: [ux], series: "RPCD"}
+
+# learning (primary: 21, total: 26)
+all-i-really-need-to-know-i-didnt-learn-in-compugarten: {tags: [learning]}
+book-review-poke-the-box: {tags: [learning], series: "Reviews"}
+book-review-universal-principles-of-design: {tags: [learning], series: "Reviews"}
+courage-counts: {tags: [learning]}
+don-kleinschnitz-stake: {tags: [learning], series: "Mentors"}
+earned-pragmatism: {tags: [learning, craft]}
+george-and-the-flood: {tags: [learning]}
+humility: {tags: [learning]}
+interrupting-my-interruptions: {tags: [learning, process]}
+julie-jones-learn-voraciously: {tags: [learning], series: "Mentors"}
+ken-ebert-kill-three-birds: {tags: [learning], series: "Mentors"}
+know-your-limits: {tags: [learning]}
+lynn-bendixsen-listen: {tags: [learning, comm], series: "Mentors"}
+my-bibifi-adventure: {tags: [learning]}
+on-forests-and-trees: {tags: [learning, meta]}
+role-models: {tags: [learning], series: "Mentors"}
+roland-whatcott-manage-momentum: {tags: [learning], series: "Mentors"}
+six-learning-tips-for-tech-folks: {tags: [learning]}
+steve-jackson-lead-with-passion: {tags: [learning], series: "Mentors"}
+steve-tolman-it-depends: {tags: [learning], series: "Mentors"}
+why-mental-models-matter: {tags: [learning]}
+
+# meta (primary: 15, total: 17)
+a-more-important-manifesto: {tags: [meta]}
+adios-to-computer-programming: {tags: [meta]}
+code-isnt-art: {tags: [meta, craft]}
+do-androids-browse-for-electric-sheep: {tags: [meta]}
+farewell-to-google-reader: {tags: [meta]}
+how-software-is-like-biology: {tags: [meta]}
+manifestos: {tags: [meta]}
+on-bread-recipes-maps-and-intentions: {tags: [meta, languages]}
+on-seps-squirrels-and-meta-questions: {tags: [meta]}
+the-8th-characteristic: {tags: [meta, systems]}
+why: {tags: [meta]}
+why-i-dont-blog-about-great-code: {tags: [meta, learning]}
+what-a-software-architect-is-not: {tags: [meta], series: "The Architect's Role"}
+what-is-a-software-architect: {tags: [meta], series: "The Architect's Role"}
+why-people-are-part-of-a-software-architecture: {tags: [meta, org], series: "The Architect's Role"}

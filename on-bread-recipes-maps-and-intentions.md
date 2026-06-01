@@ -2,6 +2,8 @@
 title: On bread recipes, maps, and intentions
 date: 2013-10-24
 slug: on-bread-recipes-maps-and-intentions
+item_id: CC-131001
+tags: [meta, languages]
 redirect_from:
   - /2013/10/24/on-bread-recipes-maps-and-intentions
 ---

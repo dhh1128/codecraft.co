@@ -2,6 +2,8 @@
 title: The third half of computational economics
 date: 2013-08-09
 slug: the-third-half-of-computational-economics
+item_id: CC-130802
+tags: [strategy, systems]
 redirect_from:
   - /2013/08/09/the-third-half-of-computational-economics
 comments:

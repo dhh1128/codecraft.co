@@ -2,6 +2,9 @@
 title: "Steve Jackson: Lead with Passion"
 date: 2013-09-30
 slug: steve-jackson-lead-with-passion
+item_id: CC-130902
+tags: [learning]
+series: "Mentors"
 redirect_from:
   - /2013/09/30/steve-jackson-lead-with-passion
 ---

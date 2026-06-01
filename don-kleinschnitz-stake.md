@@ -2,6 +2,9 @@
 title: "Don Kleinschnitz: Put a stake in the ground."
 date: 2012-09-14
 slug: don-kleinschnitz-stake
+item_id: CC-120908
+tags: [learning]
+series: "Mentors"
 redirect_from:
   - /2012/09/14/don-kleinschnitz-stake
 comments:

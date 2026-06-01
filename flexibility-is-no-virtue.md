@@ -2,6 +2,8 @@
 title: Flexibility is No Virtue
 date: 2012-10-17
 slug: flexibility-is-no-virtue
+item_id: CC-121011
+tags: [craft]
 redirect_from:
   - /2012/10/17/flexibility-is-no-virtue
 comments:

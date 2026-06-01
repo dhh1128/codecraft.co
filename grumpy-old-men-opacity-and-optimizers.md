@@ -2,6 +2,8 @@
 title: Grumpy Old Men, Opacity, and Optimizers
 date: 2014-09-09
 slug: grumpy-old-men-opacity-and-optimizers
+item_id: CC-140901
+tags: [languages, craft]
 redirect_from:
   - /2014/09/09/grumpy-old-men-opacity-and-optimizers
 ---

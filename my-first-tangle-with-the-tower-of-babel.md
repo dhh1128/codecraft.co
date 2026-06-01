@@ -2,6 +2,8 @@
 title: My First Tangle With the Tower of Babel
 date: 2013-04-26
 slug: my-first-tangle-with-the-tower-of-babel
+item_id: CC-130403
+tags: [languages, learning]
 redirect_from:
   - /2013/04/26/my-first-tangle-with-the-tower-of-babel
 comments:

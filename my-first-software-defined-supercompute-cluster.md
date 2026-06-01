@@ -2,6 +2,8 @@
 title: My first software-defined supercompute cluster
 date: 2013-11-25
 slug: my-first-software-defined-supercompute-cluster
+item_id: CC-131101
+tags: [systems]
 redirect_from:
   - /2013/11/25/my-first-software-defined-supercompute-cluster
 ---

@@ -2,6 +2,8 @@
 title: Know Your Limits
 date: 2015-02-05
 slug: know-your-limits
+item_id: CC-150201
+tags: [learning]
 redirect_from:
   - /2015/02/05/know-your-limits
 comments:

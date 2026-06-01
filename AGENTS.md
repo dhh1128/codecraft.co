@@ -116,9 +116,12 @@ ROADMAP.md           the tickable project plan
 
 Canonical definition in [docs/conventions.md](docs/conventions.md). In brief,
 each essay's YAML frontmatter should carry: `title`, `date` (original
-publication), `slug`, `redirect_from`, `item_id`, `category`, `keywords`,
-`abstract`, `version`, `revision_date`, `status` (`published` | `retired`),
-optional `book: true`, optional `series`, and the existing `comments` list.
+publication), `slug`, `item_id` (`CC-YYMMOO`), `tags` (1+ from the controlled
+vocabulary), `redirect_from`, `keywords`, `abstract`, `version`,
+`revision_date`, `status` (`published` | `retired`), optional `book: true`,
+optional `series`, and the existing `comments` list. Essays are classified by
+multi-valued `tags`, not a single mutually-exclusive category — see
+[docs/conventions.md](docs/conventions.md).
 
 ## Image workflow (case-by-case)
 

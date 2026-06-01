@@ -2,6 +2,9 @@
 title: What Is "Good Code"?
 date: 2012-08-26
 slug: what-is-good-code
+item_id: CC-120802
+tags: [craft]
+series: "What Is Good Code"
 redirect_from:
   - /2012/08/26/what-is-good-code
 comments:

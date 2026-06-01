@@ -2,6 +2,8 @@
 title: A better way to put data in code
 date: 2014-10-08
 slug: a-better-way-to-put-data-in-code
+item_id: CC-141001
+tags: [languages, craft]
 redirect_from:
   - /2014/10/08/a-better-way-to-put-data-in-code
 comments:

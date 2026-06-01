@@ -2,6 +2,9 @@
 title: Tech Debt, Leverage, and Grandma's Envelope
 date: 2012-10-30
 slug: tech-debt-leverage-and-grandmas-envelope
+item_id: CC-121016
+tags: [strategy]
+series: "Technical Debt"
 redirect_from:
   - /2012/10/30/tech-debt-leverage-and-grandmas-envelope
 comments:

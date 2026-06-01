@@ -2,6 +2,8 @@
 title: Hair-Raising Words
 date: 2012-10-12
 slug: hair-raising-words
+item_id: CC-121008
+tags: [comm]
 redirect_from:
   - /2012/10/12/hair-raising-words
 ---

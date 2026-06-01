@@ -2,6 +2,9 @@
 title: Why People Are Part of A Software Architecture
 date: 2008-06-25
 slug: why-people-are-part-of-a-software-architecture
+item_id: CC-080601
+tags: [meta, org]
+series: "The Architect's Role"
 redirect_from:
   - /2008/06/25/why-people-are-part-of-a-software-architecture
 comments:

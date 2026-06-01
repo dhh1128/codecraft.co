@@ -2,6 +2,8 @@
 title: Humility
 date: 2012-10-01
 slug: humility
+item_id: CC-121001
+tags: [learning]
 redirect_from:
   - /2012/10/01/humility
 comments:

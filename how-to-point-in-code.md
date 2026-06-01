@@ -2,6 +2,9 @@
 title: How to point in code
 date: 2014-09-25
 slug: how-to-point-in-code
+item_id: CC-140903
+tags: [languages]
+series: "intent"
 redirect_from:
   - /2014/09/25/how-to-point-in-code
 comments:

@@ -2,6 +2,9 @@
 title: What is a "Software Architect?"
 date: 2008-09-10
 slug: what-is-a-software-architect
+item_id: CC-080902
+tags: [meta]
+series: "The Architect's Role"
 redirect_from:
   - /2008/09/10/what-is-a-software-architect
 comments:

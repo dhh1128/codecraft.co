@@ -2,6 +2,8 @@
 title: Big Crud Isn't Big Data
 date: 2013-04-09
 slug: big-crud-isnt-big-data
+item_id: CC-130402
+tags: [systems]
 redirect_from:
   - /2013/04/09/big-crud-isnt-big-data
 comments:

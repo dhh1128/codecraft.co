@@ -2,6 +2,9 @@
 title: Mountains, Molehills, and Markedness
 date: 2014-07-28
 slug: mountains-molehills-and-markedness
+item_id: CC-140704
+tags: [languages]
+series: "intent"
 redirect_from:
   - /2014/07/28/mountains-molehills-and-markedness
 comments:

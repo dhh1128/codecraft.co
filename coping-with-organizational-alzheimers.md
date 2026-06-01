@@ -2,6 +2,8 @@
 title: Coping With Organizational Alzheimers
 date: 2012-10-12
 slug: coping-with-organizational-alzheimers
+item_id: CC-121007
+tags: [org]
 redirect_from:
   - /2012/10/12/coping-with-organizational-alzheimers
 comments:

@@ -2,6 +2,8 @@
 title: Headers, babies, and bathwater
 date: 2013-08-12
 slug: headers-babies-and-bathwater
+item_id: CC-130804
+tags: [languages]
 redirect_from:
   - /2013/08/12/headers-babies-and-bathwater
 comments:

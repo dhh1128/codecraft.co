@@ -2,6 +2,9 @@
 title: How Sutter's Wrong About const in C++ 11
 date: 2013-01-02
 slug: how-sutters-wrong-about-const-in-cpp-11
+item_id: CC-130101
+tags: [languages]
+series: "const-correctness"
 redirect_from:
   - /2013/01/02/how-sutters-wrong-about-const-in-cpp-11
 comments:

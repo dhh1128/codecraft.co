@@ -2,6 +2,8 @@
 title: My Bibifi Adventure
 date: 2015-06-15
 slug: my-bibifi-adventure
+item_id: CC-150601
+tags: [learning]
 redirect_from:
   - /2015/06/15/my-bibifi-adventure
 comments:

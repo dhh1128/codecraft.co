@@ -2,6 +2,8 @@
 title: 3 Commandments of Performance Optimization
 date: 2013-01-08
 slug: 3-commandments-of-performance-optimization
+item_id: CC-130102
+tags: [craft]
 redirect_from:
   - /2013/01/08/3-commandments-of-performance-optimization
 comments:

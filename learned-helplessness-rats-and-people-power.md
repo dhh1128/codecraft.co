@@ -2,6 +2,8 @@
 title: Learned Helplessness, Rats, and People Power
 date: 2012-11-26
 slug: learned-helplessness-rats-and-people-power
+item_id: CC-121106
+tags: [org]
 redirect_from:
   - /2012/11/26/learned-helplessness-rats-and-people-power
 comments:

@@ -2,6 +2,8 @@
 title: George and the Flood
 date: 2012-12-10
 slug: george-and-the-flood
+item_id: CC-121201
+tags: [learning]
 redirect_from:
   - /2012/12/10/george-and-the-flood
 comments:

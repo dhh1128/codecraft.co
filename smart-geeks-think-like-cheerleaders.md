@@ -2,6 +2,8 @@
 title: Smart Geeks Think Like Cheerleaders
 date: 2013-02-05
 slug: smart-geeks-think-like-cheerleaders
+item_id: CC-130201
+tags: [comm]
 redirect_from:
   - /2013/02/05/smart-geeks-think-like-cheerleaders
 comments:

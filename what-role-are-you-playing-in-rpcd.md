@@ -2,6 +2,9 @@
 title: What Role Are You Playing in RPCD?
 date: 2012-06-25
 slug: what-role-are-you-playing-in-rpcd
+item_id: CC-120605
+tags: [ux]
+series: "RPCD"
 redirect_from:
   - /2012/06/25/what-role-are-you-playing-in-rpcd
 comments:

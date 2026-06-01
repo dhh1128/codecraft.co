@@ -2,6 +2,8 @@
 title: Baby Steps
 date: 2012-10-24
 slug: baby-steps
+item_id: CC-121014
+tags: [process, craft]
 redirect_from:
   - /2012/10/24/baby-steps
 ---

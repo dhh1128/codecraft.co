@@ -2,6 +2,9 @@
 title: Lacunas Everywhere
 date: 2014-07-16
 slug: lacunas-everywhere
+item_id: CC-140701
+tags: [languages]
+series: "intent"
 redirect_from:
   - /2014/07/16/lacunas-everywhere
 comments:

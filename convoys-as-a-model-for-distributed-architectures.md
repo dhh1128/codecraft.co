@@ -2,6 +2,8 @@
 title: Convoys as a model for distributed architectures
 date: 2013-07-26
 slug: convoys-as-a-model-for-distributed-architectures
+item_id: CC-130704
+tags: [systems]
 redirect_from:
   - /2013/07/26/convoys-as-a-model-for-distributed-architectures
 ---

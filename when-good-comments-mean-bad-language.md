@@ -2,6 +2,9 @@
 title: When good comments mean bad language
 date: 2013-08-22
 slug: when-good-comments-mean-bad-language
+item_id: CC-130805
+tags: [languages, craft]
+series: "intent"
 redirect_from:
   - /2013/08/22/when-good-comments-mean-bad-language
 comments:

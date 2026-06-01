@@ -2,6 +2,8 @@
 title: Are We Smart Enough to Use Kind Words?
 date: 2015-10-06
 slug: use-kind-words
+item_id: CC-151001
+tags: [comm]
 redirect_from:
   - /2015/10/06/use-kind-words
 comments:

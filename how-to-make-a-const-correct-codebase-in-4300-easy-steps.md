@@ -2,6 +2,9 @@
 title: How to make a const-correct codebase in 4300 easy steps
 date: 2014-03-25
 slug: how-to-make-a-const-correct-codebase-in-4300-easy-steps
+item_id: CC-140301
+tags: [languages, craft]
+series: "const-correctness"
 redirect_from:
   - /2014/03/25/how-to-make-a-const-correct-codebase-in-4300-easy-steps
 comments:

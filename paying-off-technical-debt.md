@@ -2,6 +2,9 @@
 title: Paying Off Technical Debt
 date: 2012-10-14
 slug: paying-off-technical-debt
+item_id: CC-121009
+tags: [strategy]
+series: "Technical Debt"
 redirect_from:
   - /2012/10/14/paying-off-technical-debt
 comments:

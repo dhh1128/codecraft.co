@@ -2,6 +2,8 @@
 title: Taming Side Agreements
 date: 2014-10-28
 slug: taming-side-agreements
+item_id: CC-141002
+tags: [systems, process]
 redirect_from:
   - /2014/10/28/taming-side-agreements
 comments:

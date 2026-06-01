@@ -2,6 +2,8 @@
 title: All I Really Need To Know I Didn't Learn In Compugarten
 date: 2012-11-15
 slug: all-i-really-need-to-know-i-didnt-learn-in-compugarten
+item_id: CC-121105
+tags: [learning]
 redirect_from:
   - /2012/11/15/all-i-really-need-to-know-i-didnt-learn-in-compugarten
 comments:

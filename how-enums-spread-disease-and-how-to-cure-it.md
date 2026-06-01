@@ -2,6 +2,8 @@
 title: How Enums Spread Disease &mdash; And How To Cure It
 date: 2012-10-29
 slug: how-enums-spread-disease-and-how-to-cure-it
+item_id: CC-121015
+tags: [languages, craft]
 redirect_from:
   - /2012/10/29/how-enums-spread-disease-and-how-to-cure-it
 comments:

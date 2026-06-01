@@ -2,6 +2,8 @@
 title: Big Data In Motion
 date: 2012-11-07
 slug: big-data-in-motion
+item_id: CC-121102
+tags: [systems]
 redirect_from:
   - /2012/11/07/big-data-in-motion
 ---
