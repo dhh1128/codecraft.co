@@ -33,8 +33,8 @@
 
       {% if page.comments %}
       <hr>
-      <div class="comments-section">
-        <h3>Comments</h2>
+      <details class="comments-section">
+        <summary>Original discussion ({{ page.comments | size }})</summary>
         <ul>
           {% for comment in page.comments %}
             <li>
@@ -43,7 +43,7 @@
             </li>
           {% endfor %}
         </ul>
-      </div>
+      </details>
       {% endif %}
 
       </section>

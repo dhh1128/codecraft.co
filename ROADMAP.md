@@ -30,8 +30,10 @@ curated (`status: published | retired`, `book: true` subset).
 - [x] Convert `[caption]` shortcodes to clean `<figure>` markup (19 blocks in 17 essays) — `scripts/lint_wordpress.py`, test `tests/test_no_wordpress_residue.py`
 - [x] Audit & repair garbled/missing post metadata — done via the frontmatter repair + ID/date backfill above
 - [x] Drop pingback/trackback comments; keep genuine human comments — `scripts/lint_wordpress.py` (245 lines across 33 essays; « marker), test `test_no_pingback_comments`
-- [ ] Move comments to a collapsed appendix (`<details>`) in `_layouts/default.html`
+- [x] Move comments to a collapsed `<details>` appendix in `_layouts/default.html` (also fixed the stray `</h2>`); test `tests/test_layout.py`
 - → _Moved to M2 (entangled with the image inventory; 22/23 wp-content images already in `assets/`):_ resolve `wp-content` refs, fix malformed image URLs (`staticfliccom`, `static.flickr.com`), normalize `<img>` tags
+
+_M1 pure items complete; remaining M1 work folded into M2._
 
 ## M2 — Image ownership & quality
 - [ ] Localize `wp-content` image refs → `assets/` (22/23 already present; 1 `scn-shot-…` needs a judgment call), fix malformed image URLs, normalize `<img>` tags — fold into the inventory below
