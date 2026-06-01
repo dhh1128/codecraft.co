@@ -81,9 +81,6 @@ the work here is porting and adapting that proven system.
 
 ## Open questions (decide when relevant, don't assume)
 
-- **Category taxonomy** is not yet finalized — the author wants to debate it.
-  Until then, do **not** assign `item_id`s (the category code is part of the ID)
-  and do **not** generate the categorized index. Draft proposals are welcome.
 - **Publishing platform.** The site currently builds with **Jekyll** on GitHub
   Pages (no `Gemfile` — it uses Pages' built-in Jekyll, so there are no Ruby gem
   dependencies for Dependabot to track; the only dependency surface is the

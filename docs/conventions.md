@@ -13,7 +13,7 @@ Every essay is a Markdown file whose YAML frontmatter carries the fields below.
 | `date` | ✓ | date | **Original** publication date (ISO 8601, date only). Drives ID ordinal and sort. |
 | `slug` | ✓ | string | URL slug; equals the filename without `.md`. |
 | `item_id` | ✓ | string | Permanent ID, `CC-XXX-YYMMOO` (see below). Assigned once, never changed. |
-| `category` | ✓ | string | One of the frozen taxonomy categories (taxonomy TBD — see AGENTS.md). |
+| `category` | ✓ | string | One of the frozen taxonomy categories (see Taxonomy below). |
 | `status` | ✓ | enum | `published` or `retired`. Retired essays stay in the repo but are excluded from index/sitemap/PDFs. |
 | `keywords` | ✓ | list/string | For SEO and PDF metadata. |
 | `abstract` | ✓ | string | One-paragraph summary; feeds meta description and PDF subject. |
@@ -28,6 +28,31 @@ Notes:
 - The body must **not** repeat the title or abstract; the layout renders those.
 - Mechanical-only editing rule applies to all body content (see AGENTS.md).
 
+## Taxonomy
+
+Every essay belongs to exactly one category. The category name is plain and
+single-word; its code (first three characters, uppercased — with one documented
+exception) forms the `XXX` segment of the item-id.
+
+| Category | Code | Scope |
+|---|---|---|
+| Craft | `CRA` | What makes code good: quality attributes, simplicity, naming, comments. |
+| Architecture | `ARC` | System design, risk, resilience, scaling, decoupling, the architect's role. |
+| Languages | `LAN` | Programming-language design and mechanics. |
+| People | `PEO` | Working with humans: influence, politics, courage, communication. |
+| Learning | `LEA` | Personal growth, mental models, getting better; absorbs book reviews and mentor profiles. |
+| UX | `UXD` | User experience and usability, incl. the Role-Play-Centered Design (RPCD) work. |
+| Meta | `MET` | Why one writes, retrospectives, and personal reflection on the craft. |
+
+Notes:
+- **UX** is the one code exception: the name has two letters, so its code is
+  `UXD` rather than a three-letter truncation.
+- **Series.** Some coherent multi-essay threads are marked with a `series:`
+  field rather than their own category:
+  - `series: intent` — the language-design arc in **Languages** (Lacunas → Marks
+    → Markedness → Deixis → Pointing).
+  - `series: Mentors` — the "Name: lesson" profile essays in **Learning**.
+
 ## Item-ID convention
 
 Each essay gets a stable, human-readable identifier:
@@ -35,8 +60,8 @@ Each essay gets a stable, human-readable identifier:
 **`CC-XXX-YYMMOO`** — for example `CC-CRA-120826`.
 
 - `CC` — the Codecraft namespace.
-- `XXX` — first three letters of the essay's category name, uppercased. (Category
-  codes are finalized once the taxonomy is frozen; until then, **do not assign IDs**.)
+- `XXX` — the category code from the Taxonomy table above (e.g. `CRA`, `ARC`,
+  `LAN`, `PEO`, `LEA`, `UXD`, `MET`).
 - `YY` — two-digit year of original publication.
 - `MM` — two-digit month of original publication.
 - `OO` — two-digit ordinal disambiguating items within that year/category.

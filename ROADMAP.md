@@ -22,8 +22,8 @@ curated (`status: published | retired`, `book: true` subset).
 - [x] Define the frontmatter schema → `docs/conventions.md`
 - [x] Define the `CC-XXX-YYMMOO` item-id convention → `docs/conventions.md`
 - [x] Scaffold `scripts/` + `tests/` + `requirements.txt`
-- [ ] **BLOCKED (pending taxonomy debate):** freeze the category taxonomy
-- [ ] **BLOCKED (needs taxonomy):** assign a permanent `item_id` to every essay
+- [x] Freeze the category taxonomy (7 categories — see `docs/conventions.md`)
+- [ ] Assign a permanent `item_id` to every essay
 
 ## M1 — De-WordPress & clean the Markdown _(mechanical only — no prose edits)_
 - [ ] Convert 17 `[caption]` shortcodes to clean figure markup
