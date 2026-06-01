@@ -43,7 +43,7 @@ _M1 pure items complete; remaining M1 work folded into M2._
 - [ ] Establish a house visual style for AI-generated art
 - [ ] `apply_image_triage.py`: localize, generate, redraw, or drop + reflow
 - [ ] Record provenance/rights for every image in `assets/CREDITS.yml`
-- [ ] Quality bar: min resolution, alt-text everywhere, sane file sizes
+- [ ] Quality bar: min resolution, alt-text everywhere (118 imgs currently lack alt — `check_images.py`), sane file sizes
 - [ ] Verify: zero external image references remain
 
 ## M3 — Metadata enrichment
@@ -97,7 +97,7 @@ item-id format/uniqueness/determinism, and tag validity/coverage.
 - [x] `assign_ids.py` ↔ test: `tests/test_item_ids.py` + `tests/test_tags.py` — unique, well-formed, deterministic ids; controlled tags
 - [x] `build_site.py` ↔ test: `tests/test_site_build.py` — assembler emits one page per published essay, slim frontmatter, comments admonition, redirect stubs, valid mkdocs.yml, styling carried over
 - [ ] `check_links.py` ↔ test: no broken internal/external links
-- [ ] `check_images.py` ↔ test: no external images; all local images exist + alt-text + quality
+- [~] `check_images.py` ↔ test `tests/test_check_images.py`: flags external/malformed `<img>`, missing local files, and missing alt-text; `--check-only` gate + `essay:line` worklist. Current corpus: **102 external, 2 malformed, 0 missing-local, 118 no-alt**. End-state ("zero external", "alt everywhere") encoded as xfail tripwires until M2 lands. Image-quality (resolution/file-size) deferred to a Pillow pass. Wire `--check-only` into CI once the corpus is clean (it exits 1 today, so it would redden CI prematurely).
 - [ ] `generate_index.py` ↔ test: index/TOC in sync with corpus
 - [ ] `check_crossrefs.py` ↔ test: related-essay links resolve
 - [ ] `check_citations.py` ↔ test: external sources well-formed + reachable/archived
