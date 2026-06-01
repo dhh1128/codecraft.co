@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
+
+# Generated local view of the image triage manifest
+images_inventory.html

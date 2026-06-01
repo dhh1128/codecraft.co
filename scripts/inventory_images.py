@@ -15,9 +15,16 @@ Writes ``assets/image-triage.yml`` with a ``disposition`` per image
 (``local``, or ``wp`` with a local copy) default to ``own``; everything else
 starts blank for a case-by-case decision. Re-running preserves human-entered
 dispositions and refreshes the rest. ``--check-only`` exits 1 if stale.
+
+Also writes ``images_inventory.html`` — a browsable contact sheet (thumbnail,
+original URL, inferred license/ownership, local path, current disposition,
+with filter buttons) so the corpus can be triaged visually instead of by
+reading YAML. The HTML is a regenerated local artifact (gitignored); the YAML
+manifest remains the source of truth.
 """
 import argparse
 import glob
+import html
 import os
 import re
 import sys
@@ -27,6 +34,7 @@ import yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 META = {"README.md", "AGENTS.md", "CLAUDE.md", "ROADMAP.md", "index.md"}
 MANIFEST = os.path.join(ROOT, "assets", "image-triage.yml")
+HTML_VIEW = os.path.join(ROOT, "images_inventory.html")
 IMG_EXT = (".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp", ".bmp")
 MALFORMED = ("staticfliccom", "static.flickr.com")
 HEADER = (
@@ -102,7 +110,8 @@ def _load_dispositions():
             for r in data.get("images", [])}
 
 
-def render(rows, dispositions):
+def build_images(rows, dispositions):
+    """Merge auto-derived rows with any human-entered dispositions."""
     images = []
     for r in rows:
         disp = dispositions.get((r["essay"], r["src"], r["type"]))
@@ -112,42 +121,156 @@ def render(rows, dispositions):
                        "host": r["host"], "src": r["src"],
                        "local_match": r["local_match"], "alt": r["alt"],
                        "disposition": disp})
+    return images
+
+
+def render_yaml(images):
     body = yaml.safe_dump({"images": images}, sort_keys=False, allow_unicode=True,
                           default_flow_style=False, width=4096)
     return HEADER + body
 
 
+def _license(im):
+    """What we currently know about ownership/licensing, derived from kind.
+
+    (Structured per-image rights will live in assets/CREDITS.yml later; for now
+    this is inferred, with any credit hint pulled from the alt text.)"""
+    if im["kind"] == "local":
+        return "Owned — local asset (site is CC BY 4.0)"
+    if im["kind"] == "wp":
+        tail = "local copy present" if im["local_match"] else "no local copy yet"
+        return f"Owned — WordPress upload ({tail})"
+    if im["kind"] == "malformed":
+        return "Unknown — broken/typo URL"
+    note = f"Third-party — {im['host']} (rights not held)"
+    m = re.search(r"((?:image|photo|art)\s+credit[:\s].*)", im["alt"], re.I)
+    if m:
+        note += f" · {m.group(1)}"
+    return note
+
+
+def render_html(images):
+    def disp_class(d):
+        return d if d else "todo"
+
+    cards = []
+    for im in images:
+        display_src = f"assets/{im['local_match']}" if im["local_match"] else im["src"]
+        orig = im["src"]
+        rows = [f'<div class="r"><b>essay</b> {html.escape(im["essay"])}</div>']
+        if im["kind"] != "local":
+            rows.append(f'<div class="r"><b>orig</b> <a href="{html.escape(orig, quote=True)}" '
+                        f'target="_blank" rel="noopener">{html.escape(orig)}</a></div>')
+        if im["local_match"]:
+            rows.append(f'<div class="r"><b>local</b> assets/{html.escape(im["local_match"])}</div>')
+        rows.append(f'<div class="r"><b>license</b> {html.escape(_license(im))}</div>')
+        if im["alt"]:
+            rows.append(f'<div class="r alt"><b>alt</b> {html.escape(im["alt"])}</div>')
+        disp = im["disposition"]
+        cards.append(
+            f'<div class="card" data-kind="{im["kind"]}" data-disp="{disp_class(disp)}">'
+            f'<div class="thumb"><img loading="lazy" src="{html.escape(display_src, quote=True)}" '
+            f'alt="{html.escape(im["alt"], quote=True)}"></div>'
+            f'<div class="meta">'
+            f'<div class="badges"><span class="b kind">{im["kind"]}</span>'
+            f'<span class="b disp {disp_class(disp)}">{html.escape(disp) if disp else "todo"}</span></div>'
+            f'{"".join(rows)}</div></div>'
+        )
+
+    total = len(images)
+    todo = sum(1 for im in images if not im["disposition"])
+    return f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Image inventory — {total} references</title>
+<style>
+  body {{ font: 14px/1.45 system-ui, sans-serif; margin: 0; background: #f5f5f7; color: #222; }}
+  header {{ position: sticky; top: 0; background: #fff; border-bottom: 1px solid #ddd;
+           padding: 12px 16px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }}
+  h1 {{ font-size: 16px; margin: 0 0 8px; }}
+  .filters button {{ font: inherit; margin: 0 4px 4px 0; padding: 3px 10px; border: 1px solid #ccc;
+                     border-radius: 14px; background: #fafafa; cursor: pointer; }}
+  .filters button.active {{ background: #2563eb; color: #fff; border-color: #2563eb; }}
+  .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+          gap: 14px; padding: 16px; }}
+  .card {{ background: #fff; border: 1px solid #e3e3e3; border-radius: 8px; overflow: hidden;
+          display: flex; flex-direction: column; }}
+  .thumb {{ height: 170px; display: flex; align-items: center; justify-content: center;
+           background: #1112 repeating-linear-gradient(45deg,#0000 0 10px,#00000008 10px 20px); }}
+  .thumb img {{ max-width: 100%; max-height: 170px; object-fit: contain; }}
+  .meta {{ padding: 10px; font-size: 12px; word-break: break-word; }}
+  .r {{ margin: 2px 0; }} .r b {{ color: #666; font-weight: 600; margin-right: 4px; }}
+  .r.alt {{ color: #555; font-style: italic; }}
+  .badges {{ margin-bottom: 6px; }}
+  .b {{ display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }}
+  .b.kind {{ background: #eef; color: #334; }}
+  .b.disp {{ background: #e7f6e7; color: #161; }}
+  .b.disp.todo {{ background: #fde8e8; color: #911; }}
+  a {{ color: #2563eb; }}
+</style></head><body>
+<header>
+  <h1>Image inventory — {total} references · <span style="color:#911">{todo} to decide</span></h1>
+  <div class="filters">
+    <button data-f="all" class="active">all</button>
+    <button data-f="todo">todo</button>
+    <button data-f="own">own</button>
+    <button data-f="external">external</button>
+    <button data-f="wp">wp</button>
+    <button data-f="malformed">malformed</button>
+  </div>
+</header>
+<div class="grid">
+{chr(10).join(cards)}
+</div>
+<script>
+  const grid = document.querySelector('.grid');
+  document.querySelectorAll('.filters button').forEach(btn => btn.onclick = () => {{
+    document.querySelectorAll('.filters button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.f;
+    grid.querySelectorAll('.card').forEach(c => {{
+      const show = f === 'all' || c.dataset.kind === f || c.dataset.disp === f;
+      c.style.display = show ? '' : 'none';
+    }});
+  }});
+</script>
+</body></html>
+"""
+
+
 def is_in_sync():
     if not os.path.exists(MANIFEST):
         return False
-    return open(MANIFEST, encoding="utf-8").read() == render(image_refs(), _load_dispositions())
+    images = build_images(image_refs(), _load_dispositions())
+    return open(MANIFEST, encoding="utf-8").read() == render_yaml(images)
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check-only", action="store_true")
     args = ap.parse_args()
-    rows = image_refs()
-    text = render(rows, _load_dispositions())
+    images = build_images(image_refs(), _load_dispositions())
 
     from collections import Counter
-    kinds = Counter(r["kind"] for r in rows)
-    todo = sum(1 for r in rows if _default_disposition(r) == "" and
-               (r["essay"], r["src"], r["type"]) not in _load_dispositions())
+    kinds = Counter(im["kind"] for im in images)
+    todo = sum(1 for im in images if not im["disposition"])
 
     if args.check_only:
+        # The HTML view is a regenerated local artifact (gitignored); only the
+        # committed YAML manifest is checked for drift.
         if is_in_sync():
-            print(f"image-triage.yml is current ({len(rows)} refs: {dict(kinds)}).")
+            print(f"image-triage.yml is current ({len(images)} refs: {dict(kinds)}).")
         else:
             print("image-triage.yml is STALE — run scripts/inventory_images.py")
             sys.exit(1)
         return
 
     with open(MANIFEST, "w", encoding="utf-8") as f:
-        f.write(text)
-    print(f"Wrote {MANIFEST}: {len(rows)} references {dict(kinds)}.")
-    print(f"Owned auto-marked `own`; ~{kinds['external'] + kinds['malformed']} "
-          f"need a case-by-case disposition.")
+        f.write(render_yaml(images))
+    with open(HTML_VIEW, "w", encoding="utf-8") as f:
+        f.write(render_html(images))
+    print(f"Wrote {MANIFEST} and {HTML_VIEW}: {len(images)} references {dict(kinds)}.")
+    print(f"Open images_inventory.html in a browser — {todo} still need a disposition.")
 
 
 if __name__ == "__main__":

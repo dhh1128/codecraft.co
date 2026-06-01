@@ -51,3 +51,12 @@ def test_local_matches_exist(root):
 
 def test_manifest_in_sync():
     assert inv.is_in_sync(), "image-triage.yml is stale — run scripts/inventory_images.py"
+
+
+def test_html_view_has_a_card_per_image():
+    images = inv.build_images(inv.image_refs(), inv._load_dispositions())
+    page = inv.render_html(images)
+    assert "<!DOCTYPE html>" in page
+    assert page.count('class="card"') == len(images), "one card per image reference"
+    # the disposition of each image must be shown so the page is decision-ready
+    assert 'data-disp=' in page

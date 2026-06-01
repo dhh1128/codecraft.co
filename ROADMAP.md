@@ -36,7 +36,7 @@ curated (`status: published | retired`, `book: true` subset).
 _M1 pure items complete; remaining M1 work folded into M2._
 
 ## M2 — Image ownership & quality
-- [x] `inventory_images.py` → `assets/image-triage.yml` — 157 refs catalogued (39 local, 32 wp, 84 external, 2 malformed); 70 auto-marked `own`, 87 blank to triage. Test `tests/test_image_inventory.py` (5 tests).
+- [x] `inventory_images.py` → `assets/image-triage.yml` — 157 refs catalogued (39 local, 32 wp, 84 external, 2 malformed); 70 auto-marked `own`, 87 blank to triage. Also emits a browsable `images_inventory.html` contact sheet (thumbnail/orig URL/license/local path/disposition + filters; gitignored). Test `tests/test_image_inventory.py` (6 tests).
 - [ ] Localize `wp-content` image refs → `assets/` (1 `scn-shot-…` needs a judgment call), fix the 2 malformed image URLs, normalize `<img>` tags — drive from the manifest
 - [ ] Fill `disposition` per image for the 87 blanks (own / generate / redraw / drop)
 - [ ] Establish a house visual style for AI-generated art
