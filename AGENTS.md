@@ -57,6 +57,15 @@ the work here is porting and adapting that proven system.
 - **Surface, don't guess.** If a referenced tool, fixture, or convention is
   missing or contradicts what's described here, stop and ask — don't improvise a
   replacement.
+- **Keep the repo free of Dependabot alerts.** A clean security tab is a standing
+  hygiene goal, not a one-off. After any push, check
+  `gh api repos/dhh1128/codecraft.co/dependabot/alerts --jq '.[] | select(.state=="open")'`;
+  if anything is open, triage and fix it (bump the dependency to its first
+  patched version) rather than letting it linger. When authoring or editing a
+  GitHub Actions workflow, pin actions to a non-vulnerable, `node24`-runtime
+  version up front so you don't create a new alert. Verify a tag's runtime with
+  `curl -sL https://raw.githubusercontent.com/<org>/<action>/<tag>/action.yml | grep -E '^\s*using:'`
+  (want `node24`, `composite`, or `docker` — never `node20`).
 
 ## Decisions already made (do not relitigate without the author)
 
@@ -75,6 +84,18 @@ the work here is porting and adapting that proven system.
 - **Category taxonomy** is not yet finalized — the author wants to debate it.
   Until then, do **not** assign `item_id`s (the category code is part of the ID)
   and do **not** generate the categorized index. Draft proposals are welcome.
+- **Publishing platform.** The site currently builds with **Jekyll** on GitHub
+  Pages (no `Gemfile` — it uses Pages' built-in Jekyll, so there are no Ruby gem
+  dependencies for Dependabot to track; the only dependency surface is the
+  Actions workflows). Jekyll is blog-oriented; the author is migrating newer
+  static sites to **Zensical** (an actively-maintained successor to MkDocs,
+  MkDocs-API-compatible, more publication- than blog-oriented). A Zensical
+  migration is under consideration for this repo — see `../tti/home` for a
+  working example (`requirements.txt` pins `zensical`, `build.sh` runs
+  `zensical build`, published via `.github/workflows/publish.yml`). Not decided;
+  do not migrate without an explicit decision. Note this is **orthogonal** to
+  dependency hygiene — the link-check action must be kept current regardless of
+  the SSG.
 
 ## Repository layout
 

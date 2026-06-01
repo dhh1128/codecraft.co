@@ -100,3 +100,6 @@ Each quality goal gets a fixer script (`--check-only` capable) and a prover test
 
 ## Housekeeping / deferred
 - [ ] Archive legacy one-shot migration scripts under `tools/migration/` (don't extend them)
+- [x] Fix Dependabot alert #1: bump `lycheeverse/lychee-action` v1.10.0 → v2.8.0 (arbitrary code injection in `< 2.0.2`); also bumped `actions/checkout` v4 → v6 (node20 → node24)
+- [ ] Keep the Dependabot security tab clean as standing hygiene (see AGENTS.md)
+- [ ] **Decision (deferred):** migrate publishing platform Jekyll → Zensical? See `../tti/home` for a working example; orthogonal to dependency hygiene
