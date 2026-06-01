@@ -16,7 +16,7 @@ Almost everything useful that I've learned about software comes from observing g
 
 Sometimes I've learned from overt teaching &mdash; lunchtime training sessions, discussions around whiteboards, talks at conferences, emails and blog posts...
 
-<figure><img title="St. Francis of Assisi, by Jusepe de Ribera" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Saint_Francis_of_Assisi_by_Jusepe_de_Ribera.jpg/474px-Saint_Francis_of_Assisi_by_Jusepe_de_Ribera.jpg" alt="" width="284" height="359" /><figcaption>"... When necessary, use words." Image credit: Jusepe de Ribera (Wikimedia Commons)</figcaption></figure>
+<figure><img title="St. Francis of Assisi, by Jusepe de Ribera" src="assets/saint-francis-of-assisi-by-jusepe-de-ribera.jpg" alt="" width="284" height="359" /><figcaption>"... When necessary, use words." Image credit: Jusepe de Ribera (Wikimedia Commons)</figcaption></figure>
 
 More often, however, the deep lessons soak in over time, as I see a colleague model alignment to a value that they've internalized. Supposedly St. Francis of Assisi said, "Preach the gospel at all times. When necessary, use words." Put that in a business context; who have you known that's preached an eloquent sermon to you about the art or science of software by the way they decide, talk, or behave?
 

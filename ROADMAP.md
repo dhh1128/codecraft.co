@@ -43,7 +43,8 @@ _M1 pure items complete; remaining M1 work folded into M2._
 - [ ] Fill `disposition` per image for the 87 blanks (own / generate / redraw / drop)
 - [ ] Establish a house visual style for AI-generated art
 - [~] `apply_image_triage.py` ↔ test `tests/test_apply_image_triage.py` (9 tests): `own` disposition implemented (localize + download, no-op-aware, path-normalizing). `generate`/`redraw`/`drop` + reflow still to do.
-- [ ] Record provenance/rights for every image in `assets/CREDITS.yml`
+- [x] `recover_wikimedia.py` ↔ test `tests/test_recover_wikimedia.py` (13 tests): resolve broken `upload.wikimedia.org` hotlinks via the Commons API, license-gate (PD/CC/GFDL → publishable; NC/GFDL → not `book_safe`), download at original width, localize, write `CREDITS.yml`. **Recovered 15 images** (external `<img>` 81→66); 1 left unrecoverable (`baby-steps` — a non-free en.wikipedia movie still → needs generate/drop).
+- [~] Record provenance/rights for every image in `assets/CREDITS.yml` — created with 15 Wikimedia entries (source, license, license_code, artist, credit, attribution_required, **book_safe**, retrieved, replaces, used_in). Remaining: entries for the other owned/recovered images. Follow-up: 8 recovered images are CC-BY/SA/GFDL (attribution-required) — decide visible-attribution treatment (figcaption vs. a credits page).
 - [ ] Quality bar: min resolution, alt-text everywhere (118 imgs currently lack alt — `check_images.py`), sane file sizes
 - [ ] Verify: zero external image references remain
 

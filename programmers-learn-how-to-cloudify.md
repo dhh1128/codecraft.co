@@ -12,7 +12,7 @@ The blogosphere has plenty to say about cloud computing, but most content target
 
 This ought to change. Cloud computing isn't just interesting to datacenter managers; it enables many new technological strategies. Cloud-savvy engineering can boldly go where no software has gone before—if we're smart enough to take it there.
 
-<figure><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Anvil_shaped_cumulus_panorama_edit_crop.jpg/800px-Anvil_shaped_cumulus_panorama_edit_crop.jpg" width="480" height="197" /><figcaptiolouds on the horizon... Photo credit: <a href="http://www.flagstaffotos.com.au/" target="_top">fir0002 | flagstaffotos.com.au</a></figcaption></figure>
+<figure><img src="assets/anvil-shaped-cumulus-panorama-edit-crop.jpg" width="480" height="197" /><figcaptiolouds on the horizon... Photo credit: <a href="http://www.flagstaffotos.com.au/" target="_top">fir0002 | flagstaffotos.com.au</a></figcaption></figure>
 
 On my company's website, I've begun a new series of blog posts about how to "cloudify" your code and designs. Read the <a title=""Cloudify" series at Adaptive Computing" href="good-fences-make-good-neighbors.md">encapsulate</a> for cloud, and so forth.
 

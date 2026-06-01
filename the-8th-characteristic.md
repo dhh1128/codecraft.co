@@ -59,7 +59,7 @@ The 8th characteristic of life: <strong>mortality</strong>.
 
 All living things die.
 
-<figure><img title="a dead deer..." alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Roadkill_on_Route_170_Okatie_Hwy_by_the_Chechessee_River%2C_SC%2C_USA%2C_jjron_09.04.2012.jpg/320px-Roadkill_on_Route_170_Okatie_Hwy_by_the_Chechessee_River%2C_SC%2C_USA%2C_jjron_09.04.2012.jpg" width="320" height="210" /><figcaption>We see without seeing... Photo credit: John O'Neil (Wikimedia Commons)</figcaption></figure>
+<figure><img title="a dead deer..." alt="" src="assets/roadkill-on-route-170-okatie-hwy-by-the-chechessee-river-sc-usa-jjron-09-04-2012.jpg" width="320" height="210" /><figcaption>We see without seeing... Photo credit: John O'Neil (Wikimedia Commons)</figcaption></figure>
 
 Think about the consequences for a few moments. Would any of the ecosystems that you see on nature documentaries be possible without death? Would human civilization, as we know it? Read Orson Scott Card's short story, "Mortal Gods," and ponder.
 

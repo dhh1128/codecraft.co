@@ -13,7 +13,7 @@ My friend and long-time colleague Steve Tolman has a standing joke with people w
 
 Unlike most jokes, this one gets funnier the more often you hear it, especially if Steve gives a cheesy wink during delivery.
 
-<figure><img class=" " title="cheesy wink" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Wink.JPG/218px-Wink.JPG" alt="" width="218" height="240" /><figcaption>Nope, not Steve. Photo credit: Wikimedia Commons.</figcaption></figure>
+<figure><img class=" " title="cheesy wink" src="assets/wink.jpg" alt="" width="218" height="240" /><figcaption>Nope, not Steve. Photo credit: Wikimedia Commons.</figcaption></figure>
 
 Dead serious, high stakes discussion. Breathless delivery: <em>Should we build feature A or B?</em>
 <p style="padding-left:30px;">"It depends." Wink, wink.</p>

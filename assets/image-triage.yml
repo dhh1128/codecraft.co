@@ -180,12 +180,12 @@ images:
   disposition: own
 - essay: are-you-losing-enough-battles.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG/320px-George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/george-mcclellan-at-national-portrait-gallery-img-4524.jpg
+  local_match: george-mcclellan-at-national-portrait-gallery-img-4524.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: baby-steps.md
   type: img
   kind: external
@@ -524,12 +524,12 @@ images:
   disposition: own
 - essay: hair-raising-words.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/e/ea/Scary_clown.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/scary-clown.jpg
+  local_match: scary-clown.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: headers-babies-and-bathwater.md
   type: img
   kind: local
@@ -636,12 +636,12 @@ images:
   disposition: ''
 - essay: julie-jones-learn-voraciously.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cello_study.jpg/320px-Cello_study.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/cello-study.jpg
+  local_match: cello-study.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: ken-ebert-kill-three-birds.md
   type: img
   kind: external
@@ -764,20 +764,20 @@ images:
   disposition: own
 - essay: my-first-software-defined-supercompute-cluster.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Wide-angle_view_of_the_ALMA_correlator.jpg/640px-Wide-angle_view_of_the_ALMA_correlator.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/wide-angle-view-of-the-alma-correlator.jpg
+  local_match: wide-angle-view-of-the-alma-correlator.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: my-first-tangle-with-the-tower-of-babel.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/a/af/Confusion_of_Tongues.png
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/confusion-of-tongues.png
+  local_match: confusion-of-tongues.png
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: on-bread-recipes-maps-and-intentions.md
   type: img
   kind: external
@@ -828,12 +828,12 @@ images:
   disposition: ''
 - essay: programmers-learn-how-to-cloudify.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Anvil_shaped_cumulus_panorama_edit_crop.jpg/800px-Anvil_shaped_cumulus_panorama_edit_crop.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/anvil-shaped-cumulus-panorama-edit-crop.jpg
+  local_match: anvil-shaped-cumulus-panorama-edit-crop.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: programming-language-popularity-inde.md
   type: img
   kind: local
@@ -844,12 +844,12 @@ images:
   disposition: own
 - essay: progressive-disclosure-everywhere.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/635px-NautilusCutawayLogarithmicSpiral.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/nautiluscutawaylogarithmicspiral.jpg
+  local_match: nautiluscutawaylogarithmicspiral.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: put-your-const-foot-forward.md
   type: img
   kind: external
@@ -876,20 +876,20 @@ images:
   disposition: own
 - essay: roland-whatcott-manage-momentum.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Viking_5C_rocketengine.jpg/320px-Viking_5C_rocketengine.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/viking-5c-rocketengine.jpg
+  local_match: viking-5c-rocketengine.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: role-models.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Saint_Francis_of_Assisi_by_Jusepe_de_Ribera.jpg/474px-Saint_Francis_of_Assisi_by_Jusepe_de_Ribera.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/saint-francis-of-assisi-by-jusepe-de-ribera.jpg
+  local_match: saint-francis-of-assisi-by-jusepe-de-ribera.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: role-play-centered-design.md
   type: img
   kind: external
@@ -900,12 +900,12 @@ images:
   disposition: ''
 - essay: six-learning-tips-for-tech-folks.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Five-foot_crosscut_saw.jpg/320px-Five-foot_crosscut_saw.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/five-foot-crosscut-saw.jpg
+  local_match: five-foot-crosscut-saw.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: small-files-are-your-friends.md
   type: img
   kind: external
@@ -924,12 +924,12 @@ images:
   disposition: own
 - essay: steve-tolman-it-depends.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Wink.JPG/218px-Wink.JPG
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/wink.jpg
+  local_match: wink.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: taming-side-agreements.md
   type: img
   kind: external
@@ -964,12 +964,12 @@ images:
   disposition: ''
 - essay: the-8th-characteristic.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Roadkill_on_Route_170_Okatie_Hwy_by_the_Chechessee_River%2C_SC%2C_USA%2C_jjron_09.04.2012.jpg/320px-Roadkill_on_Route_170_Okatie_Hwy_by_the_Chechessee_River%2C_SC%2C_USA%2C_jjron_09.04.2012.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/roadkill-on-route-170-okatie-hwy-by-the-chechessee-river-sc-usa-jjron-09-04-2012.jpg
+  local_match: roadkill-on-route-170-okatie-hwy-by-the-chechessee-river-sc-usa-jjron-09-04-2012.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: the-power-of-simplicity.md
   type: img
   kind: local
@@ -1092,12 +1092,12 @@ images:
   disposition: ''
 - essay: why-cannibalism-may-be-smart-business.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Disruptivetechnology.gif/634px-Disruptivetechnology.gif
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/disruptivetechnology.png
+  local_match: disruptivetechnology.png
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: why-exceptions-arent-enough.md
   type: img
   kind: external
@@ -1204,17 +1204,17 @@ images:
   disposition: ''
 - essay: why-your-software-should-cry.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/5/5a/Stentor_roeseli_composite_image.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/stentor-roeseli-composite-image.jpg
+  local_match: stentor-roeseli-composite-image.jpg
   alt: ''
-  disposition: ''
+  disposition: own
 - essay: why.md
   type: img
-  kind: external
-  host: upload.wikimedia.org
-  src: http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Maslow%27s_hierarchy_of_needs.png/320px-Maslow%27s_hierarchy_of_needs.png
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/maslow-s-hierarchy-of-needs.png
+  local_match: maslow-s-hierarchy-of-needs.png
   alt: ''
-  disposition: ''
+  disposition: own
