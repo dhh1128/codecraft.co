@@ -36,14 +36,6 @@ comments:
     date: 2012-10-05 07:02:44
     comment: |
       Don: just came across a post from Seth Godin that teaches this same principle in a slightly different way: http://sethgodin.typepad.com/seths_blog/2012/10/waiting-for-all-the-facts.html
-  - author: Baby Steps &laquo; Codecraft
-    date: 2012-10-24 20:15:11
-    comment: |
-      [...] You might also think that baby steps are a repeat of my advice to put a stake in the ground. [...]
-  - author: Interrupting my interruptions &laquo; Codecraft
-    date: 2013-01-24 11:48:51
-    comment: |
-      [...] (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts are part of learning [...]
 ---
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
 My huddle was not going well. I'd called a meeting to debate a tricky architectural problem with other senior engineers, and consensus was scarcer than working markers for our whiteboard. We were going round and round in circles.

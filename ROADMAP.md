@@ -28,14 +28,13 @@ curated (`status: published | retired`, `book: true` subset).
 ## M1 — De-WordPress & clean the Markdown _(mechanical only — no prose edits)_
 - [x] Repair broken YAML frontmatter in 16 essays (mangled `---` fences; unquoted `title:`/`author:` values with colons) — `scripts/fix_frontmatter.py`. Unblocked dates/IDs.
 - [x] Convert `[caption]` shortcodes to clean `<figure>` markup (19 blocks in 17 essays) — `scripts/lint_wordpress.py`, test `tests/test_no_wordpress_residue.py`
-- [ ] Resolve 18 `wp-content` references
-- [ ] Fix malformed image URLs (`staticfliccom`, `static.flickr.com`, etc.)
-- [ ] Normalize all `<img>` tags to one consistent figure convention
-- [ ] Audit & repair garbled/missing post metadata (dates, titles, slugs)
-- [ ] Drop pingback/trackback/spam comments; keep genuine human comments
+- [x] Audit & repair garbled/missing post metadata — done via the frontmatter repair + ID/date backfill above
+- [x] Drop pingback/trackback comments; keep genuine human comments — `scripts/lint_wordpress.py` (245 lines across 33 essays; « marker), test `test_no_pingback_comments`
 - [ ] Move comments to a collapsed appendix (`<details>`) in `_layouts/default.html`
+- → _Moved to M2 (entangled with the image inventory; 22/23 wp-content images already in `assets/`):_ resolve `wp-content` refs, fix malformed image URLs (`staticfliccom`, `static.flickr.com`), normalize `<img>` tags
 
 ## M2 — Image ownership & quality
+- [ ] Localize `wp-content` image refs → `assets/` (22/23 already present; 1 `scn-shot-…` needs a judgment call), fix malformed image URLs, normalize `<img>` tags — fold into the inventory below
 - [ ] `inventory_images.py` → `assets/image-triage.yml`
 - [ ] Fill `disposition` per image (own / generate / redraw / drop)
 - [ ] Establish a house visual style for AI-generated art

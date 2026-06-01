@@ -42,10 +42,6 @@ comments:
       Julie: So glad you added a reference to the Dan Saks article. He explains it so much better than I could!
       
       The constant on the left is a tradeoff. I agree that it doesn't read as nicely, and that modern compilers are better at warning about the issue. However, I recently started working on some open source code, and there are members of the community for this particular codebase that are using pre-1990s C (not C++) compilers. I kid you not. So dialing up warnings is not always feasible. Where it is, I think I agree that the pendulum swings the other way.
-  - author: How Sutter&#8217;s Wrong About const in C++ 11 &laquo; Codecraft
-    date: 2013-01-02 08:50:24
-    comment: |
-      [...] community’s attention. I learned something important; I recommend that you watch the talk. Using const well is an essential skill. But I think in his enthusiasm about the way the language has evolved to make semantics clearer, [...]
   - author: Dan
     date: 2014-05-20 20:17:20
     comment: |

@@ -17,10 +17,6 @@ comments:
     date: 2012-10-31 15:05:30
     comment: |
       I don't think it's a coincidence that people who care about comments usually have battlescars... :-)
-  - author: All I Really Need To Know I Didn&#8217;t Learn In Compugarten &laquo; Codecraft
-    date: 2012-11-15 08:32:55
-    comment: |
-      [...] Effective commenting. [...]
   - author: Virgil Ellsworth
     date: 2013-03-24 06:11:34
     comment: |

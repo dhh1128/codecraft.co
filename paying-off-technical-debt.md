@@ -36,10 +36,6 @@ comments:
       I'll noodle on it, and blog if I think of anything useful.
       
       What kinds of events do you associated with bankruptcy?
-  - author: Earned Pragmatism &laquo; Codecraft
-    date: 2013-01-18 08:53:25
-    comment: |
-      [...] architectures healthy. Codebases owned by this type of “architect” tend to be rife with tech debt, with no roadmap or process to haul the team up and out. Where there is no vision, the people [...]
   - author: jasonodtr.inube.com
     date: 2013-03-06 20:25:02
     comment: |

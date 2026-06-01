@@ -6,11 +6,6 @@ item_id: CC-120805
 tags: [craft]
 redirect_from:
   - /2012/08/28/a-quibble-with-martins-optimize-later-notion
-comments:
-  - author: 3 Commandments of Performance Optimization &laquo; Codecraft
-    date: 2013-01-08 09:08:25
-    comment: |
-      [...] I don’t think either of these extremes is healthy in all cases. I have seen programmers who chronically think about performance too late,  creating large refactoring burdens and sabotaging their company’s success. Sometimes when you go from “make it work” to “make it fast” you find that all your original work is a waste, because a totally different design (even different tests, conceivably) is the only way forward; I wrote about this in “A Quibble with Martin’s ‘Optimize Later’ Notion“. [...]
 ---
 In <a href="http://martinfowler.com/books/#refactoring" target="_blank"><em>Refactoring</em></a>, Martin Fowler (a brilliant engineer whom I greatly admire) articulates an idea that I have heard from smart engineers for a long time: <em>first make it work, then make it fast</em>. He puts it this way:
 

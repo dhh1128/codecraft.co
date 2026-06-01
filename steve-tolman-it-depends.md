@@ -7,11 +7,6 @@ tags: [learning]
 series: "Mentors"
 redirect_from:
   - /2012/09/17/steve-tolman-it-depends
-comments:
-  - author: 3 Commandments of Performance Optimization &laquo; Codecraft
-    date: 2013-01-08 09:08:35
-    comment: |
-      [...] assume you buy my criticism of the extremes, and you’re willing to apply the “it depends” doctrine. In some cases, you do nothing about performance, because the stakes are low. (Yes, all you [...]
 ---
 <p style="text-align:right;"><em>(A post in my “<a href="../../../category/role-models/">Role Models</a>” series…)</em></p>
 My friend and long-time colleague Steve Tolman has a standing joke with people who know him well. He gives the same answer to every question: "It depends."

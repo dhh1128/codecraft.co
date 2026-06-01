@@ -39,10 +39,6 @@ comments:
     date: 2013-01-28 21:37:12
     comment: |
       Just ran into another article that says much the same thing: http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html
-  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
-    date: 2013-02-05 08:57:59
-    comment: |
-      [...] We retreat to our cubes and grumble that people keep getting in the way of us getting work done, but we don’t get serious enough about managing everybody’s interruptions wisely. [...]
   - author: Daniel Hardman
     date: 2013-02-06 09:43:50
     comment: |

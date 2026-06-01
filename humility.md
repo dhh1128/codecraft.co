@@ -27,10 +27,6 @@ comments:
       This is one of the reasons why I blog: it forces me to put into words ideas that have only been vague feelings before. I like being forced to think clearly.
       
       Thanks for the feedback, Stas. I hope things are going great for you.
-  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
-    date: 2013-02-05 08:57:50
-    comment: |
-      [...] achieve something important, get enamored of our own success, and forget to be humble and to learn from [...]
 ---
 I was applying for a very senior architect role. I'd already been through several rounds of interviews with a whole committee of thought leaders in the department. I'd taken a technical proficiency test, and (I hope) given a good impression about how I'd be able to contribute.
 

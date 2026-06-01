@@ -6,11 +6,6 @@ item_id: CC-120907
 tags: [meta]
 redirect_from:
   - /2012/09/13/manifestos
-comments:
-  - author: Earned Pragmatism &laquo; Codecraft
-    date: 2013-01-18 08:53:21
-    comment: |
-      [...] one of the early torchbearers for the agile software movement. I’ve written previously about signing the Agile manifesto, so I felt like I was swimming in friendly [...]
 ---
 I signed two software manifestos yesterday.
 

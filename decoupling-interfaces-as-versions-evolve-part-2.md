@@ -8,10 +8,6 @@ series: "Decoupling Interfaces"
 redirect_from:
   - /2008/08/19/decoupling-interfaces-as-versions-evolve-part-2
 comments:
-  - author: Decoupling Interfaces As Versions Evolve, Part 1 &laquo; Codecraft
-    date: 2013-02-21 11:54:55
-    comment: |
-      [...] to interface versioning with the flexibility of late binding to get the best of both worlds. In part 2 of this series, I’ll look at some approaches to that goal, and discuss why they still leave [...]
   - author: Julie
     date: 2013-03-08 17:40:07
     comment: |

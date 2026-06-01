@@ -47,10 +47,6 @@ comments:
     date: 2012-12-29 11:06:50
     comment: |
       Ian: I had not made that connection, but it is a *great* one. Thanks for pointing it out!
-  - author: Earned Pragmatism &laquo; Codecraft
-    date: 2013-01-18 08:53:29
-    comment: |
-      [...] this type of “architect” tend to be rife with tech debt, with no roadmap or process to haul the team up and out. Where there is no vision, the people [...]
 ---
 In the 1950s, researchers at Johns Hopkins conducted some very troubling experiments. They caught wild rats and squeezed them in their hands until they stopped struggling, teaching them that nothing they did would let them escape the crushing grip of their human captors. Then they dropped the rats in a bucket of water and watched them swim.
 

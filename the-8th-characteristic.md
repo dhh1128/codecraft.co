@@ -33,10 +33,6 @@ comments:
       Alphy: thank you for pointing me to the "biological immortality" concept. I went and read the wikipedia article. Fascinating!
       
       All rules have exceptions &mdash; even this one, I guess. :-)
-  - author: Don&#8217;t forget the circuit breakers &laquo; Codecraft
-    date: 2013-01-11 18:02:04
-    comment: |
-      [...] macro scales, in ways that software barely begins to contemplate. In fact, homeostasis is one of life’s 8 key characteristics. I find it interesting that in many cases, life achieves this balance using feedback loops that [...]
   - author: dougbert
     date: 2013-03-15 11:59:33
     comment: |

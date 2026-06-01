@@ -54,10 +54,6 @@ comments:
     date: 2013-02-04 21:44:43
     comment: |
       Because of the nature of the self-reinforcing decisions, I don't think it is possible for the change to work in a permanent, organization-wide manner from the ground up (save the ground-up movement changing the mind the person at the top, who then institutes it from the top down). At this point, I think those in the best those in the bottom and middle of an organization can do is to affect their own sphere of influence. If enough change is made there, then hopefully it will start to gain traction organization-wide, which conveniently takes the conversation full circle: the importance of the personal why.
-  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
-    date: 2013-02-05 08:57:56
-    comment: |
-      [...] We accept all feature requests at face value and don’t vett them thoughtfully against our why. [...]
   - author: kareklesgrafeiou
     date: 2013-03-07 21:04:34
     comment: |

@@ -7,10 +7,6 @@ tags: [craft]
 redirect_from:
   - /2012/10/17/flexibility-is-no-virtue
 comments:
-  - author: The Power of Simplicity &laquo; Codecraft
-    date: 2013-02-15 08:56:51
-    comment: |
-      [...] And all the planning that built those features? They’re symptoms of a problem, not solutions. Nobody really wants a shopping cart framework with 10,000 configuration options; they want to sell in a way that delights and engages customers. (Okay, I guess some software [...]
   - author: David H
     date: 2015-09-09 19:29:51
     comment: |

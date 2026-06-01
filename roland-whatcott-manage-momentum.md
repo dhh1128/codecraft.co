@@ -8,10 +8,6 @@ series: "Mentors"
 redirect_from:
   - /2012/09/21/roland-whatcott-manage-momentum
 comments:
-  - author: Coping With Organizational Alzheimers &laquo; Codecraft
-    date: 2012-10-12 11:37:24
-    comment: |
-      [...] big problem with most companies,” said Roland, “is that they have no institutional [...]
   - author: Kim
     date: 2012-10-19 08:08:46
     comment: |
@@ -26,14 +22,6 @@ comments:
     date: 2012-10-19 11:02:17
     comment: |
       Momentum is not equally important in all circumstances, but as a general rule, I think this is a very astute observation, Kim. Part of the balance you have to strike is to be able to recognize very early (often based on battle scars and/or intuition) when focusing on architectural questions is necessary, and when getting momentum on more humdrum stuff is a bigger benefit. (These two orientations are not necessary mutually exclusive, but they *do* compete to some degree.)
-  - author: Interrupting my interruptions &laquo; Codecraft
-    date: 2013-01-24 11:48:47
-    comment: |
-      [...] I’m attending (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts [...]
-  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
-    date: 2013-02-05 08:57:43
-    comment: |
-      [...] programming language, product schedule, or architecture&mdash;so much so that we lose momentum or [...]
 ---
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
 <p style="text-align:left;">In late 2000, I joined a small team tasked with rewriting the core technology at PowerQuest. The old codebase &mdash; despite embodying a number of patent-pending concepts, and serving as the foundation for all our revenue &mdash; was fragile, rife with technical debt, and unfriendly to localization, new platforms, and other roadmap priorities.</p>

@@ -38,14 +38,6 @@ comments:
     date: 2012-10-04 16:55:20
     comment: |
       I agree. Needing to keep learning might seem like a big item on a to-do list, but it can (and should) be done here a little, there a little. My <a href="six-learning-tips-for-tech-folks.md" title="Six Learning Tips For Tech Folks" rel="nofollow">post with tips for tech learners</a> was an attempt to capture some small habits with big benefits.
-  - author: Interrupting my interruptions &laquo; Codecraft
-    date: 2013-01-24 11:48:54
-    comment: |
-      [...] stake in the ground. Those wikipedia pages and chat sessions and interesting blog posts are part of learning voraciously, which is a strategic imperative for any software [...]
-  - author: Smart Geeks Think Like Cheerleaders &laquo; Codecraft
-    date: 2013-02-05 08:57:53
-    comment: |
-      [...] We achieve something important, get enamored of our own success, and forget to be humble and to learn from others. [...]
   - author: Snapfairy
     date: 2013-02-16 09:52:20
     comment: |

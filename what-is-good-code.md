@@ -8,18 +8,6 @@ series: "What Is Good Code"
 redirect_from:
   - /2012/08/26/what-is-good-code
 comments:
-  - author: Good Code Is Balanced &laquo; Software, Wetware, Webware
-    date: 2012-08-27 09:55:53
-    comment: |
-      [...] my first post about what constitutes “good code,” I claimed we were dealing with a complex question. This is why I distrust short [...]
-  - author: Good Code Is Named Right &laquo; Software, Wetware, Webware
-    date: 2012-08-28 10:04:27
-    comment: |
-      [...] post in my “What is ‘Good Code’?” [...]
-  - author: Good Code Is Optimized &laquo; Software, Wetware, Webware
-    date: 2012-08-28 10:05:26
-    comment: |
-      [...] post in my “What is ‘Good Code’?” [...]
   - author: Daniel
     date: 2012-10-01 10:24:48
     comment: |

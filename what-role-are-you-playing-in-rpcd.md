@@ -8,10 +8,6 @@ series: "RPCD"
 redirect_from:
   - /2012/06/25/what-role-are-you-playing-in-rpcd
 comments:
-  - author: Role-Play Centered Design &laquo; Software, Wetware, Webware
-    date: 2012-06-25 09:29:26
-    comment: |
-      [...] You should "be" the software in the system, and you should "be" the people as we.... [...]
   - author: best food storage companies
     date: 2014-08-06 07:38:14
     comment: |

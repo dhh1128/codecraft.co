@@ -44,18 +44,6 @@ comments:
       Trev: very astute observation that there are horrible, mediocre, and good mental models. I've seen a lot of cases where a program wants people on the outside of a program to think in terms of its internal data structures, which is very regrettable. Sigh...
       
       I had forgotten the eject-via-trash problem on the Macs, but that example brought it all back. I winced many times myself. When I was unfamiliar with the expected behavior, I think I may have actually used a pin to manually eject from a disk drive rather than try the trash. Definitely a case where the chosen metaphor did the user a horrible disservice.
-  - author: 3 Commandments of Performance Optimization &laquo; Codecraft
-    date: 2013-01-08 09:08:38
-    comment: |
-      [...] is useful to learn certain rules of thumb. We have to have a mental model that lets us make simplifying predictions, such as “It’s probably going to be a waste [...]
-  - author: Interrupting my interruptions &laquo; Codecraft
-    date: 2013-01-24 11:48:44
-    comment: |
-      [...] is both a tool and an end unto itself. Those meetings I’m attending (or calling) are how I develop shared mental models, motivate and teach, manage momentum, and put a stake in the ground. Those wikipedia pages and chat [...]
-  - author: Why Software Artisans Should Manage Their Influence &laquo; Codecraft
-    date: 2013-02-07 08:49:25
-    comment: |
-      [...] of his thinking to our field. Since so much of what we do requires buy-in, coordination and shared mental models, we have to be savvy about how we communicate, advocate, and train. Assuming equal technical [...]
 ---
 As they leave school and embark on professional adventures, naive engineers believe their purpose is more or less summed up by this equation:
 <p style="text-align:center;font-size:140%;">product = software = code</p>

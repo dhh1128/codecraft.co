@@ -11,10 +11,6 @@ comments:
     date: 2013-02-05 10:10:01
     comment: |
       mmm, yeah, great observation. That "syncs" with me - lol
-  - author: Why Software Artisans Should Manage Their Influence &laquo; Codecraft
-    date: 2013-02-07 08:49:22
-    comment: |
-      [...] craftsmen, I see direct application of his thinking to our field. Since so much of what we do requires buy-in, coordination and shared mental models, we have to be savvy about how we communicate, advocate, and train. [...]
   - author: God, Evolution, Systems, and Eternity &#8211; An Eye of Faith
     date: 2018-12-07 15:49:11
     comment: |

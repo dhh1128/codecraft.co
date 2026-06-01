@@ -8,18 +8,6 @@ series: "The Architect's Role"
 redirect_from:
   - /2008/06/25/why-people-are-part-of-a-software-architecture
 comments:
-  - author: Role-Play Centered Design &laquo; Software, Wetware, Webware
-    date: 2012-06-25 09:29:24
-    comment: |
-      [...] is wrong. software &mdash; people != software. Any thoughtful veteran of the industry can tell you stories about why this is so. Engineers who [...]
-  - author: "Lynn Bendixsen: Listen. &laquo; Codecraft"
-    date: 2012-10-02 15:47:59
-    comment: |
-      [...] you believe that people are an integral part of the software discipline, or that you should understand those who interact with your product, then listening is a critical [...]
-  - author: Interrupting my interruptions &laquo; Codecraft
-    date: 2013-01-24 11:48:41
-    comment: |
-      [...] they could hire much cheaper and quieter employees. As I’ve said repeatedly on this blog, people are part of architecture, and interacting with teammates is both a tool and an end unto itself. Those meetings I’m [...]
   - author: Workflows, People and Processes
     date: 2014-05-05 03:52:54
     comment: |
