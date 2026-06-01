@@ -1,10 +1,14 @@
 name: check links in markdown files
 
 on:
-  repository_dispatch:
-  workflow_dispatch:
-  push:
-    
+  workflow_dispatch:        # run on demand
+  schedule:
+    # Quarterly (~every 90 days): 00:00 UTC on the 1st of Jan/Apr/Jul/Oct.
+    # cron has no exact N-day interval; this is the standard "every 3 months".
+    # External link rot shouldn't fail individual pushes — this is a periodic
+    # report, not a per-commit gate. (pytest CI is the per-push gate.)
+    - cron: '0 0 1 */3 *'
+
 jobs:
   link-check:
     runs-on: ubuntu-latest
