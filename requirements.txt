@@ -1,0 +1,7 @@
+# Toolkit + test dependencies for the codecraft.co essay collection.
+pyyaml
+pytest
+# Added as the toolkit grows (image/link/SEO work):
+# requests
+# pillow
+# beautifulsoup4
