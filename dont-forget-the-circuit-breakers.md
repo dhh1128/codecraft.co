@@ -32,7 +32,7 @@ comments:
     date: 2013-01-13 19:28:59
     comment: |
       One of my favorite job interview questions (for potential dev or QA hires) is to ask someone how they'd test a simple program. Some people stare at me blankly. Some just regurgitate the golden path. The ones I like to hire are the ones that immediately reel off half a dozen ways that they could imagine the code being broken. That kind of thinker is not only better at writing error-resistant code and better at writing comprehensive tests, but is also more creative and fun to work with overall.
-  - author: Architects: manage risk like a Vegas bookie &laquo; Codecraft
+  - author: "Architects: manage risk like a Vegas bookie &laquo; Codecraft"
     date: 2013-02-21 09:31:31
     comment: |
       [...] Is my architecture properly accounting for risk of environmental problems such as DDOS, routing failures, brownouts, and temporary loss of an internal component? (See my article about circuit breakers.) [...]

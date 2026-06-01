@@ -1,5 +1,5 @@
 ---
-title: "Rockstar Developers" are a dangerous myth
+title: '"Rockstar Developers" are a dangerous myth'
 date: 2015-03-04
 slug: rockstars
 redirect_from:

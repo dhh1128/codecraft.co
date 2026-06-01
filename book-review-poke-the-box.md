@@ -1,5 +1,5 @@
 ---
-title: Book Review: Poke the Box
+title: "Book Review: Poke the Box"
 date: 2012-10-16
 slug: book-review-poke-the-box
 redirect_from:

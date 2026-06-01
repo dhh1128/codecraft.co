@@ -1,5 +1,5 @@
 ---
-title: Steve Jackson: Lead with Passion
+title: "Steve Jackson: Lead with Passion"
 date: 2013-09-30
 slug: steve-jackson-lead-with-passion
 redirect_from:

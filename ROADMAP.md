@@ -26,6 +26,7 @@ curated (`status: published | retired`, `book: true` subset).
 - [ ] Assign a permanent `item_id` to every essay
 
 ## M1 — De-WordPress & clean the Markdown _(mechanical only — no prose edits)_
+- [x] Repair broken YAML frontmatter in 16 essays (mangled `---` fences; unquoted `title:`/`author:` values with colons) — `scripts/fix_frontmatter.py`. Unblocked dates/IDs.
 - [ ] Convert 17 `[caption]` shortcodes to clean figure markup
 - [ ] Resolve 18 `wp-content` references
 - [ ] Fix malformed image URLs (`staticfliccom`, `static.flickr.com`, etc.)

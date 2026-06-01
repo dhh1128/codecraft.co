@@ -9,7 +9,7 @@ comments:
     date: 2012-06-25 09:29:24
     comment: |
       [...] is wrong. software &mdash; people != software. Any thoughtful veteran of the industry can tell you stories about why this is so. Engineers who [...]
-  - author: Lynn Bendixsen: Listen. &laquo; Codecraft
+  - author: "Lynn Bendixsen: Listen. &laquo; Codecraft"
     date: 2012-10-02 15:47:59
     comment: |
       [...] you believe that people are an integral part of the software discipline, or that you should understand those who interact with your product, then listening is a critical [...]

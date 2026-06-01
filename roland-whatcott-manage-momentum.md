@@ -1,5 +1,5 @@
 ---
-title: Roland Whatcott: Manage momentum.
+title: "Roland Whatcott: Manage momentum."
 date: 2012-09-21
 slug: roland-whatcott-manage-momentum
 redirect_from:

@@ -1,5 +1,5 @@
 ---
-title: Programmers: learn how to "cloudify"
+title: 'Programmers: learn how to "cloudify"'
 date: 2013-07-23
 slug: programmers-learn-how-to-cloudify
 redirect_from:

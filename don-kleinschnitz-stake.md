@@ -1,5 +1,5 @@
 ---
-title: Don Kleinschnitz: Put a stake in the ground.
+title: "Don Kleinschnitz: Put a stake in the ground."
 date: 2012-09-14
 slug: don-kleinschnitz-stake
 redirect_from:

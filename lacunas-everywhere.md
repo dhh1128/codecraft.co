@@ -1,4 +1,4 @@
- &mdash; -
+---
 title: Lacunas Everywhere
 date: 2014-07-16
 slug: lacunas-everywhere
@@ -21,7 +21,7 @@ comments:
       In my next couple posts, I'll describe the solution. I've been slow to post, lately, but I'll try to write them quickly so you're not left hanging for too long. :-) I'm not trying to be mysterious; I'm just having a dickens of a time pulling half a dozen mental threads into a coherent tapestry.
       
       Your connection with Knuth is an interesting one. I've heard of literate programming, and I've read some stuff by him before, but I am not very familiar with the specific idea you describe, so now I've got a new homework assignment.
- &mdash; -
+---
 I'm <a href="http://matadornetwork.com/abroad/20-awesomely-untranslatable-words-from-around-the-world/" target="_blank">told</a> that in Czech, the word "prozvonit" means "to call a mobile phone and let it ring once so that the other person will call back, saving the first caller money."
 
 <figure><img src="https://farm5.staticflickr.com/4113/5080987526_cdbf30487f_z_d.jpg" alt="" width="640" height="421" /><figcaption>Image credit: AstridWestvang (Flickr)</figcaption></figure>
