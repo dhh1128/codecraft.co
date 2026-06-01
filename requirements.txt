@@ -3,7 +3,8 @@ pyyaml
 pytest
 # Static-site generator (assembled + built by build.sh / scripts/build_site.py).
 zensical>=0.0.43
+# Image post-processing (transparent-background knockout for AI-generated art).
+pillow
 # Added as the toolkit grows (image/link/SEO work):
 # requests
-# pillow
 # beautifulsoup4

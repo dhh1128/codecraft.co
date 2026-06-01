@@ -24,15 +24,22 @@ opener or a *New Yorker* spot illustration, in the brand's warm palette.
 |---|---|---|
 | Linework | `#491705` | deep brown — the main lines (brand heading color) |
 | Accent | `#914f37` | muted terracotta — one accent per image (brand link color) |
-| Background | `#faf7f2` | warm off-white |
-| Optional shade | `#765043` | sparingly, for a second subtle tone |
+| Background | — | generate on a plain solid light background, then **knock it out to transparent** (see below) |
+
+**Backgrounds float.** openart.ai gives every image a slightly different
+off-white background, so on the page each would show a faint rectangle. Instead
+of chasing an exact colour in the prompt (the generator won't hit it reliably),
+we generate on a *plain, uniform* light background and then make it
+**transparent** with `scripts/normalize_art.py` — it removes only the exterior,
+connected background, so the art floats on any page colour (and a future dark
+mode), while interior light fills (e.g. a cream service-window) survive.
 
 ### The reusable **style suffix**
 
 Append this to every prompt — it's what makes the set consistent. Only the
 first clause (the concept) changes per image:
 
-> `minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, warm off-white (#faf7f2) background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic`
+> `minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic`
 
 ### Negative prompt (paste into openart.ai's negative field)
 
@@ -52,7 +59,9 @@ first clause (the concept) changes per image:
 1. Open `assets/art-prompts.yml`; for each `status: pending` entry, paste its
    `prompt` (+ the negative prompt above) into openart.ai.
 2. Save the chosen image to `assets/` using the entry's `filename`.
-3. Run the localizer (a `generate`-aware pass of `apply_image_triage.py`, TBD)
+3. Knock out the background: `python scripts/normalize_art.py --from-prompts`
+   (or pass specific files) → transparent PNGs that float on the page.
+4. Run the localizer (a `generate`-aware pass of `apply_image_triage.py`, TBD)
    to rewrite the essay `<img src>` and record provenance in `CREDITS.yml`
    (origin: AI-generated; model: openart.ai; the prompt; rights: owned).
 
