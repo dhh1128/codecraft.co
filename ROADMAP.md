@@ -38,10 +38,10 @@ _M1 pure items complete; remaining M1 work folded into M2._
 
 ## M2 — Image ownership & quality
 - [x] `inventory_images.py` → `assets/image-triage.yml` — 157 refs catalogued (39 local, 32 wp, 84 external, 2 malformed); 70 auto-marked `own`, 87 blank to triage. Also emits a browsable `images_inventory.html` contact sheet (thumbnail/orig URL/license/local path/disposition + filters; gitignored). Test `tests/test_image_inventory.py` (6 tests).
-- [ ] Localize `wp-content` image refs → `assets/` (1 `scn-shot-…` needs a judgment call), fix the 2 malformed image URLs, normalize `<img>` tags — drive from the manifest
+- [~] Localize `wp-content` image refs → `assets/` via `scripts/apply_image_triage.py` (executes `own`-disposition rows: rewrite `<img src>`/`<a href>` → `assets/<file>`, downloading if no local copy; idempotent, exact-string, prose-safe). **Done: 22 `codecraft.co` owned images localized** (external `<img>` count 102→82). Remaining: the other `own` rows, the 2 malformed URLs, and the `scn-shot-2014-05-15` judgment call (URL is 404; date-exact local `screen-shot-2014-05-15-…png` is the likely match — awaiting confirmation)
 - [ ] Fill `disposition` per image for the 87 blanks (own / generate / redraw / drop)
 - [ ] Establish a house visual style for AI-generated art
-- [ ] `apply_image_triage.py`: localize, generate, redraw, or drop + reflow
+- [~] `apply_image_triage.py` ↔ test `tests/test_apply_image_triage.py` (7 tests): `own` disposition implemented (localize + download). `generate`/`redraw`/`drop` + reflow still to do.
 - [ ] Record provenance/rights for every image in `assets/CREDITS.yml`
 - [ ] Quality bar: min resolution, alt-text everywhere (118 imgs currently lack alt — `check_images.py`), sane file sizes
 - [ ] Verify: zero external image references remain

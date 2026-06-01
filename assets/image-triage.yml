@@ -300,9 +300,9 @@ images:
   disposition: own
 - essay: decoupling-interfaces-as-versions-evolve-part-1.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2008/07/traditional-pros-and-cons.png?w=128
+  kind: local
+  host: ''
+  src: assets/traditional-pros-and-cons.png
   local_match: traditional-pros-and-cons.png
   alt: ''
   disposition: own
@@ -316,25 +316,25 @@ images:
   disposition: own
 - essay: decoupling-interfaces-as-versions-evolve-part-3.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2008/07/alternative.png?w=128
+  kind: local
+  host: ''
+  src: assets/alternative.png
   local_match: alternative.png
   alt: Alternative Approach
   disposition: own
 - essay: decoupling-interfaces-as-versions-evolve-part-3.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2008/07/trycast.png?w=128
+  kind: local
+  host: ''
+  src: assets/trycast.png
   local_match: trycast.png
   alt: TryCast Pseudocode
   disposition: own
 - essay: decoupling-interfaces-as-versions-evolve-part-3.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2008/07/alternative-pros-and-cons.png?w=128
+  kind: local
+  host: ''
+  src: assets/alternative-pros-and-cons.png
   local_match: alternative-pros-and-cons.png
   alt: New Approach - Pros and Cons
   disposition: own
@@ -500,9 +500,9 @@ images:
   disposition: ''
 - essay: good-code-plans-for-problems.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2012/09/bush-fail.jpg
+  kind: local
+  host: ''
+  src: assets/bush-fail.jpg
   local_match: bush-fail.jpg
   alt: ''
   disposition: own
@@ -540,9 +540,9 @@ images:
   disposition: own
 - essay: high-value-questions.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2012/09/6637427465_2fb4695630.jpg
+  kind: local
+  host: ''
+  src: assets/6637427465_2fb4695630.jpg
   local_match: 6637427465_2fb4695630.jpg
   alt: 'semantic network for '
   disposition: own
@@ -572,9 +572,9 @@ images:
   disposition: ''
 - essay: how-sutters-wrong-about-const-in-cpp-11.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2013/01/screen-shot-2013-01-01-at-1-25-14-pm.png?w=300
+  kind: local
+  host: ''
+  src: assets/screen-shot-2013-01-01-at-1-25-14-pm.png
   local_match: screen-shot-2013-01-01-at-1-25-14-pm.png
   alt: The const and mutable keywords are not equivalent in C++ 11, but they do share guarantees about thread safety.
   disposition: own
@@ -620,9 +620,9 @@ images:
   disposition: ''
 - essay: interrupting-my-interruptions.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2013/01/time_management.png?w=500
+  kind: local
+  host: ''
+  src: assets/time_management.png
   local_match: time_management.png
   alt: time_management
   disposition: own
@@ -724,17 +724,17 @@ images:
   disposition: ''
 - essay: my-bibifi-adventure.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: https://codecraft.co/wp-content/uploads/2015/06/screen-shot-2015-06-13-at-4-17-03-pm.png?w=660
+  kind: local
+  host: ''
+  src: assets/screen-shot-2015-06-13-at-4-17-03-pm.png
   local_match: screen-shot-2015-06-13-at-4-17-03-pm.png
   alt: Bibifi Scoreboard
   disposition: own
 - essay: my-bibifi-adventure.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: https://codecraft.co/wp-content/uploads/2015/06/screen-shot-2015-06-13-at-4-26-26-pm.png?w=660
+  kind: local
+  host: ''
+  src: assets/screen-shot-2015-06-13-at-4-26-26-pm.png
   local_match: screen-shot-2015-06-13-at-4-26-26-pm.png
   alt: Screen Shot 2015-06-13 at 4.26.26 PM
   disposition: own
@@ -748,17 +748,17 @@ images:
   disposition: ''
 - essay: my-bibifi-adventure.md
   type: link
-  kind: wp
-  host: codecraft.co
-  src: https://codecraft.co/wp-content/uploads/2015/06/screen-shot-2015-06-13-at-4-17-03-pm.png
+  kind: local
+  host: ''
+  src: assets/screen-shot-2015-06-13-at-4-17-03-pm.png
   local_match: screen-shot-2015-06-13-at-4-17-03-pm.png
   alt: ''
   disposition: own
 - essay: my-bibifi-adventure.md
   type: link
-  kind: wp
-  host: codecraft.co
-  src: https://codecraft.co/wp-content/uploads/2015/06/screen-shot-2015-06-13-at-4-26-26-pm.png
+  kind: local
+  host: ''
+  src: assets/screen-shot-2015-06-13-at-4-26-26-pm.png
   local_match: screen-shot-2015-06-13-at-4-26-26-pm.png
   alt: ''
   disposition: own
@@ -804,9 +804,9 @@ images:
   disposition: ''
 - essay: on-pains-and-brains.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: https://codecraft.co/wp-content/uploads/2016/01/descartes-reflex.jpeg
+  kind: local
+  host: ''
+  src: assets/descartes-reflex.jpeg
   local_match: descartes-reflex.jpeg
   alt: Descartes-reflex
   disposition: own
@@ -836,9 +836,9 @@ images:
   disposition: ''
 - essay: programming-language-popularity-inde.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2013/03/langpop.png
+  kind: local
+  host: ''
+  src: assets/langpop.png
   local_match: langpop.png
   alt: langpop
   disposition: own
@@ -860,17 +860,17 @@ images:
   disposition: ''
 - essay: rockstars.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: https://codecraft.co/wp-content/uploads/2015/03/screen-shot-2015-03-05-at-6-52-57-pm.png?w=646
+  kind: local
+  host: ''
+  src: assets/screen-shot-2015-03-05-at-6-52-57-pm.png
   local_match: screen-shot-2015-03-05-at-6-52-57-pm.png
   alt: Alan Turing and team members at Bletchley Park, with a forerunner of the modern computer &mdash;  technology invented by brilliant people to break the Nazi Enigma encryption. Screenshot from official trailer, under fair use.
   disposition: own
 - essay: rockstars.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: https://codecraft.co/wp-content/uploads/2015/03/superstar.png?w=646
+  kind: local
+  host: ''
+  src: assets/superstar.png
   local_match: superstar.png
   alt: superstar
   disposition: own
@@ -916,9 +916,9 @@ images:
   disposition: ''
 - essay: smart-geeks-think-like-cheerleaders.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2013/02/screen-shot-2013-02-04-at-9-42-59-pm.png
+  kind: local
+  host: ''
+  src: assets/screen-shot-2013-02-04-at-9-42-59-pm.png
   local_match: screen-shot-2013-02-04-at-9-42-59-pm.png
   alt: ''
   disposition: own
@@ -940,9 +940,9 @@ images:
   disposition: ''
 - essay: tech-debt-leverage-and-grandmas-envelope.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2012/10/screen-shot-2013-02-01-at-8-20-20-am.png
+  kind: local
+  host: ''
+  src: assets/screen-shot-2013-02-01-at-8-20-20-am.png
   local_match: screen-shot-2013-02-01-at-8-20-20-am.png
   alt: 'Photo credit: Friends of the Earth International (Flickr)'
   disposition: own
@@ -972,9 +972,9 @@ images:
   disposition: ''
 - essay: the-power-of-simplicity.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2013/02/screen-shot-2013-02-14-at-10-12-29-pm.png
+  kind: local
+  host: ''
+  src: assets/screen-shot-2013-02-14-at-10-12-29-pm.png
   local_match: screen-shot-2013-02-14-at-10-12-29-pm.png
   alt: 'Seek the simple... Photo credit: departing(YYZ) (Flickr)'
   disposition: own
@@ -988,9 +988,9 @@ images:
   disposition: ''
 - essay: the-third-half-of-computational-economics.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2013/08/3-fingers.jpg
+  kind: local
+  host: ''
+  src: assets/3-fingers.jpg
   local_match: 3-fingers.jpg
   alt: 3-fingers
   disposition: own
@@ -1060,9 +1060,9 @@ images:
   disposition: ''
 - essay: what-should-code-look-like-when-we-squint-at-it.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2013/09/screen-shot-2013-09-18-at-10-25-28-pm.png
+  kind: local
+  host: ''
+  src: assets/screen-shot-2013-09-18-at-10-25-28-pm.png
   local_match: screen-shot-2013-09-18-at-10-25-28-pm.png
   alt: google maps zoom slider
   disposition: own
@@ -1116,9 +1116,9 @@ images:
   disposition: ''
 - essay: why-i-dont-blog-about-great-code.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2012/10/screen-shot-2012-10-02-at-10-10-04-pm.png
+  kind: local
+  host: ''
+  src: assets/screen-shot-2012-10-02-at-10-10-04-pm.png
   local_match: screen-shot-2012-10-02-at-10-10-04-pm.png
   alt: ''
   disposition: own

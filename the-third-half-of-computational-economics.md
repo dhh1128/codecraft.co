@@ -38,7 +38,7 @@ That's all well and good.
 
 But there is a third half of the computer+economics interaction that I don't hear anybody talking about.
 
-<figure><img class="size-full wp-image-1252" alt="3-fingers" src="http://codecraft.co/wp-content/uploads/2013/08/3-fingers.jpg" width="500" height="385" /><figcaption>My buddy <a href="ken-ebert-kill-three-birds.md">Ken Ebert</a> likes to joke about incomplete thinking by saying, "There are 2 aspects of the issue..." &mdash; while he raises three fingers. :-) Interestingly, this three-fingered gesture is a symbol of sustainable development, which connects nicely to our theme of economics. Photo credit: <a href="http://www.flickr.com/photos/dragonpreneur/2918061941">\!/_PeacePlusOne (Flickr)</a></figcaption></figure>
+<figure><img class="size-full wp-image-1252" alt="3-fingers" src="assets/3-fingers.jpg" width="500" height="385" /><figcaption>My buddy <a href="ken-ebert-kill-three-birds.md">Ken Ebert</a> likes to joke about incomplete thinking by saying, "There are 2 aspects of the issue..." &mdash; while he raises three fingers. :-) Interestingly, this three-fingered gesture is a symbol of sustainable development, which connects nicely to our theme of economics. Photo credit: <a href="http://www.flickr.com/photos/dragonpreneur/2918061941">\!/_PeacePlusOne (Flickr)</a></figcaption></figure>
 
 Why don't we use economic principles to model scarcity and tradeoffs within our applications and ecosystems?
 

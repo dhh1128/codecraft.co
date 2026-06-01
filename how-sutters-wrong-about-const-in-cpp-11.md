@@ -165,4 +165,4 @@ So: <code>const</code> means <em>unchangeable in whatever scope sees const (incl
 
 Instead of Herb's final equation, I'd propose a Venn diagram:
 
-<figure><img class="size-medium wp-image-888" alt="The const and mutable keywords are not equivalent in C++ 11, but they do share guarantees about thread safety." src="http://codecraft.co/wp-content/uploads/2013/01/screen-shot-2013-01-01-at-1-25-14-pm.png?w=300" width="300" height="206" /><figcaption>The const and mutable keywords are not equivalent in C++ 11, but they do share guarantees about thread safety.</figcaption></figure>
+<figure><img class="size-medium wp-image-888" alt="The const and mutable keywords are not equivalent in C++ 11, but they do share guarantees about thread safety." src="assets/screen-shot-2013-01-01-at-1-25-14-pm.png" width="300" height="206" /><figcaption>The const and mutable keywords are not equivalent in C++ 11, but they do share guarantees about thread safety.</figcaption></figure>

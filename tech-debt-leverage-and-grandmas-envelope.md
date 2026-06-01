@@ -19,7 +19,7 @@ comments:
 ---
 In my previous posts about tech debt, I focused on <a title="Coping With Organizational Alzheimers" href="paying-off-technical-debt.md">how tech debts are funded and paid back</a>.
 
-<figure><a href="http://www.flickr.com/photos/foei/9530111/"><img class="size-full wp-image-965" alt="Photo credit: Friends of the Earth International (Flickr)" src="http://codecraft.co/wp-content/uploads/2012/10/screen-shot-2013-02-01-at-8-20-20-am.png" width="300" height="222" /></a><figcaption>Photo credit: Friends of the Earth International (Flickr)</figcaption></figure>
+<figure><a href="http://www.flickr.com/photos/foei/9530111/"><img class="size-full wp-image-965" alt="Photo credit: Friends of the Earth International (Flickr)" src="assets/screen-shot-2013-02-01-at-8-20-20-am.png" width="300" height="222" /></a><figcaption>Photo credit: Friends of the Earth International (Flickr)</figcaption></figure>
 
 These topics hit a raw nerve with coders and testers. Those in the trenches often feel very keenly the cost of doing things in a messy way, and it's common for them to worry that others don't "get it."
 

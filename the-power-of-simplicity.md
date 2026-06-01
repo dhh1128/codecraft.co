@@ -39,7 +39,7 @@ comments:
 ---
 Most stories about zen masters, gurus, or other paragons of wisdom follow a similar pattern. The pupil discovers a problem. He or she struggles with it. The problem gets more and more overwhelming. Solutions are elusive. Finally the pupil goes to the master and pours out his heart, whereupon the master offers a pearl of insight that radically reinterprets the problem.
 
-<figure><a href="http://www.flickr.com/photos/departingyyz/6858912596/"><img class="size-full wp-image-989 " alt="Seek the simple... Photo credit: departing(YYZ) (Flickr)" src="http://codecraft.co/wp-content/uploads/2013/02/screen-shot-2013-02-14-at-10-12-29-pm.png" width="500" height="330" /></a><figcaption>Seek the simple... Photo credit: departing(YYZ) (Flickr)</figcaption></figure>
+<figure><a href="http://www.flickr.com/photos/departingyyz/6858912596/"><img class="size-full wp-image-989 " alt="Seek the simple... Photo credit: departing(YYZ) (Flickr)" src="assets/screen-shot-2013-02-14-at-10-12-29-pm.png" width="500" height="330" /></a><figcaption>Seek the simple... Photo credit: departing(YYZ) (Flickr)</figcaption></figure>
 
 There's a reason why this narrative exists in every culture: human beings need the insight that comes from synthesis, pared down to its essence. We crave the simple but profound:
 <ul>
