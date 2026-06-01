@@ -66,7 +66,7 @@ At least, I do.
 
 Hi. My name is Daniel, and I'm addicted to interruptions. :-)
 
-[caption id="attachment_943" align="aligncenter" width="500"]<a href="http://xkcd.com/874/"><img class="size-large wp-image-943" alt="time_management" src="http://codecraft.co/wp-content/uploads/2013/01/time_management.png?w=500" width="500" height="222" /></a> Image Credit: xkcd[/caption]
+<figure><a href="http://xkcd.com/874/"><img class="size-large wp-image-943" alt="time_management" src="http://codecraft.co/wp-content/uploads/2013/01/time_management.png?w=500" width="500" height="222" /></a><figcaption>Image Credit: xkcd</figcaption></figure>
 
 <strong>Symptoms</strong>
 

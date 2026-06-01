@@ -27,7 +27,7 @@ curated (`status: published | retired`, `book: true` subset).
 
 ## M1 — De-WordPress & clean the Markdown _(mechanical only — no prose edits)_
 - [x] Repair broken YAML frontmatter in 16 essays (mangled `---` fences; unquoted `title:`/`author:` values with colons) — `scripts/fix_frontmatter.py`. Unblocked dates/IDs.
-- [ ] Convert 17 `[caption]` shortcodes to clean figure markup
+- [x] Convert `[caption]` shortcodes to clean `<figure>` markup (19 blocks in 17 essays) — `scripts/lint_wordpress.py`, test `tests/test_no_wordpress_residue.py`
 - [ ] Resolve 18 `wp-content` references
 - [ ] Fix malformed image URLs (`staticfliccom`, `static.flickr.com`, etc.)
 - [ ] Normalize all `<img>` tags to one consistent figure convention

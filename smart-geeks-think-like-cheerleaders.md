@@ -23,7 +23,7 @@ comments:
 <p style="text-align:right;"><span style="color:#808080;font-size:90%;">Technorati code: FMUS579NQBM8</span></p>
 Saturday I went to a high school half an hour north of our home, to watch my 16-year-old daughter compete in a cheerleading competition. And I learned something about software.
 
-[caption id="attachment_969" align="aligncenter" width="500"]<a href="http://www.flickr.com/photos/neys/3779763449/"><img class="size-full wp-image-969" alt="" src="http://codecraft.co/wp-content/uploads/2013/02/screen-shot-2013-02-04-at-9-42-59-pm.png" width="500" height="300" /></a> Photo credit: neys (Flickr)[/caption]
+<figure><a href="http://www.flickr.com/photos/neys/3779763449/"><img class="size-full wp-image-969" alt="" src="http://codecraft.co/wp-content/uploads/2013/02/screen-shot-2013-02-04-at-9-42-59-pm.png" width="500" height="300" /></a><figcaption>Photo credit: neys (Flickr)</figcaption></figure>
 
 I'm not sure how many teams were there &mdash; maybe a hundred. The competition started at 9 am and was scheduled to run through 5. Every team consisted of dozens of girls, all dressed in spangles and glitter, with identical ribbons in their hair. They'd march out onto the floor, drop their heads and arms to their sides, and wait for the first blast of music to initiate the routine. Then they'd tumble and dance their hearts out, finishing out of breath with a flourish.
 

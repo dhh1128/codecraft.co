@@ -24,7 +24,7 @@ comments:
 <p style="text-align:right;"><em>(Another post in my "<a title="What Is “Good Code”?" href="what-is-good-code.md">What is 'Good Code'?</a>" series...)</em></p>
 What should you do when software doesn't work the way you expect?
 
-[caption id="attachment_360" align="aligncenter" width="500"]<a href="president-bush-fail.md"><img class="size-full wp-image-360" title="bush-fail" src="http://codecraft.co/wp-content/uploads/2012/09/bush-fail.jpg" alt="" width="500" height="458" /></a> Surprising behavior. Photo credit: epicfail.com.[/caption]
+<figure><a href="president-bush-fail.md"><img class="size-full wp-image-360" title="bush-fail" src="http://codecraft.co/wp-content/uploads/2012/09/bush-fail.jpg" alt="" width="500" height="458" /></a><figcaption>Surprising behavior. Photo credit: epicfail.com.</figcaption></figure>
 
 You have to have a plan. The plan could bring one (or several) of the following strategies to bear:
 <ul>

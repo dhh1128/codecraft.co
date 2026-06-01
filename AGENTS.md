@@ -51,6 +51,12 @@ the work here is porting and adapting that proven system.
 - **Every quality goal is a script + a test.** When you add a capability, add the
   fixer script in `scripts/` *and* the prover test in `tests/`. CI runs the tests
   and the `--check-only` mode of the scripts.
+- **Work test-first (red → green → refactor).** For any new fixer, feature, or
+  cleanup, write or extend the prover test *first* and **observe it fail** (red)
+  before writing the implementation. Then implement until it passes and
+  **observe it pass** (green). Never write the implementation before seeing the
+  test go red; never claim a task done before seeing the test go green. Report
+  both observations explicitly. This applies to all milestone work from now on.
 - **Preserve legacy SEO.** The `redirect_from` entries in frontmatter map old
   WordPress URLs to current pages; they carry the site's existing search equity.
   Never drop them.

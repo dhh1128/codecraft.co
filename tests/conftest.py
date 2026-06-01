@@ -39,3 +39,14 @@ def essays():
             fm = None
         out.append((p, fm))
     return out
+
+
+@pytest.fixture(scope="session")
+def essay_bodies():
+    """List of (filename, body-after-frontmatter)."""
+    out = []
+    for p in _essay_paths():
+        text = p.read_text(encoding="utf-8")
+        m = re.match(r"^---\n.*?\n---\n(.*)$", text, re.S)
+        out.append((p.name, m.group(1) if m else text))
+    return out

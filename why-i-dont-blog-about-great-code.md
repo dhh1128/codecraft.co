@@ -18,7 +18,7 @@ If you're a fan of aphorisms, you've probably heard the opposite statement a few
 
 However, I submit that the greatness you should be pursuing in software is less about producing great code, and more about becoming a great <em>producer</em> of code. And great producers of code know that most of their creations will not <a title="Good Code Is Optimized" href="good-code-is-optimized.md" target="_blank">optimize business value</a> if they aim for a magnum opus. Not every commission can be the Sistine Chapel.
 
-[caption id="attachment_620" align="aligncenter" width="500"]<a href="http://en.wikipedia.org/wiki/File:Creaci%C3%B3n_de_Ad%C3%A1n_(Miguel_%C3%81ngel).jpg"><img class="size-full wp-image-620" title="Screen Shot 2012-10-02 at 10.10.04 PM" src="http://codecraft.co/wp-content/uploads/2012/10/screen-shot-2012-10-02-at-10-10-04-pm.png" alt="" width="500" height="222" /></a> Detail from the Sistine Chapel, by Michaelangelo. Image credit: Wikimedia Commons.[/caption]
+<figure><a href="http://en.wikipedia.org/wiki/File:Creaci%C3%B3n_de_Ad%C3%A1n_(Miguel_%C3%81ngel).jpg"><img class="size-full wp-image-620" title="Screen Shot 2012-10-02 at 10.10.04 PM" src="http://codecraft.co/wp-content/uploads/2012/10/screen-shot-2012-10-02-at-10-10-04-pm.png" alt="" width="500" height="222" /></a><figcaption>Detail from the Sistine Chapel, by Michaelangelo. Image credit: Wikimedia Commons.</figcaption></figure>
 
 Don't get me wrong. I care about the quality and artistry of code, and there is definitely great code out there. It's just that I've got these battle scars...
 
