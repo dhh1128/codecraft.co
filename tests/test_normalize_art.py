@@ -40,6 +40,26 @@ def test_enclosed_light_fill_survives():
     assert out.getpixel((20, 20))[3] == 255, "enclosed light fill must survive"
 
 
+def test_process_file_downscales_large_images(tmp_path):
+    p = tmp_path / "big.png"
+    im = Image.new("RGB", (2000, 1500), BG)
+    ImageDraw.Draw(im).rectangle([800, 600, 1200, 900], fill=INK)
+    im.save(p)
+    na.process_file(str(p), max_size=1024)
+    out = Image.open(p)
+    assert max(out.size) == 1024          # downscaled to the cap
+    assert out.size == (1024, 768)        # aspect preserved
+    assert out.mode == "RGBA"
+    assert out.getpixel((0, 0))[3] == 0   # still knocked out
+
+
+def test_small_images_are_not_upscaled(tmp_path):
+    p = tmp_path / "small.png"
+    Image.new("RGB", (300, 200), BG).save(p)
+    na.process_file(str(p), max_size=1024)
+    assert max(Image.open(p).size) == 300
+
+
 def test_process_file_writes_rgba_png(tmp_path):
     p = tmp_path / "art.png"
     im = Image.new("RGB", (20, 20), BG)

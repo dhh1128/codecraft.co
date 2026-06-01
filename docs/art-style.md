@@ -59,8 +59,10 @@ first clause (the concept) changes per image:
 1. Open `assets/art-prompts.yml`; for each `status: pending` entry, paste its
    `prompt` (+ the negative prompt above) into openart.ai.
 2. Save the chosen image to `assets/` using the entry's `filename`.
-3. Knock out the background: `python scripts/normalize_art.py --from-prompts`
-   (or pass specific files) → transparent PNGs that float on the page.
+3. Post-process: `python scripts/normalize_art.py --from-prompts` (or pass
+   files) → knocks out the background (transparent) **and** downscales to 1024px
+   + optimizes. openart's 2k/3–5 MB output becomes ~1024px / ~130–430 KB. (No
+   need to generate at 2k; 1k is plenty — but normalize handles either.)
 4. Run the localizer (a `generate`-aware pass of `apply_image_triage.py`, TBD)
    to rewrite the essay `<img src>` and record provenance in `CREDITS.yml`
    (origin: AI-generated; model: openart.ai; the prompt; rights: owned).

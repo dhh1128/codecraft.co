@@ -30,21 +30,27 @@ def knockout(img, thresh=60):
     for corner in ((0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1)):
         ImageDraw.floodfill(rgb, corner, _SENTINEL, thresh=thresh)
     rgba = rgb.convert("RGBA")
-    px = rgba.load()
-    for y in range(h):
-        for x in range(w):
-            r, g, b, _ = px[x, y]
-            if (r, g, b) == _SENTINEL:
-                px[x, y] = (0, 0, 0, 0)
+    transparent = (0, 0, 0, 0)
+    rgba.putdata([transparent if p[:3] == _SENTINEL else p for p in rgba.getdata()])
     return rgba
 
 
-def process_file(path, thresh=60):
+def downscale(img, max_size=1024):
+    """Shrink so the longest side is <= max_size (never upscales)."""
+    w, h = img.size
+    if max(w, h) <= max_size:
+        return img
+    scale = max_size / max(w, h)
+    return img.resize((round(w * scale), round(h * scale)), Image.LANCZOS)
+
+
+def process_file(path, thresh=60, max_size=1024):
+    """Downscale (web size), knock out the background, save an optimized PNG."""
     with Image.open(path) as im:
-        out = knockout(im, thresh=thresh)
+        out = knockout(downscale(im, max_size), thresh=thresh)
     # always write PNG (alpha); if the source wasn't .png, switch the extension
     target = os.path.splitext(path)[0] + ".png"
-    out.save(target)
+    out.save(target, optimize=True)
     return target
 
 
@@ -65,6 +71,8 @@ def main(argv=None):
                     help="process every art-prompts.yml image found in assets/")
     ap.add_argument("--thresh", type=int, default=60,
                     help="background colour tolerance (default 60)")
+    ap.add_argument("--max-size", type=int, default=1024,
+                    help="downscale longest side to this many px (default 1024)")
     args = ap.parse_args(argv)
 
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -75,8 +83,10 @@ def main(argv=None):
         ap.error("no files given (pass paths or --from-prompts)")
 
     for path in files:
-        target = process_file(path, thresh=args.thresh)
-        print(f"  knocked out background → {target}")
+        before = os.path.getsize(path) if os.path.isfile(path) else 0
+        target = process_file(path, thresh=args.thresh, max_size=args.max_size)
+        after = os.path.getsize(target)
+        print(f"  {os.path.basename(target)}: {before//1024} KB → {after//1024} KB transparent")
 
 
 if __name__ == "__main__":
