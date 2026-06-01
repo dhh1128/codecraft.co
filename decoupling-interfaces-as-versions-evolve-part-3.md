@@ -24,13 +24,13 @@ Fear not.
 </ol>
 <h3>
 
-<figure><a href="../../../wp-content/uploads/2008/07/alternative.png"><img class="size-thumbnail wp-image-45" src="assets/alternative.png" alt="Alternative Approach" width="128" height="84" /></a></figure></h3>
+<figure><a href="assets/alternative.png"><img class="size-thumbnail wp-image-45" src="assets/alternative.png" alt="Alternative Approach" width="128" height="84" /></a></figure></h3>
 <h3>The Gory Details</h3>
 This solution could be built on top of COM, RPC-over-soap-style web services, or a RESTful service interface more analogous to document-oriented web services. Other environments such as CORBA/EJB may also be candidates, though I am less familiar with the details there.
 
 Most SOAP comm pipelines get a remote object and deserialize it to a tightly bound object type in a single step, using a type cast as a runtime check that the remote source meets the calling code’s expectations. Such code would have to change so a remote object is fetched and deserialized in an initial step, and subsequently, the standard cast is replaced with a function that creates a wrapper object from the local interface if compatibility tests pass.
 
-<figure><a href="../../../wp-content/uploads/2008/07/trycast.png"><img class="size-thumbnail wp-image-46" src="assets/trycast.png" alt="TryCast Pseudocode" width="128" height="76" /></a></figure>
+<figure><a href="assets/trycast.png"><img class="size-thumbnail wp-image-46" src="assets/trycast.png" alt="TryCast Pseudocode" width="128" height="76" /></a></figure>
 
 In COM code, the analogous initial step must return an IUnknown; the second step consists of composing the semantic union of all interfaces the IUnknown supports, and then using that überinterface as the basis for compatibility testing. Since IUnknown does not support enumeration, the semantic union of all interfaces in an IUnknown would require a list of possible IIDs to perform a series of QueryInterface calls, or a low-level analysis of the object’s vtable.
 
@@ -43,4 +43,4 @@ or something similar. This conveys the object’s semantic constraints along wit
 
 It’s important to distinguish between read-only and read-write usage patterns in this mechanism. Consumers of an interface that only intend to display data are infinitely backward compatible if the runtime check for semantic compatibility passes, regardless of the version numbers/guids in play under a given scenario, because the wrapper classes depend on an interface mapping that’s generated dynamically at runtime. However, if a consumer of an object wants to update its state at the source, the wrapper class must contain every property that the provider will require &mdash; or else the provider must set such properties either before serving the object or when the update is requested. Using wrapper classes rather than the traditional generated SOAP stubs is an important element of this mechanism because this allows mods to objects that a client does not fully understand.
 
-<figure><a href="../../../wp-content/uploads/2008/07/alternative-pros-and-cons.png"><img class="size-thumbnail wp-image-55" src="assets/alternative-pros-and-cons.png" alt="New Approach - Pros and Cons" width="128" height="79" /></a></figure>
+<figure><a href="assets/alternative-pros-and-cons.png"><img class="size-thumbnail wp-image-55" src="assets/alternative-pros-and-cons.png" alt="New Approach - Pros and Cons" width="128" height="79" /></a></figure>

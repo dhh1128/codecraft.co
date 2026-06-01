@@ -100,6 +100,23 @@ def test_download_when_no_local_copy(tmp_path):
     assert any(a["status"] == "downloaded" for a in actions)
 
 
+def test_already_canonical_src_is_unchanged(tmp_path):
+    # A row whose src is already assets/<file> must report 'unchanged', not 'rewritten'.
+    root = _setup(tmp_path, [_row(src="assets/foo.png", local_match="foo.png")],
+                  '<img alt="x" src="assets/foo.png">')
+    actions = ait.localize(root, apply=True)
+    assert all(a["status"] != "rewritten" for a in actions)
+    assert any(a["status"] == "unchanged" for a in actions)
+
+
+def test_normalizes_leading_slash_assets(tmp_path):
+    # /assets/foo.png and ../assets/foo.png should normalize to assets/foo.png.
+    root = _setup(tmp_path, [_row(src="/assets/foo.png", local_match="foo.png")],
+                  '<img alt="x" src="/assets/foo.png">')
+    ait.localize(root, apply=True)
+    assert 'src="assets/foo.png"' in (root / "a.md").read_text(encoding="utf-8")
+
+
 def test_link_type_href_rewritten(tmp_path):
     root = _setup(tmp_path, [_row(type="link")],
                   f'<a href="{WP}">see chart</a>')

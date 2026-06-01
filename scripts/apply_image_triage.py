@@ -92,6 +92,12 @@ def localize(root, apply=False, fetch=None, hosts=None):
         target_path = os.path.join(assets_dir, target_name)
         target_ref = f"assets/{target_name}"
 
+        # Already canonical (src == assets/<file>): nothing to do.
+        if src == target_ref:
+            actions.append({"essay": essay, "src": src, "target": target_ref,
+                           "status": "unchanged"})
+            continue
+
         status = None
         if not os.path.isfile(target_path):
             # need to download

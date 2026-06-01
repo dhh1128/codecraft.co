@@ -308,9 +308,9 @@ images:
   disposition: own
 - essay: decoupling-interfaces-as-versions-evolve-part-1.md
   type: link
-  kind: wp
+  kind: local
   host: ''
-  src: ../../../wp-content/uploads/2008/07/traditional-pros-and-cons.png
+  src: assets/traditional-pros-and-cons.png
   local_match: traditional-pros-and-cons.png
   alt: ''
   disposition: own
@@ -340,25 +340,25 @@ images:
   disposition: own
 - essay: decoupling-interfaces-as-versions-evolve-part-3.md
   type: link
-  kind: wp
+  kind: local
   host: ''
-  src: ../../../wp-content/uploads/2008/07/alternative.png
+  src: assets/alternative.png
   local_match: alternative.png
   alt: ''
   disposition: own
 - essay: decoupling-interfaces-as-versions-evolve-part-3.md
   type: link
-  kind: wp
+  kind: local
   host: ''
-  src: ../../../wp-content/uploads/2008/07/trycast.png
+  src: assets/trycast.png
   local_match: trycast.png
   alt: ''
   disposition: own
 - essay: decoupling-interfaces-as-versions-evolve-part-3.md
   type: link
-  kind: wp
+  kind: local
   host: ''
-  src: ../../../wp-content/uploads/2008/07/alternative-pros-and-cons.png
+  src: assets/alternative-pros-and-cons.png
   local_match: alternative-pros-and-cons.png
   alt: ''
   disposition: own
@@ -548,9 +548,9 @@ images:
   disposition: own
 - essay: high-value-questions.md
   type: link
-  kind: wp
+  kind: local
   host: ''
-  src: ../../../wp-content/uploads/2012/09/6637427465_2fb4695630.jpg
+  src: assets/6637427465_2fb4695630.jpg
   local_match: 6637427465_2fb4695630.jpg
   alt: ''
   disposition: own
@@ -1068,9 +1068,9 @@ images:
   disposition: own
 - essay: what-should-code-look-like-when-we-squint-at-it.md
   type: link
-  kind: wp
+  kind: local
   host: ''
-  src: ../../../wp-content/uploads/2013/09/screen-shot-2013-09-18-at-10-25-28-pm.png
+  src: assets/screen-shot-2013-09-18-at-10-25-28-pm.png
   local_match: screen-shot-2013-09-18-at-10-25-28-pm.png
   alt: ''
   disposition: own
@@ -1172,12 +1172,12 @@ images:
   disposition: ''
 - essay: why-you-should-be-proficient-in-a-tool-like-vim-or-emacs.md
   type: img
-  kind: wp
-  host: codecraft.co
-  src: http://codecraft.co/wp-content/uploads/2014/05/scn-shot-2014-05-15-at-1-47-38-am.png?w=646
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/screen-shot-2014-05-15-at-1-47-38-am.png
+  local_match: screen-shot-2014-05-15-at-1-47-38-am.png
   alt: 'Religious wars aren''t pretty. '
-  disposition: ''
+  disposition: own
 - essay: why-you-should-be-proficient-in-a-tool-like-vim-or-emacs.md
   type: link
   kind: external
