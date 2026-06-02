@@ -40,7 +40,7 @@ I'm a big fan of encapsulation.
 
 But if you never leave your boxes, you miss half the fun.
 
-<strong>Layers and silos</strong>
+## Layers and silos
 
 As cells grow into tissues in biology, so similar objects in an OOP mindset often coalesce into horizontal layers composed of entities with compatible composition and duties. These strata get names: "the business logic layer", "the display layer", "middleware", "core engine", and so forth. If you've worked on anything MVC or n-tier or client-server, you know this mindset.
 
@@ -52,7 +52,7 @@ This is a problem.
 
 <em>You should encapsulate code. People, not so much.</em>
 
-<strong>Generalists and specialists</strong>
+## Generalists and specialists
 
 Specialists have their place. But if your dev organization is overly skewed toward specialists in each architectural box, it is not healthy. To understand why, join me in a thought experiment.
 
@@ -64,7 +64,7 @@ Organizations that encapsulate people into layers or silos map nicely onto this 
 
 Give me a proactive, first-class generalist in a silo'ed or layered org, and I will give you a high-leverage change-maker that's a linchpin for company success. They will be invited to every meeting (although they won't succumb to death by meeting, if they're smart.) They'll cut through ambivalence, see the big picture, and make smart tradeoffs. They'll lubricate the cogs of the machine in a way that an equally smart, but siloed, technical pro cannot.
 
-<strong>Pendulums</strong>
+## Pendulums
 
 I'm not saying that everybody should be a consummate generalist; the pendulum can swing too far. Medicine needs pediatric allergists, and software needs the cube warrior who can make gdb sing on AIX on an RS-6000 like nobody else on the planet. But it's telling that you can't specialize in medicine until after you've satisfied general requirements for a medical degree.
 

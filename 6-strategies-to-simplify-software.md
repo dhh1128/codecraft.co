@@ -53,7 +53,7 @@ This is not an easy question; if we knew how to make things simple, we'd do it m
 
 Still, simplicity is a learnable skill, and some strategies are consistently helpful...
 
-<strong>1. Encapsulate</strong>
+## 1. Encapsulate
 
 I put this one first, because it is straightforward and virtually guaranteed to pay off. This strategy isn't a panacea, but it's a good place to start.
 
@@ -61,7 +61,7 @@ When a problem is complicated, fence it off behind a disciplined interface, and 
 
 Recurse as needed.
 
-<strong>2. Cut corners</strong>
+## 2. Cut corners
 
 In many, many cases, the complexity we wrestle with comes from an overly ambitious scope. Overbuilding is probably my greatest weakness as an architect; I've <a title="Why I don’t blog about great code" href="why-i-dont-blog-about-great-code.md" target="_blank">made the mistake way too often</a>.
 
@@ -71,19 +71,19 @@ One important way to simplify is to say: we're not going to localize, and we don
 
 You can't always get away with this sort of simplification, but it's worth considering.
 
-<strong>3. Hire a specialist</strong>
+## 3. Hire a specialist
 
 Do you do your own taxes, your own dentistry, and your own legal work? Why not?
 
 This is a complement to the "cut corners" strategy. If you can't make the tax code simpler, perhaps you can ignore the problem most of the time, and occasionally hire an accountant that reframes complexity to be more manageable. To continue the log example, maybe you write a script that gives each tenant a subset of the overall logs, on demand.
 
-<strong>4. Delegate</strong>
+## 4. Delegate
 
 Human beings realized long ago that even the smartest and most well rounded person in the world can't run an entire organization alone. A CEO hires someone else to think about marketing, about sales, about engineering, about support, about facilities, about accounting.
 
 Many software architectures are crushed by complexity because they have a CEO that's trying to empty trash cans, pay the bills, woo customers, and keep the board happy, all at the same time. If your system has a centralized brain, and everything runs through it, consider putting some other brains to work. I have become convinced in the past decade that distributed architectures almost always beat centralized over the long haul, for this reason.
 
-<strong>5. Change your metaphor</strong>
+## 5. Change your metaphor
 
 Suppose you have a workflow engine, and you're struggling to make it more responsive. You normally model worflow as a state machine, because it gives you crispness and predictability.
 
@@ -93,7 +93,7 @@ I think this strategy is underutilized in almost every long-running architecture
 
 One other hint on this one: Do some reading about <a href="http://en.wikipedia.org/wiki/Gossip_protocol" target="_blank">gossip protocols</a> and <a href="http://en.wikipedia.org/wiki/Bully_algorithm" target="_blank">bully algorithms</a> sometime. The richest sources of metaphor for me are human society (families, companies, social networks, politics, fraternities, multi-level marketing schemes, crime syndicates...) and life (cells, ecosystems, packs and herds, predators/prey, ...). This is why I'm writing a whole book about what life can teach software architects. Subscribe to my blog for more news on this.
 
-<strong>6. Ask a child</strong>
+## 6. Ask a child
 
 It doesn't have to be someone young, really &mdash; the true requirement is that it needs to be someone with some intellectual distance from the problem, who's able to ask probing questions. Children are just the perfect prototype.
 
@@ -103,7 +103,7 @@ Finally someone suggested turning every other hanger top in an opposite directio
 
 And then there's the story of the <a href="http://www.thesimplest.net/stories/story-empty-soap-box" target="_blank">factory that went to great lengths</a> to prevent the 1-in-a-thousand box that exited the assembly line empty. They built xray machines to check the boxes, stationed someone to monitor the xray screen continuously... I bet they felt foolish when someone bought a cheap fan and simply blew the empty boxes off the conveyor belt...
 
-<strong>7. ???</strong>
+## 7. ???
 
 Undoubtedly, other helpful strategies can also contribute to simplicity. Like the ones I've listed above, they will probably have their limits. We are unlikely to discover a silver bullet &mdash; and even if we did, the arms race of our industry makes it probable that we'll need a silver missile in the near future. It takes hard thinking, and hard work, to wrestle complexity into clean, reusable packages that fit together nicely. And it always will.
 

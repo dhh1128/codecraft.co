@@ -66,19 +66,19 @@ Recently I've been digesting <a href="http://www.startwithwhy.com/Read.aspx"><em
 
 I don't buy everything in the book, and I think many of the author's assertions would be stronger if he offered detailed evidence. For example, he asserts that Apple is special because it has a driving "why" that shapes company decisions in fundamental and pervasive ways, and glosses over how Apple lost its vision during the non-Steve-Jobs years.
 
-<strong>Why "why"?</strong>
+## Why "why"?
 
 Nonetheless, his central premise is insightful and important: <em><strong>starting with "why" we do things will create greater satisfaction, wisdom, and success</strong></em>. Once we have a why that's correct in our hearts, many of the whats and hows of life flow naturally. Sacrifice, patience, and creativity blossom. This is true of our software architectures, product requirements, general business activities, personal relationships, and other endeavors. People who hate their jobs often feel that way because they find their days filled with activities that they deem empty or soulless. Human beings can't be passionate about stuff that doesn't resonate with their deep values to some degree.
 
 I find interesting resonance between Sinek's thesis and other important ideas such as <a class="zem_slink" title="Good to Great: Why Some Companies Make the Leap... and Others Don't" href="http://www.amazon.com/Good-Great-Companies-Leap-Others/dp/0066620996%3FSubscriptionId%3D0G81C5DAZ03ZR9WH9X82%26tag%3Dzemanta-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0066620996" target="_blank" rel="amazon">Jim Collins' hedgehog concept</a>, the idea of <a href="http://www.focusgrouptips.com/laddering.html" target="_blank">laddering in marketing theory</a>, <a class="zem_slink" title="Maslow's hierarchy of needs" href="http://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs" target="_blank" rel="wikipedia">Maslow's hierarchy of needs</a>, and <a href="https://www.stephencovey.com/7habits/7habits.php" target="_blank">Covey's "begin with the end in mind."</a> I also find it interesting how congruent this is with a central tenet of <a href="http://www.amazon.com/Bridging-Communication-Gap-Specification-Acceptance/dp/0955683610" target="_blank"><em>Bridging the Communication Gap</em></a>, by Godjko Adzic; he argues that the "why" of a product requirement, rather than the "what", is the most important thing for product management to articulate. (Thanks, <a href="http://www.linkedin.com/pub/shawn-holmstead/1/13a/942" target="_blank">Shawn</a>, for the great book recommendation.)
 
-<strong>My Why</strong>
+## My Why
 
 Which leads me to this: I need to articulate and then be true to my own "why." Why, exactly, am I in the software industry? What do I hope to accomplish? Why do I work on enterprise software, as opposed to mobile apps or cool <a class="zem_slink" title="Mashup (web application hybrid)" href="http://en.wikipedia.org/wiki/Mashup_%28web_application_hybrid%29" target="_blank" rel="wikipedia">web mashups</a>? Why did I start a blog? Why do I pick certain topics for my posts, and then spend significant time articulating my thoughts?
 
 Here's my current answer:
 <p style="padding:1em;border:solid 1px black;text-align:center;font-size:150%;background-color:#e8e8e8;font-weight:bold;line-height:160%;">I believe in making complex computing simple so the world can innovate and improve.</p>
-<strong>Testing My Answer</strong>
+## Testing My Answer
 
 What I like about this answer is that it ties back to my core values. I believe we have opportunities to do lots of good in the world &mdash; eradicating poverty and disease, advancing science, learning to understand and value one another better. And I believe an impediment to that is all the complexity we create and discover. Big data is hiding a lot of the insight that would let companies serve customers better. Number crunching supercomputers are needed to predict the weather better, to help predict crop yields in Bangladesh. And so on.
 

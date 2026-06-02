@@ -59,7 +59,7 @@ I've been blogging about the skills and mindset of effective software architects
 
 This is an important gap, because <em>courage counts</em>. The cleverest, most skilled architect or engineer will accomplish very little, at key junctures in a career, without it.
 
-<strong>Symptoms of fear</strong>
+## Symptoms of fear
 
 In the past two decades, I've heard many people (myself included) make statements like the following:
 <ul>
@@ -77,13 +77,13 @@ Mafatu's fear of the sea was rational, too &mdash; and it was based on <a title=
 
 Sometimes we need to do that as technical thought leaders.
 
-<strong>When to confront our fears</strong>
+## When to confront our fears
 
 This is particularly important in pivotal moments when the choice is between a "safe" dead end and a risky but maybe game-changing innovation. If we believe that without a change, our codebase or our product or our team is headed for extinction (especially, when it's "not with a bang, but a whimper"), we have a duty—to ourselves, oemployers, and our customers—to jump in the water with our knife and do battle with the shark.
 
 I am not advocating that we recklessly battle about every issue that lights up our radar. But I do think we need to notice when fear is inhibiting necessary change, take a deep breath, and commit. (Too bad <a title="All I Really Need To Know I Didn’t Learn In Compugarten" href="all-i-really-need-to-know-i-didnt-learn-in-compugarten.md">they don't teach that to CS majors</a>. :-)
 
-<strong>Case study 1</strong>
+## Case study 1
 
 A while back, a large and mission-critical codebase under my purview was exhibiting frightening stability problems. My boss was beside himself. I was newly hired, and not yet battle-tested at the company or even in the industry where the codebase was focused. After some analysis, I recommended the commissioning of a "tiger team" to surge on a handful of key architectural initiatives.
 
@@ -92,12 +92,12 @@ This must have been scary for my boss. Should he bet his personal reputation, th
 I halfway expected to be ignored, but my boss (and a lot of other stakeholders) had guts. He championed the strategy all the way to the CEO. The tiger team was born; in about 7 weeks we made a fundamental improvements to process, build, test framework, and code organization. The next release was a significant improvement.
 <p style="padding-left:30px;"><em>Score</em>: <span style="color:red;">Fear</span> 0, <span style="color:green;">Courage</span> 1.</p>
 <p style="padding-left:30px;"><em>Outcome</em>: Big <span style="color:green;">success</span>.</p>
-<strong>Case study 2</strong>
+## Case study 2
 
 From about 2004 to 2007, I worked to transition backup technologies at Symantec from a tape-centric to a disk-centric model. A big problem for us was the <a title="Why Cannibalism May Be Smart Business" href="why-cannibalism-may-be-smart-business.md">fear of cannibalizing the revenue stream</a> of the traditional product. We ended up dithering long enough that the opportunity to ride a disruptive wave largely passed us by. Cloud and virtualization and SaaS all combined to erode the value prop of traditional backup.
 <p style="padding-left:30px;"><em>Score</em>: <span style="color:red;">Fear</span> 1, <span style="color:green;">Courage</span> 0.</p>
 <p style="padding-left:30px;"><em>Outcome</em>: Painful, lingering, and preventable <span style="color:red;">failure</span>. Shame on us. (A coward dies a thousand deaths; a hero only one...)</p>
-<strong>Case study 3</strong>
+## Case study 3
 
 In 2008, I started a company with several of my MBA buddies. We'd been experimenting with product concepts for months. We wrote a comprehensive business plan, bought the IP of a silicon valley startup that was looking to liquidate, and began to pitch to investors. We believed we had a technology recipe that could alter the social media landscape.
 
@@ -110,7 +110,7 @@ That all went down just after I emptied my personal savings to fund our startup,
 I'll skip a long story and simply say that I've paid some tuition in the school of hard knocks.
 <p style="padding-left:30px;"><em>Score</em>: <span style="color:red;">Fear</span> 0, <span style="color:green;">Courage</span> 1.</p>
 <p style="padding-left:30px;"><em>Outcome</em>: One of my best <span style="color:red;">failure</span>s.</p>
-<strong>The moral, part 1</strong>
+## The moral, part 1
 
 If you're into combinatorial math, you'll notice that I've given you 3 out of 4 possible scenarios: <span style="color:green;">+courage</span> —> <span style="color:green;">success</span>, <span style="color:red;">-courage</span> —> <span style="color:red;">failure</span>, and <span style="color:green;">+courage</span> —> <span style="color:red;">failure</span>.
 
@@ -118,17 +118,17 @@ There's no 4th story, because <span style="color:red;">-courage</span> —> <spa
 
 If you want a chance to change the world, you need courage; listen to fear, and it's not hard to predict the outcome.
 
-<strong>The moral, part 2</strong>
+## The moral, part 2
 
 Most of the failures we fear are not all that catastrophic. I'm still kicking.
 
-<strong>The moral, part 3</strong>
+## The moral, part 3
 
 It's worth noting that I have no regrets about my "failure" where I took a risk. It didn't work out. Like Edison, I now know another way not to invent a lightbulb. I'm good with that. As <a title="hierarchy of failures" href="http://sethgodin.typepad.com/seths_blog/2013/05/a-hierarchy-of-failure-from-brave-to-shameful.html" target="_blank">Seth Godin says</a>, even mistakes can pay off in the long run.
 
 On the other hand, I still bore anybody who'll listen, with my harangues about head-in-the-sand thinking in the backup market.
 
-<strong>Challenge</strong>
+## Challenge
 
 In Shakespeare's <em>Henry IV, Part I</em>, Falstaff claims that discretion is the better part of valor &mdash; or in other words, it pays to be cautious.
 

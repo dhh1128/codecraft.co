@@ -51,7 +51,7 @@ comments:
 </blockquote>
 In my recent post about <a title="Coping With Organizational Alzheimers" href="coping-with-organizational-alzheimers.md">how organizations forget technical debt</a>, I glossed over some important details. When you're in debt, you have an obligation to pay somebody back. So: <em>with technical debt, who must you pay, and how?</em>
 
-<strong>More than just a code problem</strong>
+## More than just a code problem
 
 A simplistic view &mdash; one that I've used for years &mdash; understands debt mainly as a deficiency in code. In this view, you pay yourself back by making the code better. Most discussions about technical debt take this view. It's natural, and true, and useful.
 
@@ -63,7 +63,7 @@ This is hard, and making large purchases this way requires years of prior planni
 
 A more common way to borrow is to use your future capital as collateral, and to borrow from an external lender. I think this is how most technical debt is incurred. (<a class="zem_slink" title="Technical debt" href="http://en.wikipedia.org/wiki/Technical_debt" target="_blank" rel="wikipedia">Technical debt</a> incurred against your own reserves implies engineers working nights and weekends to get <em>ahead</em>, so they can take a vacation without a schedule slip. This happens, but not on a large scale.)
 
-<strong>Who is your lender?</strong>
+## Who is your lender?
 
 When you ship code that does things in a compromised, kludgey way, you acquire revenue that you can't afford to pay for yet. Your loan is crowd-sourced:
 <ul>
@@ -75,11 +75,11 @@ When you ship code that does things in a compromised, kludgey way, you acquire r
 	<li>Your customers' enthusiasm gets diluted.</li>
 	<li>Your dev and QA staff lose expertise and pride of ownership, and they have to spend energy on sub-optimal work that they'll later replace. (Notice that I put this last. This is the one most tech folks understand, but I think it's often overshadowed by other, less obvious problems.)</li>
 </ul>
-<strong>Don't forget the interest</strong>
+## Don't forget the interest
 
 As with financial borrowing, the cost of your technical debt compounds over time. The longer a kludge remains, the higher the chances that customers will find out, callers of an API will depend on its quirks, and tests will become brittle to a change. See quote by J. Reuben Clark.
 
-<strong>When you must...</strong>
+## When you must...
 
 Despite all these disadvantages, sometimes debt is the only way forward. Few can afford to pay cash for their first house, and few companies have a large war chest of unused technical assets that they can shift into the next release whenever they feel inclined. But if you borrow, keep these two simple rules in mind:
 <ol>

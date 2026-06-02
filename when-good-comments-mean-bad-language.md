@@ -169,7 +169,7 @@ And yet, I think Randall Munroe (the cartoonist at xkcd) was right to make fun o
 
 To show you what I mean, I've inlined snippets of code from a variety of programming languages below. Don't worry about digesting them carefully right now, but give them a quick glance and then move on to my analysis, and see if you agree with my claim about an unhealthy pattern.
 
-<strong>Exhibit 1 (C++)</strong>
+## Exhibit 1 (C++)
 <pre style="padding:1em;border:solid 1px #333;margin-bottom:2em;font-size:8pt;"><span style="color:#080;">/**
 * Process serialized string; update attr for associated Vehicle.
 *
@@ -185,7 +185,7 @@ To show you what I mean, I've inlined snippets of code from a variety of program
 {
     <span style="color:#c000c0;">if</span> (serializedAttrs == NULL || *seralizedAttrs == 0)
         <span style="color:#c000c0;">return</span> FALSE;</pre>
-<strong>Exhibit 2 (C)</strong>
+## Exhibit 2 (C)
 <pre style="padding:1em;border:solid 1px #333;margin-bottom:2em;font-size:8pt;"><span style="color:#c000c0;">while</span> (*ptr != '')
 {
 <span style="color:#c000c0;">if</span> ((tail = strchr(ptr,';')) != NULL)
@@ -194,7 +194,7 @@ To show you what I mean, I've inlined snippets of code from a variety of program
   <span style="color:#c000c0;">break</span>;
 ptr = tail + 1;
 }  <span style="color:#080;">/* END while ((ptr[0] != '') */</span></pre>
-<strong>Exhibit 3 (java)</strong>
+## Exhibit 3 (java)
 <pre style="padding:1em;border:solid 1px #333;margin-bottom:2em;font-size:8pt;"><span style="color:#080;">/**
  * Tracks where/how an app uses folders on disk.
  */</span>
@@ -223,7 +223,7 @@ ptr = tail + 1;
      */</span>
     <span style="color:blue;">String</span> getInstallRoot();    <span style="color:#080;">/** <span style="color:gray;">@return</span> Fully qualified path where app stores its data. */</span>
     <span style="color:blue;">String</span> getDataRoot();</pre>
-<strong>Exhibit 4 (python)</strong>
+## Exhibit 4 (python)
 <pre style="padding:1em;border:solid 1px #333;margin-bottom:2em;font-size:8pt;"><span style="color:#c000c0;">def</span> start(timeout, name='Timeout Monitor', killfunc=_defkill_func):
     <span style="color:#080;">'''
     Start a thread that forces exit if we hang. Return a monitor
@@ -236,7 +236,7 @@ ptr = tail + 1;
              'monitor': monitor})
     kill_thread.start()
     <span style="color:#c000c0;">return</span> monitor</pre>
-<strong>Exhibit 5 (C#)</strong>
+## Exhibit 5 (C#)
 <pre style="padding:1em;border:solid 1px #333;margin-bottom:2em;font-size:8pt;"><span style="color:#080;">/// <span style="color:gray;"><summary></span>Give cash from my wallet.<span style="color:gray;"></summary></span>
 /// <span style="color:gray;"><param name="amount"></span>The amount of cash to give<span style="color:gray;"></param></span>
 /// <span style="color:gray;"><returns>A</span>mount I gave, or 0 if I don't have enough<span style="color:gray;"></returns></span></span>
@@ -248,7 +248,7 @@ ptr = tail + 1;
         <span style="color:#c000c0;">return</span> 0;
     }
 }</pre>
-<strong>Analysis</strong>
+## Analysis
 
 What do these snippets have in common, as far as comments are concerned?
 <ul>
@@ -269,7 +269,7 @@ If a C++ function declaration required you to specify the semantics of each para
 
 Too bad the scope of the C++ language ends with syntax, not semantics.
 
-<strong>A detour into the history of linguistics</strong>
+## A detour into the history of linguistics
 
 I should explain that snide comment.
 
@@ -289,7 +289,7 @@ It tells us that there's more to language.
 
 There's <strong>semantics</strong>, for example. (And numerous other layers/aspects as well. Deep topic. Go read <em>The Possibility of Language</em>, by Alan Melby, if this sounds intriguing.)
 
-<strong>Analysis again</strong>
+## Analysis again
 
 Back to the exhibits.
 
@@ -301,7 +301,7 @@ Exhibit 4 (python) is notable for its terseness. Python functions don't have to 
 
 Exhibit 5 (C#) is more of the same. Notice the logic error in the comment about when 0 is returned. Again, fixable and better if managed by compiler.
 
-<strong>Could a programming language really encode more semantics? And could it do so elegantly and easily?</strong>
+## Could a programming language really encode more semantics? And could it do so elegantly and easily?
 
 Absolutely! Ada addresses the issue of range precondition for parameters by changing the way programmers think about types. Instead of <code style="color:blue;">short</code> and <code style="color:blue;">int</code>, you have stuff like this:
 <pre style="padding:1em;border:solid 1px #333;margin-bottom:2em;font-size:8pt;"><span style="color:#c000c0;">type</span> Day_type   <span style="color:#c000c0;">is range</span>    1 ..   31;
@@ -320,7 +320,7 @@ We simply mark the end of the block in a way that ties it back to the statement 
 <span style="color:#c000c0;">end while</span> <span style="color:gray;">more items in the linked list</span></pre>
 In this imaginary language, a block like <code style="color:#c0c;">while</code> or <code style="color:#c0c;">if</code> can have an explanatory comment between its initiating keyword and the parenthesized syntax that defines its condition. Then, when we unnest, we can optionally add an assertion about which block is ending. The assertion is invoked with <code style="color:#c0c;">end</code> followed by whichever keyword began the block, plus a few words from the comment to identify which block it is. The compiler can then alert us if we've unnested incorrectly, and programmers can remember where they are based on the intent rather than the fiddly details of the block's syntax. With no clutter. And no Pascal-style mandatory <code style="color:#c0c;">begin</code> or <code style="color:#c0c;">end</code>.
 
-<strong>Advanced semantics</strong>
+## Advanced semantics
 
 How about the "can't be null, can't be empty" preconditions? How about more complicated semantics? Won't we end up cluttering the language and becoming horribly verbose? Java's annotations and C#'s attributes offer a glimmer of hope. In my explorations of a better programming language, I've been playing around with a cousin to this sort of mechanism, which I'm calling "marks" (after the linguistic concept of "markedness"). Here's a sample, just to whet your appetite:
 <pre style="padding:1em;border:solid 1px #333;margin-bottom:2em;font-size:8pt;"><span style="color:#c000c0;">class</span> vehicle: <span style="color:#a60;">+threadsafe</span>

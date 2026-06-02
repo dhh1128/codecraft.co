@@ -43,7 +43,7 @@ Cheer is a competition won by harmonious systems, not individual superstars.
 
 So is software.
 
-<strong>Geeks Who Flunk</strong>
+## Geeks Who Flunk
 
 We software pros forget this, sometimes.
 
@@ -57,7 +57,7 @@ We accept all feature requests at face value and don't <a title="Why" href="why.
 
 We retreat to our cubes and grumble that people keep getting in the way of us getting work done, but we don't get serious enough about <a title="Interrupting my interruptions" href="interrupting-my-interruptions.md">managing everybody's interruptions wisely</a>.
 
-<strong>Geeks Who Pass With Flying Colors</strong>
+## Geeks Who Pass With Flying Colors
 
 All of these memory lapses can be viewed as failures in system thinking. The software we create, and <a title="Users Aren’t The Only People In Your Software" href="users-arent-the-only-people-in-your-software.md">the people that surround and permeate it</a>, constitute a system. We will not be successful unless we create harmony in the whole.
 

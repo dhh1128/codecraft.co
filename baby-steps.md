@@ -18,7 +18,7 @@ One of Bob's favorite phrases is "baby steps," which captures the therapist's ad
 
 "Baby steps" is surprisingly good advice for many questions in software design. It doesn't apply in all cases, but it applies far more often than it ends up being used.
 
-<strong>The Purpose of Design</strong>
+## The Purpose of Design
 
 We create UML diagrams, personas, design docs, lo-fi mockups, and other artifacts to capture our architectural thinking because they provide us with a roadmap of sorts. We need to identify and steer to a consistent point of the compass if we want to produce complex artifacts that meet customer needs. The bigger and more diversified our teams get, and the more moving parts we're orchestrating into our software, the more important this is.
 
@@ -38,7 +38,7 @@ If you wonder whether design A or design B will be appropriate, then again, perh
 
 If the entire team is already headed north, and your design just draws a northerly vector on a map, then maybe a careful, formal design isn't worth the effort. Teams that push for more thoughtful up-front planning often make the mistake of requiring the same design artifacts for all plan inputs. This generates useless busy work for a portion of the features on the docket.
 
-<strong>When baby steps are a bad idea</strong>
+## When baby steps are a bad idea
 
 Big steps are a better choice when all of the following are generally true:
 <ul>
@@ -47,7 +47,7 @@ Big steps are a better choice when all of the following are generally true:
 	<li>The chances of making a wrong choice are high.</li>
 	<li>Forgiveness for making a wrong choice is low or non-existent.</li>
 </ul>
-<strong>Splitting hairs</strong>
+## Splitting hairs
 
 What I'm advocating here might sound a lot like a caution against analysis paralysis, but the two ideas are distinct.
 
@@ -59,7 +59,7 @@ You might also think that baby steps are a repeat of my advice to <a title="Don 
 
 Again, there's overlap, but the ideas aren't quite the same. Putting a stake in the ground is a way to get off the dime when consensus is lacking, or when analysis is impossible. Baby steps advice applies even if you don't need a stake.
 
-<strong>Why baby steps</strong>
+## Why baby steps
 
 Here is a fundamental truth that many organizations don't understand: building a new product or feature is as much a learning activity as it is a coding and testing activity. The output at release time is NOT just some binaries and documentation &mdash; it is a new mental model in the minds of the entire dev, support, sales, and services teams. Always, learning takes time &mdash; and often, you have to learn by doing. You cannot front-load it all into a compressed "design phase" or "sprint 0" and expect that as you exit that time, all your learning will be over.
 

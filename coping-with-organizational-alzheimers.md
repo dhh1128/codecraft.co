@@ -48,7 +48,7 @@ Folks, we don't keep these promises to ourselves very well; Alzheimers is endemi
 
 I have two suggestions about how we can cope.
 
-<strong>Suggestion 1. Log a new kind of ticket.</strong>
+## Suggestion 1. Log a new kind of ticket.
 
 In most disciplined software companies, product planning captures <em>what</em> needs to happen in the next release. If you're doing waterfall, you write specs; if you're doing agile, you write stories. Either way, these artifacts commonly result in granular tickets that get assigned to implementers and testers. The tickets are then managed carefully until everything's been either closed or deferred, and a release comes to pass.
 
@@ -66,13 +66,13 @@ They need a memory aid.
 
 Architects, log a ticket about <em>how</em> something must be done. If it gets deferred due to short-term expedience, you have tangible evidence of the debt that's been incurred, and in the next release cycle, management will be forced to reckon with it. If the ticket gets ignored, give the"blocker" priority a whirl... :-)
 
-<strong>Suggestion 2: Be the change you want to see in the world.</strong>
+## Suggestion 2: Be the change you want to see in the world.
 
 If you're a manager: Orgs that believe in <a href="http://en.wikipedia.org/wiki/Kaizen" target="_blank">kaizen</a> are great. But if you always drive kaizen from the top down, you're missing the boat. What you need to do is let trusted engineers do kaizen from the bottom up. Every good engineer that I know has a few items they're itching to improve. Let slip the dogs of war and see what happens.
 
 If you're an individual contributor: find a way. Don't sit around and wait for your manager to tell you you've been assigned to refactor. Just do it. Advocate. Read <a href="http://www.sethgodin.com" target="_blank">Seth Godin</a>'s book, <em>Poke the Box</em>. Then go poke.
 
-<strong>A note of caution</strong>
+## A note of caution
 
 Not every itch justifies a scratch. Engineers have a tendency to envision the ideal, and to love the freedom to go create it without mapping that activity back to hard business constraints. I know I do! :-)
 

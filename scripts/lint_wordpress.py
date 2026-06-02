@@ -85,6 +85,26 @@ def fix_text(text):
     return open_f + drop_pingback_comments(fm) + close_f + CAPTION_RE.sub(_convert, body)
 
 
+BOLD_HEADING_RE = re.compile(r"^[ \t]*<(b|strong)>(.+?)</\1>[ \t]*$", re.M)
+_PURE_LINK = re.compile(r"^<a\b.*</a>$", re.S | re.I)
+
+
+def _bold_to_heading(m):
+    inner = m.group(2).strip()
+    if _PURE_LINK.match(inner):              # a lone bold link is ambiguous — leave it
+        return m.group(0)
+    inner = re.sub(r"</?span[^>]*>", "", inner).strip()   # drop presentational spans
+    return f"## {inner}" if inner else m.group(0)
+
+
+def convert_bold_headings(body):
+    """Convert any line that is *entirely* one ``<b>``/``<strong>`` element into an
+    ``## `` heading. In these WordPress-era essays a standalone bold line is a
+    section title; mid-sentence bold and lone bold links are left alone. Body only.
+    """
+    return BOLD_HEADING_RE.sub(_bold_to_heading, body)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("files", nargs="*")

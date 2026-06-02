@@ -36,7 +36,7 @@ I think it's the best job interview question anyone has ever asked me.
 
 <figure><img title="humble tasks" src="assets/humility-figure-stars.png" alt="" /><figcaption>A great perspective on humility.</figcaption></figure>
 
-<strong>Real humility</strong>
+## Real humility
 
 A person trying to fake humility says, "I'm not very good" &mdash; but doesn't mean it.
 
@@ -44,13 +44,13 @@ A person trying to be humble, but misunderstanding its nature, says, "I'm not as
 
 A truly humble person isn't usually interested in comparing herself to others. She's well aware that everyone &mdash; including herself &mdash; has both strengths and weaknesses. She is willing to learn, even when she already knows a lot, and even at the cost of admitting mistakes and blind spots. Humility doesn't require her to artificially put herself down, or to artificially overvalue others; it requires her to remember, tenaciously, that problems &mdash; never people &mdash; are the enemies you strive to overcome. (For the religiously inclined, I have never found a more profound exposition on pride and humility than <a href="http://www.lds.org/ensign/1989/05/beware-of-pride?lang=eng&query=ezra+taft+benson+pride" target="_blank">the one Ezra Taft Benson offered in the late '80s</a>.)
 
-<strong>Why humility matters</strong>
+## Why humility matters
 
 Teams with humble members flourish, which is why the CEO's question to me was so astute. Especially in senior roles, there's a danger of becoming deaf to others and overly enamored of your own ideas. Proud architect = bad.
 
 I have done some bone-headed things in my career (ooh, great idea for a series of posts!), and a large percentage of them were either caused or exacerbated by pride. Hopefully my future mistakes will come from something different.
 
-<strong>How humility manifests in engineering teams</strong>
+## How humility manifests in engineering teams
 <p style="padding-left:30px;"><em>Disclaimer: this list represents ideals I want to achieve. I am definitely not a perfect example of this list. Yet or ever.</em></p>
 A humble engineer (or architect, or any other role on a technical team) <strong>listens</strong> to the ideas of other team members and then restates them, without skew or value judgment, to validate his capture of a different viewpoint. He regularly sees others nod and hears them say, "Yes, that's a fair summary of my perspective." Notice how this contributes to <a title="Good Code Is Balanced" href="good-code-is-balanced.md">designs that balance many considerations</a>.
 

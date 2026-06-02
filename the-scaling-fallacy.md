@@ -46,7 +46,7 @@ I'd long understood the flaws in the big-ant-lifting-cars idea, but the flight e
 
 Humans are familiar with birds and insects that fly. We know they have wings that beat the air. We naively assume that at much larger and much smaller scales, the same principles apply. But it turns out  that at the micro scale, wings don't move enough air molecules to be helpful when they flap, and at the giant scale (say, the size of an elephant), flapping wings become impractical due to structural challenges.
 
-<strong>So what?</strong>
+## So what?
 
 What does this have to do with software?
 
@@ -66,7 +66,7 @@ Google's indexing of the internet is essentially a scaled-up, incredibly sophist
 
 But it's the wrong architecture for internet scale. We're paying way too much for power and hardware to keep these sites running; we need something radically different, which is why technologies like the one I helped productize at <a href="http://www.perfectsearchcorp.com" target="_blank">Perfect Search</a> are the wave of the future. Perfect Search can sustain query speeds that are hundreds or thousands of times faster than a traditional index; sooner or later, the world will figure out that that matters.
 
-<strong>Use better scaling assumptions</strong>
+## Use better scaling assumptions
 
 The next time you have to plan for a scale that's well outside original tolerances (whether that scale has to do with numbers of machines/threads/events, or with size of deployment, or whatever), try using the <a class="zem_slink" title="Pareto principle" href="http://en.wikipedia.org/wiki/Pareto_principle" target="_blank" rel="wikipedia">80:20 rule</a> instead of a linear formula as your guide: the 20% of the cases at the high end of what you're targeting will take 80% of the effort to address correctly. Recurse: of the 20% at the high end, 80% of those cases might be handled by a modest adjustment of the design, but 20% need a radical improvement. And recurse again.
 

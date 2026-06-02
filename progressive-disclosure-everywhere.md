@@ -12,7 +12,7 @@ If you google "progressive disclosure," you'll get hits that describe the phrase
 
 But calling progressive disclosure a "technique" is, I think, a serious understatement. Progressive disclosure aligns with a profound cognitive principle, and its use is (and should be) pervasive, if you have eyes to see.
 
-<strong>The Principle</strong>
+## The Principle
 
 Here's my best attempt to distill the operative rule behind progressive disclosure:
 <p style="text-align:center;font-weight:bold;font-size:150%;background-color:#eee;border:solid 1px #CCC;padding:.5em 1em;">Focus on essence. Elaborate on demand.</p>
@@ -20,7 +20,7 @@ In other words, begin by addressing fundamentals without cluttering detail. When
 
 Stated that way, perhaps you'll see the pattern of progressive disclosure in lots of unexpected places. I've listed a few that occur to me...
 
-<strong>Manifestations</strong>
+## Manifestations
 
 The scientific method is an iterative process in which hypotheses gradually align to increasingly detailed observation. We learn by progressive disclosure.
 
@@ -66,7 +66,7 @@ In <em>Great By Choice</em>, Jim Collins' notion of firing bullets, then cannonb
 
 In children's literature, the idea of a reiterated and expanded problem or solution crops up repeatedly. Think of Kipling's <em>The Elephant's Child</em>, Hansel and Gretel, Goldilocks and the three bears, Sheherazade...
 
-<strong>The Moral</strong>
+## The Moral
 
 What should we learn from this principle's pervasiveness?
 

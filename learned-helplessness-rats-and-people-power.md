@@ -62,7 +62,7 @@ Hopefully, this experiment disturbs you on many levels. Even putting aside ethic
 
 I see interesting connections to tech debt.
 
-<strong>Working In Debt</strong>
+## Working In Debt
 
 If you've ever worked on a truly yucky codebase &mdash; one littered with #ifdefs, massive and arcane functions, and undocumented and surprising logic; one having organizational principles known only to long-gone creators; one possessing far too few unit or regression tests; one smack dab in the middle of the strategic path of the company &mdash; then you know what it's like to be squeezed like a rat in a researcher's gloved fist.
 
@@ -78,7 +78,7 @@ Although this discouraging perspective is not unfamiliar to me, I firmly believe
 
 And that matters.
 
-<strong>The Power of Habit</strong>
+## The Power of Habit
 
 I've previously written about my <a title="Tech Debt, Leverage, and Grandma’s Envelope" href="tech-debt-leverage-and-grandmas-envelope.md">Grandma paying off her mortgage</a> after many years of diligent effort. This was the harvest of a good habit, applied consistently.
 
@@ -98,7 +98,7 @@ Over the long haul, thinking about best practice, talking about it, and then doi
 <blockquote>“Watch your thoughts; they become words. Watch your words; they become actions. Watch your actions; they become habit. Watch your habits; they become character. Watch your character; it becomes your destiny.”</blockquote>
 Although I feel for every engineer struggling in a yucky codebase, I don't have much sympathy for those who use the struggle as an excuse for bad habits.
 
-<strong>The Power of Imagination</strong>
+## The Power of Imagination
 
 Besides having a capacity to consciously choose our habits, human beings also surpass rats in their ability to find creative solutions to problems. Remember <a href="http://en.wikipedia.org/wiki/Kobayashi_Maru" target="_blank">Kirk and the Kobiyashi Maru</a>?
 

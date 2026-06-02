@@ -22,7 +22,7 @@ To one degree or another, we all exhibit <a class="zem_slink" title="Inattentio
 
 However, truly superb engineers have a capacity to see through the cloak of somebody else's problem; they think simultaneously on multiple levels of abstraction. They tend to ask "meta questions" (judiciously) that poke at larger issues, broader contexts, or more distant time horizons. Not coincidentally, this <a title="Unencapsulate Yourself" href="unencapsulate-yourself.md">breaks them out of the tidy horizontal layers or vertical silos that sometimes constrain the thinking of organizations</a>.
 
-<strong>Levels of Zen</strong>
+## Levels of Zen
 
 Here's an example of what meta thinking looks like.
 <p style="padding-left:30px;">Product Manager: Could you provide us with some estimates on time/effort to integrate our error messages with the Windows event log?</p>
@@ -41,13 +41,13 @@ Wait a minute! What happened to the inner dialog?
 
 Engineer 4 still had it &mdash; in spades. Some of it may have been subliminal, because by now, asking meta questions has become almost automatic for her. But even if it had all been conscious, we wouldn't show it here, because Engineer 4 thought about all of this days or weeks ago. To the skills of Engineer 3, our zen master has added hefty doses of foresight, pragmatism, and proactivity. She saw need coming to a head, understood that the simple answer would not be satisfactory for many reasons, and knew that it would be hard to make the right choice. Across multiple time horizons, multiple departments, and multiple lines of business, she asked herself: <em>What is the best answer for our company?</em> She encountered a few distracting squirrels as she explored her questions, but her pragmatism allowed her to ignore them. She probably identified key thought leaders and consulted them, either formally or informally, to inform and test her thinking, and to gauge feasibility. Then she asked herself: <em>How can I make that answer easier?</em> She did some research. She planted a seed with product management by discussing the problem casually. She decided that a <em>fait accompli</em> would grease the skids, and she came to the meeting thoroughly prepared.
 
-<strong>Don't Panic!</strong>
+## Don't Panic!
 
 If this all feels mind-boggling complex, remember the reminder printed in large letters on the cover of <em>The Hitchhiker's Guide to the Galaxy</em>: "Don't Panic!"
 
 Plenty of problems don't merit deep thinking; the zen master found time for our example issue by judiciously ignoring others. Even with important issues, you don't have to think at all these levels all the time. Just being aware of broader contexts and probing them occasionally will bring great benefits to your team.
 
-<strong>Broader Application</strong>
+## Broader Application
 
 If you've been asking meta questions about my post, you'll no doubt agree that the SEP phenomenon, and the meta question habit, apply beyond just in software engineering. Asking big meta questions caused all sorts of adventure and hilarity in Douglas Adams' books, but there's a serious side. Consummate product managers and marketers and business executives use these principles across all industries. Great scientists and generals and statesmen and religious leaders are serial meta questioners. Great parents and great friends are as well.
 

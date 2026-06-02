@@ -54,7 +54,7 @@ What I'm hoping to do here is point out some subtleties to this debate that don'
 <h3>From a distance</h3>
 If you step back from the debate over IDEs vs. supercharged text editors, and squint to suppress the details, you'll see that most exchanges on this topic look like this:
 
-<strong>Variant 1</strong>
+## Variant 1
 <div style="padding-left:2em;"><em>IDE fan</em>: "You should use an IDE because it has cool feature X. Text editors are weak sauce!"</div>
 <div style="padding-top:1em;padding-left:2em;margin-bottom:1.5em;"><em>VIM fan</em>: "You don't know what you're talking about. If I install plugin Y and edit my cfg file, I can have all the goodness you're so fond of, and a whole lot more."</div>
 <strong style="margin-top:1.5em;">Variant 2</strong>

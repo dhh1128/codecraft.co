@@ -69,7 +69,7 @@ I signed. Good stuff.
 
 However, the oath got me thinking a bit, and I want to register two notes of caution.
 
-<strong>Caution 1: It is possible to be <em>too</em> pragmatic.</strong>
+## Caution 1: It is possible to be <em>too</em> pragmatic.
 
 On the continuum that has "ivory-tower idealism" at one end, and "pragmatism" at the other, I'm well past center, favoring the pragmatic side. However, we should not discount the value of idealism. It was pragmatists who found enough compromise to ratify a constitution that made a loose confederacy into the United States of America &mdash; but it was the firebrand idealism of folks like <a class="zem_slink" title="Thomas Paine" href="http://en.wikipedia.org/wiki/Thomas_Paine" target="_blank" rel="wikipedia">Thomas Paine</a> that articulated a vision, inspired a previously fragmented public, and provided the heat to carry the revolution through its darkest winters.
 
@@ -79,7 +79,7 @@ I have seen architects that are way too ivory-tower. They make recommendations b
 
 On the other hand, I have seen "architects" who, despite deep talent as engineers, are forever in the mode of "whatever gets the job done" and "if it ain't broke, don't fix it." I believe this view is short-sighted; it loses touch with the imperative to <a href="learned-helplessness-rats-and-people-power">haul the team up and out</a> of the mire. Where there is no vision, the people perish.
 
-<strong>Caution 2: Pragmatism must be earned.</strong>
+## Caution 2: Pragmatism must be earned.
 
 Before you can be a pragmatist, you have to understand what's possible, <a title="Good Code Is Balanced" href="good-code-is-balanced.md">what's good and bad about each alternative</a>, and why certain considerations might trump others given a certain business context and time horizon. This perspective doesn't come cheap; it's been my experience that only the school of hard knocks teaches these classes, and the tuition is expensive.
 

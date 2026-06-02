@@ -92,7 +92,7 @@ However, I also found some arguments for the small-file principle that feel more
 
 <figure><img alt="" src="assets/small-files-folders.png" /><figcaption>More small friends.</figcaption></figure>
 
-<strong>Named scopes and cognitive complexity</strong>
+## Named scopes and cognitive complexity
 
 The case for small functions is more discussed than the case for small files, and it has been made by almost every luminary in computer science. My colleague immediately conceded it, and I won't repeat it here &mdash; but I will claim that many of the same arguments apply to files as well, because <em>files as well as functions are an important named scope in software development</em>. This in turn suggests some constraints on files with respect to cognitive complexity.
 
@@ -108,21 +108,21 @@ I suppose that this argument is weakened by the features of some IDEs, which col
 
 When humans try to remember more than their brains can fit, stuff falls out. Big files mean that coders have to <a title="Why Mental Models Matter" href="why-mental-models-matter.md" target="_blank">mentally model</a> relationships between stuff that's separated by way too much screen real estate. This is a recipe for bugs. It is also a serious impediment to learnability.
 
-<strong>Loose coupling and encapsulation</strong>
+## Loose coupling and encapsulation
 
 Files are a natural unit of coupling. In most programming languages, you can declare a construct (a variable, an internal function, or class) within a file, and have that construct be invisible to the side world. This means there is a built-in temptation for functions and classes to bind more tightly when they're in the same file, because they have access to common but private knowledge. By breaking large files apart, you remove the temptation, break unnecessary dependencies, and promote looser coupling.
 
 Another way to say this is that file boundaries are an encapsulation barrier. Use them to hide data. (See my recent post about <a title="encapsulate to simplify" href="6-strategies-to-simplify-software.md" target="_blank">encapsulation as a simplicity strategy</a>.)
 
-<strong>Code reuse and testability</strong>
+## Code reuse and testability
 
 A consequence of files hiding data is that when you have a function that might be useful in a dozen different modules, but the function is buried in a large file with lots of dependencies extraneous to that function, reuse and testability are both frustrated. If the function is in a file of its own, it's more discoverable, and it's reusable and testable without extra baggage.
 
-<strong>Link optimization</strong>
+## Link optimization
 
 A C/C++ corollary to the file boundary issue has to do with linkers and binary sizes. In many cases, linkers remove unused functions at <em><a class="zem_slink" title="Translation unit (programming)" href="http://en.wikipedia.org/wiki/Translation_unit_%28programming%29" target="_blank" rel="wikipedia">compilation unit</a></em> level, rather than at the individual function level. A .c or .cpp file is either in or out, as a unit. This means that if you have a .cpp file with 50 functions in it, and you call only 1 of them, all 50 get linked into the final binary. The result is bloated binaries. So: smaller .cpp files ==> smaller binaries. (Before you flame me about linker optimizations, I will admit that some linkers get more granular, depending on which switches you use. But it's surprising how hard it is to do better than what I've described. Experiment and comment with your results.)
 
-<strong>Counter Argument</strong>
+## Counter Argument
 
 I suppose you could argue that by making lots of small files, you're <em>creating</em> more complexity in directories, in makefiles or projects, and so forth. Is 250 files in a folder worse than 15? Doesn't that violate the "cognitive complexity" guideline above?
 

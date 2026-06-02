@@ -24,13 +24,13 @@ I don't think the chart is perfect. I've seen it billed as a "popularity index,"
 
 Nonetheless, it's an insightful view. I'm not surprised to see C#, Java, Javascript, PHP, C++, C, and Python as the clear hotspots. It's interesting to see where some older and less glamorous languages fall, like Perl and Visual Basic. If you're wondering which languages you ought to learn, this view might tell you the relative value of, say, Haskell vs. Erlang vs. F# vs. D.
 
-<strong>Observations</strong>
+## Observations
 <ul>
 	<li>There are <em>a lot</em> of languages out there. What a busy world we live in! All the more reason to <a title="Julie Jones: Learn voraciously." href="julie-jones-learn-voraciously.md">learn voraciously</a>.</li>
 	<li>Languages with a mediating runtime (JVM, .NET) are very popular, with languages that compile at runtime as a large subset. I don't think bare bones C/C++/Assembly/Objective C will ever go away, but the evolution toward higher level environments is clear.</li>
 	<li>It's interesting to ponder what commonalities exist between sets such as languages that are growing quickly, languages that are stale and neglected, and so forth. Fodder for <a title="My First Tangle With the Tower of Babel" href="my-first-tangle-with-the-tower-of-babel.md">my experiments with language design</a>...</li>
 </ul>
-<strong>Questions</strong>
+## Questions
 <ul>
 	<li><span style="line-height:13px;">What languages are on your list for learning?</span></li>
 	<li>What other comparisons of programming languages would you like to see? Average bugs per KLOC? Length of learning curve? Average team size? Geographical distribution? ...</li>

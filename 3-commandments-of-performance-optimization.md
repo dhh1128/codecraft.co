@@ -48,7 +48,7 @@ A tall order.
 
 Here are 3 principles that I believe that will maximize your chances for success.
 
-<strong>I. Thou shalt measure.</strong>
+## I. Thou shalt measure.
 
 How many of the following doctrines have been preached to you?
 <ul>
@@ -83,7 +83,7 @@ Side benefit A: Measurement defuses holy wars among passionate developers. We te
 
 Side benefit B: Measurement provides numbers that other smart people (managers, product managers, executives) can use to participate in tradeoff calculations. Saying that a rewrite will make things "faster" is hard for a business person to evaluate; saying that it will make a particular use case 73% faster for the average customer, on a system with average daytime load, is easier.
 
-<strong>II. Thou shalt work the bottleneck.</strong>
+## II. Thou shalt work the bottleneck.
 
 If you have not already read <a href="http://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951/" target="_blank"><em>The Goal</em>, by Eliyahu Goldratt</a>, then add it to your backlog. Or at least spend a few minutes with the cliff notes. In the book, a manager in a production facility is trying to make more widgets. He tries all sorts of improvements. He threatens and cajoles and "motivates" the troops. Some experiments are fruitless. Some experiments actually make things worse.
 
@@ -102,7 +102,7 @@ In order to work the bottleneck (or bottlenecks!) correctly, you must construct 
 
 Once you have such a model, the proper focus for optimization should become obvious. (It should also be clear when/whether work on secondary bottlenecks might pay off. For example, if you can increase the capacity of the most constrained section of your pipeline, then perhaps the next-most-constrained section's capacity will become relevant...)
 
-<strong>III. Thou shalt measure.</strong>
+## III. Thou shalt measure.
 
 This is not redundant, and it is not simply repeated for dramatic effect.
 

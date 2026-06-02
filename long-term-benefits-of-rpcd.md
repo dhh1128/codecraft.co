@@ -13,7 +13,7 @@ In a <a href="example-rpcd-interaction.md">example RPCD interaction</a>, I think
 
 But there are subtler advantages that might not be obvious:
 
-<strong>The system never needs to wait for functional code to be deployable.</strong>
+## The system never needs to wait for functional code to be deployable.
 
 As soon as you have a set of reasonably clear roles defined, and at least one specific use case, you can observe the system in action. Granted, you're observing people instead of software, but the full complexity and dynamism springs to life right before your eyes. People can hold clipboards and use checklists to model how wizards populate databases; they can move post-notes on a whiteboard to explore organizational algorithms. Seeing <em>in toto</em>, from the beginning, is incredibly useful.
 
@@ -25,12 +25,12 @@ Later in the evolution of code, when most parts of the system are automated, the
 
 Another possible insight is that roles where humans are forced to continue to work represent the <em>high-value</em> aspects of the problem. Solve those problems, and customers will <em>really</em> love you, because you've radically changed their work.
 
-<strong>The needs of <em>all</em> humans interacting with the system are inherently "baked in" and obvious, instead of being implicit.</strong>
+## The needs of <em>all</em> humans interacting with the system are inherently "baked in" and obvious, instead of being implicit.
 
 UCD says to center your design on the user. But so often we forget support, sales, IT, executive management, and so forth. If you're writing an app for the iPad that uses social ranking to recommend shows airing in the next hour on cable channels, you probably have a team of data managers that maintains current listings for all channels, and a team of backroom IT that keeps your DB running. These people are part of the system; if one day your data center dies, and no IT people show up to fix it, or one day your channel listings goes stale and no data manager steps in to solve the problem, you don't have a product.
 
 These people should all have roles in your role plays, and by regularly representing them, you can't help but make better decisions. Overhead and cost centers become obvious. Risks jump out at you.
 
-<strong>The clumsiness of certain touch points becomes obvious.</strong>
+## The clumsiness of certain touch points becomes obvious.
 
 Or in other words, user feedback and usability testing are built in, because actual people, not abstract boxes on your system, are interacting from the very beginning.

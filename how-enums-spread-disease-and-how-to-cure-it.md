@@ -153,7 +153,7 @@ case eVTMotorcycle:
 default:
     <span style="color:#008000;">// can only use lane during off-peak hours</span>
 }</pre>
-<strong>Diagnosis</strong>
+## Diagnosis
 
 The infection from your enum is already coursing through the bloodstream at this point. Do you recognize the warning signs?
 <ul>
@@ -198,7 +198,7 @@ The code is sick.
 
 Pretty soon symptoms become externally visible: code is measurably buggy; unit tests require lots of maintenance when you make a change; you have debates about how to accommodate strange new vehicle types; the high priest/grand wizard of the codebase regularly corrects acolytes that attempt "simple" tweaks; people advocate a coding standard that requires comments on every member of the enum to explain its ramifications.
 
-<strong>Treatment</strong>
+## Treatment
 
 The good news is that this particular sickness has an effective and straightforward cure.
 
@@ -283,7 +283,7 @@ How does this help us?
 	<li>The set of attributes that we can associate with our enum is unbounded; we can add as many fields to our tuple as we wish.</li>
 	<li>Our file of tuples is extraordinarily simple to parse; it contains nothing other than a series of TUPLE() calls. If we need to validate enum values in some other language or environment, we can process the file during the build to generate a javascript function, an xml example, a sample config file, and so forth.</li>
 </ul>
-<strong>Separation of Concerns</strong>
+## Separation of Concerns
 
 Another characteristic of the solution deserves deeper discussion. Why did we include the snippet from bridge.cpp in our solution? Isn't another function there unnecessary? Why not do the following in vehicle_type_tuples.h?
 <pre style="padding-left:30px;margin-bottom:1em;"><span style="color:#339966;">// TUPLE(id, heavy_risk, slides_easily, fuel_consumption)</span>
@@ -301,19 +301,19 @@ In other words, the better version couples vehicle type and traffic routing more
 
 Which version will require less maintenance if you decide that the threshold for vehicles that are too heavy for a bridge is 10,000 kg instead of 5,000? Which will require less maintenance if you decide you now need 4 gradations of ranking on fuel economy, or if the average fuel economy on your vehicles changes?
 
-<strong>Other Languages</strong>
+## Other Languages
 
 Only a few modern programming languages provide a preprocessor, but this doesn't mean that lack of macros makes enum encapsulation impossible. All languages that I know support some form of tabular data structure, and quite a few offer first-class tuples.
 
 In Java, for example, you could write a static initializer block that builds a HashMap of attributes for each value in an enum. In Python, you could populate a dict indexed by string constants. The basics of the technique are replicable anywhere.
 
-<strong>Pragmatism</strong>
+## Pragmatism
 
 Of course, not every enum is worth handling in this careful and encapsulated way. If you have an enum that's got three items, and it will never change, and you have no interesting semantics to manage, and you're not converting it to and from strings, and the enum is only visible in a single module, then (to quote my friend Moray King), the juice is probably not worth the squeeze.
 
 For the more critical enums in your codebase, however, I think a careful approach will pay big dividends.
 
-<strong>Signs of Health</strong>
+## Signs of Health
 
 You'll know you're handling enums right if it's difficult or impossible to add a new value to an enum without also specifying that value's attributes, and if you stop seeing tests for one or more enum values, scattered in conditionals all over the code. Statements like this:
 <p style="padding-left:30px;"><code>if (vehicle.vt == eVTTruck || vehicle.vt == eVTSemi)</code></p>

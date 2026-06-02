@@ -48,7 +48,7 @@ Here's a simple little test that teaches an important lesson. Take a moment to w
 
 <p>Ready to grade your answers?</p>
 
-<strong>The Yellow Belt Answer</strong>
+## The Yellow Belt Answer
 
 Most people say "go right, toward higher ground" if picture 1 is the only input to their analysis. The logic is pretty indisputable. But...
 
@@ -58,7 +58,7 @@ The problem with this approach is that it's short-sighted. Leaders that insist o
 
 Have you ever worked on a product team that can't think beyond the current crisis? That's picture 1 thinking.
 
-<strong>The Blue Belt Answer</strong>
+## The Blue Belt Answer
 
 If you said "go right" in picture 1, and "go left" in picture 2, and "go right" in picture 3, then you understand that the scope of vision influences your analysis. That's good.
 
@@ -68,7 +68,7 @@ You see, many types of strategy require you to take calculated risks, and those 
 
 It's not an exact science. Smart CEOs and software architects and investors and product managers and QA leads all get this. They consider the implications of their choices from multiple perspectives, make the best bets they can, and drive risk out of their decisions whenever they can find a way to do so. And often, they make better decisions than those who operate only at the level of a single picture.
 
-<strong>The Black Belt Answer</strong>
+## The Black Belt Answer
 
 If you said "it depends," then give yourself a star on the forehead. <a title="Steve Tolman: It depends." href="steve-tolman-it-depends.md">My friend and mentor Steve Tolman would be proud of you</a>. If you said, "C'mon, Daniel, you've got to tell me how bad the flood will be, when it's going to arrive, how long it will last, and whether George has the materials and skills to build a boat," then you get two stars, because you're asking specific questions.
 
@@ -76,11 +76,11 @@ It really <em>does</em> depend, and I have not given you enough information. Yo
 
 Smart black belts don't just notice that these questions need answering &mdash; they proactively attack them. I would prefer to fight the competing hordes with a well organized team of black belts around me. Wouldn't you?
 
-<strong>The Master Answer</strong>
+## The Master Answer
 
 If you said, "learn to swim" or "put on a life preserver" then you have captured truths that many forget. You've fully understood how, why, and on what the short-term answer depends, and you've taught it to less experienced students for years. Along the way, you've identified some core principles that always pay off. You want to be sure those core principles don't get neglected, no matter which way the "it depends" pendulum ends up swinging in a particular circumstance.
 
-<strong>Your Answer</strong>
+## Your Answer
 
 How does your team operate most of the time? Are you evaluating the ramifications of your designs, processes, roadmaps, and other plans only by short-term payoff? Or do you think from many perspectives at once? Do you give proper weight to long-term? Do you have core principles that you tenaciously follow, because they're tried-and-true? Do you have a plan to learn to swim?
 <p style="padding-left:30px;text-align:center;"><span style="color:#000080;"><strong>Action Item</strong></span></p>

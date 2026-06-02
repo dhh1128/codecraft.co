@@ -65,7 +65,7 @@ When you combine this with compile-time reflection, you have extraordinary power
 
 </dd><dt><strong>2</strong>. Constructs in code that are currently anonymous (e.g., <code><em style="color:red;">URL_of_the_for_loop</em></code> in the example above) need to be explicitly nameable.</dt><dd>In the <code>intent</code> programming language that I'm designing, all block-level elements that would take a parenthesized expression in C++ are nameable with a phrase after their keyword:
 
-<strong>C++</strong>
+## C++
 <pre style="font-size:90%;padding:.4em;border:solid 1px #dddddd;"><span style="color:green;">// If we can do more processing</span>
 <span style="color:blue;">if</span> (remaining_item_count < total && available_time > 0) {
     <span style="color:green;">// body of the anonymous "if" block</span>

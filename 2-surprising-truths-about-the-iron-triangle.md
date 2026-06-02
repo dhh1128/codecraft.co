@@ -87,7 +87,7 @@ You've learned some good principles when you can articulate this geometry lesson
 
 But there's more.
 
-<strong>Truth 1: Scope is a trickster</strong>
+## Truth 1: Scope is a trickster
 
 Many well meaning managers and executives understand this trilemma, and they distance themselves from Dilbert's PHB by acknowledging that something has to give. "I pick scope," they'll say. "We absolutely must have the product before the summer doldrums, and we only have <em>X</em> dollars to spend, but I'm willing to sacrifice a few features."
 
@@ -101,7 +101,7 @@ The PHB is foolishly optimistic. "We have 6 major initiatives slated for the nex
 
 Well, sorry, Charlie. The trickster got the better of you.
 
-<strong>Elastic quality</strong>
+## Elastic quality
 
 What usually happens in these scenarios, if engineering is not able to articulate the carrying cost of old features in a way that execs grok, is that cost and schedule remain fixed, and the scope vertex shifts much less than execs believe. Pressure is not alleviated; instead, it steadily mounts. Since all vertices are fixed, the nice straight lines that define the sides of the triangle begin to bow inward, squeezing the area available to quality. Result: an on-time, on-budget release, with the constrained feature set, but far less quality than anybody wanted. Nobody is happy.
 
@@ -119,7 +119,7 @@ If you've learned truth 1, then you're probably an <a title="Earned Pragmatism"
 
 But there's more.
 
-<strong>Truth 2: Quality vs. speed is a false dichotomy</strong>
+## Truth 2: Quality vs. speed is a false dichotomy
 
 This assertion is bound to raise some eyebrows. In fact, I nearly got in a shouting match about it with a brilliant coworker who has lots of wisdom. Think of the TV show MASH. How many times does Hawkeye lament that he can't save the lives of the wounded because he doesn't have the time to operate properly? How often do we see young soldiers die because he's too tired, or has to improvise solutions because there's no time to requisition proper equipment?
 
@@ -135,13 +135,13 @@ Can engineers get more done in a high-quality codebase, or a low-quality one? I 
 
 I have personally worked in codebases that are modular, well encapsulated, thoroughly unit tested, and automated to the hilt. And I have worked in codebases that were just the opposite. There is no question where an engineer is more productive. The comparison is not even close. The speed with which you can reproduce, isolate, and fix a bug is greater in high-quality code. Adding incremental features can be orders of magnitude faster. Altering architecture to reinvent functionality is doable in such a codebase, and virtually impossible in spaghetti code.
 
-<strong>But can we handle the truth?</strong>
+## But can we handle the truth?
 
 Part of the reason why my colleague had strong emotion about this claim is because he'd been burned by the facile belief that you can hold quality constant (or increase it) as you push relentlessly for speed. That belief is dangerous. If a Dilbertesque PHB is told that he can have both, misery will ensue. That's not opinion &mdash; it's historical fact, as most of us can witness.
 
 That way lies madness.
 
-<strong>Quality yields speed</strong>
+## Quality yields speed
 
 In a way, I'm suggesting the opposite strategy: if you push on quality <em>in the right way</em>, speed will accrue organically. Not at first, <em>especially</em> if you're starting with an unhealthy codebase. Not with every checkin; sometimes you have to take one step back to take two steps forward. But over time, if you continue to invest in quality, your patient will get more healthy, and you will see your speed go up, not down. The <a title="Why Mental Models Matter" href="good-fences-make-good-neighbors">encapsulation</a>.
 

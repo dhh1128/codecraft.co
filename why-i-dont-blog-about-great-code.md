@@ -22,7 +22,7 @@ However, I submit that the greatness you should be pursuing in software is less 
 
 Don't get me wrong. I care about the quality and artistry of code, and there is definitely great code out there. It's just that I've got these battle scars...
 
-<strong>Daniel builds a tower</strong>
+## Daniel builds a tower
 
 In 2001, I helped design and code a library &mdash; FileAccess &mdash; that isolated our cross-platform file system management applications from the quirks of various storage back-ends. Think of it as an early analog to FUSE. Traditional file systems would be wrapped by the library; so would robotic tape loaders, virtual tape drives, sockets, ftp and http endpoints, cloud storage, SANs, ISOs, and much more. Dependency injection would keep client code assumption-free; mixins would allow transform on file copy, depth- and breadth-first tree traversals, etc. The scope of what we were undertaking was ambitious, but we had our reasons; many C++ I/O libraries were primitive at the time, and we were doing industrial-strength disk-based backup.
 
@@ -30,7 +30,7 @@ One of the FileAccess tasks that fell to me was the design and implementation of
 
 In many ways, FileAccess was a great success. However, I look back on what I did with Path, and I think I got carried away.
 
-<strong>Daniel builds a tower to get to heaven</strong>
+## Daniel builds a tower to get to heaven
 
 Without a lot of justification, I decided to make Path do canonical casing (pass "hello.txt" to ctor, get "Hello.TXT" back after FS normalizes). I also figured that for logical completeness, it should calculate relative paths between A and B, allow non-contiguous multisegment subsets to be extracted in a single operation, whistle "Yankee Doodle," and walk the dog.
 
@@ -43,7 +43,7 @@ I wouldn't go so far as to say that Path was a disaster. In fact, it was pretty 
 </ol>
 These flaws only came into focus for me with 20:20 hindsight. At the time, I was young enough, and I <a title="Humility" href="humility.md">undervalued humility</a> enough, and Path was useful enough, that I only saw the upside.
 
-<strong>The moral</strong>
+## The moral
 
 I've had that same sort of experience many times since. Occasionally a tower I build creates chaos; more often, I realize after a while that I've overdesigned and overbuilt. Maybe I need to post these lines by Carl Sandburg near my desk:
 <p style="margin-left:4em;">It has happened before.

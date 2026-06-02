@@ -29,7 +29,7 @@ Coding standards are usually written because we want to influence the structure 
 
 I'm not sure there's a guaranteed formula for success, but there's a guaranteed formula for failure; let's cover that first, and then see what helpful suggestions we can derive.
 
-<strong>How to turn coding standards into epic fails</strong>
+## How to turn coding standards into epic fails
 
 <em>1. Micromanage.</em>
 
@@ -55,7 +55,7 @@ A few days later, broadcast a follow-up email asking for feedback and reminding 
 
 <hr />
 
-<strong>Suggestions for success</strong>
+## Suggestions for success
 
 If the foregoing ideas don't excite your enthusiasm, I endorse the following:
 <ul>
@@ -68,7 +68,7 @@ If the foregoing ideas don't excite your enthusiasm, I endorse the following:
 </ul>
 If you read that list and think: "Well, then, why have coding standards at all?", then I have done you a disservice. Teams <em>definitely can</em> benefit from conventions and standards, in many cases. Here are a few rules I might propose in the next coding standards I work on.
 
-<strong>Sample suggestions (not "rules") from a wise coding standard</strong>
+## Sample suggestions (not "rules") from a wise coding standard
 
 In general, model new code after the conventions embodied by recent and clean code you see in the codebase. The following modules are known to be good examples: moduleA, moduleB, ... <em>(Value: high. Cost: low. Pointing out some good examples will do more than a dozen pages of text. Also, pointing people to new code allows wisdom about conventions to accrete organically.)</em>
 
@@ -88,7 +88,7 @@ Roughly, follow formatting conventions common to your language and recommended b
 
 Name unit tests after their main assertion, so you know what's wrong when you see what failed. <em>(Example: test_removeChild_throws_when_container_empty. Value: medium. Cost: low.)</em>
 
-<strong>Benefits</strong>
+## Benefits
 
 Stupid coding standards are offensive and a complete waste of everybody's time. If you promulgate standards like the ones I offered at the top of this post, you deserve to fail. On the other hand, rational, reasonable standards can help a team enjoy working together, flatten the learning curve for new folks, promote good habits, cheapen automated analysis, and foster pride of ownership.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

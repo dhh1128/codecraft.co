@@ -57,7 +57,7 @@ This is the level of sophistication at which much of the software industry opera
 
 I think the second equation is better than the first, but it's still woefully inadequate.
 
-<strong>Easy Critiques</strong>
+## Easy Critiques
 
 For one thing, it ignores the interrelationships among software, hardware, enabling ecosystems, and customer communities. Products don't exist in isolation; they are part of an embedded system made possible (and relevant) by societal conventions and other technologies. "Microsoft Word" and "Adobe Photoshop" are not "products" for <a class="zem_slink" title="Bushmen" href="http://en.wikipedia.org/wiki/Bushmen" target="_blank" rel="wikipedia">Kalahari bushmen</a>.
 
@@ -65,7 +65,7 @@ For another, software is more than code. Notice the subtitle of my blog... Softw
 
 Both of those critiques are important, I think. But today I have a different bone to pick.
 
-<strong>The Deeper Issue</strong>
+## The Deeper Issue
 
 Whenever we put "product" at the front of equations that describe our industry's output, we make the implicit assumption that product is the major &mdash; or even the entire &mdash; output of tech companies. This assumption is ubiquitous and almost never articulated, let alone challenged. Ask a tech buddy about what his company does; he'll say something like "We build products that ___."
 
@@ -81,7 +81,7 @@ How much of popular culture is built on scaffolding provided by an idea thused t
 
 As I said in <a title="// Comments on Comments" href="comments-on-comments.md" target="_blank">my post the other day about comments</a>, the mental models created by engineers are the most valuable output of the tech industry.
 
-<strong>MVP</strong>
+## MVP
 
 Products are directly sellable, and we have to have them. But products without mental models are pretty darn useless. If you doubt me, try using a sophisticated piece of software without any idea how to think about its <a class="zem_slink" title="Problem domain" href="http://en.wikipedia.org/wiki/Problem_domain" target="_blank" rel="wikipedia">problem domain</a>. If you know nothing about accounting, try to use Great Plains to be a bookkeeper. If you know nothing about graphics, try airbrushing an image in Photoshop. If you know nothing about <a class="zem_slink" title="High-performance computing" href="http://en.wikipedia.org/wiki/High-performance_computing" target="_blank" rel="wikipedia">HPC</a>, try keeping <a href="http://www.npr.org/blogs/alltechconsidered/2012/10/29/163894669/why-is-this-supercomputer-so-superfast" target="_blank">Cray's latest supercomputer</a> busy doing protein folding.
 
@@ -89,7 +89,7 @@ Code is important, but without a <a class="zem_slink" title="Mental model" href=
 
 Patents look nice in a war chest, but it's sophisticated mental models, not patents, that are the prerequisite of innovation.
 
-<strong>Implications</strong>
+## Implications
 
 If you understand that tech companies produce mental models, then cein issues take on new significance.
 

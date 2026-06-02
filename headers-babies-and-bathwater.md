@@ -92,7 +92,7 @@ I agree.
 
 Sort of...
 
-<strong>Bad headers are a royal pain</strong>
+## Bad headers are a royal pain
 
 It can be onerous to maintain the parallelism between a .h and a .cpp. And most C/C++ headers are managed so poorly that the benefits you might claim for them are theoretical rather than real. Three common antipatterns that I particularly detest:
 
@@ -105,7 +105,7 @@ It can be onerous to maintain the parallelism between a .h and a .cpp. And most 
 3. Mismanaging #includes.
 <p style="padding-left:30px;">When you #include  stuff that a consumer of a header doesn't really need, just for "convenience", what you're really doing is artificially coupling the system (see problem #1), making your build more fragile, subverting incremental builds, and making compile time longer.</p>
 <p style="padding-left:30px;">When you leave out #includes because the .cpp files already #include what they need, you are making it harder to trace dependencies. If you ever hear that header X must be #included before header Y, you're suffering the consequences of this antipattern.</p>
-<strong>What headers could be good for</strong>
+## What headers could be good for
 
 One of the insights often attributed to Guido van Rossum (inventor of python) is that code is meant to be read &mdash; by humans. This insight is enshrined in the zen of python (by Tim Peters) with the pithy statement that "Readability counts." It reflects the same sentiment articulated by Martin Fowler, who said, "Any fool can write code that computers can understand. Good programmers write code that humans can understand." And it echoes the observation of the venerable C.A.R. Hoare: "The readability of programs is immeasurably more important than their writeability" (<em>Hints on Programming Language Design</em>, 1973).
 
@@ -127,7 +127,7 @@ Consumers of your code are bound to the code's implementation, not its fixture. 
 
 You might say that since these languages compile so much faster than C++, recompiling has become painless. Fair enough. You might say that with JIT-compilation or interpreted languages, you can defer this problem until it goes away. But neither solution helps you if you have IP you must protect. For a C++ codebase, it's possible to provide headers to a third party without giving away patents and trade secrets. In languages without headers, you're up a creek. The best you can do is obfuscate, which may not satisfy the paranoid or the government regulator worried about export controls.
 
-<strong>How headers ought to work</strong>
+## How headers ought to work
 
 I can think of a way to have the best of both worlds: let implementers stop worrying about headers, and let consumers stop worrying about implementation:
 <p style="padding-left:30px;">Generate the headers.</p>

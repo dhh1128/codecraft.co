@@ -20,7 +20,7 @@ It may be that we're all growing lazy.
 
 But I think there's something deeper.
 
-<strong>"Software Engineering" isn't good enough</strong>
+## "Software Engineering" isn't good enough
 
 The set of things besides traditional computers that need to be programmed is growing by leaps and bounds: TV remotes, holiday light displays, e-readers, smartphones and tablets, <a class="zem_slink" title="Arduino" href="http://arduino.cc" target="_blank" rel="homepage">Arduino</a> boards, fuel injectors, point-of-sale terminals, MRI machines, 3D printers, LEGO MindStorm robots, networks (software-defined networking / <a title="Software-defined networking" href="http://en.wikipedia.org/wiki/Software-defined_networking" target="_blank" rel="wikipedia">SDN</a>), storage (<a title="Software defined storage" href="http://en.wikipedia.org/wiki/Software_defined_storage" target="_blank" rel="wikipedia">software-defined storage</a> / SDS), nanobots, social networks, clouds...
 
@@ -32,7 +32,7 @@ Okay.
 
 I think that's true, but it misses the really <em>big</em> insight.
 
-<strong>Systems thinking is the wave of the future</strong>
+## Systems thinking is the wave of the future
 
 Technology is evolving &mdash; rapidly &mdash; to depend upon complex <em>systems</em>, not isolated devices, as the dominant unit of value delivery. More and more often, programming tasks demand a greater scope of design than a single computer.
 
@@ -46,7 +46,7 @@ Nanobots achieve goals as a swarm.
 
 Auto manufacturers have to release replacement parts on a schedule that correlates to the upgraded diagnostic features and the bug fixes they offer for their onboard computers.
 
-<strong>Implications</strong>
+## Implications
 
 <a title="History of Germ Theory" href="http://www.sciencemuseum.org.uk/broughttolife/techniques/germtheory.aspx" target="_blank">Germ theory</a> revoionized medicine; mortality rates plunged as doctors acknowledged for the first time how hand-washing translated into better recovery from surgery.
 

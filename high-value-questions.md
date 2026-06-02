@@ -20,7 +20,7 @@ This might seem like old hat. After all, there's a reason why business intellige
 
 Here's why.
 
-<strong>Question categories</strong>
+## Question categories
 
 Questions that are interesting in the information age have answers that fall into three broad categories:
 <ul>
@@ -36,7 +36,7 @@ Questions that are interesting in the information age have answers that fall int
 
 For structured data, the preferred way to get known answers is a DBMS (or a noSQL DB, maybe). For unstructured data, Google's full text indexing is state-of-the-art (and Perfect Search's is a quantum improvement). But nowadays, looking up known answers is passé. The world needs tools to do it, but the technology is not especially interesting.
 
-<strong>Do our BI tools discover anything?</strong>
+## Do our BI tools discover anything?
 
 The central value proposition of big data is inseparably connected to <strong>discoverable</strong> answers. <em>These gems are fundamentally different from facts waiting to be sliced; they're rational guesses based on deduction and supported by rigorous data analysis.</em>
 
@@ -46,7 +46,7 @@ Business intelligence products and services that show pretty dashboards or repor
 
 Enterprise search struggles, as an industry, because it's trying to sell drill bits to customers who want holes, and it's forgotten that it's the hole, not the bit, that makes the customer passionate (thanks Zig Ziglar for the analogy). In other words, it is also depending on the customer to provide analysis that turns data into insight.
 
-<strong>A new kind of big data technology</strong>
+## A new kind of big data technology
 
 We can do better.
 

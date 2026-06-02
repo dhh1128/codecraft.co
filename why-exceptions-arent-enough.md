@@ -101,7 +101,7 @@ Which surprises me, because exceptions are not the end-all, be-all answer to thi
 </ul>
 Let me take each of these in turn.
 
-<strong>Warnings</strong>
+## Warnings
 
 For the purpose of this discussion, I'll claim that warnings describe events during function execution that a called function cannot classify with confidence into unqualified success or failure. If I'm recursively copying all files in a directory tree, and I encounter a file that cannot be opened because I lack privileges or it is currently opened exclusively, <em>only my caller</em> knows how to judge the problem. Some callers might consider this an error; others might view it as harmless noise.
 
@@ -111,11 +111,11 @@ You could add a callback parameter to your <a class="zem_slink" title="Signature
 
 Exceptions force you into either-or thinking; either something is exceptional, or it is not. They insist on unwinding the stack as soon as they are thrown. This leaves you with a binary choice. If an event of unknown severity causes you to exit prematurely, but the caller thinks it's harmless, you've done less work than your contract; if you wait till the end of the function and then return the worst severity you encountered, the caller may wish you had returned earlier.
 
-<strong>No compositing</strong>
+## No compositing
 
 Exceptions can refer to their cause, and can give <a class="zem_slink" title="Stack trace" href="http://en.wikipedia.org/wiki/Stack_trace" rel="wikipedia" target="_blank">stack traces</a>. But what if I find 3 files, out of a directory of 500, that are not copyable? The first time, I can make an exception about the problem file. Does a second exception (and its stack trace) replace the first, or take the first as its parent/cause? Neither answer is satisfying. What we really want is a "multiple problems occurred" state that contains an array of problems. I don't know of that feature in standard exception mechanisms.
 
-<strong>Categorization</strong>
+## Categorization
 
 If I have a sane <a class="zem_slink" title="Inheritance (object-oriented programming)" href="http://en.wikipedia.org/wiki/Inheritance_%28object-oriented_programming%29" rel="wikipedia" target="_blank">inheritance hierarchy</a> for my exceptions, I may get some nice benefits from:
 <pre style="border:solid 1px #ccc;background-color:#eee;margin-left:4em;padding:.5em;display:inline-block;margin-bottom:1em;">} catch(NetworkError) { ...
@@ -134,13 +134,13 @@ Or:
 }</pre>
 Although you can certainly achieve these things by building on top of exceptions, I think it's harder than it should be. I think this is one reason why so much error handling code in callers is sloppy catch-all stuff.
 
-<strong>Complications across boundaries</strong>
+## Complications across boundaries
 
 I think exceptions are not a good strategy for low-level, widely used library routines, because they make too many assumptions about context. In one codebase I worked in, string-handling routines that ran out of buffer space threw exceptions. This is bad. These were functions that had to run fast, were called all over the place in tight loops, were used in singletons before or after main(), etc. Coders wanted to hook the top-level exception handler to guarantee that all thrown exceptions were logged &mdash; but even before they did this, they'd opened the app's log file, which means they'd parsed file paths, which means they'd used the string handling functions that threw exceptions.
 
 Throwing exceptions across remoted boundaries, or even across shared library boundaries, is not always easy, reliable, or wise, either.
 
-<strong>Sloppy context</strong>
+## Sloppy context
 
 This is my biggest beef with existing exception models &mdash; they give programmers a false sense of communication which encourages bad habits and leads to frustrated users.
 <p style="padding-left:30px;">WATURI
@@ -181,7 +181,7 @@ Even if they did, notice that it <em>still</em> wouldn't answer the user's secon
 
 <figure><img src="http://imgs.xkcd.com/comics/orphaned_projects.png" alt="" width="413" height="168" /><figcaption>Image credit: xkcd.com</figcaption></figure>
 
-<strong>So what's the answer?</strong>
+## So what's the answer?
 
 Don't get me wrong.
 
@@ -201,7 +201,7 @@ But before we really achieve error-handling nirvana, we need something more:
         // and that compiler would never allow an old exception to be
         // rethrown, only propagated...</span>
         propagate(new IncompleteFolderException(msg), e)</pre>
-<strong>Exceptions</strong> should declare their semantics (possibly with tags or annotations) and <strong>should be catchable by those semantics. They should also be catchable by origin.</strong>
+## Exceptions</strong> should declare their semantics (possibly with tags or annotations) and <strong>should be catchable by those semantics. They should also be catchable by origin.
 
 Exceptions should allow compositing. If you do old += new, you should get composite with 2 children, and a severity that's the maximum of all the others.
 

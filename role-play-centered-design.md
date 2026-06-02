@@ -14,7 +14,7 @@ However, UCD rarely yields all potential benefits, which is why I'd like to sugg
 
 <figure><img alt="" src="assets/roleplay-masks-stage.png" /><figcaption>Role plays can help you build software &mdash; not just entertain.</figcaption></figure>
 
-<strong>Manifesto</strong>
+## Manifesto
 
 RPCD is distinguished from ordinary UCD by three key tenets.
 <ol>
@@ -24,12 +24,12 @@ RPCD is distinguished from ordinary UCD by three key tenets.
 </ol>
 Let me justify each of these ideas, and then I'll give an example of an RPCD process at work.
 
-<strong>The "system" includes people.</strong>
+## The "system" includes people.
 <p style="padding-left:30px;">Most architectural and UML diagrams focus on software and/or hardware entities. The user's role in the system is implicit. Even among users of <a href="http://en.wikipedia.org/wiki/Activity_diagram">activity diagrams</a>, most workflow is computer rather than human.</p>
 <p style="padding-left:30px;">This is wrong. <a href="why-people-are-part-of-a-software-architecture.md">software - people != software</a>. Any thoughtful veteran of the industry can tell you stories about why this is so. Engineers who accept the flawed premise that only the computer side of software needs to be designed are already handicapping their UCD fatally. The system built by a software team includes people &mdash; individual users, a community, support personnel, sales folks, professional services, maintainers of docs on a web site, etc. If you let an engineer construct "the system" with no serious thought to the people, you often end up with misalignments that make it irritating to understand/use/configure/support, expensive to maintain, or even impossible to sell.</p>
-<strong>Specifics are non-negotiable.</strong>
+## Specifics are non-negotiable.
 <p style="padding-left:30px;">The devil really is in the details, and ifu don't solve detailed problems, you won't solve problems at all. The design of a system is therefore best driven by specifics &mdash; even if the specifics are only postulated. Specifics are best exemplified by use cases, and role playing forces specifics into use cases.</p>
-<strong>The best way to understand is to "be" the system.</strong>
+## The best way to understand is to "be" the system.
 <p style="padding-left:30px;"><a href="what-role-are-you-playing-in-rpcd.md">You should "be" the software in the system, and you should "be" the people as well</a>.</p>
 <p style="padding-left:30px;">When a hu being actually interviews someone in the same way an automated wizard eventually will, you learn things. The human reorders the questions or short-circuits part of the interview because she knows it's unnecessary. Or the human gets frustrated at how needlessly cumbersome a particular part of the process is. Or the human asks some intelligent questions that you never considered. When two humans interact to model what's eventually going to be a formal protocol, you confront asynchronicity and error handling in ways that UML or whiteboards don't.</p>
 <p style="padding-left:30px;">Modeling the system in role plays also has some other profound long-term advantages that go far beyond just what you learn. I'll discuss these in a different post.</p>

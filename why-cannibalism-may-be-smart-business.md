@@ -40,13 +40,13 @@ At the beginning of 2005, Symantec acquired Veritas. Together, Veritas's <a clas
 
 I worked for the only technology group within Symantec that overlapped the backup space at the time. We were making a disk-based backup product named LiveState Recovery; its revenues were in the tens of millions of dollars and we were growing at >100% <a class="zem_slink" title="Compound annual growth rate" href="http://en.wikipedia.org/wiki/Compound_annual_growth_rate" rel="wikipedia" target="_blank">CAGR</a>.
 
-<strong>Integration gets hairy</strong>
+## Integration gets hairy
 
 Our growth stemmed from the fact that we were approaching backup in a radically different way. Instead of capturing changed files and streaming them through a centralized media server to a tape library, we took <a class="zem_slink" title="Disk image" href="http://en.wikipedia.org/wiki/Disk_image" rel="wikipedia" target="_blank">disk images</a> based on snapshotting technology. We were faster (many times faster, often); we had a distributed architecture that scaled out much more easily; we never missed a bit; we captured application state perfectly; we could mount backups or convert them to virtual machines.
 
 As the acquisition finalized, Symantec charged us and the BE folks to devise a coherent market strategy. The instructions were a no-brainer, but the details were messy. The product management folks with Veritas heritage didn't put much stock in our upstart product line; our revenue was smaller than some of BE's optional upsells. They decided that our disk-based product would become another BE option; that way, BE would get to claim immediate victory in the disk-based backup space.
 
-<strong>Fear of cannibalism</strong>
+## Fear of cannibalism
 
 I thought this was unwise. Sales was trained and incented to sell traditional BE, and marketing was trained to talk about traditional BE to the market. Rolling disk-based backup support into BE would make our innovation almost invisible. Our dev team would be starved for investment dollars, and sales would dry up. When I raised my concern and argued for a different strategy based on our CAGR, PM shot back: "That growth isn't coming from a vacuum; it's coming from cannibalizing <em>our</em> [BE] revenue! Do you want to undercut a revenue titan, and market some upstart product instead? It'll create market confusion. We should spend our money and energy where the biggest bucks are."
 
@@ -58,7 +58,7 @@ However, my concerns about sales and marketing misalignment proved well-founded.
 
 <figure><img class="  " title="traditional backup gets long in the tooth" src="assets/disruptivetechnology.png" alt="" width="444" height="336" /><figcaption>Virtualization and cloud are disruptive technologies for traditional backup. Result: traditional backup gets displaced at higher and higher bars of functionality as you move right. Image credit: Megapixie (Wikimedia Commons).</figcaption></figure>
 
-<strong>The moral</strong>
+## The moral
 
 The metaphor of cannibalism is apt. If you had a visceral "yuck" reaction to my fork comment... well, business people have a visceral "yuck" reaction to anything that endangers a current revenue stream. And they should. We wouldn't have much of an economy if we failed to protect the value of business investments.
 

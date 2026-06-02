@@ -47,7 +47,7 @@ I happen to think that there are much yuckier tech things than poor or missing c
 
 Here is my attempt to raise the bar a little.
 
-<strong>Why We Comment</strong>
+## Why We Comment
 
 Sooner or later, most interesting programming problems require a sophisticated mental model of a problem. Building these models is hard work, and once we have them, <em>we are paid to share with our team (or our future selves)</em>.
 
@@ -64,7 +64,7 @@ Some of the more <a href="http://stackoverflow.com/questions/184618/what-is-the-
 
 <figure><img alt="" src="http://imgs.xkcd.com/comics/random_number.png" height="144" width="400" /><figcaption>No amount of commenting makes up for a silly algorithm. But you might give another programmer a good chuckle. Image credit: xkcd</figcaption></figure>
 
-<strong>How to Write "Good" Comments</strong>
+## How to Write "Good" Comments
 
 Seriously, make a habit of asking yourself: "What must I explain, that I can't easily say in code, that instills a healthy mental model of this class/module/function/app?" You can't go far wrong if that's your point of departure.
 
@@ -82,7 +82,7 @@ You'll find yourself naturally aligning with guidelines like this:
 <p style="padding-left:60px;">Disabling code is worse than just a departure from the purpose of comments &mdash; it's actually a contradiction. When you disable a block of code, you tend to make it harder to understand, because the natural reaction of the next coder will be to wonder why the code is still there at all. And you have to write a (... wait for it ...) comment to explain yourself.</p>
 <p style="padding-left:60px;">Commented-out blocks rarely get maintained or re-enabled. They clutter and obscure.</p>
 <p style="padding-left:60px;">We have VCS technology, folks. Unless the disabling is very temporary, if you don't want the code to run, <em>delete it</em>. Or if you must retain it for post-mortem purposes, use an #ifdef. Or put it in an inert file and point people there.</p>
-<strong>What About  Javadoc, Doxygen, $Id, and // TODO?</strong>
+## What About  Javadoc, Doxygen, $Id, and // TODO?
 
 To make automated tools happy, we may be pressured to compromise a bit on the principles I've just offered. Some tools that process code comments complain unless you document every parameter, every return value, every possible exception. IDEs support snippet insertion to facilitate this, which leads to lots of boilerplate comments that have low value. The snippets make warnings go away, which encourages developers to be lazy.
 

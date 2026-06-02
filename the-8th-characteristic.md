@@ -63,7 +63,7 @@ All living things die.
 
 Think about the consequences for a few moments. Would any of the ecosystems that you see on nature documentaries be possible without death? Would human civilization, as we know it? Read Orson Scott Card's short story, "Mortal Gods," and ponder.
 
-<strong>Community blindness</strong>
+## Community blindness
 
 Why am I writing about this as a software guy?
 
@@ -73,7 +73,7 @@ To be fair to biologists, their discipline takes death into account constantly. 
 
 But the fact that death didn't make their distilled list of 7 fundamentals is telling. If brilliant minds forget to state the obvious in that context, would it be any surprise to see the mistake repeated in the world of bits and protocols?
 
-<strong>Pervasive software death</strong>
+## Pervasive software death
 
 Hardware dies. We usually get that one. We know all about MTBF (mean time between failures) for hard drives, RAM, and the like. Interestingly, this phenomenon sometimes gets labeled "half-life", which has roots in a biological metaphor despite its direct borrowing from nuclear physics.
 
@@ -89,7 +89,7 @@ Software companies die. When was the last time you bought anything from Caldera?
 
 Software protocols die. Software installations die. Software expertise dies. Software standards die. Software fads die. Software markets die. Vendor and OEM relationships die. Competitive advantages die. And on and on.
 
-<strong>So what?</strong>
+## So what?
 
 Software death is a good thing. As in biology, it makes room for new and more evolved growth. It gives me job security. :-)
 

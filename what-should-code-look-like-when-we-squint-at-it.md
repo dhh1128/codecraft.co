@@ -70,7 +70,7 @@ I'll bet that instead of laying down every pixel, like a printer, you immediatel
 
 Artists sometimes squint to blur out what they don't want to see, leaving only general patterns and colors. But coders never do, because we don't expect code to work that way.
 
-<strong>Drowning in details</strong>
+## Drowning in details
 
 I think this is one of the flaws in most programming languages I know: they immediately plunge you waist-deep into implementation details that hide the forest among the trees. To see what I mean, try this experiment, which I did a couple weekends ago:
 <ol>
@@ -86,7 +86,7 @@ This need for context, for a high-level picture, for a sketch that gives you a u
 
 There's just no easy entrée.
 
-<strong>What's in a book?</strong>
+## What's in a book?
 
 You could claim that all is for the best in this best of all possible worlds (nod to Pangloss). After all, teams <em>do</em> provide overviews and walkthroughs and design docs, and sooner or later, we get through the learning curve. But I think code could do a much better job of communicating, if we raised the bar.
 
@@ -94,7 +94,7 @@ Think about books for a minute. Hopefully you bought a print book recently enoug
 
 Code has only weak parallels for these broad-brushstroke mechanisms.  In some sense, the main() routine is like chapter 1—but what comes after that may quickly become indecipherable, especially if you're doing OOP or AOP or event-driven programming. You might liken java packages to a rough structure, but I think that in practice, they only deliver mediocre value because they tend to group by topic, not by code flow or by structural role. Headers insulate you from some details of an implementation, <a title="Headers, babies, and bathwater" href="smart-geeks-think-like-cheerleaders.md" target="_blank">gestalt</a>. Tests as a form of documentation are helpful, but they make it even harder to distinguish major themes from trivia. IDEs give you tree views, but trivia is intermixed with overarching concepts. Nowhere in a codebase do you typically find an explicit discussion about which constructs matter at install time, or which ones are important during startup but not during the later lifetime of the program.
 
-<strong>Toward utopia</strong>
+## Toward utopia
 
 I don't think this lack-of-a-big-picture problem can be solved with a single silver bullet. But here are a few ways that a better programming language/environment/ecosystem might make things better:
 <ul style="padding-left:30px;">

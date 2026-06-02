@@ -49,7 +49,7 @@ This poem could be a treatise for the principle of encapsulation in software. In
 	<li>Something there is that doesn't love a wall.</li>
 	<li>Good fences make good neighbors.</li>
 </ul>
-<strong>What doesn't love a wall?</strong>
+## What doesn't love a wall?
 
 Subroutines, formal interfaces, data hiding, class hierarchies, the <a class="zem_slink" title="Opaque pointer" href="http://en.wikipedia.org/wiki/Opaque_pointer" target="_blank" rel="wikipedia">pimpl idiom</a>, and similar mechanisms all create barriers in software between consumers and providers of functionality. These techniques are well known, but we still have codebases littered with protected data members, unnecessary class declarations in headers, goto, and other suboptimal choices.
 
@@ -83,7 +83,7 @@ In the first one, the programmer has a habit of immediately counteracting the pr
 
 In the second, the programmer uses default java visibility everywhere, without bothering to be more specific. Result: the getter has the same visibility as the instance variable that ought to be private; it is totally useless.
 
-<strong>How to make good fences and good neighbors</strong>
+## How to make good fences and good neighbors
 
 Make a habit of being very deliberate about what information you expose. The default position ought to be to expose to consumers of your code as little as you can get away with. In other words, put a wall around your private domain and then maintain it.
 

@@ -64,7 +64,7 @@ Hi. My name is Daniel, and I'm addicted to interruptions. :-)
 
 <figure><a href="http://xkcd.com/874/"><img class="size-large wp-image-943" alt="time_management" src="assets/time_management.png" width="500" height="222" /></a><figcaption>Image Credit: xkcd</figcaption></figure>
 
-<strong>Symptoms</strong>
+## Symptoms
 
 You would see my addiction if you walked past my desk and looked at the tabs in my browser: two for email (work, personal), two or three for calendaring, some chat sessions, a task list, several programming topics, a man page, a python reference, an interesting blog post or two, three wikipedia pages, a ticket I looked up before I ran to my last meeting, a wiki page I'm in the middle of editing, a competitor's product portfolio, a LinkedIn discussion forum on cloud computing, a Google spreadsheet, the PDF of a resume I'm supposed have read before I do an interview in an hour, half a dozen random sites that I visit during the day as I check gossip on a competitor or read the Dilbert cartoon someone emailed me...
 
@@ -72,13 +72,13 @@ How am I supposed to think Deep Thoughts when I've got that much noise?
 
 Browser tabs are just the tip of the iceberg, of course. I carry a cell phone, and I probably text in meetings several times each day. If I walk by somebody's cube and realize that I have a question, I often ask it, even if it looks like they're heads down. I pull people into meetings. My door is always open when I'm in my office, and I'm always up for a chat. And I cheerfully take new tasks and action items without batting an eye. (One reason I don't carry a smartphone is because in my heart of hearts, I know I couldn't handle the escalation in my connectedness.)
 
-<strong>Not quite a catastrophe</strong>
+## Not quite a catastrophe
 
 To be fair, my job is <em>supposed to be</em> collaborative and communicative; if tech companies just needed architects for their navel-contemplation skills, they could hire much cheaper and quieter employees. As I've said repeatedly on this blog, <a title="Why People Are Part of A Software Architecture" href="julie-jones-learn-voraciously.md" target="_blank">learning voraciously</a>, which is a strategic imperative for any software architect.
 
 However, it's possible to have too much of a good thing.
 
-<strong>What might work</strong>
+## What might work
 
 This post is more confessional than pedagogic. I don't think I have great answers, yet. But they say confession is part of the journey out of addiction, so now I've come clean, and I'm going to start a journey to do better. That article I read inspired me.
 

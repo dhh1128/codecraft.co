@@ -27,7 +27,7 @@ They're not wrong to worry.
 
 However, today I'd like to put on my executive hat and discuss tech debt from a perspective that code jockeys sometimes miss, because blindness is not just an executive disease.
 
-<strong>Debt as Leverage</strong>
+## Debt as Leverage
 
 When you hear the word "leverage" in business circles, people are talking about debt: a "highly-leveraged" firm is one financing large portions of its strategy through debt; "leveraged buyouts" are transactions where the buyers borrow vast sums of money from a risk-taking lender to take a company private.
 
@@ -53,7 +53,7 @@ If the answer is "nothing worthwhile," then shame on executives. But if the answ
 
 Of course, just because it was smart to buy on credit doesn't mean you should make minimum payments forever. And just because the lender isn't pounding on your door doesn't mean your payment isn't due.
 
-<strong>Another Moral</strong>
+## Another Moral
 
 I can remember my grandmother whistling in the kitchen as she sealed an envelope and put a stamp on it.
 
@@ -71,7 +71,7 @@ Grandma didn't have that kind of money, and neither do most of the companies we 
 
 Thus, two words must get imprinted on our hearts and minds: <em>discipline</em> and <em>patience</em>.
 
-<strong>Circle of Concern, Circle of Control</strong>
+## Circle of Concern, Circle of Control
 
 This is something <em>you</em> can control. Yes, you. You may not have a manager or executives that totally agree with you about how painful your tech debts are. You may not have veto power on the dev budget. You may not sit in strategic board meetings.
 
@@ -89,7 +89,7 @@ Next time a behavior of the code puzzles you, write a unit test to understand it
 
 Next time you hear yourself complaining about how hard it is to install the product, assign yourself to spend half a lunch break improving a smart default.
 
-<strong>One Last Insight</strong>
+## One Last Insight
 
 You may be saying: "That's all well and good, but it's a drop in the bucket compared to the massive problem we have with <em>X</em>."
 

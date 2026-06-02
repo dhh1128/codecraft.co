@@ -75,23 +75,23 @@ This is simply not true.
 
 You have probably seen plenty of warnings that highlight serious problems; I know I have. And you've probably wrestled with annoying "errors" that tools should have fixed without bothering you &mdash; or suppressed in the first place.
 
-<strong>What's your intent?</strong>
+## What's your intent?
 
 In general, compiler warnings aren't less severe than errors &mdash; they are simply <em>more ambiguous</em>. The compiler isn't sure whether a signed/unsigned comparison is evidence logic mistakes, or is perfectly harmless. So it warns you, and lets you decide.
 
 Warnings are evidence that the compiler needs to know more about your <em>intent</em>. (Does this sound like the "<a title="Lacunas Everywhere" href="bridging-the-lacuna-humana.md">harping</a> on lately?)
 
-<strong>Messy ways to answer</strong>
+## Messy ways to answer
 
 One evidence that ambiguous intent is in play is that our usual method for eliminating warnings is to tweak code until the ambiguity is gone. If you're assigning a 64-bit number to a 32-bit number, and you explicitly cast the right-hand side to a 32-bit value, then there's no longer any question about whether you intend the truncation. The compiler notices your tweak, and the warning disappears.
 
 Some warnings aren't susceptible to this approach. If the compiler warns you that you have unreachable code, you can delete it or <code>#ifdef</code> it, but there's no way to tell the compiler you intend it that way.<sup>[<a href="#1">1</a>]</sup> If you get a warning about a function being deprecated, you either have to stop calling the function, or live with the nag. If you want to avoid warnings about alignment and packing, you probably have to use <code>#pragma</code>.
 
-<strong>Marks make it better</strong>
+## Marks make it better
 
 The <a title="Introducing Marks" href="mountains-molehills-and-markedness.md">recently described</a> provide a nice, uniform solution to this hodgepodge of warning-answering mechanisms. Since they're evaluated at compile-time, they can play the same role that <code>#pragma</code> does in some languages. Sophisticated attachment and propagation get you away from all the silly push/pop gyrations. They can attach to any portion of the code DOM &mdash; functions, variables, statements, code blocks, classes, packages, applications &mdash; and they can express arbitrary semantics, including answers to any question the compiler dreams up. One simple, clean technique across the board.
 
-<strong>But there's more...</strong>
+## But there's more...
 
 However, I want to push our vision even further.
 

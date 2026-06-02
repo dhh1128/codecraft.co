@@ -48,7 +48,7 @@ When you're a twenty-something computer geek, the pace of the software industry 
 
 Add a decade or so, and you may see the world a bit differently.
 
-<strong>Expertise and Moving Targets</strong>
+## Expertise and Moving Targets
 
 <figure><img title="cello" src="assets/cello-study.jpg" alt="" width="312" height="467" /><figcaption>Is mastery possible when your instrument keeps changing? Photo credit: Wikimedia Commons</figcaption></figure>
 
@@ -60,7 +60,7 @@ Maybe you've read Malcom Gladwell's <em>Outliers. </em>Yo Yo Ma put in 10,000 ho
 
 My friend Julie has an answer.
 
-<strong>Learning to Learn</strong>
+## Learning to Learn
 
 I first met <a href="roland-whatcott-manage-momentum.md">I've blogged about before</a>). Julie had much more experience than I did; she taught me abstract factories and dependency injection, loose coupling, declarative programming, streams, unit testing, XP, and many other key concepts.
 

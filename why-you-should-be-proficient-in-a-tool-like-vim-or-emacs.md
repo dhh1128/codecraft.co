@@ -63,7 +63,7 @@ Other engineers could tell similar stories from their own careers &mdash; about 
 
 What does this have to do with vim and emacs?
 
-<strong>Back-to-basics programming</strong>
+## Back-to-basics programming
 
 Well, I claim that if you only ever see the <a title="The Power of Simplicity" href="the-power-of-simplicity.md">complexity of software engineering</a> through the lens of an IDE, you have missed an important &mdash; even revelatory &mdash; learning experience.
 
@@ -73,7 +73,7 @@ Euclid said there was no royal road to geometry. You have to pay the price to le
 
 To me, that's the most compelling reason to go beyond "functional" and actually get productive with vim or emacs &mdash; if you specialize in an IDE without a text editor in your repertoire, you have <a title="On SEPs, Squirrels, and Meta Questions" href="on-seps-squirrels-and-meta-questions.md">gaps in your experience</a>. An IDE makes parts of your ecosystem invisible; a text editor teaches you just how robust and amazing and satisfying that underlying ecosystem is. You learn some humility toward the pioneers in the field, who did so much with such a lean toolkit. And you learn not to drink all the IDE kool-aid without at least rolling your eyes occasionally.
 
-<strong>Where I'm at</strong>
+## Where I'm at
 
 I said in my last post that most developers should prefer to use an IDE, and I stand by that recommendation, for the reasons that I gave. I cheerfully admit that there are exceptions to my rule; don't flame me if you can duel in elisp with one hand tied behind your back.
 

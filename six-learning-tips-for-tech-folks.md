@@ -24,31 +24,31 @@ Chances are, you're nodding your head. We all recognize the truth of the princip
 
 Here are a few tried-and-true habits that help me.
 
-<strong>1. Look it up.</strong>
+## 1. Look it up.
 
 If you're like me, you constantly encounter new acronyms, technoslang, APIs, languages, buzz words... Years ago, the effort to track down the meaning of such items was substantial &mdash; a trip to the library, maybe. Now you can usually define a term with 10 seconds of googletime, and you can get the skinny on fatter topics with a 30-second scan of a wikipedia topic. We spend so much of our time in front of screens; resolve now to make a habit out of looking up what you don't know. It will cost your schedule nothing, and keep you learning.
 
-<strong>2. Read.</strong>
+## 2. Read.
 
 I'm not suggesting that you should spend hours every day devouring deep content. I subscribe to a number of blogs, newsletters, and industry publications, and I usually rip through all of them in just a few minutes each day. For subscriptions that arrive in my email, I often read subject lines or headlines only, then press Delete. This keeps me aware, and I can always dive in if something truly interesting comes up. I also use StumbleUpon, which has led me to delightful discoveries a few times.
 
 Besides the digital equivalent of sound bites, it's important to expose yourself to richer content. Ask people you respect for book recommendations. Set a goal to read an in-depth magazine article once a month...
 
-<strong>3. Follow thought leaders.</strong>
+## 3. Follow thought leaders.
 
 All voices in the blogosphere are not created equal. Twenty or thirty years ago, the only way to get inside the mind of luminaries was to hear them present at conferences, and to buy their books. Now, barriers to silent up-close study (or even one-on-one dialog) are much lower. People like Linus Torvalds, Scott Meyers, Bjarne Stroustrup, Guido van Rossum, Yukihiro Matsumoto, Martin Fowler, RMS, Kent Beck, Don Box, Erich Gamma, and Grady Booch have web sites, podcasts, twitter accounts, google profiles, and the like. Connect and learn.
 
-<strong>4. Keep track of questions.</strong>
+## 4. Keep track of questions.
 
 I have a google doc where I record topics on my to-study list, things I want to memorize, experiments I want to try. I also take plain old pen and paper to meetings, and take notes not so much about content but about loose ends or questions that arise in my mind.
 
 Of course, you need to revisit your questions and answer them now and then. Maybe while a build is running and you're eating a sandwich...
 
-<strong>5. Teach others.</strong>
+## 5. Teach others.
 
 The conventional wisdom that the teacher learns more than the students is not just trite sentimentality. Put yourself on the hook to teach something that you've learned. If you're comfortable presenting, volunteer to train team members. If that makes you nervous, write up something you learned in a blog. Or write an email to someone at work, sharing a cool blog post that made you think. Or just capture your learning in insightful comments in your code. But get the ideas <em>out to others</em>, which will deepen and enrich their potency <em>in your own mind.</em>
 
-<strong>6. Find a foil.</strong>
+## 6. Find a foil.
 
 In literature, a foil is a character that, when placed beside the protagonist, provides significant contrast in personality, style, or motivation. Foils challenge tidy assumptions and deepen the character that the reader cares about the most.
 

@@ -44,7 +44,7 @@ For a long time, I thought of pointers vs. references as a stylistic choice, and
 
 <figure><img src="http://imgs.xkcd.com/comics/compiler_complaint.png" width="500" height="135" /><figcaption>image credit: xkcd.com</figcaption></figure>
 
-<strong>1. References have clearer semantics</strong>
+## 1. References have clearer semantics
 
 <code>NULL</code> is a perfectly valid value for a pointer, but you have to do some headstands to create a reference to <code>NULL</code>. Because of these headstands, and because testing a reference for NULL-ness is a bit arcane, you can assume that references are not expected to be <code>NULL</code>. Consider this function prototype, typical of so much "C++" code written by folks with a C mindset:
 <pre style="padding-left:30px;">void setClient(IClient * client);</pre>
@@ -66,17 +66,17 @@ Using references is not always possible, precisely because their semantics are s
 
 But when you <em>can</em> use a reference, you should. It's good defensive programming for the function writer, and it communicates intentions very clearly.
 
-<strong>2. References allow value semantics in templates and operators</strong>
+## 2. References allow value semantics in templates and operators
 
 Algorithms and containers in the standard C++ library are written as if operating on values, not pointers. References allow the standard library to work transparently on objects in custom classes that you write, without writing messy adapters, because operators are invoked on values and references identically. For example, <code>std::sort()</code> will work on anything that defines the <code><</code> less-than operator &mdash; but it will never work on pointers to things that define <code><</code>. References are also transparent to <code><<</code> and <code>>></code> stream operators, to boolean comparison operators, and so forth.
 
 If you've done serious template work in C++, you know that this is important. This issue is what forced me to reassess my perspective that it was all a matter of style.
 
-<strong>3. References enable move semantics in C++ 11</strong>
+## 3. References enable move semantics in C++ 11
 
 This is a huge deal. If you haven't already fallen in love with the performance optimization that move semantics offer, and you're an old C pro, then you're missing out. One of the common complaints that old C folks have about C++ is that things like std::vector are horribly inefficient to pass by value, and that smart pointers involve a lot of ref counting nonsense that's just useless overhead. The introduction of move semantics turns that on its ear. (<a title="move semantics" href="http://thbecker.net/articles/rvalue_references/section_02.html">Thomas Becker's explanation of move semantics</a> is a great place to start exploring this topic, if you're curious.)
 
-<strong>Don't get me wrong...</strong>
+## Don't get me wrong...
 
 If you think I'm a reference bigot, then I've failed. Pointers and references are just alternate incarnations of indirection, which (as my friend Moray is fond of pointing out) is one of the truly foundational techniques of CS. It's amazing how much more tractable certain problems become when you add a layer of indirection. And pointers were my first experience with the technique, so I can't help but be a fan. Besides the virtues of mutability and nullability, pointers are the easiest way to work with classes of functions having a common signature, and they are used in many advanced idioms. If you looked at my code, you'd see that I still use pointers in C-like ways sometimes. For example, I think functions that take a const char * instead of a std::string const & may make sense in many cases, depending on how layers are organized and how the parameters are used.
 

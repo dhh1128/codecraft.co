@@ -70,7 +70,7 @@ This is unfortunate.
 
 Reaction to stimuli is one of the <a title="The 8th Characteristic" href="the-8th-characteristic.md">8 characteristics of life</a>. That means that living things are aware, in some sense, of their relationship to the larger environment. They distinguish between good and bad stimuli. They hurt. And they learn from their pain.
 
-<strong>Lessons from a protist</strong>
+## Lessons from a protist
 
 This ability to use pain is not limited to complex organisms. The lowly <em>Stentor roeselii</em> (a single-celled protozoan that anchors for filter feeding) exhibits an incredible repertoire of behaviors to optimize its relationship with the environment. Squirt it with water from a pipette, and it contracts for defense. 30 seconds later, it unfurls again. Keep squirting, and it eventually learns to ignore the false alarms.
 
@@ -86,7 +86,7 @@ Life values pain.
 
 Not all software needs neurology, I suppose. Prions and viruses are important players in the game of life, and they're hardly more than mindless algorithms; in software, it's remarkable how much we can accomplish in a good script with a few lines of code. However, if we want to truly <a title="6 Strategies to Simplify Software" href="the-power-of-simplicity.md">growth of complexity</a> in the universe of bits and bytes, we need pain. And we need to pay attention to it.
 
-<strong>Modest beginnings</strong>
+## Modest beginnings
 
 I see isolated, simplistic examples that give me hope.
 
@@ -98,7 +98,7 @@ The <a title="Don’t forget the circuit breakers" href="dont-forget-the-circui
 
 Unfortunately, examples like this are few and far between. It's hard enough to <a title="Good Code Plans for Problems" href="good-code-plans-for-problems.md">bake a rational error-handling strategy into software</a>, let alone make it sophisticated enough to monitor its environment and take proactive steps to avoid problems.
 
-<strong>Thought experiment</strong>
+## Thought experiment
 
 What would be different if software had pain receptors?
 
