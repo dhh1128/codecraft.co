@@ -15,7 +15,7 @@ The other day my daughter was in the backseat as I pulled out of the driveway, 
 
 "That one," she said, without any clarification.
 
-<figure><img class="" src="https://farm3.staticflickr.com/2207/2271777379_330a7108f4_z.jpg" alt="" width="640" height="426" /><figcaption>Image credit: fofie57 (Flickr)</figcaption></figure>
+<figure><img class="" src="assets/deixis-pointing-signpost.png" alt="" /></figure>
 
 "<em>Which</em> one?" I said again. "I don't know what you mean when you say 'that'..."
 

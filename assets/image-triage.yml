@@ -140,20 +140,20 @@ images:
   disposition: ''
 - essay: add-some-more-extra-redundancy-again.md
   type: img
-  kind: external
-  host: farm5.staticflickr.com
-  src: http://farm5.staticflickr.com/4001/4542478114_1a3356d435.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/redundancy-spare-boats.png
+  local_match: redundancy-spare-boats.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: add-some-more-extra-redundancy-again.md
   type: img
-  kind: external
-  host: farm4.staticflickr.com
-  src: http://farm4.staticflickr.com/3083/2784568095_f01a2324a2.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/redundancy-reserve-parachute.png
+  local_match: redundancy-reserve-parachute.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: adios-to-computer-programming.md
   type: img
   kind: local
@@ -212,12 +212,12 @@ images:
   disposition: ''
 - essay: big-data-in-motion.md
   type: img
-  kind: external
-  host: farm6.staticflickr.com
-  src: http://farm6.staticflickr.com/5283/5247181522_d9884b37ac.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/big-data-river.png
+  local_match: big-data-river.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: book-review-poke-the-box.md
   type: img
   kind: local
@@ -404,20 +404,20 @@ images:
   disposition: own
 - essay: encapsulation-isnt-just-for-code.md
   type: img
-  kind: external
-  host: farm1.staticflickr.com
-  src: http://farm1.staticflickr.com/102/258253832_927e23b2b9.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/encapsulation-service-window.png
+  local_match: encapsulation-service-window.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: exploring-the-power-of-deixis.md
   type: img
-  kind: external
-  host: farm3.staticflickr.com
-  src: https://farm3.staticflickr.com/2207/2271777379_330a7108f4_z.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/deixis-pointing-signpost.png
+  local_match: deixis-pointing-signpost.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: exploring-the-power-of-deixis.md
   type: img
   kind: external
@@ -476,28 +476,28 @@ images:
   disposition: own
 - essay: good-code-is-balanced.md
   type: img
-  kind: external
-  host: farm4.staticflickr.com
-  src: http://farm4.staticflickr.com/3193/2991130266_7f315f456b_n.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/balance-stacked-stones.png
+  local_match: balance-stacked-stones.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: good-code-is-named-right.md
   type: img
-  kind: external
-  host: farm1.staticflickr.com
-  src: http://farm1.staticflickr.com/28/51430866_94b353ee35_m.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/naming-rose-tag.png
+  local_match: naming-rose-tag.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: good-code-is-optimized.md
   type: img
-  kind: external
-  host: farm7.staticflickr.com
-  src: http://farm7.staticflickr.com/6086/6062809527_fff6c530e4_n.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/optimized-paper-plane.png
+  local_match: optimized-paper-plane.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: good-code-plans-for-problems.md
   type: img
   kind: local
@@ -508,12 +508,12 @@ images:
   disposition: own
 - essay: good-fences-make-good-neighbors.md
   type: img
-  kind: external
-  host: farm1.staticflickr.com
-  src: http://farm1.staticflickr.com/74/226824603_1285fc9181.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/fences-neighbors.png
+  local_match: fences-neighbors.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: grumpy-old-men-opacity-and-optimizers.md
   type: img
   kind: local
@@ -556,20 +556,20 @@ images:
   disposition: own
 - essay: how-enums-spread-disease-and-how-to-cure-it.md
   type: img
-  kind: external
-  host: farm2.staticflickr.com
-  src: http://farm2.staticflickr.com/1193/3165350717_bf8656ba38.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/enum-odd-vehicle.png
+  local_match: enum-odd-vehicle.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: how-software-is-like-biology.md
   type: img
-  kind: external
-  host: farm1.staticflickr.com
-  src: http://farm1.staticflickr.com/176/439737660_7505789a45_m_d.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/biology-dna-braces.png
+  local_match: biology-dna-braces.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: how-sutters-wrong-about-const-in-cpp-11.md
   type: img
   kind: local
@@ -580,12 +580,12 @@ images:
   disposition: own
 - essay: how-to-make-a-const-correct-codebase-in-4300-easy-steps.md
   type: img
-  kind: external
-  host: farm3.staticflickr.com
-  src: http://farm3.staticflickr.com/2357/2090235485_56a89491d4.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/const-locked-document.png
+  local_match: const-locked-document.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: how-to-point-in-code.md
   type: img
   kind: external
@@ -596,12 +596,12 @@ images:
   disposition: ''
 - essay: humility.md
   type: img
-  kind: external
-  host: farm3.staticflickr.com
-  src: http://farm3.staticflickr.com/2785/4408808405_4460d0e7be.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/humility-figure-stars.png
+  local_match: humility-figure-stars.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: in-which-warnings-evolve-wings.md
   type: img
   kind: external
@@ -612,12 +612,12 @@ images:
   disposition: ''
 - essay: in-which-warnings-evolve-wings.md
   type: img
-  kind: external
-  host: farm6.staticflickr.com
-  src: https://farm6.staticflickr.com/5317/5876849912_6e0a74ee6d_z.jpg
-  local_match: 5876849912_6e0a74ee6d_z.jpg
+  kind: local
+  host: ''
+  src: assets/warnings-winged-triangle.png
+  local_match: warnings-winged-triangle.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: interrupting-my-interruptions.md
   type: img
   kind: local
@@ -628,12 +628,12 @@ images:
   disposition: own
 - essay: introducing-marks.md
   type: img
-  kind: external
-  host: farm3.staticflickr.com
-  src: https://farm3.staticflickr.com/2095/2402300942_2636483bdc_z.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/marks-annotated-margin.png
+  local_match: marks-annotated-margin.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: julie-jones-learn-voraciously.md
   type: img
   kind: local
@@ -644,28 +644,28 @@ images:
   disposition: own
 - essay: ken-ebert-kill-three-birds.md
   type: img
-  kind: external
-  host: farm4.staticflickr.com
-  src: http://farm4.staticflickr.com/3074/2964654279_301b98257f.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/three-birds-one-stone.png
+  local_match: three-birds-one-stone.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: know-your-limits.md
   type: img
-  kind: external
-  host: farm4.staticflickr.com
-  src: https://farm4.staticflickr.com/3084/3137178654_0796758be3.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/limits-cliff-sign.png
+  local_match: limits-cliff-sign.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: lacunas-everywhere.md
   type: img
-  kind: external
-  host: farm5.staticflickr.com
-  src: https://farm5.staticflickr.com/4113/5080987526_cdbf30487f_z_d.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/lacuna-bridge-gap.png
+  local_match: lacuna-bridge-gap.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: learned-helplessness-rats-and-people-power.md
   type: img
   kind: external

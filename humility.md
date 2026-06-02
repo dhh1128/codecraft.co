@@ -34,7 +34,7 @@ The CEO cleared a block on her schedule and sat down with me. She poked a bit at
 
 I think it's the best job interview question anyone has ever asked me.
 
-<figure><img title="humble tasks" src="http://farm3.staticflickr.com/2785/4408808405_4460d0e7be.jpg" alt="" width="500" height="328" /><figcaption>A great perspective on humility. Photo credit: Chiot's Run (Flickr).</figcaption></figure>
+<figure><img title="humble tasks" src="assets/humility-figure-stars.png" alt="" /><figcaption>A great perspective on humility.</figcaption></figure>
 
 <strong>Real humility</strong>
 

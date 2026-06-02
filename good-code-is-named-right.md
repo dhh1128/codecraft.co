@@ -12,7 +12,7 @@ redirect_from:
 <p style="text-align:right;"><em><span style="color:#404040;">(Another post in my "<a title="What Is “Good Code”?" href="what-is-good-code.md">What is 'Good Code'?</a>" series...)</span></em></p>
 A rose by any other name may smell as sweet, but in software, the names you choose have consequences.
 
-<figure><img title="rosa berberifolia" src="http://farm1.staticflickr.com/28/51430866_94b353ee35_m.jpg" alt="" width="240" height="225" /><figcaption>Rosa berberifolia. Photo credit: I Believe I Can Fry (Flickr).</figcaption></figure>
+<figure><img title="rosa berberifolia" src="assets/naming-rose-tag.png" alt="" /><figcaption>Rosa berberifolia.</figcaption></figure>
 
 Names can confuse or cohere. In <em>The Mythical Man-Month</em>, Fred Brooks emphasizes the need for code to have "conceptual integrity." He means that code that should embody a unifying and consistent vision, with minimal distraction or dissonance. Names of classes, functions, applications, interfaces, resources in RESTful URLs &mdash; all are a reflection of the code's cohesiveness or its chaos.
 

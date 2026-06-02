@@ -119,7 +119,7 @@ What I'm proposing is different because flexible, context-sensitive warning filt
 
 I think those wings could lift the quality and artistry of our software.
 
-<figure><img class="" src="https://farm6.staticflickr.com/5317/5876849912_6e0a74ee6d_z.jpg" alt="" width="640" height="427" /><figcaption>Image credit: <a href="https://www.flickr.com/photos/pixx0ne/5876849912/sizes/z/">[ changó ]</a> (Flickr)</figcaption></figure> 
+<figure><img class="" src="assets/warnings-winged-triangle.png" alt="" /></figure> 
 
 <hr style="width:60%;" />
 

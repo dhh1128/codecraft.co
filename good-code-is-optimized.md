@@ -16,7 +16,7 @@ But for what?
 
 A lot of programmers seem to think that raw speed of execution is the only possible answer. If pushed, they may admit it's also possible to optimize for minimal memory usage or minimal size of executable. Compilers have switches for that.
 
-<figure><img class=" " title="think outside the box..." src="http://farm7.staticflickr.com/6086/6062809527_fff6c530e4_n.jpg" alt="" width="320" height="213" /><figcaption>Get out of the box. Photo credit: lel4nd (Flickr).</figcaption></figure>
+<figure><img class=" " title="think outside the box..." src="assets/optimized-paper-plane.png" alt="" /><figcaption>Get out of the box.</figcaption></figure>
 
 Emerson said, "A foolish consistency is the hobgoblin of little minds." In modern terms, he was deploring the lazy instinct to accept established wisdom instead of thinking outside the box. And I think optimization is one of those topics where we need a larger vision.
 

@@ -1,6 +1,7 @@
 # Provenance & rights for owned images in assets/.
-# Wikimedia entries written by scripts/recover_wikimedia.py.
-# book_safe is false for non-commercial (NC) licenses (blocks the KDP book).
+# Wikimedia entries written by scripts/recover_wikimedia.py;
+# AI-generated entries by scripts/ingest_art.py.
+# book_safe is false for non-commercial licenses (blocks the KDP book).
 images:
   george-mcclellan-at-national-portrait-gallery-img-4524.jpg:
     source: https://commons.wikimedia.org/wiki/File:George_McClellan_at_National_Portrait_Gallery_IMG_4524.JPG
@@ -221,3 +222,201 @@ images:
     replaces: http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Maslow%27s_hierarchy_of_needs.png/320px-Maslow%27s_hierarchy_of_needs.png
     used_in:
     - why.md
+  naming-rose-tag.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a single wild rose with a small paper name-tag tied to its stem, evoking 'a rose by any other name' and good naming, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm1.staticflickr.com/28/51430866_94b353ee35_m.jpg
+    used_in:
+    - good-code-is-named-right.md
+  balance-stacked-stones.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a stack of smooth balanced stones (a cairn) perfectly poised, evoking balance, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm4.staticflickr.com/3193/2991130266_7f315f456b_n.jpg
+    used_in:
+    - good-code-is-balanced.md
+  deixis-pointing-signpost.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a hand pointing toward a distant signpost with simple directional arrows, evoking deixis and pointing words, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: https://farm3.staticflickr.com/2207/2271777379_330a7108f4_z.jpg
+    used_in:
+    - exploring-the-power-of-deixis.md
+  encapsulation-service-window.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a tidy fast-food order window with the busy kitchen hidden behind it, evoking a clean interface that encapsulates complexity, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm1.staticflickr.com/102/258253832_927e23b2b9.jpg
+    used_in:
+    - encapsulation-isnt-just-for-code.md
+  big-data-river.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a great rushing river carrying countless tiny dots downstream, evoking big data in motion, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm6.staticflickr.com/5283/5247181522_d9884b37ac.jpg
+    used_in:
+    - big-data-in-motion.md
+  fences-neighbors.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a tidy wooden fence with a friendly gate between two neighboring gardens, evoking good fences making good neighbors, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm1.staticflickr.com/74/226824603_1285fc9181.jpg
+    used_in:
+    - good-fences-make-good-neighbors.md
+  optimized-paper-plane.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a paper airplane leaving a cardboard box behind and flying a clean direct path, evoking thinking past the obvious to optimize, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm7.staticflickr.com/6086/6062809527_fff6c530e4_n.jpg
+    used_in:
+    - good-code-is-optimized.md
+  redundancy-spare-boats.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a neat row of identical paper boats with one spare kept in reserve, evoking redundancy and backups, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm5.staticflickr.com/4001/4542478114_1a3356d435.jpg
+    used_in:
+    - add-some-more-extra-redundancy-again.md
+  redundancy-reserve-parachute.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a skydiver wearing a main parachute plus a second reserve parachute, evoking backup and redundancy, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm4.staticflickr.com/3083/2784568095_f01a2324a2.jpg
+    used_in:
+    - add-some-more-extra-redundancy-again.md
+  enum-odd-vehicle.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: an odd hybrid three-wheeled vehicle that refuses to fit neat categories, evoking a value that breaks a tidy enum, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm2.staticflickr.com/1193/3165350717_bf8656ba38.jpg
+    used_in:
+    - how-enums-spread-disease-and-how-to-cure-it.md
+  const-locked-document.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a document sealed with a padlock and a small wax stamp, evoking immutability and const-correctness, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm3.staticflickr.com/2357/2090235485_56a89491d4.jpg
+    used_in:
+    - how-to-make-a-const-correct-codebase-in-4300-easy-steps.md
+  humility-figure-stars.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a tiny lone figure standing beneath a vast star-filled sky, evoking humility and perspective, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm3.staticflickr.com/2785/4408808405_4460d0e7be.jpg
+    used_in:
+    - humility.md
+  biology-dna-braces.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a DNA double helix whose rungs resemble small curly braces, evoking software as biology, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm1.staticflickr.com/176/439737660_7505789a45_m_d.jpg
+    used_in:
+    - how-software-is-like-biology.md
+  warnings-winged-triangle.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a yellow warning triangle sprouting a pair of wings and lifting into flight, evoking warnings taking on a life of their own, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: https://farm6.staticflickr.com/5317/5876849912_6e0a74ee6d_z.jpg
+    used_in:
+    - in-which-warnings-evolve-wings.md
+  marks-annotated-margin.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: an open manuscript margin filled with handwritten tick-marks and annotations, evoking textual marks, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: https://farm3.staticflickr.com/2095/2402300942_2636483bdc_z.jpg
+    used_in:
+    - introducing-marks.md
+  three-birds-one-stone.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: three small birds perched together on one branch beside a single smooth stone, evoking doing several things at once, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm4.staticflickr.com/3074/2964654279_301b98257f.jpg
+    used_in:
+    - ken-ebert-kill-three-birds.md
+  limits-cliff-sign.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a road sign marking the edge of a cliff with open sky beyond, evoking knowing your limits, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: https://farm4.staticflickr.com/3084/3137178654_0796758be3.jpg
+    used_in:
+    - know-your-limits.md
+  lacuna-bridge-gap.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a stone footbridge with a single missing plank leaving a visible gap, evoking a lacuna or gap, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: https://farm5.staticflickr.com/4113/5080987526_cdbf30487f_z_d.jpg
+    used_in:
+    - lacunas-everywhere.md

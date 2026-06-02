@@ -27,6 +27,6 @@ So many competing concerns must be balanced to achieve goodness:
 </ul>
 More items undoubtedly belong on the list. Quite a balancing act!
 
-<figure><img class=" " title="Balancing Act" src="http://farm4.staticflickr.com/3193/2991130266_7f315f456b_n.jpg" alt="" width="320" height="240" /><figcaption>Someone's got this "balance" thing down! Photo credit: joãokẽdal (Flickr).</figcaption></figure>
+<figure><img class=" " title="Balancing Act" src="assets/balance-stacked-stones.png" alt="" /><figcaption>Someone's got this "balance" thing down!</figcaption></figure>
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Pick a module, application, or subsystem that you know well, and grade its code according to how much its coders emphasize a few different dimensions (e.g., performance, testability, scalability, ease of use). Do you like the balance? Are any attributes being neglected?</span></em></p>

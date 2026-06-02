@@ -49,7 +49,7 @@ comments:
 ---
 One of the codebases that I work on is theoretically C++, but if you peer under the hood, it looks more like 1990-vintage C. It's 500 KLOC of almost purely procedural code, with lots of structs and few true objects. More dusty and brittle than I'd like.
 
-<figure><img src="http://farm3.staticflickr.com/2357/2090235485_56a89491d4.jpg" alt="" width="500" height="375" /><figcaption>Image credit: <a href="http://www.flickr.com/photos/tgillin/2090235485/" target="_blank">Tim Gillin</a> (Flickr)</figcaption></figure>
+<figure><img src="assets/const-locked-document.png" alt="" /></figure>
 
 I am not a C++ bigot; I first began to do serious, professional coding in C, not long after this codebase got its start. I understand the C-isms pretty well. And although I think Linus got carried away in <a title="linus rant c++" href="http://article.gmane.org/gmane.comp.version-control.git/57918" target="_blank">his rant about the ugliness of C++</a>, I can appreciate the ways that lean C sometimes makes its descendant look ugly and inefficient. (Though C++11 and 14 are making this less true...)
 

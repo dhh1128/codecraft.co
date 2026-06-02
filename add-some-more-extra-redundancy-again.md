@@ -14,7 +14,7 @@ What's the connection between sniffles and software, you ask?
 
 Let's talk redundancy. It's a familiar technique in software design, but I believe we compartmentalize it too much under the special topic of "high availability" &mdash; as if only when that's an explicit requirement do we need to pay any attention.
 
-<figure><img alt="" src="http://farm5.staticflickr.com/4001/4542478114_1a3356d435.jpg" width="500" height="333" /><figcaption>Redundancy can be a big deal. Image credit: ydant (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/redundancy-spare-boats.png" /><figcaption>Redundancy can be a big deal.</figcaption></figure>
 
 <span style="color:#333399;"><strong>Redundancy in nature</strong></span>
 
@@ -30,7 +30,7 @@ It's not hard to find examples of redundancy in software. Consider streaming vid
 
 Of course, not all redundancy is useful. You can get carried away with it :-)
 
-<figure><img alt="" src="http://farm4.staticflickr.com/3083/2784568095_f01a2324a2.jpg" width="500" height="375" /><figcaption>image credit: da.bo (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/redundancy-reserve-parachute.png" /></figure>
 
 In coding tasks, redundancy is often your enemy. Lots of antipatterns are undesirable precisely because they create redundancy that's difficult to understand and maintain. <a title="How to turn coding standards into epic fails — or not" href="comments-on-comments.md">dumb comments</a> are notorious for creating busywork this way.
 

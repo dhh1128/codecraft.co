@@ -161,7 +161,7 @@ The infection from your enum is already coursing through the bloodstream at this
 	<li>The members of the enum are incomplete. How will we account for cranes and bulldozers and tractors and vans?</li>
 	<li>Semantics are unsatisfying. We're saying cars are never gas guzzlers or gas savers; what about massive old steel-framed jalopies and tiny new hybrids?</li>
 </ul>
-<figure><img alt="" src="http://farm2.staticflickr.com/1193/3165350717_bf8656ba38.jpg" height="374" width="500" /><figcaption>A vehicle that challenges our tidy enum. Photo credit: Manila Imperial Motor Sales (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/enum-odd-vehicle.png" /><figcaption>A vehicle that challenges our tidy enum.</figcaption></figure>
 
 The infection amplifies when we want to represent the enum in a config file or a UI. Now we need to convert to and from strings, and we use the classic shadow array of string literals, indexed by enum:
 <pre style="padding-left:30px;margin-bottom:1em;"><span style="color:#339966;">// THIS ARRAY ***MUST*** BE KEPT IN SYNC WITH THE ENUM DECLARED

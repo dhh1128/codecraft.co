@@ -12,14 +12,14 @@ images:
   concept: a neat row of identical paper boats with one spare kept in reserve, evoking redundancy and backups
   filename: redundancy-spare-boats.png
   prompt: a neat row of identical paper boats with one spare kept in reserve, evoking redundancy and backups, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: add-some-more-extra-redundancy-again.md
   replaces: http://farm4.staticflickr.com/3083/2784568095_f01a2324a2.jpg
   caption: 'image credit: da.bo (Flickr)'
   concept: a skydiver wearing a main parachute plus a second reserve parachute, evoking backup and redundancy
   filename: redundancy-reserve-parachute.png
   prompt: a skydiver wearing a main parachute plus a second reserve parachute, evoking backup and redundancy, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: big-data-in-motion.md
   replaces: http://farm6.staticflickr.com/5283/5247181522_d9884b37ac.jpg
@@ -27,21 +27,21 @@ images:
   concept: a great rushing river carrying countless tiny dots downstream, evoking big data in motion
   filename: big-data-river.png
   prompt: a great rushing river carrying countless tiny dots downstream, evoking big data in motion, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: encapsulation-isnt-just-for-code.md
   replaces: http://farm1.staticflickr.com/102/258253832_927e23b2b9.jpg
   caption: 'What can McDonalds teach a develr of cloud-friendly software? photo credit: phogel (Flickr)'
   concept: a tidy fast-food order window with the busy kitchen hidden behind it, evoking a clean interface that encapsulates complexity
   filename: encapsulation-service-window.png
   prompt: a tidy fast-food order window with the busy kitchen hidden behind it, evoking a clean interface that encapsulates complexity, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: exploring-the-power-of-deixis.md
   replaces: https://farm3.staticflickr.com/2207/2271777379_330a7108f4_z.jpg
   caption: 'Image credit: fofie57 (Flickr)'
   concept: a hand pointing toward a distant signpost with simple directional arrows, evoking deixis and pointing words
   filename: deixis-pointing-signpost.png
   prompt: a hand pointing toward a distant signpost with simple directional arrows, evoking deixis and pointing words, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: good-code-is-balanced.md
   replaces: http://farm4.staticflickr.com/3193/2991130266_7f315f456b_n.jpg
@@ -49,21 +49,21 @@ images:
   concept: a stack of smooth balanced stones (a cairn) perfectly poised, evoking balance
   filename: balance-stacked-stones.png
   prompt: a stack of smooth balanced stones (a cairn) perfectly poised, evoking balance, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: good-code-is-named-right.md
   replaces: http://farm1.staticflickr.com/28/51430866_94b353ee35_m.jpg
   caption: 'Rosa berberifolia. Photo credit: I Believe I Can Fry (Flickr).'
   concept: a single wild rose with a small paper name-tag tied to its stem, evoking 'a rose by any other name' and good naming
   filename: naming-rose-tag.png
   prompt: a single wild rose with a small paper name-tag tied to its stem, evoking 'a rose by any other name' and good naming, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: good-code-is-optimized.md
   replaces: http://farm7.staticflickr.com/6086/6062809527_fff6c530e4_n.jpg
   caption: 'Get out of the box. Photo credit: lel4nd (Flickr).'
   concept: a paper airplane leaving a cardboard box behind and flying a clean direct path, evoking thinking past the obvious to optimize
   filename: optimized-paper-plane.png
   prompt: a paper airplane leaving a cardboard box behind and flying a clean direct path, evoking thinking past the obvious to optimize, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: good-fences-make-good-neighbors.md
   replaces: http://farm1.staticflickr.com/74/226824603_1285fc9181.jpg
@@ -71,28 +71,28 @@ images:
   concept: a tidy wooden fence with a friendly gate between two neighboring gardens, evoking good fences making good neighbors
   filename: fences-neighbors.png
   prompt: a tidy wooden fence with a friendly gate between two neighboring gardens, evoking good fences making good neighbors, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: how-enums-spread-disease-and-how-to-cure-it.md
   replaces: http://farm2.staticflickr.com/1193/3165350717_bf8656ba38.jpg
   caption: 'A vehicle that challenges our tidy enum. Photo credit: Manila Imperial Motor Sales (Flickr)'
   concept: an odd hybrid three-wheeled vehicle that refuses to fit neat categories, evoking a value that breaks a tidy enum
   filename: enum-odd-vehicle.png
   prompt: an odd hybrid three-wheeled vehicle that refuses to fit neat categories, evoking a value that breaks a tidy enum, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: how-software-is-like-biology.md
   replaces: http://farm1.staticflickr.com/176/439737660_7505789a45_m_d.jpg
   caption: 'DNA ~ subroutines. Photo credit: dullhunk on Flickr.'
   concept: a DNA double helix whose rungs resemble small curly braces, evoking software as biology
   filename: biology-dna-braces.png
   prompt: a DNA double helix whose rungs resemble small curly braces, evoking software as biology, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: how-to-make-a-const-correct-codebase-in-4300-easy-steps.md
   replaces: http://farm3.staticflickr.com/2357/2090235485_56a89491d4.jpg
   caption: 'Image credit: Tim Gillin (Flickr)'
   concept: a document sealed with a padlock and a small wax stamp, evoking immutability and const-correctness
   filename: const-locked-document.png
   prompt: a document sealed with a padlock and a small wax stamp, evoking immutability and const-correctness, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: humility.md
   replaces: http://farm3.staticflickr.com/2785/4408808405_4460d0e7be.jpg
@@ -100,21 +100,21 @@ images:
   concept: a tiny lone figure standing beneath a vast star-filled sky, evoking humility and perspective
   filename: humility-figure-stars.png
   prompt: a tiny lone figure standing beneath a vast star-filled sky, evoking humility and perspective, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: in-which-warnings-evolve-wings.md
   replaces: https://farm6.staticflickr.com/5317/5876849912_6e0a74ee6d_z.jpg
   caption: 'Image credit: [ changó ] (Flickr)'
   concept: a yellow warning triangle sprouting a pair of wings and lifting into flight, evoking warnings taking on a life of their own
   filename: warnings-winged-triangle.png
   prompt: a yellow warning triangle sprouting a pair of wings and lifting into flight, evoking warnings taking on a life of their own, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: introducing-marks.md
   replaces: https://farm3.staticflickr.com/2095/2402300942_2636483bdc_z.jpg
   caption: 'image credit: Curious Expeditions (Flickr)'
   concept: an open manuscript margin filled with handwritten tick-marks and annotations, evoking textual marks
   filename: marks-annotated-margin.png
   prompt: an open manuscript margin filled with handwritten tick-marks and annotations, evoking textual marks, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: ken-ebert-kill-three-birds.md
   replaces: http://farm4.staticflickr.com/3074/2964654279_301b98257f.jpg
@@ -122,14 +122,14 @@ images:
   concept: three small birds perched together on one branch beside a single smooth stone, evoking doing several things at once
   filename: three-birds-one-stone.png
   prompt: three small birds perched together on one branch beside a single smooth stone, evoking doing several things at once, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: know-your-limits.md
   replaces: https://farm4.staticflickr.com/3084/3137178654_0796758be3.jpg
   caption: 'image credit: ericdege (Flickr)'
   concept: a road sign marking the edge of a cliff with open sky beyond, evoking knowing your limits
   filename: limits-cliff-sign.png
   prompt: a road sign marking the edge of a cliff with open sky beyond, evoking knowing your limits, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: lacunas-everywhere.md
   replaces: https://farm5.staticflickr.com/4113/5080987526_cdbf30487f_z_d.jpg
@@ -137,7 +137,7 @@ images:
   concept: a stone footbridge with a single missing plank leaving a visible gap, evoking a lacuna or gap
   filename: lacuna-bridge-gap.png
   prompt: a stone footbridge with a single missing plank leaving a visible gap, evoking a lacuna or gap, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: learned-helplessness-rats-and-people-power.md
   replaces: http://farm1.staticflickr.com/77/203388870_598e4417bf.jpg

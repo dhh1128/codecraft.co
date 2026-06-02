@@ -11,7 +11,7 @@ redirect_from:
 <p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
 
 
-<figure><img title="three birds" src="http://farm4.staticflickr.com/3074/2964654279_301b98257f.jpg" alt="" width="333" height="500" /><figcaption>Killing birds is just a metaphor; who'd want to hurt something this cute? Photo credit: Valerian Gaudeau (Flickr).</figcaption></figure>
+<figure><img title="three birds" src="assets/three-birds-one-stone.png" alt="" /><figcaption>Killing birds is just a metaphor; who'd want to hurt something this cute?</figcaption></figure>
 
 Most people optimize for a single outcome.
 
