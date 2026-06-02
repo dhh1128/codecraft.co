@@ -46,6 +46,14 @@
   color: #666;
 }
 
+/* Header site title: use the heading face so the top-bar "Codecraft" matches
+   the h1 "Codecraft" on the page. */
+.md-header__title,
+.md-header__title .md-ellipsis {
+  font-family: "Barlow Condensed", "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
 /* Links: one faint underline, no visited distinction, clearer on hover.
    (border-bottom is reset so it doesn't stack with Material's text-decoration —
    that was the double/triple-underline bug.) */
@@ -103,6 +111,13 @@
   margin-bottom: 0;
 }
 
+/* index.md only: the top bar already shows "Codecraft", so hide the duplicate
+   page-title h1 on screen. It's restored for print below (where the top bar is
+   hidden), so a printed home page still carries its title. */
+.md-typeset .toc-index > h1 {
+  display: none;
+}
+
 /* ---- Print: clean, sidebar-free, full-width essay ---- */
 @media print {
   .md-header,
@@ -128,6 +143,10 @@
   }
   .md-typeset {
     color: #000;
+  }
+  /* index.md: the top bar doesn't print, so bring its "Codecraft" title back. */
+  .md-typeset .toc-index > h1 {
+    display: block;
   }
   /* Images: centered, capped at half the text-column width, when printed. */
   .md-typeset img {
