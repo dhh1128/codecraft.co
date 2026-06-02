@@ -46,17 +46,21 @@
   color: #666;
 }
 
-/* Links: keep the original underlined brown treatment. */
-.md-typeset a {
+/* Links: one faint underline, no visited distinction, clearer on hover.
+   (border-bottom is reset so it doesn't stack with Material's text-decoration —
+   that was the double/triple-underline bug.) */
+.md-typeset a,
+.md-typeset a:visited {
   color: #914f37;
-  border-bottom: solid 1px #e0b69c;
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration-color: rgba(145, 79, 55, 0.3);   /* very faint */
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
 }
 .md-typeset a:hover {
   color: #491705;
-  border-bottom: double #765043;
-}
-.md-typeset a:visited {
-  color: #765043;
+  text-decoration-color: #491705;                  /* clearer on hover */
 }
 
 /* "← back" link at the top of every essay (to the TOC). */
@@ -76,6 +80,26 @@
 .md-typeset img {
   max-width: 100%;
   height: auto;
+}
+
+/* Drop the left nav sidebar — the home page already lists every category and
+   file, and search covers the rest. Also drop the now-empty drawer toggle and
+   the (now empty) repo-source container in the header. */
+.md-sidebar--primary,
+.md-header__button[for="__drawer"],
+.md-header__source {
+  display: none !important;
+}
+
+/* Homepage TOC (index.md only, via the .toc-index wrapper): tight, single-line
+   list spacing between entries. */
+.md-typeset .toc-index ul {
+  margin-top: 0.3em;
+  margin-bottom: 0.7em;
+}
+.md-typeset .toc-index li {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* ---- Print: clean, sidebar-free, full-width essay ---- */

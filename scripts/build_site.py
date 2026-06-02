@@ -187,7 +187,10 @@ def build_index(essays):
         for e in items:
             out.append(f"- [{e['fm']['title']}]({e['slug']}.md)")
         out.append("")
-    return "\n".join(out).rstrip() + "\n"
+    body = "\n".join(out).rstrip()
+    # Wrap in .toc-index so the homepage list spacing can be tightened in CSS
+    # (md_in_html renders the Markdown inside the div).
+    return f'<div class="toc-index" markdown="1">\n\n{body}\n\n</div>\n'
 
 
 def build_mkdocs_config(essays):
@@ -196,8 +199,6 @@ def build_mkdocs_config(essays):
         "site_description": SITE["description"],
         "site_url": SITE["url"],
         "site_author": "Daniel Hardman",
-        "repo_url": SITE["repo_url"],
-        "repo_name": SITE["repo_name"],
         "copyright": "Content licensed CC BY 4.0 unless otherwise noted.",
         "theme": {
             "name": "material",

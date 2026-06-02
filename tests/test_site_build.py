@@ -138,6 +138,26 @@ def test_no_back_link_on_index(built):
     assert "back-link" not in index, "the home/TOC page should not have a '← back' link"
 
 
+def test_no_repo_link_in_header(built):
+    out, _ = built
+    cfg = yaml.safe_load((out / "mkdocs.yml").read_text(encoding="utf-8"))
+    assert "repo_url" not in cfg and "repo_name" not in cfg
+
+
+def test_index_toc_wrapped_for_tight_spacing(built):
+    out, _ = built
+    index = (out / "docs" / "index.md").read_text(encoding="utf-8")
+    assert 'class="toc-index"' in index
+
+
+def test_links_use_single_underline_not_stacked_borders(built):
+    out, _ = built
+    css = (out / "docs" / "stylesheets" / "extra.css").read_text(encoding="utf-8")
+    assert "border-bottom: double" not in css      # the triple-underline bug
+    assert "text-decoration" in css
+    assert ".md-sidebar--primary" in css           # left nav hidden
+
+
 def test_no_status_badges_on_the_site(built):
     """README carries the CI badge for GitHub; the published site must not."""
     out, _ = built
