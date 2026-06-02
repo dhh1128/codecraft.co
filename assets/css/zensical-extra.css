@@ -76,9 +76,10 @@
   color: #777;
 }
 
-/* Keep essay images from overflowing on any viewport (mobile-friendly). */
+/* Cap displayed images at 512px (the simple illustrations look silly full-size),
+   but never exceed the container on narrow screens. */
 .md-typeset img {
-  max-width: 100%;
+  max-width: min(100%, 512px);
   height: auto;
 }
 
@@ -127,6 +128,12 @@
   }
   .md-typeset {
     color: #000;
+  }
+  /* Images: centered, capped at half the text-column width, when printed. */
+  .md-typeset img {
+    max-width: 50% !important;
+    display: block;
+    margin: 0.6em auto;
   }
   /* Expand the collapsed "Original discussion" block so it prints in full. */
   .md-typeset details {
