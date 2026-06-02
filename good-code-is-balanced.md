@@ -10,6 +10,8 @@ redirect_from:
 ---
 In my <a href="what-is-good-code.md">first post about what constitutes "good code,"</a> I claimed we were dealing with a complex question. This is why I distrust short answers.
 
+<img src="assets/balance-stacked-stones.png"/>
+
 So many competing concerns must be balanced to achieve goodness:
 <ul>
 	<li>Testability</li>
@@ -27,6 +29,5 @@ So many competing concerns must be balanced to achieve goodness:
 </ul>
 More items undoubtedly belong on the list. Quite a balancing act!
 
-<figure><img class=" " title="Balancing Act" src="assets/balance-stacked-stones.png" alt="" /><figcaption>Someone's got this "balance" thing down!</figcaption></figure>
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Pick a module, application, or subsystem that you know well, and grade its code according to how much its coders emphasize a few different dimensions (e.g., performance, testability, scalability, ease of use). Do you like the balance? Are any attributes being neglected?</span></em></p>

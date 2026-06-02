@@ -82,6 +82,8 @@ comments:
 ---
 Yesterday I was discussing refactoring priorities with a colleague who's a brilliant engineer, and I happened to mention my strong desire for smaller files in our codebase. I told him that I thought .h and .cpp (or .py or .java or .whatever) files with thousands of lines were a problem.
 
+<img src="assets/small-files-folders.png" />
+
 He asked me why.
 
 He told me that he wasn't opposed to the idea, but he always felt like it was more of a stylistic choice than a true imperative for good code. And he was curious to see if I could convince him differently.
@@ -89,8 +91,6 @@ He told me that he wasn't opposed to the idea, but he always felt like it was mo
 After I pondered his question for a while, I realized that some of my opinion really is traceable to prejudice. I usually use IDEs instead of vim/emacs, and I think that promotes <em>click-back-and-forth-and-hyperlink-in-many-little-files</em> instead of <em>open-a-big-file-and-scroll</em>. My compatriots that are more console-centric are just as smart and effective &mdash; maybe more. So I'll write that part off.
 
 However, I also found some arguments for the small-file principle that feel more substantive. Small files are your friends.
-
-<figure><img alt="" src="assets/small-files-folders.png" /><figcaption>More small friends.</figcaption></figure>
 
 ## Named scopes and cognitive complexity
 

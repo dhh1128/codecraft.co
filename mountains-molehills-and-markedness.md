@@ -44,6 +44,9 @@ comments:
 In my previous three posts, I explained why the semantics of programming languages are <a title="Lacunas Everywhere" href="introducing-marks.md">introduced "marks"</a> &mdash; a feature of the <code>intent</code> programming language I'm creating &mdash; and gave you a taste for how they work.
 
 In this post, I'm going to offer more examples, so you see the breadth of their application.
+
+<img src="assets/molehill-horizon.png"/>
+
 <h3>Aside</h3>
 Before I do, however, I can't resist commenting a bit on the rationale for the name "marks".
 
@@ -66,8 +69,6 @@ Unfortunately, the literalness of programming languages, and the fundamental ass
 Another consequence of markedness mismanagement is clumsiness and verbosity. Human languages are parsimonious; default cases tend not to be the marked ones. Even when marks do appear, they propagate meaning without ad nauseum repetition. But programming languages have historical baggage that flips markedness on its head &mdash; the threadsafe, bounds-checking, non-blocking, const-correct versions of features that we should use by default all require extra marks. Think <code>sprintf<span style="color:red;">_s</span></code>, <code>rand<span style="color:red;">_r</span></code>, the <code style="color:red;">std::</code> namespace... Think smart pointers versus raw pointers. Think <a href="http://qconlondon.com/london-2009/presentation/Null+References:+The+Billion+Dollar+Mistake" target="_blank">Hoare's billion-dollar mistake</a>. How many explicit assertions and preconditions have you written over the years, to sanity-check stuff that should always be true (<code>if (myArg == null) throw Exception("Can't be null.")</code>...), instead of writing code to allow a few corner cases?
 <h3>More Examples</h3>
 Hopefully I've convinced you that markedness matters. I think it's a mountain, rather than a molehill.
-
-<figure><img src="assets/molehill-horizon.png" alt="" /><figcaption>A mole hill with a glorious horizon behind it. Are those mountains, or just trees? :-)</figcaption></figure>
 
 But just in case I haven't, here are more scenarios to think about. As you read these, keep in mind what you already know about marks: they have full access to the code DOM at compile time; they propagate in sophisticated ways; they can generate code; and they can attach to constructs that traditional code ignores, such as requirements, human teams, and so forth.
 <ul>
