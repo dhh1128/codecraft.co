@@ -64,7 +64,7 @@ The problem of pain has bothered philosophers &mdash; particularly those with a 
 
 But pain barely impinges on the thinking of software engineers at all. Computers never wince, or complain, or mourn the loss of a favorite program (Marvin the paranoid android excepted). An OS runs at full speed until the instant when its kernel "panics" without warning; once you reboot, it acts as if nothing ever happened. No sniffles, no whimpers, no scabs...
 
-<figure><img alt="" src="http://farm3.staticflickr.com/2717/4480361923_229a1eb003.jpg" width="500" height="333" /><figcaption>photo credit: nanny snowflake (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/software-crying-robot.png" /></figure>
 
 This is unfortunate.
 

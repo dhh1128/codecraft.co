@@ -73,7 +73,7 @@ Of course, tech companies <em>do</em> build products &mdash; or solve customer p
 
 Besides products, tech companies produce and propagate mental models. Or in other words, they enable and shape our view of the world.
 
-<figure><img class="zemanta-img-inserted zemanta-img-configured " title="Mental Model II" alt="" src="http://farm5.static.flickr.com/4057/4612823598_a82864475e_m.jpg" height="164" width="240" /><figcaption>Photo credit: daveelf (Flickr)</figcaption></figure>
+<figure><img class="zemanta-img-inserted zemanta-img-configured " title="Mental Model II" alt="" src="assets/mental-models-head-map.png" /></figure>
 
 These mental models of the world matter. They &mdash; not products &mdash; are the nuggets of gold for which we prospect. Ask Galileo.
 

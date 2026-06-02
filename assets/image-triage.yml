@@ -1044,20 +1044,20 @@ images:
   disposition: own
 - essay: what-role-are-you-playing-in-rpcd.md
   type: img
-  kind: external
-  host: farm8.staticflickr.com
-  src: http://farm8.staticflickr.com/7136/7060713807_553ea103cd_d.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/researcher-observing.png
+  local_match: researcher-observing.png
   alt: human researcher
-  disposition: generate
+  disposition: own
 - essay: what-should-code-look-like-when-we-squint-at-it.md
   type: img
-  kind: external
-  host: farm1.staticflickr.com
-  src: http://farm1.staticflickr.com/45/150592235_fcfe235767.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/fractal-spiral.png
+  local_match: fractal-spiral.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: what-should-code-look-like-when-we-squint-at-it.md
   type: img
   kind: local
@@ -1084,12 +1084,12 @@ images:
   disposition: ''
 - essay: why-cannibalism-may-be-smart-business.md
   type: img
-  kind: external
-  host: farm3.staticflickr.com
-  src: http://farm3.staticflickr.com/2282/2362260782_c834e5bc13_n.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/cannibalism-plate.png
+  local_match: cannibalism-plate.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: why-cannibalism-may-be-smart-business.md
   type: img
   kind: local
@@ -1140,20 +1140,20 @@ images:
   disposition: ''
 - essay: why-mental-models-matter.md
   type: img
-  kind: malformed
-  host: farm5.static.flickr.com
-  src: http://farm5.static.flickr.com/4057/4612823598_a82864475e_m.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/mental-models-head-map.png
+  local_match: mental-models-head-map.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: why-people-are-part-of-a-software-architecture.md
   type: img
-  kind: external
-  host: farm7.staticflickr.com
-  src: http://farm7.staticflickr.com/6101/6230395373_1d7576f8ce_d.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/schrodingers-cat-box.png
+  local_match: schrodingers-cat-box.png
   alt: Schrödinger's Cat, from http://www.flickr.com/photos/drlovecherry/
-  disposition: generate
+  disposition: own
 - essay: why-software-artisans-should-manage-their-influence.md
   type: img
   kind: external
@@ -1164,12 +1164,12 @@ images:
   disposition: ''
 - essay: why-we-need-try-finally-not-just-raii.md
   type: img
-  kind: external
-  host: farm3.staticflickr.com
-  src: http://farm3.staticflickr.com/2765/4162745269_6989a977bd.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/finally-curtain-bow.png
+  local_match: finally-curtain-bow.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: why-you-should-be-proficient-in-a-tool-like-vim-or-emacs.md
   type: img
   kind: local
@@ -1196,12 +1196,12 @@ images:
   disposition: ''
 - essay: why-your-software-should-cry.md
   type: img
-  kind: external
-  host: farm3.staticflickr.com
-  src: http://farm3.staticflickr.com/2717/4480361923_229a1eb003.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/software-crying-robot.png
+  local_match: software-crying-robot.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: why-your-software-should-cry.md
   type: img
   kind: local

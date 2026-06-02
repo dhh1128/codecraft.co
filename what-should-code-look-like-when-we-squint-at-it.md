@@ -64,7 +64,7 @@ It's interesting—and maybe, profound—how nicely this piece of advice maps on
 
 Don't believe me? Try a short experiment: draw this fractal.
 
-<figure><img alt="" src="http://farm1.staticflickr.com/45/150592235_fcfe235767.jpg" width="500" height="375" /><figcaption>Fractals embody the principle of progressive disclosure. Image credit: Fábio Pinheiro (Flickr).</figcaption></figure>
+<figure><img alt="" src="assets/fractal-spiral.png" /><figcaption>Fractals embody the principle of progressive disclosure.</figcaption></figure>
 
 I'll bet that instead of laying down every pixel, like a printer, you immediately produce a simplification that captures the general shape as lines, with a lot of detail suppressed. You did this as a kid, when you drew stick figures and triangle+half-circle sailboats.
 

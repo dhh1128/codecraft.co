@@ -34,7 +34,7 @@ comments:
 ---
 Get out your fork. I've got a story for you...
 
-<figure><img title="fork, meat" src="http://farm3.staticflickr.com/2282/2362260782_c834e5bc13_n.jpg" alt="" width="240" height="320" /><figcaption>Dig in. Don't hold back. Photo credit: AleBonvini (Flickr)</figcaption></figure>
+<figure><img title="fork, meat" src="assets/cannibalism-plate.png" alt="" /><figcaption>Dig in. Don't hold back.</figcaption></figure>
 
 At the beginning of 2005, Symantec acquired Veritas. Together, Veritas's <a class="zem_slink" title="Backup Exec" href="http://www.symantec.com/backupexec/" rel="homepage" target="_blank">BackupExec</a> and NetBackup products accounted for something like 70-80% of the world's enterprise backup market. As I recall, BackupExec had annual sales of around $600M, and NetBackup was similar.
 

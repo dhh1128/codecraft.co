@@ -282,7 +282,7 @@ images:
   concept: a researcher with a clipboard quietly observing a scene, evoking a person playing the researcher role
   filename: researcher-observing.png
   prompt: a researcher with a clipboard quietly observing a scene, evoking a person playing the researcher role, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: what-should-code-look-like-when-we-squint-at-it.md
   replaces: http://farm1.staticflickr.com/45/150592235_fcfe235767.jpg
@@ -290,39 +290,39 @@ images:
   concept: a recursive spiral of self-similar branching curves (a fractal), evoking progressive disclosure
   filename: fractal-spiral.png
   prompt: a recursive spiral of self-similar branching curves (a fractal), evoking progressive disclosure, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: why-cannibalism-may-be-smart-business.md
   replaces: http://farm3.staticflickr.com/2282/2362260782_c834e5bc13_n.jpg
   caption: 'Dig in. Don''t hold back. Photo credit: AleBonvini (Flickr)'
   concept: a knife and fork poised over a plate bearing a small company logo, evoking self-cannibalization in business (tasteful, not gory)
   filename: cannibalism-plate.png
   prompt: a knife and fork poised over a plate bearing a small company logo, evoking self-cannibalization in business (tasteful, not gory), minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: why-mental-models-matter.md
   replaces: http://farm5.static.flickr.com/4057/4612823598_a82864475e_m.jpg
   caption: 'Photo credit: daveelf (Flickr)'
   concept: a profile silhouette of a head containing a small neat map and interlocking gears, evoking mental models
   filename: mental-models-head-map.png
   prompt: a profile silhouette of a head containing a small neat map and interlocking gears, evoking mental models, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: why-people-are-part-of-a-software-architecture.md
   replaces: http://farm7.staticflickr.com/6101/6230395373_1d7576f8ce_d.jpg
   caption: ''
   concept: a curious cat half-stepping out of a closed box, evoking Schrodinger's cat and uncertainty
   filename: schrodingers-cat-box.png
   prompt: a curious cat half-stepping out of a closed box, evoking Schrodinger's cat and uncertainty, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: why-we-need-try-finally-not-just-raii.md
   replaces: http://farm3.staticflickr.com/2765/4162745269_6989a977bd.jpg
   caption: '...finally, take a bow. Photo credit: gavinzac (Flickr)'
   concept: a performer taking a graceful final bow as the stage curtain begins to close, evoking the 'finally' clause
   filename: finally-curtain-bow.png
   prompt: a performer taking a graceful final bow as the stage curtain begins to close, evoking the 'finally' clause, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: why-your-software-should-cry.md
   replaces: http://farm3.staticflickr.com/2717/4480361923_229a1eb003.jpg
   caption: 'photo credit: nanny snowflake (Flickr)'
   concept: a simple friendly robot face shedding a single tear, evoking software that signals its distress
   filename: software-crying-robot.png
   prompt: a simple friendly robot face shedding a single tear, evoking software that signals its distress, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done

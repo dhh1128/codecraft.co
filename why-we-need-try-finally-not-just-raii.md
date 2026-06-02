@@ -154,7 +154,7 @@ The claim has been made that because C++ supports <a class="zem_slink" title="Re
 
 What if what you want to do during a <span style="font-family:courier, fixedwidth;">...finally</span> block has nothing to do with freeing resources? For example, suppose you're writing the next version of Guitar Hero, and you want to guarantee that when your avatar leaves the stage, the last thing she does is take a bow &mdash; even if the player interrupts the performance or an error occurs.
 
-<figure><img src="http://farm3.staticflickr.com/2765/4162745269_6989a977bd.jpg" alt="" width="336" height="500" /><figcaption>...finally, take a bow. Photo credit: <a href="http://www.flickr.com/photos/gavinzac/4162745269" target="_blank">gavinzac (Flickr)</a></figcaption></figure>
+<figure><img src="assets/finally-curtain-bow.png" alt="" /><figcaption>...finally, take a bow.</figcaption></figure>
 
 Of course you can ensure this behavior with an RAII pattern, but it's silly and artificial. Which of the following two snippets is cleaner and better expresses intent?
 <p style="font-weight:bold;font-family:arial, helvetica, sans serif;margin-left:2em;">RAII solution</p>
