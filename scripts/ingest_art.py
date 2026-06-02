@@ -70,8 +70,13 @@ def strip_flickr_credit(text, img_src):
     if not fc:
         return text
     start, end = m.end() + fc.start(), m.end() + fc.end()
-    inner = re.sub(r"\s*(?:Photo|Image)\s+credit\b.*$", "", fc.group(1),
-                   flags=re.I | re.S).strip()
+    inner = fc.group(1)
+    # remove flickr <a> links (with content, or dangling/empty) — credits are
+    # often wrapped in a link to the photographer's Flickr page
+    inner = re.sub(r"<a\b[^>]*flickr[^>]*>.*?</a>", "", inner, flags=re.I | re.S)
+    inner = re.sub(r"<a\b[^>]*flickr[^>]*>", "", inner, flags=re.I)
+    # remove the "Photo/Image credit: …" tail
+    inner = re.sub(r"\s*(?:Photo|Image)\s+credit\b.*$", "", inner, flags=re.I | re.S).strip()
     replacement = f"<figcaption>{inner}</figcaption>" if inner else ""
     return text[:start] + replacement + text[end:]
 

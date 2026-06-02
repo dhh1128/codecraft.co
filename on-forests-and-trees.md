@@ -103,7 +103,7 @@ There are lots of other examples. Aspect-oriented programming attempts to formal
 <h3>Call to action</h3>
 Pragmatism always matters, of course; it may not be worth our time to generalize in every case. :-)
 
-<figure><img class="" src="http://imgs.xkcd.com/comics/the_general_problem.png" alt="" width="550" height="230" /><figcaption>image credit: xkcd.com</figcaption></figure>
+<figure><img class="" src="http://imgs.xkcd.com/comics/the_general_problem.png" alt="" width="550" height="230" /></figure>
 
 Nonetheless, the best tech folks that I know are much better at this skill than the middle of the bell curve, and I don't think that's an accident. I'd like to see us, as an industry, do a better job of turning implicit patterns in our everyday engineering work into method, structure, and reusable building blocks.
 

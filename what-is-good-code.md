@@ -23,7 +23,7 @@ Sometimes I get answers like this:
 	<li>"Whatever sells."</li>
 	<li>"Whatever solves the customer problem."</li>
 </ul>
-<figure><img class="   " title="Interview Questions" alt="" src="assets/good-code-question.png" /><figcion>Answering tough interview questions. Photo credit: bpsusf (Flickr).</figcaption></figure>
+<figure><img class="   " title="Interview Questions" alt="" src="assets/good-code-question.png" /><figcaption>Answering tough interview questions.</figcaption></figure>
 
 Such answers tell me that an engineer is practical, business-aware, and customer-focused &mdash; all useful traits. <a title="Earned Pragmatism" href="earned-pragmatism.md">Pragmatism is usually learned in the economic school of hard knocks</a>, and it's a critical perspective that should never be forgotten. But I don't get a warm fuzzy from pure pragmatism; it lacks vision or love of craft.
 

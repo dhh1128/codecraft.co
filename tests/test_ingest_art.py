@@ -61,6 +61,22 @@ def test_strip_credit_only_caption_drops_figcaption():
     assert "<figcaption>" not in out
 
 
+def test_strip_flickr_link_in_caption():
+    # (the img src still has flickr until rewrite_src runs; check the caption)
+    t = (f'<img src="{SRC}"><figcaption>A thing. '
+         '<a href="http://www.flickr.com/photos/x">photo credit: bob (Flickr)</a></figcaption>')
+    out = ia.strip_flickr_credit(t, SRC)
+    assert "<a " not in out and "credit" not in out.lower()
+    assert "A thing." in out
+
+
+def test_strip_dangling_empty_flickr_link():
+    t = (f'<img src="{SRC}"><figcaption>A thing. '
+         '<a href="http://www.flickr.com/photos/x" target="_blank"></a></figcaption>')
+    out = ia.strip_flickr_credit(t, SRC)
+    assert "<a " not in out and "A thing." in out
+
+
 def test_strip_img_dimensions():
     t = '<img title="x" src="assets/r.png" alt="" width="240" height="225" />'
     out = ia.strip_img_dimensions(t, "assets/r.png")
