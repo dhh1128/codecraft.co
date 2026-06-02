@@ -30,7 +30,7 @@ comments:
       
       PS. A funny thing: in Russia the analog of "jack of all trades" (which sounds like 'all-hands master') has a positive connotation. So it makes sense to think positively :)
 ---
-<figure><img alt="" src="http://farm4.staticflickr.com/3040/2998411234_ceb9e6f752_n.jpg" height="320" width="212" /><figcaption>We loved to escape the boxes when we were kids... Photo credit: thewoodenshoes (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/unencapsulate-box-child.png" /><figcaption>We loved to escape the boxes when we were kids...</figcaption></figure>
 
 If I had to make a "top 5" list of foundational tools in software development, <em><a class="zem_slink" title="Encapsulation (object-oriented programming)" href="http://en.wikipedia.org/wiki/Encapsulation_%28object-oriented_programming%29" target="_blank" rel="wikipedia">encapsulation</a></em> would certainly make the cut. It's a major enabler of abstraction; it's what makes conceptual complexity tractable.
 

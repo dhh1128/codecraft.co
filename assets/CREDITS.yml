@@ -508,3 +508,124 @@ images:
     replaces: https://farm6.staticflickr.com/5498/10889431856_12ec009c28_z.jpg
     used_in:
     - on-forests-and-trees.md
+  debt-overdue-bills.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: an open envelope overflowing with overdue bills stamped 'past due', evoking technical debt, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm3.staticflickr.com/2785/4105722502_a442444bb9_n.jpg
+    used_in:
+    - paying-off-technical-debt.md
+  roleplay-masks-stage.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: two simple theatrical masks resting on a small stage, evoking role-play, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm7.staticflickr.com/6151/6257521499_10eb09fd45_d.jpg
+    used_in:
+    - role-play-centered-design.md
+  small-files-folders.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a cheerful cluster of many small folder shapes huddled together like friends, evoking small files, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm5.staticflickr.com/4002/5166773331_bb50dfa3b0.jpg
+    used_in:
+    - small-files-are-your-friends.md
+  side-agreement-handshake.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: two hands sharing a discreet handshake behind a larger formal contract, evoking hidden side-agreements, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: https://farm4.staticflickr.com/3593/3389046866_c642884f48_z_d.jpg
+    used_in:
+    - taming-side-agreements.md
+  envelope-budget.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a set of labeled cash envelopes with a little money tucked in each, evoking envelope budgeting and leverage, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm5.staticflickr.com/4088/4984697380_29b76f123f_m.jpg
+    used_in:
+    - tech-debt-leverage-and-grandmas-envelope.md
+  scaling-ant-leaf.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a tiny ant hoisting a leaf many times its size, with a faint human silhouette for scale, evoking the scaling fallacy, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm9.staticflickr.com/8050/8146750081_0e07106d00.jpg
+    used_in:
+    - the-scaling-fallacy.md
+  unencapsulate-box-child.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a child happily climbing out of a big cardboard box, evoking breaking out and un-encapsulating, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm4.staticflickr.com/3040/2998411234_ceb9e6f752_n.jpg
+    used_in:
+    - unencapsulate-yourself.md
+  foreman-hardhat.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a construction foreman in a hard hat holding a clipboard on a site, distinct from the architect, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm4.staticflickr.com/3567/3770093556_30c3c38029_n_d.jpg
+    used_in:
+    - what-a-software-architect-is-not.md
+  vital-signs-ekg.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a steady heartbeat EKG line crossing a small monitor, evoking software vital signs, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm8.staticflickr.com/7323/9009986079_3ecc0332bc.jpg
+    used_in:
+    - what-are-your-softwares-vital-signs.md
+  good-code-question.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a thoughtful figure at a whiteboard contemplating a single large question mark, evoking the question 'what is good code?', minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm5.staticflickr.com/4027/4607151156_d8b9c7554d_o.jpg
+    used_in:
+    - what-is-good-code.md
+  architect-blueprint.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: an architect's hand sketching blueprints with a compass and straightedge, evoking laying out a vision, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm6.staticflickr.com/5291/5424759413_5c80125755_d.jpg
+    used_in:
+    - what-is-a-software-architect.md

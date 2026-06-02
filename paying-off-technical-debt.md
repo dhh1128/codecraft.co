@@ -45,7 +45,7 @@ comments:
     comment: |
       Greetings from Colorado! I'm bored to death at work so I decided to browse your website on my iphone during lunch break. I really like the discussion of programming comments you provide here and can't wait to read more. Anyhow, awesome blog!
 ---
-<figure><img alt="" src="http://farm3.staticflickr.com/2785/4105722502_a442444bb9_n.jpg" height="320" width="213" /><figcaption>We don't get spam about how to consolidate our technical debts. :-) Image credit: Alan Cleaver (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/debt-overdue-bills.png" /><figcaption>We don't get spam about how to consolidate our technical debts. :-)</figcaption></figure>
 <blockquote><em>“Interest never sleeps nor sickens nor dies; it never goes to the hospital; it works on Sundays and holidays; it never takes a vacation; it never visits nor travels; it takes no pleasure; it is never laid off work nor discharged from employment; it never works on reduced hours. . . . Once in debt, interest is your companion every minute of the day and night; you cannot shun it or slip away from it; you cannot dismiss it; it yields neither to entreaties, demands, or orders; and whenever you get in its way or cross its course or fail to meet its demands, it crushes you.”</em>
 <p style="padding-left:30px;"><em>— <a class="zem_slink" title="J. Reuben Clark" href="http://en.wikipedia.org/wiki/Reuben_Clark" target="_blank" rel="wikipedia">J. Reuben Clark</a></em></p>
 </blockquote>

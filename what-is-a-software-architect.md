@@ -16,7 +16,7 @@ An architect is responsible for the strategic health of a technology portfolio. 
 
 The overall goal of the architecture function is to maximize dev ROI and technical competitive advantage over the long run.
 
-<figure><img title="An architect lays out a vision..." src="http://farm6.staticflickr.com/5291/5424759413_5c80125755_d.jpg" alt="" width="500" height="420" /><figcaption>An architect lays out a vision. Photo Credit: mootown (flickr.com).</figcaption></figure>
+<figure><img title="An architect lays out a vision..." src="assets/architect-blueprint.png" alt="" /><figcaption>An architect lays out a vision.</figcaption></figure>
 
 By its very nature, architecture is broad in scope and overlaps with many other disciplines. Because it concerns itself with fragility, boundary conditions, and theoretical limits, it needs to interact with design and actual code, and architects must be proficient engineers. Because it cares about supporting potential uses beyond the confines of a specific release, architecture must consider the market landscape from both a business and a technological perspective, and it must understand when short-term compromises carry long-term risks.
 

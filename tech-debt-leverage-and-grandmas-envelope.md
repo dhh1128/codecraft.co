@@ -57,7 +57,7 @@ Of course, just because it was smart to buy on credit doesn't mean you should ma
 
 I can remember my grandmother whistling in the kitchen as she sealed an envelope and put a stamp on it.
 
-<figure><img alt="" src="http://farm5.staticflickr.com/4088/4984697380_29b76f123f_m.jpg" width="240" height="161" /><figcaption>Image credit: Sean Loyless (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/envelope-budget.png" /></figure>
 
 "What are you mailing?" I asked.
 

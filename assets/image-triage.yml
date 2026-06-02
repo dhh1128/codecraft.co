@@ -820,12 +820,12 @@ images:
   disposition: own
 - essay: paying-off-technical-debt.md
   type: img
-  kind: external
-  host: farm3.staticflickr.com
-  src: http://farm3.staticflickr.com/2785/4105722502_a442444bb9_n.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/debt-overdue-bills.png
+  local_match: debt-overdue-bills.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: programmers-learn-how-to-cloudify.md
   type: img
   kind: local
@@ -892,12 +892,12 @@ images:
   disposition: own
 - essay: role-play-centered-design.md
   type: img
-  kind: external
-  host: farm7.staticflickr.com
-  src: http://farm7.staticflickr.com/6151/6257521499_10eb09fd45_d.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/roleplay-masks-stage.png
+  local_match: roleplay-masks-stage.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: six-learning-tips-for-tech-folks.md
   type: img
   kind: local
@@ -908,12 +908,12 @@ images:
   disposition: own
 - essay: small-files-are-your-friends.md
   type: img
-  kind: external
-  host: farm5.staticflickr.com
-  src: http://farm5.staticflickr.com/4002/5166773331_bb50dfa3b0.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/small-files-folders.png
+  local_match: small-files-folders.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: smart-geeks-think-like-cheerleaders.md
   type: img
   kind: local
@@ -932,12 +932,12 @@ images:
   disposition: own
 - essay: taming-side-agreements.md
   type: img
-  kind: external
-  host: farm4.staticflickr.com
-  src: https://farm4.staticflickr.com/3593/3389046866_c642884f48_z_d.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/side-agreement-handshake.png
+  local_match: side-agreement-handshake.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: tech-debt-leverage-and-grandmas-envelope.md
   type: img
   kind: local
@@ -956,12 +956,12 @@ images:
   disposition: ''
 - essay: tech-debt-leverage-and-grandmas-envelope.md
   type: img
-  kind: external
-  host: farm5.staticflickr.com
-  src: http://farm5.staticflickr.com/4088/4984697380_29b76f123f_m.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/envelope-budget.png
+  local_match: envelope-budget.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: the-8th-characteristic.md
   type: img
   kind: local
@@ -980,12 +980,12 @@ images:
   disposition: own
 - essay: the-scaling-fallacy.md
   type: img
-  kind: external
-  host: farm9.staticflickr.com
-  src: http://farm9.staticflickr.com/8050/8146750081_0e07106d00.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/scaling-ant-leaf.png
+  local_match: scaling-ant-leaf.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: the-third-half-of-computational-economics.md
   type: img
   kind: local
@@ -996,12 +996,12 @@ images:
   disposition: own
 - essay: unencapsulate-yourself.md
   type: img
-  kind: external
-  host: farm4.staticflickr.com
-  src: http://farm4.staticflickr.com/3040/2998411234_ceb9e6f752_n.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/unencapsulate-box-child.png
+  local_match: unencapsulate-box-child.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: variadic-macros-tricks.md
   type: img
   kind: external
@@ -1012,36 +1012,36 @@ images:
   disposition: ''
 - essay: what-a-software-architect-is-not.md
   type: img
-  kind: external
-  host: farm4.staticflickr.com
-  src: http://farm4.staticflickr.com/3567/3770093556_30c3c38029_n_d.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/foreman-hardhat.png
+  local_match: foreman-hardhat.png
   alt: foreman
-  disposition: generate
+  disposition: own
 - essay: what-are-your-softwares-vital-signs.md
   type: img
-  kind: external
-  host: farm8.staticflickr.com
-  src: http://farm8.staticflickr.com/7323/9009986079_3ecc0332bc.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/vital-signs-ekg.png
+  local_match: vital-signs-ekg.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: what-is-a-software-architect.md
   type: img
-  kind: external
-  host: farm6.staticflickr.com
-  src: http://farm6.staticflickr.com/5291/5424759413_5c80125755_d.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/architect-blueprint.png
+  local_match: architect-blueprint.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: what-is-good-code.md
   type: img
-  kind: external
-  host: farm5.staticflickr.com
-  src: http://farm5.staticflickr.com/4027/4607151156_d8b9c7554d_o.jpg
-  local_match: ''
+  kind: local
+  host: ''
+  src: assets/good-code-question.png
+  local_match: good-code-question.png
   alt: ''
-  disposition: generate
+  disposition: own
 - essay: what-role-are-you-playing-in-rpcd.md
   type: img
   kind: external

@@ -20,6 +20,6 @@ Most software has a profoundly inadequate concept of "health." In order for appl
 
 In my <a title="cloudify - check vital signs" href="http://www.adaptivecomputing.com/blog-cloud/how-to-cloudify-your-software-part-4-check-those-vital-signs/" target="_blank">most recent post</a> on <a title="cloudify software series" href="../../../category/cloudify" target="_blank">cloudifying your software</a>, I explore how cloud computing is magnifying the need to understand and to regularly check your software's vital signs. Head on over to adaptivecomputing.com/blog and check it out.
 
-<figure><img alt="" src="http://farm8.staticflickr.com/7323/9009986079_3ecc0332bc.jpg" width="500" height="333" /><figcaption>Checking vitals isn't just for healthc... Photo credit: U.S. Pacific Fleet (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/vital-signs-ekg.png" /><figcaption>Checking vitals isn't just for healthc...</figcaption></figure>
 
 Stay tuned for further installments of this series each Friday. As I said in <a title="Programmers: learn how to “cloudify”" href="programmers-learn-how-to-cloudify.md" target="_blank">Part 1</a>, I believe that a competence with cloud&mdash;cloud-oriented programming, if you will&mdash;will be a checkbox on future tech resumes.

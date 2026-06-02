@@ -12,7 +12,7 @@ User-centered design (UCD) is important. I hope I've been a good advocate for it
 
 However, UCD rarely yields all potential benefits, which is why I'd like to suggest a specialized form of UCD for many software teams. I'll dub this idea "Role-Play Centered Design" (RPCD, prounounced /ˈrɪpˌsɪd/) because of the way the various parts of the system come to life. (This idea is similar to &mdash; though conceived independently from &mdash; the concepts in <a title="The use of improvisational role-play in user centered design processes" href="http://dl.acm.org/citation.cfm?id=1772520" target="_blank">this article</a> from the proceedings of HCI '07.)
 
-<figure><img alt="" src="http://farm7.staticflickr.com/6151/6257521499_10eb09fd45_d.jpg" width="500" height="357" /><figcaption>Role plays can help you build software &mdash; not just entertain. Photo credit: TheArches (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/roleplay-masks-stage.png" /><figcaption>Role plays can help you build software &mdash; not just entertain.</figcaption></figure>
 
 <strong>Manifesto</strong>
 

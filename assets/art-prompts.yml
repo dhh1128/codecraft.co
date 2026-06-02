@@ -203,35 +203,35 @@ images:
   concept: an open envelope overflowing with overdue bills stamped 'past due', evoking technical debt
   filename: debt-overdue-bills.png
   prompt: an open envelope overflowing with overdue bills stamped 'past due', evoking technical debt, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: role-play-centered-design.md
   replaces: http://farm7.staticflickr.com/6151/6257521499_10eb09fd45_d.jpg
   caption: 'Role plays can help you build software &mdash; not just entertain. Photo credit: TheArches (Flickr)'
   concept: two simple theatrical masks resting on a small stage, evoking role-play
   filename: roleplay-masks-stage.png
   prompt: two simple theatrical masks resting on a small stage, evoking role-play, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: small-files-are-your-friends.md
   replaces: http://farm5.staticflickr.com/4002/5166773331_bb50dfa3b0.jpg
   caption: 'More small friends. Photo credit: miguelandresen (Flickr)'
   concept: a cheerful cluster of many small folder shapes huddled together like friends, evoking small files
   filename: small-files-folders.png
   prompt: a cheerful cluster of many small folder shapes huddled together like friends, evoking small files, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: taming-side-agreements.md
   replaces: https://farm4.staticflickr.com/3593/3389046866_c642884f48_z_d.jpg
   caption: 'The former Enron towner, now owned by Chevron. Image credit: DaveWilsonPhotography (Flickr)'
   concept: two hands sharing a discreet handshake behind a larger formal contract, evoking hidden side-agreements
   filename: side-agreement-handshake.png
   prompt: two hands sharing a discreet handshake behind a larger formal contract, evoking hidden side-agreements, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: tech-debt-leverage-and-grandmas-envelope.md
   replaces: http://farm5.staticflickr.com/4088/4984697380_29b76f123f_m.jpg
   caption: 'Image credit: Sean Loyless (Flickr)'
   concept: a set of labeled cash envelopes with a little money tucked in each, evoking envelope budgeting and leverage
   filename: envelope-budget.png
   prompt: a set of labeled cash envelopes with a little money tucked in each, evoking envelope budgeting and leverage, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: the-scaling-fallacy.md
   replaces: http://farm9.staticflickr.com/8050/8146750081_0e07106d00.jpg
@@ -239,42 +239,42 @@ images:
   concept: a tiny ant hoisting a leaf many times its size, with a faint human silhouette for scale, evoking the scaling fallacy
   filename: scaling-ant-leaf.png
   prompt: a tiny ant hoisting a leaf many times its size, with a faint human silhouette for scale, evoking the scaling fallacy, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: unencapsulate-yourself.md
   replaces: http://farm4.staticflickr.com/3040/2998411234_ceb9e6f752_n.jpg
   caption: 'We loved to escape the boxes when we were kids... Photo credit: thewoodenshoes (Flickr)'
   concept: a child happily climbing out of a big cardboard box, evoking breaking out and un-encapsulating
   filename: unencapsulate-box-child.png
   prompt: a child happily climbing out of a big cardboard box, evoking breaking out and un-encapsulating, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: what-a-software-architect-is-not.md
   replaces: http://farm4.staticflickr.com/3567/3770093556_30c3c38029_n_d.jpg
   caption: 'A foreman &mdash; vital but usually not the same person as the architect. Photo credit: USFS Region 5 (Flickr).'
   concept: a construction foreman in a hard hat holding a clipboard on a site, distinct from the architect
   filename: foreman-hardhat.png
   prompt: a construction foreman in a hard hat holding a clipboard on a site, distinct from the architect, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: what-are-your-softwares-vital-signs.md
   replaces: http://farm8.staticflickr.com/7323/9009986079_3ecc0332bc.jpg
   caption: 'Checking vitals isn''t just for healthc... Photo credit: U.S. Pacific Fleet (Flickr)'
   concept: a steady heartbeat EKG line crossing a small monitor, evoking software vital signs
   filename: vital-signs-ekg.png
   prompt: a steady heartbeat EKG line crossing a small monitor, evoking software vital signs, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: what-is-a-software-architect.md
   replaces: http://farm6.staticflickr.com/5291/5424759413_5c80125755_d.jpg
   caption: 'An architect lays out a vision. Photo Credit: mootown (flickr.com).'
   concept: an architect's hand sketching blueprints with a compass and straightedge, evoking laying out a vision
   filename: architect-blueprint.png
   prompt: an architect's hand sketching blueprints with a compass and straightedge, evoking laying out a vision, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
 - essay: what-is-good-code.md
   replaces: http://farm5.staticflickr.com/4027/4607151156_d8b9c7554d_o.jpg
   caption: ''
   concept: a thoughtful figure at a whiteboard contemplating a single large question mark, evoking the question 'what is good code?'
   filename: good-code-question.png
   prompt: a thoughtful figure at a whiteboard contemplating a single large question mark, evoking the question 'what is good code?', minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
-  status: pending
+  status: done
   review: true
 - essay: what-role-are-you-playing-in-rpcd.md
   replaces: http://farm8.staticflickr.com/7136/7060713807_553ea103cd_d.jpg
