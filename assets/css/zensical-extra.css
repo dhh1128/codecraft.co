@@ -123,6 +123,11 @@
 .md-typeset .toc-index > h1 {
   display: none;
 }
+/* …so start the intro just below the header (≈ the gap after an h1). On print the
+   h1 reappears and its own bottom margin provides the spacing. */
+.md-typeset .toc-index > h1 + * {
+  margin-top: 0;
+}
 
 /* ---- Print: clean, sidebar-free, full-width essay ---- */
 @media print {

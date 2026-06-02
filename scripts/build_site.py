@@ -171,8 +171,6 @@ def build_index(essays):
     out = [
         "# Codecraft",
         "",
-        f"*{SITE['description']}*",
-        "",
         "A collection of essays on software architecture and the craft of "
         "programming, by Daniel Hardman.",
         "",
