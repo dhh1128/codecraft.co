@@ -46,12 +46,15 @@
   color: #666;
 }
 
-/* Header site title: use the heading face so the top-bar "Codecraft" matches
-   the h1 "Codecraft" on the page. */
+/* Header site title: match the h1 "Codecraft" on the page — same face, size,
+   weight and colour (the header background is light, so the brown is visible). */
 .md-header__title,
 .md-header__title .md-ellipsis {
   font-family: "Barlow Condensed", "Open Sans", sans-serif;
   font-weight: 500;
+  font-size: 1.6rem;          /* ≈ the h1; tune if needed */
+  line-height: 1.2;
+  color: #491705;
 }
 
 /* Links: one faint underline, no visited distinction, clearer on hover.
@@ -91,10 +94,13 @@
   height: auto;
 }
 
-/* Drop the left nav sidebar — the home page already lists every category and
-   file, and search covers the rest. Also drop the now-empty drawer toggle and
-   the (now empty) repo-source container in the header. */
+/* Strip the chrome for a clean essay site:
+   - left nav sidebar (home page lists everything + search covers the rest)
+   - right "On this page" sidebar
+   - the book-icon logo and empty drawer/repo controls in the header */
 .md-sidebar--primary,
+.md-sidebar--secondary,
+.md-header__button.md-logo,
 .md-header__button[for="__drawer"],
 .md-header__source {
   display: none !important;
