@@ -106,6 +106,15 @@
   display: none !important;
 }
 
+/* Now that both sidebars are gone, center the reading column at ~720px as soon
+   as the viewport exceeds it (Material otherwise keeps it full-width until
+   ~1220px). Only the content grid — the header stays full-width. */
+.md-main__inner {
+  max-width: 45rem;     /* ≈ 720px; where centering begins */
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Homepage TOC (index.md only, via the .toc-index wrapper): tight, single-line
    list spacing between entries. */
 .md-typeset .toc-index ul {
