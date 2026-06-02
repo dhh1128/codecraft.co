@@ -420,3 +420,91 @@ images:
     replaces: https://farm5.staticflickr.com/4113/5080987526_cdbf30487f_z_d.jpg
     used_in:
     - lacunas-everywhere.md
+  helplessness-mouse-jar.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a small determined mouse treading water in a tall jar and looking upward with hope, evoking resilience over helplessness, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm1.staticflickr.com/77/203388870_598e4417bf.jpg
+    used_in:
+    - learned-helplessness-rats-and-people-power.md
+  rpcd-checklist.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a clipboard checklist with several boxes neatly ticked, evoking a completed procedure, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm3.staticflickr.com/2722/4439276478_8bb7a50ab8_d.jpg
+    used_in:
+    - long-term-benefits-of-rpcd.md
+  listen-attentive-ear.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: two figures, one leaning in close with a large attentive ear, evoking listening to understand, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm1.staticfliccom/188/371882597_eed7dbd8d2.jpg
+    used_in:
+    - lynn-bendixsen-listen.md
+  manifesto-nailed-page.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a bold single-page proclamation nailed to a wooden door, evoking a manifesto, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm3.staticflickr.com/2504/3805699025_d68718a091_n.jpg
+    used_in:
+    - manifestos.md
+  molehill-horizon.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a small molehill in the foreground with faint distant peaks on the horizon, evoking mountains-versus-molehills scale ambiguity, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: https://farm5.staticflickr.com/4032/4241886426_2e9dd510a6.jpg
+    used_in:
+    - mountains-molehills-and-markedness.md
+  plumbline-bob.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a plumb bob hanging on a string, perfectly vertical against a simple frame, evoking measurement and true alignment, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm4.staticflickr.com/3110/2600773685_8934c3327f_n.jpg
+    used_in:
+    - measurements-plumb-lines-and-system-thinking.md
+  recipe-and-map.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: a handwritten recipe card beside a folded paper map, evoking recipes, maps and intentions, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: http://farm5.staticflickr.com/4121/4860405142_3c49fd683f.jpg
+    used_in:
+    - on-bread-recipes-maps-and-intentions.md
+  forest-one-tree.png:
+    origin: AI-generated
+    model: openart.ai
+    prompt: one crisp tree in focus with a soft vast forest behind it, evoking can't-see-the-forest-for-the-trees, minimalist editorial line illustration, single-weight line art in deep brown (#491705) with one muted terracotta (#914f37) accent, plain solid uniform off-white background, flat with no gradients or shadows, generous negative space, conceptual and timeless, centered, no text, no lettering, not photorealistic
+    license: Owned — AI-generated, full rights
+    attribution_required: false
+    book_safe: true
+    retrieved: '2026-06-01'
+    replaces: https://farm6.staticflickr.com/5498/10889431856_12ec009c28_z.jpg
+    used_in:
+    - on-forests-and-trees.md

@@ -52,7 +52,7 @@ In the 1950s, researchers at Johns Hopkins conducted some very troubling experim
 
 Now, wild rats are superb swimmers. On average, rats that had not received the squeeze treatment lasted around 60 hours in the bucket before they gave up from exhaustion and allowed themselves to drown. One unsqueezed rat swam for 81 hours.
 
-<figure><img alt="" src="http://farm1.staticflickr.com/77/203388870_598e4417bf.jpg" height="391" width="400" /><figcaption>A later rats-in-bucket experiment (not quite so brutal). Photo credit: MBK (Marjie) (Flickr).</figcaption></figure>
+<figure><img alt="" src="assets/helplessness-mouse-jar.png" /><figcaption>A later rats-in-bucket experiment (not quite so brutal).</figcaption></figure>
 
 The average squeezed rat sank after 30 minutes.
 

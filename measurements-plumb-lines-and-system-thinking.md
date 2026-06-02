@@ -24,7 +24,7 @@ comments:
 ---
 Friday morning I was at a seminar taught by <a href="www.linkedin.com/in/jhtaylorjason" target="_blank">Jason Taylor</a>, CTO at <a href="http://www.allegiance.com" target="_blank">Allegiance</a>. We were discussing how dev team <a href="http://en.wikipedia.org/wiki/Velocity_(software_development)">velocity</a> and product quality can compete for our attention; sometimes we trade one for the other. Jason mentioned that he's a fan of competing metrics, and some neurons connected in my brain.
 
-<figure><img alt="" src="http://farm4.staticflickr.com/3110/2600773685_8934c3327f_n.jpg" height="320" width="213" /><figcaption>Plumb line suspended from the center point of multiple balancing legs. Photo credit: suttonhoo (Flickr)</figcaption></figure>
+<figure><img alt="" src="assets/plumbline-bob.png" /><figcaption>Plumb line suspended from the center point of multiple balancing legs.</figcaption></figure>
 
 I'm a big believer in measurement. As the old adage goes, you can't improve what you don't measure. Next time someone urges yoo change a behavior, or tells you she's going to, ask what measurement of change is being proposed. If you get an unsatisfying answer, I predict you'll also get an unsatisfying outcome.
 

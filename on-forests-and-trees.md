@@ -62,7 +62,7 @@ comments:
 ---
 When an English speaker is drowning in details that make the big picture hard to see, she might complain, "I can't see the forest for the trees."
 
-<figure><img class="" src="https://farm6.staticflickr.com/5498/10889431856_12ec009c28_z.jpg" alt="" width="640" height="431" /><figcaption>image credit: Miguel Virkkunen Carvalho (Flickr)</figcaption></figure>
+<figure><img class="" src="assets/forest-one-tree.png" alt="" /></figure>
 
 It's an odd expression, partly ironic and partly humorous. When I hear it, I sometimes think of my sister, who, after moving from Indiana to Utah, complained that the mountains were getting in the way of her view. (Her tongue was firmly in her cheek... :-)
 

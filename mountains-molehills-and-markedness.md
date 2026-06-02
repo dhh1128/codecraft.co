@@ -67,7 +67,7 @@ Another consequence of markedness mismanagement is clumsiness and verbosity. Hum
 <h3>More Examples</h3>
 Hopefully I've convinced you that markedness matters. I think it's a mountain, rather than a molehill.
 
-<figure><img src="https://farm5.staticflickr.com/4032/4241886426_2e9dd510a6.jpg" alt="" width="500" height="375" /><figcaption>A mole hill with a glorious horizon behind it. Are those mountains, or just trees? :-) Image credit: <a href="https://www.flickr.com/photos/strep72/4241886426/sizes/l" target="_blank">Strep72</a> (Flickr).</figcaption></figure>
+<figure><img src="assets/molehill-horizon.png" alt="" /><figcaption>A mole hill with a glorious horizon behind it. Are those mountains, or just trees? :-)</figcaption></figure>
 
 But just in case I haven't, here are more scenarios to think about. As you read these, keep in mind what you already know about marks: they have full access to the code DOM at compile time; they propagate in sophisticated ways; they can generate code; and they can attach to constructs that traditional code ignores, such as requirements, human teams, and so forth.
 <ul>

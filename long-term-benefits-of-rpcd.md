@@ -17,7 +17,7 @@ But there are subtler advantages that might not be obvious:
 
 As soon as you have a set of reasonably clear roles defined, and at least one specific use case, you can observe the system in action. Granted, you're observing people instead of software, but the full complexity and dynamism springs to life right before your eyes. People can hold clipboards and use checklists to model how wizards populate databases; they can move post-notes on a whiteboard to explore organizational algorithms. Seeing <em>in toto</em>, from the beginning, is incredibly useful.
 
-<img src="http://farm3.staticflickr.com/2722/4439276478_8bb7a50ab8_d.jpg" alt="checklist, from http://www.flickr.com/photos/alancleaver/" />
+<img src="assets/rpcd-checklist.png" alt="checklist, from http://www.flickr.com/photos/alancleaver/" />
 
 The first deployments you do are demos. I am a big fan of demos; you should demo something at the end of every sprint or milestone, to guarantee that you've actually accomplished something useful and that it's aligned with the needs of stakeholders. But with RPCD, you take demos to a whole new level, because your demos become <em>interactive</em>. If sales asks "What happens when the user pushes the big red button?", you don't have to say, "Sorry, we can't demo that today." You walk over to the person modeling the UI, push the red button on the piece of paper or the whiteboard that they're holding, and let the system chug.
 

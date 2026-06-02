@@ -14,7 +14,7 @@ When I worked at <a href="http://www.perfectsearchcorp.com" target="_blank">Perf
 
 Although Lynn tolerates this joke with good grace, I think the joke isn't really fair to him, because there's nothing funny about thoughtful listening. The world could do with more people who've mastered Lynn's skill.
 
-<figure><img title="listening" src="http://farm1.staticfliccom/188/371882597_eed7dbd8d2.jpg" alt="" width="500" height="366" /><figcaption>Listen to understand, not to respond. Photo credit: Prisoner 5413 (Flickr)</figcaption></figure>
+<figure><img title="listening" src="assets/listen-attentive-ear.png" alt="" /><figcaption>Listen to understand, not to respond.</figcaption></figure>
 
 I recently blogged about <a title="Humility" href="humility.md">the importance of humility</a>. It is not an accident that humility and active listening are closely related, and it is not an accident that the best listeners and most humble team members often make the largest (if not the most flashy) contributions to a team's success.
 
