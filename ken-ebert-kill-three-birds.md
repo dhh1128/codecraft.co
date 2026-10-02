@@ -8,7 +8,7 @@ series: "Mentors"
 redirect_from:
   - /2012/09/19/ken-ebert-kill-three-birds
 ---
-<p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
+<p style="text-align:right;"><em>(A post in my “<a href="role-models.md">Role Models</a>” series…)</em></p>
 
 
 <figure><img title="three birds" src="assets/three-birds-one-stone.png" alt="" /><figcaption>Killing birds is just a metaphor; who'd want to hurt something this cute?</figcaption></figure>

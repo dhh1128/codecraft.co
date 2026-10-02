@@ -43,7 +43,7 @@ comments:
     comment: |
       This is wonderful advice and one we can all apply.  Thanks for sharing and for following my blog. Bendiciones ; )
 ---
-<p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
+<p style="text-align:right;"><em>(A post in my “<a href="role-models.md">Role Models</a>” series…)</em></p>
 When you're a twenty-something computer geek, the pace of the software industry doesn't worry you much. You're full of energy and enthusiasm for your chosen career, and you're confident you'll quickly absorb whatever wasn't covered during college.
 
 Add a decade or so, and you may see the world a bit differently.

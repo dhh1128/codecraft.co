@@ -1,0 +1,23 @@
+# lychee config for the scheduled link check (.github/workflows/link-check.yml).
+# lychee loads ./lychee.toml automatically; run locally with `lychee './**/*.md'`.
+
+# Cross-essay links are written as bare slugs (href="good-code-is-balanced"),
+# which the site resolves; in the source tree the target is <slug>.md.
+fallback_extensions = ["md"]
+
+# archive/ holds guest posts excluded from the build; build/ and the venv are
+# local, gitignored artifacts (absent in CI, but present on a dev box).
+exclude_path = ["^archive/", "^build/", "^\\.venv", "(^|/)\\.worktrees/"]
+
+# Sites that answer 403/999 to any non-browser client, so lychee cannot tell a
+# live page from a dead one. Keep this list to hosts verified to block bots;
+# a dead host (e.g. sethgodin.typepad.com, plus.google.com) does NOT belong here.
+exclude = [
+  "^https?://([a-z]+\\.)?linkedin\\.com/",
+  "^https?://([a-z]+\\.)?stackoverflow\\.com/",
+  "^https?://([a-z]+\\.)?stackexchange\\.com/",
+  "^https?://([a-z]+\\.)?quora\\.com/",
+  "^https?://([a-z]+\\.)?nytimes\\.com/",
+  "^https?://dl\\.acm\\.org/",
+  "^https?://([a-z]+\\.)?annualreviews\\.org/",
+]

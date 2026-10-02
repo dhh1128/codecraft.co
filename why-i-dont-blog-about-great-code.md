@@ -10,7 +10,7 @@ redirect_from:
 
 <p style="text-align:left;padding-left:30px;"><em>Last week I heard <a href="http://ttbook.org/book/carol-dweck-psychology-failure-and-success" target="_blank">a Stanford researcher describe</a> how failure can be a good thing, if we are prepared to learn from it.</em></p>
 <p style="padding-left:30px;"><em>I agree, although this mindset is easier to describe than to achieve. So here I'm kicking off a new series of posts about mistakes I've made over the years, and what I've learned from them. Look in the "Mistakes" category for more like this.</em></p>
-If you've followed my blog at all, you'll know that I regularly return to the theme of <a href="/category/good-code/" target="_blank">what constitutes good code</a>. Ever wonder why I don't get more ambitious and talk about "great code" instead?
+If you've followed my blog at all, you'll know that I regularly return to the theme of <a href="what-is-good-code.md" target="_blank">what constitutes good code</a>. Ever wonder why I don't get more ambitious and talk about "great code" instead?
 
 A big reason is that in software, <em>great can be the enemy of good</em>.
 

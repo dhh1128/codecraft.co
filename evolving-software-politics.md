@@ -26,7 +26,7 @@ I think I've come to agree very strongly with Steve's observation that software 
 
 When you accept that software is impermanent, you can relax. There doesn't have to be a centrally planned vision that remains constant over time; you can discover things as you go, and it's <em>all right</em>.
 
-Don't confuse this with me being lazy. I think code should be clean and cohesive; see <a href="/category/good-code/" target="_blank">my posts on "good code"</a> for more on that. I'm simply saying that you should embrace the idea that things change. Requirements shift. Teams go through learning curves. Staff has turnover. Products lose or gain competitive advantage. The market adjusts. Better frameworks come out. New OS features appear. And the implication of this change is that today's right answer might need some tweaking tomorrow.
+Don't confuse this with me being lazy. I think code should be clean and cohesive; see <a href="what-is-good-code.md" target="_blank">my posts on "good code"</a> for more on that. I'm simply saying that you should embrace the idea that things change. Requirements shift. Teams go through learning curves. Staff has turnover. Products lose or gain competitive advantage. The market adjusts. Better frameworks come out. New OS features appear. And the implication of this change is that today's right answer might need some tweaking tomorrow.
 
 Faced with that change, the ability to react quickly and calmly, to be entrepreneurial and experiment-driven, is often of greater business value than a perfect piece of code.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>

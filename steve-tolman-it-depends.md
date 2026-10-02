@@ -8,7 +8,7 @@ series: "Mentors"
 redirect_from:
   - /2012/09/17/steve-tolman-it-depends
 ---
-<p style="text-align:right;"><em>(A post in my “<a href="../../../category/role-models/">Role Models</a>” series…)</em></p>
+<p style="text-align:right;"><em>(A post in my “<a href="role-models.md">Role Models</a>” series…)</em></p>
 My friend and long-time colleague Steve Tolman has a standing joke with people who know him well. He gives the same answer to every question: "It depends."
 
 Unlike most jokes, this one gets funnier the more often you hear it, especially if Steve gives a cheesy wink during delivery.

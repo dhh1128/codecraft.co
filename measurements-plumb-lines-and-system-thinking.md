@@ -22,7 +22,7 @@ comments:
       
       That said, I'd rather have two or three useful numbers than just a vague intention. This is why it was so smart of you to pick a specific target (e.g., "no modules > 10k lines") and work to hit it in your moab work.
 ---
-Friday morning I was at a seminar taught by <a href="www.linkedin.com/in/jhtaylorjason" target="_blank">Jason Taylor</a>, CTO at <a href="http://www.allegiance.com" target="_blank">Allegiance</a>. We were discussing how dev team <a href="http://en.wikipedia.org/wiki/Velocity_(software_development)">velocity</a> and product quality can compete for our attention; sometimes we trade one for the other. Jason mentioned that he's a fan of competing metrics, and some neurons connected in my brain.
+Friday morning I was at a seminar taught by <a href="https://www.linkedin.com/in/jhtaylorjason" target="_blank">Jason Taylor</a>, CTO at <a href="http://www.allegiance.com" target="_blank">Allegiance</a>. We were discussing how dev team <a href="http://en.wikipedia.org/wiki/Velocity_(software_development)">velocity</a> and product quality can compete for our attention; sometimes we trade one for the other. Jason mentioned that he's a fan of competing metrics, and some neurons connected in my brain.
 
 <figure><img alt="" src="assets/plumbline-bob.png" /><figcaption>Plumb line suspended from the center point of multiple balancing legs.</figcaption></figure>
 

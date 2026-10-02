@@ -104,6 +104,6 @@ Proxies allow us to point to otherwise unpointable things like performance bottl
 <h3>The Value of Pointing</h3>
 I said in my previous post that I got frustrated when my daughter used words like "that" and "here" without pointing. I couldn't understand her intent. Talking around this semantic deficit was time-consuming and error-prone.
 
-By making it easy to point at any idea in the daily experience of a coder, I think the quality and terseness of our communication will grow dramatically. I gave a few <a href="../../../2014/09/23/exploring-the-power-of-deixis/#examples">examples</a> of how that power might generate innovation. (And btw, notice how my hyperlink to "examples" in that last sentence is a lot more useful because I can point to a specific paragraph).
+By making it easy to point at any idea in the daily experience of a coder, I think the quality and terseness of our communication will grow dramatically. I gave a few <a href="exploring-the-power-of-deixis.md#examples">examples</a> of how that power might generate innovation. (And btw, notice how my hyperlink to "examples" in that last sentence is a lot more useful because I can point to a specific paragraph).
 
 Like all innovations, though, I don't think the exciting stuff is in the obvious examples. I believe we'll discover cool new ideas that we haven't even imagined yet, once the power of an improved paradigm permeates our coding lives.

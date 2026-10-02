@@ -54,4 +54,4 @@ Holmes was talking, I believe, about wrestling with a difficult, multifaceted pr
 I'm going to post a few observations on what I think constitutes good code in coming days. These will be glimpses of zen that I've occasionally stumbled upon on the "other side of complexity" as I've wrestled with the craft through my career.
 
 I'll be curious to know what you think, as well.
-<p style="text-align:right;"><em>(Read more posts in my "<a href="/category/good-code/">What is 'Good Code'?</a>" series...)</em></p>
+<p style="text-align:right;"><em>(Read more posts in my "<a href="what-is-good-code.md">What is 'Good Code'?</a>" series...)</em></p>

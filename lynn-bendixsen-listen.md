@@ -9,7 +9,7 @@ redirect_from:
   - /2012/10/02/lynn-bendixsen-listen
 ---
 
-<p style="text-align:right;"><em>(A post in my "<a href="/category/role-models/">Role Models</a>" series.)</em></p>
+<p style="text-align:right;"><em>(A post in my "<a href="role-models.md">Role Models</a>" series.)</em></p>
 When I worked at <a href="http://www.perfectsearchcorp.com" target="_blank">Perfect Search</a>, we had a standing joke that after the meeting agenda was done and we had given the word to adjourn, it was time to turn to <a href="http://www.linkedin.com/pub/lynn-bendixsen/7/425/a94" target="_blank">Lynn</a> and get his feedback. This joke was funny because on many occasions we'd seen Lynn ask penetrating questions after the rest of us rushed headlong through an issue and assumed all the thinking was done.
 
 Although Lynn tolerates this joke with good grace, I think the joke isn't really fair to him, because there's nothing funny about thoughtful listening. The world could do with more people who've mastered Lynn's skill.

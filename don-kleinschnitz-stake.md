@@ -37,7 +37,7 @@ comments:
     comment: |
       Don: just came across a post from Seth Godin that teaches this same principle in a slightly different way: http://sethgodin.typepad.com/seths_blog/2012/10/waiting-for-all-the-facts.html
 ---
-<p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
+<p style="text-align:right;"><em>(A post in my “<a href="role-models.md">Role Models</a>” series…)</em></p>
 My huddle was not going well. I'd called a meeting to debate a tricky architectural problem with other senior engineers, and consensus was scarcer than working markers for our whiteboard. We were going round and round in circles.
 
 <a href="http://www.linkedin.com/pub/don-kleinschnitz/1/779/6a4" target="_blank">Don Kleinschnitz</a> walked in. It was our first interaction &mdash; he'd only been introduced to the company as our new CTO a few days before &mdash; and I wondered whether he'd help us get off the dime.

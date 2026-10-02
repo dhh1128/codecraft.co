@@ -11,7 +11,7 @@ redirect_from:
   - /2013/09/30/steve-jackson-lead-with-passion
 ---
 
-<p style="text-align:right;"><em>This is the inaugural post in <a href="/category/role-models/">a series that highlights people who've influenced me</a>.</em></p>
+<p style="text-align:right;"><em>This is the inaugural post in <a href="role-models.md">a series that highlights people who've influenced me</a>.</em></p>
 Almost everything useful that I've learned about software comes from observing great practitioners of the craft. It's my good fortune to know many.
 
 Sometimes I've learned from overt teaching &mdash; lunchtime training sessions, discussions around whiteboards, talks at conferences, emails and blog posts...

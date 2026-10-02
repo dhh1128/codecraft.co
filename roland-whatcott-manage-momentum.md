@@ -23,7 +23,7 @@ comments:
     comment: |
       Momentum is not equally important in all circumstances, but as a general rule, I think this is a very astute observation, Kim. Part of the balance you have to strike is to be able to recognize very early (often based on battle scars and/or intuition) when focusing on architectural questions is necessary, and when getting momentum on more humdrum stuff is a bigger benefit. (These two orientations are not necessary mutually exclusive, but they *do* compete to some degree.)
 ---
-<p style="text-align:right;"><em>(A post in my “<a href="/category/role-models/">Role Models</a>” series…)</em></p>
+<p style="text-align:right;"><em>(A post in my “<a href="role-models.md">Role Models</a>” series…)</em></p>
 <p style="text-align:left;">In late 2000, I joined a small team tasked with rewriting the core technology at PowerQuest. The old codebase &mdash; despite embodying a number of patent-pending concepts, and serving as the foundation for all our revenue &mdash; was fragile, rife with technical debt, and unfriendly to localization, new platforms, and other roadmap priorities.</p>
 
 
