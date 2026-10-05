@@ -64,7 +64,7 @@ Enter big data...
 
 Google's indexing of the internet is essentially a scaled-up, incredibly sophisticated, optimized version of traditional enterprise search. Last I heard, over 4 million (!) servers were behind www.google.com, servicing the queries that all of us feed it. It's impressive &mdash; miraculous, even &mdash; how effective the Google service (and Bing, and other competitors) has managed to be. I don't have major complaints about the user experience.
 
-But it's the wrong architecture for internet scale. We're paying way too much for power and hardware to keep these sites running; we need something radically different, which is why technologies like the one I helped productize at <a href="http://www.perfectsearchcorp.com" target="_blank">Perfect Search</a> are the wave of the future. Perfect Search can sustain query speeds that are hundreds or thousands of times faster than a traditional index; sooner or later, the world will figure out that that matters.
+But it's the wrong architecture for internet scale. We're paying way too much for power and hardware to keep these sites running; we need something radically different, which is why technologies like the one I helped productize at <a href="https://web.archive.org/web/20130209073431/http://www.perfectsearchcorp.com/" target="_blank">Perfect Search</a> are the wave of the future. Perfect Search can sustain query speeds that are hundreds or thousands of times faster than a traditional index; sooner or later, the world will figure out that that matters.
 
 ## Use better scaling assumptions
 
