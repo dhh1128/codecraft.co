@@ -48,6 +48,7 @@ DEAD_HOSTS = {
     "plus.google.com",          # Google+ shut down 2019; redirects to a blog post
     "sethgodin.typepad.com",    # Typepad blog retired; redirects to a parking page
     "code.google.com",          # Google Code shut down 2016
+    "scrummethodology.com",     # redirects every page to a digital.ai landing page
 }
 
 # Failures that may just mean "this host refuses bots".

@@ -27,4 +27,7 @@ exclude = [
   # 403 even to a browser user agent, so liveness can't be told from here
   "^https?://users\\.ece\\.utexas\\.edu/",
   "^https?://setiathome\\.berkeley\\.edu/",
+  # 200 to a browser, 403 to GitHub-hosted runners (datacenter IPs blocked)
+  "^https?://keen-insights\\.com/",
+  "^https?://www\\.sprez\\.com/",
 ]
