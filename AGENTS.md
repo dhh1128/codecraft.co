@@ -58,6 +58,7 @@ the work here is porting and adapting that proven system.
   **observe it pass** (green). Never write the implementation before seeing the
   test go red; never claim a task done before seeing the test go green. Report
   both observations explicitly. This applies to all milestone work from now on.
+- **Re-enable the link check when doing significant work.** The scheduled lychee workflow (`.github/workflows/link-check.yml`, configured by `lychee.toml`) is disabled on purpose: GitHub auto-disables scheduled workflows after 60 days without commits, and this repo is usually quiet longer than that, so a quarterly schedule mostly sat disabled anyway. Before or during any significant work on the repo, run `gh workflow enable link-check.yml` and `gh workflow run link-check.yml`, fix what it reports (`scripts/archive_dead_links.py` rewrites dead external links to Wayback snapshots), and disable it again with `gh workflow disable link-check.yml` when the work winds down.
 - **Preserve legacy SEO.** The `redirect_from` entries in frontmatter map old
   WordPress URLs to current pages; they carry the site's existing search equity.
   Never drop them.
@@ -137,7 +138,7 @@ _layouts/ _includes/ _config.yml  LEGACY Jekyll (reference only; no longer build
 assets/css/style.scss  LEGACY Jekyll stylesheet (superseded by zensical-extra.css)
 tools/               LEGACY one-shot migration scripts (1convert.py…). Do not
                      extend; new tooling goes in scripts/.
-.github/workflows/   CI (pytest + guards, scheduled link-check; publish workflow TBD)
+.github/workflows/   CI (pytest + guards), Zensical publish to Pages, link-check (disabled; see above)
 ROADMAP.md           the tickable project plan
 ```
 
