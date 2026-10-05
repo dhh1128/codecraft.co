@@ -24,4 +24,7 @@ exclude = [
   "^https?://([a-z]+\\.)?nytimes\\.com/",
   "^https?://dl\\.acm\\.org/",
   "^https?://([a-z]+\\.)?annualreviews\\.org/",
+  # 403 even to a browser user agent, so liveness can't be told from here
+  "^https?://users\\.ece\\.utexas\\.edu/",
+  "^https?://setiathome\\.berkeley\\.edu/",
 ]

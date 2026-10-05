@@ -100,6 +100,6 @@ I'm glossing over lots of details here. (At what point in the compilation proces
 
 One more example, just for fun. Suppose you want to guarantee that across a large object model, all object instances have IDs which are strings. These strings must consist of a single line of between 20 and 40 printable characters; they cannot be null. Anywhere that member variables are named "id", or parameters are used to set a member variable named "id", you want these semantics enforced by precondition:
 
-https://gist.github.com/dhh1128/1fc2a20ffb370ba39
+https://gist.github.com/dhh1128/1fc2a20ffb370ba39327
 
 In my <a href="mountains-molehills-and-markedness.md">next post</a>, I'll explore a bunch of additional examples, and I'll cover more details about how these marks work their magic.

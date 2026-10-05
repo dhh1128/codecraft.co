@@ -58,7 +58,7 @@ Nonetheless, the worldview behind the "rockstar" label is naive and dangerous, a
 <dt><strong>1. Making a <a href="features-are-not-chunks-of-code.md" title="Features are not chunks of code">more than writing clever code</a>.</strong></dt>
 <dd>Understanding<a href="good-code-is-optimized.md" title="Good Code Is Optimized">need of your business to make a profit</a> is usually a good idea, too. Perhaps the vast residual work is what Thomas Edison had in mind when he said,
 <blockquote>Genius is one percent inspiration, ninety nine percent perspiration.</blockquote></dd>
-<dt><strong>2. The best developers are superb <a href="http://www.hanselman.com/b/TheMythOfTheRockstarProgrammer.aspx" target="_blank">team members</a>, not prima donnas.</strong></dt>
+<dt><strong>2. The best developers are superb team members, not prima donnas.</strong></dt>
 <dd>I don't care if you're in a startup and you can only afford to hire oneveloper &mdash; if you think that developer can ignore teamwork, you're foolish. On day 1, even a one-person dev phenom has to work with those who test or document or support or deploy or sell. And if your startup has staying power, the day will come when Codezilla has to work with a contractor, or an understudy, or a team in Johannesburg or Timbuktu that will take over or integrate with what they've built.</dd>
 <dt><strong>3. If nobody understands your code, <a href="why-mental-models-matter.md" title="Why Mental Models Matter">you've failed</a>.</strong></dt>
 <dd>How can there be a version 2.0 if there's <a href="comments-on-comments.md" title="// Comments on Comments">build upon your work</a>.</dd>

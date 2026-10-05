@@ -1178,14 +1178,6 @@ images:
   local_match: screen-shot-2014-05-15-at-1-47-38-am.png
   alt: 'Religious wars aren''t pretty. '
   disposition: own
-- essay: why-you-should-be-proficient-in-a-tool-like-vim-or-emacs.md
-  type: link
-  kind: external
-  host: uploads0.wikipaintings.org
-  src: http://uploads0.wikipaintings.org/images/gustave-dore/the-army-of-the-second-crusade-find-the-remains-of-the-soldiers-of-the-first-crusade-1877.jpg
-  local_match: ''
-  alt: ''
-  disposition: ''
 - essay: why-you-should-use-an-ide-instead-of-vim-or-emacs.md
   type: img
   kind: external
