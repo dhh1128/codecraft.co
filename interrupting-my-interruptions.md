@@ -38,7 +38,7 @@ comments:
   - author: Daniel Hardman
     date: 2013-01-28 21:37:12
     comment: |
-      Just ran into another article that says much the same thing: http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html
+      Just ran into another article that says much the same thing: https://web.archive.org/web/20130309211929/http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html
   - author: Daniel Hardman
     date: 2013-02-06 09:43:50
     comment: |
@@ -48,7 +48,7 @@ comments:
   - author: Daniel Hardman
     date: 2013-02-08 13:58:46
     comment: |
-      Here's another article with a similar theme: http://architects.dzone.com/articles/four-hours-concentration
+      Here's another article with a similar theme: https://web.archive.org/web/20130211064538/http://architects.dzone.com/articles/four-hours-concentration
 ---
 Tonight I was just settling down for a ponder on some personal stuff when I noticed an email from my brilliant brother-in-law (hi, Stephen!), recommending <a href="http://blog.ninlabs.com/2013/01/programmer-interrupted/" target="_blank">an article</a> about the cost of interrupting programmers. Half an hour later, I'm blogging about it. Yes, I see the irony in the read, the blog, and the shout-out, but I just can't help it.
 

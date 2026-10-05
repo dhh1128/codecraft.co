@@ -124,7 +124,7 @@ Most of the failures we fear are not all that catastrophic. I'm still kicking.
 
 ## The moral, part 3
 
-It's worth noting that I have no regrets about my "failure" where I took a risk. It didn't work out. Like Edison, I now know another way not to invent a lightbulb. I'm good with that. As <a title="hierarchy of failures" href="http://sethgodin.typepad.com/seths_blog/2013/05/a-hierarchy-of-failure-from-brave-to-shameful.html" target="_blank">Seth Godin says</a>, even mistakes can pay off in the long run.
+It's worth noting that I have no regrets about my "failure" where I took a risk. It didn't work out. Like Edison, I now know another way not to invent a lightbulb. I'm good with that. As <a title="hierarchy of failures" href="https://web.archive.org/web/20130608003234/http://sethgodin.typepad.com/seths_blog/2013/05/a-hierarchy-of-failure-from-brave-to-shameful.html" target="_blank">Seth Godin says</a>, even mistakes can pay off in the long run.
 
 On the other hand, I still bore anybody who'll listen, with my harangues about head-in-the-sand thinking in the backup market.
 

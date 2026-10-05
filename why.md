@@ -60,7 +60,7 @@ comments:
       whoah this weblog is fantastic i like studying your articles.
       Keep up the great work!
 ---
-Recently I've been digesting <a href="http://www.startwithwhy.com/Read.aspx"><em>Start With Why</em></a>, by <a class="zem_slink" title="Simon Sinek" href="http://en.wikipedia.org/wiki/Simon_Sinek" target="_blank" rel="wikipedia">Simon Sinek</a> (Another nice find, <a href="http://dld.me" target="_blank">Trev</a>!) For an overview, watch his <a href="http://youtu.be/qp0HIF3SfI4" target="_blank">TED talk</a>.
+Recently I've been digesting <a href="https://web.archive.org/web/20130305124129/http://www.startwithwhy.com/Read.aspx"><em>Start With Why</em></a>, by <a class="zem_slink" title="Simon Sinek" href="http://en.wikipedia.org/wiki/Simon_Sinek" target="_blank" rel="wikipedia">Simon Sinek</a> (Another nice find, <a href="http://dld.me" target="_blank">Trev</a>!) For an overview, watch his <a href="http://youtu.be/qp0HIF3SfI4" target="_blank">TED talk</a>.
 
 <figure><img alt="" src="assets/maslow-s-hierarchy-of-needs.png" width="320" height="209" /><figcaption>Maslow's hierarchy of needs. A person's "why" can derive from any of these levels, but I think I'll be happiest if I can map mine to the top of the pyramid.</figcaption></figure>
 

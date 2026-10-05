@@ -52,7 +52,7 @@ comments:
       
       http://en.wikipedia.org/wiki/Doctrine_of_the_Golden_Mean
 ---
-<a href="http://alistair.cockburn.us/Oath+of+Non-Allegiance"><img src="assets/oath.jpg" /></a>
+<a href="https://web.archive.org/web/20140329201123/http://alistair.cockburn.us/Oath+of+Non-Allegiance"><img src="assets/oath.jpg" /></a>
 
 The other day I was on <a href="http://genehughson.wordpress.com/" target="_blank">Gene Hughson's blog</a> (he's a smart guy, btw; I recommend a visit), and I noticed a badge that said that he had signed "The Oath of Non-Allegiance."
 

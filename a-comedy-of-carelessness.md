@@ -30,7 +30,7 @@ comments:
   - author: lkafle
     date: 2013-12-10 02:19:36
     comment: |
-      Reblogged this on <a href="a-comedy-of-carelessness.md" rel="nofollow">healthcare software solutions lava kafle kathmandu nepal lava prasad kafle lava kafle on google+ <a href="https://plus.google.com/102726194262702292606" rel="publisher">Google+</a></a>.
+      Reblogged this on <a href="a-comedy-of-carelessness.md" rel="nofollow">healthcare software solutions lava kafle kathmandu nepal lava prasad kafle lava kafle on google+ <a href="https://web.archive.org/web/20150625195440/https://plus.google.com/102726194262702292606" rel="publisher">Google+</a></a>.
   - author: doug thompson
     date: 2013-12-10 13:23:06
     comment: |

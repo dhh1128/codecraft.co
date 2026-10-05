@@ -34,7 +34,7 @@ comments:
     comment: |
       A professional kitchen needs to be cleaned each and every night, with an occasional deep clean where one pulls out all of the equipment and cleans everywhere. If its not done, Health and Safety will eventually come by close it all down.
       
-      The suggested approach reminds me of Old Man Yu (http://ancientchinesestories.com/2009/04/04/ancient-chinese-stories-the-tale-of-old-man-yu-gong-and-the-mountain/). So, the question is how does one combine Eastern long-term thinking with the Western reliance on quarterly earnings?
+      The suggested approach reminds me of Old Man Yu (https://web.archive.org/web/20130623012854/http://ancientchinesestories.com/2009/04/04/ancient-chinese-stories-the-tale-of-old-man-yu-gong-and-the-mountain/). So, the question is how does one combine Eastern long-term thinking with the Western reliance on quarterly earnings?
   - author: Daniel
     date: 2012-12-10 13:49:50
     comment: |
@@ -58,7 +58,7 @@ The average squeezed rat sank after 30 minutes.
 
 In the 1960s and 1970s, <a class="zem_slink" title="Martin Seligman" href="http://en.wikipedia.org/wiki/Martin_Seligman" target="_blank" rel="wikipedia">Martin Seligman</a> became interested in this phenomenon &mdash; he called it "<a class="zem_slink" title="Learned helplessness" href="http://en.wikipedia.org/wiki/Learned_helplessness" target="_blank" rel="wikipedia">learned helplessness</a>" &mdash; and he was able to trigger similar "giving up" behavior in dogs and other animals. <a href="http://www.annualreviews.org/doi/abs/10.1146/annurev.me.23.020172.002203?journalCode=med" target="_blank">He theorized</a> that human depression is a reaction to learned helplessness in the face of emotional or mental challenges against which we repeatedly make zero headway. <a href="http://www.hsu.edu/uploadedFiles/Faculty/Academic_Forum/2000-1/2000-1afHelplessness%20and%20Spatial%20Memory%20in%20Swimming%20Rats.pdf" target="_blank">Other researchers showed</a> that not only did squeezed rats stop swimming faster, they also lost some of their spatial reasoning and memory abilities.
 
-Hopefully, this experiment disturbs you on many levels. Even putting aside ethical questions, the implications are enough to make your skin crawl. At least one pundit has <a href="http://www.washingtonmonthly.com/archives/individual/2009_04/017869.php" target="_blank">connected the rat experiment with waterboarding at Guantanamo</a>. Probably there are interesting insights about addiction, interpersonal relationships, bullying, politics, and many other social issues to be gleaned as well.
+Hopefully, this experiment disturbs you on many levels. Even putting aside ethical questions, the implications are enough to make your skin crawl. At least one pundit has <a href="https://web.archive.org/web/20130314041723/http://www.washingtonmonthly.com/archives/individual/2009_04/017869.php" target="_blank">connected the rat experiment with waterboarding at Guantanamo</a>. Probably there are interesting insights about addiction, interpersonal relationships, bullying, politics, and many other social issues to be gleaned as well.
 
 I see interesting connections to tech debt.
 

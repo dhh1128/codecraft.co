@@ -22,7 +22,7 @@ comments:
       
       That said, I'd rather have two or three useful numbers than just a vague intention. This is why it was so smart of you to pick a specific target (e.g., "no modules > 10k lines") and work to hit it in your moab work.
 ---
-Friday morning I was at a seminar taught by <a href="https://www.linkedin.com/in/jhtaylorjason" target="_blank">Jason Taylor</a>, CTO at <a href="http://www.allegiance.com" target="_blank">Allegiance</a>. We were discussing how dev team <a href="http://en.wikipedia.org/wiki/Velocity_(software_development)">velocity</a> and product quality can compete for our attention; sometimes we trade one for the other. Jason mentioned that he's a fan of competing metrics, and some neurons connected in my brain.
+Friday morning I was at a seminar taught by <a href="https://www.linkedin.com/in/jhtaylorjason" target="_blank">Jason Taylor</a>, CTO at <a href="https://web.archive.org/web/20121117033702/http://www.allegiance.com/" target="_blank">Allegiance</a>. We were discussing how dev team <a href="http://en.wikipedia.org/wiki/Velocity_(software_development)">velocity</a> and product quality can compete for our attention; sometimes we trade one for the other. Jason mentioned that he's a fan of competing metrics, and some neurons connected in my brain.
 
 <figure><img alt="" src="assets/plumbline-bob.png" /><figcaption>Plumb line suspended from the center point of multiple balancing legs.</figcaption></figure>
 
@@ -30,7 +30,7 @@ I'm a big believer in measurement. As the old adage goes, you can't improve what
 
 I'm also a big believer in balance, as I've written about before. <a title="Good Code Is Balanced" href="good-code-is-balanced.md" target="_blank">Good software balances many considerations</a>.
 
-Besides these existing predispositions, I'd recently read a <a href="http://sethgodin.typepad.com/seths_blog/2012/11/avoiding-the-false-proxy-trap.html" target="_blank">blog post by Seth Godin</a>, cautioning about the need to choose wisely what we measure. And I've been digesting <em>The Fifth Discipline</em>, by Peter Senge, which advocates wholistic, <a class="zem_slink" title="Systemics" href="http://en.wikipedia.org/wiki/Systemics" target="_blank" rel="wikipedia">systemic thinking</a>, where we recognize interrelationships that go well beyond simplistic, direct cause-and-effect.
+Besides these existing predispositions, I'd recently read a <a href="https://web.archive.org/web/20121112032633/http://sethgodin.typepad.com/seths_blog/2012/11/avoiding-the-false-proxy-trap.html" target="_blank">blog post by Seth Godin</a>, cautioning about the need to choose wisely what we measure. And I've been digesting <em>The Fifth Discipline</em>, by Peter Senge, which advocates wholistic, <a class="zem_slink" title="Systemics" href="http://en.wikipedia.org/wiki/Systemics" target="_blank" rel="wikipedia">systemic thinking</a>, where we recognize interrelationships that go well beyond simplistic, direct cause-and-effect.
 
 All of these mental ingredients crystallized when Jason made his comment about competing metrics.
 

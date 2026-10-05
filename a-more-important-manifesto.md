@@ -29,7 +29,7 @@ I used to think that the "Objective" section of a résumé was fluff &mdash; a p
 
 Blah, blah, blah.
 
-Theoretically, this stuff helps you get jobs, but as someone who writes a lot, my drivel-o-meter pegs at such verbiage. Usually, it means about as much as random business buzz word generators ([1](https://www.atrixnet.com/bs-generator.html), [2](https://sweary.com/business-buzzword-generator/)).
+Theoretically, this stuff helps you get jobs, but as someone who writes a lot, my drivel-o-meter pegs at such verbiage. Usually, it means about as much as random business buzz word generators ([1](https://web.archive.org/web/20150207181514/https://www.atrixnet.com/bs-generator.html), [2](https://sweary.com/business-buzzword-generator/)).
 
 <figure><img src="assets/boring-business.jpg" /><figcaption>image credit: Midjourney</figcaption></figure>
 
@@ -63,14 +63,14 @@ Of course I was being idealistic. I get <a title="Earned Pragmatism" href="earne
 
 Which brings me back to the manifesto.
 
-My friend Trev Harmon recently put some wonderful ideas into words, and he called them the <a title="Conscious Business Ethics Manifesto" href="http://trevharmon.com/standard-of-business/" target="_blank">"Conscious Business Ethics Manifesto"</a>. It's a synthesis of the principles that I first heard him advocate over lunches and around conference tables as I rewrote my resume, and I commend it to you. Among other things, it espouses the idea that we need to add true value to the world when we sell a product or service, that we need to be honest in intent as well as in technicality, and that we need to find a way to keep money, profit, and egos in their proper place. Business is not separable from the rest of life, and hopefully we all value other people, and our relationships to them, more than we value a quick buck or technical dazzle.
+My friend Trev Harmon recently put some wonderful ideas into words, and he called them the <a title="Conscious Business Ethics Manifesto" href="https://web.archive.org/web/20150109174840/http://trevharmon.com/standard-of-business/" target="_blank">"Conscious Business Ethics Manifesto"</a>. It's a synthesis of the principles that I first heard him advocate over lunches and around conference tables as I rewrote my resume, and I commend it to you. Among other things, it espouses the idea that we need to add true value to the world when we sell a product or service, that we need to be honest in intent as well as in technicality, and that we need to find a way to keep money, profit, and egos in their proper place. Business is not separable from the rest of life, and hopefully we all value other people, and our relationships to them, more than we value a quick buck or technical dazzle.
 
-It also highlights the freedom that each of us has to choose how we'll approach our careers. We don't have to wait for the right boss, or the right company. As Seth Godin would say, we can <a href="http://sethgodin.typepad.com/seths_blog/2011/03/reject-the-tyranny-of-being-picked-pick-yourself.html" target="_blank">pick ourselves</a> instead of waiting for someone to grace us with a perfect opportunity.
+It also highlights the freedom that each of us has to choose how we'll approach our careers. We don't have to wait for the right boss, or the right company. As Seth Godin would say, we can <a href="https://web.archive.org/web/20150213005853/http://sethgodin.typepad.com/seths_blog/2011/03/reject-the-tyranny-of-being-picked-pick-yourself.html" target="_blank">pick ourselves</a> instead of waiting for someone to grace us with a perfect opportunity.
 
 The manifesto articulates many of the feelings that drove me to change the objective on my resume, and I signed it as soon as Trev put it up. I've printed a copy and displayed it at my desk.
 
 As I said before, the idealism I put into my résumé may not be for everyone &mdash; but I think the straightforward goodness in Trev's manifesto always applies.
 
-I hope you'll read, <a title="Sign the Conscious Business Ethics Manifesto" href="http://trevharmon.com/conscious-business-ethics/sign-the-manifesto/" target="_blank">sign</a>, and talk up the manifesto as well.
+I hope you'll read, <a title="Sign the Conscious Business Ethics Manifesto" href="https://web.archive.org/web/20150109174855/http://trevharmon.com/conscious-business-ethics/sign-the-manifesto/" target="_blank">sign</a>, and talk up the manifesto as well.
 
 Let's promote some awesomeness together.

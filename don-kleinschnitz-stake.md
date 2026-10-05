@@ -35,7 +35,7 @@ comments:
   - author: Daniel
     date: 2012-10-05 07:02:44
     comment: |
-      Don: just came across a post from Seth Godin that teaches this same principle in a slightly different way: http://sethgodin.typepad.com/seths_blog/2012/10/waiting-for-all-the-facts.html
+      Don: just came across a post from Seth Godin that teaches this same principle in a slightly different way: https://web.archive.org/web/20121007044548/http://sethgodin.typepad.com/seths_blog/2012/10/waiting-for-all-the-facts.html
 ---
 <p style="text-align:right;"><em>(A post in my “<a href="role-models.md">Role Models</a>” series…)</em></p>
 My huddle was not going well. I'd called a meeting to debate a tricky architectural problem with other senior engineers, and consensus was scarcer than working markers for our whiteboard. We were going round and round in circles.

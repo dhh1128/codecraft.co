@@ -83,7 +83,7 @@ Next time you're fixing a bug, take an extra 5 minutes to ument the function bet
 
 In the spirit of <a href="six-learning-tips-for-tech-folks.md">my post about teaching to accelerate your own learning</a>, talk at what you're doing, and why. I remembered Grandma's comment for 35 years; you'll make an impression on others.
 
-Don't accept anyone's claim that they don't have time to do things right, without a gentle and <a title="Humility" href="humility.md">humble</a> push-back. (As Seth Godin says: <a href="http://sethgodin.typepad.com/seths_blog/2012/09/doing-it-in-a-hurry-almost-always-takes-longer.html" target="_blank">haraka haraka, haina baraka</a>.)
+Don't accept anyone's claim that they don't have time to do things right, without a gentle and <a title="Humility" href="humility.md">humble</a> push-back. (As Seth Godin says: <a href="https://web.archive.org/web/20130126152035/http://sethgodin.typepad.com/seths_blog/2012/09/doing-it-in-a-hurry-almost-always-takes-longer.html" target="_blank">haraka haraka, haina baraka</a>.)
 
 Next time a behavior of the code puzzles you, write a unit test to understand it.
 

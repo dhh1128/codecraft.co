@@ -19,7 +19,7 @@ The reason I'm feeling grumpy is that I've had another in a long, long line of c
 
 My point today is not about inlines, though. It's not even about performance dogma. Rather, it's about opacity.
 
-The optimization choices that a compiler makes about inlining and sundry other issues are <em>opaque</em> to most coders. And I claim that it is this fact &mdash; not irrational zealots &mdash; at the heart of a lot of holy wars, debates, and FUD about optimization. The classic paper by <a href="http://www.drdobbs.com/cpp/c-and-the-perils-of-double-checked-locki/184405726" target="_blank">Meyers and Alexandrescu about how compiler optimization defeats the intent of the double-checked locking pattern</a> provides eloquent examples of this opacity. If you haven't read it, I encourage you to do so.
+The optimization choices that a compiler makes about inlining and sundry other issues are <em>opaque</em> to most coders. And I claim that it is this fact &mdash; not irrational zealots &mdash; at the heart of a lot of holy wars, debates, and FUD about optimization. The classic paper by <a href="https://web.archive.org/web/20141018170433/http://www.drdobbs.com/cpp/c-and-the-perils-of-double-checked-locki/184405726" target="_blank">Meyers and Alexandrescu about how compiler optimization defeats the intent of the double-checked locking pattern</a> provides eloquent examples of this opacity. If you haven't read it, I encourage you to do so.
 
 We should fix this.
 

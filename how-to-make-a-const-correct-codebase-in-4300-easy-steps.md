@@ -41,7 +41,7 @@ comments:
       And it turns out that Wsuggest-attribute is already implemented in gcc (http://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html).
       Sadly, it's only about functions but not their arguments.
       
-      Speaking of clang, there is a proposal http://lists.cs.uiuc.edu/pipermail/cfe-dev/2013-February/027816.html but I can't find any results of it.
+      Speaking of clang, there is a proposal https://web.archive.org/web/20140725090419/http://lists.cs.uiuc.edu/pipermail/cfe-dev/2013-February/027816.html but I can't find any results of it.
   - author: Daniel Hardman
     date: 2014-04-27 20:10:21
     comment: |
@@ -51,7 +51,7 @@ One of the codebases that I work on is theoretically C++, but if you peer under 
 
 <figure><img src="assets/const-locked-document.png" alt="" /></figure>
 
-I am not a C++ bigot; I first began to do serious, professional coding in C, not long after this codebase got its start. I understand the C-isms pretty well. And although I think Linus got carried away in <a title="linus rant c++" href="http://article.gmane.org/gmane.comp.version-control.git/57918" target="_blank">his rant about the ugliness of C++</a>, I can appreciate the ways that lean C sometimes makes its descendant look ugly and inefficient. (Though C++11 and 14 are making this less true...)
+I am not a C++ bigot; I first began to do serious, professional coding in C, not long after this codebase got its start. I understand the C-isms pretty well. And although I think Linus got carried away in <a title="linus rant c++" href="https://web.archive.org/web/20140926181544/http://article.gmane.org/gmane.comp.version-control.git/57918" target="_blank">his rant about the ugliness of C++</a>, I can appreciate the ways that lean C sometimes makes its descendant look ugly and inefficient. (Though C++11 and 14 are making this less true...)
 
 This means that I don't consider the C-like style of this particular codebase a fatal flaw, in and of itself.
 

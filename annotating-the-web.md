@@ -8,7 +8,7 @@ redirect_from:
   - /2008/09/05/annotating-the-web
 ---
 
-Bookmarks just remember a location. That's kind of nifty, but even with all the power of <a target="del" href="http://del.icio.us">del.icio.us</a> or a similar service, it's not something that keeps me awake at night with enthusiasm.
+Bookmarks just remember a location. That's kind of nifty, but even with all the power of <a target="del" href="https://web.archive.org/web/20090909085720/http://del.icio.us/">del.icio.us</a> or a similar service, it's not something that keeps me awake at night with enthusiasm.
 
 Why don't we move beyond simple bookmarks? Let's let people remember what they were thinking when they read a particular piece of content. Let's figure out a way to annotate web pages so that if you come back to that same page, your annotations show up again.
 

@@ -48,7 +48,7 @@ comments:
     comment: |
       Hi Daniel,
       
-      The iron triangle has been proclaimed dead years ago. See: http://www.pmhut.com/the-death-of-the-project-management-triangle
+      The iron triangle has been proclaimed dead years ago. See: https://web.archive.org/web/20130713143726/http://www.pmhut.com/the-death-of-the-project-management-triangle
       
       It was killed by PMBOK 4.
   - author: Daniel Hardman

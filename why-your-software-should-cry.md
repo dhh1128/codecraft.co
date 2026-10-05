@@ -94,7 +94,7 @@ Fail2Ban is a nifty little utility that monitors logs of sshd, httpd, and simila
 
 The <a title="Don’t forget the circuit breakers" href="dont-forget-the-circuit-breakers.md">circuit breaker pattern</a> that I described a while back is another example of reacting to stimuli.
 
-<a href="http://techtripper.com/fijibot-is-an-autonomous-solar-powered-robot-that-lives-by-finding-light-on-its-own/" target="_blank">Fijibot</a> is a colittle machine that fights hunger pains by parking itself in the light to recharge batteries.
+<a href="https://web.archive.org/web/20140305162125/http://techtripper.com/fijibot-is-an-autonomous-solar-powered-robot-that-lives-by-finding-light-on-its-own/" target="_blank">Fijibot</a> is a colittle machine that fights hunger pains by parking itself in the light to recharge batteries.
 
 Unfortunately, examples like this are few and far between. It's hard enough to <a title="Good Code Plans for Problems" href="good-code-plans-for-problems.md">bake a rational error-handling strategy into software</a>, let alone make it sophisticated enough to monitor its environment and take proactive steps to avoid problems.
 

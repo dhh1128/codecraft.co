@@ -13,6 +13,10 @@ exclude_path = ["^archive/", "^build/", "^\\.venv", "(^|/)\\.worktrees/"]
 # live page from a dead one. Keep this list to hosts verified to block bots;
 # a dead host (e.g. sethgodin.typepad.com, plus.google.com) does NOT belong here.
 exclude = [
+  # Wayback snapshots written by scripts/archive_dead_links.py were verified
+  # (a 200 capture) when written and do not rot; the archive also rate-limits
+  # hard enough that checking ~60 of them each run would make the job flaky.
+  "^https?://web\\.archive\\.org/web/",
   "^https?://([a-z]+\\.)?linkedin\\.com/",
   "^https?://([a-z]+\\.)?stackoverflow\\.com/",
   "^https?://([a-z]+\\.)?stackexchange\\.com/",

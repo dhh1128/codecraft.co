@@ -101,7 +101,7 @@ Years ago, thieves were raiding high-end clothing stores. They'd run in, sweep a
 
 Finally someone suggested turning every other hanger top in an opposite direction. Half the hangers would lift off to the left, half to the right. Next time the thieves came in, they discovered that it was impossible to pull an armload of clothes off the rack quickly. Problem solved.
 
-And then there's the story of the <a href="http://www.thesimplest.net/stories/story-empty-soap-box" target="_blank">factory that went to great lengths</a> to prevent the 1-in-a-thousand box that exited the assembly line empty. They built xray machines to check the boxes, stationed someone to monitor the xray screen continuously... I bet they felt foolish when someone bought a cheap fan and simply blew the empty boxes off the conveyor belt...
+And then there's the story of the <a href="https://web.archive.org/web/20151018064753/http://www.thesimplest.net/stories/story-empty-soap-box" target="_blank">factory that went to great lengths</a> to prevent the 1-in-a-thousand box that exited the assembly line empty. They built xray machines to check the boxes, stationed someone to monitor the xray screen continuously... I bet they felt foolish when someone bought a cheap fan and simply blew the empty boxes off the conveyor belt...
 
 ## 7. ???
 
