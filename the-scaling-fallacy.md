@@ -36,11 +36,11 @@ comments:
 
 Sorry, Charlie. No dice.
 
+<img src="assets/scaling-ant-leaf.png" />
+
 One of my favorite books, <a href="http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879" target="_blank">Universal Principles of Design</a>, includes a fascinating discussion of our tendency to succumb to scaling fallacies. The book makes its case using the strength of ants and winged flight as examples.
 
 Have you ever heard that an ant can lift many times its own weight &mdash; and that if that if one were the size of a human, it could hoist a car over its head with ease? The first part of that assertion is true, but the conclusion folks draw is completely bogus. Exoskeletons cease to be a viable structure on which to anchor muscle and tissue at sizes much smaller than your average grown-up; the <a class="zem_slink" title="Specific strength" href="http://en.wikipedia.org/wiki/Specific_strength" target="_blank" rel="wikipedia">strength-to-weight ratio</a> just isn't good enough. Chitin is only about as tough as fingernails.
-
-<figure><img alt="" src="assets/scaling-ant-leaf.png" /><figcaption>Tough little bugger &mdash; but not an olympic champion at human scale.</figcaption></figure>
 
 I'd long understood the flaws in the big-ant-lifting-cars idea, but the flight example from the book was virgin territory for me.
 
