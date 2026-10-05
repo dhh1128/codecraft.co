@@ -113,6 +113,6 @@ I don't think this lack-of-a-big-picture problem can be solved with a single sil
 <ul>
 	<li>Imagine that you could create classes without declaring their methods, and then start a debugger session where you (and teammates) could role play different class interactions to model what you expect to have happen &mdash; and that as you role played, the IDE recorded your choices as new stubs, methods, and workflows, so that by "playing" the system, you gradually build it. (See my <a title="role-play centered design" href="../../../?s=rpcd">posts about role-play centered design</a> for more on this.)</li>
 </ul>
-I have a few other ideas about how progressive disclosure might work in a <a title="better programming language" href="../../../category/better-programming-language/" target="_blank">better programming language</a>, but I think I'll stop there. I'm very curious to see if other smart people out there have good suggestions of their own.
+I have a few other ideas about how progressive disclosure might work in a better programming language, but I think I'll stop there. I'm very curious to see if other smart people out there have good suggestions of their own.
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Tell me what you think would make it easier to perceive the rough behavior and structure of a big, complicated codebase in more efficient ways.</span></em></p>

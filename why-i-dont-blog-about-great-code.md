@@ -60,7 +60,7 @@ there were rats and lizards who listened
 … and the only listeners left now
 … are … the rats … and the lizards.</p>
 <p style="margin-left:6em;font-style:italic;">(from "Four Preludes on Playthings of the Wind")</p>
-I'd summarize the principle like this: Don't take your code too seriously. Write good stuff that solves the problems that clearly matter, and allow time and experience and the contributions of others to influence you. <em>You</em> are what should be great, not the code so much. Maybe this is another way of agreeing with Jesse Harris that code &mdash; most of it, at least &mdash; <a title="Code Isn’t Art" href="code-isnt-art.md" target="_blank">isn't best thought of as art</a>...
+I'd summarize the principle like this: Don't take your code too seriously. Write good stuff that solves the problems that clearly matter, and allow time and experience and the contributions of others to influence you. <em>You</em> are what should be great, not the code so much. Maybe this is another way of agreeing with Jesse Harris that code &mdash; most of it, at least &mdash; isn't best thought of as art...
 <p style="padding-left:30px;text-align:center;"><strong><span style="color:#000080;">Action Item</span></strong></p>
 <p style="padding-left:30px;"><em><span style="color:#000080;">Identify something that you've overdesigned or overbuilt. Try to quantify the opportunity cost.</span></em></p>
 
